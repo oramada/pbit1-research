@@ -1,0 +1,11 @@
+{
+  "source_sha256": "84dd2487e38e6446bc039b31bf29fb903b2095cb87e6cae816e4887ba06584a4",
+  "mapping_sha256": "1250b109bfb56c78e49b5e35ce08c53d64499068d7eb08bdefed42f5bf216911",
+  "prepared_sha256": "f1902e05de3f9ea8d3cbb693ef32b3ca890b4d0853383a56bab479b1ded5f8b3",
+  "reviews": 64,
+  "batch": 2,
+  "max_tokens": 256,
+  "precision": "BF16-rounded weights, FP32 CPU arithmetic",
+  "selector": "Minimize conditional sum of independent output variances using clean input second moments; embedding weighted by nonpadding lookup frequencies. Ignores downstream loss sensitivity.",
+  "scope": "Training-only activation/moment/range diagnostics. No labels consumed, no pbit draws, no task-quality or heldout claim. No GPU."
+}

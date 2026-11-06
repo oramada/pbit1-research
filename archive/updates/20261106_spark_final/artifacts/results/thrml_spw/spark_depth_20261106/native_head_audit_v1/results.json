@@ -1,0 +1,19 @@
+{
+  "status": "passed_40_saved_trajectory_checks_and_two_exact_native_replays",
+  "source_sha256": "c4dce4cb95d1cf5ec1eeaff4730deabf4a47f38e639227981eae670e0261413b",
+  "result_sha256": "a802456248b5240827dddfad5424f6725e2e403e663eff78864ba6e00d6cc1a2",
+  "checked_conditions": 40,
+  "replayed": [
+    {
+      "layout": "storage_flat",
+      "seed": 2026110701,
+      "states": 50331648
+    },
+    {
+      "layout": "transposed_matrix",
+      "seed": 2026110701,
+      "states": 50331648
+    }
+  ],
+  "scope": "Isolated real8x768outputweightbank and8clean hiddenvectors fromtrainingdiagnostics. Samefinitecontrolfields; noparameterfitting. Fiveindependentnativechains perlayout. Doesnotconstitutefullmodelnativevalidation."
+}

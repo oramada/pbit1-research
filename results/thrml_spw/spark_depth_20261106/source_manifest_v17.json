@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "source": "research/thrml_spw/spark_depth/archive_spark_core_v1.py",
+      "sha256": "bb47fd7b1f4bcfc510af1c0a72b00255743f64baf5ba84fd7b4a1a3388ebeb25",
+      "snapshot": "results/thrml_spw/source_snapshots/bb47fd7b1f4bcfc510af1c0a72b00255743f64baf5ba84fd7b4a1a3388ebeb25.py"
+    },
+    {
+      "source": "research/thrml_spw/spark_depth/gpt2_cumulative_v1.py",
+      "sha256": "cfa749f0881327ae2991fe51581ea51cc3d7c7bd9023e03f024e99cb7f81fdd0",
+      "snapshot": "results/thrml_spw/source_snapshots/cfa749f0881327ae2991fe51581ea51cc3d7c7bd9023e03f024e99cb7f81fdd0.py"
+    },
+    {
+      "source": "research/thrml_spw/spark_depth/audit_gpt2_cumulative_v1.py",
+      "sha256": "2b816bf60cd4e444f004819e4868b9a90595fe9ec26bd4bff0fbff8ffa32efe7",
+      "snapshot": "results/thrml_spw/source_snapshots/2b816bf60cd4e444f004819e4868b9a90595fe9ec26bd4bff0fbff8ffa32efe7.py"
+    },
+    {
+      "source": "research/thrml_spw/spark_depth/plot_gpt2_cumulative_v1.py",
+      "sha256": "d5faf38335e307b50383a71cbf10338b116d4d5f5a82ac2ec1d84f92e970739d",
+      "snapshot": "results/thrml_spw/source_snapshots/d5faf38335e307b50383a71cbf10338b116d4d5f5a82ac2ec1d84f92e970739d.py"
+    }
+  ]
+}

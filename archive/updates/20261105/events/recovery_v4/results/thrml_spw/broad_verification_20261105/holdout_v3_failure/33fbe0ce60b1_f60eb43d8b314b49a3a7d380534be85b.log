@@ -1,0 +1,12 @@
+Loading weights:   0%|          | 0/286 [00:00<?, ?it/s]Loading weights:  28%|██▊       | 79/286 [00:00<00:00, 668.45it/s]Loading weights: 100%|██████████| 286/286 [00:00<00:00, 1968.37it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/__modal/volumes/vo-xPupdD37HndFLHDMPewQva/research/thrml_spw/lfm3/holdout_native_case_v3.py", line 341, in <module>
+    main()
+  File "/__modal/volumes/vo-xPupdD37HndFLHDMPewQva/research/thrml_spw/lfm3/holdout_native_case_v3.py", line 303, in main
+    store.commit(batch, mode, {'output':{'path':str(path.relative_to(out)),'sha256':output_item['sha256']},
+                                                    ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/pathlib.py", line 682, in relative_to
+    raise ValueError(f"{str(self)!r} is not in the subpath of {str(other)!r}")
+ValueError: '/__modal/volumes/vo-xPupdD37HndFLHDMPewQva/results/thrml_spw/lfm3_1p7b/holdout_native_v3/202611150/attempts/95d4dcd2599a40c0814e87f201585ccf/batch0_BF16.npz' is not in the subpath of 'results/thrml_spw/lfm3_1p7b/holdout_native_v3/202611150'

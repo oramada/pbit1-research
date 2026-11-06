@@ -1,0 +1,40 @@
+{
+  "status": "256_loss_arrays_15_variable_T_points_and_paired_statistics_verified",
+  "source_sha256": "bd0936115d53da06bf2eb016b7c5c5bf4c0bc73ec798e339a90a4feba459a24b",
+  "result_sha256": "92504230e3813e50a758468a15529b561f696b23cad43e88f9e014b96ff3eb31",
+  "calibration": {
+    "uniform32768": {
+      "ratio_to_CPU_baseline": 1.0076211405975746,
+      "paired_ratio_to_uniform": 1.0,
+      "paired_MC95_ratio_interval": [
+        1.0,
+        1.0
+      ],
+      "observation_cost_ratio": 1.0
+    },
+    "existing_directions_vectorG16": {
+      "ratio_to_CPU_baseline": 1.0079272112920314,
+      "paired_ratio_to_uniform": 1.0003037557293364,
+      "paired_MC95_ratio_interval": [
+        0.9938981816202533,
+        1.00675061312118
+      ],
+      "observation_cost_ratio": 0.7274564743783597
+    },
+    "gradient_proxy_directions_vectorG16": {
+      "ratio_to_CPU_baseline": 1.0068556327162017,
+      "paired_ratio_to_uniform": 0.9992402820360445,
+      "paired_MC95_ratio_interval": [
+        0.9956722995302224,
+        1.0028210503742816
+      ],
+      "observation_cost_ratio": 0.5832402441508107
+    }
+  },
+  "scope": "Diagnosticrows0:8 andcalibrationrows8:16 only. FP32CPUarithmetic withsampledBF16weights. No GPU,testdata,parameterupdates ordeploymentselection. One-pbitperparameter retained; vectorsusegroup16andallT<=32768. Pairedfive-seed comparisonsare descriptive; requirefutureprospectiveGPUconfirmation.",
+  "range_metadata_bits": {
+    "uniform32768": 62219904,
+    "existing_directions_vectorG16": 62644608,
+    "gradient_proxy_directions_vectorG16": 62644608
+  }
+}

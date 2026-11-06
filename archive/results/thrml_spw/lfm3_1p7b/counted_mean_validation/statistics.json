@@ -1,0 +1,118 @@
+{
+  "status": "all_five_prior_selected_mean_cases_summarized",
+  "inputs_sha256": {
+    "results/thrml_spw/lfm3_1p7b/counted_mean_validation/mean/202610350/independent_audit.json": "9d2ea570143dd77d7c483e16df69bd0ff1e4974fd307e88ec77d39c297150a4c",
+    "results/thrml_spw/lfm3_1p7b/counted_mean_validation/mean/202610350/results.json": "029d7344f1a168f776215aa8849018caef10ac5334f1dbfc5bb5946e8d74c896",
+    "results/thrml_spw/lfm3_1p7b/counted_mean_validation/mean/202610351/independent_audit.json": "b8df2190b75251faed970fb56fc469594c613141d90e2e19853eb95f8dcf3be2",
+    "results/thrml_spw/lfm3_1p7b/counted_mean_validation/mean/202610351/results.json": "d8b3c6540c60446b59034dfcae1878bcf916166bb84fe0bf13301e5b5c567f25",
+    "results/thrml_spw/lfm3_1p7b/counted_mean_validation/mean/202610352/independent_audit.json": "e56f5cfadae67052f1004e20ae31b08ae4d863fb97aecb6a88b9057f4e222c86",
+    "results/thrml_spw/lfm3_1p7b/counted_mean_validation/mean/202610352/results.json": "d6a5aa5d2083686cae6da3dcad488e30aaee30e4fb72c93202804473b2617743",
+    "results/thrml_spw/lfm3_1p7b/counted_mean_validation/mean/202610353/independent_audit.json": "21e6441d94413eca3a0e720b7c6542503212935f3a3bfb11778d5e2a8a685150",
+    "results/thrml_spw/lfm3_1p7b/counted_mean_validation/mean/202610353/results.json": "91fbedb658054a0b584875b12a75ec27e62e317e16f2d88b2214b494d0432275",
+    "results/thrml_spw/lfm3_1p7b/counted_mean_validation/mean/202610354/independent_audit.json": "a7e047f3dd0b07237016ad3cd300d00b13e980a238a878b0dcde1853e08dc823",
+    "results/thrml_spw/lfm3_1p7b/counted_mean_validation/mean/202610354/results.json": "79b2a27066f75e5842ce7668fe39f172df5c34c3ace71e780e29a72c0d1cb267"
+  },
+  "protocol_sha256": "053c020bfb7907023edc49540a6105f61bfe9512fc9db7603ea8a5a2687c48ee",
+  "controls_NLL": {
+    "BF16": 4.978250316314612,
+    "same_fit_BF16": 4.321675645982948,
+    "nominal_controls": 4.29973876220307
+  },
+  "native_NLL": {
+    "values": [
+      4.429380291303697,
+      4.392363728321433,
+      4.411901722461526,
+      4.478352925724705,
+      4.437122312304179
+    ],
+    "mean": 4.429824196023107,
+    "standard_error": 0.014375324097383818,
+    "MC95_t4_interval": [
+      4.389911897797294,
+      4.46973649424892
+    ]
+  },
+  "native_minus_control_NLL": {
+    "BF16": {
+      "values": [
+        -0.5488700250109151,
+        -0.5858865879931789,
+        -0.5663485938530863,
+        -0.4998973905899069,
+        -0.5411280040104325
+      ],
+      "mean": -0.548426120291504,
+      "standard_error": 0.014375324097383818,
+      "MC95_t4_interval": [
+        -0.5883384185173172,
+        -0.5085138220656907
+      ]
+    },
+    "same_fit_BF16": {
+      "values": [
+        0.10770464532074886,
+        0.070688082338485,
+        0.09022607647857761,
+        0.15667727974175705,
+        0.11544666632123146
+      ],
+      "mean": 0.10814855004016,
+      "standard_error": 0.014375324097383818,
+      "MC95_t4_interval": [
+        0.06823625181434673,
+        0.14806084826597327
+      ]
+    },
+    "nominal_controls": {
+      "values": [
+        0.12964152910062676,
+        0.0926249661183629,
+        0.11216296025845551,
+        0.17861416352163495,
+        0.13738355010110936
+      ],
+      "mean": 0.1300854338200379,
+      "standard_error": 0.014375324097383818,
+      "MC95_t4_interval": [
+        0.09017313559422463,
+        0.16999773204585117
+      ]
+    }
+  },
+  "native_subset_perplexity": 83.9166627303495,
+  "native_over_same_fit_BF16_PPL_ratio": 1.114213249516303,
+  "native_over_same_fit_BF16_PPL_ratio_MC95_interval": [
+    1.0706182140984457,
+    1.1595834528586897
+  ],
+  "conditional_same_fit_BF16_gate_passed": false,
+  "work_per_seed": [
+    {
+      "retained_scheduled_evaluations": 7088068624384,
+      "warmup_scheduled_evaluations": 6921942016,
+      "max_temporary_weight_count_bytes": 7864320
+    },
+    {
+      "retained_scheduled_evaluations": 7088068624384,
+      "warmup_scheduled_evaluations": 6921942016,
+      "max_temporary_weight_count_bytes": 7864320
+    },
+    {
+      "retained_scheduled_evaluations": 7088068624384,
+      "warmup_scheduled_evaluations": 6921942016,
+      "max_temporary_weight_count_bytes": 7864320
+    },
+    {
+      "retained_scheduled_evaluations": 7088068624384,
+      "warmup_scheduled_evaluations": 6921942016,
+      "max_temporary_weight_count_bytes": 7864320
+    },
+    {
+      "retained_scheduled_evaluations": 7088068624384,
+      "warmup_scheduled_evaluations": 6921942016,
+      "max_temporary_weight_count_bytes": 7864320
+    }
+  ],
+  "scope": "Prior-selectedmeanprogram,all1.729Buniquecontrols/287moduleuses,32reservedvalidationcontexts/2048targetsandfiveMCclusters202610350..354,T1024. Fourconditionsincludingsame-fitBF16;exploratoryupperMCt4native-minus-samefitBF16NLLgate<=log1.02identicaltopriorV2. Conditionalvalidation,notnumericalBF16equivalence,unseen-textgeneralization,formalcoverageormultiplicitycontrol. Exactcountfactorizationhasexplicitper-weightcounterworkspaceanddoesnotestablishphysicalR2storage/energy/latencyadvantages. Originalstudiesunchanged;lateroriginalmeanresultsarepairedimplementationduplicateswithSAMEkeys,notadditionalindependentseeds;neverpoolas10MCseeds. Fresh10240targetholdoutremainsunscored. No measuredsimulator-speedclaimfromconcurrentjobs."
+}

@@ -1,0 +1,45 @@
+{
+  "status": "prior_failed_execution_exposure_ledger_before_repaired_scoring",
+  "recorded_utc": "2026-11-05T20:12:53.161451+00:00",
+  "prior_namespace": "holdout_native/202610800",
+  "prior_exposed_short_article_indices": [
+    0,
+    1
+  ],
+  "prior_exposed_article_ids": [
+    0,
+    4
+  ],
+  "prior_BF16_control_targets": 512,
+  "previously_unexposed_targets": 9728,
+  "previously_unexposed_articles": 38,
+  "scope": "Prior first batch BF16 and same-fit BF16 forwards completed; nominal stage failed before producing a complete nominal output and before native sampling. Conservatively classify all eight first-batch windows as exposed. Retain full40article planned evaluation and separately analyze the38previously unexposed articles. No model losses inspected to choose exclusions.",
+  "remote_files": {
+    "results/thrml_spw/lfm3_1p7b/holdout_native/202610800/worker.log": {
+      "bytes": 0
+    },
+    "results/thrml_spw/lfm3_1p7b/holdout_native/202610800/runtime_output.npy": {
+      "bytes": 8519808
+    },
+    "results/thrml_spw/lfm3_1p7b/holdout_native/202610800/runtime_input.npz": {
+      "bytes": 12911572
+    },
+    "results/thrml_spw/lfm3_1p7b/holdout_native/202610800/progress.json": {
+      "bytes": 146
+    },
+    "results/thrml_spw/lfm3_1p7b/holdout_native/202610800/failure.json": {
+      "bytes": 146
+    },
+    "results/thrml_spw/lfm3_1p7b/holdout_native/202610800/batch0_same_fit_BF16.npz": {
+      "bytes": 102200241
+    },
+    "results/thrml_spw/lfm3_1p7b/holdout_native/202610800/batch0_BF16.npz": {
+      "bytes": 102245886
+    },
+    "results/thrml_spw/lfm3_1p7b/holdout_native/202610800/protocol.json": {
+      "bytes": 408
+    }
+  },
+  "old_protocol_sha256": "cbefed3da37fe81853283fb2aa6bffe3f3820ebcc30c18effdd567983dd4245d",
+  "holdout_manifest_sha256": "51091d5a34ac4b6506f1c0cb7690e4896e62e99ed5328e9ec32b848ff19d61de"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "all_three_corrupted_evidence_fixtures_rejected",
+  "rejected": [
+    "reported_MSE",
+    "off_diagonal_covariance",
+    "missing_condition"
+  ],
+  "source_sha256": "be131094df2cbe4dc338e6e37ead81cda64c7397ed2631c400087519e0cfd3ab",
+  "auditor_sha256": "bc39defbc48e208886d2df8cf8fb77f47c04e70f8da8e9b1ad64ba656b9dde5d",
+  "scope": "Exercises evidence integrity assertions, not new Monte Carlo evidence."
+}

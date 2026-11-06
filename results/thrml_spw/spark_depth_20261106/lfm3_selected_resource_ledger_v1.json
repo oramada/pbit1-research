@@ -1,0 +1,13 @@
+{
+  "status": "arithmetic_from_training_selected_policy_not_hardware_measurement",
+  "parameters": 1728801536,
+  "pbits": 1728801536,
+  "samples": 32768,
+  "Bernoulli_observations_per_weight_reconstruction": 56649368731648,
+  "range_groups": 13542448,
+  "range_metadata_FP32_bytes": 108339584,
+  "BF16_weight_bytes": 3457603072,
+  "ideal_12bit_control_plus_pbit_state_plus_ranges_bytes": 2917642080.0,
+  "uint16_control_plus_pbit_state_plus_ranges_bytes": 3782042848.0,
+  "scope": "Range values and probability controls are additional to the one binary physical state. Software reconstruction retains BF16 working weights and CPU masters. Counts are per model reconstruction, reused across examples; no measured physical energy or latency."
+}

@@ -1,0 +1,53 @@
+{
+  "status": "all5_sdk_reconstructions_bitwise_match_frozen_sampler",
+  "source_sha256": "eab862725abceee85f29a3aa0a4fe48f246f9d07841f4ce241e84574be344367",
+  "SDK_source_sha256": "fa296b655628edda7fdc78f71d809aacb67349ae2816c267e3f9360e85022b1f",
+  "research_sampler_sha256": "8003a7db03cedd2cfdfc2dbb63049e45c4c29f6abe6ba195cc4f76645eac012b",
+  "fixtures": [
+    {
+      "name": "boundary7",
+      "parameters": 262563,
+      "group": 7,
+      "layout": "storage_flat",
+      "samples": 131072,
+      "counts_sha256": "75db583fb16f021fbd48480de80853d4f6b14f00ed4a7e8bc82068dfa60d9049",
+      "BF16_equal": true
+    },
+    {
+      "name": "transpose",
+      "parameters": 323,
+      "group": 128,
+      "layout": "transposed_matrix",
+      "samples": 32768,
+      "counts_sha256": "1e8405b3afffbaebca6f65d64fb509dae4131e3ce168dcd1800fd06c03e31b8b",
+      "BF16_equal": true
+    },
+    {
+      "name": "model.layers.0.conv.conv.weight",
+      "parameters": 14336,
+      "group": 7,
+      "layout": "storage_flat",
+      "samples": 32768,
+      "counts_sha256": "832a1b5404d48f2fb185f116c8d8f2d9acf4decbe661903347fddbed3e5df1d0",
+      "BF16_equal": true
+    },
+    {
+      "name": "model.layers.2.self_attn.q_norm.weight",
+      "parameters": 128,
+      "group": 16,
+      "layout": "storage_flat",
+      "samples": 32768,
+      "counts_sha256": "71de48c29e3da6a5c92dfa25893cebf6edf4ede3c2d30c354e4627fcab8338fa",
+      "BF16_equal": true
+    },
+    {
+      "name": "model.layers.0.conv.out_proj.weight",
+      "parameters": 4194304,
+      "group": 128,
+      "layout": "transposed_matrix",
+      "samples": 32768,
+      "counts_sha256": "e5ee8f2ef36d6fbee01a7c8b0becd87f7146ad8f4e6972fb7c205888291aaa36",
+      "BF16_equal": true
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "recorded_utc": "2026-11-05T21:53:54.926217+00:00",
+  "small_CPU_H100_bridge": {
+    "status": "all_synthetic_program_commands_tail_ranges_public_state_counts_readouts_INTcontrols_and_resources_independently_verified",
+    "source_sha256": "c19c450bba8411c69a6645b7d07476cfc3c223a9742989087af041452e5016a3",
+    "results_sha256": "43b91e900316099a3a039bb256417bbef56e098bd4815b16c039ca50b20944b1",
+    "cases": 9,
+    "public_state_bits_checked": 1376256,
+    "parameter_coordinates_across_formats_checked": 822,
+    "CPU_GPU_state_bit_differences": 0,
+    "CPU_GPU_count_coordinate_differences": 0,
+    "scope": "Independent range/field/word/readout/resource oracle with raw publicstates on H100 and explicit CPUcomparison. Not a statistical convergence or neural quality result; Complete-model and quality gates remain."
+  },
+  "primary65536lane_H100": {
+    "status": "full65536lane_T8192matchedwork_states_popcounts_rational_readouts_and_resources_independently_verified",
+    "source_sha256": "13a974007f9943e24735a7d17b97dd251248f086b23b0849f20f83e4e3b42fe9",
+    "results_sha256": "8f54f034e75d7c318108a055b73a3b2f371e6cc4bebfe1df7682ca744c2a5ee9",
+    "cases": 3,
+    "public_state_bits_checked": 1610612736,
+    "parameter_coordinates_across_formats_checked": 196605,
+    "scope": "Entire H100 publicstate traces checked by packed-bytepopcount, complete rational-count readout checkedscalarby scalar. No real model, task quality, physical energy or hardwarelatency result."
+  },
+  "scope": "OfficialTHRML sample/count/readout and cost primitives only. Complete-model quality and practical hardwarebenefit remain unproved by these fixtures."
+}

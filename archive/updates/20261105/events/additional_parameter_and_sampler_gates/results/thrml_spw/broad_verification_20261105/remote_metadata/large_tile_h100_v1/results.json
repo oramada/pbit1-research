@@ -1,0 +1,187 @@
+{
+  "status": "full65536lane_primarybudget_publicstates_counts_and_readouts_produced_pending_audit",
+  "cases": [
+    {
+      "bits": 1,
+      "samples": 8192,
+      "seed": 202611931,
+      "parameter_index": 0,
+      "path": "results/thrml_spw/broad_verification_20261105/large_tile_h100_v1/K1.npz",
+      "sha256": "f52efcdb85925c8b72f1405ea1877964a92074740d5dbdda5db20f5e5322a832",
+      "raw_tiles": [
+        {
+          "tile": 0,
+          "begin": 0,
+          "width": 65535,
+          "bit": 0
+        }
+      ],
+      "resources": {
+        "unique_parameter_scalars": 65535,
+        "logical_pbits": 65535,
+        "range_groups": 512,
+        "last_group_actual_size": 127,
+        "range_metadata_bits": 32768,
+        "finite_control_information_bits": 786420,
+        "packed_format_storage_bits_excluding_headers": 819188,
+        "actual_single_control_array_bytes": 131070,
+        "logical_retained_device_evaluations": 536862720,
+        "scheduled_retained_device_evaluations": 536870912,
+        "scheduled_warmup_device_evaluations": 65536,
+        "sampling_padding_cells_per_bitplane": 1,
+        "software_sampler_state_slots": 65536,
+        "software_int32_count_carry_bytes": 262144,
+        "software_retained_count_array_bytes": 262140,
+        "software_decoded_FP64_array_bytes": 524280,
+        "regime": "R1 single model weight reconstruction draw reused across evaluation; no R2or physicalstorageclaim"
+      },
+      "count_and_public_replay_seconds_including_JIT": 3.133079445999999,
+      "readout": "exactint64positionalnumerator_then_FP64divide_mul_add"
+    },
+    {
+      "bits": 4,
+      "samples": 2048,
+      "seed": 202611931,
+      "parameter_index": 0,
+      "path": "results/thrml_spw/broad_verification_20261105/large_tile_h100_v1/K4.npz",
+      "sha256": "f666f169022a672733c84e9558160b629a89130b06b2956f2611ea040d6c082a",
+      "raw_tiles": [
+        {
+          "tile": 0,
+          "begin": 0,
+          "width": 65535,
+          "bit": 0
+        },
+        {
+          "tile": 0,
+          "begin": 0,
+          "width": 65535,
+          "bit": 1
+        },
+        {
+          "tile": 0,
+          "begin": 0,
+          "width": 65535,
+          "bit": 2
+        },
+        {
+          "tile": 0,
+          "begin": 0,
+          "width": 65535,
+          "bit": 3
+        }
+      ],
+      "resources": {
+        "unique_parameter_scalars": 65535,
+        "logical_pbits": 262140,
+        "range_groups": 512,
+        "last_group_actual_size": 127,
+        "range_metadata_bits": 32768,
+        "finite_control_information_bits": 262140,
+        "packed_format_storage_bits_excluding_headers": 294908,
+        "actual_single_control_array_bytes": 131070,
+        "logical_retained_device_evaluations": 536862720,
+        "scheduled_retained_device_evaluations": 536870912,
+        "scheduled_warmup_device_evaluations": 262144,
+        "sampling_padding_cells_per_bitplane": 1,
+        "software_sampler_state_slots": 65536,
+        "software_int32_count_carry_bytes": 262144,
+        "software_retained_count_array_bytes": 1048560,
+        "software_decoded_FP64_array_bytes": 524280,
+        "regime": "R1 single model weight reconstruction draw reused across evaluation; no R2or physicalstorageclaim"
+      },
+      "count_and_public_replay_seconds_including_JIT": 2.732012836999999,
+      "readout": "exactint64positionalnumerator_then_FP64divide_mul_add"
+    },
+    {
+      "bits": 8,
+      "samples": 1024,
+      "seed": 202611931,
+      "parameter_index": 0,
+      "path": "results/thrml_spw/broad_verification_20261105/large_tile_h100_v1/K8.npz",
+      "sha256": "f911010b5739cf26152357616ccfbca28bf6d1d18fda2acf46495ca383ce8d8f",
+      "raw_tiles": [
+        {
+          "tile": 0,
+          "begin": 0,
+          "width": 65535,
+          "bit": 0
+        },
+        {
+          "tile": 0,
+          "begin": 0,
+          "width": 65535,
+          "bit": 1
+        },
+        {
+          "tile": 0,
+          "begin": 0,
+          "width": 65535,
+          "bit": 2
+        },
+        {
+          "tile": 0,
+          "begin": 0,
+          "width": 65535,
+          "bit": 3
+        },
+        {
+          "tile": 0,
+          "begin": 0,
+          "width": 65535,
+          "bit": 4
+        },
+        {
+          "tile": 0,
+          "begin": 0,
+          "width": 65535,
+          "bit": 5
+        },
+        {
+          "tile": 0,
+          "begin": 0,
+          "width": 65535,
+          "bit": 6
+        },
+        {
+          "tile": 0,
+          "begin": 0,
+          "width": 65535,
+          "bit": 7
+        }
+      ],
+      "resources": {
+        "unique_parameter_scalars": 65535,
+        "logical_pbits": 524280,
+        "range_groups": 512,
+        "last_group_actual_size": 127,
+        "range_metadata_bits": 32768,
+        "finite_control_information_bits": 524280,
+        "packed_format_storage_bits_excluding_headers": 557048,
+        "actual_single_control_array_bytes": 131070,
+        "logical_retained_device_evaluations": 536862720,
+        "scheduled_retained_device_evaluations": 536870912,
+        "scheduled_warmup_device_evaluations": 524288,
+        "sampling_padding_cells_per_bitplane": 1,
+        "software_sampler_state_slots": 65536,
+        "software_int32_count_carry_bytes": 262144,
+        "software_retained_count_array_bytes": 2097120,
+        "software_decoded_FP64_array_bytes": 524280,
+        "regime": "R1 single model weight reconstruction draw reused across evaluation; no R2or physicalstorageclaim"
+      },
+      "count_and_public_replay_seconds_including_JIT": 2.900704323999989,
+      "readout": "exactint64positionalnumerator_then_FP64divide_mul_add"
+    }
+  ],
+  "backend": "gpu",
+  "devices": [
+    "cuda:0"
+  ],
+  "sources_sha256": {
+    "/__modal/volumes/vo-xPupdD37HndFLHDMPewQva/research/thrml_spw/broad/preflight_large_tile_h100_v1.py": "fc62f10b57fad7e192dacb2a5eafd014f84ac40317fed8759c83a948764351b1",
+    "/__modal/volumes/vo-xPupdD37HndFLHDMPewQva/research/thrml_spw/broad/parameter_counts_v2.py": "4e4cab531d83ca8f4861f40a6b514e975d2671054fd4f23255c5bd42c524fd7a",
+    "/__modal/volumes/vo-xPupdD37HndFLHDMPewQva/research/thrml_spw/broad/parameter_counts_v1.py": "f4399e80cad58f2c7b98930b32436306b8e2c164d2e229ad839d6039d264e24a",
+    "/__modal/volumes/vo-xPupdD37HndFLHDMPewQva/research/thrml_spw/broad/parameter_program_v1.py": "4d9bae47fe3ab0f92a01aab4df5646ce9cbc5b600a34d54f0df2abd8fe33b7ed"
+  },
+  "scope": "Synthetic65535coordinate parameter,65536lane sampler, exact1cellpadding charged, constant andshorttailgroups retained. Countpluspublicreplaytime is simulatoroverhead, not physical energy/latency or neural quality."
+}

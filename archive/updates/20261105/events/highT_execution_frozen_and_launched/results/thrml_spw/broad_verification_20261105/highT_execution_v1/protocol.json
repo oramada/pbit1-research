@@ -1,0 +1,178 @@
+{
+  "status": "complete_R1_execution_and_statistics_frozen_before_scoring",
+  "study_kind": "distinct_post_primary_highT_followup",
+  "recorded_utc": "2026-11-05T23:46:46.564627+00:00",
+  "output": "results/thrml_spw/broad_verification_20261105/highT_execution_v1",
+  "models": {
+    "gpt2": {
+      "model_type": "gpt2",
+      "package": "results/thrml_spw/broad_verification_20261105/additional_parameter_packages_v1/gpt2/package.json",
+      "package_sha256": "73614f01e0f2220d3035e587d59c68f98c4d2758802b95ebc4462fe52857d009",
+      "checkpoint": "data/thrml_spw/broad_additional_v1/openai-community--gpt2",
+      "data": {
+        "kind": "full_task",
+        "arrays": "results/thrml_spw/broad_verification_20261105/additional_assets_v1/gpt2_tokens.npz",
+        "layout": "results/thrml_spw/broad_verification_20261105/additional_assets_v1/gpt2_layout.json"
+      },
+      "unique_learned_scalars": 124439808,
+      "seeds_by_budget": {
+        "262144": [
+          202611800,
+          202611801,
+          202611802,
+          202611803,
+          202611804
+        ]
+      },
+      "bootstrap_key": 202611810,
+      "margin": 0.01980262729617973,
+      "baseline_scope": "Uniform uncalibrated minmaxblock128 INT2/4/8 across every learnedparameter, includingnorms/biases; not optimizedGPTQ/AWQ or hardwarekernel performance."
+    }
+  },
+  "cases": {
+    "gpt2__K1_C262144_seed202611800": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 1,
+      "budget": 262144,
+      "samples": 262144,
+      "seed": 202611800
+    },
+    "gpt2__K1_C262144_seed202611801": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 1,
+      "budget": 262144,
+      "samples": 262144,
+      "seed": 202611801
+    },
+    "gpt2__K1_C262144_seed202611802": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 1,
+      "budget": 262144,
+      "samples": 262144,
+      "seed": 202611802
+    },
+    "gpt2__K1_C262144_seed202611803": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 1,
+      "budget": 262144,
+      "samples": 262144,
+      "seed": 202611803
+    },
+    "gpt2__K1_C262144_seed202611804": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 1,
+      "budget": 262144,
+      "samples": 262144,
+      "seed": 202611804
+    }
+  },
+  "case_order": [
+    "gpt2__K1_C262144_seed202611800",
+    "gpt2__K1_C262144_seed202611801",
+    "gpt2__K1_C262144_seed202611802",
+    "gpt2__K1_C262144_seed202611803",
+    "gpt2__K1_C262144_seed202611804"
+  ],
+  "sources_sha256": {
+    "research/thrml_spw/broad/r1_io_v1.py": "e7f6e3d640c43f6412ffaf4588719ac68b74d28c8a9fa05f197c2096161321fc",
+    "research/thrml_spw/broad/r1_worker_v1.py": "c3e8a67ffbd8f0351196125664b5e3e98be563401a798639b38aabb23d2933c3",
+    "research/thrml_spw/broad/r1_model_v1.py": "de2c4657a4efdc8968660106cc3c1fe19f1c55ea1e56b3ae58eca8fb3857825a",
+    "research/thrml_spw/broad/r1_case_v1.py": "6eb98ff5a979f46dc659642dc8ca5a2bf29193c0572f3eb7ef3ce9c0f0c7e4f7",
+    "research/thrml_spw/broad/verify_r1_case_v1.py": "3bfa280c49b0ab5b5828f1a6957f55673b54977409aafeaa867fa60c9e18bb75",
+    "research/thrml_spw/broad/prepare_r1_preflight_v2.py": "9e17a8ff9e9877ce59a169410fca33a3c6ed00e95c914c2411a76db58555ae27",
+    "research/thrml_spw/broad/parameter_program_v1.py": "4d9bae47fe3ab0f92a01aab4df5646ce9cbc5b600a34d54f0df2abd8fe33b7ed",
+    "research/thrml_spw/broad/parameter_counts_v1.py": "f4399e80cad58f2c7b98930b32436306b8e2c164d2e229ad839d6039d264e24a",
+    "research/thrml_spw/broad/parameter_counts_v2.py": "4e4cab531d83ca8f4861f40a6b514e975d2671054fd4f23255c5bd42c524fd7a",
+    "research/thrml_spw/native.py": "14ab522d92356d3c633787b5249c8a0d04d6c46c3b282fb84bdd72ed1fd9a361",
+    "research/thrml_spw/controlled_positive_native.py": "6b2e4bfa2a589c2b9436423aaa4045c5e0d8b421ded0e9d4db0dceae0b492f99",
+    "research/thrml_spw/gpu_environment.py": "816439a3c63f84be0309bfc8c8887067b6f234d223b52beed7b6111c909c4273",
+    "research/thrml_spw/lfm3/counted_bank.py": "48783c3c3c6912061de5158a40c2b8f4223d72c97560d2940b202d8f357f2080",
+    "research/thrml_spw/lfm3/stage_checkpoint_v1.py": "ff51be00b7342503a7e371c71f6f7073e91efd80312ef252ffd754692881d81c",
+    "research/thrml_spw/broad/r1_statistics_v1.py": "c1a24b41670c4336e75ec32ece44482f32c7b6c7b8abc3f6c5b7e21c4aeb7b9c",
+    "research/thrml_spw/broad/verify_r1_statistics_v1.py": "8eff2c8f2cf578f686abd94de1c5c4285804d253c5c5b31cbbba92367dcf8330",
+    "research/thrml_spw/broad/preflight_r1_statistics_v1.py": "94fb6705bf80f2b0df2cc443954537d91ed46b9aef4cfee19c7d184a4fee73d8",
+    "research/thrml_spw/broad/preflight_r1_batches_v1.py": "f1a74548b840bbce62eb93a11f676a2615a72b7c83252f6eb239756adb444aaa",
+    "research/thrml_spw/broad/task_statistics_v1.py": "1d1fe0e27261cde701449dfb7256f5bf6ea2ac98d19e011be0882043b2cb0dba",
+    "cloud/r1_execution_v1/freeze.py": "5a2db17cdfe784366cfcc5aeb2078b634ce23a4fbfad267ed7e48b20438669c8",
+    "cloud/r1_execution_v1/app.py": "5c6236c23c477a92884048c1aeaef417fa3e2fa63d08898775be451380b81f3c",
+    "cloud/r1_execution_v1/layout.py": "fce456440f13fa3e522c0b853669b26b11b84f9e7898169365759bc77deb212f",
+    "cloud/r1_execution_v1/client.py": "f67e48c90e990f0b5082546e230afc0b9c543f131541ef7d4a17df99cac13fa4",
+    "research/thrml_spw/broad/highT_case_v1.py": "b5bdd0f36efde423fb6c5a756b2da28410af0efee1f6865ed67bba4b0cbdca32",
+    "research/thrml_spw/broad/highT_worker_v1.py": "595571a3e537bb3bb3b1f3d5289be95f6708c91e39f57bbfe8d97ab570174162",
+    "research/thrml_spw/broad/verify_highT_case_v1.py": "423f7a5f97778e95bdb5371c5058287feb110678996c3b92820c8d084a7f881f",
+    "research/thrml_spw/broad/highT_statistics_v1.py": "a558e89c05e501981ff591ed6b9b4616ab1f8ad4fa19cf78d0bc39f435992a02",
+    "research/thrml_spw/broad/verify_highT_statistics_v1.py": "3a936cea2f33213e781462f3da327bd3cf5156120e5b3f3c9050222a246da66d",
+    "research/thrml_spw/broad/preflight_highT_statistics_v1.py": "3e60288a4298637473f3c5b66b06455cd98953a04ed842cc7e29c2aa929e0cd7",
+    "cloud/highT_execution_v1/layout.py": "e9ce10187f131a11670cf7565068c4f6a7f618400277b79338f01cbfa725d4e1",
+    "cloud/highT_execution_v1/app.py": "fa474ee50bdf90fd6e7b269df6a3c8fa6ce90b76a152c861481625e08df43c64",
+    "cloud/highT_execution_v1/client.py": "4b8865d44f90537a18a8df6c789c0bc87262244eebc769f7f438dd9883544000",
+    "cloud/highT_execution_v1/freeze.py": "133a460eb972db44ac132a3f781e9574f3c5a2719bbc4d9d0d7d8a674014dfbf"
+  },
+  "inputs_sha256": {
+    "results/thrml_spw/broad_verification_20261105/additional_parameter_packages_v2_audit.json": "d701ce519f58b0d378f083f63e2f1df310a1a332f213f88fc41f3c8f3b473479",
+    "results/thrml_spw/broad_verification_20261105/large_tile_h100_v1_audit.json": "92c4380689056ab3f85a20cfb5fc5c83d28b617142a5aadc10a707ecd8979851",
+    "results/thrml_spw/broad_verification_20261105/parameter_counts_h100_v1_audit.json": "f9446278d013f59fce9151d5e061819a86ecaacd90baa7e572f0cb54a729d304",
+    "results/thrml_spw/broad_verification_20261105/remote_metadata/additional_parameter_packages_v1/gpt2/package.json": "73614f01e0f2220d3035e587d59c68f98c4d2758802b95ebc4462fe52857d009",
+    "results/thrml_spw/broad_verification_20261105/remote_metadata/additional_parameter_packages_v1/distilbert/package.json": "398f7700b54715d96c294a1c7359fe0e8c3418cb981291d0a2deea89f80bbcc9",
+    "results/thrml_spw/broad_verification_20261105/r1_model_preflight_v2/gpt2_synthetic.npz": "ea4b683250d5ea764eee8a2df3153176c0f00aad985ca11e9346faa6bd505490",
+    "results/thrml_spw/broad_verification_20261105/r1_model_preflight_v2/distilbert_synthetic.npz": "db82075d987a67f401748f6d98efc29c502b72d91855030968cdf57f98f06ad3",
+    "results/thrml_spw/broad_verification_20261105/additional_model_inventory/selection_protocol_v1.json": "80128fd73e595535075e429587ee083cb6ac068a07040400a676e3edbbdf0a90",
+    "results/thrml_spw/broad_verification_20261105/r1_model_preflight_v2/protocol.json": "ddb9c87cefaafe7ad018fc96ed87530dac86307f9c61f920784598e38e6f3dfd",
+    "results/thrml_spw/broad_verification_20261105/r1_statistics_v1_preflight/results.json": "d545cd9743e03c6d3ac832921c4b284bb8cb2f2f43922999a2b16c36d5d80cb3",
+    "results/thrml_spw/broad_verification_20261105/r1_batches_v1_preflight/results.json": "970cb5efa718a7b4692196fb1f3a6d6409d80ca28ff42913f7d90c9e639b0d0f",
+    "results/thrml_spw/broad_verification_20261105/additional_assets_v1_independent_data_audit.json": "a6b79e6b37e543b3fe40712185c99372db96fca389d202c0ca3d74c3bc04b57e",
+    "results/thrml_spw/broad_verification_20261105/r1_model_preflight_v2/gpt2_results.json": "4504706e38ced68c06c0f9fee4cbd42748408f1188826cde9e1928db14befa30",
+    "results/thrml_spw/broad_verification_20261105/r1_model_preflight_v2/distilbert_results.json": "7ab2195e9e7cde136d2bfd82ade12f33ed81106dd0896416d74f5ec9beadfb3b",
+    "results/thrml_spw/broad_verification_20261105/additional_assets_v1/gpt2_tokens.npz": "f9b95c7dd583c7575ffbefc5543df96830fe4c00f73e1f362c099bd5b0a0a92c",
+    "results/thrml_spw/broad_verification_20261105/additional_assets_v1/gpt2_layout.json": "9b057e25e543919585bce1ee84e7d760f42e1cf5cffbf4c4bdc27aaeb6da65bc",
+    "data/thrml_spw/broad_additional_v1/openai-community--gpt2/config.json": "0daed7749b4f02b8f76240d5444551d7b08712dab4d0adb8239c56ba823bb7b4",
+    "results/thrml_spw/broad_verification_20261105/additional_assets_v1/distilbert_tokens.npz": "ef9c432050f58d3db91fcf85a8530bc2423eb441aefe0f42c61776fd74a247cb",
+    "results/thrml_spw/broad_verification_20261105/additional_assets_v1/distilbert_layout.json": "566bb4c993968db0190ce64bedd06605ea2a1896e2a35230111b4d74258a59bb",
+    "data/thrml_spw/broad_additional_v1/distilbert--distilbert-base-uncased-finetuned-sst-2-english/config.json": "582122c8f414793d131e10022ce9ba04e3811a9da6389137ee2f18665b4f4d15",
+    "results/thrml_spw/broad_verification_20261105/r1_execution_v1/protocol.json": "b003fedc90d962500907e8cf435ca359ab1ef9a27ea3e892c2fe12a17ea79626",
+    "results/thrml_spw/broad_verification_20261105/r1_execution_v1/remote_primary.json": "b92b6da3f9991518006da6db366fc6bb36558c976902aac96f886a62e82a127d",
+    "results/thrml_spw/broad_verification_20261105/r1_execution_v1/remote_primary_audit.json": "bc6736ec4763900ef43c8b37014e352678134ae24bedee9a88fc3b5e4d3fc700",
+    "results/thrml_spw/broad_verification_20261105/highT_preparation_v1/candidate.json": "218978e60525a6113d5136cf2cad2e21194010e4714356e1174097e87267d6ea",
+    "results/thrml_spw/broad_verification_20261105/highT_preparation_v1/CPU_H100_bridge_audit.json": "e69bf3eff056d0a397e4b78762c9192c5b0870092d059124a45c68e98e7281d9",
+    "results/thrml_spw/broad_verification_20261105/highT_preparation_v1/model_preflight/old_new_bridge_audit.json": "e59217448d8d5c87c87f17d7099c185a99e054d1df673fafa947fcd6a39e2d17",
+    "results/thrml_spw/broad_verification_20261105/highT_preparation_v1/model_preflight/remote_audit.json": "01189ceae17b48445a1395e215d3c0cc8fa1263ea8af475f81b99a5c2351cd4b",
+    "results/thrml_spw/broad_verification_20261105/highT_preparation_v1/statistics_preflight.json": "196975a43866d2d6f755741f1732a5adf52f4add0562e47c40b1bcb8f095aba2",
+    "results/thrml_spw/broad_verification_20261105/highT_preparation_v1/H100_tile_benchmark_results.json": "bb22d8b6700611c346a556c60b4b334346fda94a7deb62c2f349aa136be980b5",
+    "results/thrml_spw/broad_verification_20261105/primary_count_moments_v1_results.json": "acedc0b5ad0566ebb982bfe86ecfb2850bc60e4740ae02b2eb28c4fca9d935f7"
+  },
+  "control_protocol": "results/thrml_spw/broad_verification_20261105/r1_execution_v1/protocol.json",
+  "control_protocol_sha256": "b003fedc90d962500907e8cf435ca359ab1ef9a27ea3e892c2fe12a17ea79626",
+  "control_inputs_sha256": {
+    "results/thrml_spw/broad_verification_20261105/r1_execution_v1/cases/gpt2__original/results.json": "7f3b5b5022bf79a667ddd38d33bca60ba1ab9a1a5710758868712b7c62283d58",
+    "results/thrml_spw/broad_verification_20261105/r1_execution_v1/cases/gpt2__original/independent_audit.json": "ec5512aef3001f0e7a6112b58ce4b843d2436ae06ec4a17deb119af0ac1c645a",
+    "results/thrml_spw/broad_verification_20261105/r1_execution_v1/cases/gpt2__mean1/results.json": "a88b2f8488b8168db6233f44476552e23c50e675dbc9364ff2ca694cfc82c892",
+    "results/thrml_spw/broad_verification_20261105/r1_execution_v1/cases/gpt2__mean1/independent_audit.json": "55540781347b7b0f05b8ab4670985d41ea5db256925ad06d504d2eb95b3436dd",
+    "results/thrml_spw/broad_verification_20261105/r1_execution_v1/cases/gpt2__mean4/results.json": "36ae8024a77a03b2416a33c0f91a8d6360dfe779a2eb1dee52c5d3aa1688fef1",
+    "results/thrml_spw/broad_verification_20261105/r1_execution_v1/cases/gpt2__mean4/independent_audit.json": "953b162fcf515d074bf51cf2f979aa627b6966f2378bf77bc3d9ea1f4e5d3c14",
+    "results/thrml_spw/broad_verification_20261105/r1_execution_v1/cases/gpt2__mean8/results.json": "86039cebbf061bc683d5fa12d40cdfa95e8d1e933c527e46946943fae46daeba",
+    "results/thrml_spw/broad_verification_20261105/r1_execution_v1/cases/gpt2__mean8/independent_audit.json": "01cead385e99c37521a5a171b260057f64fd76b0c63f03ca30fe64fcf6953fbf",
+    "results/thrml_spw/broad_verification_20261105/r1_execution_v1/cases/gpt2__int2/results.json": "db485745f1ffe0771395c90853db9eb2810d7c413d8873e7cfceb2c3455c4b63",
+    "results/thrml_spw/broad_verification_20261105/r1_execution_v1/cases/gpt2__int2/independent_audit.json": "ff4ae5cd31d0234cc8dc23e2029e3d0d80781666161594ae1ece79896d321ee3",
+    "results/thrml_spw/broad_verification_20261105/r1_execution_v1/cases/gpt2__int4/results.json": "8d77ee79090fa28fd4ba2c3fcc474bb2184c254a9cb6a137bf9cd60505552418",
+    "results/thrml_spw/broad_verification_20261105/r1_execution_v1/cases/gpt2__int4/independent_audit.json": "436f50abd630fe37e946410601466e0e7b794030d5fb6c0e0c981c8f66788e8f",
+    "results/thrml_spw/broad_verification_20261105/r1_execution_v1/cases/gpt2__int8/results.json": "abe06d08ebde1a2e8940370d75eeac08683b1b290f67db35399d7ac74ba8a870",
+    "results/thrml_spw/broad_verification_20261105/r1_execution_v1/cases/gpt2__int8/independent_audit.json": "7b74be06e22c1557656e3a82ab8002bb91f52decc852a57367bd535edc64b549"
+  },
+  "sampling_budget": 262144,
+  "logical_pbits_per_scalar": 1,
+  "cost_scope": "32timesoriginal8192logicalretainedwork per reconstructedmodeldraw, samecellcount.65536lanewarmcountingprojection~51minutesperdraw,notfullruntime/hardwarelatency.",
+  "decision": "Both originalBF16 and finite-programmean1 contrasts must satisfy unchangedlog1.02margin with MC95t4 and crossedseed/articlebootstrap95 upperbounds, allfivefixedseeds. No outcome-based cohort edits.",
+  "data_scope": "Same previouslyexposed283225WikiText2targets/62articles atcontext1024stride512. New MCkeys, not new-textholdout. No training or test-based parameter/range updates.",
+  "original_primary_preservation": {
+    "statistics_sha256": "b92b6da3f9991518006da6db366fc6bb36558c976902aac96f886a62e82a127d",
+    "gpt2_passed": false,
+    "joint_primary_passed": false
+  },
+  "failure_policy": "All5cases, failures, counts and runtimeattempts retained. No stochastic redraw after qualityinspection, no relaxation ofmargin, no renamingoriginalprimaryaspassed.",
+  "scope": "One logicalpbitperlearnedscalar, includingallbias/normparameters andtiedparameteronce. R1reconstructionreusedacrossfulldataset, five independentdraws separatelyevaluated. No R2, numericalBF16equivalence or physicaldensity/energy/latencyclaim."
+}

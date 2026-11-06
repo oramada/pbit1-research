@@ -1,0 +1,10 @@
+{
+  "status": "all_tokens_retokenized_and_294442_targets_covered_once",
+  "source_sha256": "056a493edb5845c24ea2dbf0028f34786e2c7fdcf9e08d9fc0dabb3f5c9fa466",
+  "preparation_sha256": "85edb85705f0b28a35c7d13c1779fb5736a912e8d89145f111ad356c9dfbbd05",
+  "test_articles": 62,
+  "test_windows": 607,
+  "test_targets": 294442,
+  "training_windows": 32,
+  "scope": "Dataauditonly; no LFM3neuralqualityresult."
+}

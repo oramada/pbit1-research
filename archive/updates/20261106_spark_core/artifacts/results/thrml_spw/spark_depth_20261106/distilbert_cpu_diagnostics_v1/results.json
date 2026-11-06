@@ -1,0 +1,2494 @@
+{
+  "status": "CPU_training_diagnostics_and_operator_preferences_complete",
+  "protocol_sha256": "d04d67af989fee2d3fef995da9d27e40ce3264b6f33ba05d96fc67ea802e01de",
+  "modules": [
+    {
+      "module": "distilbert.embeddings.word_embeddings",
+      "type": "Embedding",
+      "observations": 12847,
+      "shape": [
+        30522,
+        768
+      ],
+      "output_RMS": 0.042975629989422,
+      "largest_output_channels": [
+        308,
+        541,
+        121,
+        216,
+        145,
+        419,
+        529,
+        654
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.0010671961854759034,
+          "predicted_relative_output_RMSE_T8192": 0.027429587106737454,
+          "top_contributing_inputs": [
+            101,
+            1996,
+            1012,
+            1010,
+            1998,
+            1037,
+            1997,
+            2000
+          ],
+          "range_groups": 183132,
+          "control_range_state_bits": 316452096
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.0006586211947640037,
+          "predicted_relative_output_RMSE_T8192": 0.021548398048511497,
+          "top_contributing_inputs": [
+            1012,
+            1996,
+            1010,
+            1037,
+            1998,
+            7987,
+            1005,
+            1997
+          ],
+          "range_groups": 183132,
+          "control_range_state_bits": 316452096
+        }
+      },
+      "preference": "transposed_matrix"
+    },
+    {
+      "module": "distilbert.embeddings.position_embeddings",
+      "type": "Embedding",
+      "observations": 12847,
+      "shape": [
+        512,
+        768
+      ],
+      "output_RMS": 0.017844270661696644,
+      "largest_output_channels": [
+        168,
+        215,
+        443,
+        353,
+        139,
+        308,
+        53,
+        145
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.0005342084168544319,
+          "predicted_relative_output_RMSE_T8192": 0.04673862708888909,
+          "top_contributing_inputs": [
+            0,
+            38,
+            84,
+            53,
+            85,
+            54,
+            39,
+            91
+          ],
+          "range_groups": 3072,
+          "control_range_state_bits": 5308416
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.00013128895768500153,
+          "predicted_relative_output_RMSE_T8192": 0.023170461725642494,
+          "top_contributing_inputs": [
+            3,
+            25,
+            30,
+            17,
+            24,
+            19,
+            6,
+            4
+          ],
+          "range_groups": 3072,
+          "control_range_state_bits": 5308416
+        }
+      },
+      "preference": "transposed_matrix"
+    },
+    {
+      "module": "distilbert.embeddings.LayerNorm",
+      "type": "LayerNorm",
+      "observations": 12847,
+      "shape": [
+        768
+      ],
+      "output_RMS": 0.6595798208452817,
+      "largest_output_channels": [
+        308,
+        617,
+        663,
+        337,
+        553,
+        450,
+        231,
+        379
+      ]
+    },
+    {
+      "module": "distilbert.transformer.layer.0.attention.q_lin",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        768
+      ],
+      "output_RMS": 1.0823892544650238,
+      "largest_output_channels": [
+        198,
+        196,
+        175,
+        168,
+        187,
+        337,
+        115,
+        452
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.40449086466466244,
+          "predicted_relative_output_RMSE_T8192": 0.02120265646094297,
+          "top_contributing_inputs": [
+            308,
+            231,
+            229,
+            174,
+            183,
+            217,
+            130,
+            188
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.3550711182561198,
+          "predicted_relative_output_RMSE_T8192": 0.01986522973205619,
+          "top_contributing_inputs": [
+            308,
+            517,
+            168,
+            443,
+            545,
+            670,
+            529,
+            296
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        }
+      },
+      "preference": "transposed_matrix"
+    },
+    {
+      "module": "distilbert.transformer.layer.0.attention.k_lin",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        768
+      ],
+      "output_RMS": 1.2696111244818467,
+      "largest_output_channels": [
+        176,
+        672,
+        337,
+        575,
+        386,
+        104,
+        182,
+        115
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.4272635528654363,
+          "predicted_relative_output_RMSE_T8192": 0.01857789887821575,
+          "top_contributing_inputs": [
+            308,
+            231,
+            229,
+            617,
+            183,
+            174,
+            217,
+            184
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.3488596981392058,
+          "predicted_relative_output_RMSE_T8192": 0.016787037910912964,
+          "top_contributing_inputs": [
+            308,
+            517,
+            443,
+            541,
+            168,
+            529,
+            545,
+            121
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        }
+      },
+      "preference": "transposed_matrix"
+    },
+    {
+      "module": "distilbert.transformer.layer.0.attention.v_lin",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        768
+      ],
+      "output_RMS": 0.8203277239156239,
+      "largest_output_channels": [
+        423,
+        301,
+        266,
+        256,
+        46,
+        302,
+        18,
+        588
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.22244316179363233,
+          "predicted_relative_output_RMSE_T8192": 0.020746341883281838,
+          "top_contributing_inputs": [
+            308,
+            617,
+            663,
+            337,
+            470,
+            231,
+            553,
+            101
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.2054426196310679,
+          "predicted_relative_output_RMSE_T8192": 0.019937801726404518,
+          "top_contributing_inputs": [
+            730,
+            339,
+            245,
+            20,
+            743,
+            724,
+            177,
+            696
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        }
+      },
+      "preference": "transposed_matrix"
+    },
+    {
+      "module": "distilbert.transformer.layer.0.attention.out_lin",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        768
+      ],
+      "output_RMS": 0.6030923828098028,
+      "largest_output_channels": [
+        121,
+        216,
+        545,
+        529,
+        168,
+        482,
+        308,
+        517
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.08740008577996514,
+          "predicted_relative_output_RMSE_T8192": 0.017688519152033278,
+          "top_contributing_inputs": [
+            697,
+            256,
+            674,
+            302,
+            208,
+            233,
+            246,
+            245
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.12889361580925818,
+          "predicted_relative_output_RMSE_T8192": 0.021480839501634076,
+          "top_contributing_inputs": [
+            256,
+            302,
+            246,
+            18,
+            674,
+            245,
+            531,
+            697
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        }
+      },
+      "preference": "storage_flat"
+    },
+    {
+      "module": "distilbert.transformer.layer.0.sa_layer_norm",
+      "type": "LayerNorm",
+      "observations": 12847,
+      "shape": [
+        768
+      ],
+      "output_RMS": 1.1641260043345052,
+      "largest_output_channels": [
+        308,
+        121,
+        168,
+        545,
+        541,
+        145,
+        482,
+        139
+      ]
+    },
+    {
+      "module": "distilbert.transformer.layer.0.ffn.lin1",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        3072,
+        768
+      ],
+      "output_RMS": 2.2026759263119273,
+      "largest_output_channels": [
+        1788,
+        44,
+        334,
+        2172,
+        2326,
+        1219,
+        1237,
+        2165
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 4.324530896854125,
+          "predicted_relative_output_RMSE_T8192": 0.017033672429564353,
+          "top_contributing_inputs": [
+            308,
+            121,
+            168,
+            545,
+            541,
+            145,
+            139,
+            482
+          ],
+          "range_groups": 18432,
+          "control_range_state_bits": 31850496
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 2.445641301320057,
+          "predicted_relative_output_RMSE_T8192": 0.01280958822014246,
+          "top_contributing_inputs": [
+            308,
+            121,
+            168,
+            545,
+            482,
+            529,
+            216,
+            541
+          ],
+          "range_groups": 18432,
+          "control_range_state_bits": 31850496
+        }
+      },
+      "preference": "transposed_matrix"
+    },
+    {
+      "module": "distilbert.transformer.layer.0.ffn.lin2",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        3072
+      ],
+      "output_RMS": 0.5486818884213863,
+      "largest_output_channels": [
+        381,
+        145,
+        308,
+        541,
+        175,
+        654,
+        92,
+        517
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.24605959167344052,
+          "predicted_relative_output_RMSE_T8192": 0.032622625817814846,
+          "top_contributing_inputs": [
+            272,
+            1411,
+            2040,
+            684,
+            1615,
+            1706,
+            1181,
+            2236
+          ],
+          "range_groups": 18432,
+          "control_range_state_bits": 31850496
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.2679121018753014,
+          "predicted_relative_output_RMSE_T8192": 0.03404042166136097,
+          "top_contributing_inputs": [
+            272,
+            1706,
+            1615,
+            639,
+            1411,
+            2056,
+            2040,
+            2794
+          ],
+          "range_groups": 18432,
+          "control_range_state_bits": 31850496
+        }
+      },
+      "preference": "storage_flat"
+    },
+    {
+      "module": "distilbert.transformer.layer.0.output_layer_norm",
+      "type": "LayerNorm",
+      "observations": 12847,
+      "shape": [
+        768
+      ],
+      "output_RMS": 0.6630188895079011,
+      "largest_output_channels": [
+        308,
+        121,
+        545,
+        168,
+        733,
+        539,
+        529,
+        650
+      ]
+    },
+    {
+      "module": "distilbert.transformer.layer.1.attention.q_lin",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        768
+      ],
+      "output_RMS": 1.6143743585786525,
+      "largest_output_channels": [
+        76,
+        588,
+        616,
+        34,
+        276,
+        12,
+        626,
+        18
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.67863005936347,
+          "predicted_relative_output_RMSE_T8192": 0.018413302385180606,
+          "top_contributing_inputs": [
+            308,
+            121,
+            168,
+            545,
+            733,
+            48,
+            186,
+            101
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.6820286699292857,
+          "predicted_relative_output_RMSE_T8192": 0.018459352135203128,
+          "top_contributing_inputs": [
+            308,
+            168,
+            545,
+            121,
+            733,
+            139,
+            443,
+            53
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        }
+      },
+      "preference": "storage_flat"
+    },
+    {
+      "module": "distilbert.transformer.layer.1.attention.k_lin",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        768
+      ],
+      "output_RMS": 1.6376725468029756,
+      "largest_output_channels": [
+        588,
+        45,
+        637,
+        2,
+        10,
+        626,
+        616,
+        614
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.6712326168550176,
+          "predicted_relative_output_RMSE_T8192": 0.018052146407512765,
+          "top_contributing_inputs": [
+            308,
+            121,
+            168,
+            545,
+            186,
+            733,
+            48,
+            174
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.7382655546604627,
+          "predicted_relative_output_RMSE_T8192": 0.018932092782626694,
+          "top_contributing_inputs": [
+            308,
+            121,
+            168,
+            545,
+            139,
+            733,
+            443,
+            53
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        }
+      },
+      "preference": "storage_flat"
+    },
+    {
+      "module": "distilbert.transformer.layer.1.attention.v_lin",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        768
+      ],
+      "output_RMS": 0.7872029537001001,
+      "largest_output_channels": [
+        664,
+        240,
+        195,
+        4,
+        588,
+        410,
+        340,
+        198
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.24700380515011203,
+          "predicted_relative_output_RMSE_T8192": 0.022781614406946895,
+          "top_contributing_inputs": [
+            308,
+            121,
+            545,
+            168,
+            733,
+            539,
+            48,
+            650
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.22945037840971527,
+          "predicted_relative_output_RMSE_T8192": 0.02195720538109375,
+          "top_contributing_inputs": [
+            308,
+            121,
+            545,
+            168,
+            529,
+            539,
+            733,
+            216
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        }
+      },
+      "preference": "transposed_matrix"
+    },
+    {
+      "module": "distilbert.transformer.layer.1.attention.out_lin",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        768
+      ],
+      "output_RMS": 0.5150329198679573,
+      "largest_output_channels": [
+        545,
+        168,
+        308,
+        121,
+        381,
+        345,
+        145,
+        577
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.09889481004993689,
+          "predicted_relative_output_RMSE_T8192": 0.022032874015142947,
+          "top_contributing_inputs": [
+            588,
+            4,
+            44,
+            599,
+            396,
+            664,
+            595,
+            114
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.13177635666530677,
+          "predicted_relative_output_RMSE_T8192": 0.025433325463875882,
+          "top_contributing_inputs": [
+            4,
+            588,
+            599,
+            44,
+            664,
+            114,
+            410,
+            240
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        }
+      },
+      "preference": "storage_flat"
+    },
+    {
+      "module": "distilbert.transformer.layer.1.sa_layer_norm",
+      "type": "LayerNorm",
+      "observations": 12847,
+      "shape": [
+        768
+      ],
+      "output_RMS": 0.9938326021781896,
+      "largest_output_channels": [
+        308,
+        545,
+        168,
+        121,
+        92,
+        145,
+        733,
+        539
+      ]
+    },
+    {
+      "module": "distilbert.transformer.layer.1.ffn.lin1",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        3072,
+        768
+      ],
+      "output_RMS": 2.084491982188716,
+      "largest_output_channels": [
+        1072,
+        837,
+        2813,
+        22,
+        670,
+        312,
+        2505,
+        1436
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 3.628804438584513,
+          "predicted_relative_output_RMSE_T8192": 0.01648811270340043,
+          "top_contributing_inputs": [
+            308,
+            545,
+            168,
+            121,
+            92,
+            145,
+            733,
+            539
+          ],
+          "range_groups": 18432,
+          "control_range_state_bits": 31850496
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 2.227934340121678,
+          "predicted_relative_output_RMSE_T8192": 0.012919340931592275,
+          "top_contributing_inputs": [
+            308,
+            545,
+            168,
+            121,
+            92,
+            145,
+            733,
+            345
+          ],
+          "range_groups": 18432,
+          "control_range_state_bits": 31850496
+        }
+      },
+      "preference": "transposed_matrix"
+    },
+    {
+      "module": "distilbert.transformer.layer.1.ffn.lin2",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        3072
+      ],
+      "output_RMS": 0.6212613771277058,
+      "largest_output_channels": [
+        381,
+        308,
+        145,
+        541,
+        345,
+        215,
+        92,
+        159
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.17007350032502844,
+          "predicted_relative_output_RMSE_T8192": 0.023953190035038624,
+          "top_contributing_inputs": [
+            1072,
+            1085,
+            1642,
+            447,
+            514,
+            95,
+            2206,
+            2004
+          ],
+          "range_groups": 18432,
+          "control_range_state_bits": 31850496
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.1575895704684171,
+          "predicted_relative_output_RMSE_T8192": 0.023057317022078257,
+          "top_contributing_inputs": [
+            1072,
+            1642,
+            1632,
+            1085,
+            2997,
+            2264,
+            514,
+            95
+          ],
+          "range_groups": 18432,
+          "control_range_state_bits": 31850496
+        }
+      },
+      "preference": "transposed_matrix"
+    },
+    {
+      "module": "distilbert.transformer.layer.1.output_layer_norm",
+      "type": "LayerNorm",
+      "observations": 12847,
+      "shape": [
+        768
+      ],
+      "output_RMS": 0.7259737884521552,
+      "largest_output_channels": [
+        308,
+        545,
+        168,
+        121,
+        733,
+        539,
+        186,
+        381
+      ]
+    },
+    {
+      "module": "distilbert.transformer.layer.2.attention.q_lin",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        768
+      ],
+      "output_RMS": 1.4567310887319682,
+      "largest_output_channels": [
+        715,
+        361,
+        560,
+        687,
+        340,
+        625,
+        450,
+        647
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.5325798535726654,
+          "predicted_relative_output_RMSE_T8192": 0.018077250166436964,
+          "top_contributing_inputs": [
+            308,
+            545,
+            168,
+            121,
+            733,
+            539,
+            186,
+            341
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.6134331399652402,
+          "predicted_relative_output_RMSE_T8192": 0.019400977787793146,
+          "top_contributing_inputs": [
+            308,
+            545,
+            381,
+            168,
+            121,
+            733,
+            539,
+            341
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        }
+      },
+      "preference": "storage_flat"
+    },
+    {
+      "module": "distilbert.transformer.layer.2.attention.k_lin",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        768
+      ],
+      "output_RMS": 1.5852181920639385,
+      "largest_output_channels": [
+        647,
+        715,
+        340,
+        361,
+        450,
+        342,
+        687,
+        560
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.5324874268373989,
+          "predicted_relative_output_RMSE_T8192": 0.016610588564099818,
+          "top_contributing_inputs": [
+            308,
+            545,
+            168,
+            121,
+            539,
+            733,
+            186,
+            287
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.564745919785375,
+          "predicted_relative_output_RMSE_T8192": 0.01710633186900666,
+          "top_contributing_inputs": [
+            308,
+            545,
+            121,
+            168,
+            381,
+            733,
+            539,
+            304
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        }
+      },
+      "preference": "storage_flat"
+    },
+    {
+      "module": "distilbert.transformer.layer.2.attention.v_lin",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        768
+      ],
+      "output_RMS": 0.9011030079820842,
+      "largest_output_channels": [
+        97,
+        595,
+        605,
+        670,
+        250,
+        494,
+        755,
+        597
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.435606147464849,
+          "predicted_relative_output_RMSE_T8192": 0.02642968278174032,
+          "top_contributing_inputs": [
+            308,
+            545,
+            168,
+            121,
+            733,
+            539,
+            186,
+            381
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.3490115165439489,
+          "predicted_relative_output_RMSE_T8192": 0.023657281058348464,
+          "top_contributing_inputs": [
+            308,
+            545,
+            121,
+            168,
+            107,
+            301,
+            374,
+            186
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        }
+      },
+      "preference": "transposed_matrix"
+    },
+    {
+      "module": "distilbert.transformer.layer.2.attention.out_lin",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        768
+      ],
+      "output_RMS": 0.4907340243151536,
+      "largest_output_channels": [
+        308,
+        545,
+        168,
+        443,
+        353,
+        215,
+        121,
+        614
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.10659445048064531,
+          "predicted_relative_output_RMSE_T8192": 0.024007145097398055,
+          "top_contributing_inputs": [
+            97,
+            670,
+            494,
+            338,
+            755,
+            235,
+            250,
+            219
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.13239110916111546,
+          "predicted_relative_output_RMSE_T8192": 0.02675485675597156,
+          "top_contributing_inputs": [
+            97,
+            670,
+            494,
+            755,
+            250,
+            656,
+            219,
+            235
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        }
+      },
+      "preference": "storage_flat"
+    },
+    {
+      "module": "distilbert.transformer.layer.2.sa_layer_norm",
+      "type": "LayerNorm",
+      "observations": 12847,
+      "shape": [
+        768
+      ],
+      "output_RMS": 0.935551201464641,
+      "largest_output_channels": [
+        308,
+        381,
+        545,
+        168,
+        92,
+        539,
+        121,
+        733
+      ]
+    },
+    {
+      "module": "distilbert.transformer.layer.2.ffn.lin1",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        3072,
+        768
+      ],
+      "output_RMS": 2.060916628631262,
+      "largest_output_channels": [
+        747,
+        2184,
+        173,
+        2526,
+        2918,
+        2030,
+        1635,
+        2783
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 3.3788533007523074,
+          "predicted_relative_output_RMSE_T8192": 0.016092133957968022,
+          "top_contributing_inputs": [
+            308,
+            381,
+            545,
+            168,
+            92,
+            539,
+            121,
+            733
+          ],
+          "range_groups": 18432,
+          "control_range_state_bits": 31850496
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 2.357110683444102,
+          "predicted_relative_output_RMSE_T8192": 0.013440609366206103,
+          "top_contributing_inputs": [
+            308,
+            381,
+            545,
+            168,
+            121,
+            92,
+            539,
+            733
+          ],
+          "range_groups": 18432,
+          "control_range_state_bits": 31850496
+        }
+      },
+      "preference": "transposed_matrix"
+    },
+    {
+      "module": "distilbert.transformer.layer.2.ffn.lin2",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        3072
+      ],
+      "output_RMS": 0.7478865261874049,
+      "largest_output_channels": [
+        381,
+        308,
+        145,
+        92,
+        124,
+        482,
+        168,
+        461
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.18563067760581264,
+          "predicted_relative_output_RMSE_T8192": 0.02078780124695872,
+          "top_contributing_inputs": [
+            747,
+            457,
+            1843,
+            1057,
+            1863,
+            2159,
+            2216,
+            2362
+          ],
+          "range_groups": 18432,
+          "control_range_state_bits": 31850496
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.1587577681171313,
+          "predicted_relative_output_RMSE_T8192": 0.01922432824789742,
+          "top_contributing_inputs": [
+            747,
+            1843,
+            2159,
+            457,
+            1130,
+            384,
+            1057,
+            2997
+          ],
+          "range_groups": 18432,
+          "control_range_state_bits": 31850496
+        }
+      },
+      "preference": "transposed_matrix"
+    },
+    {
+      "module": "distilbert.transformer.layer.2.output_layer_norm",
+      "type": "LayerNorm",
+      "observations": 12847,
+      "shape": [
+        768
+      ],
+      "output_RMS": 0.7568840576623967,
+      "largest_output_channels": [
+        308,
+        545,
+        539,
+        381,
+        733,
+        121,
+        186,
+        168
+      ]
+    },
+    {
+      "module": "distilbert.transformer.layer.3.attention.q_lin",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        768
+      ],
+      "output_RMS": 1.5279888353646622,
+      "largest_output_channels": [
+        437,
+        719,
+        551,
+        182,
+        460,
+        461,
+        91,
+        651
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.6111241404751929,
+          "predicted_relative_output_RMSE_T8192": 0.018461370097413617,
+          "top_contributing_inputs": [
+            308,
+            545,
+            539,
+            381,
+            733,
+            186,
+            121,
+            168
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.6138597673138861,
+          "predicted_relative_output_RMSE_T8192": 0.018502644058084425,
+          "top_contributing_inputs": [
+            308,
+            545,
+            381,
+            539,
+            733,
+            121,
+            168,
+            186
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        }
+      },
+      "preference": "storage_flat"
+    },
+    {
+      "module": "distilbert.transformer.layer.3.attention.k_lin",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        768
+      ],
+      "output_RMS": 1.7192754856415515,
+      "largest_output_channels": [
+        182,
+        91,
+        651,
+        437,
+        639,
+        551,
+        239,
+        628
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.6215414296754341,
+          "predicted_relative_output_RMSE_T8192": 0.016546607317168702,
+          "top_contributing_inputs": [
+            308,
+            545,
+            381,
+            539,
+            733,
+            186,
+            121,
+            333
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.6228360745390678,
+          "predicted_relative_output_RMSE_T8192": 0.01656383129893536,
+          "top_contributing_inputs": [
+            308,
+            545,
+            381,
+            733,
+            539,
+            341,
+            304,
+            121
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        }
+      },
+      "preference": "storage_flat"
+    },
+    {
+      "module": "distilbert.transformer.layer.3.attention.v_lin",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        768
+      ],
+      "output_RMS": 0.9377136209415712,
+      "largest_output_channels": [
+        13,
+        272,
+        7,
+        503,
+        719,
+        157,
+        51,
+        565
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.5517359244788678,
+          "predicted_relative_output_RMSE_T8192": 0.028583459882276393,
+          "top_contributing_inputs": [
+            308,
+            545,
+            539,
+            381,
+            733,
+            186,
+            168,
+            121
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.4389993673956513,
+          "predicted_relative_output_RMSE_T8192": 0.02549653202012288,
+          "top_contributing_inputs": [
+            308,
+            545,
+            121,
+            539,
+            186,
+            523,
+            733,
+            518
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        }
+      },
+      "preference": "transposed_matrix"
+    },
+    {
+      "module": "distilbert.transformer.layer.3.attention.out_lin",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        768
+      ],
+      "output_RMS": 0.6620308839559921,
+      "largest_output_channels": [
+        308,
+        62,
+        654,
+        404,
+        699,
+        482,
+        353,
+        225
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.16913791669652883,
+          "predicted_relative_output_RMSE_T8192": 0.022416181202161004,
+          "top_contributing_inputs": [
+            272,
+            7,
+            13,
+            24,
+            51,
+            25,
+            91,
+            157
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.1916087507818215,
+          "predicted_relative_output_RMSE_T8192": 0.023858811710819546,
+          "top_contributing_inputs": [
+            13,
+            24,
+            272,
+            7,
+            157,
+            91,
+            49,
+            530
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        }
+      },
+      "preference": "storage_flat"
+    },
+    {
+      "module": "distilbert.transformer.layer.3.sa_layer_norm",
+      "type": "LayerNorm",
+      "observations": 12847,
+      "shape": [
+        768
+      ],
+      "output_RMS": 0.857823252473615,
+      "largest_output_channels": [
+        381,
+        308,
+        545,
+        539,
+        733,
+        304,
+        586,
+        168
+      ]
+    },
+    {
+      "module": "distilbert.transformer.layer.3.ffn.lin1",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        3072,
+        768
+      ],
+      "output_RMS": 1.710927023894366,
+      "largest_output_channels": [
+        3001,
+        2778,
+        1071,
+        18,
+        2220,
+        570,
+        2918,
+        1366
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 2.463514691053858,
+          "predicted_relative_output_RMSE_T8192": 0.01655142866434804,
+          "top_contributing_inputs": [
+            381,
+            308,
+            545,
+            539,
+            733,
+            304,
+            586,
+            168
+          ],
+          "range_groups": 18432,
+          "control_range_state_bits": 31850496
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 1.7578643384069983,
+          "predicted_relative_output_RMSE_T8192": 0.01398139759812892,
+          "top_contributing_inputs": [
+            381,
+            308,
+            545,
+            539,
+            168,
+            92,
+            121,
+            23
+          ],
+          "range_groups": 18432,
+          "control_range_state_bits": 31850496
+        }
+      },
+      "preference": "transposed_matrix"
+    },
+    {
+      "module": "distilbert.transformer.layer.3.ffn.lin2",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        3072
+      ],
+      "output_RMS": 0.45524525941218574,
+      "largest_output_channels": [
+        381,
+        180,
+        225,
+        123,
+        720,
+        517,
+        573,
+        215
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.16600335313428727,
+          "predicted_relative_output_RMSE_T8192": 0.032294784298946055,
+          "top_contributing_inputs": [
+            405,
+            689,
+            2041,
+            660,
+            182,
+            1754,
+            262,
+            162
+          ],
+          "range_groups": 18432,
+          "control_range_state_bits": 31850496
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.14472276592470718,
+          "predicted_relative_output_RMSE_T8192": 0.030153823259443418,
+          "top_contributing_inputs": [
+            1902,
+            2220,
+            2041,
+            1754,
+            294,
+            405,
+            689,
+            658
+          ],
+          "range_groups": 18432,
+          "control_range_state_bits": 31850496
+        }
+      },
+      "preference": "transposed_matrix"
+    },
+    {
+      "module": "distilbert.transformer.layer.3.output_layer_norm",
+      "type": "LayerNorm",
+      "observations": 12847,
+      "shape": [
+        768
+      ],
+      "output_RMS": 0.758361477940631,
+      "largest_output_channels": [
+        308,
+        381,
+        545,
+        539,
+        733,
+        650,
+        186,
+        602
+      ]
+    },
+    {
+      "module": "distilbert.transformer.layer.4.attention.q_lin",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        768
+      ],
+      "output_RMS": 1.35053284198746,
+      "largest_output_channels": [
+        23,
+        582,
+        219,
+        273,
+        349,
+        179,
+        97,
+        662
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.5904317466365604,
+          "predicted_relative_output_RMSE_T8192": 0.020530479404958255,
+          "top_contributing_inputs": [
+            308,
+            381,
+            545,
+            539,
+            733,
+            650,
+            186,
+            602
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.5457728040541052,
+          "predicted_relative_output_RMSE_T8192": 0.019738774504695415,
+          "top_contributing_inputs": [
+            308,
+            381,
+            545,
+            539,
+            733,
+            23,
+            168,
+            304
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        }
+      },
+      "preference": "transposed_matrix"
+    },
+    {
+      "module": "distilbert.transformer.layer.4.attention.k_lin",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        768
+      ],
+      "output_RMS": 1.3768360923618956,
+      "largest_output_channels": [
+        179,
+        273,
+        97,
+        219,
+        162,
+        108,
+        718,
+        166
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.63425893940543,
+          "predicted_relative_output_RMSE_T8192": 0.020872306638097006,
+          "top_contributing_inputs": [
+            308,
+            545,
+            381,
+            539,
+            733,
+            287,
+            269,
+            333
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.6683368972797716,
+          "predicted_relative_output_RMSE_T8192": 0.021425692467446886,
+          "top_contributing_inputs": [
+            381,
+            308,
+            545,
+            539,
+            733,
+            304,
+            341,
+            23
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        }
+      },
+      "preference": "storage_flat"
+    },
+    {
+      "module": "distilbert.transformer.layer.4.attention.v_lin",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        768
+      ],
+      "output_RMS": 0.9893489696866816,
+      "largest_output_channels": [
+        446,
+        613,
+        532,
+        720,
+        609,
+        558,
+        756,
+        535
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.5666716378581365,
+          "predicted_relative_output_RMSE_T8192": 0.027455896084026578,
+          "top_contributing_inputs": [
+            308,
+            381,
+            545,
+            539,
+            733,
+            186,
+            650,
+            23
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.46452847256174185,
+          "predicted_relative_output_RMSE_T8192": 0.024858564927919016,
+          "top_contributing_inputs": [
+            308,
+            539,
+            545,
+            733,
+            602,
+            650,
+            523,
+            341
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        }
+      },
+      "preference": "transposed_matrix"
+    },
+    {
+      "module": "distilbert.transformer.layer.4.attention.out_lin",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        768
+      ],
+      "output_RMS": 0.6463660614695275,
+      "largest_output_channels": [
+        308,
+        594,
+        609,
+        389,
+        670,
+        401,
+        273,
+        467
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.16311550838265587,
+          "predicted_relative_output_RMSE_T8192": 0.02254698479641107,
+          "top_contributing_inputs": [
+            446,
+            320,
+            720,
+            532,
+            345,
+            334,
+            756,
+            479
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.17952204553999235,
+          "predicted_relative_output_RMSE_T8192": 0.023653735657135768,
+          "top_contributing_inputs": [
+            446,
+            320,
+            532,
+            345,
+            720,
+            334,
+            180,
+            324
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        }
+      },
+      "preference": "storage_flat"
+    },
+    {
+      "module": "distilbert.transformer.layer.4.sa_layer_norm",
+      "type": "LayerNorm",
+      "observations": 12847,
+      "shape": [
+        768
+      ],
+      "output_RMS": 0.8132844856039544,
+      "largest_output_channels": [
+        381,
+        308,
+        539,
+        123,
+        720,
+        180,
+        545,
+        349
+      ]
+    },
+    {
+      "module": "distilbert.transformer.layer.4.ffn.lin1",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        3072,
+        768
+      ],
+      "output_RMS": 1.8923833115579607,
+      "largest_output_channels": [
+        2189,
+        2184,
+        2958,
+        102,
+        828,
+        2637,
+        1646,
+        415
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 2.07136127875511,
+          "predicted_relative_output_RMSE_T8192": 0.013721709211555516,
+          "top_contributing_inputs": [
+            381,
+            308,
+            539,
+            123,
+            720,
+            180,
+            545,
+            349
+          ],
+          "range_groups": 18432,
+          "control_range_state_bits": 31850496
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 1.8127901123785117,
+          "predicted_relative_output_RMSE_T8192": 0.012836719362432953,
+          "top_contributing_inputs": [
+            308,
+            381,
+            720,
+            180,
+            539,
+            123,
+            545,
+            349
+          ],
+          "range_groups": 18432,
+          "control_range_state_bits": 31850496
+        }
+      },
+      "preference": "transposed_matrix"
+    },
+    {
+      "module": "distilbert.transformer.layer.4.ffn.lin2",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        3072
+      ],
+      "output_RMS": 3.3470538270626897,
+      "largest_output_channels": [
+        180,
+        720,
+        123,
+        381,
+        225,
+        526,
+        249,
+        389
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.22960433616068834,
+          "predicted_relative_output_RMSE_T8192": 0.005165908815501277,
+          "top_contributing_inputs": [
+            2189,
+            2958,
+            828,
+            485,
+            667,
+            1646,
+            295,
+            2184
+          ],
+          "range_groups": 18432,
+          "control_range_state_bits": 31850496
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.7342334303471152,
+          "predicted_relative_output_RMSE_T8192": 0.009237910929044624,
+          "top_contributing_inputs": [
+            2189,
+            2958,
+            2184,
+            828,
+            1480,
+            1646,
+            295,
+            997
+          ],
+          "range_groups": 18432,
+          "control_range_state_bits": 31850496
+        }
+      },
+      "preference": "storage_flat"
+    },
+    {
+      "module": "distilbert.transformer.layer.4.output_layer_norm",
+      "type": "LayerNorm",
+      "observations": 12847,
+      "shape": [
+        768
+      ],
+      "output_RMS": 0.7514893944639452,
+      "largest_output_channels": [
+        308,
+        539,
+        381,
+        545,
+        68,
+        389,
+        349,
+        650
+      ]
+    },
+    {
+      "module": "distilbert.transformer.layer.5.attention.q_lin",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        768
+      ],
+      "output_RMS": 1.2671414561695127,
+      "largest_output_channels": [
+        268,
+        65,
+        583,
+        427,
+        580,
+        656,
+        213,
+        303
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.617075368883296,
+          "predicted_relative_output_RMSE_T8192": 0.022369866694860952,
+          "top_contributing_inputs": [
+            308,
+            539,
+            381,
+            545,
+            650,
+            253,
+            68,
+            389
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.5047439773374892,
+          "predicted_relative_output_RMSE_T8192": 0.02023158291100112,
+          "top_contributing_inputs": [
+            308,
+            381,
+            180,
+            539,
+            545,
+            733,
+            304,
+            68
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        }
+      },
+      "preference": "transposed_matrix"
+    },
+    {
+      "module": "distilbert.transformer.layer.5.attention.k_lin",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        768
+      ],
+      "output_RMS": 1.3090209785661575,
+      "largest_output_channels": [
+        741,
+        427,
+        128,
+        620,
+        213,
+        65,
+        716,
+        580
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.5891992729459871,
+          "predicted_relative_output_RMSE_T8192": 0.021159426106919708,
+          "top_contributing_inputs": [
+            308,
+            539,
+            381,
+            545,
+            68,
+            389,
+            349,
+            650
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.5285133622762606,
+          "predicted_relative_output_RMSE_T8192": 0.02004014083539087,
+          "top_contributing_inputs": [
+            308,
+            381,
+            539,
+            389,
+            545,
+            349,
+            304,
+            23
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        }
+      },
+      "preference": "transposed_matrix"
+    },
+    {
+      "module": "distilbert.transformer.layer.5.attention.v_lin",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        768
+      ],
+      "output_RMS": 0.9789430137378632,
+      "largest_output_channels": [
+        183,
+        582,
+        671,
+        722,
+        28,
+        645,
+        437,
+        223
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.5897113623722093,
+          "predicted_relative_output_RMSE_T8192": 0.028306210139800295,
+          "top_contributing_inputs": [
+            308,
+            539,
+            381,
+            545,
+            68,
+            349,
+            389,
+            650
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.46242835870089827,
+          "predicted_relative_output_RMSE_T8192": 0.02506595227291251,
+          "top_contributing_inputs": [
+            308,
+            539,
+            650,
+            693,
+            389,
+            23,
+            733,
+            341
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        }
+      },
+      "preference": "transposed_matrix"
+    },
+    {
+      "module": "distilbert.transformer.layer.5.attention.out_lin",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        768
+      ],
+      "output_RMS": 0.9695119130601336,
+      "largest_output_channels": [
+        308,
+        253,
+        667,
+        381,
+        376,
+        273,
+        520,
+        339
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.2445101728246582,
+          "predicted_relative_output_RMSE_T8192": 0.018404105170083868,
+          "top_contributing_inputs": [
+            183,
+            671,
+            437,
+            645,
+            722,
+            669,
+            654,
+            683
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.24447240989558547,
+          "predicted_relative_output_RMSE_T8192": 0.01840268392092589,
+          "top_contributing_inputs": [
+            183,
+            671,
+            722,
+            437,
+            645,
+            669,
+            406,
+            288
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        }
+      },
+      "preference": "transposed_matrix"
+    },
+    {
+      "module": "distilbert.transformer.layer.5.sa_layer_norm",
+      "type": "LayerNorm",
+      "observations": 12847,
+      "shape": [
+        768
+      ],
+      "output_RMS": 0.8831985245698767,
+      "largest_output_channels": [
+        308,
+        180,
+        273,
+        667,
+        720,
+        752,
+        68,
+        109
+      ]
+    },
+    {
+      "module": "distilbert.transformer.layer.5.ffn.lin1",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        3072,
+        768
+      ],
+      "output_RMS": 1.5982070336575036,
+      "largest_output_channels": [
+        2120,
+        2546,
+        1068,
+        2555,
+        14,
+        877,
+        1961,
+        1137
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 2.0819650420861153,
+          "predicted_relative_output_RMSE_T8192": 0.01628894936231613,
+          "top_contributing_inputs": [
+            308,
+            180,
+            273,
+            667,
+            720,
+            752,
+            68,
+            109
+          ],
+          "range_groups": 18432,
+          "control_range_state_bits": 31850496
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 1.5738449694925984,
+          "predicted_relative_output_RMSE_T8192": 0.014162415504349114,
+          "top_contributing_inputs": [
+            180,
+            308,
+            720,
+            273,
+            667,
+            253,
+            68,
+            172
+          ],
+          "range_groups": 18432,
+          "control_range_state_bits": 31850496
+        }
+      },
+      "preference": "transposed_matrix"
+    },
+    {
+      "module": "distilbert.transformer.layer.5.ffn.lin2",
+      "type": "Linear",
+      "observations": 12847,
+      "shape": [
+        768,
+        3072
+      ],
+      "output_RMS": 0.44178012075196627,
+      "largest_output_channels": [
+        396,
+        79,
+        308,
+        205,
+        255,
+        152,
+        203,
+        650
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.10502559371917851,
+          "predicted_relative_output_RMSE_T8192": 0.026470417615245944,
+          "top_contributing_inputs": [
+            2555,
+            2072,
+            93,
+            1205,
+            862,
+            707,
+            2211,
+            793
+          ],
+          "range_groups": 18432,
+          "control_range_state_bits": 31850496
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.11550649069251923,
+          "predicted_relative_output_RMSE_T8192": 0.0277598052573164,
+          "top_contributing_inputs": [
+            93,
+            2555,
+            2072,
+            2211,
+            1815,
+            1205,
+            862,
+            707
+          ],
+          "range_groups": 18432,
+          "control_range_state_bits": 31850496
+        }
+      },
+      "preference": "storage_flat"
+    },
+    {
+      "module": "distilbert.transformer.layer.5.output_layer_norm",
+      "type": "LayerNorm",
+      "observations": 12847,
+      "shape": [
+        768
+      ],
+      "output_RMS": 0.5605455932701737,
+      "largest_output_channels": [
+        308,
+        180,
+        333,
+        520,
+        65,
+        253,
+        720,
+        401
+      ]
+    },
+    {
+      "module": "pre_classifier",
+      "type": "Linear",
+      "observations": 64,
+      "shape": [
+        768,
+        768
+      ],
+      "output_RMS": 0.6610764012879181,
+      "largest_output_channels": [
+        550,
+        65,
+        624,
+        718,
+        10,
+        681,
+        478,
+        146
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.0543036340333895,
+          "predicted_relative_output_RMSE_T8192": 0.0127198556456131,
+          "top_contributing_inputs": [
+            308,
+            255,
+            670,
+            46,
+            333,
+            461,
+            415,
+            401
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.054724411976016185,
+          "predicted_relative_output_RMSE_T8192": 0.012769041180417943,
+          "top_contributing_inputs": [
+            308,
+            333,
+            255,
+            46,
+            217,
+            670,
+            520,
+            415
+          ],
+          "range_groups": 4608,
+          "control_range_state_bits": 7962624
+        }
+      },
+      "preference": "storage_flat"
+    },
+    {
+      "module": "classifier",
+      "type": "Linear",
+      "observations": 64,
+      "shape": [
+        2,
+        768
+      ],
+      "output_RMS": 3.2690663980913857,
+      "largest_output_channels": [
+        0,
+        1
+      ],
+      "variants": {
+        "storage_flat": {
+          "predicted_sum_output_variance_T8192": 0.00013724901193277631,
+          "predicted_relative_output_RMSE_T8192": 0.00253405404956154,
+          "top_contributing_inputs": [
+            550,
+            624,
+            632,
+            681,
+            519,
+            65,
+            80,
+            651
+          ],
+          "range_groups": 12,
+          "control_range_state_bits": 20736
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_T8192": 0.00013077429582562832,
+          "predicted_relative_output_RMSE_T8192": 0.002473560035959489,
+          "top_contributing_inputs": [
+            550,
+            519,
+            681,
+            19,
+            632,
+            555,
+            624,
+            10
+          ],
+          "range_groups": 12,
+          "control_range_state_bits": 20736
+        }
+      },
+      "preference": "transposed_matrix"
+    }
+  ],
+  "preferences": {
+    "distilbert.embeddings.word_embeddings.weight": "transposed_matrix",
+    "distilbert.embeddings.position_embeddings.weight": "transposed_matrix",
+    "distilbert.transformer.layer.0.attention.q_lin.weight": "transposed_matrix",
+    "distilbert.transformer.layer.0.attention.k_lin.weight": "transposed_matrix",
+    "distilbert.transformer.layer.0.attention.v_lin.weight": "transposed_matrix",
+    "distilbert.transformer.layer.0.attention.out_lin.weight": "storage_flat",
+    "distilbert.transformer.layer.0.ffn.lin1.weight": "transposed_matrix",
+    "distilbert.transformer.layer.0.ffn.lin2.weight": "storage_flat",
+    "distilbert.transformer.layer.1.attention.q_lin.weight": "storage_flat",
+    "distilbert.transformer.layer.1.attention.k_lin.weight": "storage_flat",
+    "distilbert.transformer.layer.1.attention.v_lin.weight": "transposed_matrix",
+    "distilbert.transformer.layer.1.attention.out_lin.weight": "storage_flat",
+    "distilbert.transformer.layer.1.ffn.lin1.weight": "transposed_matrix",
+    "distilbert.transformer.layer.1.ffn.lin2.weight": "transposed_matrix",
+    "distilbert.transformer.layer.2.attention.q_lin.weight": "storage_flat",
+    "distilbert.transformer.layer.2.attention.k_lin.weight": "storage_flat",
+    "distilbert.transformer.layer.2.attention.v_lin.weight": "transposed_matrix",
+    "distilbert.transformer.layer.2.attention.out_lin.weight": "storage_flat",
+    "distilbert.transformer.layer.2.ffn.lin1.weight": "transposed_matrix",
+    "distilbert.transformer.layer.2.ffn.lin2.weight": "transposed_matrix",
+    "distilbert.transformer.layer.3.attention.q_lin.weight": "storage_flat",
+    "distilbert.transformer.layer.3.attention.k_lin.weight": "storage_flat",
+    "distilbert.transformer.layer.3.attention.v_lin.weight": "transposed_matrix",
+    "distilbert.transformer.layer.3.attention.out_lin.weight": "storage_flat",
+    "distilbert.transformer.layer.3.ffn.lin1.weight": "transposed_matrix",
+    "distilbert.transformer.layer.3.ffn.lin2.weight": "transposed_matrix",
+    "distilbert.transformer.layer.4.attention.q_lin.weight": "transposed_matrix",
+    "distilbert.transformer.layer.4.attention.k_lin.weight": "storage_flat",
+    "distilbert.transformer.layer.4.attention.v_lin.weight": "transposed_matrix",
+    "distilbert.transformer.layer.4.attention.out_lin.weight": "storage_flat",
+    "distilbert.transformer.layer.4.ffn.lin1.weight": "transposed_matrix",
+    "distilbert.transformer.layer.4.ffn.lin2.weight": "storage_flat",
+    "distilbert.transformer.layer.5.attention.q_lin.weight": "transposed_matrix",
+    "distilbert.transformer.layer.5.attention.k_lin.weight": "transposed_matrix",
+    "distilbert.transformer.layer.5.attention.v_lin.weight": "transposed_matrix",
+    "distilbert.transformer.layer.5.attention.out_lin.weight": "transposed_matrix",
+    "distilbert.transformer.layer.5.ffn.lin1.weight": "transposed_matrix",
+    "distilbert.transformer.layer.5.ffn.lin2.weight": "storage_flat",
+    "pre_classifier.weight": "storage_flat",
+    "classifier.weight": "transposed_matrix"
+  },
+  "canonical_parameters": 104,
+  "unique_parameter_count": 66955010,
+  "channel_statistics_sha256": "c1e31490fb4748dd246fd8b732dc3c7bcd89bf0894e41e0be0b309e49f3299a9",
+  "scope": "Training-only activation/moment/range diagnostics. No labels consumed, no pbit draws, no task-quality or heldout claim. No GPU.",
+  "elapsed_seconds": 25.27287044003606
+}

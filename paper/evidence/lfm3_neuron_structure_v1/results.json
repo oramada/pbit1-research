@@ -1,0 +1,249 @@
+{
+  "status": "all24_block_baseline_activation_structures_measured",
+  "source_sha256": "5bb554b6643f997e9f1fac8f260cc90e318368adf3315595ed777f8d49522a39",
+  "training_result_sha256": "645a2b056e7793df1dc0a9317e7abd7ef77adf886ebabb3e816270ff710a1f4c",
+  "positions_per_layer": 8224,
+  "rows": [
+    {
+      "layer": 0,
+      "operator": "conv",
+      "max_to_median_neuron_RMS": 20.791863881036228,
+      "energy_participation_ratio": 47.90350528957269,
+      "max_uncentered_fourth_moment_ratio": 6.729316994770669,
+      "top64_error_fraction": 0.06565883918055976,
+      "top_error_mean_abs_activation_correlation": 0.0495654610390503,
+      "random_mean_abs_activation_correlation": 0.04279884808990831
+    },
+    {
+      "layer": 1,
+      "operator": "conv",
+      "max_to_median_neuron_RMS": 20.994665253208016,
+      "energy_participation_ratio": 53.46706802214166,
+      "max_uncentered_fourth_moment_ratio": 141.20650452637696,
+      "top64_error_fraction": 0.07370657802193455,
+      "top_error_mean_abs_activation_correlation": 0.056524204414811666,
+      "random_mean_abs_activation_correlation": 0.03729878243064976
+    },
+    {
+      "layer": 2,
+      "operator": "full_attention",
+      "max_to_median_neuron_RMS": 30.853037542830382,
+      "energy_participation_ratio": 17.80869633653904,
+      "max_uncentered_fourth_moment_ratio": 159.884080476835,
+      "top64_error_fraction": 0.09310336513888065,
+      "top_error_mean_abs_activation_correlation": 0.0775467102253877,
+      "random_mean_abs_activation_correlation": 0.03539517695867417
+    },
+    {
+      "layer": 3,
+      "operator": "conv",
+      "max_to_median_neuron_RMS": 22.49515533061256,
+      "energy_participation_ratio": 49.72242544590091,
+      "max_uncentered_fourth_moment_ratio": 154.02939273371584,
+      "top64_error_fraction": 0.08274141774350337,
+      "top_error_mean_abs_activation_correlation": 0.07175508174200042,
+      "random_mean_abs_activation_correlation": 0.04039999161748028
+    },
+    {
+      "layer": 4,
+      "operator": "sliding_attention",
+      "max_to_median_neuron_RMS": 31.146477254755677,
+      "energy_participation_ratio": 19.490546957056047,
+      "max_uncentered_fourth_moment_ratio": 177.092185819435,
+      "top64_error_fraction": 0.0856962565693687,
+      "top_error_mean_abs_activation_correlation": 0.0689751441821019,
+      "random_mean_abs_activation_correlation": 0.03883366029045546
+    },
+    {
+      "layer": 5,
+      "operator": "conv",
+      "max_to_median_neuron_RMS": 18.457793068103943,
+      "energy_participation_ratio": 79.79020930477546,
+      "max_uncentered_fourth_moment_ratio": 219.55320395669668,
+      "top64_error_fraction": 0.07565030053160043,
+      "top_error_mean_abs_activation_correlation": 0.07185791844336911,
+      "random_mean_abs_activation_correlation": 0.04195605206417915
+    },
+    {
+      "layer": 6,
+      "operator": "full_attention",
+      "max_to_median_neuron_RMS": 28.348437813285003,
+      "energy_participation_ratio": 24.599123879556185,
+      "max_uncentered_fourth_moment_ratio": 247.019668672879,
+      "top64_error_fraction": 0.1022902939552914,
+      "top_error_mean_abs_activation_correlation": 0.05569879501476061,
+      "random_mean_abs_activation_correlation": 0.041518842625885934
+    },
+    {
+      "layer": 7,
+      "operator": "conv",
+      "max_to_median_neuron_RMS": 25.615336936226253,
+      "energy_participation_ratio": 30.76618461093765,
+      "max_uncentered_fourth_moment_ratio": 209.5138524199546,
+      "top64_error_fraction": 0.09084663554348853,
+      "top_error_mean_abs_activation_correlation": 0.07122512785176403,
+      "random_mean_abs_activation_correlation": 0.03969082520168651
+    },
+    {
+      "layer": 8,
+      "operator": "sliding_attention",
+      "max_to_median_neuron_RMS": 30.64737691618228,
+      "energy_participation_ratio": 18.12345273027843,
+      "max_uncentered_fourth_moment_ratio": 254.42903153749123,
+      "top64_error_fraction": 0.09558570130765844,
+      "top_error_mean_abs_activation_correlation": 0.05314284467564882,
+      "random_mean_abs_activation_correlation": 0.03611492098677939
+    },
+    {
+      "layer": 9,
+      "operator": "conv",
+      "max_to_median_neuron_RMS": 18.693894383701966,
+      "energy_participation_ratio": 71.58420402840734,
+      "max_uncentered_fourth_moment_ratio": 254.5190535973296,
+      "top64_error_fraction": 0.08967393920579281,
+      "top_error_mean_abs_activation_correlation": 0.06037217138464116,
+      "random_mean_abs_activation_correlation": 0.039474394470582444
+    },
+    {
+      "layer": 10,
+      "operator": "full_attention",
+      "max_to_median_neuron_RMS": 32.88766373930846,
+      "energy_participation_ratio": 13.66783202890806,
+      "max_uncentered_fourth_moment_ratio": 246.44990226106597,
+      "top64_error_fraction": 0.09384286970641852,
+      "top_error_mean_abs_activation_correlation": 0.054247263857105536,
+      "random_mean_abs_activation_correlation": 0.039388114920882615
+    },
+    {
+      "layer": 11,
+      "operator": "conv",
+      "max_to_median_neuron_RMS": 23.001166383533782,
+      "energy_participation_ratio": 38.04322486354089,
+      "max_uncentered_fourth_moment_ratio": 230.11862153461726,
+      "top64_error_fraction": 0.08998003331470389,
+      "top_error_mean_abs_activation_correlation": 0.0557572883019058,
+      "random_mean_abs_activation_correlation": 0.039847913709397914
+    },
+    {
+      "layer": 12,
+      "operator": "sliding_attention",
+      "max_to_median_neuron_RMS": 38.10372397742292,
+      "energy_participation_ratio": 8.95594571633503,
+      "max_uncentered_fourth_moment_ratio": 232.7286196361045,
+      "top64_error_fraction": 0.09639037659274301,
+      "top_error_mean_abs_activation_correlation": 0.06276594408948931,
+      "random_mean_abs_activation_correlation": 0.04082657232115556
+    },
+    {
+      "layer": 13,
+      "operator": "conv",
+      "max_to_median_neuron_RMS": 24.667328620421788,
+      "energy_participation_ratio": 31.743267961021232,
+      "max_uncentered_fourth_moment_ratio": 201.82072771952338,
+      "top64_error_fraction": 0.088801027180223,
+      "top_error_mean_abs_activation_correlation": 0.07543141639374894,
+      "random_mean_abs_activation_correlation": 0.03518908969776454
+    },
+    {
+      "layer": 14,
+      "operator": "full_attention",
+      "max_to_median_neuron_RMS": 20.062378027987805,
+      "energy_participation_ratio": 65.98428051493742,
+      "max_uncentered_fourth_moment_ratio": 168.09849520540175,
+      "top64_error_fraction": 0.08210236010780095,
+      "top_error_mean_abs_activation_correlation": 0.07643989521119976,
+      "random_mean_abs_activation_correlation": 0.045344702295499764
+    },
+    {
+      "layer": 15,
+      "operator": "conv",
+      "max_to_median_neuron_RMS": 9.10855073905561,
+      "energy_participation_ratio": 475.17733095505827,
+      "max_uncentered_fourth_moment_ratio": 112.79747708378963,
+      "top64_error_fraction": 0.0713089885353688,
+      "top_error_mean_abs_activation_correlation": 0.06524007772903423,
+      "random_mean_abs_activation_correlation": 0.0466798416423987
+    },
+    {
+      "layer": 16,
+      "operator": "sliding_attention",
+      "max_to_median_neuron_RMS": 20.678138165718398,
+      "energy_participation_ratio": 52.62799926369297,
+      "max_uncentered_fourth_moment_ratio": 81.98887936418511,
+      "top64_error_fraction": 0.0746842435577315,
+      "top_error_mean_abs_activation_correlation": 0.07159307531769563,
+      "random_mean_abs_activation_correlation": 0.04210780377922459
+    },
+    {
+      "layer": 17,
+      "operator": "conv",
+      "max_to_median_neuron_RMS": 7.883386333470398,
+      "energy_participation_ratio": 653.5730138657915,
+      "max_uncentered_fourth_moment_ratio": 57.20421164101592,
+      "top64_error_fraction": 0.06014046497422381,
+      "top_error_mean_abs_activation_correlation": 0.0774547550546495,
+      "random_mean_abs_activation_correlation": 0.043626330473494145
+    },
+    {
+      "layer": 18,
+      "operator": "full_attention",
+      "max_to_median_neuron_RMS": 24.064506097744335,
+      "energy_participation_ratio": 27.19329633617279,
+      "max_uncentered_fourth_moment_ratio": 46.892324490223906,
+      "top64_error_fraction": 0.07527510703992817,
+      "top_error_mean_abs_activation_correlation": 0.06454089315776247,
+      "random_mean_abs_activation_correlation": 0.04273358993037056
+    },
+    {
+      "layer": 19,
+      "operator": "conv",
+      "max_to_median_neuron_RMS": 20.492866660813007,
+      "energy_participation_ratio": 44.35972903656531,
+      "max_uncentered_fourth_moment_ratio": 34.397894223712875,
+      "top64_error_fraction": 0.06389844973116361,
+      "top_error_mean_abs_activation_correlation": 0.07084172709792273,
+      "random_mean_abs_activation_correlation": 0.039812830863232264
+    },
+    {
+      "layer": 20,
+      "operator": "sliding_attention",
+      "max_to_median_neuron_RMS": 23.101798812141606,
+      "energy_participation_ratio": 28.579651818679057,
+      "max_uncentered_fourth_moment_ratio": 15.757210112201266,
+      "top64_error_fraction": 0.061005367566077086,
+      "top_error_mean_abs_activation_correlation": 0.0608495119124739,
+      "random_mean_abs_activation_correlation": 0.042183008935446506
+    },
+    {
+      "layer": 21,
+      "operator": "conv",
+      "max_to_median_neuron_RMS": 16.983536604055608,
+      "energy_participation_ratio": 76.01425233540827,
+      "max_uncentered_fourth_moment_ratio": 21.712965629657912,
+      "top64_error_fraction": 0.05398325409481121,
+      "top_error_mean_abs_activation_correlation": 0.048048258153181894,
+      "random_mean_abs_activation_correlation": 0.0378900529862116
+    },
+    {
+      "layer": 22,
+      "operator": "full_attention",
+      "max_to_median_neuron_RMS": 18.33101127202228,
+      "energy_participation_ratio": 62.3187443489917,
+      "max_uncentered_fourth_moment_ratio": 39.66591834214663,
+      "top64_error_fraction": 0.058047091892827196,
+      "top_error_mean_abs_activation_correlation": 0.09013304862102522,
+      "random_mean_abs_activation_correlation": 0.05013299378626556
+    },
+    {
+      "layer": 23,
+      "operator": "conv",
+      "max_to_median_neuron_RMS": 17.88197671411698,
+      "energy_participation_ratio": 78.08877175467985,
+      "max_uncentered_fourth_moment_ratio": 14.65458184873424,
+      "top64_error_fraction": 0.08932400733625176,
+      "top_error_mean_abs_activation_correlation": 0.1716171577569502,
+      "random_mean_abs_activation_correlation": 0.05666185468954346
+    }
+  ],
+  "scope": "Original BF16 training activations. These are activation correlations, not stochastic-error correlations. Top-error channel selection uses the completed five-seed training diagnostic. Not causal attribution or heldout evidence."
+}

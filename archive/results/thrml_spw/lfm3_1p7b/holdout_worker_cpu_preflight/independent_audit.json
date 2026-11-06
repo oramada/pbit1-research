@@ -1,0 +1,10 @@
+{
+  "status": "all_four_1028_position_public_states_int64_counters_F64_readouts_and_receipts_verified",
+  "source_sha256": "40b40e87dcedb4f1426355a6db34fb94fd0a97ad213caf0072615383c322973c",
+  "results_sha256": "1ddc9b596b4fd63845cc1557dd2c7ea3f432e266a45fcfca41e512e1374816a7",
+  "public_bits_verified": 151009280,
+  "integer_entries_verified": 8289792,
+  "float64_outputs_verified": 267280,
+  "max_absolute_integer_total": 2145823019,
+  "scope": "CPU official THRML component check at1,028activationpositions, T8192 and7680fanin, exact independentint64 reconstruction and signed high-magnitude mirrors. Not GPU validation, full-model forward fidelity, quality, heldout scoring, physical bit flips, energy or latency."
+}

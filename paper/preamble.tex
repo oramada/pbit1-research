@@ -1,0 +1,40 @@
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{booktabs,array,tabularx,longtable}
+\usepackage{graphicx}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{subcaption}
+\usepackage[section]{placeins}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{xurl}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue!45!black,citecolor=blue!45!black,urlcolor=blue!45!black,pdftitle={One P-Bit per Parameter},pdfauthor={Omar Ramadan}}
+\usepackage{bookmark}
+\usepackage{fancyhdr}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small One P-Bit per Parameter}
+\fancyhead[R]{\small Research manuscript}
+\fancyfoot[C]{\thepage}
+\setlength{\headheight}{14pt}
+\setlength{\emergencystretch}{2em}
+\raggedbottom
+\setlist{nosep,leftmargin=*}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Var}{\operatorname{Var}}
+\newcommand{\Cov}{\operatorname{Cov}}
+\newcommand{\Bern}{\operatorname{Bernoulli}}
+\newcommand{\Bin}{\operatorname{Binomial}}
+\newcommand{\MSE}{\operatorname{MSE}}
+\newcommand{\PPL}{\operatorname{PPL}}
+\newcommand{\sigmoid}{\operatorname{sigmoid}}
+\newcommand{\clip}{\operatorname{clip}}
+\newcommand{\SPW}{\textsc{SPW}}
+\newcommand{\code}[1]{{\small\nolinkurl{#1}}}
+\newcommand{\artifact}[1]{\href{https://github.com/oramada/pbit1-research/tree/main/results/thrml_spw/spark_depth_20261106/#1}{\nolinkurl{#1}}}
+\newcommand{\figfull}[4]{\begin{figure}[!htbp]\centering\includegraphics[width=#2\linewidth]{figures/#1}\caption{#3}\label{#4}\end{figure}}

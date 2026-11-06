@@ -1,0 +1,11 @@
+{
+  "status": "local_bounded_archive_verified",
+  "core_FILES_sha256": "2c2ac3c96c7552dfec719ac53ab7f814c88197fc1c3ef7d946470f288e38633c",
+  "repository_FILES_sha256": "4fff217aab0fa621f9f65856eb21e75cf347923a191f602bdef0f58cf3faddf4",
+  "core_files": 2421,
+  "repository_manifest_files": 4172,
+  "immutable_source_snapshots": 1188,
+  "matched_protocol_source_references": 63,
+  "missing_checked_source_references": 0,
+  "publication": "local_working_tree_only"
+}

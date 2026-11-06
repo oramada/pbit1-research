@@ -1,0 +1,6 @@
+{
+  "status": "all_five_mean_quality_statistics_and_workspace_resource_counts_verified",
+  "source_sha256": "dd9b5578c16fe25ecc3f53c7dc1c45fcd5d0e678e145fc19df0c890fc3ae99f5",
+  "statistics_sha256": "9c6189573f978c65569a05bec7ea0190fff1aebea8c11b8d56c915b0645cd13b",
+  "scope": "New exploratory temporal-precision condition after two closed failed validation gates, same prior-selected mean learned point/all1,728,801,536uniqueparameters/2048reservedtargets. Five fresh independent MCclusters600..604, unchanged upperMCt4same-fitBF16NLLmarginlog1.02. TwiceT4096/eighttimesT1024retainednodeevaluations;warmupunchanged, allcontrol/range/readout/countercosts retained. Explicit int32per-weight temporary simulator counts. No numericalBF16equivalence/generalization/physicalenergy/latency/device-residency claim. All oldresultsincludingnegativegateskept; no poolingconditionsasextraMCseeds. Existing matchedspatialstudy onlycoversC1024/C4096: a C8192matchedcontrolstudy would stillbe required before a C8192systems claim. Existingholdoutpolicy qualifiesneitheroldbudget and is notsilentlychanged; no holdout scoring inthisstudy."
+}

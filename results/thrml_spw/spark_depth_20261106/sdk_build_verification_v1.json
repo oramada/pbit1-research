@@ -1,0 +1,26 @@
+{
+  "status": "sdist_and_wheel_built_and_wheel_installed_in_isolated_target",
+  "version": "0.1.0a2.dev0",
+  "unit_tests_passed": 18,
+  "optional_native_module_skipped": 1,
+  "exact_research_reconstruction_audit": "sdk_program_verification_v2.json",
+  "files": [
+    {
+      "path": "results/thrml_spw/spark_depth_20261106/sdk_distribution_v1/.gitignore",
+      "sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1",
+      "bytes": 1
+    },
+    {
+      "path": "results/thrml_spw/spark_depth_20261106/sdk_distribution_v1/pbit1-0.1.0a2.dev0-py3-none-any.whl",
+      "sha256": "8f74b1457d12a0e79816e6de0505fcc0e6da73f25c7646988c349ff43b186090",
+      "bytes": 28704
+    },
+    {
+      "path": "results/thrml_spw/spark_depth_20261106/sdk_distribution_v1/pbit1-0.1.0a2.dev0.tar.gz",
+      "sha256": "57cd0de703fbc2f844340da8beb2d2146cfc73179716322e40618f0d910fbbfd",
+      "bytes": 771601
+    }
+  ],
+  "publication": "Local working tree and local artifacts only; not pushed or released.",
+  "wheel_program_sha256": "015e64966c6b7031930eb5ffe29b4d81cc4aba2836083477ab239f691cc04705"
+}

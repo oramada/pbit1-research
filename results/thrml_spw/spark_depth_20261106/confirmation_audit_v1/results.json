@@ -1,0 +1,115 @@
+{
+  "status": "passed_independent_recomputation_and_complete_five_seed_cohorts",
+  "source_sha256": "a6c9e26f327fab56eca6b5044b6065458da56b4278fdfe70ccdc3e31b0272b1c",
+  "result_sha256": "665d981a67211d8e9e06e5c0fd33ca3216acbd80436918ccc030ab09b3c28cef",
+  "records": 264,
+  "targets_per_confirmation_seed": 4096,
+  "targets_per_calibration_seed": 2048,
+  "recomputed": {
+    "calibration": {
+      "BF16_PPL": 35.270623839079626,
+      "layouts": {
+        "storage_flat": {
+          "mean_PPL_ratio": 1.195672956156644,
+          "MC95_t_PPL_ratio_interval": [
+            1.1569230982178798,
+            1.235720697673485
+          ],
+          "passes_frozen_2pct_gate": false
+        },
+        "transposed_matrix": {
+          "mean_PPL_ratio": 1.020649758377225,
+          "MC95_t_PPL_ratio_interval": [
+            0.9949061185167201,
+            1.0470595264089542
+          ],
+          "passes_frozen_2pct_gate": false
+        }
+      }
+    },
+    "confirmation": {
+      "BF16_PPL": 35.92030642298752,
+      "layouts": {
+        "storage_flat": {
+          "mean_PPL_ratio": 1.2241543643727133,
+          "MC95_t_PPL_ratio_interval": [
+            1.1686200503335797,
+            1.282327739785915
+          ],
+          "passes_frozen_2pct_gate": false
+        },
+        "transposed_matrix": {
+          "mean_PPL_ratio": 1.0254947725462278,
+          "MC95_t_PPL_ratio_interval": [
+            1.0039773572949364,
+            1.0474733527388718
+          ],
+          "passes_frozen_2pct_gate": false
+        }
+      }
+    }
+  },
+  "ledgers": {
+    "storage_flat_seed2026110631": {
+      "moment_z": 0.5738021206862303,
+      "logical_pbits": 124439808,
+      "observations": 1019410907136,
+      "ideal_control_range_state_bits_per_weight": 13.5
+    },
+    "transposed_matrix_seed2026110631": {
+      "moment_z": -1.0351242291843117,
+      "logical_pbits": 124439808,
+      "observations": 1019410907136,
+      "ideal_control_range_state_bits_per_weight": 13.5
+    },
+    "storage_flat_seed2026110632": {
+      "moment_z": -0.29460533344255585,
+      "logical_pbits": 124439808,
+      "observations": 1019410907136,
+      "ideal_control_range_state_bits_per_weight": 13.5
+    },
+    "transposed_matrix_seed2026110632": {
+      "moment_z": 1.1283999269914484,
+      "logical_pbits": 124439808,
+      "observations": 1019410907136,
+      "ideal_control_range_state_bits_per_weight": 13.5
+    },
+    "storage_flat_seed2026110633": {
+      "moment_z": -1.731015927208705,
+      "logical_pbits": 124439808,
+      "observations": 1019410907136,
+      "ideal_control_range_state_bits_per_weight": 13.5
+    },
+    "transposed_matrix_seed2026110633": {
+      "moment_z": -1.774371626262828,
+      "logical_pbits": 124439808,
+      "observations": 1019410907136,
+      "ideal_control_range_state_bits_per_weight": 13.5
+    },
+    "storage_flat_seed2026110634": {
+      "moment_z": 1.3696392196345126,
+      "logical_pbits": 124439808,
+      "observations": 1019410907136,
+      "ideal_control_range_state_bits_per_weight": 13.5
+    },
+    "transposed_matrix_seed2026110634": {
+      "moment_z": -0.8341793653856099,
+      "logical_pbits": 124439808,
+      "observations": 1019410907136,
+      "ideal_control_range_state_bits_per_weight": 13.5
+    },
+    "storage_flat_seed2026110635": {
+      "moment_z": -0.12743920474449458,
+      "logical_pbits": 124439808,
+      "observations": 1019410907136,
+      "ideal_control_range_state_bits_per_weight": 13.5
+    },
+    "transposed_matrix_seed2026110635": {
+      "moment_z": 0.21995504854929213,
+      "logical_pbits": 124439808,
+      "observations": 1019410907136,
+      "ideal_control_range_state_bits_per_weight": 13.5
+    }
+  },
+  "scope": "Exactsavedtokenlossrecomputation,notindependentforwardimplementation. CIsmeasureMCvariationonfixedreservedtrainingarticles,notbroadgeneralization."
+}

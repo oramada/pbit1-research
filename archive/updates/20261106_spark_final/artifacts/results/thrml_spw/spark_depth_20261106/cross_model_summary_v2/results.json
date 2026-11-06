@@ -1,0 +1,79 @@
+{
+  "source_sha256": "18d7d09090fd71a52ad1a8996bda826b54cd3a99466bb66c99fd6e074cdf8557",
+  "previous_two_model_summary_sha256": "7f0391af6d6dd672e7daab7bd4ff0dd052de6e0194cc02ca82a1d2589fbda9c5",
+  "LFM3_audit_sha256": "0feebd8d5e3d1cdd5ef03102d7ec6a88bfab12399a7153eba75f2ef629843f75",
+  "LFM3_replay_sha256": "aa4d018fa2ad6341598a7f5332bc2b53cd9d28659748f0b2e4e2e27b23917489",
+  "models": [
+    {
+      "model": "GPT2",
+      "seed_count": 5,
+      "perplexity_ratio": 1.0065897733874716,
+      "MC95_perplexity_ratio_interval": [
+        0.9992665843917188,
+        1.013966630841577
+      ],
+      "passes_own_frozen_quality_gates": true,
+      "unique_parameters": 124439808,
+      "task": "WikiText2:283225targets",
+      "logical_pbits_per_learned_parameter": 1,
+      "samples_per_parameter": 32768,
+      "controller_bits": 12,
+      "BF16_PPL": 25.50148571044951,
+      "selected_PPL_at_mean_NLL": 25.669534722325206,
+      "seed_PPLs": [
+        25.6001959478643,
+        25.54822363814463,
+        25.58145704823192,
+        25.921670593135254,
+        25.69790511646423
+      ]
+    },
+    {
+      "model": "DistilBERT",
+      "seed_count": 5,
+      "perplexity_ratio": 0.999656458019871,
+      "MC95_perplexity_ratio_interval": [
+        0.9967587541519897,
+        1.0025625858796872
+      ],
+      "passes_own_frozen_quality_gates": true,
+      "BF16_accuracy": 0.87512,
+      "mean_selected_accuracy": 0.8749439999999999,
+      "accuracy_decline_upper95": 0.0008382621865486268,
+      "unique_parameters": 66955010,
+      "task": "IMDb:25000reviews",
+      "logical_pbits_per_learned_parameter": 1,
+      "samples_per_parameter": 32768,
+      "controller_bits": 12,
+      "quality_metric": "categorical perplexity and accuracy; not language-model perplexity"
+    },
+    {
+      "model": "LFM3-1.7B",
+      "seed_count": 5,
+      "perplexity_ratio": 1.002589625034776,
+      "MC95_perplexity_ratio_interval": [
+        0.9875103509954918,
+        1.0178991594508986
+      ],
+      "passes_own_frozen_quality_gates": true,
+      "unique_parameters": 1728801536,
+      "task": "WikiText2:294442targets,own tokenizer",
+      "logical_pbits_per_learned_parameter": 1,
+      "samples_per_parameter": 32768,
+      "controller_bits": 12,
+      "BF16_PPL": 18.930154774591053,
+      "selected_PPL_at_mean_NLL": 18.979176777307526,
+      "seed_PPLs": [
+        18.985068957110705,
+        18.593806654323966,
+        19.17330247476477,
+        19.012701207570487,
+        19.136636977509244
+      ],
+      "all_parameter_count_hashes_replayed": 1430,
+      "neural_windows_replayed": 21
+    }
+  ],
+  "all_three_tested_models_pass": true,
+  "scope": "Three checkpoint/task checks on two previously inspected benchmark tasks. Five independent selected-policy draws each; R1 ideal independent-binomial reconstruction, BF16 neural execution. All learned scalars K1 including bias/norms. Finite12bit controls and shared range metadata counted separately. Not universal numericBF16, physicalhardwarebenefit, fullmodelnativeTHRML, or unseen-task proof."
+}

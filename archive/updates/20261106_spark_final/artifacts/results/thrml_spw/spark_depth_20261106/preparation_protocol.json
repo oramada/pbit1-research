@@ -1,0 +1,21 @@
+{
+  "status": "training_only_diagnostic_preparation_frozen_before_new_model_forwards",
+  "recorded_UTC": "2026-11-06T17:58:07.872712+00:00",
+  "source_sha256": "74b4d24e94cb0a8ce17fec0a1ded79151df5735e3516d311e005752afb6272f4",
+  "model": "openai-community/gpt2",
+  "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "inventory_sha256": "ed157e1bf476ee1fd28b228ce522f49f0b4aaf1505d721d80624d7e8503424e1",
+  "training_parquet": "data/thrml_spw/lfm3_1p7b/adaptation_parquet/train.parquet",
+  "training_parquet_sha256": "e83889baabc497075506f91975be5fac0d45c5290b6b20582c8cd1e853d0c9f7",
+  "training_origin_manifest_sha256": "73f5a35404668630ccba652869643929b7fbc3e537d2e6b39f5782fd5af931c9",
+  "selection": "Parse complete training articles using existing pinned parser; permutearticleindiceswithseed2026110601; takefirst32eligiblearticleswithatleast257GPT2tokens. First8articles provide128target diagnosticwindows; next8provide128target calibrationchecks; final16trainingarticles reserved for candidateconfirmation. No test/validationforwards or labelsused.",
+  "selection_key": 2026110601,
+  "windows": 32,
+  "window_tokens": 257,
+  "initial_diagnostic_targets": 1024,
+  "all_learned_parameters_in_final_representation": true,
+  "diagnostic_ablation_policy": "Selective deterministicrestoration allowed onlyasexplicitcausaldiagnostics, nevercountedasallonepbitresult.",
+  "GPU_policy": "LocalDGXSparkonly; do notstopunrelateduca32workloadwithoutuserapproval; optionalsmallmemorycappedsharing. PreparationisCPUonly.",
+  "cloud_policy": "No Modal apps/functions/jobs may be started. Read-only recovery of preserved evidence permitted.",
+  "scope": "Researchpreparation, notneuralqualityresult or proof of universal numericalprecision."
+}

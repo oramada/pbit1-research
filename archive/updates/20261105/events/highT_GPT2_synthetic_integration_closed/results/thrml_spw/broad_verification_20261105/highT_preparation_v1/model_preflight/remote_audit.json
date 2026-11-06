@@ -1,0 +1,37 @@
+{
+  "canonical_parameters": 148,
+  "case": "gpt2__nativeT1",
+  "case_spec": {
+    "bits": 1,
+    "budget": 1,
+    "mode": "native",
+    "model_key": "gpt2",
+    "samples": 1,
+    "seed": 202611960
+  },
+  "elapsed_seconds_this_replay_attempt": 16.869525402000008,
+  "evaluation_batches": 1,
+  "mean_metric": 0.0,
+  "metric": "synthetic_not_task_quality",
+  "model_key": "gpt2",
+  "model_point_sha256": "838d0288145b745d49ca60c3254cfca0410295aba824c0738c9a021336435b5d",
+  "protocol_sha256": "0d3b1225e599056e5bb38d40264257b4b87540895e71b30b402bfcd49987b7e0",
+  "resources": {
+    "logical_pbits": 124439808,
+    "logical_retained_device_evaluations": 124439808,
+    "retained_device_evaluations": 130744320,
+    "warmup_device_evaluations": 130744320
+  },
+  "results_sha256": "141b36e97f3868978eee99089fc32d2b62373b7181f52a737a83746a950ebb2d",
+  "scope": "All weights independently decoded from saved counts or analytic controls and every full outputbatch hashreplayed; no resampling, extraMCseed, R2or physicaldeviceadvantageclaim.",
+  "source_sha256": "423f7a5f97778e95bdb5371c5058287feb110678996c3b92820c8d084a7f881f",
+  "status": "complete_R1_parameter_counts_resources_and_all_neural_batches_independently_replayed",
+  "synthetic_only": true,
+  "unique_parameter_scalars": 124439808,
+  "unit_metric_sums": [
+    0.0
+  ],
+  "unit_sizes": [
+    1
+  ]
+}

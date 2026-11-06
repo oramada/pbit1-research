@@ -1,0 +1,3664 @@
+{
+  "status": "completed_primary_count_moments_and_parameter_noise_profile",
+  "source_sha256": "43f55de3bb96bdd1754eb466dc89e8bffc012fed30974e86c55d4724c0f97e0f",
+  "protocol_sha256": "b003fedc90d962500907e8cf435ca359ab1ef9a27ea3e892c2fe12a17ea79626",
+  "models": [
+    {
+      "model": "gpt2",
+      "scalars": 124439808,
+      "seeds": [
+        202611220,
+        202611221,
+        202611222,
+        202611223,
+        202611224
+      ],
+      "predicted_total_squared_noise": 1845.0958444378473,
+      "observed_mean_total_squared_noise": 1845.0960157921581,
+      "MSE_ratio": 1.0000000928701407,
+      "aggregate_8sigma_moment_z": 0.0010681836493942787,
+      "moment_gate_met": true,
+      "parameters": [
+        {
+          "name": "transformer.wte.weight",
+          "elements": 38597376,
+          "shape": [
+            50257,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 614.3236354150039,
+          "observed_mean_sum_squared_noise": 614.2953766467335,
+          "observed_to_predicted_MSE": 0.9999540001936418,
+          "predicted_relative_RMSE": 0.027765509571822798,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.23365940731307744,
+          "max_group_span": 2.1328125,
+          "expected_noise_std_max": 0.011668220436283573
+        },
+        {
+          "name": "transformer.wpe.weight",
+          "elements": 786432,
+          "shape": [
+            1024,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 40.20675403559874,
+          "observed_mean_sum_squared_noise": 40.22337720392032,
+          "observed_to_predicted_MSE": 1.0004134421870232,
+          "predicted_relative_RMSE": 0.05829769221274856,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.9134140014648438,
+          "max_group_span": 7.53125,
+          "expected_noise_std_max": 0.04160369896969108
+        },
+        {
+          "name": "transformer.h.0.ln_1.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.0006535363030615479,
+          "observed_mean_sum_squared_noise": 0.0006522914346509612,
+          "observed_to_predicted_MSE": 0.9980951809337064,
+          "predicted_relative_RMSE": 0.004984192187918426,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 0.206787109375,
+          "expected_noise_std_max": 0.0011411453649224845
+        },
+        {
+          "name": "transformer.h.0.ln_1.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.0019654118103242134,
+          "observed_mean_sum_squared_noise": 0.0019207785810148813,
+          "observed_to_predicted_MSE": 0.9772906476521227,
+          "predicted_relative_RMSE": 0.04397083137245152,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.7096354166666666,
+          "max_group_span": 0.365234375,
+          "expected_noise_std_max": 0.002017229506531023
+        },
+        {
+          "name": "transformer.h.0.attn.c_attn.weight",
+          "elements": 1769472,
+          "shape": [
+            768,
+            2304
+          ],
+          "predicted_sum_weight_noise_variance": 57.65945107660032,
+          "observed_mean_sum_squared_noise": 57.59845583681583,
+          "observed_to_predicted_MSE": 0.9989421467141014,
+          "predicted_relative_RMSE": 0.028598771257004163,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.25549938060619215,
+          "max_group_span": 5.4375,
+          "expected_noise_std_max": 0.03003821319777086
+        },
+        {
+          "name": "transformer.h.0.attn.c_attn.bias",
+          "elements": 2304,
+          "shape": [
+            2304
+          ],
+          "predicted_sum_weight_noise_variance": 0.10165582117091006,
+          "observed_mean_sum_squared_noise": 0.10439361722082112,
+          "observed_to_predicted_MSE": 1.0269320145012464,
+          "predicted_relative_RMSE": 0.029408455595438317,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.4084201388888889,
+          "max_group_span": 2.484375,
+          "expected_noise_std_max": 0.013724356030015997
+        },
+        {
+          "name": "transformer.h.0.attn.c_proj.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 29.442663990974882,
+          "observed_mean_sum_squared_noise": 29.409981083272463,
+          "observed_to_predicted_MSE": 0.9988899473324684,
+          "predicted_relative_RMSE": 0.04792433305105871,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.7233835856119791,
+          "max_group_span": 4.9375,
+          "expected_noise_std_max": 0.02711077373723062
+        },
+        {
+          "name": "transformer.h.0.attn.c_proj.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.19107429613267013,
+          "observed_mean_sum_squared_noise": 0.2023653205621773,
+          "observed_to_predicted_MSE": 1.0590923251218856,
+          "predicted_relative_RMSE": 0.06096319314481963,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.734375,
+          "max_group_span": 4.546875,
+          "expected_noise_std_max": 0.02511614792485684
+        },
+        {
+          "name": "transformer.h.0.ln_2.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.018990934214670338,
+          "observed_mean_sum_squared_noise": 0.01856648234295595,
+          "observed_to_predicted_MSE": 0.9776497634652169,
+          "predicted_relative_RMSE": 0.00500188463910471,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 1.42041015625,
+          "expected_noise_std_max": 0.00784265676568739
+        },
+        {
+          "name": "transformer.h.0.ln_2.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.01488913853994947,
+          "observed_mean_sum_squared_noise": 0.014934457634774861,
+          "observed_to_predicted_MSE": 1.0030437687649822,
+          "predicted_relative_RMSE": 0.06234206519200281,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.7486979166666666,
+          "max_group_span": 1.40234375,
+          "expected_noise_std_max": 0.007746835545353085
+        },
+        {
+          "name": "transformer.h.0.mlp.c_fc.weight",
+          "elements": 2359296,
+          "shape": [
+            768,
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 41.79197554566653,
+          "observed_mean_sum_squared_noise": 41.77683250637498,
+          "observed_to_predicted_MSE": 0.9996376567727696,
+          "predicted_relative_RMSE": 0.029816017370390784,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.29872216118706596,
+          "max_group_span": 4.9765625,
+          "expected_noise_std_max": 0.02225786617209551
+        },
+        {
+          "name": "transformer.h.0.mlp.c_fc.bias",
+          "elements": 3072,
+          "shape": [
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 0.03604962409504723,
+          "observed_mean_sum_squared_noise": 0.03562986389369187,
+          "observed_to_predicted_MSE": 0.988356044982643,
+          "predicted_relative_RMSE": 0.021168149558370878,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2333984375,
+          "max_group_span": 0.93359375,
+          "expected_noise_std_max": 0.005157226279106609
+        },
+        {
+          "name": "transformer.h.0.mlp.c_proj.weight",
+          "elements": 2359296,
+          "shape": [
+            3072,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 19.59692061676084,
+          "observed_mean_sum_squared_noise": 19.623098584245625,
+          "observed_to_predicted_MSE": 1.0013358204585672,
+          "predicted_relative_RMSE": 0.032768038711158104,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2685593499077691,
+          "max_group_span": 6.65625,
+          "expected_noise_std_max": 0.03398910048084768
+        },
+        {
+          "name": "transformer.h.0.mlp.c_proj.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.014948875647080445,
+          "observed_mean_sum_squared_noise": 0.015424322859096165,
+          "observed_to_predicted_MSE": 1.0318048810653244,
+          "predicted_relative_RMSE": 0.04343210278600182,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.4296875,
+          "max_group_span": 1.81640625,
+          "expected_noise_std_max": 0.009170258048441255
+        },
+        {
+          "name": "transformer.h.1.ln_1.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.003738643455049211,
+          "observed_mean_sum_squared_noise": 0.00374003562778153,
+          "observed_to_predicted_MSE": 1.0003723737631196,
+          "predicted_relative_RMSE": 0.009646335197455336,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 0.583984375,
+          "expected_noise_std_max": 0.0032179040629932197
+        },
+        {
+          "name": "transformer.h.1.ln_1.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.007680391967401354,
+          "observed_mean_sum_squared_noise": 0.007724402143114777,
+          "observed_to_predicted_MSE": 1.0057301991747583,
+          "predicted_relative_RMSE": 0.06009886567709582,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.9140625,
+          "max_group_span": 0.830078125,
+          "expected_noise_std_max": 0.004583475630624218
+        },
+        {
+          "name": "transformer.h.1.attn.c_attn.weight",
+          "elements": 1769472,
+          "shape": [
+            768,
+            2304
+          ],
+          "predicted_sum_weight_noise_variance": 30.09810291989629,
+          "observed_mean_sum_squared_noise": 30.09198625168171,
+          "observed_to_predicted_MSE": 0.9997967756230065,
+          "predicted_relative_RMSE": 0.02944975713558903,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2786170111762153,
+          "max_group_span": 2.2890625,
+          "expected_noise_std_max": 0.012645107633170026
+        },
+        {
+          "name": "transformer.h.1.attn.c_attn.bias",
+          "elements": 2304,
+          "shape": [
+            2304
+          ],
+          "predicted_sum_weight_noise_variance": 0.13548882697911363,
+          "observed_mean_sum_squared_noise": 0.1284748262039007,
+          "observed_to_predicted_MSE": 0.9482318879600737,
+          "predicted_relative_RMSE": 0.036345769798301925,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.4348958333333333,
+          "max_group_span": 3.75,
+          "expected_noise_std_max": 0.020715771931863403
+        },
+        {
+          "name": "transformer.h.1.attn.c_proj.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 8.098129206467501,
+          "observed_mean_sum_squared_noise": 8.107112115676875,
+          "observed_to_predicted_MSE": 1.0011092573334346,
+          "predicted_relative_RMSE": 0.03636326388949388,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.3166758219401042,
+          "max_group_span": 5.0390625,
+          "expected_noise_std_max": 0.02596010200679817
+        },
+        {
+          "name": "transformer.h.1.attn.c_proj.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.010304585150650874,
+          "observed_mean_sum_squared_noise": 0.00990104841981226,
+          "observed_to_predicted_MSE": 0.9608391094897086,
+          "predicted_relative_RMSE": 0.034978411724501356,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.34765625,
+          "max_group_span": 1.5234375,
+          "expected_noise_std_max": 0.008294404196742893
+        },
+        {
+          "name": "transformer.h.1.ln_2.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.001130776945543356,
+          "observed_mean_sum_squared_noise": 0.0011567954736102053,
+          "observed_to_predicted_MSE": 1.0230094256602895,
+          "predicted_relative_RMSE": 0.004959893201365162,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 0.32080078125,
+          "expected_noise_std_max": 0.001772189840314596
+        },
+        {
+          "name": "transformer.h.1.ln_2.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.0031049959872829873,
+          "observed_mean_sum_squared_noise": 0.003175355560164453,
+          "observed_to_predicted_MSE": 1.0226601171691154,
+          "predicted_relative_RMSE": 0.05107540173870127,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.6145833333333334,
+          "max_group_span": 0.68359375,
+          "expected_noise_std_max": 0.0034748240325906087
+        },
+        {
+          "name": "transformer.h.1.mlp.c_fc.weight",
+          "elements": 2359296,
+          "shape": [
+            768,
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 35.45021704874969,
+          "observed_mean_sum_squared_noise": 35.42963466330877,
+          "observed_to_predicted_MSE": 0.9994194002983784,
+          "predicted_relative_RMSE": 0.029655920446073254,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.27337095472547746,
+          "max_group_span": 2.640625,
+          "expected_noise_std_max": 0.013931054832927368
+        },
+        {
+          "name": "transformer.h.1.mlp.c_fc.bias",
+          "elements": 3072,
+          "shape": [
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 0.021844936937870908,
+          "observed_mean_sum_squared_noise": 0.021340727940262934,
+          "observed_to_predicted_MSE": 0.9769187249639588,
+          "predicted_relative_RMSE": 0.02236515294586903,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2662760416666667,
+          "max_group_span": 0.7587890625,
+          "expected_noise_std_max": 0.0041913070447505505
+        },
+        {
+          "name": "transformer.h.1.mlp.c_proj.weight",
+          "elements": 2359296,
+          "shape": [
+            3072,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 16.133769734452247,
+          "observed_mean_sum_squared_noise": 16.150423376894572,
+          "observed_to_predicted_MSE": 1.0010322226433395,
+          "predicted_relative_RMSE": 0.029995776488800297,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.26716189914279515,
+          "max_group_span": 13.8720703125,
+          "expected_noise_std_max": 0.021188773332170088
+        },
+        {
+          "name": "transformer.h.1.mlp.c_proj.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.00888192585491979,
+          "observed_mean_sum_squared_noise": 0.008583624868948663,
+          "observed_to_predicted_MSE": 0.9664148304271314,
+          "predicted_relative_RMSE": 0.033894753282109946,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.33984375,
+          "max_group_span": 1.75390625,
+          "expected_noise_std_max": 0.007744925900391429
+        },
+        {
+          "name": "transformer.h.2.ln_1.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.006234488478582727,
+          "observed_mean_sum_squared_noise": 0.0061277519941655405,
+          "observed_to_predicted_MSE": 0.9828796725210325,
+          "predicted_relative_RMSE": 0.011292561173601737,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 0.814453125,
+          "expected_noise_std_max": 0.004151906593780603
+        },
+        {
+          "name": "transformer.h.2.ln_1.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.00765205120775022,
+          "observed_mean_sum_squared_noise": 0.007610492354316658,
+          "observed_to_predicted_MSE": 0.9945689263825797,
+          "predicted_relative_RMSE": 0.0448141882165336,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.9375,
+          "max_group_span": 1.19091796875,
+          "expected_noise_std_max": 0.005914496043266431
+        },
+        {
+          "name": "transformer.h.2.attn.c_attn.weight",
+          "elements": 1769472,
+          "shape": [
+            768,
+            2304
+          ],
+          "predicted_sum_weight_noise_variance": 33.48092320684195,
+          "observed_mean_sum_squared_noise": 33.476213370233936,
+          "observed_to_predicted_MSE": 0.9998593277557217,
+          "predicted_relative_RMSE": 0.028494702675648825,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2602708604600694,
+          "max_group_span": 3.2578125,
+          "expected_noise_std_max": 0.01799703290728513
+        },
+        {
+          "name": "transformer.h.2.attn.c_attn.bias",
+          "elements": 2304,
+          "shape": [
+            2304
+          ],
+          "predicted_sum_weight_noise_variance": 0.07029109474721124,
+          "observed_mean_sum_squared_noise": 0.0687507548795909,
+          "observed_to_predicted_MSE": 0.9780862729032762,
+          "predicted_relative_RMSE": 0.03350588708756989,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.4904513888888889,
+          "max_group_span": 2.640625,
+          "expected_noise_std_max": 0.014587467408759094
+        },
+        {
+          "name": "transformer.h.2.attn.c_proj.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 3.874185026550004,
+          "observed_mean_sum_squared_noise": 3.8745341228295502,
+          "observed_to_predicted_MSE": 1.000090108313659,
+          "predicted_relative_RMSE": 0.03163044818308651,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.263885498046875,
+          "max_group_span": 2.75,
+          "expected_noise_std_max": 0.012755988675556917
+        },
+        {
+          "name": "transformer.h.2.attn.c_proj.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.013950563032731721,
+          "observed_mean_sum_squared_noise": 0.013501694843102879,
+          "observed_to_predicted_MSE": 0.9678243674770919,
+          "predicted_relative_RMSE": 0.029388238630322017,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2565104166666667,
+          "max_group_span": 0.9921875,
+          "expected_noise_std_max": 0.005481110741547269
+        },
+        {
+          "name": "transformer.h.2.ln_2.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.0028040128414319175,
+          "observed_mean_sum_squared_noise": 0.002892258545519015,
+          "observed_to_predicted_MSE": 1.0314712196688918,
+          "predicted_relative_RMSE": 0.006456071395440989,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 0.65478515625,
+          "expected_noise_std_max": 0.003617071344817825
+        },
+        {
+          "name": "transformer.h.2.ln_2.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.004180291500151774,
+          "observed_mean_sum_squared_noise": 0.0040141523836373354,
+          "observed_to_predicted_MSE": 0.9602565714595724,
+          "predicted_relative_RMSE": 0.05256648864966648,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.5364583333333334,
+          "max_group_span": 0.875,
+          "expected_noise_std_max": 0.0045172794914681855
+        },
+        {
+          "name": "transformer.h.2.mlp.c_fc.weight",
+          "elements": 2359296,
+          "shape": [
+            768,
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 35.40319422638564,
+          "observed_mean_sum_squared_noise": 35.408215116220255,
+          "observed_to_predicted_MSE": 1.0001418202493966,
+          "predicted_relative_RMSE": 0.02899260612218227,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.25284406873914933,
+          "max_group_span": 10.89453125,
+          "expected_noise_std_max": 0.02577980987265762
+        },
+        {
+          "name": "transformer.h.2.mlp.c_fc.bias",
+          "elements": 3072,
+          "shape": [
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 0.03752718087089908,
+          "observed_mean_sum_squared_noise": 0.03731353430663953,
+          "observed_to_predicted_MSE": 0.9943068847885339,
+          "predicted_relative_RMSE": 0.024718807465714712,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2294921875,
+          "max_group_span": 1.998046875,
+          "expected_noise_std_max": 0.010095271067624393
+        },
+        {
+          "name": "transformer.h.2.mlp.c_proj.weight",
+          "elements": 2359296,
+          "shape": [
+            3072,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 17.591116284197007,
+          "observed_mean_sum_squared_noise": 17.60798744847533,
+          "observed_to_predicted_MSE": 1.0009590729778461,
+          "predicted_relative_RMSE": 0.029337070778178875,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2495151095920139,
+          "max_group_span": 15.10009765625,
+          "expected_noise_std_max": 0.01986901521155153
+        },
+        {
+          "name": "transformer.h.2.mlp.c_proj.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.009672618485634452,
+          "observed_mean_sum_squared_noise": 0.009422299736152261,
+          "observed_to_predicted_MSE": 0.974120890857635,
+          "predicted_relative_RMSE": 0.031566816464929565,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2708333333333333,
+          "max_group_span": 1.78125,
+          "expected_noise_std_max": 0.00874554155424279
+        },
+        {
+          "name": "transformer.h.3.ln_1.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.0050294381436009625,
+          "observed_mean_sum_squared_noise": 0.00506542673297644,
+          "observed_to_predicted_MSE": 1.0071555884271617,
+          "predicted_relative_RMSE": 0.008362143807112614,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 0.70849609375,
+          "expected_noise_std_max": 0.003888503091333468
+        },
+        {
+          "name": "transformer.h.3.ln_1.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.007127245651204088,
+          "observed_mean_sum_squared_noise": 0.006988126268948382,
+          "observed_to_predicted_MSE": 0.9804806247653042,
+          "predicted_relative_RMSE": 0.04339417673649757,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.8346354166666666,
+          "max_group_span": 1.8935546875,
+          "expected_noise_std_max": 0.006581908106831317
+        },
+        {
+          "name": "transformer.h.3.attn.c_attn.weight",
+          "elements": 1769472,
+          "shape": [
+            768,
+            2304
+          ],
+          "predicted_sum_weight_noise_variance": 26.540178188530795,
+          "observed_mean_sum_squared_noise": 26.535681936489503,
+          "observed_to_predicted_MSE": 0.9998305869685821,
+          "predicted_relative_RMSE": 0.02731269117345672,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2349327935112847,
+          "max_group_span": 3.6171875,
+          "expected_noise_std_max": 0.019982317112884927
+        },
+        {
+          "name": "transformer.h.3.attn.c_attn.bias",
+          "elements": 2304,
+          "shape": [
+            2304
+          ],
+          "predicted_sum_weight_noise_variance": 0.04081143120330738,
+          "observed_mean_sum_squared_noise": 0.04111437993391387,
+          "observed_to_predicted_MSE": 1.0074231341973112,
+          "predicted_relative_RMSE": 0.029701536256236803,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.4674479166666667,
+          "max_group_span": 1.37890625,
+          "expected_noise_std_max": 0.007617449176633819
+        },
+        {
+          "name": "transformer.h.3.attn.c_proj.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 3.6586874315632474,
+          "observed_mean_sum_squared_noise": 3.6532861095374463,
+          "observed_to_predicted_MSE": 0.9985236995160602,
+          "predicted_relative_RMSE": 0.0296084978477253,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.248748779296875,
+          "max_group_span": 2.56640625,
+          "expected_noise_std_max": 0.013057759476485676
+        },
+        {
+          "name": "transformer.h.3.attn.c_proj.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.009614671473662819,
+          "observed_mean_sum_squared_noise": 0.009467619030601133,
+          "observed_to_predicted_MSE": 0.9847054115718356,
+          "predicted_relative_RMSE": 0.03281895480825001,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2903645833333333,
+          "max_group_span": 1.294921875,
+          "expected_noise_std_max": 0.007134346461878443
+        },
+        {
+          "name": "transformer.h.3.ln_2.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.004571880501785816,
+          "observed_mean_sum_squared_noise": 0.004667420588936074,
+          "observed_to_predicted_MSE": 1.0208973281591542,
+          "predicted_relative_RMSE": 0.00784745704983447,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0013020833333333333,
+          "max_group_span": 1.06884765625,
+          "expected_noise_std_max": 0.005166294911161634
+        },
+        {
+          "name": "transformer.h.3.ln_2.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.003940482625732178,
+          "observed_mean_sum_squared_noise": 0.0039004464298157625,
+          "observed_to_predicted_MSE": 0.9898397735203879,
+          "predicted_relative_RMSE": 0.050727589144425704,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.5104166666666666,
+          "max_group_span": 0.671875,
+          "expected_noise_std_max": 0.003711575795815133
+        },
+        {
+          "name": "transformer.h.3.mlp.c_fc.weight",
+          "elements": 2359296,
+          "shape": [
+            768,
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 30.098102531084734,
+          "observed_mean_sum_squared_noise": 30.09202868045859,
+          "observed_to_predicted_MSE": 0.9997981982213041,
+          "predicted_relative_RMSE": 0.02754770866098937,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.23639806111653647,
+          "max_group_span": 3.1875,
+          "expected_noise_std_max": 0.017398355138607838
+        },
+        {
+          "name": "transformer.h.3.mlp.c_fc.bias",
+          "elements": 3072,
+          "shape": [
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 0.020349280513388177,
+          "observed_mean_sum_squared_noise": 0.020445225180694887,
+          "observed_to_predicted_MSE": 1.004714892364061,
+          "predicted_relative_RMSE": 0.020412284714329945,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.14127604166666666,
+          "max_group_span": 1.3525390625,
+          "expected_noise_std_max": 0.007020818988586251
+        },
+        {
+          "name": "transformer.h.3.mlp.c_proj.weight",
+          "elements": 2359296,
+          "shape": [
+            3072,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 16.75940739040729,
+          "observed_mean_sum_squared_noise": 16.77938180244066,
+          "observed_to_predicted_MSE": 1.001191832835617,
+          "predicted_relative_RMSE": 0.02903411310014647,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.24667824639214408,
+          "max_group_span": 17.3310546875,
+          "expected_noise_std_max": 0.02565274133769752
+        },
+        {
+          "name": "transformer.h.3.mlp.c_proj.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.010003545785470937,
+          "observed_mean_sum_squared_noise": 0.009804141721457228,
+          "observed_to_predicted_MSE": 0.9800666615328215,
+          "predicted_relative_RMSE": 0.03135261469089613,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.28515625,
+          "max_group_span": 2.0615234375,
+          "expected_noise_std_max": 0.00908191542667705
+        },
+        {
+          "name": "transformer.h.4.ln_1.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.003755039281946404,
+          "observed_mean_sum_squared_noise": 0.003833420210266894,
+          "observed_to_predicted_MSE": 1.020873530856876,
+          "predicted_relative_RMSE": 0.006846031450772367,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 0.614013671875,
+          "expected_noise_std_max": 0.003391937917228936
+        },
+        {
+          "name": "transformer.h.4.ln_1.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.007200025928948858,
+          "observed_mean_sum_squared_noise": 0.0071897741960994955,
+          "observed_to_predicted_MSE": 0.998576153342984,
+          "predicted_relative_RMSE": 0.04519747552435995,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.82421875,
+          "max_group_span": 1.6220703125,
+          "expected_noise_std_max": 0.004973981113935804
+        },
+        {
+          "name": "transformer.h.4.attn.c_attn.weight",
+          "elements": 1769472,
+          "shape": [
+            768,
+            2304
+          ],
+          "predicted_sum_weight_noise_variance": 30.450246441294368,
+          "observed_mean_sum_squared_noise": 30.450133392624856,
+          "observed_to_predicted_MSE": 0.999996287430063,
+          "predicted_relative_RMSE": 0.028330647055760716,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.24247289586950233,
+          "max_group_span": 6.421875,
+          "expected_noise_std_max": 0.035476165570498576
+        },
+        {
+          "name": "transformer.h.4.attn.c_attn.bias",
+          "elements": 2304,
+          "shape": [
+            2304
+          ],
+          "predicted_sum_weight_noise_variance": 0.15056429451667236,
+          "observed_mean_sum_squared_noise": 0.14651174508943954,
+          "observed_to_predicted_MSE": 0.9730842598489772,
+          "predicted_relative_RMSE": 0.03374272219379315,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.4487847222222222,
+          "max_group_span": 5.359375,
+          "expected_noise_std_max": 0.029606629661024363
+        },
+        {
+          "name": "transformer.h.4.attn.c_proj.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 4.277696135894185,
+          "observed_mean_sum_squared_noise": 4.281349725501642,
+          "observed_to_predicted_MSE": 1.0008541021829016,
+          "predicted_relative_RMSE": 0.02896698832438202,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2459479437934028,
+          "max_group_span": 2.21875,
+          "expected_noise_std_max": 0.011233310381738002
+        },
+        {
+          "name": "transformer.h.4.attn.c_proj.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.007876862054517354,
+          "observed_mean_sum_squared_noise": 0.007966040350339602,
+          "observed_to_predicted_MSE": 1.011321551044696,
+          "predicted_relative_RMSE": 0.03188869930973066,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2643229166666667,
+          "max_group_span": 0.90234375,
+          "expected_noise_std_max": 0.0049841048568961075
+        },
+        {
+          "name": "transformer.h.4.ln_2.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.003176795369540841,
+          "observed_mean_sum_squared_noise": 0.0031229940732346003,
+          "observed_to_predicted_MSE": 0.9830642864749526,
+          "predicted_relative_RMSE": 0.007369299915673655,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 1.02294921875,
+          "expected_noise_std_max": 0.004658384826533332
+        },
+        {
+          "name": "transformer.h.4.ln_2.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.0007729209535217617,
+          "observed_mean_sum_squared_noise": 0.0007805945371894634,
+          "observed_to_predicted_MSE": 1.0099280316217816,
+          "predicted_relative_RMSE": 0.03731507418504933,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.36328125,
+          "max_group_span": 0.248046875,
+          "expected_noise_std_max": 0.0013702776847485765
+        },
+        {
+          "name": "transformer.h.4.mlp.c_fc.weight",
+          "elements": 2359296,
+          "shape": [
+            768,
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 30.80217532230752,
+          "observed_mean_sum_squared_noise": 30.803327143721184,
+          "observed_to_predicted_MSE": 1.0000373941580947,
+          "predicted_relative_RMSE": 0.027849193629534804,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.24228456285264757,
+          "max_group_span": 2.3193359375,
+          "expected_noise_std_max": 0.012429605461146563
+        },
+        {
+          "name": "transformer.h.4.mlp.c_fc.bias",
+          "elements": 3072,
+          "shape": [
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 0.026412084659353734,
+          "observed_mean_sum_squared_noise": 0.025665895273016326,
+          "observed_to_predicted_MSE": 0.9717481828503398,
+          "predicted_relative_RMSE": 0.023109878267772235,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2001953125,
+          "max_group_span": 1.021484375,
+          "expected_noise_std_max": 0.005316419253173582
+        },
+        {
+          "name": "transformer.h.4.mlp.c_proj.weight",
+          "elements": 2359296,
+          "shape": [
+            3072,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 17.005056564314167,
+          "observed_mean_sum_squared_noise": 16.97260730405817,
+          "observed_to_predicted_MSE": 0.9980917875731097,
+          "predicted_relative_RMSE": 0.029505537874938256,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.24659093221028647,
+          "max_group_span": 4.9296875,
+          "expected_noise_std_max": 0.023690680228882797
+        },
+        {
+          "name": "transformer.h.4.mlp.c_proj.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.014917656466278488,
+          "observed_mean_sum_squared_noise": 0.015194318580883581,
+          "observed_to_predicted_MSE": 1.0185459502456362,
+          "predicted_relative_RMSE": 0.032221284031592655,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2981770833333333,
+          "max_group_span": 1.8359375,
+          "expected_noise_std_max": 0.009312538398908374
+        },
+        {
+          "name": "transformer.h.5.ln_1.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.0037032369881176835,
+          "observed_mean_sum_squared_noise": 0.0037748995626925297,
+          "observed_to_predicted_MSE": 1.0193513336588462,
+          "predicted_relative_RMSE": 0.005839549891072461,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 0.61279296875,
+          "expected_noise_std_max": 0.0033852332581898736
+        },
+        {
+          "name": "transformer.h.5.ln_1.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.0034089016837442706,
+          "observed_mean_sum_squared_noise": 0.0034475502153304867,
+          "observed_to_predicted_MSE": 1.011337531900822,
+          "predicted_relative_RMSE": 0.04179953455501257,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.7096354166666666,
+          "max_group_span": 1.122314453125,
+          "expected_noise_std_max": 0.0033838618813922176
+        },
+        {
+          "name": "transformer.h.5.attn.c_attn.weight",
+          "elements": 1769472,
+          "shape": [
+            768,
+            2304
+          ],
+          "predicted_sum_weight_noise_variance": 21.490164496322066,
+          "observed_mean_sum_squared_noise": 21.4929612886392,
+          "observed_to_predicted_MSE": 1.0001301428994465,
+          "predicted_relative_RMSE": 0.027225695735823917,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.23256542064525462,
+          "max_group_span": 2.71875,
+          "expected_noise_std_max": 0.01501910659888543
+        },
+        {
+          "name": "transformer.h.5.attn.c_attn.bias",
+          "elements": 2304,
+          "shape": [
+            2304
+          ],
+          "predicted_sum_weight_noise_variance": 0.028404067695145564,
+          "observed_mean_sum_squared_noise": 0.02824976230298647,
+          "observed_to_predicted_MSE": 0.9945674896351038,
+          "predicted_relative_RMSE": 0.03539119449931628,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.5078125,
+          "max_group_span": 1.033203125,
+          "expected_noise_std_max": 0.005707474271228863
+        },
+        {
+          "name": "transformer.h.5.attn.c_proj.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 4.275142155055998,
+          "observed_mean_sum_squared_noise": 4.277788534592976,
+          "observed_to_predicted_MSE": 1.000619015565096,
+          "predicted_relative_RMSE": 0.028712125622459863,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2442966037326389,
+          "max_group_span": 2.216796875,
+          "expected_noise_std_max": 0.01086362257712553
+        },
+        {
+          "name": "transformer.h.5.attn.c_proj.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.010042967856964145,
+          "observed_mean_sum_squared_noise": 0.009727975764178309,
+          "observed_to_predicted_MSE": 0.9686355570114257,
+          "predicted_relative_RMSE": 0.03266306663912757,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.28515625,
+          "max_group_span": 0.986328125,
+          "expected_noise_std_max": 0.005448617196886402
+        },
+        {
+          "name": "transformer.h.5.ln_2.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.003819686980279723,
+          "observed_mean_sum_squared_noise": 0.003768406975203414,
+          "observed_to_predicted_MSE": 0.9865748148104655,
+          "predicted_relative_RMSE": 0.007864172232582758,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 1.2802734375,
+          "expected_noise_std_max": 0.005253838021488621
+        },
+        {
+          "name": "transformer.h.5.ln_2.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.0016379973724951636,
+          "observed_mean_sum_squared_noise": 0.001704099631712534,
+          "observed_to_predicted_MSE": 1.0403555343417168,
+          "predicted_relative_RMSE": 0.043237072011677445,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.4192708333333333,
+          "max_group_span": 0.4755859375,
+          "expected_noise_std_max": 0.0026102011064477702
+        },
+        {
+          "name": "transformer.h.5.mlp.c_fc.weight",
+          "elements": 2359296,
+          "shape": [
+            768,
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 28.8894213450628,
+          "observed_mean_sum_squared_noise": 28.878025939696236,
+          "observed_to_predicted_MSE": 0.9996055509305481,
+          "predicted_relative_RMSE": 0.027604324164584734,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.23805618286132812,
+          "max_group_span": 2.03515625,
+          "expected_noise_std_max": 0.009382395701328466
+        },
+        {
+          "name": "transformer.h.5.mlp.c_fc.bias",
+          "elements": 3072,
+          "shape": [
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 0.020476073907636356,
+          "observed_mean_sum_squared_noise": 0.020472306766399197,
+          "observed_to_predicted_MSE": 0.9998160222875658,
+          "predicted_relative_RMSE": 0.02097566544614699,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.19140625,
+          "max_group_span": 0.970703125,
+          "expected_noise_std_max": 0.005141574049227329
+        },
+        {
+          "name": "transformer.h.5.mlp.c_proj.weight",
+          "elements": 2359296,
+          "shape": [
+            3072,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 18.183104682761233,
+          "observed_mean_sum_squared_noise": 18.196032075980405,
+          "observed_to_predicted_MSE": 1.0007109563215257,
+          "predicted_relative_RMSE": 0.028517761430732202,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.24149788750542533,
+          "max_group_span": 3.609375,
+          "expected_noise_std_max": 0.019885780876767692
+        },
+        {
+          "name": "transformer.h.5.mlp.c_proj.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.010150271828622399,
+          "observed_mean_sum_squared_noise": 0.010023590973358573,
+          "observed_to_predicted_MSE": 0.9875194618033182,
+          "predicted_relative_RMSE": 0.03419740552021759,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.3203125,
+          "max_group_span": 1.45703125,
+          "expected_noise_std_max": 0.007950516898850225
+        },
+        {
+          "name": "transformer.h.6.ln_1.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.004212617839460153,
+          "observed_mean_sum_squared_noise": 0.00423639819267476,
+          "observed_to_predicted_MSE": 1.005645029794028,
+          "predicted_relative_RMSE": 0.006717138360937664,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 0.66845703125,
+          "expected_noise_std_max": 0.0036844333870745816
+        },
+        {
+          "name": "transformer.h.6.ln_1.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.005769414909158593,
+          "observed_mean_sum_squared_noise": 0.006090976353936917,
+          "observed_to_predicted_MSE": 1.0557355381509943,
+          "predicted_relative_RMSE": 0.04075642830404104,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.7643229166666666,
+          "max_group_span": 1.60107421875,
+          "expected_noise_std_max": 0.004764380712540225
+        },
+        {
+          "name": "transformer.h.6.attn.c_attn.weight",
+          "elements": 1769472,
+          "shape": [
+            768,
+            2304
+          ],
+          "predicted_sum_weight_noise_variance": 21.688576865373204,
+          "observed_mean_sum_squared_noise": 21.716180789547547,
+          "observed_to_predicted_MSE": 1.001272740223837,
+          "predicted_relative_RMSE": 0.027599742402148617,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.23564600061487267,
+          "max_group_span": 2.5390625,
+          "expected_noise_std_max": 0.014026464489552358
+        },
+        {
+          "name": "transformer.h.6.attn.c_attn.bias",
+          "elements": 2304,
+          "shape": [
+            2304
+          ],
+          "predicted_sum_weight_noise_variance": 0.03850931077798955,
+          "observed_mean_sum_squared_noise": 0.03737338547702416,
+          "observed_to_predicted_MSE": 0.9705025803366326,
+          "predicted_relative_RMSE": 0.03324736913532582,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.3845486111111111,
+          "max_group_span": 1.515625,
+          "expected_noise_std_max": 0.008372528630829948
+        },
+        {
+          "name": "transformer.h.6.attn.c_proj.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 6.245132664223197,
+          "observed_mean_sum_squared_noise": 6.244251641694023,
+          "observed_to_predicted_MSE": 0.9998589265310213,
+          "predicted_relative_RMSE": 0.028623871747729533,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.24405076768663195,
+          "max_group_span": 2.20703125,
+          "expected_noise_std_max": 0.011576841418019627
+        },
+        {
+          "name": "transformer.h.6.attn.c_proj.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.0062025849579802166,
+          "observed_mean_sum_squared_noise": 0.006051807805977823,
+          "observed_to_predicted_MSE": 0.9756912395357996,
+          "predicted_relative_RMSE": 0.026820088126016998,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.23958333333333334,
+          "max_group_span": 0.669921875,
+          "expected_noise_std_max": 0.0037006168616141766
+        },
+        {
+          "name": "transformer.h.6.ln_2.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.003213124591424251,
+          "observed_mean_sum_squared_noise": 0.0031463650788754504,
+          "observed_to_predicted_MSE": 0.979222868379589,
+          "predicted_relative_RMSE": 0.007760227048173756,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 1.1982421875,
+          "expected_noise_std_max": 0.004697788934725817
+        },
+        {
+          "name": "transformer.h.6.ln_2.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.0013163858204992013,
+          "observed_mean_sum_squared_noise": 0.001298829598751257,
+          "observed_to_predicted_MSE": 0.986663315971235,
+          "predicted_relative_RMSE": 0.03842931448003213,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.4153645833333333,
+          "max_group_span": 0.517578125,
+          "expected_noise_std_max": 0.002600477088044942
+        },
+        {
+          "name": "transformer.h.6.mlp.c_fc.weight",
+          "elements": 2359296,
+          "shape": [
+            768,
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 28.344927347309813,
+          "observed_mean_sum_squared_noise": 28.34905394034571,
+          "observed_to_predicted_MSE": 1.000145584886683,
+          "predicted_relative_RMSE": 0.027426859746194052,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.23519261678059897,
+          "max_group_span": 2.703125,
+          "expected_noise_std_max": 0.014932447970449288
+        },
+        {
+          "name": "transformer.h.6.mlp.c_fc.bias",
+          "elements": 3072,
+          "shape": [
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 0.021859741592603076,
+          "observed_mean_sum_squared_noise": 0.02180782205718922,
+          "observed_to_predicted_MSE": 0.9976248788123174,
+          "predicted_relative_RMSE": 0.02139892330837243,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.19921875,
+          "max_group_span": 1.037109375,
+          "expected_noise_std_max": 0.005717745406958673
+        },
+        {
+          "name": "transformer.h.6.mlp.c_proj.weight",
+          "elements": 2359296,
+          "shape": [
+            3072,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 22.14005551468602,
+          "observed_mean_sum_squared_noise": 22.150200570132224,
+          "observed_to_predicted_MSE": 1.00045822177092,
+          "predicted_relative_RMSE": 0.02854372190548643,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2415381537543403,
+          "max_group_span": 4.015625,
+          "expected_noise_std_max": 0.02218330842633779
+        },
+        {
+          "name": "transformer.h.6.mlp.c_proj.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.01277615138485766,
+          "observed_mean_sum_squared_noise": 0.013295711628057,
+          "observed_to_predicted_MSE": 1.0406664125642033,
+          "predicted_relative_RMSE": 0.033705997357555875,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2825520833333333,
+          "max_group_span": 1.28125,
+          "expected_noise_std_max": 0.006989196138274333
+        },
+        {
+          "name": "transformer.h.7.ln_1.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.004625365304461173,
+          "observed_mean_sum_squared_noise": 0.004781126049920704,
+          "observed_to_predicted_MSE": 1.033675339180086,
+          "predicted_relative_RMSE": 0.006827384219692556,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 0.71826171875,
+          "expected_noise_std_max": 0.003939405775113002
+        },
+        {
+          "name": "transformer.h.7.ln_1.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.004914040673542221,
+          "observed_mean_sum_squared_noise": 0.004903665743630238,
+          "observed_to_predicted_MSE": 0.9978887171268559,
+          "predicted_relative_RMSE": 0.04163863490609493,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.6692708333333334,
+          "max_group_span": 1.229248046875,
+          "expected_noise_std_max": 0.004297416820277736
+        },
+        {
+          "name": "transformer.h.7.attn.c_attn.weight",
+          "elements": 1769472,
+          "shape": [
+            768,
+            2304
+          ],
+          "predicted_sum_weight_noise_variance": 22.22054875082062,
+          "observed_mean_sum_squared_noise": 22.237402073169328,
+          "observed_to_predicted_MSE": 1.0007584566221879,
+          "predicted_relative_RMSE": 0.027475589206989018,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.23485423900462962,
+          "max_group_span": 3.0625,
+          "expected_noise_std_max": 0.016918074092013922
+        },
+        {
+          "name": "transformer.h.7.attn.c_attn.bias",
+          "elements": 2304,
+          "shape": [
+            2304
+          ],
+          "predicted_sum_weight_noise_variance": 0.03810186918255321,
+          "observed_mean_sum_squared_noise": 0.03904764982541561,
+          "observed_to_predicted_MSE": 1.0248224211345376,
+          "predicted_relative_RMSE": 0.029446246293533363,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.4110243055555556,
+          "max_group_span": 1.484375,
+          "expected_noise_std_max": 0.008200086932353686
+        },
+        {
+          "name": "transformer.h.7.attn.c_proj.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 6.436429400222243,
+          "observed_mean_sum_squared_noise": 6.427208202420397,
+          "observed_to_predicted_MSE": 0.998567342663383,
+          "predicted_relative_RMSE": 0.029001287150070967,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2473975287543403,
+          "max_group_span": 2.640625,
+          "expected_noise_std_max": 0.014489531152871434
+        },
+        {
+          "name": "transformer.h.7.attn.c_proj.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.01227382036969221,
+          "observed_mean_sum_squared_noise": 0.012472771266554434,
+          "observed_to_predicted_MSE": 1.016209370095842,
+          "predicted_relative_RMSE": 0.027573191503334028,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.24479166666666666,
+          "max_group_span": 0.931640625,
+          "expected_noise_std_max": 0.0051466138712855675
+        },
+        {
+          "name": "transformer.h.7.ln_2.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.0034019047789368975,
+          "observed_mean_sum_squared_noise": 0.0031863714283888677,
+          "observed_to_predicted_MSE": 0.9366433323229628,
+          "predicted_relative_RMSE": 0.008090466418251611,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 1.1494140625,
+          "expected_noise_std_max": 0.004493950400455873
+        },
+        {
+          "name": "transformer.h.7.ln_2.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.002515174311899881,
+          "observed_mean_sum_squared_noise": 0.0024237800433900896,
+          "observed_to_predicted_MSE": 0.9636628491006036,
+          "predicted_relative_RMSE": 0.03881639478872392,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.4427083333333333,
+          "max_group_span": 0.68115234375,
+          "expected_noise_std_max": 0.003103053692102957
+        },
+        {
+          "name": "transformer.h.7.mlp.c_fc.weight",
+          "elements": 2359296,
+          "shape": [
+            768,
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 27.474401980538993,
+          "observed_mean_sum_squared_noise": 27.456467183297086,
+          "observed_to_predicted_MSE": 0.9993472179210812,
+          "predicted_relative_RMSE": 0.026984288620260147,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2289945814344618,
+          "max_group_span": 1.427734375,
+          "expected_noise_std_max": 0.007487688363389094
+        },
+        {
+          "name": "transformer.h.7.mlp.c_fc.bias",
+          "elements": 3072,
+          "shape": [
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 0.031267900055744986,
+          "observed_mean_sum_squared_noise": 0.03146012286643376,
+          "observed_to_predicted_MSE": 1.0061476085808791,
+          "predicted_relative_RMSE": 0.025188654066211402,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.19303385416666666,
+          "max_group_span": 1.55859375,
+          "expected_noise_std_max": 0.008610091282981734
+        },
+        {
+          "name": "transformer.h.7.mlp.c_proj.weight",
+          "elements": 2359296,
+          "shape": [
+            3072,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 25.88348397547886,
+          "observed_mean_sum_squared_noise": 25.892288761055074,
+          "observed_to_predicted_MSE": 1.0003401700321546,
+          "predicted_relative_RMSE": 0.027898386085639167,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2385313245985243,
+          "max_group_span": 4.892578125,
+          "expected_noise_std_max": 0.026943551663754124
+        },
+        {
+          "name": "transformer.h.7.mlp.c_proj.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.014815651778410205,
+          "observed_mean_sum_squared_noise": 0.015200783215971278,
+          "observed_to_predicted_MSE": 1.0259949034521922,
+          "predicted_relative_RMSE": 0.034098870638638853,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2981770833333333,
+          "max_group_span": 1.443359375,
+          "expected_noise_std_max": 0.007564866263964684
+        },
+        {
+          "name": "transformer.h.8.ln_1.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.004910838135546974,
+          "observed_mean_sum_squared_noise": 0.004829685031824997,
+          "observed_to_predicted_MSE": 0.9834746938339197,
+          "predicted_relative_RMSE": 0.007472708648282491,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 0.8369140625,
+          "expected_noise_std_max": 0.0045504464453581354
+        },
+        {
+          "name": "transformer.h.8.ln_1.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.005546802308016796,
+          "observed_mean_sum_squared_noise": 0.005456686706738443,
+          "observed_to_predicted_MSE": 0.9837535941837859,
+          "predicted_relative_RMSE": 0.03844674516975111,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.7252604166666666,
+          "max_group_span": 1.5,
+          "expected_noise_std_max": 0.004303744385454362
+        },
+        {
+          "name": "transformer.h.8.attn.c_attn.weight",
+          "elements": 1769472,
+          "shape": [
+            768,
+            2304
+          ],
+          "predicted_sum_weight_noise_variance": 21.001267878337323,
+          "observed_mean_sum_squared_noise": 21.007977761499355,
+          "observed_to_predicted_MSE": 1.0003194989560107,
+          "predicted_relative_RMSE": 0.027143574992895738,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.23046083803530093,
+          "max_group_span": 3.671875,
+          "expected_noise_std_max": 0.02028442557895446
+        },
+        {
+          "name": "transformer.h.8.attn.c_attn.bias",
+          "elements": 2304,
+          "shape": [
+            2304
+          ],
+          "predicted_sum_weight_noise_variance": 0.04723452947626981,
+          "observed_mean_sum_squared_noise": 0.04738565565086319,
+          "observed_to_predicted_MSE": 1.0031994851281265,
+          "predicted_relative_RMSE": 0.03444193137090358,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.3888888888888889,
+          "max_group_span": 1.5625,
+          "expected_noise_std_max": 0.008631637507914626
+        },
+        {
+          "name": "transformer.h.8.attn.c_proj.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 7.370291296830992,
+          "observed_mean_sum_squared_noise": 7.374084091460742,
+          "observed_to_predicted_MSE": 1.0005146057973828,
+          "predicted_relative_RMSE": 0.02889196609182579,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2471076117621528,
+          "max_group_span": 3.296875,
+          "expected_noise_std_max": 0.01793183984303979
+        },
+        {
+          "name": "transformer.h.8.attn.c_proj.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.01372876775272329,
+          "observed_mean_sum_squared_noise": 0.013351466784616923,
+          "observed_to_predicted_MSE": 0.9725174921083851,
+          "predicted_relative_RMSE": 0.030205683250253683,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.265625,
+          "max_group_span": 1.453125,
+          "expected_noise_std_max": 0.008027361623597068
+        },
+        {
+          "name": "transformer.h.8.ln_2.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.003230972346026161,
+          "observed_mean_sum_squared_noise": 0.003342487449548346,
+          "observed_to_predicted_MSE": 1.034514409774921,
+          "predicted_relative_RMSE": 0.00789483359671499,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 0.91015625,
+          "expected_noise_std_max": 0.0038854951002206236
+        },
+        {
+          "name": "transformer.h.8.ln_2.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.004097640697946879,
+          "observed_mean_sum_squared_noise": 0.004154321621709282,
+          "observed_to_predicted_MSE": 1.0138325753624038,
+          "predicted_relative_RMSE": 0.04681495206511635,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.4635416666666667,
+          "max_group_span": 0.81640625,
+          "expected_noise_std_max": 0.0045100478148951935
+        },
+        {
+          "name": "transformer.h.8.mlp.c_fc.weight",
+          "elements": 2359296,
+          "shape": [
+            768,
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 27.489594750858213,
+          "observed_mean_sum_squared_noise": 27.487926471499925,
+          "observed_to_predicted_MSE": 0.9999393123335063,
+          "predicted_relative_RMSE": 0.026816751213349026,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.22750303480360243,
+          "max_group_span": 1.634765625,
+          "expected_noise_std_max": 0.008142546375840038
+        },
+        {
+          "name": "transformer.h.8.mlp.c_fc.bias",
+          "elements": 3072,
+          "shape": [
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 0.0281646511484602,
+          "observed_mean_sum_squared_noise": 0.027957438562675456,
+          "observed_to_predicted_MSE": 0.9926428136925078,
+          "predicted_relative_RMSE": 0.0239515908129732,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.19596354166666666,
+          "max_group_span": 1.26953125,
+          "expected_noise_std_max": 0.006572166338018699
+        },
+        {
+          "name": "transformer.h.8.mlp.c_proj.weight",
+          "elements": 2359296,
+          "shape": [
+            3072,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 33.31585417769401,
+          "observed_mean_sum_squared_noise": 33.33666957708893,
+          "observed_to_predicted_MSE": 1.0006247896056903,
+          "predicted_relative_RMSE": 0.027754896301298022,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2378718058268229,
+          "max_group_span": 5.625,
+          "expected_noise_std_max": 0.021336392133390607
+        },
+        {
+          "name": "transformer.h.8.mlp.c_proj.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.012157775837022166,
+          "observed_mean_sum_squared_noise": 0.012743588431750653,
+          "observed_to_predicted_MSE": 1.0481841911367211,
+          "predicted_relative_RMSE": 0.031267326823288,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2565104166666667,
+          "max_group_span": 1.462890625,
+          "expected_noise_std_max": 0.0076859791070925535
+        },
+        {
+          "name": "transformer.h.9.ln_1.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.005112170867011679,
+          "observed_mean_sum_squared_noise": 0.00487383679379548,
+          "observed_to_predicted_MSE": 0.9533790870031078,
+          "predicted_relative_RMSE": 0.00715237707540461,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 0.8671875,
+          "expected_noise_std_max": 0.004789754484239433
+        },
+        {
+          "name": "transformer.h.9.ln_1.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.004978788890139172,
+          "observed_mean_sum_squared_noise": 0.004901090401530424,
+          "observed_to_predicted_MSE": 0.9843940985803524,
+          "predicted_relative_RMSE": 0.03871955465786689,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.6549479166666666,
+          "max_group_span": 1.31982421875,
+          "expected_noise_std_max": 0.004125862826401043
+        },
+        {
+          "name": "transformer.h.9.attn.c_attn.weight",
+          "elements": 1769472,
+          "shape": [
+            768,
+            2304
+          ],
+          "predicted_sum_weight_noise_variance": 20.642262227462247,
+          "observed_mean_sum_squared_noise": 20.62072076240775,
+          "observed_to_predicted_MSE": 0.998956438746048,
+          "predicted_relative_RMSE": 0.027062662709716058,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.22857270417390047,
+          "max_group_span": 3.5859375,
+          "expected_noise_std_max": 0.01980854973155577
+        },
+        {
+          "name": "transformer.h.9.attn.c_attn.bias",
+          "elements": 2304,
+          "shape": [
+            2304
+          ],
+          "predicted_sum_weight_noise_variance": 0.051586393624516655,
+          "observed_mean_sum_squared_noise": 0.049362992202565126,
+          "observed_to_predicted_MSE": 0.9568994599984045,
+          "predicted_relative_RMSE": 0.03368759073467871,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.3645833333333333,
+          "max_group_span": 1.70703125,
+          "expected_noise_std_max": 0.00943006397739673
+        },
+        {
+          "name": "transformer.h.9.attn.c_proj.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 9.314085184504323,
+          "observed_mean_sum_squared_noise": 9.311114929985887,
+          "observed_to_predicted_MSE": 0.9996811007780584,
+          "predicted_relative_RMSE": 0.0290472747103492,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2517903645833333,
+          "max_group_span": 2.4609375,
+          "expected_noise_std_max": 0.012791347017368275
+        },
+        {
+          "name": "transformer.h.9.attn.c_proj.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.03321252245522932,
+          "observed_mean_sum_squared_noise": 0.033284879884326046,
+          "observed_to_predicted_MSE": 1.0021786188987682,
+          "predicted_relative_RMSE": 0.031409150478222465,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2643229166666667,
+          "max_group_span": 2.298828125,
+          "expected_noise_std_max": 0.012672202957249214
+        },
+        {
+          "name": "transformer.h.9.ln_2.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.003568030852740672,
+          "observed_mean_sum_squared_noise": 0.0035122977939996886,
+          "observed_to_predicted_MSE": 0.9843798831789322,
+          "predicted_relative_RMSE": 0.008041291884468029,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 0.771484375,
+          "expected_noise_std_max": 0.00361624405306268
+        },
+        {
+          "name": "transformer.h.9.ln_2.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.003461220622759558,
+          "observed_mean_sum_squared_noise": 0.0033305611370804413,
+          "observed_to_predicted_MSE": 0.9622504601931602,
+          "predicted_relative_RMSE": 0.04597458945573146,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.4544270833333333,
+          "max_group_span": 0.794921875,
+          "expected_noise_std_max": 0.0043845666619867964
+        },
+        {
+          "name": "transformer.h.9.mlp.c_fc.weight",
+          "elements": 2359296,
+          "shape": [
+            768,
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 27.53778612054561,
+          "observed_mean_sum_squared_noise": 27.531623065221474,
+          "observed_to_predicted_MSE": 0.9997761964125526,
+          "predicted_relative_RMSE": 0.026766364971473836,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.22629165649414062,
+          "max_group_span": 2.955078125,
+          "expected_noise_std_max": 0.011681241017208013
+        },
+        {
+          "name": "transformer.h.9.mlp.c_fc.bias",
+          "elements": 3072,
+          "shape": [
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 0.030541302062273352,
+          "observed_mean_sum_squared_noise": 0.03001687638417021,
+          "observed_to_predicted_MSE": 0.9828289678994745,
+          "predicted_relative_RMSE": 0.025305554228140424,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.1787109375,
+          "max_group_span": 0.982421875,
+          "expected_noise_std_max": 0.005422816006770144
+        },
+        {
+          "name": "transformer.h.9.mlp.c_proj.weight",
+          "elements": 2359296,
+          "shape": [
+            3072,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 43.67467625747141,
+          "observed_mean_sum_squared_noise": 43.66124411912295,
+          "observed_to_predicted_MSE": 0.9996924501908319,
+          "predicted_relative_RMSE": 0.02760497704143836,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2375581529405382,
+          "max_group_span": 5.755859375,
+          "expected_noise_std_max": 0.031108388018529456
+        },
+        {
+          "name": "transformer.h.9.mlp.c_proj.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.01703442385546962,
+          "observed_mean_sum_squared_noise": 0.016502195099052354,
+          "observed_to_predicted_MSE": 0.9687556937098069,
+          "predicted_relative_RMSE": 0.029598794912687607,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2513020833333333,
+          "max_group_span": 1.765625,
+          "expected_noise_std_max": 0.009550230273714816
+        },
+        {
+          "name": "transformer.h.10.ln_1.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.005261332825381019,
+          "observed_mean_sum_squared_noise": 0.005023889989868084,
+          "observed_to_predicted_MSE": 0.9548702119038174,
+          "predicted_relative_RMSE": 0.006843961291760806,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 0.8349609375,
+          "expected_noise_std_max": 0.004612284863965191
+        },
+        {
+          "name": "transformer.h.10.ln_1.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.004774228063291763,
+          "observed_mean_sum_squared_noise": 0.004881965311312177,
+          "observed_to_predicted_MSE": 1.0225664225906566,
+          "predicted_relative_RMSE": 0.042999176602325134,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.5924479166666666,
+          "max_group_span": 1.1533203125,
+          "expected_noise_std_max": 0.004112801932414833
+        },
+        {
+          "name": "transformer.h.10.attn.c_attn.weight",
+          "elements": 1769472,
+          "shape": [
+            768,
+            2304
+          ],
+          "predicted_sum_weight_noise_variance": 20.799951172415085,
+          "observed_mean_sum_squared_noise": 20.819932124538013,
+          "observed_to_predicted_MSE": 1.0009606249532657,
+          "predicted_relative_RMSE": 0.027068100293977874,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2284065529152199,
+          "max_group_span": 2.9921875,
+          "expected_noise_std_max": 0.016529018116299844
+        },
+        {
+          "name": "transformer.h.10.attn.c_attn.bias",
+          "elements": 2304,
+          "shape": [
+            2304
+          ],
+          "predicted_sum_weight_noise_variance": 0.05091355248077658,
+          "observed_mean_sum_squared_noise": 0.051113274914544496,
+          "observed_to_predicted_MSE": 1.0039227754504723,
+          "predicted_relative_RMSE": 0.032370446434487644,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.3936631944444444,
+          "max_group_span": 1.63671875,
+          "expected_noise_std_max": 0.009041640302174645
+        },
+        {
+          "name": "transformer.h.10.attn.c_proj.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 11.092011355677583,
+          "observed_mean_sum_squared_noise": 11.099878703575111,
+          "observed_to_predicted_MSE": 1.0007092805484283,
+          "predicted_relative_RMSE": 0.02957876646010884,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2566002739800347,
+          "max_group_span": 4.548828125,
+          "expected_noise_std_max": 0.021366116204425547
+        },
+        {
+          "name": "transformer.h.10.attn.c_proj.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.058960488738553404,
+          "observed_mean_sum_squared_noise": 0.05937992857565748,
+          "observed_to_predicted_MSE": 1.007113913844303,
+          "predicted_relative_RMSE": 0.037799216789476786,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.390625,
+          "max_group_span": 4.212890625,
+          "expected_noise_std_max": 0.023229154838327166
+        },
+        {
+          "name": "transformer.h.10.ln_2.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.0052939461972827204,
+          "observed_mean_sum_squared_noise": 0.005227756557909036,
+          "observed_to_predicted_MSE": 0.9874971076571087,
+          "predicted_relative_RMSE": 0.008930753529330274,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 0.8994140625,
+          "expected_noise_std_max": 0.004404016550656425
+        },
+        {
+          "name": "transformer.h.10.ln_2.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.0038020971888510446,
+          "observed_mean_sum_squared_noise": 0.0038210270351232123,
+          "observed_to_predicted_MSE": 1.0049787907388785,
+          "predicted_relative_RMSE": 0.04485698371005683,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.3463541666666667,
+          "max_group_span": 0.943359375,
+          "expected_noise_std_max": 0.004953379650076088
+        },
+        {
+          "name": "transformer.h.10.mlp.c_fc.weight",
+          "elements": 2359296,
+          "shape": [
+            768,
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 27.748528200523758,
+          "observed_mean_sum_squared_noise": 27.75528691604473,
+          "observed_to_predicted_MSE": 1.0002435702345052,
+          "predicted_relative_RMSE": 0.02686043286577409,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.22655487060546875,
+          "max_group_span": 2.98046875,
+          "expected_noise_std_max": 0.013012669023472537
+        },
+        {
+          "name": "transformer.h.10.mlp.c_fc.bias",
+          "elements": 3072,
+          "shape": [
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 0.034561477071108404,
+          "observed_mean_sum_squared_noise": 0.033381613598194707,
+          "observed_to_predicted_MSE": 0.9658618909577796,
+          "predicted_relative_RMSE": 0.02817592357468595,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.18294270833333334,
+          "max_group_span": 1.3017578125,
+          "expected_noise_std_max": 0.007188763552943674
+        },
+        {
+          "name": "transformer.h.10.mlp.c_proj.weight",
+          "elements": 2359296,
+          "shape": [
+            3072,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 59.00669073214142,
+          "observed_mean_sum_squared_noise": 58.982671726007574,
+          "observed_to_predicted_MSE": 0.9995929443621422,
+          "predicted_relative_RMSE": 0.028075362678103438,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2414576212565104,
+          "max_group_span": 11.44140625,
+          "expected_noise_std_max": 0.043501721749057976
+        },
+        {
+          "name": "transformer.h.10.mlp.c_proj.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.031279364655505904,
+          "observed_mean_sum_squared_noise": 0.03084798952796581,
+          "observed_to_predicted_MSE": 0.9862089549359129,
+          "predicted_relative_RMSE": 0.03290832077722205,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.25,
+          "max_group_span": 1.87109375,
+          "expected_noise_std_max": 0.010336307036836011
+        },
+        {
+          "name": "transformer.h.11.ln_1.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.00736687969419674,
+          "observed_mean_sum_squared_noise": 0.00737908756118587,
+          "observed_to_predicted_MSE": 1.0016571285939075,
+          "predicted_relative_RMSE": 0.006411167002259195,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 0.82763671875,
+          "expected_noise_std_max": 0.004572087946320188
+        },
+        {
+          "name": "transformer.h.11.ln_1.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.005700872814361924,
+          "observed_mean_sum_squared_noise": 0.0055732587027912985,
+          "observed_to_predicted_MSE": 0.977614987085989,
+          "predicted_relative_RMSE": 0.044378035728131454,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.4947916666666667,
+          "max_group_span": 1.070068359375,
+          "expected_noise_std_max": 0.005109983296609291
+        },
+        {
+          "name": "transformer.h.11.attn.c_attn.weight",
+          "elements": 1769472,
+          "shape": [
+            768,
+            2304
+          ],
+          "predicted_sum_weight_noise_variance": 21.480423733523455,
+          "observed_mean_sum_squared_noise": 21.503419581190876,
+          "observed_to_predicted_MSE": 1.0010705490707583,
+          "predicted_relative_RMSE": 0.027121535920820217,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2281624122902199,
+          "max_group_span": 4.578125,
+          "expected_noise_std_max": 0.025290794445249603
+        },
+        {
+          "name": "transformer.h.11.attn.c_attn.bias",
+          "elements": 2304,
+          "shape": [
+            2304
+          ],
+          "predicted_sum_weight_noise_variance": 0.03589862362679692,
+          "observed_mean_sum_squared_noise": 0.03606373234513159,
+          "observed_to_predicted_MSE": 1.004599304977571,
+          "predicted_relative_RMSE": 0.03261871866544726,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.3259548611111111,
+          "max_group_span": 1.40234375,
+          "expected_noise_std_max": 0.007746835527311818
+        },
+        {
+          "name": "transformer.h.11.attn.c_proj.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 25.459451557987606,
+          "observed_mean_sum_squared_noise": 25.451008007457194,
+          "observed_to_predicted_MSE": 0.9996683530078729,
+          "predicted_relative_RMSE": 0.036118186976449446,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.3137546115451389,
+          "max_group_span": 9.69140625,
+          "expected_noise_std_max": 0.04530927797936409
+        },
+        {
+          "name": "transformer.h.11.attn.c_proj.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.37445895150809705,
+          "observed_mean_sum_squared_noise": 0.35895253133635385,
+          "observed_to_predicted_MSE": 0.9585897997382822,
+          "predicted_relative_RMSE": 0.0470556761022371,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.5208333333333334,
+          "max_group_span": 8.984375,
+          "expected_noise_std_max": 0.04947718069990777
+        },
+        {
+          "name": "transformer.h.11.ln_2.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.01591296088928147,
+          "observed_mean_sum_squared_noise": 0.01584136545073907,
+          "observed_to_predicted_MSE": 0.9955008097461846,
+          "predicted_relative_RMSE": 0.008898207365463385,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 1.20263671875,
+          "expected_noise_std_max": 0.006634798894863889
+        },
+        {
+          "name": "transformer.h.11.ln_2.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.002681722985151332,
+          "observed_mean_sum_squared_noise": 0.002711111839590191,
+          "observed_to_predicted_MSE": 1.010958944902805,
+          "predicted_relative_RMSE": 0.04650769481104661,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.49609375,
+          "max_group_span": 0.5654296875,
+          "expected_noise_std_max": 0.0030711026137285186
+        },
+        {
+          "name": "transformer.h.11.mlp.c_fc.weight",
+          "elements": 2359296,
+          "shape": [
+            768,
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 30.188391426193995,
+          "observed_mean_sum_squared_noise": 30.198300220406953,
+          "observed_to_predicted_MSE": 1.0003282319376698,
+          "predicted_relative_RMSE": 0.027514517318808385,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.23192977905273438,
+          "max_group_span": 3.0703125,
+          "expected_noise_std_max": 0.01696123245218958
+        },
+        {
+          "name": "transformer.h.11.mlp.c_fc.bias",
+          "elements": 3072,
+          "shape": [
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 0.03493904145391048,
+          "observed_mean_sum_squared_noise": 0.03467999089062291,
+          "observed_to_predicted_MSE": 0.9925856419492991,
+          "predicted_relative_RMSE": 0.029850789682622638,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2255859375,
+          "max_group_span": 1.42578125,
+          "expected_noise_std_max": 0.007782352482342966
+        },
+        {
+          "name": "transformer.h.11.mlp.c_proj.weight",
+          "elements": 2359296,
+          "shape": [
+            3072,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 79.40381923955732,
+          "observed_mean_sum_squared_noise": 79.42244814288864,
+          "observed_to_predicted_MSE": 1.0002346096637382,
+          "predicted_relative_RMSE": 0.02927013047254965,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.24873140123155382,
+          "max_group_span": 9.431640625,
+          "expected_noise_std_max": 0.04871364269796006
+        },
+        {
+          "name": "transformer.h.11.mlp.c_proj.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.006913465341847259,
+          "observed_mean_sum_squared_noise": 0.006734738134186909,
+          "observed_to_predicted_MSE": 0.9741479563687817,
+          "predicted_relative_RMSE": 0.02773390908910651,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.23958333333333334,
+          "max_group_span": 0.8203125,
+          "expected_noise_std_max": 0.0045316269889323
+        },
+        {
+          "name": "transformer.ln_f.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 1.066229921659585,
+          "observed_mean_sum_squared_noise": 1.1005445139481473,
+          "observed_to_predicted_MSE": 1.032183107593859,
+          "predicted_relative_RMSE": 0.018168387162010968,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.009114583333333334,
+          "max_group_span": 17.369415283203125,
+          "expected_noise_std_max": 0.09477890726932166
+        },
+        {
+          "name": "transformer.ln_f.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.2150089104727983,
+          "observed_mean_sum_squared_noise": 0.21837971718810728,
+          "observed_to_predicted_MSE": 1.0156775210287643,
+          "predicted_relative_RMSE": 0.03992271634029036,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.8020833333333334,
+          "max_group_span": 8.265625,
+          "expected_noise_std_max": 0.04326763598273909
+        }
+      ]
+    },
+    {
+      "model": "distilbert",
+      "scalars": 66955010,
+      "seeds": [
+        202611320,
+        202611321,
+        202611322,
+        202611323,
+        202611324
+      ],
+      "predicted_total_squared_noise": 111.2426494136597,
+      "observed_mean_total_squared_noise": 111.24924154697023,
+      "MSE_ratio": 1.0000592590462853,
+      "aggregate_8sigma_moment_z": 0.5154859068832188,
+      "moment_gate_met": true,
+      "parameters": [
+        {
+          "name": "distilbert.embeddings.word_embeddings.weight",
+          "elements": 23440896,
+          "shape": [
+            30522,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 46.83796405081148,
+          "observed_mean_sum_squared_noise": 46.853330466840646,
+          "observed_to_predicted_MSE": 1.000328076088288,
+          "predicted_relative_RMSE": 0.023309265121758644,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.16218206846700742,
+          "max_group_span": 1.38671875,
+          "expected_noise_std_max": 0.007652545235600794
+        },
+        {
+          "name": "distilbert.embeddings.position_embeddings.weight",
+          "elements": 393216,
+          "shape": [
+            512,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.1465289680819628,
+          "observed_mean_sum_squared_noise": 0.14664627293619564,
+          "observed_to_predicted_MSE": 1.0008005574308503,
+          "predicted_relative_RMSE": 0.03799374287787653,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.30363718668619794,
+          "max_group_span": 1.63671875,
+          "expected_noise_std_max": 0.009026684402886148
+        },
+        {
+          "name": "distilbert.embeddings.LayerNorm.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.007146628299053289,
+          "observed_mean_sum_squared_noise": 0.007451694701769006,
+          "observed_to_predicted_MSE": 1.0426867593989921,
+          "predicted_relative_RMSE": 0.004032123204083016,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 0.82470703125,
+          "expected_noise_std_max": 0.004430508711268145
+        },
+        {
+          "name": "distilbert.embeddings.LayerNorm.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.008695048569518712,
+          "observed_mean_sum_squared_noise": 0.008937142929460299,
+          "observed_to_predicted_MSE": 1.0278427840863673,
+          "predicted_relative_RMSE": 0.036744424476366236,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.3190104166666667,
+          "max_group_span": 0.8017578125,
+          "expected_noise_std_max": 0.004429024473904689
+        },
+        {
+          "name": "distilbert.transformer.layer.0.attention.q_lin.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.9273250232502013,
+          "observed_mean_sum_squared_noise": 0.9260531574438489,
+          "observed_to_predicted_MSE": 0.9986284573645013,
+          "predicted_relative_RMSE": 0.028884752268183697,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.24400838216145834,
+          "max_group_span": 1.037109375,
+          "expected_noise_std_max": 0.005726648293482661
+        },
+        {
+          "name": "distilbert.transformer.layer.0.attention.q_lin.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.05363622159646164,
+          "observed_mean_sum_squared_noise": 0.05164790705287432,
+          "observed_to_predicted_MSE": 0.9629296306785621,
+          "predicted_relative_RMSE": 0.025738967159564294,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.23567708333333334,
+          "max_group_span": 2.109375,
+          "expected_noise_std_max": 0.011652755114397343
+        },
+        {
+          "name": "distilbert.transformer.layer.0.attention.k_lin.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.9775692059970739,
+          "observed_mean_sum_squared_noise": 0.9772963358083533,
+          "observed_to_predicted_MSE": 0.9997208686740063,
+          "predicted_relative_RMSE": 0.02978335559331033,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.24704996744791666,
+          "max_group_span": 1.515625,
+          "expected_noise_std_max": 0.008372241063010499
+        },
+        {
+          "name": "distilbert.transformer.layer.0.attention.k_lin.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 5.14250292160828e-06,
+          "observed_mean_sum_squared_noise": 5.1216221560453905e-06,
+          "observed_to_predicted_MSE": 0.9959395714730369,
+          "predicted_relative_RMSE": 0.02556576078389097,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.22786458333333334,
+          "max_group_span": 0.02301025390625,
+          "expected_noise_std_max": 0.000127114349237649
+        },
+        {
+          "name": "distilbert.transformer.layer.0.attention.v_lin.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.5071610939972291,
+          "observed_mean_sum_squared_noise": 0.5073233215372026,
+          "observed_to_predicted_MSE": 1.000319873787429,
+          "predicted_relative_RMSE": 0.027124302046014796,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2324795193142361,
+          "max_group_span": 0.3525390625,
+          "expected_noise_std_max": 0.0019475206473411064
+        },
+        {
+          "name": "distilbert.transformer.layer.0.attention.v_lin.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.0039848249670908185,
+          "observed_mean_sum_squared_noise": 0.00409527530111529,
+          "observed_to_predicted_MSE": 1.0277177379023268,
+          "predicted_relative_RMSE": 0.028146289925109404,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.33984375,
+          "max_group_span": 0.791015625,
+          "expected_noise_std_max": 0.004369783169934339
+        },
+        {
+          "name": "distilbert.transformer.layer.0.attention.out_lin.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.5300173960304941,
+          "observed_mean_sum_squared_noise": 0.5303743912039114,
+          "observed_to_predicted_MSE": 1.0006735536910505,
+          "predicted_relative_RMSE": 0.027210791158467803,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2252875434027778,
+          "max_group_span": 1.35546875,
+          "expected_noise_std_max": 0.007487945548579002
+        },
+        {
+          "name": "distilbert.transformer.layer.0.attention.out_lin.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.002608301156325922,
+          "observed_mean_sum_squared_noise": 0.002683977437238777,
+          "observed_to_predicted_MSE": 1.0290136285563947,
+          "predicted_relative_RMSE": 0.03897203926251094,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.3606770833333333,
+          "max_group_span": 0.6826171875,
+          "expected_noise_std_max": 0.003519162729892346
+        },
+        {
+          "name": "distilbert.transformer.layer.0.sa_layer_norm.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.009588758728683302,
+          "observed_mean_sum_squared_noise": 0.009385497587577115,
+          "observed_to_predicted_MSE": 0.9788021425027451,
+          "predicted_relative_RMSE": 0.004174086959389974,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 2.2890625,
+          "expected_noise_std_max": 0.009880843440703333
+        },
+        {
+          "name": "distilbert.transformer.layer.0.sa_layer_norm.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.14661555163096124,
+          "observed_mean_sum_squared_noise": 0.1488620774970768,
+          "observed_to_predicted_MSE": 1.0153225619050985,
+          "predicted_relative_RMSE": 0.041075981017897584,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.4609375,
+          "max_group_span": 5.07421875,
+          "expected_noise_std_max": 0.02569829529456868
+        },
+        {
+          "name": "distilbert.transformer.layer.0.ffn.lin1.weight",
+          "elements": 2359296,
+          "shape": [
+            3072,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 2.9994067371369333,
+          "observed_mean_sum_squared_noise": 3.000290679516303,
+          "observed_to_predicted_MSE": 1.0002947057391134,
+          "predicted_relative_RMSE": 0.027078009263432058,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.22939088609483507,
+          "max_group_span": 0.615234375,
+          "expected_noise_std_max": 0.0033987202432822633
+        },
+        {
+          "name": "distilbert.transformer.layer.0.ffn.lin1.bias",
+          "elements": 3072,
+          "shape": [
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 0.013632856089657482,
+          "observed_mean_sum_squared_noise": 0.013819734085808994,
+          "observed_to_predicted_MSE": 1.013707912334913,
+          "predicted_relative_RMSE": 0.01684921095412293,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.019856770833333332,
+          "max_group_span": 0.6181640625,
+          "expected_noise_std_max": 0.0033874652325892917
+        },
+        {
+          "name": "distilbert.transformer.layer.0.ffn.lin2.weight",
+          "elements": 2359296,
+          "shape": [
+            768,
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 3.9662422614123543,
+          "observed_mean_sum_squared_noise": 3.965499846739869,
+          "observed_to_predicted_MSE": 0.999812816609891,
+          "predicted_relative_RMSE": 0.030297881378263194,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2586534288194444,
+          "max_group_span": 2.353515625,
+          "expected_noise_std_max": 0.011790608303016089
+        },
+        {
+          "name": "distilbert.transformer.layer.0.ffn.lin2.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.008150131166258678,
+          "observed_mean_sum_squared_noise": 0.008189871226481765,
+          "observed_to_predicted_MSE": 1.004876002534488,
+          "predicted_relative_RMSE": 0.03874260236182621,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.3697916666666667,
+          "max_group_span": 0.78125,
+          "expected_noise_std_max": 0.004309156424557048
+        },
+        {
+          "name": "distilbert.transformer.layer.0.output_layer_norm.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.002871939485918633,
+          "observed_mean_sum_squared_noise": 0.002843432500886282,
+          "observed_to_predicted_MSE": 0.9900739604117276,
+          "predicted_relative_RMSE": 0.0025757854588227655,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 0.72021484375,
+          "expected_noise_std_max": 0.003978341729935979
+        },
+        {
+          "name": "distilbert.transformer.layer.0.output_layer_norm.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.009529982605931768,
+          "observed_mean_sum_squared_noise": 0.00932418637868812,
+          "observed_to_predicted_MSE": 0.9784053931939443,
+          "predicted_relative_RMSE": 0.033248128595801806,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.30078125,
+          "max_group_span": 1.51953125,
+          "expected_noise_std_max": 0.00742018146976961
+        },
+        {
+          "name": "distilbert.transformer.layer.1.attention.q_lin.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 1.5342556963392053,
+          "observed_mean_sum_squared_noise": 1.5346570689047725,
+          "observed_to_predicted_MSE": 1.0002616073491042,
+          "predicted_relative_RMSE": 0.028561922734698656,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2370062934027778,
+          "max_group_span": 0.935546875,
+          "expected_noise_std_max": 0.005168192957863883
+        },
+        {
+          "name": "distilbert.transformer.layer.1.attention.q_lin.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.016750380186471486,
+          "observed_mean_sum_squared_noise": 0.016521269068952345,
+          "observed_to_predicted_MSE": 0.9863220347855637,
+          "predicted_relative_RMSE": 0.03205344620281943,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.29296875,
+          "max_group_span": 1.453125,
+          "expected_noise_std_max": 0.008027422882360604
+        },
+        {
+          "name": "distilbert.transformer.layer.1.attention.k_lin.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 1.5301020553174116,
+          "observed_mean_sum_squared_noise": 1.5310748907113203,
+          "observed_to_predicted_MSE": 1.0006357977172358,
+          "predicted_relative_RMSE": 0.029224931613550692,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2431098090277778,
+          "max_group_span": 0.896484375,
+          "expected_noise_std_max": 0.004952402027086112
+        },
+        {
+          "name": "distilbert.transformer.layer.1.attention.k_lin.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 1.466293434574849e-05,
+          "observed_mean_sum_squared_noise": 1.3794871695673331e-05,
+          "observed_to_predicted_MSE": 0.9407988449237753,
+          "predicted_relative_RMSE": 0.03290502040482764,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.33203125,
+          "max_group_span": 0.0430908203125,
+          "expected_noise_std_max": 0.00023804528676980684
+        },
+        {
+          "name": "distilbert.transformer.layer.1.attention.v_lin.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.5533420943893512,
+          "observed_mean_sum_squared_noise": 0.5535289563190545,
+          "observed_to_predicted_MSE": 1.0003376969357618,
+          "predicted_relative_RMSE": 0.027053244700197224,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2305874294704861,
+          "max_group_span": 0.376953125,
+          "expected_noise_std_max": 0.0020823904982650056
+        },
+        {
+          "name": "distilbert.transformer.layer.1.attention.v_lin.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.006195150096036991,
+          "observed_mean_sum_squared_noise": 0.006392230171274595,
+          "observed_to_predicted_MSE": 1.0318119936050743,
+          "predicted_relative_RMSE": 0.04468619409182561,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.4361979166666667,
+          "max_group_span": 0.97265625,
+          "expected_noise_std_max": 0.005370078829136315
+        },
+        {
+          "name": "distilbert.transformer.layer.1.attention.out_lin.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.5545435074697678,
+          "observed_mean_sum_squared_noise": 0.5542584364887162,
+          "observed_to_predicted_MSE": 0.9994859357702116,
+          "predicted_relative_RMSE": 0.027353104830682855,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2310028076171875,
+          "max_group_span": 0.90625,
+          "expected_noise_std_max": 0.005006368866295143
+        },
+        {
+          "name": "distilbert.transformer.layer.1.attention.out_lin.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.007983376021656961,
+          "observed_mean_sum_squared_noise": 0.008009517275499265,
+          "observed_to_predicted_MSE": 1.0032744610514885,
+          "predicted_relative_RMSE": 0.03359631747019464,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.3359375,
+          "max_group_span": 0.69140625,
+          "expected_noise_std_max": 0.003819514176385796
+        },
+        {
+          "name": "distilbert.transformer.layer.1.sa_layer_norm.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.010349971736844675,
+          "observed_mean_sum_squared_noise": 0.010223573435765094,
+          "observed_to_predicted_MSE": 0.9877875704114613,
+          "predicted_relative_RMSE": 0.0046590793094158185,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 1.626953125,
+          "expected_noise_std_max": 0.008450893657229857
+        },
+        {
+          "name": "distilbert.transformer.layer.1.sa_layer_norm.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.038128252726792454,
+          "observed_mean_sum_squared_noise": 0.03690677677769179,
+          "observed_to_predicted_MSE": 0.9679640198082735,
+          "predicted_relative_RMSE": 0.038033396316129696,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.34765625,
+          "max_group_span": 2.6015625,
+          "expected_noise_std_max": 0.013316074503515542
+        },
+        {
+          "name": "distilbert.transformer.layer.1.ffn.lin1.weight",
+          "elements": 2359296,
+          "shape": [
+            3072,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 3.521744146509088,
+          "observed_mean_sum_squared_noise": 3.5189391459884,
+          "observed_to_predicted_MSE": 0.9992035195051099,
+          "predicted_relative_RMSE": 0.027301566822994196,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.23225953843858507,
+          "max_group_span": 1.24609375,
+          "expected_noise_std_max": 0.006883730912561915
+        },
+        {
+          "name": "distilbert.transformer.layer.1.ffn.lin1.bias",
+          "elements": 3072,
+          "shape": [
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 0.024385773974405656,
+          "observed_mean_sum_squared_noise": 0.02491469372405512,
+          "observed_to_predicted_MSE": 1.021689684740152,
+          "predicted_relative_RMSE": 0.02275556734883733,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.05078125,
+          "max_group_span": 0.93359375,
+          "expected_noise_std_max": 0.005142871931053328
+        },
+        {
+          "name": "distilbert.transformer.layer.1.ffn.lin2.weight",
+          "elements": 2359296,
+          "shape": [
+            768,
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 3.919657028146287,
+          "observed_mean_sum_squared_noise": 3.9209570519372554,
+          "observed_to_predicted_MSE": 1.0003316677407317,
+          "predicted_relative_RMSE": 0.0298834363097519,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2581520080566406,
+          "max_group_span": 4.130859375,
+          "expected_noise_std_max": 0.009879307270324152
+        },
+        {
+          "name": "distilbert.transformer.layer.1.ffn.lin2.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.004140890801516859,
+          "observed_mean_sum_squared_noise": 0.004140975684886572,
+          "observed_to_predicted_MSE": 1.0000204988186796,
+          "predicted_relative_RMSE": 0.02900298482154302,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.26953125,
+          "max_group_span": 0.525390625,
+          "expected_noise_std_max": 0.0029022884168709764
+        },
+        {
+          "name": "distilbert.transformer.layer.1.output_layer_norm.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.0023938501561697953,
+          "observed_mean_sum_squared_noise": 0.002341947692078775,
+          "observed_to_predicted_MSE": 0.9783184156463388,
+          "predicted_relative_RMSE": 0.0021291198729250626,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 0.5703125,
+          "expected_noise_std_max": 0.003149297608438176
+        },
+        {
+          "name": "distilbert.transformer.layer.1.output_layer_norm.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.003295482490943886,
+          "observed_mean_sum_squared_noise": 0.0033290877238836593,
+          "observed_to_predicted_MSE": 1.0101973635217671,
+          "predicted_relative_RMSE": 0.02563169003739791,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.21744791666666666,
+          "max_group_span": 0.4970703125,
+          "expected_noise_std_max": 0.0027459501635315963
+        },
+        {
+          "name": "distilbert.transformer.layer.2.attention.q_lin.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.9943469486067316,
+          "observed_mean_sum_squared_noise": 0.9938238305512037,
+          "observed_to_predicted_MSE": 0.9994739079189001,
+          "predicted_relative_RMSE": 0.02731319218577304,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2305874294704861,
+          "max_group_span": 0.580078125,
+          "expected_noise_std_max": 0.0032045076564592694
+        },
+        {
+          "name": "distilbert.transformer.layer.2.attention.q_lin.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.021725364035784137,
+          "observed_mean_sum_squared_noise": 0.022200462294180583,
+          "observed_to_predicted_MSE": 1.0218683681255654,
+          "predicted_relative_RMSE": 0.0333143563401,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.3411458333333333,
+          "max_group_span": 1.4140625,
+          "expected_noise_std_max": 0.00781166176551225
+        },
+        {
+          "name": "distilbert.transformer.layer.2.attention.k_lin.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 1.0106721621668209,
+          "observed_mean_sum_squared_noise": 1.0100890454264182,
+          "observed_to_predicted_MSE": 0.9994230406632033,
+          "predicted_relative_RMSE": 0.027571888938284283,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2316623263888889,
+          "max_group_span": 0.5625,
+          "expected_noise_std_max": 0.0031074013638392917
+        },
+        {
+          "name": "distilbert.transformer.layer.2.attention.k_lin.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 1.9379159977640468e-05,
+          "observed_mean_sum_squared_noise": 1.9355788274495666e-05,
+          "observed_to_predicted_MSE": 0.9987939774906772,
+          "predicted_relative_RMSE": 0.032946428786732075,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.3177083333333333,
+          "max_group_span": 0.0343017578125,
+          "expected_noise_std_max": 0.0001894921404598179
+        },
+        {
+          "name": "distilbert.transformer.layer.2.attention.v_lin.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.807803717835643,
+          "observed_mean_sum_squared_noise": 0.8073667176547781,
+          "observed_to_predicted_MSE": 0.9994590267769059,
+          "predicted_relative_RMSE": 0.027663216125982583,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.23748779296875,
+          "max_group_span": 0.39453125,
+          "expected_noise_std_max": 0.0021794718386647957
+        },
+        {
+          "name": "distilbert.transformer.layer.2.attention.v_lin.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.0010609885744772836,
+          "observed_mean_sum_squared_noise": 0.0011309447810880272,
+          "observed_to_predicted_MSE": 1.0659349292665181,
+          "predicted_relative_RMSE": 0.036293559637083805,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.3333333333333333,
+          "max_group_span": 0.3984375,
+          "expected_noise_std_max": 0.0022010675645182296
+        },
+        {
+          "name": "distilbert.transformer.layer.2.attention.out_lin.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.6855664378225534,
+          "observed_mean_sum_squared_noise": 0.6858179517273484,
+          "observed_to_predicted_MSE": 1.0003668702125994,
+          "predicted_relative_RMSE": 0.027013891431277744,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.22859022352430555,
+          "max_group_span": 0.623046875,
+          "expected_noise_std_max": 0.003441878595577911
+        },
+        {
+          "name": "distilbert.transformer.layer.2.attention.out_lin.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.002878701539822101,
+          "observed_mean_sum_squared_noise": 0.0026649670141167896,
+          "observed_to_predicted_MSE": 0.9257531485120476,
+          "predicted_relative_RMSE": 0.03743148003707246,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.3046875,
+          "max_group_span": 0.669921875,
+          "expected_noise_std_max": 0.0036989086448453562
+        },
+        {
+          "name": "distilbert.transformer.layer.2.sa_layer_norm.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.01645760605891139,
+          "observed_mean_sum_squared_noise": 0.01716202263796397,
+          "observed_to_predicted_MSE": 1.0428018860416917,
+          "predicted_relative_RMSE": 0.006059798577579137,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 3.408203125,
+          "expected_noise_std_max": 0.01758295185021861
+        },
+        {
+          "name": "distilbert.transformer.layer.2.sa_layer_norm.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.024705288390266186,
+          "observed_mean_sum_squared_noise": 0.024476493642794587,
+          "observed_to_predicted_MSE": 0.9907390375753823,
+          "predicted_relative_RMSE": 0.03562183303377221,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.3411458333333333,
+          "max_group_span": 1.6875,
+          "expected_noise_std_max": 0.009178382478901882
+        },
+        {
+          "name": "distilbert.transformer.layer.2.ffn.lin1.weight",
+          "elements": 2359296,
+          "shape": [
+            3072,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 3.7529026903544604,
+          "observed_mean_sum_squared_noise": 3.7547894867028595,
+          "observed_to_predicted_MSE": 1.0005027565338287,
+          "predicted_relative_RMSE": 0.027329923751910092,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.23125161064995658,
+          "max_group_span": 1.76953125,
+          "expected_noise_std_max": 0.009775366790411105
+        },
+        {
+          "name": "distilbert.transformer.layer.2.ffn.lin1.bias",
+          "elements": 3072,
+          "shape": [
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 0.025929761533627665,
+          "observed_mean_sum_squared_noise": 0.025904365903235083,
+          "observed_to_predicted_MSE": 0.9990205991536155,
+          "predicted_relative_RMSE": 0.02222237754872187,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.08821614583333333,
+          "max_group_span": 0.8203125,
+          "expected_noise_std_max": 0.004520216345397812
+        },
+        {
+          "name": "distilbert.transformer.layer.2.ffn.lin2.weight",
+          "elements": 2359296,
+          "shape": [
+            768,
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 4.492422884001704,
+          "observed_mean_sum_squared_noise": 4.489990475273918,
+          "observed_to_predicted_MSE": 0.9994585530368371,
+          "predicted_relative_RMSE": 0.030756308260895357,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2708095974392361,
+          "max_group_span": 10.28125,
+          "expected_noise_std_max": 0.022779865858722787
+        },
+        {
+          "name": "distilbert.transformer.layer.2.ffn.lin2.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.002380562691650907,
+          "observed_mean_sum_squared_noise": 0.0023849417634304202,
+          "observed_to_predicted_MSE": 1.0018395112192893,
+          "predicted_relative_RMSE": 0.030726421792291268,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2786458333333333,
+          "max_group_span": 0.4404296875,
+          "expected_noise_std_max": 0.0024329128222117663
+        },
+        {
+          "name": "distilbert.transformer.layer.2.output_layer_norm.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.0022128666852206697,
+          "observed_mean_sum_squared_noise": 0.0021851775106184273,
+          "observed_to_predicted_MSE": 0.9874871926143706,
+          "predicted_relative_RMSE": 0.00208331394462398,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 0.44140625,
+          "expected_noise_std_max": 0.0024383538474437106
+        },
+        {
+          "name": "distilbert.transformer.layer.2.output_layer_norm.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.0025644733538418597,
+          "observed_mean_sum_squared_noise": 0.002596953898111517,
+          "observed_to_predicted_MSE": 1.0126655807208906,
+          "predicted_relative_RMSE": 0.02980599134461943,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.22786458333333334,
+          "max_group_span": 0.4453125,
+          "expected_noise_std_max": 0.002460016693193101
+        },
+        {
+          "name": "distilbert.transformer.layer.3.attention.q_lin.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 1.0461074470108391,
+          "observed_mean_sum_squared_noise": 1.0471582659284113,
+          "observed_to_predicted_MSE": 1.0010045038113196,
+          "predicted_relative_RMSE": 0.02716859924359654,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.23081461588541666,
+          "max_group_span": 0.4609375,
+          "expected_noise_std_max": 0.0025463427842571974
+        },
+        {
+          "name": "distilbert.transformer.layer.3.attention.q_lin.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.029424154800403644,
+          "observed_mean_sum_squared_noise": 0.028015071427255827,
+          "observed_to_predicted_MSE": 0.9521113390441894,
+          "predicted_relative_RMSE": 0.03894212122685306,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.44921875,
+          "max_group_span": 1.58984375,
+          "expected_noise_std_max": 0.008782624121492786
+        },
+        {
+          "name": "distilbert.transformer.layer.3.attention.k_lin.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 1.0725257531729429,
+          "observed_mean_sum_squared_noise": 1.0742403592881746,
+          "observed_to_predicted_MSE": 1.0015986619530202,
+          "predicted_relative_RMSE": 0.027303238847336722,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2312232123480903,
+          "max_group_span": 0.634765625,
+          "expected_noise_std_max": 0.003438790973776731
+        },
+        {
+          "name": "distilbert.transformer.layer.3.attention.k_lin.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 1.8414937027313987e-05,
+          "observed_mean_sum_squared_noise": 1.8671626189911536e-05,
+          "observed_to_predicted_MSE": 1.0139391822093562,
+          "predicted_relative_RMSE": 0.028677124406192203,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2526041666666667,
+          "max_group_span": 0.0391845703125,
+          "expected_noise_std_max": 0.00021646528468064299
+        },
+        {
+          "name": "distilbert.transformer.layer.3.attention.v_lin.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.9375608267310049,
+          "observed_mean_sum_squared_noise": 0.9374904504724757,
+          "observed_to_predicted_MSE": 0.9999249368611371,
+          "predicted_relative_RMSE": 0.027324789219655192,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.23278978135850695,
+          "max_group_span": 0.5576171875,
+          "expected_noise_std_max": 0.0030803921212361057
+        },
+        {
+          "name": "distilbert.transformer.layer.3.attention.v_lin.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.0021266007869204513,
+          "observed_mean_sum_squared_noise": 0.0021154548487576524,
+          "observed_to_predicted_MSE": 0.9947588008847963,
+          "predicted_relative_RMSE": 0.035620049503814095,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.3359375,
+          "max_group_span": 0.4345703125,
+          "expected_noise_std_max": 0.002400683346445408
+        },
+        {
+          "name": "distilbert.transformer.layer.3.attention.out_lin.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.8280882481812455,
+          "observed_mean_sum_squared_noise": 0.8289425450553523,
+          "observed_to_predicted_MSE": 1.0010316495566542,
+          "predicted_relative_RMSE": 0.027041481596699408,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2315249972873264,
+          "max_group_span": 0.55859375,
+          "expected_noise_std_max": 0.0030857868606838194
+        },
+        {
+          "name": "distilbert.transformer.layer.3.attention.out_lin.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.00596532043561672,
+          "observed_mean_sum_squared_noise": 0.005701202344247572,
+          "observed_to_predicted_MSE": 0.9557244084002267,
+          "predicted_relative_RMSE": 0.03950222319391179,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.3307291666666667,
+          "max_group_span": 1.611328125,
+          "expected_noise_std_max": 0.007337789941556084
+        },
+        {
+          "name": "distilbert.transformer.layer.3.sa_layer_norm.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.013569408469539222,
+          "observed_mean_sum_squared_noise": 0.014410056016781322,
+          "observed_to_predicted_MSE": 1.061951672331863,
+          "predicted_relative_RMSE": 0.005602593177816102,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 2.986328125,
+          "expected_noise_std_max": 0.011691985612920404
+        },
+        {
+          "name": "distilbert.transformer.layer.3.sa_layer_norm.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.021297321615150785,
+          "observed_mean_sum_squared_noise": 0.02132752700154517,
+          "observed_to_predicted_MSE": 1.0014182715996032,
+          "predicted_relative_RMSE": 0.03330402032047017,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.29296875,
+          "max_group_span": 2.513671875,
+          "expected_noise_std_max": 0.013125012497048371
+        },
+        {
+          "name": "distilbert.transformer.layer.3.ffn.lin1.weight",
+          "elements": 2359296,
+          "shape": [
+            3072,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 3.2415587133070254,
+          "observed_mean_sum_squared_noise": 3.2402715805213567,
+          "observed_to_predicted_MSE": 0.99960292781976,
+          "predicted_relative_RMSE": 0.027032542265786233,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.22861184014214408,
+          "max_group_span": 0.7890625,
+          "expected_noise_std_max": 0.004358993581860426
+        },
+        {
+          "name": "distilbert.transformer.layer.3.ffn.lin1.bias",
+          "elements": 3072,
+          "shape": [
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 0.01972405998502744,
+          "observed_mean_sum_squared_noise": 0.019835372273398426,
+          "observed_to_predicted_MSE": 1.0056434774815877,
+          "predicted_relative_RMSE": 0.019391061663797872,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.055013020833333336,
+          "max_group_span": 0.984375,
+          "expected_noise_std_max": 0.005434405384477322
+        },
+        {
+          "name": "distilbert.transformer.layer.3.ffn.lin2.weight",
+          "elements": 2359296,
+          "shape": [
+            768,
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 3.4780925592066776,
+          "observed_mean_sum_squared_noise": 3.4754295496896903,
+          "observed_to_predicted_MSE": 0.9992343477145431,
+          "predicted_relative_RMSE": 0.029768126914642108,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.25605477227105033,
+          "max_group_span": 4.1328125,
+          "expected_noise_std_max": 0.02109111914617287
+        },
+        {
+          "name": "distilbert.transformer.layer.3.ffn.lin2.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.005143938915621111,
+          "observed_mean_sum_squared_noise": 0.005045424391596357,
+          "observed_to_predicted_MSE": 0.9808484265383507,
+          "predicted_relative_RMSE": 0.030564812615992965,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2682291666666667,
+          "max_group_span": 0.9453125,
+          "expected_noise_std_max": 0.005185898413685704
+        },
+        {
+          "name": "distilbert.transformer.layer.3.output_layer_norm.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.003532984782901394,
+          "observed_mean_sum_squared_noise": 0.003154875001107696,
+          "observed_to_predicted_MSE": 0.8929772402010793,
+          "predicted_relative_RMSE": 0.0027624487416548493,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 0.83984375,
+          "expected_noise_std_max": 0.004639469755573574
+        },
+        {
+          "name": "distilbert.transformer.layer.3.output_layer_norm.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.004287003185460991,
+          "observed_mean_sum_squared_noise": 0.004309695360750914,
+          "observed_to_predicted_MSE": 1.0052932489919488,
+          "predicted_relative_RMSE": 0.0317468737885708,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.24609375,
+          "max_group_span": 1.1728515625,
+          "expected_noise_std_max": 0.0064547438475620915
+        },
+        {
+          "name": "distilbert.transformer.layer.4.attention.q_lin.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 1.0069441257116187,
+          "observed_mean_sum_squared_noise": 1.007756979398281,
+          "observed_to_predicted_MSE": 1.0008072480546901,
+          "predicted_relative_RMSE": 0.02675344836673292,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.22642686631944445,
+          "max_group_span": 0.4228515625,
+          "expected_noise_std_max": 0.002335945816913912
+        },
+        {
+          "name": "distilbert.transformer.layer.4.attention.q_lin.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.030970063508012565,
+          "observed_mean_sum_squared_noise": 0.03055785416414345,
+          "observed_to_predicted_MSE": 0.9866900710822738,
+          "predicted_relative_RMSE": 0.03055770021307465,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.328125,
+          "max_group_span": 1.4375,
+          "expected_noise_std_max": 0.007940833768666243
+        },
+        {
+          "name": "distilbert.transformer.layer.4.attention.k_lin.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 1.0689476479042745,
+          "observed_mean_sum_squared_noise": 1.0698983318790876,
+          "observed_to_predicted_MSE": 1.0008893643918642,
+          "predicted_relative_RMSE": 0.02749266790923091,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2316708034939236,
+          "max_group_span": 0.78125,
+          "expected_noise_std_max": 0.00383919436132023
+        },
+        {
+          "name": "distilbert.transformer.layer.4.attention.k_lin.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 2.9043496493363925e-05,
+          "observed_mean_sum_squared_noise": 2.909640220200036e-05,
+          "observed_to_predicted_MSE": 1.0018216025969366,
+          "predicted_relative_RMSE": 0.029347378985288917,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.23958333333333334,
+          "max_group_span": 0.048583984375,
+          "expected_noise_std_max": 0.0002683910032135499
+        },
+        {
+          "name": "distilbert.transformer.layer.4.attention.v_lin.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.957077409841418,
+          "observed_mean_sum_squared_noise": 0.9561257262528129,
+          "observed_to_predicted_MSE": 0.9990056357209781,
+          "predicted_relative_RMSE": 0.027134124128898467,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2323082817925347,
+          "max_group_span": 0.408203125,
+          "expected_noise_std_max": 0.0022550239074475968
+        },
+        {
+          "name": "distilbert.transformer.layer.4.attention.v_lin.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.0017846754008109238,
+          "observed_mean_sum_squared_noise": 0.0017881645601754495,
+          "observed_to_predicted_MSE": 1.0019550666541044,
+          "predicted_relative_RMSE": 0.03796047322165728,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.34375,
+          "max_group_span": 0.5029296875,
+          "expected_noise_std_max": 0.0027783189277382557
+        },
+        {
+          "name": "distilbert.transformer.layer.4.attention.out_lin.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.8366207314753983,
+          "observed_mean_sum_squared_noise": 0.8381915868266979,
+          "observed_to_predicted_MSE": 1.00187761944236,
+          "predicted_relative_RMSE": 0.026736340696464616,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.22572496202256945,
+          "max_group_span": 0.798828125,
+          "expected_noise_std_max": 0.004412773094796392
+        },
+        {
+          "name": "distilbert.transformer.layer.4.attention.out_lin.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.003668908490786886,
+          "observed_mean_sum_squared_noise": 0.003590962165973517,
+          "observed_to_predicted_MSE": 0.9787549008079371,
+          "predicted_relative_RMSE": 0.031191789775376212,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.24348958333333334,
+          "max_group_span": 0.80078125,
+          "expected_noise_std_max": 0.004422617013035961
+        },
+        {
+          "name": "distilbert.transformer.layer.4.sa_layer_norm.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.008383991675753221,
+          "observed_mean_sum_squared_noise": 0.007946979806148243,
+          "observed_to_predicted_MSE": 0.9478754408990135,
+          "predicted_relative_RMSE": 0.004474955738165227,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 1.9296875,
+          "expected_noise_std_max": 0.008471019640296971
+        },
+        {
+          "name": "distilbert.transformer.layer.4.sa_layer_norm.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.019389450439878192,
+          "observed_mean_sum_squared_noise": 0.019458165908461986,
+          "observed_to_predicted_MSE": 1.0035439616402158,
+          "predicted_relative_RMSE": 0.03534230236402279,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.3111979166666667,
+          "max_group_span": 1.72265625,
+          "expected_noise_std_max": 0.008971596690541796
+        },
+        {
+          "name": "distilbert.transformer.layer.4.ffn.lin1.weight",
+          "elements": 2359296,
+          "shape": [
+            3072,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 3.0481075600108234,
+          "observed_mean_sum_squared_noise": 3.0465502360875787,
+          "observed_to_predicted_MSE": 0.9994890849838517,
+          "predicted_relative_RMSE": 0.026652675505525684,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2249908447265625,
+          "max_group_span": 1.6796875,
+          "expected_noise_std_max": 0.009278939511147149
+        },
+        {
+          "name": "distilbert.transformer.layer.4.ffn.lin1.bias",
+          "elements": 3072,
+          "shape": [
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 0.013145105487842155,
+          "observed_mean_sum_squared_noise": 0.013052513855239705,
+          "observed_to_predicted_MSE": 0.9929561894586478,
+          "predicted_relative_RMSE": 0.016924571457140276,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0224609375,
+          "max_group_span": 0.8447265625,
+          "expected_noise_std_max": 0.004474631398585321
+        },
+        {
+          "name": "distilbert.transformer.layer.4.ffn.lin2.weight",
+          "elements": 2359296,
+          "shape": [
+            768,
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 3.5326186919430786,
+          "observed_mean_sum_squared_noise": 3.5297894621922183,
+          "observed_to_predicted_MSE": 0.9991991126137353,
+          "predicted_relative_RMSE": 0.029072740077125146,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.24462721082899305,
+          "max_group_span": 4.400390625,
+          "expected_noise_std_max": 0.022320371290149542
+        },
+        {
+          "name": "distilbert.transformer.layer.4.ffn.lin2.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.0065725404067362575,
+          "observed_mean_sum_squared_noise": 0.0065224106445500975,
+          "observed_to_predicted_MSE": 0.992372848383742,
+          "predicted_relative_RMSE": 0.03481819901758833,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.26953125,
+          "max_group_span": 0.8681640625,
+          "expected_noise_std_max": 0.004756975518541704
+        },
+        {
+          "name": "distilbert.transformer.layer.4.output_layer_norm.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.00898972083971601,
+          "observed_mean_sum_squared_noise": 0.008484353816055334,
+          "observed_to_predicted_MSE": 0.9437839024513424,
+          "predicted_relative_RMSE": 0.004389392948875762,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 1.240234375,
+          "expected_noise_std_max": 0.006851388426934086
+        },
+        {
+          "name": "distilbert.transformer.layer.4.output_layer_norm.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.005233250507195395,
+          "observed_mean_sum_squared_noise": 0.00503039460452361,
+          "observed_to_predicted_MSE": 0.9612371121174361,
+          "predicted_relative_RMSE": 0.03955973397764243,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.3046875,
+          "max_group_span": 0.689453125,
+          "expected_noise_std_max": 0.0038087245883169094
+        },
+        {
+          "name": "distilbert.transformer.layer.5.attention.q_lin.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 1.0865247684932,
+          "observed_mean_sum_squared_noise": 1.0866192882833328,
+          "observed_to_predicted_MSE": 1.0000869927615768,
+          "predicted_relative_RMSE": 0.027540491396193526,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.23218282063802084,
+          "max_group_span": 0.75390625,
+          "expected_noise_std_max": 0.0038673231410161057
+        },
+        {
+          "name": "distilbert.transformer.layer.5.attention.q_lin.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.03514776164090271,
+          "observed_mean_sum_squared_noise": 0.03370513471624133,
+          "observed_to_predicted_MSE": 0.9589553684982731,
+          "predicted_relative_RMSE": 0.02837500501920953,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2682291666666667,
+          "max_group_span": 1.54296875,
+          "expected_noise_std_max": 0.008523742050976097
+        },
+        {
+          "name": "distilbert.transformer.layer.5.attention.k_lin.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 1.0215872214245492,
+          "observed_mean_sum_squared_noise": 1.020948927273134,
+          "observed_to_predicted_MSE": 0.9993751936809419,
+          "predicted_relative_RMSE": 0.027088852315469505,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2301296657986111,
+          "max_group_span": 0.56591796875,
+          "expected_noise_std_max": 0.0030780513000715514
+        },
+        {
+          "name": "distilbert.transformer.layer.5.attention.k_lin.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 2.8045845790462068e-05,
+          "observed_mean_sum_squared_noise": 2.8516691502313035e-05,
+          "observed_to_predicted_MSE": 1.0167884297506582,
+          "predicted_relative_RMSE": 0.03617016523283118,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.3046875,
+          "max_group_span": 0.0478515625,
+          "expected_noise_std_max": 0.00026434490768771754
+        },
+        {
+          "name": "distilbert.transformer.layer.5.attention.v_lin.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 1.0165456848131715,
+          "observed_mean_sum_squared_noise": 1.015780047736055,
+          "observed_to_predicted_MSE": 0.9992468247236156,
+          "predicted_relative_RMSE": 0.027240336903108505,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.23649766710069445,
+          "max_group_span": 0.4814453125,
+          "expected_noise_std_max": 0.002659633458980505
+        },
+        {
+          "name": "distilbert.transformer.layer.5.attention.v_lin.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.0004251715968082091,
+          "observed_mean_sum_squared_noise": 0.0004114922755312101,
+          "observed_to_predicted_MSE": 0.9678263520430561,
+          "predicted_relative_RMSE": 0.03376862791105239,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.3033854166666667,
+          "max_group_span": 0.21875,
+          "expected_noise_std_max": 0.0012084338637152801
+        },
+        {
+          "name": "distilbert.transformer.layer.5.attention.out_lin.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.8641889459141772,
+          "observed_mean_sum_squared_noise": 0.8632902237242526,
+          "observed_to_predicted_MSE": 0.9989600397063932,
+          "predicted_relative_RMSE": 0.02679694447900721,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.22585890028211805,
+          "max_group_span": 0.921875,
+          "expected_noise_std_max": 0.005092685570886439
+        },
+        {
+          "name": "distilbert.transformer.layer.5.attention.out_lin.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.001450214910033548,
+          "observed_mean_sum_squared_noise": 0.0014900514488884234,
+          "observed_to_predicted_MSE": 1.0274694037271717,
+          "predicted_relative_RMSE": 0.026916120345341573,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.22135416666666666,
+          "max_group_span": 0.314453125,
+          "expected_noise_std_max": 0.0017371236790907152
+        },
+        {
+          "name": "distilbert.transformer.layer.5.sa_layer_norm.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.004025445007552125,
+          "observed_mean_sum_squared_noise": 0.004031753867288145,
+          "observed_to_predicted_MSE": 1.0015672452919326,
+          "predicted_relative_RMSE": 0.0029564339359744378,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 0.94140625,
+          "expected_noise_std_max": 0.004983620900545062
+        },
+        {
+          "name": "distilbert.transformer.layer.5.sa_layer_norm.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.012217339013839167,
+          "observed_mean_sum_squared_noise": 0.011919847993922135,
+          "observed_to_predicted_MSE": 0.9756500969990233,
+          "predicted_relative_RMSE": 0.03364059227902145,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2721354166666667,
+          "max_group_span": 2.326171875,
+          "expected_noise_std_max": 0.0099058816866997
+        },
+        {
+          "name": "distilbert.transformer.layer.5.ffn.lin1.weight",
+          "elements": 2359296,
+          "shape": [
+            3072,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 2.5940514826586645,
+          "observed_mean_sum_squared_noise": 2.5959158572534533,
+          "observed_to_predicted_MSE": 1.0007187114855862,
+          "predicted_relative_RMSE": 0.026621726702788326,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2236116197374132,
+          "max_group_span": 0.826171875,
+          "expected_noise_std_max": 0.004563943503738656
+        },
+        {
+          "name": "distilbert.transformer.layer.5.ffn.lin1.bias",
+          "elements": 3072,
+          "shape": [
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 0.02430142004308205,
+          "observed_mean_sum_squared_noise": 0.02459143592541585,
+          "observed_to_predicted_MSE": 1.0119341125670704,
+          "predicted_relative_RMSE": 0.02892388008786646,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.06640625,
+          "max_group_span": 0.96875,
+          "expected_noise_std_max": 0.005346003432194358
+        },
+        {
+          "name": "distilbert.transformer.layer.5.ffn.lin2.weight",
+          "elements": 2359296,
+          "shape": [
+            768,
+            3072
+          ],
+          "predicted_sum_weight_noise_variance": 2.4231584017960595,
+          "observed_mean_sum_squared_noise": 2.4235897271220885,
+          "observed_to_predicted_MSE": 1.0001780012919128,
+          "predicted_relative_RMSE": 0.027310170980524445,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.23005718655056423,
+          "max_group_span": 3.26416015625,
+          "expected_noise_std_max": 0.007751312377754471
+        },
+        {
+          "name": "distilbert.transformer.layer.5.ffn.lin2.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.0023635581751732743,
+          "observed_mean_sum_squared_noise": 0.0023691476977234817,
+          "observed_to_predicted_MSE": 1.0023648762314885,
+          "predicted_relative_RMSE": 0.030344987067785305,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.24869791666666666,
+          "max_group_span": 0.6884765625,
+          "expected_noise_std_max": 0.0035902380314100047
+        },
+        {
+          "name": "distilbert.transformer.layer.5.output_layer_norm.weight",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.0008364602943601834,
+          "observed_mean_sum_squared_noise": 0.0008064531205158619,
+          "observed_to_predicted_MSE": 0.9641260032943054,
+          "predicted_relative_RMSE": 0.00171893436139129,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 0.443359375,
+          "expected_noise_std_max": 0.002429321580897563
+        },
+        {
+          "name": "distilbert.transformer.layer.5.output_layer_norm.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.0020032114226885295,
+          "observed_mean_sum_squared_noise": 0.002030333168500037,
+          "observed_to_predicted_MSE": 1.0135391329663581,
+          "predicted_relative_RMSE": 0.031107315599333753,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.24479166666666666,
+          "max_group_span": 0.517578125,
+          "expected_noise_std_max": 0.0028587498610888507
+        },
+        {
+          "name": "pre_classifier.weight",
+          "elements": 589824,
+          "shape": [
+            768,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.16619623091514563,
+          "observed_mean_sum_squared_noise": 0.16612950799758194,
+          "observed_to_predicted_MSE": 0.9995985292975883,
+          "predicted_relative_RMSE": 0.026442381096659903,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.2219170464409722,
+          "max_group_span": 0.1640625,
+          "expected_noise_std_max": 0.0009063219383310358
+        },
+        {
+          "name": "pre_classifier.bias",
+          "elements": 768,
+          "shape": [
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 1.0298592825349451e-06,
+          "observed_mean_sum_squared_noise": 1.040525215849162e-06,
+          "observed_to_predicted_MSE": 1.01035668998192,
+          "predicted_relative_RMSE": 0.025711443618310553,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.19791666666666666,
+          "max_group_span": 0.007965087890625,
+          "expected_noise_std_max": 4.400128886392216e-05
+        },
+        {
+          "name": "classifier.weight",
+          "elements": 1536,
+          "shape": [
+            2,
+            768
+          ],
+          "predicted_sum_weight_noise_variance": 0.00047907154760771023,
+          "observed_mean_sum_squared_noise": 0.0004704406452406681,
+          "observed_to_predicted_MSE": 0.9819841056933116,
+          "predicted_relative_RMSE": 0.027570560165882944,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.23111979166666666,
+          "max_group_span": 0.131103515625,
+          "expected_noise_std_max": 0.0007242510991240015
+        },
+        {
+          "name": "classifier.bias",
+          "elements": 2,
+          "shape": [
+            2
+          ],
+          "predicted_sum_weight_noise_variance": 1.1673024897204997e-14,
+          "observed_mean_sum_squared_noise": 3.6529487896433565e-15,
+          "observed_to_predicted_MSE": 0.3129393470683013,
+          "predicted_relative_RMSE": 0.00040485807912974477,
+          "fraction_coordinates_noise_std_exceeds10percent_of_abs_mean": 0.0,
+          "max_group_span": 0.000377655029296875,
+          "expected_noise_std_max": 7.639707094256574e-08
+        }
+      ]
+    }
+  ],
+  "all_aggregate_moment_gates_met": true,
+  "elapsed_seconds": 879.25851672,
+  "scope": "Read-only completed5seedcountfiles, exact Bernoulli second/fourth moments and independentcoordinate assumption. Profiles show numerical perturbation, not causal layer sensitivity or physicaldevice characterization."
+}

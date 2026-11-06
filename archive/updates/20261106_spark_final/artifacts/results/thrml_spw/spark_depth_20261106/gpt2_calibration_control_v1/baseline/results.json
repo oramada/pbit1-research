@@ -1,0 +1,10 @@
+{
+  "kind": "baseline",
+  "seed": null,
+  "NLL": 3.8176491898736615,
+  "targets": 1024,
+  "point_sha256": "e20e42a46acd6fccecedf83f05bd3c115d137e5c5915f6814ef12fdf13141bc2",
+  "bias_SSE_relative_to_requested_mean": 0,
+  "sampling_variance_SSE": 0,
+  "clipped_inverse_requests": 0
+}

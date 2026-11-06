@@ -1,0 +1,97 @@
+{
+  "status": "distinct_highT_followup_frozen_and_four_H100_jobs_running",
+  "recorded_utc": "2026-11-05T23:51:34.639073+00:00",
+  "protocol_sha256": "c8068f1ad89588c04ea6cf0ef4d1be630a675c4bf7f0cbb8c50296b08ad2a91c",
+  "cases": 5,
+  "parallel_H100_case_limit": 4,
+  "logical_pbits_per_scalar": 1,
+  "samples_per_parameter": 262144,
+  "learned_scalars": 124439808,
+  "seeds": [
+    202611800,
+    202611801,
+    202611802,
+    202611803,
+    202611804
+  ],
+  "bootstrap_key": 202611810,
+  "quality_margin": 0.01980262729617973,
+  "comparisons": [
+    "original BF16",
+    "finite-programmean1 BF16"
+  ],
+  "decision": "Both originalBF16 and finite-programmean1 contrasts must satisfy unchangedlog1.02margin with MC95t4 and crossedseed/articlebootstrap95 upperbounds, allfivefixedseeds. No outcome-based cohort edits.",
+  "data_scope": "Same previouslyexposed283225WikiText2targets/62articles atcontext1024stride512. New MCkeys, not new-textholdout. No training or test-based parameter/range updates.",
+  "nine_statistical_preflight_checks": [
+    "passing_complete_binding_cohort",
+    "failing_complete_binding_cohort",
+    "reject_0_seed_cohort",
+    "reject_4_seed_cohort",
+    "reject_6_seed_cohort",
+    "reject_uncertainty_bound",
+    "reject_success_flag",
+    "reject_input_binding",
+    "reject_sampling_budget"
+  ],
+  "initial_live_calls": {
+    "gpt2__K1_C262144_seed202611800": "fc-01M6Q1TZV3EFTT4MR34SKC24J9",
+    "gpt2__K1_C262144_seed202611801": "fc-01M6Q1TZZGPC1E290K6186101N",
+    "gpt2__K1_C262144_seed202611802": "fc-01M6Q1V03J3KVMAVNMGTNZ9GBJ",
+    "gpt2__K1_C262144_seed202611803": "fc-01M6Q1V0798PDDTEFNX50BM9YQ"
+  },
+  "initial_snapshot": {
+    "status": "four_distinct_existing_H100_followup_calls_observed",
+    "protocol_sha256": "c8068f1ad89588c04ea6cf0ef4d1be630a675c4bf7f0cbb8c50296b08ad2a91c",
+    "observed_unix": 1793922598.3529544,
+    "records": [
+      {
+        "case": "gpt2__K1_C262144_seed202611800",
+        "call_id": "fc-01M6Q1TZV3EFTT4MR34SKC24J9",
+        "progress": {
+          "stage": "installing_complete_parameter_point",
+          "elapsed_seconds": 9.407182072999998,
+          "index": 0,
+          "name": "transformer.wte.weight"
+        }
+      },
+      {
+        "case": "gpt2__K1_C262144_seed202611801",
+        "call_id": "fc-01M6Q1TZZGPC1E290K6186101N",
+        "progress": {
+          "stage": "installing_complete_parameter_point",
+          "elapsed_seconds": 9.464353338999999,
+          "index": 0,
+          "name": "transformer.wte.weight"
+        }
+      },
+      {
+        "case": "gpt2__K1_C262144_seed202611802",
+        "call_id": "fc-01M6Q1V03J3KVMAVNMGTNZ9GBJ",
+        "progress": {
+          "stage": "installing_complete_parameter_point",
+          "elapsed_seconds": 7.142770795000001,
+          "index": 0,
+          "name": "transformer.wte.weight"
+        }
+      },
+      {
+        "case": "gpt2__K1_C262144_seed202611803",
+        "call_id": "fc-01M6Q1V0798PDDTEFNX50BM9YQ",
+        "progress": {
+          "stage": "installing_complete_parameter_point",
+          "elapsed_seconds": 7.173067159000002,
+          "index": 0,
+          "name": "transformer.wte.weight"
+        }
+      }
+    ]
+  },
+  "original_primary_preservation": {
+    "statistics_sha256": "b92b6da3f9991518006da6db366fc6bb36558c976902aac96f886a62e82a127d",
+    "gpt2_passed": false,
+    "joint_primary_passed": false
+  },
+  "new_quality_result_available": false,
+  "cost_scope": "32timesoriginal8192logicalretainedwork per reconstructedmodeldraw, samecellcount.65536lanewarmcountingprojection~51minutesperdraw,notfullruntime/hardwarelatency.",
+  "scope": "One logicalpbitperlearnedscalar, includingallbias/normparameters andtiedparameteronce. R1reconstructionreusedacrossfulldataset, five independentdraws separatelyevaluated. No R2, numericalBF16equivalence or physicaldensity/energy/latencyclaim."
+}

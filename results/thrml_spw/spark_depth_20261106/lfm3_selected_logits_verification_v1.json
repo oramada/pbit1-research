@@ -1,0 +1,35 @@
+{
+  "status": "all4_selected_logit_and_chunked_score_fixtures_passed",
+  "source_sha256": "30633067bf98e5051855c4d0127cc1323973f1e3ea90a1a60b4755214d0aa266",
+  "checks": [
+    {
+      "length": 17,
+      "first_target": 1,
+      "targets": 16,
+      "logits_bitwise": true,
+      "chunked_CE_bitwise": true
+    },
+    {
+      "length": 65,
+      "first_target": 33,
+      "targets": 32,
+      "logits_bitwise": true,
+      "chunked_CE_bitwise": true
+    },
+    {
+      "length": 129,
+      "first_target": 65,
+      "targets": 64,
+      "logits_bitwise": true,
+      "chunked_CE_bitwise": true
+    },
+    {
+      "length": 257,
+      "first_target": 129,
+      "targets": 128,
+      "logits_bitwise": true,
+      "chunked_CE_bitwise": true
+    }
+  ],
+  "scope": "Tiny synthetic3layerCPU BF16 semantic check. FullcheckpointCUDA replay still required before accepting finalbenchmark."
+}

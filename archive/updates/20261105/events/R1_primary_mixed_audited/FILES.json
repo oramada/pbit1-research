@@ -1,0 +1,33 @@
+{
+  "recorded_utc": "2026-11-05T23:25:34.914652+00:00",
+  "files": {
+    "README.md": {
+      "sha256": "f0ad3cba4608960f46066667b4852a02a1796c33a4771b0ca57b15749e2ef22e",
+      "bytes": 2430
+    },
+    "cloud/primary_moments_v1/app.py": {
+      "sha256": "c954a4221a906ff6768e201f2eebee4df12a7eeabb53daa7a6aabddb2dfddb90",
+      "bytes": 1016
+    },
+    "research/thrml_spw/broad/diagnose_primary_counts_v1.py": {
+      "sha256": "43f55de3bb96bdd1754eb466dc89e8bffc012fed30974e86c55d4724c0f97e0f",
+      "bytes": 4403
+    },
+    "results/thrml_spw/broad_verification_20261105/primary_count_moments_v1_call.json": {
+      "sha256": "ef7e7301f5fe0664a1811dc126e3af2a8fa20f57fb7206cc144b8c66a0a860dc",
+      "bytes": 173
+    },
+    "results/thrml_spw/broad_verification_20261105/r1_execution_v1/observer/state.json": {
+      "sha256": "9acb37e46da74028943b0d2c5386a624298c0f65bcba93bcfafaa58a9a8fb63a",
+      "bytes": 11293
+    },
+    "results/thrml_spw/broad_verification_20261105/r1_execution_v1/remote_primary.json": {
+      "sha256": "b92b6da3f9991518006da6db366fc6bb36558c976902aac96f886a62e82a127d",
+      "bytes": 21650
+    },
+    "results/thrml_spw/broad_verification_20261105/r1_execution_v1/remote_primary_audit.json": {
+      "sha256": "bc6736ec4763900ef43c8b37014e352678134ae24bedee9a88fc3b5e4d3fc700",
+      "bytes": 658
+    }
+  }
+}

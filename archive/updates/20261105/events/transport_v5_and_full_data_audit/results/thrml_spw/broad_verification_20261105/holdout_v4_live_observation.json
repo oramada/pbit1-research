@@ -1,0 +1,12 @@
+{
+  "observed_unix": 1793914011.8165512,
+  "call_id": "fc-01M6PSMSANJSMMD1G3N929HZN0",
+  "progress_observation": {
+    "type": "FileNotFoundError",
+    "message": "path \"/results/thrml_spw/lfm3_1p7b/holdout_native_v4/202611150/progress.json\" does not exist"
+  },
+  "terminal_error": {
+    "type": "RuntimeError",
+    "message": "Preserved program failure is terminal; no automatic scientific retry"
+  }
+}

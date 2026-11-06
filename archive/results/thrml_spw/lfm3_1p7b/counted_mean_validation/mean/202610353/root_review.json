@@ -1,0 +1,26 @@
+{
+  "status": "fourth_complete_mean_seed_audit_bindings_metrics_controls_and_resources_verified",
+  "recorded_utc": "2026-10-30T05:32:51.193867+00:00",
+  "audit_sha256": "21e6441d94413eca3a0e720b7c6542503212935f3a3bfb11778d5e2a8a685150",
+  "results_sha256": "91fbedb658054a0b584875b12a75ec27e62e317e16f2d88b2214b494d0432275",
+  "seed": 202610353,
+  "targets": 2048,
+  "stage_NLL_from_all_token_losses": {
+    "BF16": "4.97825031631461641830563818359375",
+    "same_fit_BF16": "4.321675645982947200204779296875",
+    "nominal_controls": "4.2997387622030696530577265625",
+    "native": "4.4783529257247019807792529296875"
+  },
+  "NLL_gap_vs_same_fit_BF16": "0.1566772797417547805744736328125",
+  "PPL_ratio_vs_same_fit_BF16": "1.16961809353426131531259311394939776803339126347287894747800",
+  "all_three_control_metric_records_exactly_match_first_seed": true,
+  "resource_receipts_exactly_match_first_seed": true,
+  "accepted_cohort_seeds": 4,
+  "cohort_gate_evaluated": false,
+  "fifth_seed_live_identity": {
+    "pid": 1118042,
+    "start_ticks": "65291236",
+    "argv": "/home/omarramadan/Desktop/extropic_compression/.venv/bin/python -m research.thrml_spw.lfm3.counted_mean_validation --arm mean --seed 202610354"
+  },
+  "scope": "Accepted fullcase source/result/resource bindings and all saved token-loss arithmetic. Four of five planned seeds, including this worse result retained. No interim cohort CI, quality-gate decision, numerical BF16 equivalence, generalization or hardware claim."
+}

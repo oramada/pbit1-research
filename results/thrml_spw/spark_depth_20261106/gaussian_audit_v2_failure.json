@@ -1,0 +1,4 @@
+{
+  "status": "checkpoint_name_prefix_mismatch",
+  "reason": "Raw GPT2 safetensor keys omit transformer. prefix added by AutoModelForCausalLM. V3 resolves that prefix before direct checkpoint reads. No producer output changed."
+}

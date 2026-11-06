@@ -1,0 +1,16 @@
+{
+  "status": "all_286_parameter_policies_independently_recomputed",
+  "result_sha256": "17fab21ea9869f16c02fa8dc3cfb93ce3fa0c5a2c097a0dabcc4260764732335",
+  "source_sha256": "6cd43daddeedb36d1e0994275f381fa578bc81a70691ec85bae1e0db28dcc9c2",
+  "checked_variants": 585,
+  "max_relative_error": 0.0,
+  "parameters": 1728801536,
+  "range_groups": 13542448,
+  "choices": {
+    "('linear', 'transposed_matrix', 128)": 42,
+    "('conv', 'storage_flat', 7)": 13,
+    "('linear', 'storage_flat', 128)": 112,
+    "('norm', 'storage_flat', 16)": 119
+  },
+  "elapsed_seconds": 98.39763388386928
+}

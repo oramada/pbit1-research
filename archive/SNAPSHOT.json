@@ -1,0 +1,12 @@
+{
+  "snapshot_utc": "2026-10-31T00:01:51.899297+00:00",
+  "status": "bounded_experimental_snapshot_with_audited_T8192_five_seed_result",
+  "missing_assets": [
+    "checkpoint weights",
+    "dataset token arrays",
+    "full-model logits",
+    "raw sampler trajectories"
+  ],
+  "reproduction_scope": "Sources and immutable summary/audit records. Original raw hashes retained; omitted arrays are required to rerun complete raw-output audits.",
+  "SDK": "https://github.com/oramada/pbit1"
+}

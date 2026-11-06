@@ -1,0 +1,26 @@
+name: Package checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  core:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - run: python -m pip install '.[dev]'
+      - run: python -m pytest -q
+      - run: python -m build
+      - run: python examples/quickstart.py
+  official-simulator:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - run: python -m pip install '.[thrml,dev]'
+      - run: python -m pytest -q tests/test_native.py
+      - run: python -m pbit1 --samples 32 --chains 2

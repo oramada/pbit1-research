@@ -1,0 +1,16 @@
+{
+  "case": {
+    "name": "matched_flat_seed2026111002",
+    "kind": "matched_flat",
+    "seed": 2026111002
+  },
+  "reviews": 25000,
+  "means": {
+    "CE": 0.4883644952178446,
+    "correct": 0.87472,
+    "Brier": 0.21981851114374137,
+    "reference_to_variant_KL": 0.0007028536231472205
+  },
+  "point_sha256": "49dbb33c725e0b796660fd5beea6cb7a82b2168ad8699bcd51a54e4e10759bd7",
+  "GPU_peak_allocated_bytes": 364381184
+}

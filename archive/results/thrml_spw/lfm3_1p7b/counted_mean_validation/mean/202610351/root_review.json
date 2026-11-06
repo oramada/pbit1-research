@@ -1,0 +1,22 @@
+{
+  "status": "second_complete_mean_seed_audit_bindings_metrics_controls_and_resources_verified",
+  "recorded_utc": "2026-10-30T04:12:26.833360+00:00",
+  "audit_sha256": "b8df2190b75251faed970fb56fc469594c613141d90e2e19853eb95f8dcf3be2",
+  "results_sha256": "d8b3c6540c60446b59034dfcae1878bcf916166bb84fe0bf13301e5b5c567f25",
+  "seed": 202610351,
+  "targets": 2048,
+  "MC_seed_clusters": 1,
+  "stage_NLL_decimal_from_all_saved_token_losses": {
+    "BF16": "4.97825031631461641830563818359375",
+    "same_fit_BF16": "4.321675645982947200204779296875",
+    "nominal_controls": "4.2997387622030696530577265625",
+    "native": "4.392363728321428373242353515625"
+  },
+  "NLL_gap_vs_same_fit_BF16": "0.070688082338481173037574218750",
+  "PPL_ratio_vs_same_fit_BF16": "1.0732464091432735720217172628531484198274040587922",
+  "PPL_percent_worse_vs_same_fit_BF16": "7.3246409143273572021717262853148419827404058792200",
+  "all_three_control_metric_records_exactly_match_first_seed": true,
+  "resource_receipts_exactly_match_first_seed": true,
+  "cohort_quality_gate_evaluated": false,
+  "scope": "Root checks accepted case audit source/result binding, archived verifier source, all saved token-loss arithmetic, identical control metrics and resource counts. Full output/program audit delegated to accepted independent verifier; no model replay. Two of five cohort seeds accepted, no cohort CI, equivalence, generalization or hardware claim."
+}

@@ -1,0 +1,15 @@
+{
+  "case": {
+    "name": "BF16",
+    "kind": "original"
+  },
+  "reviews": 25000,
+  "means": {
+    "CE": 0.48608091521658886,
+    "correct": 0.87512,
+    "Brier": 0.2192172872050485,
+    "reference_to_variant_KL": 0.0
+  },
+  "point_sha256": "a265bee785fec421776ff41e05744d5daa964fb928e0ff77cb97940cb6cbe774",
+  "GPU_peak_allocated_bytes": 364381184
+}

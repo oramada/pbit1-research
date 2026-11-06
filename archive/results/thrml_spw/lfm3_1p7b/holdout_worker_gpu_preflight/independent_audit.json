@@ -1,0 +1,12 @@
+{
+  "status": "all_four_1028_position_public_states_int64_counters_F64_readouts_and_receipts_verified",
+  "source_sha256": "ec94eca8582c4bfdabc9729211d7749c7a4931f41ea618a4f1e6ee5142c7d7d4",
+  "results_sha256": "fae37f638b43de700e6bea59991d5920dec9a011e322b808659c8b63d71b20a8",
+  "public_bits_verified": 151009280,
+  "integer_entries_verified": 8289792,
+  "float64_outputs_verified": 267280,
+  "max_absolute_integer_total": 2145823019,
+  "CPU_GPU_public_state_bit_differences": 0,
+  "CPU_GPU_output_bitpattern_differences": 0,
+  "scope": "GPU official THRML component check at1,028activationpositions, T8192 and7680fanin, exact independentint64 reconstruction and signed high-magnitude mirrors. Not full-model forward fidelity, quality, heldout scoring, physical bit flips, energy or latency."
+}

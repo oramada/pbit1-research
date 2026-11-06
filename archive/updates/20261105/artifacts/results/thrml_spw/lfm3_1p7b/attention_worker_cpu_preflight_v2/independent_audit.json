@@ -1,0 +1,10 @@
+{
+  "status": "all_four_attention_expanded_public_states_int64_counters_F64_readouts_and_receipts_verified",
+  "source_sha256": "dec5e5a6c4c6f483c9e07bea57baee22a6fbfccd80ee4baf6e6d41b56c171cdf",
+  "results_sha256": "3975a1a1fdfb653c4d42c26de841056ccaf51f23015b1b0223f993edaa944a10",
+  "public_bits_verified": 4194304,
+  "integer_entries_verified": 3962880,
+  "float64_outputs_verified": 3962880,
+  "max_absolute_integer_total": 16769024,
+  "scope": "CPU official THRML attention-component check at8320/2080/16448/4112positions, T8192 and128normchannels, exact independentint64 reconstruction and signed high-magnitude mirrors. Not GPU validation, full-model forward fidelity, quality, heldout scoring, physical bit flips, energy or latency."
+}

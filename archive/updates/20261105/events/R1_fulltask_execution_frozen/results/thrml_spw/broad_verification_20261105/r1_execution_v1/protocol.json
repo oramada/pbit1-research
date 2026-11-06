@@ -1,0 +1,1084 @@
+{
+  "status": "complete_R1_execution_and_statistics_frozen_before_scoring",
+  "recorded_utc": "2026-11-05T22:24:29.273636+00:00",
+  "output": "results/thrml_spw/broad_verification_20261105/r1_execution_v1",
+  "app": "pbit1-r1-execution-v1",
+  "logs": "r1_execution_logs_v1",
+  "models": {
+    "gpt2": {
+      "model_type": "gpt2",
+      "package": "results/thrml_spw/broad_verification_20261105/additional_parameter_packages_v1/gpt2/package.json",
+      "package_sha256": "73614f01e0f2220d3035e587d59c68f98c4d2758802b95ebc4462fe52857d009",
+      "checkpoint": "data/thrml_spw/broad_additional_v1/openai-community--gpt2",
+      "data": {
+        "kind": "full_task",
+        "arrays": "results/thrml_spw/broad_verification_20261105/additional_assets_v1/gpt2_tokens.npz",
+        "layout": "results/thrml_spw/broad_verification_20261105/additional_assets_v1/gpt2_layout.json"
+      },
+      "unique_learned_scalars": 124439808,
+      "seeds_by_budget": {
+        "1024": [
+          202611200,
+          202611201,
+          202611202,
+          202611203,
+          202611204
+        ],
+        "4096": [
+          202611210,
+          202611211,
+          202611212,
+          202611213,
+          202611214
+        ],
+        "8192": [
+          202611220,
+          202611221,
+          202611222,
+          202611223,
+          202611224
+        ]
+      },
+      "bootstrap_key": 202611500,
+      "margin": 0.01980262729617973,
+      "baseline_scope": "Uniform uncalibrated minmaxblock128 INT2/4/8 across every learnedparameter, includingnorms/biases; not optimizedGPTQ/AWQ or hardwarekernel performance."
+    },
+    "distilbert": {
+      "model_type": "distilbert",
+      "package": "results/thrml_spw/broad_verification_20261105/additional_parameter_packages_v1/distilbert/package.json",
+      "package_sha256": "398f7700b54715d96c294a1c7359fe0e8c3418cb981291d0a2deea89f80bbcc9",
+      "checkpoint": "data/thrml_spw/broad_additional_v1/distilbert--distilbert-base-uncased-finetuned-sst-2-english",
+      "data": {
+        "kind": "full_task",
+        "arrays": "results/thrml_spw/broad_verification_20261105/additional_assets_v1/distilbert_tokens.npz",
+        "layout": "results/thrml_spw/broad_verification_20261105/additional_assets_v1/distilbert_layout.json"
+      },
+      "unique_learned_scalars": 66955010,
+      "seeds_by_budget": {
+        "1024": [
+          202611300,
+          202611301,
+          202611302,
+          202611303,
+          202611304
+        ],
+        "4096": [
+          202611310,
+          202611311,
+          202611312,
+          202611313,
+          202611314
+        ],
+        "8192": [
+          202611320,
+          202611321,
+          202611322,
+          202611323,
+          202611324
+        ]
+      },
+      "bootstrap_key": 202611600,
+      "margin": 0.02,
+      "baseline_scope": "Uniform uncalibrated minmaxblock128 INT2/4/8 across every learnedparameter, includingnorms/biases; not optimizedGPTQ/AWQ or hardwarekernel performance."
+    }
+  },
+  "cases": {
+    "gpt2__original": {
+      "model_key": "gpt2",
+      "mode": "control",
+      "arm": "original"
+    },
+    "gpt2__mean1": {
+      "model_key": "gpt2",
+      "mode": "control",
+      "arm": "mean1"
+    },
+    "gpt2__mean4": {
+      "model_key": "gpt2",
+      "mode": "control",
+      "arm": "mean4"
+    },
+    "gpt2__mean8": {
+      "model_key": "gpt2",
+      "mode": "control",
+      "arm": "mean8"
+    },
+    "gpt2__int2": {
+      "model_key": "gpt2",
+      "mode": "control",
+      "arm": "int2"
+    },
+    "gpt2__int4": {
+      "model_key": "gpt2",
+      "mode": "control",
+      "arm": "int4"
+    },
+    "gpt2__int8": {
+      "model_key": "gpt2",
+      "mode": "control",
+      "arm": "int8"
+    },
+    "gpt2__K1_C1024_seed202611200": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 1,
+      "budget": 1024,
+      "samples": 1024,
+      "seed": 202611200
+    },
+    "gpt2__K1_C1024_seed202611201": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 1,
+      "budget": 1024,
+      "samples": 1024,
+      "seed": 202611201
+    },
+    "gpt2__K1_C1024_seed202611202": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 1,
+      "budget": 1024,
+      "samples": 1024,
+      "seed": 202611202
+    },
+    "gpt2__K1_C1024_seed202611203": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 1,
+      "budget": 1024,
+      "samples": 1024,
+      "seed": 202611203
+    },
+    "gpt2__K1_C1024_seed202611204": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 1,
+      "budget": 1024,
+      "samples": 1024,
+      "seed": 202611204
+    },
+    "gpt2__K4_C1024_seed202611200": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 4,
+      "budget": 1024,
+      "samples": 256,
+      "seed": 202611200
+    },
+    "gpt2__K4_C1024_seed202611201": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 4,
+      "budget": 1024,
+      "samples": 256,
+      "seed": 202611201
+    },
+    "gpt2__K4_C1024_seed202611202": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 4,
+      "budget": 1024,
+      "samples": 256,
+      "seed": 202611202
+    },
+    "gpt2__K4_C1024_seed202611203": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 4,
+      "budget": 1024,
+      "samples": 256,
+      "seed": 202611203
+    },
+    "gpt2__K4_C1024_seed202611204": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 4,
+      "budget": 1024,
+      "samples": 256,
+      "seed": 202611204
+    },
+    "gpt2__K8_C1024_seed202611200": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 8,
+      "budget": 1024,
+      "samples": 128,
+      "seed": 202611200
+    },
+    "gpt2__K8_C1024_seed202611201": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 8,
+      "budget": 1024,
+      "samples": 128,
+      "seed": 202611201
+    },
+    "gpt2__K8_C1024_seed202611202": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 8,
+      "budget": 1024,
+      "samples": 128,
+      "seed": 202611202
+    },
+    "gpt2__K8_C1024_seed202611203": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 8,
+      "budget": 1024,
+      "samples": 128,
+      "seed": 202611203
+    },
+    "gpt2__K8_C1024_seed202611204": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 8,
+      "budget": 1024,
+      "samples": 128,
+      "seed": 202611204
+    },
+    "gpt2__K1_C4096_seed202611210": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 1,
+      "budget": 4096,
+      "samples": 4096,
+      "seed": 202611210
+    },
+    "gpt2__K1_C4096_seed202611211": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 1,
+      "budget": 4096,
+      "samples": 4096,
+      "seed": 202611211
+    },
+    "gpt2__K1_C4096_seed202611212": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 1,
+      "budget": 4096,
+      "samples": 4096,
+      "seed": 202611212
+    },
+    "gpt2__K1_C4096_seed202611213": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 1,
+      "budget": 4096,
+      "samples": 4096,
+      "seed": 202611213
+    },
+    "gpt2__K1_C4096_seed202611214": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 1,
+      "budget": 4096,
+      "samples": 4096,
+      "seed": 202611214
+    },
+    "gpt2__K4_C4096_seed202611210": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 4,
+      "budget": 4096,
+      "samples": 1024,
+      "seed": 202611210
+    },
+    "gpt2__K4_C4096_seed202611211": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 4,
+      "budget": 4096,
+      "samples": 1024,
+      "seed": 202611211
+    },
+    "gpt2__K4_C4096_seed202611212": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 4,
+      "budget": 4096,
+      "samples": 1024,
+      "seed": 202611212
+    },
+    "gpt2__K4_C4096_seed202611213": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 4,
+      "budget": 4096,
+      "samples": 1024,
+      "seed": 202611213
+    },
+    "gpt2__K4_C4096_seed202611214": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 4,
+      "budget": 4096,
+      "samples": 1024,
+      "seed": 202611214
+    },
+    "gpt2__K8_C4096_seed202611210": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 8,
+      "budget": 4096,
+      "samples": 512,
+      "seed": 202611210
+    },
+    "gpt2__K8_C4096_seed202611211": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 8,
+      "budget": 4096,
+      "samples": 512,
+      "seed": 202611211
+    },
+    "gpt2__K8_C4096_seed202611212": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 8,
+      "budget": 4096,
+      "samples": 512,
+      "seed": 202611212
+    },
+    "gpt2__K8_C4096_seed202611213": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 8,
+      "budget": 4096,
+      "samples": 512,
+      "seed": 202611213
+    },
+    "gpt2__K8_C4096_seed202611214": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 8,
+      "budget": 4096,
+      "samples": 512,
+      "seed": 202611214
+    },
+    "gpt2__K1_C8192_seed202611220": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 1,
+      "budget": 8192,
+      "samples": 8192,
+      "seed": 202611220
+    },
+    "gpt2__K1_C8192_seed202611221": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 1,
+      "budget": 8192,
+      "samples": 8192,
+      "seed": 202611221
+    },
+    "gpt2__K1_C8192_seed202611222": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 1,
+      "budget": 8192,
+      "samples": 8192,
+      "seed": 202611222
+    },
+    "gpt2__K1_C8192_seed202611223": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 1,
+      "budget": 8192,
+      "samples": 8192,
+      "seed": 202611223
+    },
+    "gpt2__K1_C8192_seed202611224": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 1,
+      "budget": 8192,
+      "samples": 8192,
+      "seed": 202611224
+    },
+    "gpt2__K4_C8192_seed202611220": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 4,
+      "budget": 8192,
+      "samples": 2048,
+      "seed": 202611220
+    },
+    "gpt2__K4_C8192_seed202611221": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 4,
+      "budget": 8192,
+      "samples": 2048,
+      "seed": 202611221
+    },
+    "gpt2__K4_C8192_seed202611222": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 4,
+      "budget": 8192,
+      "samples": 2048,
+      "seed": 202611222
+    },
+    "gpt2__K4_C8192_seed202611223": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 4,
+      "budget": 8192,
+      "samples": 2048,
+      "seed": 202611223
+    },
+    "gpt2__K4_C8192_seed202611224": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 4,
+      "budget": 8192,
+      "samples": 2048,
+      "seed": 202611224
+    },
+    "gpt2__K8_C8192_seed202611220": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 8,
+      "budget": 8192,
+      "samples": 1024,
+      "seed": 202611220
+    },
+    "gpt2__K8_C8192_seed202611221": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 8,
+      "budget": 8192,
+      "samples": 1024,
+      "seed": 202611221
+    },
+    "gpt2__K8_C8192_seed202611222": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 8,
+      "budget": 8192,
+      "samples": 1024,
+      "seed": 202611222
+    },
+    "gpt2__K8_C8192_seed202611223": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 8,
+      "budget": 8192,
+      "samples": 1024,
+      "seed": 202611223
+    },
+    "gpt2__K8_C8192_seed202611224": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 8,
+      "budget": 8192,
+      "samples": 1024,
+      "seed": 202611224
+    },
+    "distilbert__original": {
+      "model_key": "distilbert",
+      "mode": "control",
+      "arm": "original"
+    },
+    "distilbert__mean1": {
+      "model_key": "distilbert",
+      "mode": "control",
+      "arm": "mean1"
+    },
+    "distilbert__mean4": {
+      "model_key": "distilbert",
+      "mode": "control",
+      "arm": "mean4"
+    },
+    "distilbert__mean8": {
+      "model_key": "distilbert",
+      "mode": "control",
+      "arm": "mean8"
+    },
+    "distilbert__int2": {
+      "model_key": "distilbert",
+      "mode": "control",
+      "arm": "int2"
+    },
+    "distilbert__int4": {
+      "model_key": "distilbert",
+      "mode": "control",
+      "arm": "int4"
+    },
+    "distilbert__int8": {
+      "model_key": "distilbert",
+      "mode": "control",
+      "arm": "int8"
+    },
+    "distilbert__K1_C1024_seed202611300": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 1,
+      "budget": 1024,
+      "samples": 1024,
+      "seed": 202611300
+    },
+    "distilbert__K1_C1024_seed202611301": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 1,
+      "budget": 1024,
+      "samples": 1024,
+      "seed": 202611301
+    },
+    "distilbert__K1_C1024_seed202611302": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 1,
+      "budget": 1024,
+      "samples": 1024,
+      "seed": 202611302
+    },
+    "distilbert__K1_C1024_seed202611303": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 1,
+      "budget": 1024,
+      "samples": 1024,
+      "seed": 202611303
+    },
+    "distilbert__K1_C1024_seed202611304": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 1,
+      "budget": 1024,
+      "samples": 1024,
+      "seed": 202611304
+    },
+    "distilbert__K4_C1024_seed202611300": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 4,
+      "budget": 1024,
+      "samples": 256,
+      "seed": 202611300
+    },
+    "distilbert__K4_C1024_seed202611301": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 4,
+      "budget": 1024,
+      "samples": 256,
+      "seed": 202611301
+    },
+    "distilbert__K4_C1024_seed202611302": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 4,
+      "budget": 1024,
+      "samples": 256,
+      "seed": 202611302
+    },
+    "distilbert__K4_C1024_seed202611303": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 4,
+      "budget": 1024,
+      "samples": 256,
+      "seed": 202611303
+    },
+    "distilbert__K4_C1024_seed202611304": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 4,
+      "budget": 1024,
+      "samples": 256,
+      "seed": 202611304
+    },
+    "distilbert__K8_C1024_seed202611300": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 8,
+      "budget": 1024,
+      "samples": 128,
+      "seed": 202611300
+    },
+    "distilbert__K8_C1024_seed202611301": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 8,
+      "budget": 1024,
+      "samples": 128,
+      "seed": 202611301
+    },
+    "distilbert__K8_C1024_seed202611302": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 8,
+      "budget": 1024,
+      "samples": 128,
+      "seed": 202611302
+    },
+    "distilbert__K8_C1024_seed202611303": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 8,
+      "budget": 1024,
+      "samples": 128,
+      "seed": 202611303
+    },
+    "distilbert__K8_C1024_seed202611304": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 8,
+      "budget": 1024,
+      "samples": 128,
+      "seed": 202611304
+    },
+    "distilbert__K1_C4096_seed202611310": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 1,
+      "budget": 4096,
+      "samples": 4096,
+      "seed": 202611310
+    },
+    "distilbert__K1_C4096_seed202611311": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 1,
+      "budget": 4096,
+      "samples": 4096,
+      "seed": 202611311
+    },
+    "distilbert__K1_C4096_seed202611312": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 1,
+      "budget": 4096,
+      "samples": 4096,
+      "seed": 202611312
+    },
+    "distilbert__K1_C4096_seed202611313": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 1,
+      "budget": 4096,
+      "samples": 4096,
+      "seed": 202611313
+    },
+    "distilbert__K1_C4096_seed202611314": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 1,
+      "budget": 4096,
+      "samples": 4096,
+      "seed": 202611314
+    },
+    "distilbert__K4_C4096_seed202611310": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 4,
+      "budget": 4096,
+      "samples": 1024,
+      "seed": 202611310
+    },
+    "distilbert__K4_C4096_seed202611311": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 4,
+      "budget": 4096,
+      "samples": 1024,
+      "seed": 202611311
+    },
+    "distilbert__K4_C4096_seed202611312": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 4,
+      "budget": 4096,
+      "samples": 1024,
+      "seed": 202611312
+    },
+    "distilbert__K4_C4096_seed202611313": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 4,
+      "budget": 4096,
+      "samples": 1024,
+      "seed": 202611313
+    },
+    "distilbert__K4_C4096_seed202611314": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 4,
+      "budget": 4096,
+      "samples": 1024,
+      "seed": 202611314
+    },
+    "distilbert__K8_C4096_seed202611310": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 8,
+      "budget": 4096,
+      "samples": 512,
+      "seed": 202611310
+    },
+    "distilbert__K8_C4096_seed202611311": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 8,
+      "budget": 4096,
+      "samples": 512,
+      "seed": 202611311
+    },
+    "distilbert__K8_C4096_seed202611312": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 8,
+      "budget": 4096,
+      "samples": 512,
+      "seed": 202611312
+    },
+    "distilbert__K8_C4096_seed202611313": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 8,
+      "budget": 4096,
+      "samples": 512,
+      "seed": 202611313
+    },
+    "distilbert__K8_C4096_seed202611314": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 8,
+      "budget": 4096,
+      "samples": 512,
+      "seed": 202611314
+    },
+    "distilbert__K1_C8192_seed202611320": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 1,
+      "budget": 8192,
+      "samples": 8192,
+      "seed": 202611320
+    },
+    "distilbert__K1_C8192_seed202611321": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 1,
+      "budget": 8192,
+      "samples": 8192,
+      "seed": 202611321
+    },
+    "distilbert__K1_C8192_seed202611322": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 1,
+      "budget": 8192,
+      "samples": 8192,
+      "seed": 202611322
+    },
+    "distilbert__K1_C8192_seed202611323": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 1,
+      "budget": 8192,
+      "samples": 8192,
+      "seed": 202611323
+    },
+    "distilbert__K1_C8192_seed202611324": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 1,
+      "budget": 8192,
+      "samples": 8192,
+      "seed": 202611324
+    },
+    "distilbert__K4_C8192_seed202611320": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 4,
+      "budget": 8192,
+      "samples": 2048,
+      "seed": 202611320
+    },
+    "distilbert__K4_C8192_seed202611321": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 4,
+      "budget": 8192,
+      "samples": 2048,
+      "seed": 202611321
+    },
+    "distilbert__K4_C8192_seed202611322": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 4,
+      "budget": 8192,
+      "samples": 2048,
+      "seed": 202611322
+    },
+    "distilbert__K4_C8192_seed202611323": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 4,
+      "budget": 8192,
+      "samples": 2048,
+      "seed": 202611323
+    },
+    "distilbert__K4_C8192_seed202611324": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 4,
+      "budget": 8192,
+      "samples": 2048,
+      "seed": 202611324
+    },
+    "distilbert__K8_C8192_seed202611320": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 8,
+      "budget": 8192,
+      "samples": 1024,
+      "seed": 202611320
+    },
+    "distilbert__K8_C8192_seed202611321": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 8,
+      "budget": 8192,
+      "samples": 1024,
+      "seed": 202611321
+    },
+    "distilbert__K8_C8192_seed202611322": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 8,
+      "budget": 8192,
+      "samples": 1024,
+      "seed": 202611322
+    },
+    "distilbert__K8_C8192_seed202611323": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 8,
+      "budget": 8192,
+      "samples": 1024,
+      "seed": 202611323
+    },
+    "distilbert__K8_C8192_seed202611324": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 8,
+      "budget": 8192,
+      "samples": 1024,
+      "seed": 202611324
+    }
+  },
+  "case_order": [
+    "gpt2__original",
+    "distilbert__original",
+    "gpt2__mean1",
+    "distilbert__mean1",
+    "gpt2__mean4",
+    "distilbert__mean4",
+    "gpt2__mean8",
+    "distilbert__mean8",
+    "gpt2__int2",
+    "distilbert__int2",
+    "gpt2__int4",
+    "distilbert__int4",
+    "gpt2__int8",
+    "distilbert__int8",
+    "gpt2__K1_C8192_seed202611220",
+    "distilbert__K1_C8192_seed202611320",
+    "gpt2__K1_C8192_seed202611221",
+    "distilbert__K1_C8192_seed202611321",
+    "gpt2__K1_C8192_seed202611222",
+    "distilbert__K1_C8192_seed202611322",
+    "gpt2__K1_C8192_seed202611223",
+    "distilbert__K1_C8192_seed202611323",
+    "gpt2__K1_C8192_seed202611224",
+    "distilbert__K1_C8192_seed202611324",
+    "gpt2__K1_C1024_seed202611200",
+    "gpt2__K1_C1024_seed202611201",
+    "gpt2__K1_C1024_seed202611202",
+    "gpt2__K1_C1024_seed202611203",
+    "gpt2__K1_C1024_seed202611204",
+    "gpt2__K4_C1024_seed202611200",
+    "gpt2__K4_C1024_seed202611201",
+    "gpt2__K4_C1024_seed202611202",
+    "gpt2__K4_C1024_seed202611203",
+    "gpt2__K4_C1024_seed202611204",
+    "gpt2__K8_C1024_seed202611200",
+    "gpt2__K8_C1024_seed202611201",
+    "gpt2__K8_C1024_seed202611202",
+    "gpt2__K8_C1024_seed202611203",
+    "gpt2__K8_C1024_seed202611204",
+    "gpt2__K1_C4096_seed202611210",
+    "gpt2__K1_C4096_seed202611211",
+    "gpt2__K1_C4096_seed202611212",
+    "gpt2__K1_C4096_seed202611213",
+    "gpt2__K1_C4096_seed202611214",
+    "gpt2__K4_C4096_seed202611210",
+    "gpt2__K4_C4096_seed202611211",
+    "gpt2__K4_C4096_seed202611212",
+    "gpt2__K4_C4096_seed202611213",
+    "gpt2__K4_C4096_seed202611214",
+    "gpt2__K8_C4096_seed202611210",
+    "gpt2__K8_C4096_seed202611211",
+    "gpt2__K8_C4096_seed202611212",
+    "gpt2__K8_C4096_seed202611213",
+    "gpt2__K8_C4096_seed202611214",
+    "gpt2__K4_C8192_seed202611220",
+    "gpt2__K4_C8192_seed202611221",
+    "gpt2__K4_C8192_seed202611222",
+    "gpt2__K4_C8192_seed202611223",
+    "gpt2__K4_C8192_seed202611224",
+    "gpt2__K8_C8192_seed202611220",
+    "gpt2__K8_C8192_seed202611221",
+    "gpt2__K8_C8192_seed202611222",
+    "gpt2__K8_C8192_seed202611223",
+    "gpt2__K8_C8192_seed202611224",
+    "distilbert__K1_C1024_seed202611300",
+    "distilbert__K1_C1024_seed202611301",
+    "distilbert__K1_C1024_seed202611302",
+    "distilbert__K1_C1024_seed202611303",
+    "distilbert__K1_C1024_seed202611304",
+    "distilbert__K4_C1024_seed202611300",
+    "distilbert__K4_C1024_seed202611301",
+    "distilbert__K4_C1024_seed202611302",
+    "distilbert__K4_C1024_seed202611303",
+    "distilbert__K4_C1024_seed202611304",
+    "distilbert__K8_C1024_seed202611300",
+    "distilbert__K8_C1024_seed202611301",
+    "distilbert__K8_C1024_seed202611302",
+    "distilbert__K8_C1024_seed202611303",
+    "distilbert__K8_C1024_seed202611304",
+    "distilbert__K1_C4096_seed202611310",
+    "distilbert__K1_C4096_seed202611311",
+    "distilbert__K1_C4096_seed202611312",
+    "distilbert__K1_C4096_seed202611313",
+    "distilbert__K1_C4096_seed202611314",
+    "distilbert__K4_C4096_seed202611310",
+    "distilbert__K4_C4096_seed202611311",
+    "distilbert__K4_C4096_seed202611312",
+    "distilbert__K4_C4096_seed202611313",
+    "distilbert__K4_C4096_seed202611314",
+    "distilbert__K8_C4096_seed202611310",
+    "distilbert__K8_C4096_seed202611311",
+    "distilbert__K8_C4096_seed202611312",
+    "distilbert__K8_C4096_seed202611313",
+    "distilbert__K8_C4096_seed202611314",
+    "distilbert__K4_C8192_seed202611320",
+    "distilbert__K4_C8192_seed202611321",
+    "distilbert__K4_C8192_seed202611322",
+    "distilbert__K4_C8192_seed202611323",
+    "distilbert__K4_C8192_seed202611324",
+    "distilbert__K8_C8192_seed202611320",
+    "distilbert__K8_C8192_seed202611321",
+    "distilbert__K8_C8192_seed202611322",
+    "distilbert__K8_C8192_seed202611323",
+    "distilbert__K8_C8192_seed202611324"
+  ],
+  "control_cases": [
+    "gpt2__original",
+    "distilbert__original",
+    "gpt2__mean1",
+    "distilbert__mean1",
+    "gpt2__mean4",
+    "distilbert__mean4",
+    "gpt2__mean8",
+    "distilbert__mean8",
+    "gpt2__int2",
+    "distilbert__int2",
+    "gpt2__int4",
+    "distilbert__int4",
+    "gpt2__int8",
+    "distilbert__int8"
+  ],
+  "primary_cases": [
+    "gpt2__K1_C8192_seed202611220",
+    "distilbert__K1_C8192_seed202611320",
+    "gpt2__K1_C8192_seed202611221",
+    "distilbert__K1_C8192_seed202611321",
+    "gpt2__K1_C8192_seed202611222",
+    "distilbert__K1_C8192_seed202611322",
+    "gpt2__K1_C8192_seed202611223",
+    "distilbert__K1_C8192_seed202611323",
+    "gpt2__K1_C8192_seed202611224",
+    "distilbert__K1_C8192_seed202611324"
+  ],
+  "sources_sha256": {
+    "research/thrml_spw/broad/r1_io_v1.py": "e7f6e3d640c43f6412ffaf4588719ac68b74d28c8a9fa05f197c2096161321fc",
+    "research/thrml_spw/broad/r1_worker_v1.py": "c3e8a67ffbd8f0351196125664b5e3e98be563401a798639b38aabb23d2933c3",
+    "research/thrml_spw/broad/r1_model_v1.py": "de2c4657a4efdc8968660106cc3c1fe19f1c55ea1e56b3ae58eca8fb3857825a",
+    "research/thrml_spw/broad/r1_case_v1.py": "6eb98ff5a979f46dc659642dc8ca5a2bf29193c0572f3eb7ef3ce9c0f0c7e4f7",
+    "research/thrml_spw/broad/verify_r1_case_v1.py": "3bfa280c49b0ab5b5828f1a6957f55673b54977409aafeaa867fa60c9e18bb75",
+    "research/thrml_spw/broad/prepare_r1_preflight_v2.py": "9e17a8ff9e9877ce59a169410fca33a3c6ed00e95c914c2411a76db58555ae27",
+    "research/thrml_spw/broad/parameter_program_v1.py": "4d9bae47fe3ab0f92a01aab4df5646ce9cbc5b600a34d54f0df2abd8fe33b7ed",
+    "research/thrml_spw/broad/parameter_counts_v1.py": "f4399e80cad58f2c7b98930b32436306b8e2c164d2e229ad839d6039d264e24a",
+    "research/thrml_spw/broad/parameter_counts_v2.py": "4e4cab531d83ca8f4861f40a6b514e975d2671054fd4f23255c5bd42c524fd7a",
+    "research/thrml_spw/native.py": "14ab522d92356d3c633787b5249c8a0d04d6c46c3b282fb84bdd72ed1fd9a361",
+    "research/thrml_spw/controlled_positive_native.py": "6b2e4bfa2a589c2b9436423aaa4045c5e0d8b421ded0e9d4db0dceae0b492f99",
+    "research/thrml_spw/gpu_environment.py": "816439a3c63f84be0309bfc8c8887067b6f234d223b52beed7b6111c909c4273",
+    "research/thrml_spw/lfm3/counted_bank.py": "48783c3c3c6912061de5158a40c2b8f4223d72c97560d2940b202d8f357f2080",
+    "research/thrml_spw/lfm3/stage_checkpoint_v1.py": "ff51be00b7342503a7e371c71f6f7073e91efd80312ef252ffd754692881d81c",
+    "research/thrml_spw/broad/r1_statistics_v1.py": "c1a24b41670c4336e75ec32ece44482f32c7b6c7b8abc3f6c5b7e21c4aeb7b9c",
+    "research/thrml_spw/broad/verify_r1_statistics_v1.py": "8eff2c8f2cf578f686abd94de1c5c4285804d253c5c5b31cbbba92367dcf8330",
+    "research/thrml_spw/broad/preflight_r1_statistics_v1.py": "94fb6705bf80f2b0df2cc443954537d91ed46b9aef4cfee19c7d184a4fee73d8",
+    "research/thrml_spw/broad/preflight_r1_batches_v1.py": "f1a74548b840bbce62eb93a11f676a2615a72b7c83252f6eb239756adb444aaa",
+    "research/thrml_spw/broad/task_statistics_v1.py": "1d1fe0e27261cde701449dfb7256f5bf6ea2ac98d19e011be0882043b2cb0dba",
+    "cloud/r1_execution_v1/freeze.py": "5a2db17cdfe784366cfcc5aeb2078b634ce23a4fbfad267ed7e48b20438669c8",
+    "cloud/r1_execution_v1/app.py": "5c6236c23c477a92884048c1aeaef417fa3e2fa63d08898775be451380b81f3c",
+    "cloud/r1_execution_v1/layout.py": "fce456440f13fa3e522c0b853669b26b11b84f9e7898169365759bc77deb212f",
+    "cloud/r1_execution_v1/client.py": "f67e48c90e990f0b5082546e230afc0b9c543f131541ef7d4a17df99cac13fa4"
+  },
+  "inputs_sha256": {
+    "results/thrml_spw/broad_verification_20261105/additional_parameter_packages_v2_audit.json": "d701ce519f58b0d378f083f63e2f1df310a1a332f213f88fc41f3c8f3b473479",
+    "results/thrml_spw/broad_verification_20261105/large_tile_h100_v1_audit.json": "92c4380689056ab3f85a20cfb5fc5c83d28b617142a5aadc10a707ecd8979851",
+    "results/thrml_spw/broad_verification_20261105/parameter_counts_h100_v1_audit.json": "f9446278d013f59fce9151d5e061819a86ecaacd90baa7e572f0cb54a729d304",
+    "results/thrml_spw/broad_verification_20261105/remote_metadata/additional_parameter_packages_v1/gpt2/package.json": "73614f01e0f2220d3035e587d59c68f98c4d2758802b95ebc4462fe52857d009",
+    "results/thrml_spw/broad_verification_20261105/remote_metadata/additional_parameter_packages_v1/distilbert/package.json": "398f7700b54715d96c294a1c7359fe0e8c3418cb981291d0a2deea89f80bbcc9",
+    "results/thrml_spw/broad_verification_20261105/r1_model_preflight_v2/gpt2_synthetic.npz": "ea4b683250d5ea764eee8a2df3153176c0f00aad985ca11e9346faa6bd505490",
+    "results/thrml_spw/broad_verification_20261105/r1_model_preflight_v2/distilbert_synthetic.npz": "db82075d987a67f401748f6d98efc29c502b72d91855030968cdf57f98f06ad3",
+    "results/thrml_spw/broad_verification_20261105/additional_model_inventory/selection_protocol_v1.json": "80128fd73e595535075e429587ee083cb6ac068a07040400a676e3edbbdf0a90",
+    "results/thrml_spw/broad_verification_20261105/r1_model_preflight_v2/protocol.json": "ddb9c87cefaafe7ad018fc96ed87530dac86307f9c61f920784598e38e6f3dfd",
+    "results/thrml_spw/broad_verification_20261105/r1_statistics_v1_preflight/results.json": "d545cd9743e03c6d3ac832921c4b284bb8cb2f2f43922999a2b16c36d5d80cb3",
+    "results/thrml_spw/broad_verification_20261105/r1_batches_v1_preflight/results.json": "970cb5efa718a7b4692196fb1f3a6d6409d80ca28ff42913f7d90c9e639b0d0f",
+    "results/thrml_spw/broad_verification_20261105/additional_assets_v1_independent_data_audit.json": "a6b79e6b37e543b3fe40712185c99372db96fca389d202c0ca3d74c3bc04b57e",
+    "results/thrml_spw/broad_verification_20261105/r1_model_preflight_v2/gpt2_results.json": "4504706e38ced68c06c0f9fee4cbd42748408f1188826cde9e1928db14befa30",
+    "results/thrml_spw/broad_verification_20261105/r1_model_preflight_v2/distilbert_results.json": "7ab2195e9e7cde136d2bfd82ade12f33ed81106dd0896416d74f5ec9beadfb3b",
+    "results/thrml_spw/broad_verification_20261105/additional_assets_v1/gpt2_tokens.npz": "f9b95c7dd583c7575ffbefc5543df96830fe4c00f73e1f362c099bd5b0a0a92c",
+    "results/thrml_spw/broad_verification_20261105/additional_assets_v1/gpt2_layout.json": "9b057e25e543919585bce1ee84e7d760f42e1cf5cffbf4c4bdc27aaeb6da65bc",
+    "data/thrml_spw/broad_additional_v1/openai-community--gpt2/config.json": "0daed7749b4f02b8f76240d5444551d7b08712dab4d0adb8239c56ba823bb7b4",
+    "results/thrml_spw/broad_verification_20261105/additional_assets_v1/distilbert_tokens.npz": "ef9c432050f58d3db91fcf85a8530bc2423eb441aefe0f42c61776fd74a247cb",
+    "results/thrml_spw/broad_verification_20261105/additional_assets_v1/distilbert_layout.json": "566bb4c993968db0190ce64bedd06605ea2a1896e2a35230111b4d74258a59bb",
+    "data/thrml_spw/broad_additional_v1/distilbert--distilbert-base-uncased-finetuned-sst-2-english/config.json": "582122c8f414793d131e10022ce9ba04e3811a9da6389137ee2f18665b4f4d15"
+  },
+  "preflight_protocol_sha256": "ddb9c87cefaafe7ad018fc96ed87530dac86307f9c61f920784598e38e6f3dfd",
+  "sampler_tile_size": 65536,
+  "source_point": "Originalpinnedcheckpoint BF16rounded, alllearnedscalarsincludingbiases/norms, tiesonce",
+  "readout": "Exactint64positionalnumerator, FP64division andlower+span*p, castFP32thenBF16onCPU, move toH100",
+  "statistics": {
+    "MC_seeds_per_condition": 5,
+    "MC_critical": 2.7764451051977987,
+    "paired_data_seed_bootstrap_replicates": 10000,
+    "quality_rule": "Both conditionalMC and paired data/seed bootstrap upper bounds must meet each predeclared primary margin against originalBF16 and same-point finite-programBF16. Report all cases regardless of quality; no additional favorable seeds or threshold changes.",
+    "scope": "Approximate conditional and bootstrap uncertainty, no formal simultaneous coverage or universal quality claim."
+  },
+  "bootstrap_replicates": 10000,
+  "MC_critical": 2.7764451051977987,
+  "primary_rule": "K1C8192bothmodels. BothconditionalMCt4andcrossedseed/data upper95percentbounds must meet existingmargin vsoriginalBF16andK1finiteprogrammeanBF16. No additionalfavorablekeys, ensemblepredictions, filteringorfitting.",
+  "resource_unit": "Transitions percompleteweightreconstructiondraw, reused foralltestexamples; baselinebuffersandBF16modelstorage retained. Not per-inputR2costorphysicalmemorysavings.",
+  "execution": {
+    "gpu": "H100!",
+    "parallel_case_limit": 4,
+    "case_timeout_seconds": 86400,
+    "user_sampling_retries": 0,
+    "infrastructure_recovery": "StableFunctionCallownership, skip closedparameters/evaluationbatches, same-keypartialreplaychargedseparately",
+    "all_outcomes_retained": true,
+    "queue_independent_of_quality": true
+  },
+  "evidence": "AllcountsandBF16weightpoint hashes retained; allclassifierlogits saved, fullGPT2batchlogit hashes and targetlosscomponents retained and everybatch independently replayed without sampling.",
+  "scope": "Fullfixedtask R1quality only. Approximate confidence intervals, no universal numericalBF16equivalence, R2or physicalhardwareadvantage claim."
+}

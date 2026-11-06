@@ -1,0 +1,8 @@
+{
+  "status": "independent_binomial_optimizer_and_probe_cost_checks_passed",
+  "source_sha256": "8d2079b2b606f135965fa9648860a54e45bd5af42829140f83b21a065a04c6f0",
+  "results_sha256": "53205ee7a556bebc5d3adbc994cd0ebf5f38fbd077981d0596a9c82e4bde96c0",
+  "independent_optimizer_comparisons": 48,
+  "maximum_coefficient_difference": 1.9751214663799033e-08,
+  "scope": "ConditionaloperatorMSEsimulation. Correctpopulationpriorisassumed,notmeasured. Optimizeragreementdoesnotprovephysicalcalibrationorwholemodelquality."
+}

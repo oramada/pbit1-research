@@ -1,0 +1,110 @@
+{
+  "status": "all16_scores_matched_devices_and_nine_weight_replays_audited",
+  "result_sha256": "5474e46936488027728d741ec1e293f44eb950f65fbf949ff8d89f274df900d3",
+  "source_sha256": "0e544f69953952a43b78b5f34ff7fb4d5f4159919879d604cae4db37da4b631f",
+  "SDK_source_sha256": "015e64966c6b7031930eb5ffe29b4d81cc4aba2836083477ab239f691cc04705",
+  "statistics": {
+    "ideal": {
+      "PPL_ratio": 1.0049840299889787,
+      "MC95_t4": [
+        0.9809705297161438,
+        1.0295853646338822
+      ]
+    },
+    "uncalibrated": {
+      "PPL_ratio": 1.0374344455793016,
+      "MC95_t4": [
+        1.0059451961549213,
+        1.0699094075783842
+      ]
+    },
+    "oracle": {
+      "PPL_ratio": 0.9964294613168493,
+      "MC95_t4": [
+        0.9850098532502344,
+        1.0079814614077316
+      ]
+    }
+  },
+  "paired_biases": [
+    {
+      "seed": 2026112401,
+      "bias_SSE": {
+        "ideal": 0.0,
+        "uncalibrated": 1695.2885050884634,
+        "oracle": 3.7907999770595135
+      }
+    },
+    {
+      "seed": 2026112402,
+      "bias_SSE": {
+        "ideal": 0.0,
+        "uncalibrated": 1695.2277688672125,
+        "oracle": 3.7889030635839
+      }
+    },
+    {
+      "seed": 2026112403,
+      "bias_SSE": {
+        "ideal": 0.0,
+        "uncalibrated": 1694.7801636875436,
+        "oracle": 3.789911206430202
+      }
+    },
+    {
+      "seed": 2026112404,
+      "bias_SSE": {
+        "ideal": 0.0,
+        "uncalibrated": 1695.1740880995385,
+        "oracle": 3.790347351257637
+      }
+    },
+    {
+      "seed": 2026112405,
+      "bias_SSE": {
+        "ideal": 0.0,
+        "uncalibrated": 1695.3083276395064,
+        "oracle": 3.78998849213529
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "transformer.h.0.ln_1.weight",
+      "kind": "ideal"
+    },
+    {
+      "name": "transformer.h.0.ln_1.weight",
+      "kind": "uncalibrated"
+    },
+    {
+      "name": "transformer.h.0.ln_1.weight",
+      "kind": "oracle"
+    },
+    {
+      "name": "transformer.h.0.attn.c_proj.weight",
+      "kind": "ideal"
+    },
+    {
+      "name": "transformer.h.0.attn.c_proj.weight",
+      "kind": "uncalibrated"
+    },
+    {
+      "name": "transformer.h.0.attn.c_proj.weight",
+      "kind": "oracle"
+    },
+    {
+      "name": "transformer.ln_f.bias",
+      "kind": "ideal"
+    },
+    {
+      "name": "transformer.ln_f.bias",
+      "kind": "uncalibrated"
+    },
+    {
+      "name": "transformer.ln_f.bias",
+      "kind": "oracle"
+    }
+  ],
+  "scope": "FullGPT2, all parameters. FP32CPUarithmetic withBF16-roundedweights; 1024trainingtargets. Independent-binomialR1. Device errors illustrative, not measured hardware. Oracle correction knows true per-device gain/offset, re-quantizes the original12bit controls and clips to their range; it is an upper bound on calibration quality, not a free or deployable measured fix. TwoFP32 calibration values per device would require an additional8Nbytes if retained. No drift/cross-device correlation here."
+}

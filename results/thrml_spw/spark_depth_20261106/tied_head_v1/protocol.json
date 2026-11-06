@@ -1,0 +1,27 @@
+{
+  "source_sha256": "a061884bd55426f583f916f50e79551dfe65b82af90dc2a466e6398dba159799",
+  "sampler_sha256": "6965132ce43835ba1c3672290ab4dde837dd0f0f7e078aea0e4b2abcc6970eba",
+  "seed": 2026110621,
+  "conditions": [
+    "BF16",
+    "flat",
+    "restore_input_use_only",
+    "restore_output_use_only",
+    "restore_both_uses",
+    "only_embedding_reoriented",
+    "only_other_matrices_reoriented",
+    "all_reoriented"
+  ],
+  "rows": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "input_length": 129,
+  "scope": "Training-only causal diagnostics. Input/output restoration uses forward hooks to separate uses of one tied parameter; they are interventions, not realizable all-K1 encoding proposals. Reoriented proposals retain124439808pbits,T8192,128weightgroups. R1 idealindependentbinomial,notnativeTHRML."
+}

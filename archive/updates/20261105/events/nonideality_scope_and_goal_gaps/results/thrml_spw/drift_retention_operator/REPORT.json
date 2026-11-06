@@ -1,0 +1,14 @@
+{
+  "native_query_windows": 150,
+  "native_linear_segments": 1200,
+  "native_calibration_events": 90,
+  "native_probe_windows": 180,
+  "native_count_segments": 5760,
+  "unique_weights": 2359296,
+  "free_nodes": 2322432,
+  "nominal_control_bias_floor": 0.000509074409175322,
+  "executed_calibration_free_node_evaluations": 856141332480,
+  "executed_query_free_node_evaluations": 178362777600,
+  "elapsed_seconds": 497.1331086769933,
+  "scope": "One2,359,296-weight single-p-bit normalized-weight operator, same eight old development contexts. Official THRML per-segment bit updates, no replacement Bernoulli sampler. No new full-model quality or physical energy/latency claim."
+}

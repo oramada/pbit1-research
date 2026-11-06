@@ -1,0 +1,18 @@
+{
+  "status": "highT_complete_binding_success_failure_missing_cohort_and_forgery_fixtures_passed",
+  "checks": [
+    "passing_complete_binding_cohort",
+    "failing_complete_binding_cohort",
+    "reject_0_seed_cohort",
+    "reject_4_seed_cohort",
+    "reject_6_seed_cohort",
+    "reject_uncertainty_bound",
+    "reject_success_flag",
+    "reject_input_binding",
+    "reject_sampling_budget"
+  ],
+  "source_sha256": "3e60288a4298637473f3c5b66b06455cd98953a04ed842cc7e29c2aa929e0cd7",
+  "producer_sha256": "a558e89c05e501981ff591ed6b9b4616ab1f8ad4fa19cf78d0bc39f435992a02",
+  "verifier_sha256": "3a936cea2f33213e781462f3da327bd3cf5156120e5b3f3c9050222a246da66d",
+  "scope": "Pure synthetic metric/binding fixtures, not actual modeltaskscoring or neural evidence."
+}

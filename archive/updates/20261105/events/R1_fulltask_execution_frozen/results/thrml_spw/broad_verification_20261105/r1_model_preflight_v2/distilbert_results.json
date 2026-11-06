@@ -1,0 +1,283 @@
+{
+  "status": "actual_model_all7controls_and_fullparameter_T1native_neural_replay_passed_synthetic_only",
+  "model": "distilbert",
+  "protocol_sha256": "ddb9c87cefaafe7ad018fc96ed87530dac86307f9c61f920784598e38e6f3dfd",
+  "cases": [
+    {
+      "canonical_parameters": 104,
+      "case": "distilbert__original",
+      "case_spec": {
+        "arm": "original",
+        "mode": "control",
+        "model_key": "distilbert"
+      },
+      "elapsed_seconds_this_replay_attempt": 4.257943279999999,
+      "evaluation_batches": 1,
+      "mean_metric": 0.0,
+      "metric": "synthetic_not_task_quality",
+      "model_key": "distilbert",
+      "model_point_sha256": "7230e74009624f2db6c415f7db6870a91378c1cb0a65130f48def32a0b592406",
+      "protocol_sha256": "ddb9c87cefaafe7ad018fc96ed87530dac86307f9c61f920784598e38e6f3dfd",
+      "resources": {
+        "logical_pbits": 0,
+        "logical_retained_device_evaluations": 0,
+        "retained_device_evaluations": 0,
+        "warmup_device_evaluations": 0
+      },
+      "results_sha256": "b66c69e9c0f76ee2cdf425a70f1cfceff8af499dafe3ad4457e06a6d1d77e40d",
+      "scope": "All weights independently decoded from saved counts or analytic controls and every full outputbatch hashreplayed; no resampling, extraMCseed, R2or physicaldeviceadvantageclaim.",
+      "source_sha256": "3bfa280c49b0ab5b5828f1a6957f55673b54977409aafeaa867fa60c9e18bb75",
+      "status": "complete_R1_parameter_counts_resources_and_all_neural_batches_independently_replayed",
+      "synthetic_only": true,
+      "unique_parameter_scalars": 66955010,
+      "unit_metric_sums": [
+        0.0
+      ],
+      "unit_sizes": [
+        1
+      ]
+    },
+    {
+      "canonical_parameters": 104,
+      "case": "distilbert__mean1",
+      "case_spec": {
+        "arm": "mean1",
+        "mode": "control",
+        "model_key": "distilbert"
+      },
+      "elapsed_seconds_this_replay_attempt": 6.875992932999992,
+      "evaluation_batches": 1,
+      "mean_metric": 0.0,
+      "metric": "synthetic_not_task_quality",
+      "model_key": "distilbert",
+      "model_point_sha256": "bc9782e99252bc3c7d8c9edbc940b4adc2b6db2496ea3a7a9204a5c9a19f30ec",
+      "protocol_sha256": "ddb9c87cefaafe7ad018fc96ed87530dac86307f9c61f920784598e38e6f3dfd",
+      "resources": {
+        "logical_pbits": 0,
+        "logical_retained_device_evaluations": 0,
+        "retained_device_evaluations": 0,
+        "warmup_device_evaluations": 0
+      },
+      "results_sha256": "ccf8fcef25ae364098309ea3b0b0c956606ee6f9663c32d8a8aabc436d622239",
+      "scope": "All weights independently decoded from saved counts or analytic controls and every full outputbatch hashreplayed; no resampling, extraMCseed, R2or physicaldeviceadvantageclaim.",
+      "source_sha256": "3bfa280c49b0ab5b5828f1a6957f55673b54977409aafeaa867fa60c9e18bb75",
+      "status": "complete_R1_parameter_counts_resources_and_all_neural_batches_independently_replayed",
+      "synthetic_only": true,
+      "unique_parameter_scalars": 66955010,
+      "unit_metric_sums": [
+        0.0
+      ],
+      "unit_sizes": [
+        1
+      ]
+    },
+    {
+      "canonical_parameters": 104,
+      "case": "distilbert__mean4",
+      "case_spec": {
+        "arm": "mean4",
+        "mode": "control",
+        "model_key": "distilbert"
+      },
+      "elapsed_seconds_this_replay_attempt": 7.533428520000001,
+      "evaluation_batches": 1,
+      "mean_metric": 0.0,
+      "metric": "synthetic_not_task_quality",
+      "model_key": "distilbert",
+      "model_point_sha256": "b89bae0328537c50cb322e20cb410da2f7a81fa753ad5e9b3111c8beef7a82db",
+      "protocol_sha256": "ddb9c87cefaafe7ad018fc96ed87530dac86307f9c61f920784598e38e6f3dfd",
+      "resources": {
+        "logical_pbits": 0,
+        "logical_retained_device_evaluations": 0,
+        "retained_device_evaluations": 0,
+        "warmup_device_evaluations": 0
+      },
+      "results_sha256": "e4368c2e85fb7605e8a36fd14c78bb58fd40dcbc43eb065e00c9d9ddcd71fdd8",
+      "scope": "All weights independently decoded from saved counts or analytic controls and every full outputbatch hashreplayed; no resampling, extraMCseed, R2or physicaldeviceadvantageclaim.",
+      "source_sha256": "3bfa280c49b0ab5b5828f1a6957f55673b54977409aafeaa867fa60c9e18bb75",
+      "status": "complete_R1_parameter_counts_resources_and_all_neural_batches_independently_replayed",
+      "synthetic_only": true,
+      "unique_parameter_scalars": 66955010,
+      "unit_metric_sums": [
+        0.0
+      ],
+      "unit_sizes": [
+        1
+      ]
+    },
+    {
+      "canonical_parameters": 104,
+      "case": "distilbert__mean8",
+      "case_spec": {
+        "arm": "mean8",
+        "mode": "control",
+        "model_key": "distilbert"
+      },
+      "elapsed_seconds_this_replay_attempt": 7.570539328999999,
+      "evaluation_batches": 1,
+      "mean_metric": 0.0,
+      "metric": "synthetic_not_task_quality",
+      "model_key": "distilbert",
+      "model_point_sha256": "16ff40234c44505ced4aa6ec573c5cffb211a40772747661594e37db890c4ae3",
+      "protocol_sha256": "ddb9c87cefaafe7ad018fc96ed87530dac86307f9c61f920784598e38e6f3dfd",
+      "resources": {
+        "logical_pbits": 0,
+        "logical_retained_device_evaluations": 0,
+        "retained_device_evaluations": 0,
+        "warmup_device_evaluations": 0
+      },
+      "results_sha256": "991315e800a5693357212caee091e80e1dc1bd59b9d5c9486eedd5e66ceff928",
+      "scope": "All weights independently decoded from saved counts or analytic controls and every full outputbatch hashreplayed; no resampling, extraMCseed, R2or physicaldeviceadvantageclaim.",
+      "source_sha256": "3bfa280c49b0ab5b5828f1a6957f55673b54977409aafeaa867fa60c9e18bb75",
+      "status": "complete_R1_parameter_counts_resources_and_all_neural_batches_independently_replayed",
+      "synthetic_only": true,
+      "unique_parameter_scalars": 66955010,
+      "unit_metric_sums": [
+        0.0
+      ],
+      "unit_sizes": [
+        1
+      ]
+    },
+    {
+      "canonical_parameters": 104,
+      "case": "distilbert__int2",
+      "case_spec": {
+        "arm": "int2",
+        "mode": "control",
+        "model_key": "distilbert"
+      },
+      "elapsed_seconds_this_replay_attempt": 6.853854193000018,
+      "evaluation_batches": 1,
+      "mean_metric": 0.0,
+      "metric": "synthetic_not_task_quality",
+      "model_key": "distilbert",
+      "model_point_sha256": "32ce3cdcd23f65e52204d8c09b1660f293a6b56e1a93a53e8e1140d2bd441de8",
+      "protocol_sha256": "ddb9c87cefaafe7ad018fc96ed87530dac86307f9c61f920784598e38e6f3dfd",
+      "resources": {
+        "logical_pbits": 0,
+        "logical_retained_device_evaluations": 0,
+        "retained_device_evaluations": 0,
+        "warmup_device_evaluations": 0
+      },
+      "results_sha256": "ba4f07af5a1e343dc434d4cda7106d5512f4ef8649126a0cebdda18367e64585",
+      "scope": "All weights independently decoded from saved counts or analytic controls and every full outputbatch hashreplayed; no resampling, extraMCseed, R2or physicaldeviceadvantageclaim.",
+      "source_sha256": "3bfa280c49b0ab5b5828f1a6957f55673b54977409aafeaa867fa60c9e18bb75",
+      "status": "complete_R1_parameter_counts_resources_and_all_neural_batches_independently_replayed",
+      "synthetic_only": true,
+      "unique_parameter_scalars": 66955010,
+      "unit_metric_sums": [
+        0.0
+      ],
+      "unit_sizes": [
+        1
+      ]
+    },
+    {
+      "canonical_parameters": 104,
+      "case": "distilbert__int4",
+      "case_spec": {
+        "arm": "int4",
+        "mode": "control",
+        "model_key": "distilbert"
+      },
+      "elapsed_seconds_this_replay_attempt": 6.992830763000001,
+      "evaluation_batches": 1,
+      "mean_metric": 0.0,
+      "metric": "synthetic_not_task_quality",
+      "model_key": "distilbert",
+      "model_point_sha256": "4b7912b0348f20b811a3b90f16899d30af49e3e2dd045f36b43ce10414e72ae1",
+      "protocol_sha256": "ddb9c87cefaafe7ad018fc96ed87530dac86307f9c61f920784598e38e6f3dfd",
+      "resources": {
+        "logical_pbits": 0,
+        "logical_retained_device_evaluations": 0,
+        "retained_device_evaluations": 0,
+        "warmup_device_evaluations": 0
+      },
+      "results_sha256": "c210578b3fe55ac80bb9520fbab100024ee9292a87b4e0d9ee116514c09800a2",
+      "scope": "All weights independently decoded from saved counts or analytic controls and every full outputbatch hashreplayed; no resampling, extraMCseed, R2or physicaldeviceadvantageclaim.",
+      "source_sha256": "3bfa280c49b0ab5b5828f1a6957f55673b54977409aafeaa867fa60c9e18bb75",
+      "status": "complete_R1_parameter_counts_resources_and_all_neural_batches_independently_replayed",
+      "synthetic_only": true,
+      "unique_parameter_scalars": 66955010,
+      "unit_metric_sums": [
+        0.0
+      ],
+      "unit_sizes": [
+        1
+      ]
+    },
+    {
+      "canonical_parameters": 104,
+      "case": "distilbert__int8",
+      "case_spec": {
+        "arm": "int8",
+        "mode": "control",
+        "model_key": "distilbert"
+      },
+      "elapsed_seconds_this_replay_attempt": 6.9243302789999746,
+      "evaluation_batches": 1,
+      "mean_metric": 0.0,
+      "metric": "synthetic_not_task_quality",
+      "model_key": "distilbert",
+      "model_point_sha256": "9e17539eed44691291442454ac64b0267d86e177ccca171f8c4b89251d7d685b",
+      "protocol_sha256": "ddb9c87cefaafe7ad018fc96ed87530dac86307f9c61f920784598e38e6f3dfd",
+      "resources": {
+        "logical_pbits": 0,
+        "logical_retained_device_evaluations": 0,
+        "retained_device_evaluations": 0,
+        "warmup_device_evaluations": 0
+      },
+      "results_sha256": "59eec45aa08c4a2674efbe59dcc33dcdb49133d4c9c28f0a7da63128a268c275",
+      "scope": "All weights independently decoded from saved counts or analytic controls and every full outputbatch hashreplayed; no resampling, extraMCseed, R2or physicaldeviceadvantageclaim.",
+      "source_sha256": "3bfa280c49b0ab5b5828f1a6957f55673b54977409aafeaa867fa60c9e18bb75",
+      "status": "complete_R1_parameter_counts_resources_and_all_neural_batches_independently_replayed",
+      "synthetic_only": true,
+      "unique_parameter_scalars": 66955010,
+      "unit_metric_sums": [
+        0.0
+      ],
+      "unit_sizes": [
+        1
+      ]
+    },
+    {
+      "canonical_parameters": 104,
+      "case": "distilbert__nativeT1",
+      "case_spec": {
+        "bits": 1,
+        "budget": 1,
+        "mode": "native",
+        "model_key": "distilbert",
+        "samples": 1,
+        "seed": 202611961
+      },
+      "elapsed_seconds_this_replay_attempt": 7.446206380999968,
+      "evaluation_batches": 1,
+      "mean_metric": 0.0,
+      "metric": "synthetic_not_task_quality",
+      "model_key": "distilbert",
+      "model_point_sha256": "ac5bd1936e5ce8e50eb600fd48fc5182ac1021d96055a18fc56174607e2b0ac4",
+      "protocol_sha256": "ddb9c87cefaafe7ad018fc96ed87530dac86307f9c61f920784598e38e6f3dfd",
+      "resources": {
+        "logical_pbits": 66955010,
+        "logical_retained_device_evaluations": 66955010,
+        "retained_device_evaluations": 71172096,
+        "warmup_device_evaluations": 71172096
+      },
+      "results_sha256": "5d8498709ea4aeedb3e0e4d8443d0939b06ce7c88a006573a9ac3efdccfb0e85",
+      "scope": "All weights independently decoded from saved counts or analytic controls and every full outputbatch hashreplayed; no resampling, extraMCseed, R2or physicaldeviceadvantageclaim.",
+      "source_sha256": "3bfa280c49b0ab5b5828f1a6957f55673b54977409aafeaa867fa60c9e18bb75",
+      "status": "complete_R1_parameter_counts_resources_and_all_neural_batches_independently_replayed",
+      "synthetic_only": true,
+      "unique_parameter_scalars": 66955010,
+      "unit_metric_sums": [
+        0.0
+      ],
+      "unit_sizes": [
+        1
+      ]
+    }
+  ],
+  "scope": "Complete actualmodel parameterreplacement and output replay on synthetic IDs. No real evaluationtokens, taskquality or physicalhardwarebenefit."
+}

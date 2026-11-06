@@ -1,0 +1,46 @@
+{
+  "status": "preparation_only_no_new_task_scores",
+  "sources": [
+    {
+      "parent": "research/thrml_spw/broad/r1_case_v1.py",
+      "parent_sha256": "6eb98ff5a979f46dc659642dc8ca5a2bf29193c0572f3eb7ef3ce9c0f0c7e4f7",
+      "child": "research/thrml_spw/broad/highT_case_v1.py",
+      "child_sha256": "b5bdd0f36efde423fb6c5a756b2da28410af0efee1f6865ed67bba4b0cbdca32",
+      "exact_replacements": [
+        [
+          "research.thrml_spw.broad.r1_worker_v1",
+          "research.thrml_spw.broad.highT_worker_v1"
+        ]
+      ]
+    },
+    {
+      "parent": "research/thrml_spw/broad/verify_r1_case_v1.py",
+      "parent_sha256": "3bfa280c49b0ab5b5828f1a6957f55673b54977409aafeaa867fa60c9e18bb75",
+      "child": "research/thrml_spw/broad/verify_highT_case_v1.py",
+      "child_sha256": "423f7a5f97778e95bdb5371c5058287feb110678996c3b92820c8d084a7f881f",
+      "exact_replacements": [
+        [
+          "np.uint16",
+          "np.uint32"
+        ]
+      ]
+    },
+    {
+      "parent": "research/thrml_spw/broad/r1_worker_v1.py",
+      "parent_sha256": "c3e8a67ffbd8f0351196125664b5e3e98be563401a798639b38aabb23d2933c3",
+      "child": "research/thrml_spw/broad/highT_worker_v1.py",
+      "child_sha256": "595571a3e537bb3bb3b1f3d5289be95f6708c91e39f57bbfe8d97ab570174162",
+      "exact_replacements": [
+        [
+          "q['samples'] in (1,128,256,512,1024,2048,4096,8192)",
+          "q['samples'] in (1,8192,262144)"
+        ],
+        [
+          "r['counts'].astype(np.uint16)",
+          "r['counts'].astype(np.uint32)"
+        ]
+      ]
+    }
+  ],
+  "scope": "Dedicated sample262144 uint32 worker and independent replay. Original frozen8192 experiment remains untouched. No new high-budget result or success claim."
+}

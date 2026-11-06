@@ -1,0 +1,10 @@
+{
+  "kind": "ideal",
+  "seed": 2026112404,
+  "NLL": 3.8143931442637817,
+  "targets": 1024,
+  "point_sha256": "a99533ff3c478d8d571260d1b3071fef4677f42a22c749786a008276020c7167",
+  "bias_SSE_relative_to_requested_mean": 0.0,
+  "sampling_variance_SSE": 407.78052507393124,
+  "clipped_inverse_requests": 0
+}

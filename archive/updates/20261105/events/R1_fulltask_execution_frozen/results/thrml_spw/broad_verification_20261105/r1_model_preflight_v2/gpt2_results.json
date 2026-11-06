@@ -1,0 +1,283 @@
+{
+  "status": "actual_model_all7controls_and_fullparameter_T1native_neural_replay_passed_synthetic_only",
+  "model": "gpt2",
+  "protocol_sha256": "ddb9c87cefaafe7ad018fc96ed87530dac86307f9c61f920784598e38e6f3dfd",
+  "cases": [
+    {
+      "canonical_parameters": 148,
+      "case": "gpt2__original",
+      "case_spec": {
+        "arm": "original",
+        "mode": "control",
+        "model_key": "gpt2"
+      },
+      "elapsed_seconds_this_replay_attempt": 7.254886861000003,
+      "evaluation_batches": 1,
+      "mean_metric": 0.0,
+      "metric": "synthetic_not_task_quality",
+      "model_key": "gpt2",
+      "model_point_sha256": "16667fef6c48783620a9b4f63db7e2a4de9130f7a1ece7764a42685add3e6df5",
+      "protocol_sha256": "ddb9c87cefaafe7ad018fc96ed87530dac86307f9c61f920784598e38e6f3dfd",
+      "resources": {
+        "logical_pbits": 0,
+        "logical_retained_device_evaluations": 0,
+        "retained_device_evaluations": 0,
+        "warmup_device_evaluations": 0
+      },
+      "results_sha256": "4e8ea0db2186d1d2fce7dd2f35aa8f85992dc3d0aec500b6f860de343578a191",
+      "scope": "All weights independently decoded from saved counts or analytic controls and every full outputbatch hashreplayed; no resampling, extraMCseed, R2or physicaldeviceadvantageclaim.",
+      "source_sha256": "3bfa280c49b0ab5b5828f1a6957f55673b54977409aafeaa867fa60c9e18bb75",
+      "status": "complete_R1_parameter_counts_resources_and_all_neural_batches_independently_replayed",
+      "synthetic_only": true,
+      "unique_parameter_scalars": 124439808,
+      "unit_metric_sums": [
+        0.0
+      ],
+      "unit_sizes": [
+        1
+      ]
+    },
+    {
+      "canonical_parameters": 148,
+      "case": "gpt2__mean1",
+      "case_spec": {
+        "arm": "mean1",
+        "mode": "control",
+        "model_key": "gpt2"
+      },
+      "elapsed_seconds_this_replay_attempt": 13.515588088000001,
+      "evaluation_batches": 1,
+      "mean_metric": 0.0,
+      "metric": "synthetic_not_task_quality",
+      "model_key": "gpt2",
+      "model_point_sha256": "dd9913eb2b2239618f1f0a49dd97718dd3dcc386a38c69d005e9d0e6ff81b452",
+      "protocol_sha256": "ddb9c87cefaafe7ad018fc96ed87530dac86307f9c61f920784598e38e6f3dfd",
+      "resources": {
+        "logical_pbits": 0,
+        "logical_retained_device_evaluations": 0,
+        "retained_device_evaluations": 0,
+        "warmup_device_evaluations": 0
+      },
+      "results_sha256": "63aec36e1db4538800e4e9724e0dfc7f4714d32eee2c841612197d8e195f6a4a",
+      "scope": "All weights independently decoded from saved counts or analytic controls and every full outputbatch hashreplayed; no resampling, extraMCseed, R2or physicaldeviceadvantageclaim.",
+      "source_sha256": "3bfa280c49b0ab5b5828f1a6957f55673b54977409aafeaa867fa60c9e18bb75",
+      "status": "complete_R1_parameter_counts_resources_and_all_neural_batches_independently_replayed",
+      "synthetic_only": true,
+      "unique_parameter_scalars": 124439808,
+      "unit_metric_sums": [
+        0.0
+      ],
+      "unit_sizes": [
+        1
+      ]
+    },
+    {
+      "canonical_parameters": 148,
+      "case": "gpt2__mean4",
+      "case_spec": {
+        "arm": "mean4",
+        "mode": "control",
+        "model_key": "gpt2"
+      },
+      "elapsed_seconds_this_replay_attempt": 15.402740606999998,
+      "evaluation_batches": 1,
+      "mean_metric": 0.0,
+      "metric": "synthetic_not_task_quality",
+      "model_key": "gpt2",
+      "model_point_sha256": "e998cefa1de277d57d443a1c7c7d9ebcac95892ffe1d438556568a0a37e8278e",
+      "protocol_sha256": "ddb9c87cefaafe7ad018fc96ed87530dac86307f9c61f920784598e38e6f3dfd",
+      "resources": {
+        "logical_pbits": 0,
+        "logical_retained_device_evaluations": 0,
+        "retained_device_evaluations": 0,
+        "warmup_device_evaluations": 0
+      },
+      "results_sha256": "2cd4666e696c4aa7e1981dbd54d5233bccd4fe5a6c310b04ec14a025df1b0261",
+      "scope": "All weights independently decoded from saved counts or analytic controls and every full outputbatch hashreplayed; no resampling, extraMCseed, R2or physicaldeviceadvantageclaim.",
+      "source_sha256": "3bfa280c49b0ab5b5828f1a6957f55673b54977409aafeaa867fa60c9e18bb75",
+      "status": "complete_R1_parameter_counts_resources_and_all_neural_batches_independently_replayed",
+      "synthetic_only": true,
+      "unique_parameter_scalars": 124439808,
+      "unit_metric_sums": [
+        0.0
+      ],
+      "unit_sizes": [
+        1
+      ]
+    },
+    {
+      "canonical_parameters": 148,
+      "case": "gpt2__mean8",
+      "case_spec": {
+        "arm": "mean8",
+        "mode": "control",
+        "model_key": "gpt2"
+      },
+      "elapsed_seconds_this_replay_attempt": 15.378523303000009,
+      "evaluation_batches": 1,
+      "mean_metric": 0.0,
+      "metric": "synthetic_not_task_quality",
+      "model_key": "gpt2",
+      "model_point_sha256": "ff39979f8106897f1c3d5d5b2e88ad9ef7b1f34b5924a03995a3cc6539e0debe",
+      "protocol_sha256": "ddb9c87cefaafe7ad018fc96ed87530dac86307f9c61f920784598e38e6f3dfd",
+      "resources": {
+        "logical_pbits": 0,
+        "logical_retained_device_evaluations": 0,
+        "retained_device_evaluations": 0,
+        "warmup_device_evaluations": 0
+      },
+      "results_sha256": "89680eed14ffe805696d3af5da492002526d0379ff636e15f1959c6154d693ee",
+      "scope": "All weights independently decoded from saved counts or analytic controls and every full outputbatch hashreplayed; no resampling, extraMCseed, R2or physicaldeviceadvantageclaim.",
+      "source_sha256": "3bfa280c49b0ab5b5828f1a6957f55673b54977409aafeaa867fa60c9e18bb75",
+      "status": "complete_R1_parameter_counts_resources_and_all_neural_batches_independently_replayed",
+      "synthetic_only": true,
+      "unique_parameter_scalars": 124439808,
+      "unit_metric_sums": [
+        0.0
+      ],
+      "unit_sizes": [
+        1
+      ]
+    },
+    {
+      "canonical_parameters": 148,
+      "case": "gpt2__int2",
+      "case_spec": {
+        "arm": "int2",
+        "mode": "control",
+        "model_key": "gpt2"
+      },
+      "elapsed_seconds_this_replay_attempt": 15.850368396999983,
+      "evaluation_batches": 1,
+      "mean_metric": 0.0,
+      "metric": "synthetic_not_task_quality",
+      "model_key": "gpt2",
+      "model_point_sha256": "70a8e0814864a9c8cadfcd8ef1ed0aecb7c290cbad612ffd4e64388c16cb29f3",
+      "protocol_sha256": "ddb9c87cefaafe7ad018fc96ed87530dac86307f9c61f920784598e38e6f3dfd",
+      "resources": {
+        "logical_pbits": 0,
+        "logical_retained_device_evaluations": 0,
+        "retained_device_evaluations": 0,
+        "warmup_device_evaluations": 0
+      },
+      "results_sha256": "2934c1a8db9a9133495745f95e2909922b32b432c834980ecca696edbd2aaf8e",
+      "scope": "All weights independently decoded from saved counts or analytic controls and every full outputbatch hashreplayed; no resampling, extraMCseed, R2or physicaldeviceadvantageclaim.",
+      "source_sha256": "3bfa280c49b0ab5b5828f1a6957f55673b54977409aafeaa867fa60c9e18bb75",
+      "status": "complete_R1_parameter_counts_resources_and_all_neural_batches_independently_replayed",
+      "synthetic_only": true,
+      "unique_parameter_scalars": 124439808,
+      "unit_metric_sums": [
+        0.0
+      ],
+      "unit_sizes": [
+        1
+      ]
+    },
+    {
+      "canonical_parameters": 148,
+      "case": "gpt2__int4",
+      "case_spec": {
+        "arm": "int4",
+        "mode": "control",
+        "model_key": "gpt2"
+      },
+      "elapsed_seconds_this_replay_attempt": 14.521810971999969,
+      "evaluation_batches": 1,
+      "mean_metric": 0.0,
+      "metric": "synthetic_not_task_quality",
+      "model_key": "gpt2",
+      "model_point_sha256": "a9c6d14f20f427381811f34ce3024d1b1d4a54ed33fc6c27bcbf1ebb3e610206",
+      "protocol_sha256": "ddb9c87cefaafe7ad018fc96ed87530dac86307f9c61f920784598e38e6f3dfd",
+      "resources": {
+        "logical_pbits": 0,
+        "logical_retained_device_evaluations": 0,
+        "retained_device_evaluations": 0,
+        "warmup_device_evaluations": 0
+      },
+      "results_sha256": "938507db4d955690d68f84e71e1936dbb8970ac597afdb99686335e9e2a9c5d0",
+      "scope": "All weights independently decoded from saved counts or analytic controls and every full outputbatch hashreplayed; no resampling, extraMCseed, R2or physicaldeviceadvantageclaim.",
+      "source_sha256": "3bfa280c49b0ab5b5828f1a6957f55673b54977409aafeaa867fa60c9e18bb75",
+      "status": "complete_R1_parameter_counts_resources_and_all_neural_batches_independently_replayed",
+      "synthetic_only": true,
+      "unique_parameter_scalars": 124439808,
+      "unit_metric_sums": [
+        0.0
+      ],
+      "unit_sizes": [
+        1
+      ]
+    },
+    {
+      "canonical_parameters": 148,
+      "case": "gpt2__int8",
+      "case_spec": {
+        "arm": "int8",
+        "mode": "control",
+        "model_key": "gpt2"
+      },
+      "elapsed_seconds_this_replay_attempt": 14.332884898000032,
+      "evaluation_batches": 1,
+      "mean_metric": 0.0,
+      "metric": "synthetic_not_task_quality",
+      "model_key": "gpt2",
+      "model_point_sha256": "47a85df3fc02a9db24dc89f1a4e66ebf7532744f11931481bf6bf2d69a5aea01",
+      "protocol_sha256": "ddb9c87cefaafe7ad018fc96ed87530dac86307f9c61f920784598e38e6f3dfd",
+      "resources": {
+        "logical_pbits": 0,
+        "logical_retained_device_evaluations": 0,
+        "retained_device_evaluations": 0,
+        "warmup_device_evaluations": 0
+      },
+      "results_sha256": "7df917f94ef7a518d03cab51fd7dafe20001091264df97695fadca46330af2b7",
+      "scope": "All weights independently decoded from saved counts or analytic controls and every full outputbatch hashreplayed; no resampling, extraMCseed, R2or physicaldeviceadvantageclaim.",
+      "source_sha256": "3bfa280c49b0ab5b5828f1a6957f55673b54977409aafeaa867fa60c9e18bb75",
+      "status": "complete_R1_parameter_counts_resources_and_all_neural_batches_independently_replayed",
+      "synthetic_only": true,
+      "unique_parameter_scalars": 124439808,
+      "unit_metric_sums": [
+        0.0
+      ],
+      "unit_sizes": [
+        1
+      ]
+    },
+    {
+      "canonical_parameters": 148,
+      "case": "gpt2__nativeT1",
+      "case_spec": {
+        "bits": 1,
+        "budget": 1,
+        "mode": "native",
+        "model_key": "gpt2",
+        "samples": 1,
+        "seed": 202611960
+      },
+      "elapsed_seconds_this_replay_attempt": 18.64283948000002,
+      "evaluation_batches": 1,
+      "mean_metric": 0.0,
+      "metric": "synthetic_not_task_quality",
+      "model_key": "gpt2",
+      "model_point_sha256": "838d0288145b745d49ca60c3254cfca0410295aba824c0738c9a021336435b5d",
+      "protocol_sha256": "ddb9c87cefaafe7ad018fc96ed87530dac86307f9c61f920784598e38e6f3dfd",
+      "resources": {
+        "logical_pbits": 124439808,
+        "logical_retained_device_evaluations": 124439808,
+        "retained_device_evaluations": 130744320,
+        "warmup_device_evaluations": 130744320
+      },
+      "results_sha256": "0a82731b82830b0f14f54a2555ab11ec37ebbbd5cd8e1a42c93819c96b2a6770",
+      "scope": "All weights independently decoded from saved counts or analytic controls and every full outputbatch hashreplayed; no resampling, extraMCseed, R2or physicaldeviceadvantageclaim.",
+      "source_sha256": "3bfa280c49b0ab5b5828f1a6957f55673b54977409aafeaa867fa60c9e18bb75",
+      "status": "complete_R1_parameter_counts_resources_and_all_neural_batches_independently_replayed",
+      "synthetic_only": true,
+      "unique_parameter_scalars": 124439808,
+      "unit_metric_sums": [
+        0.0
+      ],
+      "unit_sizes": [
+        1
+      ]
+    }
+  ],
+  "scope": "Complete actualmodel parameterreplacement and output replay on synthetic IDs. No real evaluationtokens, taskquality or physicalhardwarebenefit."
+}

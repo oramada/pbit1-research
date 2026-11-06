@@ -1,0 +1,47 @@
+{
+  "status": "four_distinct_existing_H100_followup_calls_observed",
+  "protocol_sha256": "c8068f1ad89588c04ea6cf0ef4d1be630a675c4bf7f0cbb8c50296b08ad2a91c",
+  "observed_unix": 1793922598.3529544,
+  "records": [
+    {
+      "case": "gpt2__K1_C262144_seed202611800",
+      "call_id": "fc-01M6Q1TZV3EFTT4MR34SKC24J9",
+      "progress": {
+        "stage": "installing_complete_parameter_point",
+        "elapsed_seconds": 9.407182072999998,
+        "index": 0,
+        "name": "transformer.wte.weight"
+      }
+    },
+    {
+      "case": "gpt2__K1_C262144_seed202611801",
+      "call_id": "fc-01M6Q1TZZGPC1E290K6186101N",
+      "progress": {
+        "stage": "installing_complete_parameter_point",
+        "elapsed_seconds": 9.464353338999999,
+        "index": 0,
+        "name": "transformer.wte.weight"
+      }
+    },
+    {
+      "case": "gpt2__K1_C262144_seed202611802",
+      "call_id": "fc-01M6Q1V03J3KVMAVNMGTNZ9GBJ",
+      "progress": {
+        "stage": "installing_complete_parameter_point",
+        "elapsed_seconds": 7.142770795000001,
+        "index": 0,
+        "name": "transformer.wte.weight"
+      }
+    },
+    {
+      "case": "gpt2__K1_C262144_seed202611803",
+      "call_id": "fc-01M6Q1V0798PDDTEFNX50BM9YQ",
+      "progress": {
+        "stage": "installing_complete_parameter_point",
+        "elapsed_seconds": 7.173067159000002,
+        "index": 0,
+        "name": "transformer.wte.weight"
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "status": "passed_complete_cohort_loss_ledger_and_selection_recomputation",
+  "source_sha256": "07ce988fa8dfe0b72cfaa1207284dff70bb0156ad699c2bf437ed1d476a93707",
+  "result_sha256": "43d5ebda5a9a6176ddecc8ecf6935096b33e8f5a49677dbf0127a7a14bcfdf2c",
+  "selected_profile": null,
+  "saved_token_arrays_checked": 352,
+  "prior_BF16_logit_hash_matches": 8,
+  "calibration": {
+    "embedding_only_T8192": {
+      "PPL_ratio": 1.0304326685015153,
+      "MC95_t_PPL_ratio_interval": [
+        1.0108606040293129,
+        1.0503836830546458
+      ],
+      "qualifies": false,
+      "observation_cost_ratio": 1.0
+    },
+    "operator_T8192": {
+      "PPL_ratio": 1.0363443563148091,
+      "MC95_t_PPL_ratio_interval": [
+        1.0169526312648072,
+        1.0561058517836626
+      ],
+      "qualifies": false,
+      "observation_cost_ratio": 1.0
+    },
+    "operator_body_T32768": {
+      "PPL_ratio": 1.0098533977424933,
+      "MC95_t_PPL_ratio_interval": [
+        0.9928513748127649,
+        1.0271465707789107
+      ],
+      "qualifies": false,
+      "observation_cost_ratio": 3.0694928748202503
+    },
+    "operator_all_T32768": {
+      "PPL_ratio": 1.0044597496011358,
+      "MC95_t_PPL_ratio_interval": [
+        0.9863181606615183,
+        1.022935021182299
+      ],
+      "qualifies": false,
+      "observation_cost_ratio": 4.0
+    }
+  },
+  "scope": "Selectiononlyonreusedtrainingcalibration. No benchmarkqualityclaim."
+}

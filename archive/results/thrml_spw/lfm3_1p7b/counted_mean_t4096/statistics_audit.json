@@ -1,0 +1,6 @@
+{
+  "status": "all_five_mean_quality_statistics_and_workspace_resource_counts_verified",
+  "source_sha256": "b2f4d87c18413c6bf20df857f6851b283983e113dcae0c75b7b70cf3e484ea02",
+  "statistics_sha256": "a96cba4111a5038301256d1386c367a80c38a99fd6229758bcb1c2d12861d063",
+  "scope": "Conditionalexploratoryprecisionextensionatthesameprior-selectedmeantrainedpoint. NewindependentMCkeysavoidcouplingtothetriggeringlower-budgetnoise. Fiveclusters/2048reservedvalidationtargets, allfourcontrols. Sameprior2percentPPLupperMCt4gatevsSAME-FITBF16, no relaxedthreshold. Fourtimesretainednodeevaluations,warmupunchanged;physicalcounter/readout/controlcostsnoteliminated. Int32per-weighttemporarysimulatorcountsareexplicit. No numericalBF16equivalence, generalization/coverage/multiplicity-controlclaim, physicalenergy/latency/residencybenefit ornewholdoutscore. Existingall3candidate/allocated/K8/currentT1024studiesunchanged. NewseedsareadifferentTcondition,neverpoolas10same-conditionruns."
+}

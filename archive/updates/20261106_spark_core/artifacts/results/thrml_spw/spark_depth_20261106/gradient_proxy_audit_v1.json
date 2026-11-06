@@ -1,0 +1,58 @@
+{
+  "status": "allocation_arithmetic_and_four_network_gradient_checks_passed",
+  "source_sha256": "583088b347f5cfd1a24fbcb445a215ac1ade284ff7257538fb501d89b93474b6",
+  "proposal_result_sha256": "9f8d23a42bd311111cafbc302bc2ea65acd1a43942a58b84fbd6eca2c8f446c1",
+  "checks": [
+    {
+      "parameter": "transformer.ln_f.bias",
+      "coordinate": [
+        709
+      ],
+      "autograd": 0.0888136625289917,
+      "finite_difference_derivatives": [
+        0.08869171142578125,
+        0.08845329284667969
+      ],
+      "passed": true
+    },
+    {
+      "parameter": "transformer.h.0.ln_1.weight",
+      "coordinate": [
+        270
+      ],
+      "autograd": -0.1050979420542717,
+      "finite_difference_derivatives": [
+        -0.1056989034016927,
+        -0.10442733764648438
+      ],
+      "passed": true
+    },
+    {
+      "parameter": "transformer.h.0.attn.c_proj.weight",
+      "coordinate": [
+        649,
+        482
+      ],
+      "autograd": 0.0703478679060936,
+      "finite_difference_derivatives": [
+        0.07192293802897136,
+        0.07033348083496094
+      ],
+      "passed": true
+    },
+    {
+      "parameter": "transformer.wte.weight",
+      "coordinate": [
+        290,
+        496
+      ],
+      "autograd": -8.711066246032715,
+      "finite_difference_derivatives": [
+        -8.615414301554361,
+        -8.700370788574219
+      ],
+      "passed": true
+    }
+  ],
+  "scope": "Checks gradient/arithmeticimplementation, notvalidityoflinearproxyasapredictorofactualquality. CPUFP32only."
+}

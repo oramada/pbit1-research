@@ -1,0 +1,29 @@
+{
+  "status": "full_H100_native_and_nominal_replay_exact_BF16_controls_differ",
+  "recorded_utc": "2026-10-30T23:27:52.277169+00:00",
+  "H100_results_sha256": "cb2356f27199756fe396f1e546e45e2daa72497438dc3a9ef65cc1730a07f9c9",
+  "local_results_sha256": "f716d5b93a0b785fa4a91c000af3578121655f967388565387f54706524a0ed0",
+  "stage_NLL": {
+    "BF16": {
+      "H100_mean_NLL": 4.978037919774262,
+      "local_mean_NLL": 4.978250316314616,
+      "H100_minus_local_NLL": -0.0002123965403546535
+    },
+    "same_fit_BF16": {
+      "H100_mean_NLL": 4.321727152519442,
+      "local_mean_NLL": 4.321675645982947,
+      "H100_minus_local_NLL": 5.150653649454995e-05
+    },
+    "nominal_controls": {
+      "H100_mean_NLL": 4.3036534212232525,
+      "local_mean_NLL": 4.3036534212232525,
+      "H100_minus_local_NLL": 0.0
+    },
+    "native": {
+      "H100_mean_NLL": 4.299070596970884,
+      "local_mean_NLL": 4.299070596970884,
+      "H100_minus_local_NLL": 0.0
+    }
+  },
+  "scope": "The preset full-stage bitwise bridge failed. All4native and all4nominal arrays match; both BF16 controls differ in all4batches. No cloud/local cohort pooling and no BF16 equivalence conclusion. Preserve original full-model outputs. Separate H100 controls and prospectively versioned auditing are required before cloud comparisons continue."
+}

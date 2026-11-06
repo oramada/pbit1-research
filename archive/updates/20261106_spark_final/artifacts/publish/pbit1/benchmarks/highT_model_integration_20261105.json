@@ -1,0 +1,11 @@
+{
+  "status": "new_uint32_actual_GPT2_path_matches_old_uint16_weights_and_full_logits_on_same_synthetic_key",
+  "old_results_sha256": "0a82731b82830b0f14f54a2555ab11ec37ebbbd5cd8e1a42c93819c96b2a6770",
+  "new_results_sha256": "141b36e97f3868978eee99089fc32d2b62373b7181f52a737a83746a950ebb2d",
+  "new_independent_replay_sha256": "01189ceae17b48445a1395e215d3c0cc8fa1263ea8af475f81b99a5c2351cd4b",
+  "canonical_parameters": 148,
+  "unique_parameters": 124439808,
+  "same_MC_key": 202611960,
+  "model_point_sha256": "838d0288145b745d49ca60c3254cfca0410295aba824c0738c9a021336435b5d",
+  "scope": "All completeparameter BF16hashes and fullsyntheticrawlogits match old accepteduint16path; newuint32independentneuralreplay passed. Not a highTfullmodel task score."
+}

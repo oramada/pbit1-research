@@ -1,0 +1,11 @@
+{
+  "status": "coverage_and_relative_quality_gate_rejection_fixtures_passed",
+  "source_sha256": "27a7aa9db2ea4660f8d5d0db643fad3923cd774b4172ab219c467a38eb8befcf",
+  "auditor_sha256": "2d984430ddff0873ac9b624045eaf270a44e970b3de109ad7d6681cf6ae6e14f",
+  "rejected": [
+    "duplicate",
+    "missing",
+    "future"
+  ],
+  "quality_fixture_count": 3
+}

@@ -1,0 +1,303 @@
+{
+  "protocol_sha256": "b003fedc90d962500907e8cf435ca359ab1ef9a27ea3e892c2fe12a17ea79626",
+  "calls": {
+    "gpt2__original": "fc-01M6PX5F4MD1A72WRV1C3FXE70",
+    "distilbert__original": "fc-01M6PX5F8A9HG779P2AB7TY47S",
+    "gpt2__mean1": "fc-01M6PX5FCEAKQS0NPGZ0TRAHFN",
+    "distilbert__mean1": "fc-01M6PX5FGT9WFG8N5Z30BDYXZE",
+    "gpt2__mean4": "fc-01M6PX7V92QCX8A9SGJR8SD539",
+    "distilbert__mean4": "fc-01M6PX8AJ5W66B1PE5NEZ81Y7S",
+    "gpt2__mean8": "fc-01M6PXA7739ZF50JK22DE48BCJ",
+    "distilbert__mean8": "fc-01M6PXGV4EDTJS90NRXX6Y3FT6",
+    "gpt2__int2": "fc-01M6PXJ8K9F7AER35W20X050DC",
+    "distilbert__int2": "fc-01M6PXKP2KBZP8PW7MQ0EH5HR6",
+    "gpt2__int4": "fc-01M6PXP1SWMSB8Q6HVMCEPNC2A",
+    "distilbert__int4": "fc-01M6PXQYFXR24G2FMQQFA9PJM8",
+    "gpt2__int8": "fc-01M6PXTA85YNTTG3E7CZTFVQRR",
+    "distilbert__int8": "fc-01M6PXTSHCQG3NWVD3CSGZJ8GD",
+    "gpt2__K1_C8192_seed202611220": "fc-01M6PXX5BT7GS4ZNXJVNK9ZAW3",
+    "distilbert__K1_C8192_seed202611320": "fc-01M6PXYJVRRWGP1N0GQYHTMGXY",
+    "gpt2__K1_C8192_seed202611221": "fc-01M6PY2C2V648KHG53PMQ3ZF2T",
+    "distilbert__K1_C8192_seed202611321": "fc-01M6PY3AHQPG0WBJASC67VFY5A",
+    "gpt2__K1_C8192_seed202611222": "fc-01M6PY7K0QHFXKKQ3Q3YGWHKVR",
+    "distilbert__K1_C8192_seed202611322": "fc-01M6PYBVA83DP0RNREPB4Y939T",
+    "gpt2__K1_C8192_seed202611223": "fc-01M6PYF5H9C0XWM05E9HNBYRMY",
+    "distilbert__K1_C8192_seed202611323": "fc-01M6PYGK71X5A9TC05NNVYMCXK",
+    "gpt2__K1_C8192_seed202611224": "fc-01M6PYJFTJ45W34CKRJZEZWGN3",
+    "distilbert__K1_C8192_seed202611324": "fc-01M6PYNAT0J42ZXM9ASK6W5RGH",
+    "gpt2__K1_C1024_seed202611200": "fc-01M6PYS41KW7E87H8AGR29V062",
+    "gpt2__K1_C1024_seed202611201": "fc-01M6PYT2DXWFRPC9Y48CK2HN5H",
+    "gpt2__K1_C1024_seed202611202": "fc-01M6PYYST1FFTDTY5QNWKDQT5J",
+    "gpt2__K1_C1024_seed202611203": "fc-01M6PZ7SC7FSP3AM92DP9KKNQZ",
+    "statistics_primary": "fc-01M6PZ7T4DJZ0H968ABBN3H0BB",
+    "gpt2__K1_C1024_seed202611204": "fc-01M6PZ8912JCBFBDQ1DG80TJ80",
+    "gpt2__K4_C1024_seed202611200": "fc-01M6PZ9PX55FKBN3WAGD009448",
+    "gpt2__K4_C1024_seed202611201": "fc-01M6PZEE9DZ8DCM3GC6TWE4K18",
+    "gpt2__K4_C1024_seed202611202": "fc-01M6PZPYTHHZTEBGM6D6KMKQCC",
+    "gpt2__K4_C1024_seed202611203": "fc-01M6PZPYZMQXKDZYM7JZWBYQHS",
+    "gpt2__K4_C1024_seed202611204": "fc-01M6PZTR5X1G574TBXZWR48MVW",
+    "gpt2__K8_C1024_seed202611200": "fc-01M6Q02AJ1RVF9PN7MKJV0P5RV",
+    "gpt2__K8_C1024_seed202611201": "fc-01M6Q08FJHNM51117XG0DG78MR",
+    "gpt2__K8_C1024_seed202611202": "fc-01M6Q08FQ6EERSFEEMJKGDKX2N",
+    "gpt2__K8_C1024_seed202611203": "fc-01M6Q09E56JVEH23X838Y9HV9K"
+  },
+  "completed": {
+    "distilbert__original": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PX5F8A9HG779P2AB7TY47S",
+        "case": "distilbert__original"
+      }
+    },
+    "distilbert__mean1": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PX5FGT9WFG8N5Z30BDYXZE",
+        "case": "distilbert__mean1"
+      }
+    },
+    "distilbert__mean4": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PX8AJ5W66B1PE5NEZ81Y7S",
+        "case": "distilbert__mean4"
+      }
+    },
+    "gpt2__original": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PX5F4MD1A72WRV1C3FXE70",
+        "case": "gpt2__original"
+      }
+    },
+    "gpt2__mean1": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PX5FCEAKQS0NPGZ0TRAHFN",
+        "case": "gpt2__mean1"
+      }
+    },
+    "distilbert__mean8": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PXGV4EDTJS90NRXX6Y3FT6",
+        "case": "distilbert__mean8"
+      }
+    },
+    "distilbert__int2": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PXKP2KBZP8PW7MQ0EH5HR6",
+        "case": "distilbert__int2"
+      }
+    },
+    "gpt2__mean8": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PXA7739ZF50JK22DE48BCJ",
+        "case": "gpt2__mean8"
+      }
+    },
+    "distilbert__int4": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PXQYFXR24G2FMQQFA9PJM8",
+        "case": "distilbert__int4"
+      }
+    },
+    "gpt2__mean4": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PX7V92QCX8A9SGJR8SD539",
+        "case": "gpt2__mean4"
+      }
+    },
+    "distilbert__int8": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PXTSHCQG3NWVD3CSGZJ8GD",
+        "case": "distilbert__int8"
+      }
+    },
+    "gpt2__int2": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PXJ8K9F7AER35W20X050DC",
+        "case": "gpt2__int2"
+      }
+    },
+    "distilbert__K1_C8192_seed202611320": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PXYJVRRWGP1N0GQYHTMGXY",
+        "case": "distilbert__K1_C8192_seed202611320"
+      }
+    },
+    "gpt2__int4": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PXP1SWMSB8Q6HVMCEPNC2A",
+        "case": "gpt2__int4"
+      }
+    },
+    "distilbert__K1_C8192_seed202611321": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PY3AHQPG0WBJASC67VFY5A",
+        "case": "distilbert__K1_C8192_seed202611321"
+      }
+    },
+    "gpt2__int8": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PXTA85YNTTG3E7CZTFVQRR",
+        "case": "gpt2__int8"
+      }
+    },
+    "gpt2__K1_C8192_seed202611220": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PXX5BT7GS4ZNXJVNK9ZAW3",
+        "case": "gpt2__K1_C8192_seed202611220"
+      }
+    },
+    "distilbert__K1_C8192_seed202611322": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PYBVA83DP0RNREPB4Y939T",
+        "case": "distilbert__K1_C8192_seed202611322"
+      }
+    },
+    "gpt2__K1_C8192_seed202611221": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PY2C2V648KHG53PMQ3ZF2T",
+        "case": "gpt2__K1_C8192_seed202611221"
+      }
+    },
+    "distilbert__K1_C8192_seed202611323": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PYGK71X5A9TC05NNVYMCXK",
+        "case": "distilbert__K1_C8192_seed202611323"
+      }
+    },
+    "gpt2__K1_C8192_seed202611222": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PY7K0QHFXKKQ3Q3YGWHKVR",
+        "case": "gpt2__K1_C8192_seed202611222"
+      }
+    },
+    "distilbert__K1_C8192_seed202611324": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PYNAT0J42ZXM9ASK6W5RGH",
+        "case": "distilbert__K1_C8192_seed202611324"
+      }
+    },
+    "gpt2__K1_C8192_seed202611223": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PYF5H9C0XWM05E9HNBYRMY",
+        "case": "gpt2__K1_C8192_seed202611223"
+      }
+    },
+    "gpt2__K1_C1024_seed202611200": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PYS41KW7E87H8AGR29V062",
+        "case": "gpt2__K1_C1024_seed202611200"
+      }
+    },
+    "gpt2__K1_C8192_seed202611224": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PYJFTJ45W34CKRJZEZWGN3",
+        "case": "gpt2__K1_C8192_seed202611224"
+      }
+    },
+    "gpt2__K1_C1024_seed202611201": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PYT2DXWFRPC9Y48CK2HN5H",
+        "case": "gpt2__K1_C1024_seed202611201"
+      }
+    },
+    "statistics_primary": {
+      "status": "all_predeclared_R1_task_statistics_and_case_bindings_independently_verified",
+      "scope": "primary",
+      "source_sha256": "8eff2c8f2cf578f686abd94de1c5c4285804d253c5c5b31cbbba92367dcf8330",
+      "statistics_sha256": "b92b6da3f9991518006da6db366fc6bb36558c976902aac96f886a62e82a127d",
+      "protocol_sha256": "b003fedc90d962500907e8cf435ca359ab1ef9a27ea3e892c2fe12a17ea79626",
+      "cases_checked": 24,
+      "primary_both_models_pass": false,
+      "scope_note": "Independent bounded-memory frequency-weighted bootstrap and MC arithmetic, completefixedcohorts and audited neuralreplaybindings. Not universal BF16 numericalequivalence or physicalhardwareproof."
+    },
+    "gpt2__K1_C1024_seed202611202": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PYYST1FFTDTY5QNWKDQT5J",
+        "case": "gpt2__K1_C1024_seed202611202"
+      }
+    },
+    "gpt2__K1_C1024_seed202611203": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PZ7SC7FSP3AM92DP9KKNQZ",
+        "case": "gpt2__K1_C1024_seed202611203"
+      }
+    },
+    "gpt2__K1_C1024_seed202611204": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PZ8912JCBFBDQ1DG80TJ80",
+        "case": "gpt2__K1_C1024_seed202611204"
+      }
+    },
+    "gpt2__K4_C1024_seed202611200": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PZ9PX55FKBN3WAGD009448",
+        "case": "gpt2__K4_C1024_seed202611200"
+      }
+    },
+    "gpt2__K4_C1024_seed202611201": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PZEE9DZ8DCM3GC6TWE4K18",
+        "case": "gpt2__K4_C1024_seed202611201"
+      }
+    },
+    "gpt2__K4_C1024_seed202611202": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PZPYTHHZTEBGM6D6KMKQCC",
+        "case": "gpt2__K4_C1024_seed202611202"
+      }
+    },
+    "gpt2__K4_C1024_seed202611203": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PZPYZMQXKDZYM7JZWBYQHS",
+        "case": "gpt2__K4_C1024_seed202611203"
+      }
+    },
+    "gpt2__K4_C1024_seed202611204": {
+      "status": "R1_case_and_independent_neural_replay_complete",
+      "owner": {
+        "call_id": "fc-01M6PZTR5X1G574TBXZWR48MVW",
+        "case": "gpt2__K4_C1024_seed202611204"
+      }
+    }
+  },
+  "status": "complete_predeclared_R1_queue_running",
+  "observer": {
+    "pid": 2751146,
+    "start_ticks": 123225796,
+    "argv": [
+      "/home/omarramadan/Desktop/extropic_compression/cloud/r1_execution_v1/client.py"
+    ]
+  },
+  "updated_unix": 1793920907.5273838
+}

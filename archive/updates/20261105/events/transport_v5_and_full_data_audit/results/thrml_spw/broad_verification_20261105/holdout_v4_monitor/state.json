@@ -1,0 +1,20 @@
+{
+  "protocol_sha256": "9fab3acd2b01748426fc73a6712029f07e7e73db3826e2a0cc8cd5ba5cd5216e",
+  "calls": {
+    "202611150": "fc-01M6PSMSANJSMMD1G3N929HZN0"
+  },
+  "completed": {},
+  "status": "observer_stopped_preserve_handles_no_resubmission",
+  "observer": {
+    "pid": 2740683,
+    "start_ticks": 122856554,
+    "argv": [
+      "/home/omarramadan/Desktop/extropic_compression/cloud/broad_validation_v4/client.py"
+    ]
+  },
+  "updated_unix": 1793913954.6160483,
+  "error": {
+    "type": "RuntimeError",
+    "message": "Preserved program failure is terminal; no automatic scientific retry"
+  }
+}

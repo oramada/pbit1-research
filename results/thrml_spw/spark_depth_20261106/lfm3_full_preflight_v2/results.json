@@ -1,0 +1,50 @@
+{
+  "status": "full_LFM3_original_checkpoint_offload_preflight_passed",
+  "protocol_sha256": "45a018073c964bc4da0aa8983e0e616718d5a55b571c2a02c21110cb3172780f",
+  "cases": [
+    {
+      "batch": 1,
+      "length": 17,
+      "logits_shape": [
+        1,
+        17,
+        128000
+      ],
+      "file_sha256": "298d963372b2628fabcc6afbc0eb965a1978c7bd470ca9422adceb0a8dd5e59d",
+      "weight_point_sha256": "bb6b579c7a83e273841b220c9cfa25c44be0e29594692df3f08253844ede8896",
+      "Torch_GPU_peak_allocated_bytes": 562264576,
+      "peak_materialized_parameter_bytes": 524288000,
+      "parameterized_module_calls": 287
+    },
+    {
+      "batch": 1,
+      "length": 65,
+      "logits_shape": [
+        1,
+        65,
+        128000
+      ],
+      "file_sha256": "53ab2c216daa2077e8876eb73d99470e3fb75d12220bfc00b125bef190008e86",
+      "weight_point_sha256": "bb6b579c7a83e273841b220c9cfa25c44be0e29594692df3f08253844ede8896",
+      "Torch_GPU_peak_allocated_bytes": 574749696,
+      "peak_materialized_parameter_bytes": 524288000,
+      "parameterized_module_calls": 287
+    },
+    {
+      "batch": 1,
+      "length": 1024,
+      "logits_shape": [
+        1,
+        1024,
+        128000
+      ],
+      "file_sha256": "e7a1012867e6ce43a33c61804a56a0c6d93ed961740ebf60a44a67c047ad05f8",
+      "weight_point_sha256": "bb6b579c7a83e273841b220c9cfa25c44be0e29594692df3f08253844ede8896",
+      "Torch_GPU_peak_allocated_bytes": 824188928,
+      "peak_materialized_parameter_bytes": 524288000,
+      "parameterized_module_calls": 287
+    }
+  ],
+  "elapsed_seconds": 67.13648496801034,
+  "scope": "Fulloriginalcheckpoint,syntheticIDs only. Tests finiteforwards,modulecoverage,weightimmutabilityandGPUallocation; nottaskquality."
+}

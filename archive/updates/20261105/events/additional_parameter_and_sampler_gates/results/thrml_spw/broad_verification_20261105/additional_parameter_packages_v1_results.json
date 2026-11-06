@@ -1,0 +1,35 @@
+{
+  "status": "both_complete_parameter_packages_produced_pending_independent_audit",
+  "packages": [
+    {
+      "model": "openai-community/gpt2",
+      "path": "results/thrml_spw/broad_verification_20261105/additional_parameter_packages_v1/gpt2/package.json",
+      "sha256": "73614f01e0f2220d3035e587d59c68f98c4d2758802b95ebc4462fe52857d009",
+      "parameters": 148,
+      "unique_learned_scalars": 124439808,
+      "range_groups": 972186
+    },
+    {
+      "model": "distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+      "path": "results/thrml_spw/broad_verification_20261105/additional_parameter_packages_v1/distilbert/package.json",
+      "sha256": "398f7700b54715d96c294a1c7359fe0e8c3418cb981291d0a2deea89f80bbcc9",
+      "parameters": 104,
+      "unique_learned_scalars": 66955010,
+      "range_groups": 523087
+    }
+  ],
+  "inputs_sha256": {
+    "results/thrml_spw/broad_verification_20261105/additional_model_inventory/parameter_inventory.json": "a86d74e8a164712f4622835a7c8580389c60ac9502527adf15391a808b7abdc6",
+    "results/thrml_spw/broad_verification_20261105/additional_assets_v1/manifest.json": "e001635f25503f028465339e0ab59376f9acbdf8275ae8138f9bddc571e7ae42",
+    "results/thrml_spw/broad_verification_20261105/additional_assets_v1_independent_data_audit.json": "a6b79e6b37e543b3fe40712185c99372db96fca389d202c0ca3d74c3bc04b57e",
+    "results/thrml_spw/broad_verification_20261105/parameter_counts_h100_v1_audit.json": "f9446278d013f59fce9151d5e061819a86ecaacd90baa7e572f0cb54a729d304"
+  },
+  "sources_sha256": {
+    "/__modal/volumes/vo-xPupdD37HndFLHDMPewQva/research/thrml_spw/broad/prepare_parameter_packages_v1.py": "b98aac06e1201eaa8248bfae3bb87951c9a119bf707e20427761a43d619d94c1",
+    "/__modal/volumes/vo-xPupdD37HndFLHDMPewQva/research/thrml_spw/broad/parameter_program_v1.py": "4d9bae47fe3ab0f92a01aab4df5646ce9cbc5b600a34d54f0df2abd8fe33b7ed"
+  },
+  "torch_version": "2.14.1+cu130",
+  "numpy_version": "2.5.3",
+  "elapsed_seconds": 46.553346529,
+  "scope": "No forward pass, evaluation token loading, quality outcome or full-model stochastic sampling."
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "case_metrics_checked": 100,
+  "native_logits_checked": 10000000,
+  "BF16_paths_checked": 10,
+  "BF16_logits_checked": 1000000,
+  "contrast_rows_checked": 15,
+  "bootstrap_scalar_values_checked": 150000,
+  "statistics_sha256": "4c8519254cd4da9e08649276ac6a4f4756cc0d4690394bfe388bbb1f3e4a2754"
+}

@@ -1,0 +1,47 @@
+{
+  "sources_sha256": {
+    "preflight_attention_worker_cpu_v2.py": "b253c66fb4843a59828636c817712fc70ad60b12ddabb45b48b49dfb00474dc2",
+    "verify_attention_worker_cpu_v2.py": "dec5e5a6c4c6f483c9e07bea57baee22a6fbfccd80ee4baf6e6d41b56c171cdf",
+    "counted_programmed_worker.py": "2efbdf77cd33faa731475a39fb7f40fe9aef254c95f4dea61e4f696346ab5b91",
+    "counted_bank.py": "48783c3c3c6912061de5158a40c2b8f4223d72c97560d2940b202d8f357f2080"
+  },
+  "auxiliary_sources_sha256": {
+    "research/thrml_spw/native.py": "14ab522d92356d3c633787b5249c8a0d04d6c46c3b282fb84bdd72ed1fd9a361",
+    "research/thrml_spw/controlled_positive_native.py": "6b2e4bfa2a589c2b9436423aaa4045c5e0d8b421ded0e9d4db0dceae0b492f99"
+  },
+  "vendor_thrml_git_commit": "2d54cd8404df85bb65703d7e8b4e84e48c1b72a9",
+  "cases": [
+    [
+      1,
+      128,
+      8192,
+      "elementwise"
+    ],
+    [
+      1,
+      128,
+      8192,
+      "elementwise"
+    ],
+    [
+      1,
+      128,
+      8192,
+      "elementwise"
+    ],
+    [
+      1,
+      128,
+      8192,
+      "elementwise"
+    ]
+  ],
+  "positions_by_case": [
+    8320,
+    2080,
+    16448,
+    4112
+  ],
+  "key": 202611051,
+  "scope": "Synthetic worker shape/public-state/integer fidelity only. CPU official THRML at8320/2080/16448/4112positions, no model weights or reserved text. Not full-model inference or GPU shape validation."
+}

@@ -1,0 +1,21 @@
+"""Correct only zero-mass posterior rows; retain the failed original calculation."""
+from pathlib import Path
+import json,math,shutil,hashlib
+import numpy as np
+from . import information_budget as original
+from . import verify_information_budget as verifier
+from . import information_budget_report as reporter
+SOURCE=Path('results/thrml_spw/information_budget')
+OUT=Path('results/thrml_spw/information_budget_corrected')
+def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+def risk(likelihood,target):
+    mass=likelihood.mean(0);positive=mass>0;mean=(likelihood[:,positive]*target[:,None]).mean(0)/mass[positive];second=(likelihood[:,positive]*target[:,None]**2).mean(0)/mass[positive];return float(np.sum(mass[positive]*np.maximum(second-mean**2,0)))
+def main():
+    assert not (OUT/'manifest.json').exists();OUT.mkdir(parents=True,exist_ok=True);p=json.loads((SOURCE/'protocol.json').read_text());m=json.loads((SOURCE/'manifest.json').read_text());r=json.loads((SOURCE/'statistics.json').read_text());assert sha(SOURCE/'statistics.json')==m['statistics_sha256'];logs=SOURCE/'logs';logs.mkdir(exist_ok=True)
+    for name,source in [('production.log','/tmp/thrml-information-budget-production.log'),('independent_audit_failed.log','/tmp/thrml-information-budget-audit-original.log')]:shutil.copy2(source,logs/name)
+    corrected=[]
+    for row in r['rows']:
+        if math.isfinite(row['Bayes_MMSE']):continue
+        a=np.load(SOURCE/f'B{row["field_bound"]}_T{row["samples"]}.npz');assert row['model'].startswith('positional');k=row['K'];coeff=2.**np.arange(k)/((1<<k)-1);before=row['Bayes_MMSE'];row['Bayes_MMSE']=float(np.sum(coeff**2)*risk(a['binary_likelihood'],np.array([0.,1.])));assert math.isfinite(row['Bayes_MMSE']);corrected.append({'model':row['model'],'field_bound':row['field_bound'],'samples':row['samples'],'original_value':'NaN','corrected_value':row['Bayes_MMSE']})
+    assert len(corrected)==10;failure={'passed':False,'original_independent_audit_terminal_exit':1,'nonfinite_rows':10,'error':'Zero mixture mass caused0/0 in a Bayes posterior second moment; original source/data/log retained.','failed_log_sha256':sha(logs/'independent_audit_failed.log'),'original_manifest_sha256':sha(SOURCE/'manifest.json')};(SOURCE/'evidence_audit_failure.json').write_text(json.dumps(failure,indent=2)+'\n');shutil.copy2(SOURCE/'protocol.json',OUT/'protocol.json');(OUT/'statistics.json').write_text(json.dumps(r,indent=2,allow_nan=False)+'\n');manifest={**m,'protocol_sha256':sha(OUT/'protocol.json'),'statistics_sha256':sha(OUT/'statistics.json'),'correction':{'original_manifest_sha256':sha(SOURCE/'manifest.json'),'original_statistics_sha256':sha(SOURCE/'statistics.json'),'original_failed_audit_sha256':sha(SOURCE/'evidence_audit_failure.json'),'corrector_source_sha256':sha(__file__),'policy':'Exclude numerically zero-mass outcomes from posterior averaging; all likelihood bytes/information values and finite risk rows remain unchanged.','corrected_rows':corrected,'new_native_samples':0,'new_likelihoods_computed':0}};(OUT/'manifest.json').write_text(json.dumps(manifest,indent=2,allow_nan=False)+'\n');verifier.OUT=OUT;verifier.main();reporter.OUT=OUT;reporter.main();report=OUT.parent/'INFORMATION_BUDGET_REPORT.md';text=report.read_text();first,rest=text.split('\n',1);note='\nNumerical correction: the first analytic run retained ten NaN Bayes-risk rows from zero-mass posterior0/0 and failed its independent audit. The original data/source/log remain in `information_budget/`. This corrected derivative excludes zero-mass outcomes, reuses every original likelihood byte, and passes the unchanged independent verifier. Every original information value and finite risk row stays unchanged; no sampling or neural evaluation is repeated.\n';report.write_text(first+'\n'+note+rest);done={'passed':True,'corrected_rows':10,'all_original_information_values_unchanged':True,'all_likelihood_files_unchanged':True,'new_native_samples':0,'new_model_scores':0,'corrected_evidence_audit_sha256':sha(OUT/'evidence_audit.json'),'corrected_manifest_sha256':sha(OUT/'manifest.json'),'corrected_report_sha256':sha(report),'source_sha256':sha(__file__)};(OUT/'correction_audit.json').write_text(json.dumps(done,indent=2)+'\n');print(json.dumps(done,indent=2))
+if __name__=='__main__':main()

@@ -1,0 +1,9 @@
+{
+  "status": "original_checkpoint_hash_outputs_module_coverage_and_peak_allocation_verified",
+  "source_sha256": "92658a8a000e1dfc5e41b84460c2179df48b99fc0ea317f51b4fa82dfb9da3bf",
+  "preflight_sha256": "79960a5cba35b6ad74b14c6582be7c6b8fa783e32c24575a8e32c1df8a7479a4",
+  "weight_point_sha256": "bb6b579c7a83e273841b220c9cfa25c44be0e29594692df3f08253844ede8896",
+  "parameters": 1728801536,
+  "maximum_Torch_GPU_allocation_bytes": 824188928,
+  "scope": "CPUauditofpreflightartifacts. FullmodelBF16executionpath, noonepbitreplacementortaskqualityevidence."
+}

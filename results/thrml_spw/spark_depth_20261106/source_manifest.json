@@ -1,0 +1,52 @@
+[
+  {
+    "path": "research/thrml_spw/spark_depth/activation_variance_v1.py",
+    "sha256": "ee208b8a1d41b6e8433f9a4b6acf566fd60ac9e4c995904881a8fa2ea9fce741",
+    "snapshot": "results/thrml_spw/source_snapshots/ee208b8a1d41b6e8433f9a4b6acf566fd60ac9e4c995904881a8fa2ea9fce741.py"
+  },
+  {
+    "path": "research/thrml_spw/spark_depth/analyze_trace_v1.py",
+    "sha256": "c4faa6797bfe825a40744ae98b1c1a4ab4c8b0b22771e166057fce5ae6c32bce",
+    "snapshot": "results/thrml_spw/source_snapshots/c4faa6797bfe825a40744ae98b1c1a4ab4c8b0b22771e166057fce5ae6c32bce.py"
+  },
+  {
+    "path": "research/thrml_spw/spark_depth/audit_confirmation_v1.py",
+    "sha256": "a6c9e26f327fab56eca6b5044b6065458da56b4278fdfe70ccdc3e31b0272b1c",
+    "snapshot": "results/thrml_spw/source_snapshots/a6c9e26f327fab56eca6b5044b6065458da56b4278fdfe70ccdc3e31b0272b1c.py"
+  },
+  {
+    "path": "research/thrml_spw/spark_depth/causal_v1.py",
+    "sha256": "6965132ce43835ba1c3672290ab4dde837dd0f0f7e078aea0e4b2abcc6970eba",
+    "snapshot": "results/thrml_spw/source_snapshots/6965132ce43835ba1c3672290ab4dde837dd0f0f7e078aea0e4b2abcc6970eba.py"
+  },
+  {
+    "path": "research/thrml_spw/spark_depth/confirm_layout_v1.py",
+    "sha256": "613e33eb94a8cf79ba0ce529c0245edc303808fec1d5384cccbac5d435c45481",
+    "snapshot": "results/thrml_spw/source_snapshots/613e33eb94a8cf79ba0ce529c0245edc303808fec1d5384cccbac5d435c45481.py"
+  },
+  {
+    "path": "research/thrml_spw/spark_depth/explain_layout_v1.py",
+    "sha256": "341849946eb4f4e1cbcc51b59a70aa65283a19b88288a7324b3404cff038cbd5",
+    "snapshot": "results/thrml_spw/source_snapshots/341849946eb4f4e1cbcc51b59a70aa65283a19b88288a7324b3404cff038cbd5.py"
+  },
+  {
+    "path": "research/thrml_spw/spark_depth/prepare_v1.py",
+    "sha256": "74b4d24e94cb0a8ce17fec0a1ded79151df5735e3516d311e005752afb6272f4",
+    "snapshot": "results/thrml_spw/source_snapshots/74b4d24e94cb0a8ce17fec0a1ded79151df5735e3516d311e005752afb6272f4.py"
+  },
+  {
+    "path": "research/thrml_spw/spark_depth/tied_head_v1.py",
+    "sha256": "a061884bd55426f583f916f50e79551dfe65b82af90dc2a466e6398dba159799",
+    "snapshot": "results/thrml_spw/source_snapshots/a061884bd55426f583f916f50e79551dfe65b82af90dc2a466e6398dba159799.py"
+  },
+  {
+    "path": "research/thrml_spw/spark_depth/trace_v1.py",
+    "sha256": "f162cf89eb9177aaa6ce0f01035e89aef5560e0cc6e21a16165d371f4a51d7af",
+    "snapshot": "results/thrml_spw/source_snapshots/f162cf89eb9177aaa6ce0f01035e89aef5560e0cc6e21a16165d371f4a51d7af.py"
+  },
+  {
+    "path": "research/thrml_spw/spark_depth/weight_survey_v1.py",
+    "sha256": "1250b109bfb56c78e49b5e35ce08c53d64499068d7eb08bdefed42f5bf216911",
+    "snapshot": "results/thrml_spw/source_snapshots/1250b109bfb56c78e49b5e35ce08c53d64499068d7eb08bdefed42f5bf216911.py"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "status": "both_full_one_bit_cohorts_and_recovered_word_statistics_bindings_reviewed",
+  "recorded_utc": "2026-10-30T15:20:01.362300+00:00",
+  "cohorts": {
+    "counted_mean_validation": {
+      "statistics_sha256": "bca7c98a1c562fc9ced255fa2c20194b17b66921f04437e6f292c4c088a68e09",
+      "audit_sha256": "7f26d0434e87ee2ac3b97d9b0108b22d981ae07a6f681854b4ef420d8eb712ee",
+      "native_PPL": 83.9166627303495,
+      "same_fit_BF16_PPL": 75.31472343088639,
+      "PPL_ratio": 1.114213249516303,
+      "PPL_ratio_MC95": [
+        1.0706182140984457,
+        1.1595834528586897
+      ],
+      "gate_passed": false
+    },
+    "counted_mean_t4096": {
+      "statistics_sha256": "a96cba4111a5038301256d1386c367a80c38a99fd6229758bcb1c2d12861d063",
+      "audit_sha256": "5ba442dc0362646cae128b12ad67f0b686873e4ecef77c0fc54bdd4766785d8a",
+      "native_PPL": 76.1024309785281,
+      "same_fit_BF16_PPL": 75.31472343088639,
+      "PPL_ratio": 1.010458878579891,
+      "PPL_ratio_MC95": [
+        0.9987880220603569,
+        1.0222661092738152
+      ],
+      "gate_passed": false
+    }
+  },
+  "holdout_eligibility": {
+    "status": "neither_frozen_budget_qualifies_continue_research_without_holdout_scoring",
+    "score_holdout": false
+  },
+  "word_statistics_recovery": {
+    "audit_sha256": "a00926dc4980b4e3c89d903792acf287b13fc833ee9290be1b40ff64685a7611",
+    "all_numerical_results_exactly_equal_original_failed_report": true,
+    "failure_cause": "Live pipeline JSON incorrectly included among immutable statistics inputs; all33 actual immutable inputs matched."
+  },
+  "scope": "Complete five-seed conditional validation at each separate sampling budget; no pooling across T. T4096 average gap1.05percent but upper MCt4 PPL2.226percent exceeds fixed2percent threshold. No numerical BF16 equivalence, generalization or hardware claim; untouched holdout stays unscored."
+}

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Cite this research snapshot and the accompanying manuscript; this is not a peer-reviewed publication."
+title: "One P-Bit per Parameter: Task Quality, Failure Mechanisms, and Resource Tradeoffs in Pretrained Neural Networks"
+type: software
+authors:
+  - family-names: Ramadan
+    given-names: Omar
+version: 1.0.0-draft
+url: "https://github.com/oramada/pbit1-research"
+license: Apache-2.0

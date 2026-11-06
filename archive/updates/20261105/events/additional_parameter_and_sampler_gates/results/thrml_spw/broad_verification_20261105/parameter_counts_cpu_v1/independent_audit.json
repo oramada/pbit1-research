@@ -1,0 +1,9 @@
+{
+  "status": "all_synthetic_program_commands_tail_ranges_public_state_counts_readouts_INTcontrols_and_resources_independently_verified",
+  "source_sha256": "aa55a7dbd68473ea7b37e427c8ba9b265693b1db0b1ec62dd443f9b49e8da98f",
+  "results_sha256": "f63f2ed137110c5cee8628de25c27cefc6e42ad72a4bb1f9a9cf39bd886cc27e",
+  "cases": 9,
+  "public_state_bits_checked": 1376256,
+  "parameter_coordinates_across_formats_checked": 822,
+  "scope": "Independent range/field/word/readout/resource oracle with raw publicstates on CPU. Not a statistical convergence or neural quality result; GPU and complete-model gates remain."
+}

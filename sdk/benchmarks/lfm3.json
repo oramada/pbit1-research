@@ -1,0 +1,1960 @@
+{
+  "schema_version": 1,
+  "snapshot_utc": "2026-10-31T00:01:51.899297+00:00",
+  "model": "LiquidAI/LFM3-1.7B",
+  "model_revision": "ac2586a34f1a1c03329dbdcdefabd8b6478ddaa7",
+  "unique_parameters": 1728801536,
+  "canonical_tensors": 286,
+  "module_uses": 287,
+  "targets": 2048,
+  "logical_pbits_per_parameter": 1,
+  "field_bits": 12,
+  "activation_bits": 12,
+  "quality_margin_perplexity_ratio": 1.02,
+  "cohorts": [
+    {
+      "samples": 1024,
+      "seeds": 5,
+      "native_perplexity": 83.9166627303495,
+      "same_fit_BF16_perplexity": 75.31472343088639,
+      "perplexity_ratio": 1.114213249516303,
+      "ratio_MC95": [
+        1.0706182140984457,
+        1.1595834528586897
+      ],
+      "quality_gate_passed": false,
+      "retained_scheduled_evaluations_per_seed": 7088068624384,
+      "statistics_path": "results/thrml_spw/lfm3_1p7b/counted_mean_validation/statistics.json",
+      "statistics_sha256": "bca7c98a1c562fc9ced255fa2c20194b17b66921f04437e6f292c4c088a68e09",
+      "audit_path": "results/thrml_spw/lfm3_1p7b/counted_mean_validation/statistics_audit.json",
+      "audit_sha256": "7f26d0434e87ee2ac3b97d9b0108b22d981ae07a6f681854b4ef420d8eb712ee"
+    },
+    {
+      "samples": 4096,
+      "seeds": 5,
+      "native_perplexity": 76.1024309785281,
+      "same_fit_BF16_perplexity": 75.31472343088639,
+      "perplexity_ratio": 1.010458878579891,
+      "ratio_MC95": [
+        0.9987880220603569,
+        1.0222661092738152
+      ],
+      "quality_gate_passed": false,
+      "retained_scheduled_evaluations_per_seed": 28352274497536,
+      "statistics_path": "results/thrml_spw/lfm3_1p7b/counted_mean_t4096/statistics.json",
+      "statistics_sha256": "a96cba4111a5038301256d1386c367a80c38a99fd6229758bcb1c2d12861d063",
+      "audit_path": "results/thrml_spw/lfm3_1p7b/counted_mean_t4096/statistics_audit.json",
+      "audit_sha256": "5ba442dc0362646cae128b12ad67f0b686873e4ecef77c0fc54bdd4766785d8a"
+    },
+    {
+      "samples": 8192,
+      "seeds": 5,
+      "native_perplexity": 75.15470383653333,
+      "same_fit_BF16_perplexity": 75.31472343088639,
+      "perplexity_ratio": 0.997875321224542,
+      "ratio_MC95": [
+        0.9806177272446762,
+        1.0154366263669734
+      ],
+      "quality_gate_passed": true,
+      "retained_scheduled_evaluations_per_seed": 56704548995072,
+      "statistics_path": "results/thrml_spw/lfm3_1p7b/counted_mean_t8192/statistics.json",
+      "statistics_sha256": "9c6189573f978c65569a05bec7ea0190fff1aebea8c11b8d56c915b0645cd13b",
+      "audit_path": "results/thrml_spw/lfm3_1p7b/counted_mean_t8192/statistics_audit.json",
+      "audit_sha256": "af43644813d46bb0517181e4e84e5a24a76dce4d3d52358217807a36e35a7af1"
+    }
+  ],
+  "resource_model": {
+    "source_sha256": "086e56530cddad64a809d183cca695a00bb3b3f1284a06a5569edbf7daa23477",
+    "inputs_sha256": {
+      "results/thrml_spw/lfm3_1p7b/meta_inventory.json": "317a75550505f896495d9471bac5a703cfff3473e83b49c84f6bf382050196f4",
+      "results/thrml_spw/lfm3_1p7b/language_subset/tokens.npz": "784fe6be2405f22923e10c3730a9f7d94bd8db5709c79c3677c28725b888d9d3",
+      "results/thrml_spw/lfm3_1p7b/language_native_v2_protocol.json": "09d83eb3a431096cd7c8fca652d12c014cd15ccd0a19cf4f943485c82b253696"
+    },
+    "unique_parameters": 1728801536,
+    "range_groups": 13531430,
+    "range_metadata_FP32_pair_bytes": 108251440,
+    "BF16_reference_weight_bytes": 3457603072,
+    "logical_single_pbits_if_fully_resident": 1728801536,
+    "single_payload_sweep": [
+      {
+        "control_bits_per_parameter": 4,
+        "packed_binary_state_bytes": 216100192,
+        "packed_commands_bytes": 864400768,
+        "range_metadata_bytes": 108251440,
+        "combined_packed_bytes": 1188752400,
+        "combined_bits_per_parameter": 5.50093171596997,
+        "combined_fraction_of_BF16_weight_bytes": 0.3438082322481231
+      },
+      {
+        "control_bits_per_parameter": 6,
+        "packed_binary_state_bytes": 216100192,
+        "packed_commands_bytes": 1296601152,
+        "range_metadata_bytes": 108251440,
+        "combined_packed_bytes": 1620952784,
+        "combined_bits_per_parameter": 7.50093171596997,
+        "combined_fraction_of_BF16_weight_bytes": 0.4688082322481231
+      },
+      {
+        "control_bits_per_parameter": 8,
+        "packed_binary_state_bytes": 216100192,
+        "packed_commands_bytes": 1728801536,
+        "range_metadata_bytes": 108251440,
+        "combined_packed_bytes": 2053153168,
+        "combined_bits_per_parameter": 9.50093171596997,
+        "combined_fraction_of_BF16_weight_bytes": 0.5938082322481232
+      },
+      {
+        "control_bits_per_parameter": 10,
+        "packed_binary_state_bytes": 216100192,
+        "packed_commands_bytes": 2161001920,
+        "range_metadata_bytes": 108251440,
+        "combined_packed_bytes": 2485353552,
+        "combined_bits_per_parameter": 11.50093171596997,
+        "combined_fraction_of_BF16_weight_bytes": 0.7188082322481232
+      },
+      {
+        "control_bits_per_parameter": 12,
+        "packed_binary_state_bytes": 216100192,
+        "packed_commands_bytes": 2593202304,
+        "range_metadata_bytes": 108251440,
+        "combined_packed_bytes": 2917553936,
+        "combined_bits_per_parameter": 13.50093171596997,
+        "combined_fraction_of_BF16_weight_bytes": 0.8438082322481232
+      },
+      {
+        "control_bits_per_parameter": 16,
+        "packed_binary_state_bytes": 216100192,
+        "packed_commands_bytes": 3457603072,
+        "range_metadata_bytes": 108251440,
+        "combined_packed_bytes": 3781954704,
+        "combined_bits_per_parameter": 17.50093171596997,
+        "combined_fraction_of_BF16_weight_bytes": 1.093808232248123
+      },
+      {
+        "control_bits_per_parameter": 32,
+        "packed_binary_state_bytes": 216100192,
+        "packed_commands_bytes": 6915206144,
+        "range_metadata_bytes": 108251440,
+        "combined_packed_bytes": 7239557776,
+        "combined_bits_per_parameter": 33.50093171596997,
+        "combined_fraction_of_BF16_weight_bytes": 2.093808232248123
+      }
+    ],
+    "conventional_quantized_payload_assumptions": [
+      {
+        "weight_bits": 2,
+        "packed_weights_plus_FP32_ranges_bytes": 540451824
+      },
+      {
+        "weight_bits": 4,
+        "packed_weights_plus_FP32_ranges_bytes": 972652208
+      },
+      {
+        "weight_bits": 8,
+        "packed_weights_plus_FP32_ranges_bytes": 1837052976
+      }
+    ],
+    "unique_embedding_rows_used": 299,
+    "operator_uses": [
+      {
+        "name": "model.embed_tokens",
+        "kind": "embedding",
+        "used_coordinates": 612352,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.0.conv.conv",
+        "kind": "conv",
+        "used_coordinates": 14336,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.0.conv.in_proj",
+        "kind": "linear",
+        "used_coordinates": 12582912,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.0.conv.out_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.0.feed_forward.w1",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.0.feed_forward.w3",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.0.feed_forward.w2",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.0.operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.0.ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.0.post_operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.0.post_ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.1.conv.conv",
+        "kind": "conv",
+        "used_coordinates": 14336,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.1.conv.in_proj",
+        "kind": "linear",
+        "used_coordinates": 12582912,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.1.conv.out_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.1.feed_forward.w1",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.1.feed_forward.w3",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.1.feed_forward.w2",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.1.operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.1.ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.1.post_operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.1.post_ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.2.self_attn.q_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.2.self_attn.k_proj",
+        "kind": "linear",
+        "used_coordinates": 1048576,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.2.self_attn.v_proj",
+        "kind": "linear",
+        "used_coordinates": 1048576,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.2.self_attn.o_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.2.self_attn.q_norm",
+        "kind": "elementwise",
+        "used_coordinates": 128,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.2.self_attn.k_norm",
+        "kind": "elementwise",
+        "used_coordinates": 128,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.2.self_attn.gate_proj",
+        "kind": "linear",
+        "used_coordinates": 32768,
+        "padding_nodes": 98304
+      },
+      {
+        "name": "model.layers.2.feed_forward.w1",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.2.feed_forward.w3",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.2.feed_forward.w2",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.2.operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.2.ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.2.post_operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.2.post_ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.3.conv.conv",
+        "kind": "conv",
+        "used_coordinates": 14336,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.3.conv.in_proj",
+        "kind": "linear",
+        "used_coordinates": 12582912,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.3.conv.out_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.3.feed_forward.w1",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.3.feed_forward.w3",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.3.feed_forward.w2",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.3.operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.3.ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.3.post_operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.3.post_ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.4.self_attn.q_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.4.self_attn.k_proj",
+        "kind": "linear",
+        "used_coordinates": 1048576,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.4.self_attn.v_proj",
+        "kind": "linear",
+        "used_coordinates": 1048576,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.4.self_attn.o_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.4.self_attn.q_norm",
+        "kind": "elementwise",
+        "used_coordinates": 128,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.4.self_attn.k_norm",
+        "kind": "elementwise",
+        "used_coordinates": 128,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.4.self_attn.gate_proj",
+        "kind": "linear",
+        "used_coordinates": 32768,
+        "padding_nodes": 98304
+      },
+      {
+        "name": "model.layers.4.feed_forward.w1",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.4.feed_forward.w3",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.4.feed_forward.w2",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.4.operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.4.ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.4.post_operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.4.post_ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.5.conv.conv",
+        "kind": "conv",
+        "used_coordinates": 14336,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.5.conv.in_proj",
+        "kind": "linear",
+        "used_coordinates": 12582912,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.5.conv.out_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.5.feed_forward.w1",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.5.feed_forward.w3",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.5.feed_forward.w2",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.5.operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.5.ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.5.post_operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.5.post_ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.6.self_attn.q_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.6.self_attn.k_proj",
+        "kind": "linear",
+        "used_coordinates": 1048576,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.6.self_attn.v_proj",
+        "kind": "linear",
+        "used_coordinates": 1048576,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.6.self_attn.o_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.6.self_attn.q_norm",
+        "kind": "elementwise",
+        "used_coordinates": 128,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.6.self_attn.k_norm",
+        "kind": "elementwise",
+        "used_coordinates": 128,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.6.self_attn.gate_proj",
+        "kind": "linear",
+        "used_coordinates": 32768,
+        "padding_nodes": 98304
+      },
+      {
+        "name": "model.layers.6.feed_forward.w1",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.6.feed_forward.w3",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.6.feed_forward.w2",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.6.operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.6.ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.6.post_operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.6.post_ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.7.conv.conv",
+        "kind": "conv",
+        "used_coordinates": 14336,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.7.conv.in_proj",
+        "kind": "linear",
+        "used_coordinates": 12582912,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.7.conv.out_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.7.feed_forward.w1",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.7.feed_forward.w3",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.7.feed_forward.w2",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.7.operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.7.ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.7.post_operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.7.post_ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.8.self_attn.q_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.8.self_attn.k_proj",
+        "kind": "linear",
+        "used_coordinates": 1048576,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.8.self_attn.v_proj",
+        "kind": "linear",
+        "used_coordinates": 1048576,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.8.self_attn.o_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.8.self_attn.q_norm",
+        "kind": "elementwise",
+        "used_coordinates": 128,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.8.self_attn.k_norm",
+        "kind": "elementwise",
+        "used_coordinates": 128,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.8.self_attn.gate_proj",
+        "kind": "linear",
+        "used_coordinates": 32768,
+        "padding_nodes": 98304
+      },
+      {
+        "name": "model.layers.8.feed_forward.w1",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.8.feed_forward.w3",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.8.feed_forward.w2",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.8.operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.8.ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.8.post_operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.8.post_ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.9.conv.conv",
+        "kind": "conv",
+        "used_coordinates": 14336,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.9.conv.in_proj",
+        "kind": "linear",
+        "used_coordinates": 12582912,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.9.conv.out_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.9.feed_forward.w1",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.9.feed_forward.w3",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.9.feed_forward.w2",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.9.operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.9.ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.9.post_operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.9.post_ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.10.self_attn.q_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.10.self_attn.k_proj",
+        "kind": "linear",
+        "used_coordinates": 1048576,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.10.self_attn.v_proj",
+        "kind": "linear",
+        "used_coordinates": 1048576,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.10.self_attn.o_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.10.self_attn.q_norm",
+        "kind": "elementwise",
+        "used_coordinates": 128,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.10.self_attn.k_norm",
+        "kind": "elementwise",
+        "used_coordinates": 128,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.10.self_attn.gate_proj",
+        "kind": "linear",
+        "used_coordinates": 32768,
+        "padding_nodes": 98304
+      },
+      {
+        "name": "model.layers.10.feed_forward.w1",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.10.feed_forward.w3",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.10.feed_forward.w2",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.10.operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.10.ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.10.post_operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.10.post_ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.11.conv.conv",
+        "kind": "conv",
+        "used_coordinates": 14336,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.11.conv.in_proj",
+        "kind": "linear",
+        "used_coordinates": 12582912,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.11.conv.out_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.11.feed_forward.w1",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.11.feed_forward.w3",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.11.feed_forward.w2",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.11.operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.11.ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.11.post_operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.11.post_ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.12.self_attn.q_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.12.self_attn.k_proj",
+        "kind": "linear",
+        "used_coordinates": 1048576,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.12.self_attn.v_proj",
+        "kind": "linear",
+        "used_coordinates": 1048576,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.12.self_attn.o_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.12.self_attn.q_norm",
+        "kind": "elementwise",
+        "used_coordinates": 128,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.12.self_attn.k_norm",
+        "kind": "elementwise",
+        "used_coordinates": 128,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.12.self_attn.gate_proj",
+        "kind": "linear",
+        "used_coordinates": 32768,
+        "padding_nodes": 98304
+      },
+      {
+        "name": "model.layers.12.feed_forward.w1",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.12.feed_forward.w3",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.12.feed_forward.w2",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.12.operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.12.ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.12.post_operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.12.post_ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.13.conv.conv",
+        "kind": "conv",
+        "used_coordinates": 14336,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.13.conv.in_proj",
+        "kind": "linear",
+        "used_coordinates": 12582912,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.13.conv.out_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.13.feed_forward.w1",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.13.feed_forward.w3",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.13.feed_forward.w2",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.13.operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.13.ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.13.post_operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.13.post_ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.14.self_attn.q_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.14.self_attn.k_proj",
+        "kind": "linear",
+        "used_coordinates": 1048576,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.14.self_attn.v_proj",
+        "kind": "linear",
+        "used_coordinates": 1048576,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.14.self_attn.o_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.14.self_attn.q_norm",
+        "kind": "elementwise",
+        "used_coordinates": 128,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.14.self_attn.k_norm",
+        "kind": "elementwise",
+        "used_coordinates": 128,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.14.self_attn.gate_proj",
+        "kind": "linear",
+        "used_coordinates": 32768,
+        "padding_nodes": 98304
+      },
+      {
+        "name": "model.layers.14.feed_forward.w1",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.14.feed_forward.w3",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.14.feed_forward.w2",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.14.operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.14.ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.14.post_operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.14.post_ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.15.conv.conv",
+        "kind": "conv",
+        "used_coordinates": 14336,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.15.conv.in_proj",
+        "kind": "linear",
+        "used_coordinates": 12582912,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.15.conv.out_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.15.feed_forward.w1",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.15.feed_forward.w3",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.15.feed_forward.w2",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.15.operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.15.ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.15.post_operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.15.post_ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.16.self_attn.q_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.16.self_attn.k_proj",
+        "kind": "linear",
+        "used_coordinates": 1048576,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.16.self_attn.v_proj",
+        "kind": "linear",
+        "used_coordinates": 1048576,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.16.self_attn.o_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.16.self_attn.q_norm",
+        "kind": "elementwise",
+        "used_coordinates": 128,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.16.self_attn.k_norm",
+        "kind": "elementwise",
+        "used_coordinates": 128,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.16.self_attn.gate_proj",
+        "kind": "linear",
+        "used_coordinates": 32768,
+        "padding_nodes": 98304
+      },
+      {
+        "name": "model.layers.16.feed_forward.w1",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.16.feed_forward.w3",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.16.feed_forward.w2",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.16.operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.16.ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.16.post_operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.16.post_ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.17.conv.conv",
+        "kind": "conv",
+        "used_coordinates": 14336,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.17.conv.in_proj",
+        "kind": "linear",
+        "used_coordinates": 12582912,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.17.conv.out_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.17.feed_forward.w1",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.17.feed_forward.w3",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.17.feed_forward.w2",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.17.operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.17.ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.17.post_operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.17.post_ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.18.self_attn.q_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.18.self_attn.k_proj",
+        "kind": "linear",
+        "used_coordinates": 1048576,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.18.self_attn.v_proj",
+        "kind": "linear",
+        "used_coordinates": 1048576,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.18.self_attn.o_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.18.self_attn.q_norm",
+        "kind": "elementwise",
+        "used_coordinates": 128,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.18.self_attn.k_norm",
+        "kind": "elementwise",
+        "used_coordinates": 128,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.18.self_attn.gate_proj",
+        "kind": "linear",
+        "used_coordinates": 32768,
+        "padding_nodes": 98304
+      },
+      {
+        "name": "model.layers.18.feed_forward.w1",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.18.feed_forward.w3",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.18.feed_forward.w2",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.18.operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.18.ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.18.post_operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.18.post_ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.19.conv.conv",
+        "kind": "conv",
+        "used_coordinates": 14336,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.19.conv.in_proj",
+        "kind": "linear",
+        "used_coordinates": 12582912,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.19.conv.out_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.19.feed_forward.w1",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.19.feed_forward.w3",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.19.feed_forward.w2",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.19.operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.19.ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.19.post_operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.19.post_ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.20.self_attn.q_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.20.self_attn.k_proj",
+        "kind": "linear",
+        "used_coordinates": 1048576,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.20.self_attn.v_proj",
+        "kind": "linear",
+        "used_coordinates": 1048576,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.20.self_attn.o_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.20.self_attn.q_norm",
+        "kind": "elementwise",
+        "used_coordinates": 128,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.20.self_attn.k_norm",
+        "kind": "elementwise",
+        "used_coordinates": 128,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.20.self_attn.gate_proj",
+        "kind": "linear",
+        "used_coordinates": 32768,
+        "padding_nodes": 98304
+      },
+      {
+        "name": "model.layers.20.feed_forward.w1",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.20.feed_forward.w3",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.20.feed_forward.w2",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.20.operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.20.ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.20.post_operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.20.post_ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.21.conv.conv",
+        "kind": "conv",
+        "used_coordinates": 14336,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.21.conv.in_proj",
+        "kind": "linear",
+        "used_coordinates": 12582912,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.21.conv.out_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.21.feed_forward.w1",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.21.feed_forward.w3",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.21.feed_forward.w2",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.21.operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.21.ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.21.post_operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.21.post_ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.22.self_attn.q_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.22.self_attn.k_proj",
+        "kind": "linear",
+        "used_coordinates": 1048576,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.22.self_attn.v_proj",
+        "kind": "linear",
+        "used_coordinates": 1048576,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.22.self_attn.o_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.22.self_attn.q_norm",
+        "kind": "elementwise",
+        "used_coordinates": 128,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.22.self_attn.k_norm",
+        "kind": "elementwise",
+        "used_coordinates": 128,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.22.self_attn.gate_proj",
+        "kind": "linear",
+        "used_coordinates": 32768,
+        "padding_nodes": 98304
+      },
+      {
+        "name": "model.layers.22.feed_forward.w1",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.22.feed_forward.w3",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.22.feed_forward.w2",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.22.operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.22.ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.22.post_operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.22.post_ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.23.conv.conv",
+        "kind": "conv",
+        "used_coordinates": 14336,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.23.conv.in_proj",
+        "kind": "linear",
+        "used_coordinates": 12582912,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.23.conv.out_proj",
+        "kind": "linear",
+        "used_coordinates": 4194304,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.23.feed_forward.w1",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.23.feed_forward.w3",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.23.feed_forward.w2",
+        "kind": "linear",
+        "used_coordinates": 15728640,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.23.operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.23.ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.23.post_operator_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.layers.23.post_ffn_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "model.embedding_norm",
+        "kind": "elementwise",
+        "used_coordinates": 2048,
+        "padding_nodes": 0
+      },
+      {
+        "name": "lm_head",
+        "kind": "linear",
+        "used_coordinates": 262144000,
+        "padding_nodes": 0
+      }
+    ],
+    "sampled_coordinates_across_operator_uses": 1729413888,
+    "padding_nodes_across_operator_uses": 1081344,
+    "per_seed_retained_node_evaluations_including_padding": 1772027117568,
+    "per_seed_warmup_node_evaluations_including_padding": 1730495232,
+    "five_seed_retained_node_evaluations_including_padding": 8860135587840,
+    "five_seed_warmup_node_evaluations_including_padding": 8652476160,
+    "max_cached_bank_nodes": 491520,
+    "sum_cached_bank_nodes_across_unique_fanin_shapes": 623104,
+    "largest_linear_int32_accumulator_bytes_for_520_positions": 7987200,
+    "matched_spatial_temporal_identities": [
+      {
+        "spatial_pbits_per_parameter": 2,
+        "spatial_logical_pbits_if_fully_resident": 3457603072,
+        "single_samples": 1024,
+        "spatial_samples_for_equal_unpadded_retained_node_evaluations": 512,
+        "both_unpadded_parameter_level_retained_evaluations": 1770292772864,
+        "single_over_spatial_sampling_latency_if_same_rate_and_full_parallelism": 2,
+        "single_over_spatial_transition_energy_if_same_energy_per_evaluation": 1,
+        "single_over_spatial_programming_energy_if_same_cost_per_node": 0.5
+      },
+      {
+        "spatial_pbits_per_parameter": 4,
+        "spatial_logical_pbits_if_fully_resident": 6915206144,
+        "single_samples": 1024,
+        "spatial_samples_for_equal_unpadded_retained_node_evaluations": 256,
+        "both_unpadded_parameter_level_retained_evaluations": 1770292772864,
+        "single_over_spatial_sampling_latency_if_same_rate_and_full_parallelism": 4,
+        "single_over_spatial_transition_energy_if_same_energy_per_evaluation": 1,
+        "single_over_spatial_programming_energy_if_same_cost_per_node": 0.25
+      },
+      {
+        "spatial_pbits_per_parameter": 8,
+        "spatial_logical_pbits_if_fully_resident": 13830412288,
+        "single_samples": 1024,
+        "spatial_samples_for_equal_unpadded_retained_node_evaluations": 128,
+        "both_unpadded_parameter_level_retained_evaluations": 1770292772864,
+        "single_over_spatial_sampling_latency_if_same_rate_and_full_parallelism": 8,
+        "single_over_spatial_transition_energy_if_same_energy_per_evaluation": 1,
+        "single_over_spatial_programming_energy_if_same_cost_per_node": 0.125
+      }
+    ],
+    "scope": "Analytical bookkeeping for current software mapping; full-model node-work predictions await comparison against completed audited native receipts. Logical fully-resident p-bit count differs from bounded simulator banks. Single payloads assume packed B-bit controls, one packed binary state per weight and two digital FP32 range values per group. Analog control area is not measured or converted to bytes. Current uint16 controls are16 storage bits, not packed12. Original BF16 checkpoint, framework/node/program indices, actual unpacked states and FP32 fields, activations, compiler workspace, accumulators and IO are additional. INT2/4/8 are simulated weight-only quality references, not matched transition resources. Spatial comparisons are algebraic identities conditional on independently programmable nodes, same sampling rate and per-node energy, full parallelism and matched quality; no empirical K-p-bit model quality, physical advantage or absolute energy/latency estimate."
+  },
+  "scope": "Five Monte Carlo seeds conditional on fixed validation texts and one adapted point. Same-fit BF16 controls; adaptation is not credited as representation gain. No fresh-data, numeric BF16, physical energy or latency conclusion.",
+  "fresh_holdout": {
+    "completed": false,
+    "status": "First execution failed at a rank-three activation frontend assertion for an attention normalization tensor. Failure retained; no accepted fresh-data quality result."
+  },
+  "cross_backend": {
+    "status": "full_H100_native_and_nominal_replay_exact_BF16_controls_differ",
+    "recorded_utc": "2026-10-30T23:27:52.277169+00:00",
+    "H100_results_sha256": "cb2356f27199756fe396f1e546e45e2daa72497438dc3a9ef65cc1730a07f9c9",
+    "local_results_sha256": "f716d5b93a0b785fa4a91c000af3578121655f967388565387f54706524a0ed0",
+    "stage_NLL": {
+      "BF16": {
+        "H100_mean_NLL": 4.978037919774262,
+        "local_mean_NLL": 4.978250316314616,
+        "H100_minus_local_NLL": -0.0002123965403546535
+      },
+      "same_fit_BF16": {
+        "H100_mean_NLL": 4.321727152519442,
+        "local_mean_NLL": 4.321675645982947,
+        "H100_minus_local_NLL": 5.150653649454995e-05
+      },
+      "nominal_controls": {
+        "H100_mean_NLL": 4.3036534212232525,
+        "local_mean_NLL": 4.3036534212232525,
+        "H100_minus_local_NLL": 0.0
+      },
+      "native": {
+        "H100_mean_NLL": 4.299070596970884,
+        "local_mean_NLL": 4.299070596970884,
+        "H100_minus_local_NLL": 0.0
+      }
+    },
+    "scope": "The preset full-stage bitwise bridge failed. All4native and all4nominal arrays match; both BF16 controls differ in all4batches. No cloud/local cohort pooling and no BF16 equivalence conclusion. Preserve original full-model outputs. Separate H100 controls and prospectively versioned auditing are required before cloud comparisons continue."
+  }
+}

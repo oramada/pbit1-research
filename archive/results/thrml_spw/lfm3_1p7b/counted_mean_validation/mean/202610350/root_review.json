@@ -1,0 +1,14 @@
+{
+  "status": "first_complete_mean_seed_audit_seals_resources_and_prior_diagnostic_verified",
+  "recorded_utc": "2026-10-30T03:40:24.532548+00:00",
+  "audit_sha256": "9d2ea570143dd77d7c483e16df69bd0ff1e4974fd307e88ec77d39c297150a4c",
+  "results_sha256": "029d7344f1a168f776215aa8849018caef10ac5334f1dbfc5bb5946e8d74c896",
+  "seed": 202610350,
+  "targets": 2048,
+  "MC_seed_clusters": 1,
+  "NLL_gap_vs_same_fit_BF16": "0.107704645320749",
+  "PPL_ratio_vs_same_fit_BF16": "1.1137187547588109360233273226300427288135917407192",
+  "partial_batch_diagnostic_matches_final_record": true,
+  "cohort_quality_gate_evaluated": false,
+  "scope": "Root review of accepted fullcase audit, source/result/resource/target seals andall512earlierdiagnostic losses. Full savedlogits/controlprograms independentlyaudited byverifier; no duplicatefullsamplerreplay. Oneof5MCseeds, noCI/equivalence/generalization/physicalclaim."
+}

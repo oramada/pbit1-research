@@ -1,0 +1,5 @@
+{
+  "status": "preserved_upload_collision_before_any_new_case_submission",
+  "reason": "batch_upload refused existing unchanged synthetic input; no overwriting requested",
+  "scientific_protocol_sha256": "c8068f1ad89588c04ea6cf0ef4d1be630a675c4bf7f0cbb8c50296b08ad2a91c"
+}

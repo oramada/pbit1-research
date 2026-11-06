@@ -1,0 +1,36 @@
+{
+  "source_sha256": "243f23ab1be5a8cd408378c5d79322d6223f2f907234962c1ceeb4ddd286c752",
+  "evidence_sha256": {
+    "GPT2_audit": "aa802920091843be6d1d47c6429cde8af1eb55b6d2bb1c023d8f4cc4a988c3aa",
+    "GPT2_replay": "40c1fa903e624b2221b618e3bfa3c4f504aebb1a974b4a6171b0cc3cf04f8a80",
+    "DistilBERT_audit": "d02b9857bbd208109824eb53bb7ac9b9d6d96675d66f1afd8ab3187aab7e446c",
+    "DistilBERT_replay": "241548eaddc3d1edae80a5da3b987489bc8cd44fc1f70f807485a020a792ea78"
+  },
+  "models": [
+    {
+      "model": "GPT2",
+      "seed_count": 5,
+      "perplexity_ratio": 1.0065897733874716,
+      "MC95_perplexity_ratio_interval": [
+        0.9992665843917188,
+        1.013966630841577
+      ],
+      "passes_own_frozen_quality_gates": true
+    },
+    {
+      "model": "DistilBERT",
+      "seed_count": 5,
+      "perplexity_ratio": 0.999656458019871,
+      "MC95_perplexity_ratio_interval": [
+        0.9967587541519897,
+        1.0025625858796872
+      ],
+      "passes_own_frozen_quality_gates": true,
+      "BF16_accuracy": 0.87512,
+      "mean_selected_accuracy": 0.8749439999999999,
+      "accuracy_decline_upper95": 0.0008382621865486268
+    }
+  ],
+  "both_tested_models_pass": true,
+  "scope": "Two testedarchitectures/tasks, ideal independent Bernoulli R1reconstruction, onepbitperlearnedscalar,12bitcontrols,T32768. Previouslyinspectedbenchmarkre-evaluations. Notuniversalnumericalequality,physicalhardwarebenefit,orfullmodelnativeTHRMLvalidation."
+}

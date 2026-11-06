@@ -1,0 +1,13 @@
+{
+  "status": "CPU_H100_highT_primitive_public_bits_counts_and_FP32_readout_bitwise_equal",
+  "source_sha256": "7b07cc12cac25f5f4556d9883745751648420fe0c641447f0816b59674dc820b",
+  "cpu_result_sha256": "3130da3c793f733cd95f5d39abfb8c0ce0ae9b484a806d44cccd6be6e6ed02ce",
+  "H100_result_sha256": "b2ba5f088adc43fadb844371ea8989dac7afeeef1a7e02f4b686c5b4a4da43a2",
+  "total_bits_checked_per_backend": 6488064,
+  "sample_counts": [
+    8192,
+    262144
+  ],
+  "uint16_overflow_detected_and_uint32_roundtrip_passed": true,
+  "scope": "Primitive fixture only, 8lanes with17weights; no full-model high-budget score or production-width timing. Original8192primary unchanged."
+}

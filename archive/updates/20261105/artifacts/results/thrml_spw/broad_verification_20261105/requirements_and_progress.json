@@ -1,0 +1,72 @@
+{
+  "status": "broad_verification_active_not_complete",
+  "recorded_utc": "2026-11-05T20:22:12.011592+00:00",
+  "requirements": [
+    {
+      "id": "existing_state_audit",
+      "state": "complete_for_initial_resume",
+      "evidence": [
+        "state_audit/local_orchestrator_retirement.json",
+        "h100_mirror/"
+      ],
+      "result": "24 H100 case audits downloaded and hashes verified; prior23-case campaign complete; idle local duplicate runner retired without active child."
+    },
+    {
+      "id": "reserved_frontend_repair",
+      "state": "implementation_and_component_verification_complete",
+      "evidence": [
+        "model_geometry_v3/results.json",
+        "../lfm3_1p7b/holdout_frontend_v2_preflight.json",
+        "../lfm3_1p7b/attention_worker_h100_preflight_v2/independent_audit.json"
+      ],
+      "result": "All287weighteduses at actual short/long model geometries; rank4headnorms;4.194MCPU/H100samplerbits and3.963MFP64outputs bit-identical."
+    },
+    {
+      "id": "reserved_full_five_seed_evaluation",
+      "state": "first_H100_case_launched",
+      "app_id": "ap-DefuYARpZrtYIYLI1Rh4IE",
+      "samples": 8192,
+      "seeds": [
+        202611150,
+        202611151,
+        202611152,
+        202611153,
+        202611154
+      ],
+      "protocol": "results/thrml_spw/lfm3_1p7b/holdout_native_v2_protocol.json",
+      "success": "Full40andseparate38previouslyunexposedarticles; unchanged2percentqualitymargin;bothconditionalMCandcrossedbootstrapboundsforbothstrataandpooled. All5cases independently audited."
+    },
+    {
+      "id": "matched_resource_statistics",
+      "state": "complete_case_audits_collected_aggregation_pending",
+      "requirements": "Summarize C1024/C4096/C8192 K1/K4/K8 with source/backend provenance, independent statistic verification, actual retained/warmup work and controls; never pool duplicate keys."
+    },
+    {
+      "id": "additional_architectures_and_tasks",
+      "state": "pending",
+      "requirements": "Prospectively define distinct models/tasks and quality thresholds; add conventional low-bit and multi-p-bit controls; multiple independent seeds. Prior image studies are supporting exploratory evidence, not a substitute for new verification."
+    },
+    {
+      "id": "nonidealities_and_control_precision",
+      "state": "prior_component_evidence_exists_broader_assessment_pending",
+      "requirements": "Characterize quantized probability commands, temporal/cross-device correlation, calibration and drift. Define useful tested operating regimes without assuming general success."
+    },
+    {
+      "id": "practical_cost_accounting",
+      "state": "partial_existing_reports",
+      "requirements": "Include bias controllers, metadata, temporary counters, scheduling, measured simulator throughput and memory; keep projected hardware costs separate from measurements."
+    },
+    {
+      "id": "research_publication_updates",
+      "state": "pending_new_verified_results",
+      "requirements": "Update mainSDK and dated experimental snapshots; preserve releasedhistoricalevidence and disclose consumed data/failedruns."
+    },
+    {
+      "id": "physical_hardware",
+      "state": "external_dependency",
+      "requirements": "Actual device access required for measured physical energy/latency/residency claims; software verification can characterize projections only."
+    }
+  ],
+  "exposure_ledger": "prior_holdout_exposure.json",
+  "goal_scope": "Broad applicability and practical operating regimes. No universal or numericBF16 equivalence assumed."
+}

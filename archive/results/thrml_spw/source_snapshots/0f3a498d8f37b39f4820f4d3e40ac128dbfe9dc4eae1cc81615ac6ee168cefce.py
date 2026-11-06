@@ -1,0 +1,139 @@
+"""Persistent local THRML worker for sequential multi-operator inference.
+
+JSON messages carry local artifact paths, never reconstructed weights. Each
+operator's immutable probability bank is cached across requests. Completed output
+files are atomic and resumable only when inputs, weights, source and keys match.
+"""
+from __future__ import annotations
+
+import hashlib
+import json
+import os
+os.environ.setdefault("JAX_PLATFORMS", "cuda")
+os.environ.setdefault("JAX_DEFAULT_MATMUL_PRECISION", "highest")
+os.environ.setdefault("XLA_PYTHON_CLIENT_PREALLOCATE", "false")
+from pathlib import Path
+import resource
+import sys
+import time
+import traceback
+
+import jax
+import jax.numpy as jnp
+import numpy as np
+
+from .provenance import manifest
+from .controlled_grouped_native import ControlledGroupedLinear as RangeNativeLinear
+
+
+def sha(path):
+    h = hashlib.sha256()
+    with Path(path).open("rb") as f:
+        for block in iter(lambda: f.read(1024*1024), b""):h.update(block)
+    return h.hexdigest()
+
+
+def atomic_npy(path, array):
+    path = Path(path);path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_suffix(path.suffix+".tmp")
+    with temporary.open("wb") as f:np.save(f, array)
+    os.replace(temporary, path)
+
+
+def atomic_json(path, value):
+    path = Path(path);path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_suffix(path.suffix+".tmp")
+    temporary.write_text(json.dumps(value, indent=2)+"\n")
+    os.replace(temporary, path)
+
+
+class Worker:
+    def __init__(self):
+        self.banks = {}
+        source = Path(__file__).parent
+        self.source_hashes = {str(source/name): sha(source/name) for name in
+            ("block_control_worker.py", "controlled_grouped_native.py", "grouped_range_native.py", "control_bank.py", "native.py", "positive_inference.py", "gpu_environment.py")}
+
+    def execute(self, request):
+        for path, digest in self.source_hashes.items():
+            if sha(path) != digest:raise RuntimeError(f"Live worker source changed: {path}")
+        started = time.monotonic()
+        master, inputs, reference, output = [Path(request[k]) for k in ("weights", "inputs", "reference", "output")]
+        meta = output.with_suffix(".json")
+        signature = {"weights_sha256": sha(master), "inputs_sha256": sha(inputs),
+                     "reference_sha256": sha(reference), "stage": int(request["stage"]),
+                     "samples": int(request["samples"]), "seed": int(request["seed"]),
+                     "domain": int(request["domain"]), "contexts_per_batch": int(request["contexts_per_batch"]),
+                     "field_bits": int(request["field_bits"]), "field_bound": float(request["field_bound"]),
+                     "source_sha256": self.source_hashes,
+                     "jax_backend": jax.default_backend(), "matmul_precision": str(jax.config.jax_default_matmul_precision)}
+        if meta.exists() and output.exists():
+            old = json.loads(meta.read_text())
+            if old.get("status") == "complete" and old.get("signature") == signature and old.get("output_sha256") == sha(output):
+                return {"status": "ok", "cached": True, "metadata": str(meta), "output": str(output)}
+        cache_key = (str(master), signature["weights_sha256"], signature["stage"], signature["field_bits"], signature["field_bound"])
+        if cache_key not in self.banks:
+            z = np.load(master)
+            i = signature["stage"]
+            self.banks[cache_key] = RangeNativeLinear(z[f"weight_{i}"], z[f"bias_{i}"], signature["field_bits"], signature["field_bound"])
+        layer = self.banks[cache_key]
+        x, ref = np.load(inputs), np.load(reference)
+        if x.ndim != 3 or x.shape[-1] != layer.bank.shape[0]:raise ValueError("Bad operator input shape")
+        t, batch_size = signature["samples"], signature["contexts_per_batch"]
+        if t < 1 or batch_size < 1:raise ValueError("Positive sample and batch counts required")
+        chunks = [];fn = layer.compiled(t)
+        for batch, first in enumerate(range(0, len(x), batch_size)):
+            key = jax.random.key(signature["domain"])
+            for value in (signature["seed"], signature["stage"], batch):key = jax.random.fold_in(key, value)
+            xb = x[first:first+batch_size]
+            y = fn(key, jnp.asarray(xb.reshape(-1, xb.shape[-1])))
+            chunks.append(np.asarray(y).reshape(xb.shape[0], xb.shape[1], -1))
+        y = np.concatenate(chunks)
+        if y.shape != ref.shape:raise ValueError("Bad operator output shape")
+        p = layer.bank.realized_probabilities
+        variance = layer.span**2*p*(1-p)
+        mean_x2 = np.mean(x.astype(np.float64)**2, axis=(0, 1))
+        predicted = float(np.mean(mean_x2@variance)/t)
+        expected = x.astype(np.float64)@layer.realized_weights+np.asarray(layer.bias)
+        control_bias_mse = float(np.mean((expected-ref)**2))
+        actual = float(np.mean((y.astype(np.float64)-ref)**2))
+        centered_mse = float(np.mean((y.astype(np.float64)-expected)**2))
+        batches = (len(x)+batch_size-1)//batch_size
+        result = {"status": "complete", "signature": signature, "controls": layer.controls(),
+                  "execution_devices": [str(d) for d in jax.devices()],
+                  "device_kinds": [d.device_kind for d in jax.devices()],
+                  "input_shape": list(x.shape), "output_shape": list(y.shape),
+                  "conditional_linear_mse": actual, "predicted_sampling_mse": predicted,
+                  "conditional_control_bias_mse": control_bias_mse,
+                  "sampling_mse_vs_programmed_expectation": centered_mse,
+                  "predicted_total_mse": predicted+control_bias_mse,
+                  "free_node_updates": batches*t*len(layer.bank.free_indices),
+                  "logical_weight_readouts": batches*t*layer.bank.logical_pbits,
+                  "binary_product_terms": int(x.shape[0]*x.shape[1]*layer.bank.logical_pbits*t),
+                  "bank_batches": batches, "elapsed_seconds": time.monotonic()-started,
+                  "worker_peak_rss_bytes": int(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss)*1024,
+                  "scope": "Actual THRML linear-output accumulation on current student inputs, CUDA/JAX highest-precision external arithmetic. GPU software simulation, not physical p-bit hardware; no TSU energy/latency or weight-buffer compression claim"}
+        atomic_npy(output, y)
+        result["output_sha256"] = sha(output)
+        # Preserve the normal official-source/package manifest for every completed
+        # operator, and a small atomic checkpoint used for safe reuse.
+        manifest(output.with_suffix(".manifest.json"), request, result)
+        atomic_json(meta, result)
+        return {"status": "ok", "cached": False, "metadata": str(meta), "output": str(output)}
+
+
+def main():
+    worker = Worker()
+    if jax.default_backend() != "gpu":raise RuntimeError("GPU worker requires a real CUDA backend")
+    print(json.dumps({"status": "ready", "backend": "official THRML/JAX CUDA", "devices": [str(d) for d in jax.devices()]}), flush=True)
+    for line in sys.stdin:
+        try:
+            request = json.loads(line)
+            if request.get("action") == "quit":break
+            print(json.dumps(worker.execute(request)), flush=True)
+        except Exception as exc:
+            traceback.print_exc(file=sys.stderr)
+            print(json.dumps({"status": "error", "type": type(exc).__name__, "message": str(exc)}), flush=True)
+
+
+if __name__ == "__main__":main()

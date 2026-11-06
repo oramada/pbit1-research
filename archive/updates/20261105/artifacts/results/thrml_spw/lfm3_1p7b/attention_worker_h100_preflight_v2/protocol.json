@@ -1,0 +1,49 @@
+{
+  "sources_sha256": {
+    "preflight_attention_worker_h100_v2.py": "d76738b4aa8ba27b4a2122a9528ffaa47e1d48068784b62a224029e811fdbfd7",
+    "verify_attention_worker_h100_v2.py": "be8fa2645af6b41dd59ad8edeca758e2c097dc78e3a85fbf6c840f75e223b487",
+    "counted_programmed_worker.py": "2efbdf77cd33faa731475a39fb7f40fe9aef254c95f4dea61e4f696346ab5b91",
+    "counted_bank.py": "48783c3c3c6912061de5158a40c2b8f4223d72c97560d2940b202d8f357f2080"
+  },
+  "auxiliary_sources_sha256": {
+    "research/thrml_spw/native.py": "14ab522d92356d3c633787b5249c8a0d04d6c46c3b282fb84bdd72ed1fd9a361",
+    "research/thrml_spw/controlled_positive_native.py": "6b2e4bfa2a589c2b9436423aaa4045c5e0d8b421ded0e9d4db0dceae0b492f99"
+  },
+  "cases": [
+    [
+      1,
+      128,
+      8192,
+      "elementwise"
+    ],
+    [
+      1,
+      128,
+      8192,
+      "elementwise"
+    ],
+    [
+      1,
+      128,
+      8192,
+      "elementwise"
+    ],
+    [
+      1,
+      128,
+      8192,
+      "elementwise"
+    ]
+  ],
+  "vendor_thrml_git_commit": "2d54cd8404df85bb65703d7e8b4e84e48c1b72a9",
+  "positions_by_case": [
+    8320,
+    2080,
+    16448,
+    4112
+  ],
+  "key": 202611051,
+  "CPU_reference_results_sha256": "3975a1a1fdfb653c4d42c26de841056ccaf51f23015b1b0223f993edaa944a10",
+  "CPU_reference_audit_sha256": "d7ab8c6bdbb15fbea46e78fa69f3133ede8f078be9bb125470f6c6b60c49847a",
+  "scope": "Synthetic GPU long-shape public-state/int64 fidelity with a frozen same-key CPU reference. Cross-backend equality is measured, not assumed. No model weights or reserved text."
+}

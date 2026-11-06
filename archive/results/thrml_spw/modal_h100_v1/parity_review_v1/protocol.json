@@ -1,0 +1,15 @@
+{
+  "arm": "mean",
+  "seed": 202610350,
+  "initial_replay": false,
+  "shared_protocol_sha256": "f31360b61e60d7549fd1a28de1d31b2f06112556f824f59d89e43889e2b9f4ba",
+  "package_sha256": "ed690a28d5976aee7d9932872edb30d92adfa26c4fa0e5f248834c3678cf6262",
+  "package_audit_sha256": "bd1f8421e5832a1f9ec0cd81950c2fa46145a161720cc8a1f06620221a8bc93d",
+  "GPU_preflight_audit_sha256": "513ebbf496f8f2d07cc7e8b6b1134b48e831b7e40952b6b355f30fd4ae69ad73",
+  "word_bits": 8,
+  "budget": 1024,
+  "samples": 128,
+  "word_package_sha256": "e76026a6fa0cd04200c068c19a97e033b9cabccaa0a264830dbf991043b721f7",
+  "word_package_audit_sha256": "1f68bbccdfa8db05bea2a76d2d347b6523dfe07ac2c4c35435c48e7ad7c6f83e",
+  "word_GPU_preflight_audit_sha256": "72d99a3b51d7abf4ce1c0909a82389aa99504dd3bd74ce1bd2b674e416858546"
+}

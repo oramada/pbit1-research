@@ -1,0 +1,69 @@
+{
+  "schema": "spw-clocked-drift-retention-v1",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "drift_sd_per_512_sweep_interval": [
+    0.0,
+    0.01,
+    0.04
+  ],
+  "ages_after_initial_calibration": [
+    0,
+    8,
+    32
+  ],
+  "segment_samples": 64,
+  "calibration_samples": 4096,
+  "inference_samples": 512,
+  "clock": "One interval is512 modeled Gibbs-sweep ticks. Parameters constant for64-sweep segments; Brownian field offset increments have SD=sigma/sqrt(8) after every segment, including both calibration probes and inference. Idle gaps also advance drift, without emitting unobserved bit states.",
+  "query_start_segments": {
+    "0": 64,
+    "8": 128,
+    "32": 320
+  },
+  "fresh_calibration_start_segments": {
+    "0": 0,
+    "8": 64,
+    "32": 256
+  },
+  "path_segments": 328,
+  "probe_codes": [
+    96,
+    159
+  ],
+  "policies": "Retain initial measured codes, or refresh over the4096 sweeps immediately before the same query clock. At age0 the common initial calibration is the fresh calibration; emit one shared baseline, not a duplicate run.",
+  "counterfactuals": "Policies and query ages share the same time-indexed exogenous device path but are distinct virtual schedules. Refreshed probes occupy a gap where retained policy idles. No claim to steady-state throughput or cost-free refresh; programming/fitting time and idle transition energy are not modeled.",
+  "device_model": "b_real=float32(a*b_command+d(t)), static a=exp(.2*z-.02), initial d~N(0,.2^2); exact endpoint clamps unperturbed. Synthetic dimensionless errors, not measured hardware.",
+  "device_rng": "Initial d=.2*first row of default_rng(2026102700+seed).standard_normal((4,n_free)); a from first row of default_rng(2026102900+seed), same shape, exp(.2*z-.02).",
+  "drift_rng": "default_rng(2026103000+seed) standard_normal((328,n_free)); zero initial row then float64 cumsum axis0. d(s)=d0+sigma/sqrt(8)*path[s]. Same standardized path used across sigma scenarios.",
+  "calibration": "Each probe spans32 consecutive64-sweep native count segments, totals2048 samples. Fit smoothed-logit line as before (gain guard[.25,4]); counts now pool changing probabilities and are not a stationary-binomial sample. Estimator receives no true parameters, clock path or task labels.",
+  "keys": "Probe key1070731 fold seed,sigma_index,start_segment,probe_code,absolute_segment; inference key1070730 fold seed,sigma_index,age,policy_index(0=retain,1=refresh),absolute_segment.",
+  "analysis": "Conditional query mean uses average realized probabilities over8 segments. Conditional variance uses average q*(1-q)/512, not qbar*(1-qbar)/512. Random path-to-path mean error remains in the conditional-mean error term; no unconditional1/T claim.",
+  "decision": "All fixed ages, policies, drift rates and seeds retained; no selected recalibration interval or success gate. Results are retention probes, not a hardware recalibration frequency in seconds.",
+  "artifact_sha256": "c910b29202a7964f50616b145c6db286f57fb51664998258cdc2602cd44398b8",
+  "inputs_sha256": "e874a9ca5f22bf4c54818e236d0e457a0710e1a146701aa71598bafb2f161d56",
+  "reference_sha256": "d0d6304385afa2bcea4e4336aa1856c5d4b11b27c132f677c1ddf285b322d075",
+  "source_sha256": {
+    "research/thrml_spw/drift_retention_operator.py": "166942ed70bf17d94bcfdb402c00298d87572e63f227b5c796d0e454e3528537",
+    "research/thrml_spw/drift_clock.py": "04ba63aad9f201e6760f31ebca012b24edba614dec6cf29f4628c4b9ee5620fb",
+    "research/thrml_spw/replica_calibration_native.py": "e5e7ba11a4081a0083dd068c9f6b2b89a34ccf57dcc96d14e1abb8f12fea572f",
+    "research/thrml_spw/calibration_count_native.py": "bdf0696f64543f9a8fad35d708c4fb773edaa6cf8f4844b5f4f6e18adc9316c9",
+    "research/thrml_spw/controlled_replica.py": "8fdea26223c05d74ec8c34e5bd7ab9f91adec8e299da9eadcb0148f24368eb3e",
+    "research/thrml_spw/replicated_native.py": "db751740c64af6176d2109dc6d07ad92fad8e0866d4ae0f6063afe1247792a93",
+    "research/thrml_spw/gain_calibration_math.py": "f5f97cb7b62ac94ca13273ffeaba0007d27480ed5d207219746f7a7dc9d4cfe9",
+    "research/thrml_spw/calibration_control_math.py": "bf457b9738578dff405130fd5fec384c02190e9efa12319b31cd21d996cc328e",
+    "research/thrml_spw/native.py": "14ab522d92356d3c633787b5249c8a0d04d6c46c3b282fb84bdd72ed1fd9a361",
+    "research/thrml_spw/packed_controls.py": "aa1ca2d358f4be286f92313a78331f8d2a338f73ef9613324c05b17571fada66"
+  },
+  "scope": "One2,359,296-weight single-p-bit normalized-weight operator, same eight old development contexts. Official THRML per-segment bit updates, no replacement Bernoulli sampler. No new full-model quality or physical energy/latency claim."
+}

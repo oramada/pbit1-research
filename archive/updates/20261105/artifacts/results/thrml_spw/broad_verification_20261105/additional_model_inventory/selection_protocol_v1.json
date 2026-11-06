@@ -1,0 +1,127 @@
+{
+  "status": "additional_architectures_and_primary_quality_criteria_selected_before_scores_not_execution_authorization",
+  "recorded_utc": "2026-11-05T20:32:42.415527+00:00",
+  "hub_inventory_sha256": "ed157e1bf476ee1fd28b228ce522f49f0b4aaf1505d721d80624d7e8503424e1",
+  "parameter_inventory_sha256": "a86d74e8a164712f4622835a7c8580389c60ac9502527adf15391a808b7abdc6",
+  "all_learned_parameters_required": true,
+  "bias_and_normalization_parameters": "Included in canonical counts; tied parameters assigned once. Unlearned masks/buffers excluded.",
+  "models": [
+    {
+      "id": "openai-community/gpt2",
+      "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+      "unique_learned_scalars": 124439808,
+      "task": "causal language modeling",
+      "dataset": "Salesforce/wikitext/wikitext-2-raw-v1 test, all complete articles",
+      "layout": "Article-bounded max1024context/512stride, each predicted target counted once; token and target geometry frozen before scoring",
+      "primary_margin": {
+        "log_PPL_ratio": 0.01980262729617973
+      },
+      "seeds_by_budget": {
+        "1024": [
+          202611200,
+          202611201,
+          202611202,
+          202611203,
+          202611204
+        ],
+        "4096": [
+          202611210,
+          202611211,
+          202611212,
+          202611213,
+          202611214
+        ],
+        "8192": [
+          202611220,
+          202611221,
+          202611222,
+          202611223,
+          202611224
+        ]
+      },
+      "bootstrap_key": 202611500
+    },
+    {
+      "id": "distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+      "revision": "714eb0fa89d2f80546fda750413ed43d93601a13",
+      "unique_learned_scalars": 66955010,
+      "task": "sentiment classification under domain shift",
+      "dataset": "stanfordnlp/imdb plain_text test, all25000labelledreviews",
+      "layout": "Max256tokens, right padding with attention masks; all25000reviews retained and truncation fraction reported",
+      "primary_margin": {
+        "absolute_accuracy_degradation": 0.02
+      },
+      "seeds_by_budget": {
+        "1024": [
+          202611300,
+          202611301,
+          202611302,
+          202611303,
+          202611304
+        ],
+        "4096": [
+          202611310,
+          202611311,
+          202611312,
+          202611313,
+          202611314
+        ],
+        "8192": [
+          202611320,
+          202611321,
+          202611322,
+          202611323,
+          202611324
+        ]
+      },
+      "bootstrap_key": 202611600
+    }
+  ],
+  "sampling": {
+    "retained_work_budgets": [
+      1024,
+      4096,
+      8192
+    ],
+    "pbits_per_parameter": [
+      1,
+      4,
+      8
+    ],
+    "samples_rule": "T=C/K",
+    "primary": "K1 at C8192; other budgets and formats are predefined controls/ablations, not outcome-selected primary replacements",
+    "field_bits": 12,
+    "grouping": "128 successive scalars within each canonical parameter, with explicit tail groups",
+    "range_estimator": "min/max; no fitting or outlier selection using evaluation scores",
+    "deterministic_controls": [
+      "original BF16 checkpoint point",
+      "finite-program same-point BF16 expectation",
+      "INT2",
+      "INT4",
+      "INT8"
+    ],
+    "expected_program_controls": "Own-format expectation retained for each stochastic format; quantization and sampling errors reported separately"
+  },
+  "statistics": {
+    "MC_seeds_per_condition": 5,
+    "MC_critical": 2.7764451051977987,
+    "paired_data_seed_bootstrap_replicates": 10000,
+    "quality_rule": "Both conditionalMC and paired data/seed bootstrap upper bounds must meet each predeclared primary margin against originalBF16 and same-point finite-programBF16. Report all cases regardless of quality; no additional favorable seeds or threshold changes.",
+    "scope": "Approximate conditional and bootstrap uncertainty, no formal simultaneous coverage or universal quality claim."
+  },
+  "execution_regimes": "First verify probability-count reconstruction R1 on complete parameter sets; separately validate operator accumulation R2 for each architecture before any R2 or hardware datapath claim. Do not substitute R1 timing/memory for R2 system costs.",
+  "required_before_any_quality_scoring": [
+    "Complete finite-program/sampler source and raw-state component audits",
+    "Pinned checkpoint and dataset file SHA256 verified",
+    "Exact unique parameter, alias, bias, normalization and buffer coverage",
+    "Deterministic evaluation token/label manifest frozen before scoring",
+    "Complete execution and independent statistics/audit protocol frozen",
+    "Measured resources and all failure retention/no automatic sampling retries"
+  ],
+  "primary_sources": [
+    "https://huggingface.co/openai-community/gpt2",
+    "https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+    "https://huggingface.co/datasets/stanfordnlp/imdb",
+    "https://huggingface.co/datasets/Salesforce/wikitext"
+  ]
+}

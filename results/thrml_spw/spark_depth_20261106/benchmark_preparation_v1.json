@@ -1,0 +1,13 @@
+{
+  "status": "verified_complete_62_article_283225_target_benchmark_without_new_forwards",
+  "source_sha256": "596c5191053fbfbf2162e9e5126f5a1f86ac8dd7e9e2cc6008c3c81faf66fc7a",
+  "raw_file": "data/wikitext/test.parquet",
+  "raw_sha256": "5f1bea067869d04849c0f975a2b29c4ff47d867f484f5010ea5e861eab246d91",
+  "tokens": "results/thrml_spw/broad_verification_20261105/additional_assets_v1_mirror/results/thrml_spw/broad_verification_20261105/additional_assets_v1/gpt2_tokens.npz",
+  "tokens_sha256": "f9b95c7dd583c7575ffbefc5543df96830fe4c00f73e1f362c099bd5b0a0a92c",
+  "layout": "results/thrml_spw/broad_verification_20261105/additional_assets_v1_mirror/results/thrml_spw/broad_verification_20261105/additional_assets_v1/gpt2_layout.json",
+  "layout_sha256": "9b057e25e543919585bce1ee84e7d760f42e1cf5cffbf4c4bdc27aaeb6da65bc",
+  "windows": 586,
+  "targets": 283225,
+  "scope": "Benchmark was inspected in priorstudy. Prospective re-evaluation of a training/calibration-selectedfix, not newunexposedtestdata."
+}

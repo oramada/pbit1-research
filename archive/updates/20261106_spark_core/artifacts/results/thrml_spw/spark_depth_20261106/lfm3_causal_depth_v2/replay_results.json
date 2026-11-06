@@ -1,0 +1,41 @@
+{
+  "status": "all286_count_records_and_six_full_neural_rows_replayed",
+  "replays": [
+    {
+      "kind": "BF16",
+      "row": 0,
+      "point_sha256": "bb6b579c7a83e273841b220c9cfa25c44be0e29594692df3f08253844ede8896",
+      "all256_NLL_values_bitwise_match": true
+    },
+    {
+      "kind": "BF16",
+      "row": 15,
+      "point_sha256": "bb6b579c7a83e273841b220c9cfa25c44be0e29594692df3f08253844ede8896",
+      "all256_NLL_values_bitwise_match": true
+    },
+    {
+      "kind": "BF16",
+      "row": 31,
+      "point_sha256": "bb6b579c7a83e273841b220c9cfa25c44be0e29594692df3f08253844ede8896",
+      "all256_NLL_values_bitwise_match": true
+    },
+    {
+      "kind": "selected",
+      "row": 0,
+      "point_sha256": "c7456b5d6d11f80eb4c4608544e3f6cb2d7006f13e45269bf777bdadb413daae",
+      "all256_NLL_values_bitwise_match": true
+    },
+    {
+      "kind": "selected",
+      "row": 15,
+      "point_sha256": "c7456b5d6d11f80eb4c4608544e3f6cb2d7006f13e45269bf777bdadb413daae",
+      "all256_NLL_values_bitwise_match": true
+    },
+    {
+      "kind": "selected",
+      "row": 31,
+      "point_sha256": "c7456b5d6d11f80eb4c4608544e3f6cb2d7006f13e45269bf777bdadb413daae",
+      "all256_NLL_values_bitwise_match": true
+    }
+  ]
+}

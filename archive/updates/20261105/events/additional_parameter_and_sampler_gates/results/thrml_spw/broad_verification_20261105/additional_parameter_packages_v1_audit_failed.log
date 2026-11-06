@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/__modal/volumes/vo-xPupdD37HndFLHDMPewQva/research/thrml_spw/broad/verify_parameter_packages_v1.py", line 86, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/__modal/volumes/vo-xPupdD37HndFLHDMPewQva/research/thrml_spw/broad/verify_parameter_packages_v1.py", line 37, in main
+    tensor=source[name].to(torch.bfloat16)
+           ~~~~~~^^^^^^
+KeyError: 'transformer.wte.weight'

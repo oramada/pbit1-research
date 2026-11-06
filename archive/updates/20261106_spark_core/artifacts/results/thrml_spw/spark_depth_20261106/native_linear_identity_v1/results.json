@@ -1,0 +1,99 @@
+{
+  "status": "all10_real_head_native_trajectories_match_direct_and_reconstructed_accumulation",
+  "source_sha256": "d4e18202b348feb0277f65154286dba15d86ccd321874b5ac0212439a7f9950f",
+  "inputs_sha256": "a467a6b34d1c3645ebcd2b5ad8fa35228bcdd8d16da5189c6c2222924cf4fd49",
+  "records": [
+    {
+      "layout": "storage_flat",
+      "seed": 2026110701,
+      "samples": 8192,
+      "pbits": 6144,
+      "native_states_sha256": "8925808c9b98bdcac3c74088db969aa316b27a1159c341b280c74fc48704cce7",
+      "maximum_absolute_R1_R2_difference": 0.0,
+      "mean_standard_error": 0.19051038179504393
+    },
+    {
+      "layout": "storage_flat",
+      "seed": 2026110702,
+      "samples": 8192,
+      "pbits": 6144,
+      "native_states_sha256": "668a5aa2fb734bbdbbf31970d38aa418a14736972a707e4da7df35199120c94a",
+      "maximum_absolute_R1_R2_difference": 0.0,
+      "mean_standard_error": 0.1902273592954788
+    },
+    {
+      "layout": "storage_flat",
+      "seed": 2026110703,
+      "samples": 8192,
+      "pbits": 6144,
+      "native_states_sha256": "b631b834d6ad36fe3af38769129bd0f846adf1fe75d67d80800b0062ae3840c2",
+      "maximum_absolute_R1_R2_difference": 0.0,
+      "mean_standard_error": 0.19075863900153456
+    },
+    {
+      "layout": "storage_flat",
+      "seed": 2026110704,
+      "samples": 8192,
+      "pbits": 6144,
+      "native_states_sha256": "7939f74dfa483bbfddcefb30b0351ddaf82706baef18fead3e86322122fe22df",
+      "maximum_absolute_R1_R2_difference": 0.0,
+      "mean_standard_error": 0.1902568522125517
+    },
+    {
+      "layout": "storage_flat",
+      "seed": 2026110705,
+      "samples": 8192,
+      "pbits": 6144,
+      "native_states_sha256": "381bfce79f04f0f7950ae9e9b7b7b48eb1552b06865a02b292958763cb34f39a",
+      "maximum_absolute_R1_R2_difference": 0.0,
+      "mean_standard_error": 0.18915718097138662
+    },
+    {
+      "layout": "transposed_matrix",
+      "seed": 2026110701,
+      "samples": 8192,
+      "pbits": 6144,
+      "native_states_sha256": "ca2738a419da45cb16b15bbdba815b28d84907da966449d28ab541ea40dedd10",
+      "maximum_absolute_R1_R2_difference": 0.0,
+      "mean_standard_error": 0.016270180000029888
+    },
+    {
+      "layout": "transposed_matrix",
+      "seed": 2026110702,
+      "samples": 8192,
+      "pbits": 6144,
+      "native_states_sha256": "e13d41880e57289c2c5491bce23322830c80bec11d800dd5ed52f0025d76283b",
+      "maximum_absolute_R1_R2_difference": 0.0,
+      "mean_standard_error": 0.016203439405658833
+    },
+    {
+      "layout": "transposed_matrix",
+      "seed": 2026110703,
+      "samples": 8192,
+      "pbits": 6144,
+      "native_states_sha256": "b0c8931536a76822a039c9ba16fb9812c400cb0877ab8144ab872a3745f1729d",
+      "maximum_absolute_R1_R2_difference": 0.0,
+      "mean_standard_error": 0.016224654097803163
+    },
+    {
+      "layout": "transposed_matrix",
+      "seed": 2026110704,
+      "samples": 8192,
+      "pbits": 6144,
+      "native_states_sha256": "aa611c1f2e41e3f60eb2d40a9507501efb78f0a9c57237383bbe83e263adb442",
+      "maximum_absolute_R1_R2_difference": 0.0,
+      "mean_standard_error": 0.016219056467316462
+    },
+    {
+      "layout": "transposed_matrix",
+      "seed": 2026110705,
+      "samples": 8192,
+      "pbits": 6144,
+      "native_states_sha256": "d80160c61a3941f16b1afd56149a0818ce610519ee9239d866e0018f5090f535",
+      "maximum_absolute_R1_R2_difference": 0.0,
+      "mean_standard_error": 0.016191346207758132
+    }
+  ],
+  "outputs_sha256": "7a0f5675ced483457dd1fa382a53bb8b285affb5cf234f5e2eda68402b113b55",
+  "scope": "Linearoperatoronly, samefrozen nativeTHRMLsamples and FP64CPUarithmetic. Bylinearity, Xmean(W_t)=mean(XW_t); no variance reduction magicallyarisesfrom changingaccumulationorder. Directexecutioncanavoidmaterializingperweightaverages. No whole-networkR2,latency,energyorphysicaldeviceclaim."
+}

@@ -1,0 +1,9 @@
+{
+  "source_sha256": "645c6db2682b45d17ba5e24a51192c50f32cb177b1c106cc8d07a7ec394cf1ea",
+  "wait_pid": 2973810,
+  "scripts": {
+    "lfm3_error_covariance_v2": "ffaf97ef465526928714ed17e1adb3317ebb03ecb9ba676b6d6b017a60576e41",
+    "audit_lfm3_error_covariance_v1": "805959c81d73340f92fb9150d8883b7784237ead0d3f03fa67e36d0d99679af4"
+  },
+  "cloud": "disabled"
+}

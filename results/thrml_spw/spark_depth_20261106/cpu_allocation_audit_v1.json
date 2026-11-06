@@ -1,0 +1,35 @@
+{
+  "status": "256_loss_arrays_15_variable_T_points_and_paired_statistics_verified",
+  "source_sha256": "6e26a6e58091d647ca9e826c8d2190266c3a8e98ecf2c05f8a3d0f4178cba7f4",
+  "result_sha256": "e11081f8e714cb30ceb77b16ce66db8423e6d8b4766e29272fdff9d848e2fccd",
+  "calibration": {
+    "uniform32768": {
+      "ratio_to_CPU_baseline": 1.0076211405975746,
+      "paired_ratio_to_uniform": 1.0,
+      "paired_MC95_ratio_interval": [
+        1.0,
+        1.0
+      ],
+      "observation_cost_ratio": 1.0
+    },
+    "existing_directions": {
+      "ratio_to_CPU_baseline": 1.0082024685918902,
+      "paired_ratio_to_uniform": 1.0005769311211257,
+      "paired_MC95_ratio_interval": [
+        0.9961045556237719,
+        1.0050693869830118
+      ],
+      "observation_cost_ratio": 0.6897136967617308
+    },
+    "gradient_proxy_directions": {
+      "ratio_to_CPU_baseline": 1.0073435392085621,
+      "paired_ratio_to_uniform": 0.9997244982485702,
+      "paired_MC95_ratio_interval": [
+        0.996988333046027,
+        1.0024681726663847
+      ],
+      "observation_cost_ratio": 0.6019125969721844
+    }
+  },
+  "scope": "Diagnosticrows0:8 andcalibrationrows8:16 only. FP32CPUarithmetic withsampledBF16weights. No GPU,testdata,parameterupdates ordeploymentselection. Pairedfive-seed comparisonsare descriptive; requirefutureprospectiveGPUconfirmation."
+}

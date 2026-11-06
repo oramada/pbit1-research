@@ -1,0 +1,77 @@
+{
+  "status": "all7_training_cases_inputs_scores_and_286_parameter_records_audited",
+  "source_sha256": "264a9a897641a70b031d477f4c92f764341b6e6409893685ceb82d21ca5e339a",
+  "result_sha256": "645a2b056e7793df1dc0a9317e7abd7ef77adf886ebabb3e816270ff710a1f4c",
+  "checks": [
+    {
+      "case": "BF16",
+      "input_rows_verified": 32,
+      "targets": 8192,
+      "point_sha256": "bb6b579c7a83e273841b220c9cfa25c44be0e29594692df3f08253844ede8896",
+      "moments": null
+    },
+    {
+      "case": "selected_mean",
+      "input_rows_verified": 32,
+      "targets": 8192,
+      "point_sha256": "4cbe010af6624c1e1d23ed09894ffffa17e75282c7f9480ffff9bea025ca7048",
+      "moments": null
+    },
+    {
+      "case": "selected_seed2026111801",
+      "input_rows_verified": 32,
+      "targets": 8192,
+      "point_sha256": "c7456b5d6d11f80eb4c4608544e3f6cb2d7006f13e45269bf777bdadb413daae",
+      "moments": {
+        "observed_SSE": 136.90529615404049,
+        "expected_SSE": 136.89651575255422,
+        "standardized_error": 1.3251480585112634
+      }
+    },
+    {
+      "case": "selected_seed2026111802",
+      "input_rows_verified": 32,
+      "targets": 8192,
+      "point_sha256": "1c43fc25639f97280660777617023927471ddd939bf1ab6a1c7cc458469003b9",
+      "moments": {
+        "observed_SSE": 136.8959835850139,
+        "expected_SSE": 136.89651575255422,
+        "standardized_error": -0.08031532316066543
+      }
+    },
+    {
+      "case": "selected_seed2026111803",
+      "input_rows_verified": 32,
+      "targets": 8192,
+      "point_sha256": "eb8da595d763811973087d53d5f377c575425032efb1383aac58c62b90c37c1f",
+      "moments": {
+        "observed_SSE": 136.88921202116728,
+        "expected_SSE": 136.89651575255422,
+        "standardized_error": -1.1022873478433315
+      }
+    },
+    {
+      "case": "selected_seed2026111804",
+      "input_rows_verified": 32,
+      "targets": 8192,
+      "point_sha256": "13fc2da712bd432a038d23ce74d8fa292716b6768dba69f60e74ac65d3fe6900",
+      "moments": {
+        "observed_SSE": 136.89282211929114,
+        "expected_SSE": 136.89651575255422,
+        "standardized_error": -0.5574472824602525
+      }
+    },
+    {
+      "case": "selected_seed2026111805",
+      "input_rows_verified": 32,
+      "targets": 8192,
+      "point_sha256": "4abbd10482af0f2b4fedd3e09a36a06f64f69430fb472588a619040251c5b56c",
+      "moments": {
+        "observed_SSE": 136.89846766014165,
+        "expected_SSE": 136.89651575255422,
+        "standardized_error": 0.29458408637889233
+      }
+    }
+  ],
+  "scope": "Count-hash/neural replay is separate and is being performed by causal v2. This audit checks saved inputs, losses, policy records, sample budgets and aggregate moments."
+}

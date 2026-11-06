@@ -1,0 +1,16 @@
+{
+  "status": "source_path_portability_corrected_before_any_model_or_taskexecution",
+  "old_calls": {
+    "gpt2": "fc-01M6PW1NRMDRQJS1FYVQK6B03F",
+    "distilbert": "fc-01M6PW1NX0SQJ2Y3KVFKZY5NY5"
+  },
+  "new_calls": {
+    "gpt2": "fc-01M6PWBW7DXA79APHPV650YEA9",
+    "distilbert": "fc-01M6PWBWBFVJ4RHVN0CZAGFFY7"
+  },
+  "core_sources_unchanged": true,
+  "case_membership_and_synthetic_seeds_unchanged": true,
+  "failure": "v1protocol contained absolute localsourcepaths; both functions failed in sourceguard before model loading. Logs retained.",
+  "new_protocol_all_source_and_input_keys_relative": true,
+  "new_protocol_local_source_guard_passed": true
+}

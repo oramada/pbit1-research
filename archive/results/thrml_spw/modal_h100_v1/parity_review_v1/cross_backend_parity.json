@@ -1,0 +1,14 @@
+{
+  "status": "cross_backend_difference_preserved",
+  "different_arrays": [
+    "0/BF16",
+    "0/same_fit_BF16",
+    "1/BF16",
+    "1/same_fit_BF16",
+    "2/BF16",
+    "2/same_fit_BF16",
+    "3/BF16",
+    "3/same_fit_BF16"
+  ],
+  "reference_results_sha256": "f716d5b93a0b785fa4a91c000af3578121655f967388565387f54706524a0ed0"
+}

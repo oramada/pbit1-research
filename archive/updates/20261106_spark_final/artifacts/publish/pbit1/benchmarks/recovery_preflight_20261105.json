@@ -1,0 +1,22 @@
+{
+  "status": "deployed_durable_calls_atomic_duplicate_claim_and_cross_container_recovery_passed",
+  "scope": "CPU officialTHRML fixture; no model quality or GPU recovery claim",
+  "duplicate_submissions": 2,
+  "workers_accepted": 1,
+  "completed_stage_resampled": false,
+  "sampling_events": [
+    {
+      "batch": 0,
+      "seed": 202611901
+    },
+    {
+      "batch": 1,
+      "seed": 202611902
+    }
+  ],
+  "sources_sha256": {
+    "client.py": "91b058fa1a256d01d0aa0b345945c00261c14be329f86041e373bad1a0f0aac0",
+    "app.py": "2316d9dff47b32e183555dcd42d5912d7b99c5331b42f8a48df257367b398718"
+  },
+  "full_model_recovery_and_quality": "Not established by this component fixture."
+}

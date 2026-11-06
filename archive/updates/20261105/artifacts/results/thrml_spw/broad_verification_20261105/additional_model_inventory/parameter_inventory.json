@@ -1,0 +1,2141 @@
+{
+  "status": "additional_decoder_and_encoder_parameter_inventories_pinned_before_scores",
+  "source_sha256": "9a925ad79454814a88cb388a4fc55e58004dac349b89b66815e639e6efac2210",
+  "hub_inventory_sha256": "ed157e1bf476ee1fd28b228ce522f49f0b4aaf1505d721d80624d7e8503424e1",
+  "torch_version": "2.14.1+cu130",
+  "models": [
+    {
+      "model": "openai-community/gpt2",
+      "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+      "model_type": "gpt2",
+      "canonical_parameters": [
+        {
+          "name": "transformer.wte.weight",
+          "shape": [
+            50257,
+            768
+          ],
+          "elements": 38597376
+        },
+        {
+          "name": "transformer.wpe.weight",
+          "shape": [
+            1024,
+            768
+          ],
+          "elements": 786432
+        },
+        {
+          "name": "transformer.h.0.ln_1.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.0.ln_1.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.0.attn.c_attn.weight",
+          "shape": [
+            768,
+            2304
+          ],
+          "elements": 1769472
+        },
+        {
+          "name": "transformer.h.0.attn.c_attn.bias",
+          "shape": [
+            2304
+          ],
+          "elements": 2304
+        },
+        {
+          "name": "transformer.h.0.attn.c_proj.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "transformer.h.0.attn.c_proj.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.0.ln_2.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.0.ln_2.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.0.mlp.c_fc.weight",
+          "shape": [
+            768,
+            3072
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "transformer.h.0.mlp.c_fc.bias",
+          "shape": [
+            3072
+          ],
+          "elements": 3072
+        },
+        {
+          "name": "transformer.h.0.mlp.c_proj.weight",
+          "shape": [
+            3072,
+            768
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "transformer.h.0.mlp.c_proj.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.1.ln_1.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.1.ln_1.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.1.attn.c_attn.weight",
+          "shape": [
+            768,
+            2304
+          ],
+          "elements": 1769472
+        },
+        {
+          "name": "transformer.h.1.attn.c_attn.bias",
+          "shape": [
+            2304
+          ],
+          "elements": 2304
+        },
+        {
+          "name": "transformer.h.1.attn.c_proj.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "transformer.h.1.attn.c_proj.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.1.ln_2.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.1.ln_2.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.1.mlp.c_fc.weight",
+          "shape": [
+            768,
+            3072
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "transformer.h.1.mlp.c_fc.bias",
+          "shape": [
+            3072
+          ],
+          "elements": 3072
+        },
+        {
+          "name": "transformer.h.1.mlp.c_proj.weight",
+          "shape": [
+            3072,
+            768
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "transformer.h.1.mlp.c_proj.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.2.ln_1.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.2.ln_1.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.2.attn.c_attn.weight",
+          "shape": [
+            768,
+            2304
+          ],
+          "elements": 1769472
+        },
+        {
+          "name": "transformer.h.2.attn.c_attn.bias",
+          "shape": [
+            2304
+          ],
+          "elements": 2304
+        },
+        {
+          "name": "transformer.h.2.attn.c_proj.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "transformer.h.2.attn.c_proj.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.2.ln_2.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.2.ln_2.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.2.mlp.c_fc.weight",
+          "shape": [
+            768,
+            3072
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "transformer.h.2.mlp.c_fc.bias",
+          "shape": [
+            3072
+          ],
+          "elements": 3072
+        },
+        {
+          "name": "transformer.h.2.mlp.c_proj.weight",
+          "shape": [
+            3072,
+            768
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "transformer.h.2.mlp.c_proj.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.3.ln_1.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.3.ln_1.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.3.attn.c_attn.weight",
+          "shape": [
+            768,
+            2304
+          ],
+          "elements": 1769472
+        },
+        {
+          "name": "transformer.h.3.attn.c_attn.bias",
+          "shape": [
+            2304
+          ],
+          "elements": 2304
+        },
+        {
+          "name": "transformer.h.3.attn.c_proj.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "transformer.h.3.attn.c_proj.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.3.ln_2.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.3.ln_2.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.3.mlp.c_fc.weight",
+          "shape": [
+            768,
+            3072
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "transformer.h.3.mlp.c_fc.bias",
+          "shape": [
+            3072
+          ],
+          "elements": 3072
+        },
+        {
+          "name": "transformer.h.3.mlp.c_proj.weight",
+          "shape": [
+            3072,
+            768
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "transformer.h.3.mlp.c_proj.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.4.ln_1.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.4.ln_1.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.4.attn.c_attn.weight",
+          "shape": [
+            768,
+            2304
+          ],
+          "elements": 1769472
+        },
+        {
+          "name": "transformer.h.4.attn.c_attn.bias",
+          "shape": [
+            2304
+          ],
+          "elements": 2304
+        },
+        {
+          "name": "transformer.h.4.attn.c_proj.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "transformer.h.4.attn.c_proj.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.4.ln_2.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.4.ln_2.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.4.mlp.c_fc.weight",
+          "shape": [
+            768,
+            3072
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "transformer.h.4.mlp.c_fc.bias",
+          "shape": [
+            3072
+          ],
+          "elements": 3072
+        },
+        {
+          "name": "transformer.h.4.mlp.c_proj.weight",
+          "shape": [
+            3072,
+            768
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "transformer.h.4.mlp.c_proj.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.5.ln_1.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.5.ln_1.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.5.attn.c_attn.weight",
+          "shape": [
+            768,
+            2304
+          ],
+          "elements": 1769472
+        },
+        {
+          "name": "transformer.h.5.attn.c_attn.bias",
+          "shape": [
+            2304
+          ],
+          "elements": 2304
+        },
+        {
+          "name": "transformer.h.5.attn.c_proj.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "transformer.h.5.attn.c_proj.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.5.ln_2.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.5.ln_2.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.5.mlp.c_fc.weight",
+          "shape": [
+            768,
+            3072
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "transformer.h.5.mlp.c_fc.bias",
+          "shape": [
+            3072
+          ],
+          "elements": 3072
+        },
+        {
+          "name": "transformer.h.5.mlp.c_proj.weight",
+          "shape": [
+            3072,
+            768
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "transformer.h.5.mlp.c_proj.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.6.ln_1.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.6.ln_1.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.6.attn.c_attn.weight",
+          "shape": [
+            768,
+            2304
+          ],
+          "elements": 1769472
+        },
+        {
+          "name": "transformer.h.6.attn.c_attn.bias",
+          "shape": [
+            2304
+          ],
+          "elements": 2304
+        },
+        {
+          "name": "transformer.h.6.attn.c_proj.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "transformer.h.6.attn.c_proj.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.6.ln_2.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.6.ln_2.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.6.mlp.c_fc.weight",
+          "shape": [
+            768,
+            3072
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "transformer.h.6.mlp.c_fc.bias",
+          "shape": [
+            3072
+          ],
+          "elements": 3072
+        },
+        {
+          "name": "transformer.h.6.mlp.c_proj.weight",
+          "shape": [
+            3072,
+            768
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "transformer.h.6.mlp.c_proj.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.7.ln_1.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.7.ln_1.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.7.attn.c_attn.weight",
+          "shape": [
+            768,
+            2304
+          ],
+          "elements": 1769472
+        },
+        {
+          "name": "transformer.h.7.attn.c_attn.bias",
+          "shape": [
+            2304
+          ],
+          "elements": 2304
+        },
+        {
+          "name": "transformer.h.7.attn.c_proj.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "transformer.h.7.attn.c_proj.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.7.ln_2.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.7.ln_2.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.7.mlp.c_fc.weight",
+          "shape": [
+            768,
+            3072
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "transformer.h.7.mlp.c_fc.bias",
+          "shape": [
+            3072
+          ],
+          "elements": 3072
+        },
+        {
+          "name": "transformer.h.7.mlp.c_proj.weight",
+          "shape": [
+            3072,
+            768
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "transformer.h.7.mlp.c_proj.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.8.ln_1.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.8.ln_1.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.8.attn.c_attn.weight",
+          "shape": [
+            768,
+            2304
+          ],
+          "elements": 1769472
+        },
+        {
+          "name": "transformer.h.8.attn.c_attn.bias",
+          "shape": [
+            2304
+          ],
+          "elements": 2304
+        },
+        {
+          "name": "transformer.h.8.attn.c_proj.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "transformer.h.8.attn.c_proj.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.8.ln_2.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.8.ln_2.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.8.mlp.c_fc.weight",
+          "shape": [
+            768,
+            3072
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "transformer.h.8.mlp.c_fc.bias",
+          "shape": [
+            3072
+          ],
+          "elements": 3072
+        },
+        {
+          "name": "transformer.h.8.mlp.c_proj.weight",
+          "shape": [
+            3072,
+            768
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "transformer.h.8.mlp.c_proj.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.9.ln_1.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.9.ln_1.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.9.attn.c_attn.weight",
+          "shape": [
+            768,
+            2304
+          ],
+          "elements": 1769472
+        },
+        {
+          "name": "transformer.h.9.attn.c_attn.bias",
+          "shape": [
+            2304
+          ],
+          "elements": 2304
+        },
+        {
+          "name": "transformer.h.9.attn.c_proj.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "transformer.h.9.attn.c_proj.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.9.ln_2.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.9.ln_2.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.9.mlp.c_fc.weight",
+          "shape": [
+            768,
+            3072
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "transformer.h.9.mlp.c_fc.bias",
+          "shape": [
+            3072
+          ],
+          "elements": 3072
+        },
+        {
+          "name": "transformer.h.9.mlp.c_proj.weight",
+          "shape": [
+            3072,
+            768
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "transformer.h.9.mlp.c_proj.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.10.ln_1.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.10.ln_1.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.10.attn.c_attn.weight",
+          "shape": [
+            768,
+            2304
+          ],
+          "elements": 1769472
+        },
+        {
+          "name": "transformer.h.10.attn.c_attn.bias",
+          "shape": [
+            2304
+          ],
+          "elements": 2304
+        },
+        {
+          "name": "transformer.h.10.attn.c_proj.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "transformer.h.10.attn.c_proj.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.10.ln_2.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.10.ln_2.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.10.mlp.c_fc.weight",
+          "shape": [
+            768,
+            3072
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "transformer.h.10.mlp.c_fc.bias",
+          "shape": [
+            3072
+          ],
+          "elements": 3072
+        },
+        {
+          "name": "transformer.h.10.mlp.c_proj.weight",
+          "shape": [
+            3072,
+            768
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "transformer.h.10.mlp.c_proj.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.11.ln_1.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.11.ln_1.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.11.attn.c_attn.weight",
+          "shape": [
+            768,
+            2304
+          ],
+          "elements": 1769472
+        },
+        {
+          "name": "transformer.h.11.attn.c_attn.bias",
+          "shape": [
+            2304
+          ],
+          "elements": 2304
+        },
+        {
+          "name": "transformer.h.11.attn.c_proj.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "transformer.h.11.attn.c_proj.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.11.ln_2.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.11.ln_2.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.h.11.mlp.c_fc.weight",
+          "shape": [
+            768,
+            3072
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "transformer.h.11.mlp.c_fc.bias",
+          "shape": [
+            3072
+          ],
+          "elements": 3072
+        },
+        {
+          "name": "transformer.h.11.mlp.c_proj.weight",
+          "shape": [
+            3072,
+            768
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "transformer.h.11.mlp.c_proj.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.ln_f.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "transformer.ln_f.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        }
+      ],
+      "aliases": {
+        "transformer.wte.weight": "transformer.wte.weight",
+        "transformer.wpe.weight": "transformer.wpe.weight",
+        "transformer.h.0.ln_1.weight": "transformer.h.0.ln_1.weight",
+        "transformer.h.0.ln_1.bias": "transformer.h.0.ln_1.bias",
+        "transformer.h.0.attn.c_attn.weight": "transformer.h.0.attn.c_attn.weight",
+        "transformer.h.0.attn.c_attn.bias": "transformer.h.0.attn.c_attn.bias",
+        "transformer.h.0.attn.c_proj.weight": "transformer.h.0.attn.c_proj.weight",
+        "transformer.h.0.attn.c_proj.bias": "transformer.h.0.attn.c_proj.bias",
+        "transformer.h.0.ln_2.weight": "transformer.h.0.ln_2.weight",
+        "transformer.h.0.ln_2.bias": "transformer.h.0.ln_2.bias",
+        "transformer.h.0.mlp.c_fc.weight": "transformer.h.0.mlp.c_fc.weight",
+        "transformer.h.0.mlp.c_fc.bias": "transformer.h.0.mlp.c_fc.bias",
+        "transformer.h.0.mlp.c_proj.weight": "transformer.h.0.mlp.c_proj.weight",
+        "transformer.h.0.mlp.c_proj.bias": "transformer.h.0.mlp.c_proj.bias",
+        "transformer.h.1.ln_1.weight": "transformer.h.1.ln_1.weight",
+        "transformer.h.1.ln_1.bias": "transformer.h.1.ln_1.bias",
+        "transformer.h.1.attn.c_attn.weight": "transformer.h.1.attn.c_attn.weight",
+        "transformer.h.1.attn.c_attn.bias": "transformer.h.1.attn.c_attn.bias",
+        "transformer.h.1.attn.c_proj.weight": "transformer.h.1.attn.c_proj.weight",
+        "transformer.h.1.attn.c_proj.bias": "transformer.h.1.attn.c_proj.bias",
+        "transformer.h.1.ln_2.weight": "transformer.h.1.ln_2.weight",
+        "transformer.h.1.ln_2.bias": "transformer.h.1.ln_2.bias",
+        "transformer.h.1.mlp.c_fc.weight": "transformer.h.1.mlp.c_fc.weight",
+        "transformer.h.1.mlp.c_fc.bias": "transformer.h.1.mlp.c_fc.bias",
+        "transformer.h.1.mlp.c_proj.weight": "transformer.h.1.mlp.c_proj.weight",
+        "transformer.h.1.mlp.c_proj.bias": "transformer.h.1.mlp.c_proj.bias",
+        "transformer.h.2.ln_1.weight": "transformer.h.2.ln_1.weight",
+        "transformer.h.2.ln_1.bias": "transformer.h.2.ln_1.bias",
+        "transformer.h.2.attn.c_attn.weight": "transformer.h.2.attn.c_attn.weight",
+        "transformer.h.2.attn.c_attn.bias": "transformer.h.2.attn.c_attn.bias",
+        "transformer.h.2.attn.c_proj.weight": "transformer.h.2.attn.c_proj.weight",
+        "transformer.h.2.attn.c_proj.bias": "transformer.h.2.attn.c_proj.bias",
+        "transformer.h.2.ln_2.weight": "transformer.h.2.ln_2.weight",
+        "transformer.h.2.ln_2.bias": "transformer.h.2.ln_2.bias",
+        "transformer.h.2.mlp.c_fc.weight": "transformer.h.2.mlp.c_fc.weight",
+        "transformer.h.2.mlp.c_fc.bias": "transformer.h.2.mlp.c_fc.bias",
+        "transformer.h.2.mlp.c_proj.weight": "transformer.h.2.mlp.c_proj.weight",
+        "transformer.h.2.mlp.c_proj.bias": "transformer.h.2.mlp.c_proj.bias",
+        "transformer.h.3.ln_1.weight": "transformer.h.3.ln_1.weight",
+        "transformer.h.3.ln_1.bias": "transformer.h.3.ln_1.bias",
+        "transformer.h.3.attn.c_attn.weight": "transformer.h.3.attn.c_attn.weight",
+        "transformer.h.3.attn.c_attn.bias": "transformer.h.3.attn.c_attn.bias",
+        "transformer.h.3.attn.c_proj.weight": "transformer.h.3.attn.c_proj.weight",
+        "transformer.h.3.attn.c_proj.bias": "transformer.h.3.attn.c_proj.bias",
+        "transformer.h.3.ln_2.weight": "transformer.h.3.ln_2.weight",
+        "transformer.h.3.ln_2.bias": "transformer.h.3.ln_2.bias",
+        "transformer.h.3.mlp.c_fc.weight": "transformer.h.3.mlp.c_fc.weight",
+        "transformer.h.3.mlp.c_fc.bias": "transformer.h.3.mlp.c_fc.bias",
+        "transformer.h.3.mlp.c_proj.weight": "transformer.h.3.mlp.c_proj.weight",
+        "transformer.h.3.mlp.c_proj.bias": "transformer.h.3.mlp.c_proj.bias",
+        "transformer.h.4.ln_1.weight": "transformer.h.4.ln_1.weight",
+        "transformer.h.4.ln_1.bias": "transformer.h.4.ln_1.bias",
+        "transformer.h.4.attn.c_attn.weight": "transformer.h.4.attn.c_attn.weight",
+        "transformer.h.4.attn.c_attn.bias": "transformer.h.4.attn.c_attn.bias",
+        "transformer.h.4.attn.c_proj.weight": "transformer.h.4.attn.c_proj.weight",
+        "transformer.h.4.attn.c_proj.bias": "transformer.h.4.attn.c_proj.bias",
+        "transformer.h.4.ln_2.weight": "transformer.h.4.ln_2.weight",
+        "transformer.h.4.ln_2.bias": "transformer.h.4.ln_2.bias",
+        "transformer.h.4.mlp.c_fc.weight": "transformer.h.4.mlp.c_fc.weight",
+        "transformer.h.4.mlp.c_fc.bias": "transformer.h.4.mlp.c_fc.bias",
+        "transformer.h.4.mlp.c_proj.weight": "transformer.h.4.mlp.c_proj.weight",
+        "transformer.h.4.mlp.c_proj.bias": "transformer.h.4.mlp.c_proj.bias",
+        "transformer.h.5.ln_1.weight": "transformer.h.5.ln_1.weight",
+        "transformer.h.5.ln_1.bias": "transformer.h.5.ln_1.bias",
+        "transformer.h.5.attn.c_attn.weight": "transformer.h.5.attn.c_attn.weight",
+        "transformer.h.5.attn.c_attn.bias": "transformer.h.5.attn.c_attn.bias",
+        "transformer.h.5.attn.c_proj.weight": "transformer.h.5.attn.c_proj.weight",
+        "transformer.h.5.attn.c_proj.bias": "transformer.h.5.attn.c_proj.bias",
+        "transformer.h.5.ln_2.weight": "transformer.h.5.ln_2.weight",
+        "transformer.h.5.ln_2.bias": "transformer.h.5.ln_2.bias",
+        "transformer.h.5.mlp.c_fc.weight": "transformer.h.5.mlp.c_fc.weight",
+        "transformer.h.5.mlp.c_fc.bias": "transformer.h.5.mlp.c_fc.bias",
+        "transformer.h.5.mlp.c_proj.weight": "transformer.h.5.mlp.c_proj.weight",
+        "transformer.h.5.mlp.c_proj.bias": "transformer.h.5.mlp.c_proj.bias",
+        "transformer.h.6.ln_1.weight": "transformer.h.6.ln_1.weight",
+        "transformer.h.6.ln_1.bias": "transformer.h.6.ln_1.bias",
+        "transformer.h.6.attn.c_attn.weight": "transformer.h.6.attn.c_attn.weight",
+        "transformer.h.6.attn.c_attn.bias": "transformer.h.6.attn.c_attn.bias",
+        "transformer.h.6.attn.c_proj.weight": "transformer.h.6.attn.c_proj.weight",
+        "transformer.h.6.attn.c_proj.bias": "transformer.h.6.attn.c_proj.bias",
+        "transformer.h.6.ln_2.weight": "transformer.h.6.ln_2.weight",
+        "transformer.h.6.ln_2.bias": "transformer.h.6.ln_2.bias",
+        "transformer.h.6.mlp.c_fc.weight": "transformer.h.6.mlp.c_fc.weight",
+        "transformer.h.6.mlp.c_fc.bias": "transformer.h.6.mlp.c_fc.bias",
+        "transformer.h.6.mlp.c_proj.weight": "transformer.h.6.mlp.c_proj.weight",
+        "transformer.h.6.mlp.c_proj.bias": "transformer.h.6.mlp.c_proj.bias",
+        "transformer.h.7.ln_1.weight": "transformer.h.7.ln_1.weight",
+        "transformer.h.7.ln_1.bias": "transformer.h.7.ln_1.bias",
+        "transformer.h.7.attn.c_attn.weight": "transformer.h.7.attn.c_attn.weight",
+        "transformer.h.7.attn.c_attn.bias": "transformer.h.7.attn.c_attn.bias",
+        "transformer.h.7.attn.c_proj.weight": "transformer.h.7.attn.c_proj.weight",
+        "transformer.h.7.attn.c_proj.bias": "transformer.h.7.attn.c_proj.bias",
+        "transformer.h.7.ln_2.weight": "transformer.h.7.ln_2.weight",
+        "transformer.h.7.ln_2.bias": "transformer.h.7.ln_2.bias",
+        "transformer.h.7.mlp.c_fc.weight": "transformer.h.7.mlp.c_fc.weight",
+        "transformer.h.7.mlp.c_fc.bias": "transformer.h.7.mlp.c_fc.bias",
+        "transformer.h.7.mlp.c_proj.weight": "transformer.h.7.mlp.c_proj.weight",
+        "transformer.h.7.mlp.c_proj.bias": "transformer.h.7.mlp.c_proj.bias",
+        "transformer.h.8.ln_1.weight": "transformer.h.8.ln_1.weight",
+        "transformer.h.8.ln_1.bias": "transformer.h.8.ln_1.bias",
+        "transformer.h.8.attn.c_attn.weight": "transformer.h.8.attn.c_attn.weight",
+        "transformer.h.8.attn.c_attn.bias": "transformer.h.8.attn.c_attn.bias",
+        "transformer.h.8.attn.c_proj.weight": "transformer.h.8.attn.c_proj.weight",
+        "transformer.h.8.attn.c_proj.bias": "transformer.h.8.attn.c_proj.bias",
+        "transformer.h.8.ln_2.weight": "transformer.h.8.ln_2.weight",
+        "transformer.h.8.ln_2.bias": "transformer.h.8.ln_2.bias",
+        "transformer.h.8.mlp.c_fc.weight": "transformer.h.8.mlp.c_fc.weight",
+        "transformer.h.8.mlp.c_fc.bias": "transformer.h.8.mlp.c_fc.bias",
+        "transformer.h.8.mlp.c_proj.weight": "transformer.h.8.mlp.c_proj.weight",
+        "transformer.h.8.mlp.c_proj.bias": "transformer.h.8.mlp.c_proj.bias",
+        "transformer.h.9.ln_1.weight": "transformer.h.9.ln_1.weight",
+        "transformer.h.9.ln_1.bias": "transformer.h.9.ln_1.bias",
+        "transformer.h.9.attn.c_attn.weight": "transformer.h.9.attn.c_attn.weight",
+        "transformer.h.9.attn.c_attn.bias": "transformer.h.9.attn.c_attn.bias",
+        "transformer.h.9.attn.c_proj.weight": "transformer.h.9.attn.c_proj.weight",
+        "transformer.h.9.attn.c_proj.bias": "transformer.h.9.attn.c_proj.bias",
+        "transformer.h.9.ln_2.weight": "transformer.h.9.ln_2.weight",
+        "transformer.h.9.ln_2.bias": "transformer.h.9.ln_2.bias",
+        "transformer.h.9.mlp.c_fc.weight": "transformer.h.9.mlp.c_fc.weight",
+        "transformer.h.9.mlp.c_fc.bias": "transformer.h.9.mlp.c_fc.bias",
+        "transformer.h.9.mlp.c_proj.weight": "transformer.h.9.mlp.c_proj.weight",
+        "transformer.h.9.mlp.c_proj.bias": "transformer.h.9.mlp.c_proj.bias",
+        "transformer.h.10.ln_1.weight": "transformer.h.10.ln_1.weight",
+        "transformer.h.10.ln_1.bias": "transformer.h.10.ln_1.bias",
+        "transformer.h.10.attn.c_attn.weight": "transformer.h.10.attn.c_attn.weight",
+        "transformer.h.10.attn.c_attn.bias": "transformer.h.10.attn.c_attn.bias",
+        "transformer.h.10.attn.c_proj.weight": "transformer.h.10.attn.c_proj.weight",
+        "transformer.h.10.attn.c_proj.bias": "transformer.h.10.attn.c_proj.bias",
+        "transformer.h.10.ln_2.weight": "transformer.h.10.ln_2.weight",
+        "transformer.h.10.ln_2.bias": "transformer.h.10.ln_2.bias",
+        "transformer.h.10.mlp.c_fc.weight": "transformer.h.10.mlp.c_fc.weight",
+        "transformer.h.10.mlp.c_fc.bias": "transformer.h.10.mlp.c_fc.bias",
+        "transformer.h.10.mlp.c_proj.weight": "transformer.h.10.mlp.c_proj.weight",
+        "transformer.h.10.mlp.c_proj.bias": "transformer.h.10.mlp.c_proj.bias",
+        "transformer.h.11.ln_1.weight": "transformer.h.11.ln_1.weight",
+        "transformer.h.11.ln_1.bias": "transformer.h.11.ln_1.bias",
+        "transformer.h.11.attn.c_attn.weight": "transformer.h.11.attn.c_attn.weight",
+        "transformer.h.11.attn.c_attn.bias": "transformer.h.11.attn.c_attn.bias",
+        "transformer.h.11.attn.c_proj.weight": "transformer.h.11.attn.c_proj.weight",
+        "transformer.h.11.attn.c_proj.bias": "transformer.h.11.attn.c_proj.bias",
+        "transformer.h.11.ln_2.weight": "transformer.h.11.ln_2.weight",
+        "transformer.h.11.ln_2.bias": "transformer.h.11.ln_2.bias",
+        "transformer.h.11.mlp.c_fc.weight": "transformer.h.11.mlp.c_fc.weight",
+        "transformer.h.11.mlp.c_fc.bias": "transformer.h.11.mlp.c_fc.bias",
+        "transformer.h.11.mlp.c_proj.weight": "transformer.h.11.mlp.c_proj.weight",
+        "transformer.h.11.mlp.c_proj.bias": "transformer.h.11.mlp.c_proj.bias",
+        "transformer.ln_f.weight": "transformer.ln_f.weight",
+        "transformer.ln_f.bias": "transformer.ln_f.bias",
+        "lm_head.weight": "transformer.wte.weight"
+      },
+      "unique_learned_scalars": 124439808,
+      "bias_scalars": 102144,
+      "one_pbit_assignments_if_all_learned_scalars_converted": 124439808,
+      "scope": "Metadata-only architecture inventory. Biases and learned normalization parameters are included. No pretrained weights loaded and no examples or task scores evaluated."
+    },
+    {
+      "model": "distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+      "revision": "714eb0fa89d2f80546fda750413ed43d93601a13",
+      "model_type": "distilbert",
+      "canonical_parameters": [
+        {
+          "name": "distilbert.embeddings.word_embeddings.weight",
+          "shape": [
+            30522,
+            768
+          ],
+          "elements": 23440896
+        },
+        {
+          "name": "distilbert.embeddings.position_embeddings.weight",
+          "shape": [
+            512,
+            768
+          ],
+          "elements": 393216
+        },
+        {
+          "name": "distilbert.embeddings.LayerNorm.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.embeddings.LayerNorm.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.0.attention.q_lin.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "distilbert.transformer.layer.0.attention.q_lin.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.0.attention.k_lin.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "distilbert.transformer.layer.0.attention.k_lin.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.0.attention.v_lin.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "distilbert.transformer.layer.0.attention.v_lin.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.0.attention.out_lin.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "distilbert.transformer.layer.0.attention.out_lin.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.0.sa_layer_norm.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.0.sa_layer_norm.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.0.ffn.lin1.weight",
+          "shape": [
+            3072,
+            768
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "distilbert.transformer.layer.0.ffn.lin1.bias",
+          "shape": [
+            3072
+          ],
+          "elements": 3072
+        },
+        {
+          "name": "distilbert.transformer.layer.0.ffn.lin2.weight",
+          "shape": [
+            768,
+            3072
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "distilbert.transformer.layer.0.ffn.lin2.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.0.output_layer_norm.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.0.output_layer_norm.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.1.attention.q_lin.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "distilbert.transformer.layer.1.attention.q_lin.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.1.attention.k_lin.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "distilbert.transformer.layer.1.attention.k_lin.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.1.attention.v_lin.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "distilbert.transformer.layer.1.attention.v_lin.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.1.attention.out_lin.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "distilbert.transformer.layer.1.attention.out_lin.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.1.sa_layer_norm.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.1.sa_layer_norm.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.1.ffn.lin1.weight",
+          "shape": [
+            3072,
+            768
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "distilbert.transformer.layer.1.ffn.lin1.bias",
+          "shape": [
+            3072
+          ],
+          "elements": 3072
+        },
+        {
+          "name": "distilbert.transformer.layer.1.ffn.lin2.weight",
+          "shape": [
+            768,
+            3072
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "distilbert.transformer.layer.1.ffn.lin2.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.1.output_layer_norm.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.1.output_layer_norm.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.2.attention.q_lin.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "distilbert.transformer.layer.2.attention.q_lin.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.2.attention.k_lin.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "distilbert.transformer.layer.2.attention.k_lin.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.2.attention.v_lin.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "distilbert.transformer.layer.2.attention.v_lin.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.2.attention.out_lin.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "distilbert.transformer.layer.2.attention.out_lin.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.2.sa_layer_norm.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.2.sa_layer_norm.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.2.ffn.lin1.weight",
+          "shape": [
+            3072,
+            768
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "distilbert.transformer.layer.2.ffn.lin1.bias",
+          "shape": [
+            3072
+          ],
+          "elements": 3072
+        },
+        {
+          "name": "distilbert.transformer.layer.2.ffn.lin2.weight",
+          "shape": [
+            768,
+            3072
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "distilbert.transformer.layer.2.ffn.lin2.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.2.output_layer_norm.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.2.output_layer_norm.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.3.attention.q_lin.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "distilbert.transformer.layer.3.attention.q_lin.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.3.attention.k_lin.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "distilbert.transformer.layer.3.attention.k_lin.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.3.attention.v_lin.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "distilbert.transformer.layer.3.attention.v_lin.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.3.attention.out_lin.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "distilbert.transformer.layer.3.attention.out_lin.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.3.sa_layer_norm.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.3.sa_layer_norm.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.3.ffn.lin1.weight",
+          "shape": [
+            3072,
+            768
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "distilbert.transformer.layer.3.ffn.lin1.bias",
+          "shape": [
+            3072
+          ],
+          "elements": 3072
+        },
+        {
+          "name": "distilbert.transformer.layer.3.ffn.lin2.weight",
+          "shape": [
+            768,
+            3072
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "distilbert.transformer.layer.3.ffn.lin2.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.3.output_layer_norm.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.3.output_layer_norm.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.4.attention.q_lin.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "distilbert.transformer.layer.4.attention.q_lin.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.4.attention.k_lin.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "distilbert.transformer.layer.4.attention.k_lin.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.4.attention.v_lin.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "distilbert.transformer.layer.4.attention.v_lin.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.4.attention.out_lin.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "distilbert.transformer.layer.4.attention.out_lin.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.4.sa_layer_norm.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.4.sa_layer_norm.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.4.ffn.lin1.weight",
+          "shape": [
+            3072,
+            768
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "distilbert.transformer.layer.4.ffn.lin1.bias",
+          "shape": [
+            3072
+          ],
+          "elements": 3072
+        },
+        {
+          "name": "distilbert.transformer.layer.4.ffn.lin2.weight",
+          "shape": [
+            768,
+            3072
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "distilbert.transformer.layer.4.ffn.lin2.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.4.output_layer_norm.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.4.output_layer_norm.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.5.attention.q_lin.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "distilbert.transformer.layer.5.attention.q_lin.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.5.attention.k_lin.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "distilbert.transformer.layer.5.attention.k_lin.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.5.attention.v_lin.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "distilbert.transformer.layer.5.attention.v_lin.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.5.attention.out_lin.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "distilbert.transformer.layer.5.attention.out_lin.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.5.sa_layer_norm.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.5.sa_layer_norm.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.5.ffn.lin1.weight",
+          "shape": [
+            3072,
+            768
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "distilbert.transformer.layer.5.ffn.lin1.bias",
+          "shape": [
+            3072
+          ],
+          "elements": 3072
+        },
+        {
+          "name": "distilbert.transformer.layer.5.ffn.lin2.weight",
+          "shape": [
+            768,
+            3072
+          ],
+          "elements": 2359296
+        },
+        {
+          "name": "distilbert.transformer.layer.5.ffn.lin2.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.5.output_layer_norm.weight",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "distilbert.transformer.layer.5.output_layer_norm.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "pre_classifier.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "elements": 589824
+        },
+        {
+          "name": "pre_classifier.bias",
+          "shape": [
+            768
+          ],
+          "elements": 768
+        },
+        {
+          "name": "classifier.weight",
+          "shape": [
+            2,
+            768
+          ],
+          "elements": 1536
+        },
+        {
+          "name": "classifier.bias",
+          "shape": [
+            2
+          ],
+          "elements": 2
+        }
+      ],
+      "aliases": {
+        "distilbert.embeddings.word_embeddings.weight": "distilbert.embeddings.word_embeddings.weight",
+        "distilbert.embeddings.position_embeddings.weight": "distilbert.embeddings.position_embeddings.weight",
+        "distilbert.embeddings.LayerNorm.weight": "distilbert.embeddings.LayerNorm.weight",
+        "distilbert.embeddings.LayerNorm.bias": "distilbert.embeddings.LayerNorm.bias",
+        "distilbert.transformer.layer.0.attention.q_lin.weight": "distilbert.transformer.layer.0.attention.q_lin.weight",
+        "distilbert.transformer.layer.0.attention.q_lin.bias": "distilbert.transformer.layer.0.attention.q_lin.bias",
+        "distilbert.transformer.layer.0.attention.k_lin.weight": "distilbert.transformer.layer.0.attention.k_lin.weight",
+        "distilbert.transformer.layer.0.attention.k_lin.bias": "distilbert.transformer.layer.0.attention.k_lin.bias",
+        "distilbert.transformer.layer.0.attention.v_lin.weight": "distilbert.transformer.layer.0.attention.v_lin.weight",
+        "distilbert.transformer.layer.0.attention.v_lin.bias": "distilbert.transformer.layer.0.attention.v_lin.bias",
+        "distilbert.transformer.layer.0.attention.out_lin.weight": "distilbert.transformer.layer.0.attention.out_lin.weight",
+        "distilbert.transformer.layer.0.attention.out_lin.bias": "distilbert.transformer.layer.0.attention.out_lin.bias",
+        "distilbert.transformer.layer.0.sa_layer_norm.weight": "distilbert.transformer.layer.0.sa_layer_norm.weight",
+        "distilbert.transformer.layer.0.sa_layer_norm.bias": "distilbert.transformer.layer.0.sa_layer_norm.bias",
+        "distilbert.transformer.layer.0.ffn.lin1.weight": "distilbert.transformer.layer.0.ffn.lin1.weight",
+        "distilbert.transformer.layer.0.ffn.lin1.bias": "distilbert.transformer.layer.0.ffn.lin1.bias",
+        "distilbert.transformer.layer.0.ffn.lin2.weight": "distilbert.transformer.layer.0.ffn.lin2.weight",
+        "distilbert.transformer.layer.0.ffn.lin2.bias": "distilbert.transformer.layer.0.ffn.lin2.bias",
+        "distilbert.transformer.layer.0.output_layer_norm.weight": "distilbert.transformer.layer.0.output_layer_norm.weight",
+        "distilbert.transformer.layer.0.output_layer_norm.bias": "distilbert.transformer.layer.0.output_layer_norm.bias",
+        "distilbert.transformer.layer.1.attention.q_lin.weight": "distilbert.transformer.layer.1.attention.q_lin.weight",
+        "distilbert.transformer.layer.1.attention.q_lin.bias": "distilbert.transformer.layer.1.attention.q_lin.bias",
+        "distilbert.transformer.layer.1.attention.k_lin.weight": "distilbert.transformer.layer.1.attention.k_lin.weight",
+        "distilbert.transformer.layer.1.attention.k_lin.bias": "distilbert.transformer.layer.1.attention.k_lin.bias",
+        "distilbert.transformer.layer.1.attention.v_lin.weight": "distilbert.transformer.layer.1.attention.v_lin.weight",
+        "distilbert.transformer.layer.1.attention.v_lin.bias": "distilbert.transformer.layer.1.attention.v_lin.bias",
+        "distilbert.transformer.layer.1.attention.out_lin.weight": "distilbert.transformer.layer.1.attention.out_lin.weight",
+        "distilbert.transformer.layer.1.attention.out_lin.bias": "distilbert.transformer.layer.1.attention.out_lin.bias",
+        "distilbert.transformer.layer.1.sa_layer_norm.weight": "distilbert.transformer.layer.1.sa_layer_norm.weight",
+        "distilbert.transformer.layer.1.sa_layer_norm.bias": "distilbert.transformer.layer.1.sa_layer_norm.bias",
+        "distilbert.transformer.layer.1.ffn.lin1.weight": "distilbert.transformer.layer.1.ffn.lin1.weight",
+        "distilbert.transformer.layer.1.ffn.lin1.bias": "distilbert.transformer.layer.1.ffn.lin1.bias",
+        "distilbert.transformer.layer.1.ffn.lin2.weight": "distilbert.transformer.layer.1.ffn.lin2.weight",
+        "distilbert.transformer.layer.1.ffn.lin2.bias": "distilbert.transformer.layer.1.ffn.lin2.bias",
+        "distilbert.transformer.layer.1.output_layer_norm.weight": "distilbert.transformer.layer.1.output_layer_norm.weight",
+        "distilbert.transformer.layer.1.output_layer_norm.bias": "distilbert.transformer.layer.1.output_layer_norm.bias",
+        "distilbert.transformer.layer.2.attention.q_lin.weight": "distilbert.transformer.layer.2.attention.q_lin.weight",
+        "distilbert.transformer.layer.2.attention.q_lin.bias": "distilbert.transformer.layer.2.attention.q_lin.bias",
+        "distilbert.transformer.layer.2.attention.k_lin.weight": "distilbert.transformer.layer.2.attention.k_lin.weight",
+        "distilbert.transformer.layer.2.attention.k_lin.bias": "distilbert.transformer.layer.2.attention.k_lin.bias",
+        "distilbert.transformer.layer.2.attention.v_lin.weight": "distilbert.transformer.layer.2.attention.v_lin.weight",
+        "distilbert.transformer.layer.2.attention.v_lin.bias": "distilbert.transformer.layer.2.attention.v_lin.bias",
+        "distilbert.transformer.layer.2.attention.out_lin.weight": "distilbert.transformer.layer.2.attention.out_lin.weight",
+        "distilbert.transformer.layer.2.attention.out_lin.bias": "distilbert.transformer.layer.2.attention.out_lin.bias",
+        "distilbert.transformer.layer.2.sa_layer_norm.weight": "distilbert.transformer.layer.2.sa_layer_norm.weight",
+        "distilbert.transformer.layer.2.sa_layer_norm.bias": "distilbert.transformer.layer.2.sa_layer_norm.bias",
+        "distilbert.transformer.layer.2.ffn.lin1.weight": "distilbert.transformer.layer.2.ffn.lin1.weight",
+        "distilbert.transformer.layer.2.ffn.lin1.bias": "distilbert.transformer.layer.2.ffn.lin1.bias",
+        "distilbert.transformer.layer.2.ffn.lin2.weight": "distilbert.transformer.layer.2.ffn.lin2.weight",
+        "distilbert.transformer.layer.2.ffn.lin2.bias": "distilbert.transformer.layer.2.ffn.lin2.bias",
+        "distilbert.transformer.layer.2.output_layer_norm.weight": "distilbert.transformer.layer.2.output_layer_norm.weight",
+        "distilbert.transformer.layer.2.output_layer_norm.bias": "distilbert.transformer.layer.2.output_layer_norm.bias",
+        "distilbert.transformer.layer.3.attention.q_lin.weight": "distilbert.transformer.layer.3.attention.q_lin.weight",
+        "distilbert.transformer.layer.3.attention.q_lin.bias": "distilbert.transformer.layer.3.attention.q_lin.bias",
+        "distilbert.transformer.layer.3.attention.k_lin.weight": "distilbert.transformer.layer.3.attention.k_lin.weight",
+        "distilbert.transformer.layer.3.attention.k_lin.bias": "distilbert.transformer.layer.3.attention.k_lin.bias",
+        "distilbert.transformer.layer.3.attention.v_lin.weight": "distilbert.transformer.layer.3.attention.v_lin.weight",
+        "distilbert.transformer.layer.3.attention.v_lin.bias": "distilbert.transformer.layer.3.attention.v_lin.bias",
+        "distilbert.transformer.layer.3.attention.out_lin.weight": "distilbert.transformer.layer.3.attention.out_lin.weight",
+        "distilbert.transformer.layer.3.attention.out_lin.bias": "distilbert.transformer.layer.3.attention.out_lin.bias",
+        "distilbert.transformer.layer.3.sa_layer_norm.weight": "distilbert.transformer.layer.3.sa_layer_norm.weight",
+        "distilbert.transformer.layer.3.sa_layer_norm.bias": "distilbert.transformer.layer.3.sa_layer_norm.bias",
+        "distilbert.transformer.layer.3.ffn.lin1.weight": "distilbert.transformer.layer.3.ffn.lin1.weight",
+        "distilbert.transformer.layer.3.ffn.lin1.bias": "distilbert.transformer.layer.3.ffn.lin1.bias",
+        "distilbert.transformer.layer.3.ffn.lin2.weight": "distilbert.transformer.layer.3.ffn.lin2.weight",
+        "distilbert.transformer.layer.3.ffn.lin2.bias": "distilbert.transformer.layer.3.ffn.lin2.bias",
+        "distilbert.transformer.layer.3.output_layer_norm.weight": "distilbert.transformer.layer.3.output_layer_norm.weight",
+        "distilbert.transformer.layer.3.output_layer_norm.bias": "distilbert.transformer.layer.3.output_layer_norm.bias",
+        "distilbert.transformer.layer.4.attention.q_lin.weight": "distilbert.transformer.layer.4.attention.q_lin.weight",
+        "distilbert.transformer.layer.4.attention.q_lin.bias": "distilbert.transformer.layer.4.attention.q_lin.bias",
+        "distilbert.transformer.layer.4.attention.k_lin.weight": "distilbert.transformer.layer.4.attention.k_lin.weight",
+        "distilbert.transformer.layer.4.attention.k_lin.bias": "distilbert.transformer.layer.4.attention.k_lin.bias",
+        "distilbert.transformer.layer.4.attention.v_lin.weight": "distilbert.transformer.layer.4.attention.v_lin.weight",
+        "distilbert.transformer.layer.4.attention.v_lin.bias": "distilbert.transformer.layer.4.attention.v_lin.bias",
+        "distilbert.transformer.layer.4.attention.out_lin.weight": "distilbert.transformer.layer.4.attention.out_lin.weight",
+        "distilbert.transformer.layer.4.attention.out_lin.bias": "distilbert.transformer.layer.4.attention.out_lin.bias",
+        "distilbert.transformer.layer.4.sa_layer_norm.weight": "distilbert.transformer.layer.4.sa_layer_norm.weight",
+        "distilbert.transformer.layer.4.sa_layer_norm.bias": "distilbert.transformer.layer.4.sa_layer_norm.bias",
+        "distilbert.transformer.layer.4.ffn.lin1.weight": "distilbert.transformer.layer.4.ffn.lin1.weight",
+        "distilbert.transformer.layer.4.ffn.lin1.bias": "distilbert.transformer.layer.4.ffn.lin1.bias",
+        "distilbert.transformer.layer.4.ffn.lin2.weight": "distilbert.transformer.layer.4.ffn.lin2.weight",
+        "distilbert.transformer.layer.4.ffn.lin2.bias": "distilbert.transformer.layer.4.ffn.lin2.bias",
+        "distilbert.transformer.layer.4.output_layer_norm.weight": "distilbert.transformer.layer.4.output_layer_norm.weight",
+        "distilbert.transformer.layer.4.output_layer_norm.bias": "distilbert.transformer.layer.4.output_layer_norm.bias",
+        "distilbert.transformer.layer.5.attention.q_lin.weight": "distilbert.transformer.layer.5.attention.q_lin.weight",
+        "distilbert.transformer.layer.5.attention.q_lin.bias": "distilbert.transformer.layer.5.attention.q_lin.bias",
+        "distilbert.transformer.layer.5.attention.k_lin.weight": "distilbert.transformer.layer.5.attention.k_lin.weight",
+        "distilbert.transformer.layer.5.attention.k_lin.bias": "distilbert.transformer.layer.5.attention.k_lin.bias",
+        "distilbert.transformer.layer.5.attention.v_lin.weight": "distilbert.transformer.layer.5.attention.v_lin.weight",
+        "distilbert.transformer.layer.5.attention.v_lin.bias": "distilbert.transformer.layer.5.attention.v_lin.bias",
+        "distilbert.transformer.layer.5.attention.out_lin.weight": "distilbert.transformer.layer.5.attention.out_lin.weight",
+        "distilbert.transformer.layer.5.attention.out_lin.bias": "distilbert.transformer.layer.5.attention.out_lin.bias",
+        "distilbert.transformer.layer.5.sa_layer_norm.weight": "distilbert.transformer.layer.5.sa_layer_norm.weight",
+        "distilbert.transformer.layer.5.sa_layer_norm.bias": "distilbert.transformer.layer.5.sa_layer_norm.bias",
+        "distilbert.transformer.layer.5.ffn.lin1.weight": "distilbert.transformer.layer.5.ffn.lin1.weight",
+        "distilbert.transformer.layer.5.ffn.lin1.bias": "distilbert.transformer.layer.5.ffn.lin1.bias",
+        "distilbert.transformer.layer.5.ffn.lin2.weight": "distilbert.transformer.layer.5.ffn.lin2.weight",
+        "distilbert.transformer.layer.5.ffn.lin2.bias": "distilbert.transformer.layer.5.ffn.lin2.bias",
+        "distilbert.transformer.layer.5.output_layer_norm.weight": "distilbert.transformer.layer.5.output_layer_norm.weight",
+        "distilbert.transformer.layer.5.output_layer_norm.bias": "distilbert.transformer.layer.5.output_layer_norm.bias",
+        "pre_classifier.weight": "pre_classifier.weight",
+        "pre_classifier.bias": "pre_classifier.bias",
+        "classifier.weight": "classifier.weight",
+        "classifier.bias": "classifier.bias"
+      },
+      "unique_learned_scalars": 66955010,
+      "bias_scalars": 52226,
+      "one_pbit_assignments_if_all_learned_scalars_converted": 66955010,
+      "scope": "Metadata-only architecture inventory. Biases and learned normalization parameters are included. No pretrained weights loaded and no examples or task scores evaluated."
+    }
+  ]
+}

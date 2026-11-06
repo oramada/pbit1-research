@@ -1,0 +1,7 @@
+{
+  "type": "AssertionError",
+  "message": "{'seed': 202611150, 'module': 'holdout_native_case_v3', 'exit_code': 1, 'log': '/workspace/cloud_holdout_logs_v3/202611150/f60eb43d8b314b49a3a7d380534be85b.log'}",
+  "traceback": "Traceback (most recent call last):\n  File \"/root/app.py\", line 65, in case\n    assert process.returncode==0,{'seed':seed,'module':module,'exit_code':process.returncode,'log':str(logpath)}\n           ^^^^^^^^^^^^^^^^^^^^^\nAssertionError: {'seed': 202611150, 'module': 'holdout_native_case_v3', 'exit_code': 1, 'log': '/workspace/cloud_holdout_logs_v3/202611150/f60eb43d8b314b49a3a7d380534be85b.log'}\n",
+  "call_id": "fc-01M6PS7NEJKV91J43XXY8Y376K",
+  "seed": 202611150
+}

@@ -1,0 +1,23 @@
+{
+  "status": "all_target_coverage_context_bounds_and_article_boundary_fixtures_passed",
+  "token_counts_tested": [
+    0,
+    1,
+    2,
+    511,
+    512,
+    513,
+    514,
+    1023,
+    1024,
+    1025,
+    1537,
+    10000
+  ],
+  "target_policy": "Every token index1..N-1 within each article exactly once, context<=1024, targetstride<=512",
+  "sources_sha256": {
+    "/home/omarramadan/Desktop/extropic_compression/research/thrml_spw/broad/preflight_data_layout_v1.py": "fd9dac33392289215c7e9090ae2a9beadcef7e6d7a8e35fef55214bcaf1cb797",
+    "/home/omarramadan/Desktop/extropic_compression/research/thrml_spw/broad/data_layout_v1.py": "8352c505eebc55fadf1c0dcb59c27d3ef5c2b6453561b24214740861705d1dec"
+  },
+  "scope": "Synthetic layout only, no checkpoint, real corpus or quality scores."
+}

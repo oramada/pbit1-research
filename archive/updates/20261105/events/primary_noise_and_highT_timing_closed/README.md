@@ -1,0 +1,3 @@
+# Closed primary-noise diagnostic and production-width timing
+
+Both models pass the predeclared eight-sigma aggregate Bernoulli noise-moment diagnostic. This does not revise the original mixed model-quality result. The count-only H100 timing fixture measures1.53330s per65536lane tile at262144samples, with cold/JIT and warm timings separate. GPT2all1995tiles imply~51minutes of count-only work perdraw by extrapolation, excluding other overhead. No new full-model high-budget task score has started. Synthetic-only actualmodel uint32installation/replay gate is frozen and running; its result remains pending.

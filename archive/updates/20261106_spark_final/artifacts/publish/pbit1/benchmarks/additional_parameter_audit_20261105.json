@@ -1,0 +1,37 @@
+{
+  "status": "both_complete_parameter_packages_and_every_code_range_BF16point_alias_and_allocation_independently_verified",
+  "source_sha256": "eebe32494372541b6d3baab7425d995ecdc4c645392532740a805d6533d71574",
+  "results_sha256": "88c00a4ce54e4db9a646b34069d0bd4fb4498c22a7bdc939060d290857a32a2b",
+  "elapsed_seconds": 195.81468128699998,
+  "scope": "Every control code and group checked against raw pinned safetensors rounded to BF16, complete canonical coverage including biases and norms, metadata/controller costs explicit. No neural forward, task quality, full-model stochastic sampling or physical density proof.",
+  "packages": [
+    {
+      "model": "openai-community/gpt2",
+      "package_sha256": "73614f01e0f2220d3035e587d59c68f98c4d2758802b95ebc4462fe52857d009",
+      "canonical_parameters": 148,
+      "all_parameter_codes_checked": 124439808,
+      "bias_scalars_checked": 102144,
+      "range_groups_checked": 972186,
+      "constant_groups_still_charged": 0,
+      "range_metadata_bits": 62219904,
+      "finite_control_information_bits": 1493277696,
+      "serialized_program_bytes": 193026332,
+      "unlearned_checkpoint_mask_scalars_excluded": 12582912
+    },
+    {
+      "model": "distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+      "package_sha256": "398f7700b54715d96c294a1c7359fe0e8c3418cb981291d0a2deea89f80bbcc9",
+      "canonical_parameters": 104,
+      "all_parameter_codes_checked": 66955010,
+      "bias_scalars_checked": 52226,
+      "range_groups_checked": 523087,
+      "constant_groups_still_charged": 0,
+      "range_metadata_bits": 33477568,
+      "finite_control_information_bits": 803460120,
+      "serialized_program_bytes": 103670111,
+      "unlearned_checkpoint_mask_scalars_excluded": 0
+    }
+  ],
+  "full_audit_sha256": "d701ce519f58b0d378f083f63e2f1df310a1a332f213f88fc41f3c8f3b473479",
+  "recorded_utc": "2026-11-05T21:53:54.926217+00:00"
+}

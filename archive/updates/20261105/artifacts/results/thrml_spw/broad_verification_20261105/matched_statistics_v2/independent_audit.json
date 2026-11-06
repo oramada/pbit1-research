@@ -1,0 +1,9 @@
+{
+  "status": "all45_case_inputs_Decimal_statistics_backend_labels_and_matched_work_independently_verified",
+  "source_sha256": "cd0673143455a7ad897d192cb26fcb505b5fe72c5aca6ea2b8f6cc354863fcf6",
+  "statistics_sha256": "d7c5438cc0ef90ff8690eec4544f3b4de29c74d108adb09760b739ad3d6ea72f",
+  "protocol_sha256": "313e80c32eec2d36cc566980b0350230764221e0be47b461b5bcafd7071429b4",
+  "cases_verified": 45,
+  "unique_input_files": 90,
+  "scope": "Post-execution descriptive aggregation of accepted case audits. Hardware backends explicitly differ for higher-budget K1 versusK4/K8; no duplicate seed pooling, universal quality, or physical-cost claim."
+}

@@ -1,0 +1,13 @@
+{
+  "source_sha256": "bc1eae9083bd0b2f81d22be01dd6b7d5280bf885d7a0c779931875f8ec067d24",
+  "wait_pid": 2940519,
+  "scripts": {
+    "analyze_lfm3_training_depth_v1": "69b53a42c136ba2b2d23ff72191f7df5bb020a9b829e08354e6147cee1116e57",
+    "lfm3_causal_depth_v2": "6b78472f38a5108dd358845e0a69472699fd5cd9bd2a331610f4608195318da7",
+    "analyze_lfm3_causal_v1": "c90ab82096d369b30d05110d94a1b41da8505c53cca08534024a6d8c0ced847e",
+    "lfm3_benchmark_v2": "963180d6ef8e7f6a473918284282c65c04f7a9660ebdcfa827e50800a4b80725"
+  },
+  "cloud": "disabled",
+  "serial_GPU": true,
+  "scope": "Local continuation only. No goal completion or publication."
+}

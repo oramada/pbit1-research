@@ -1,0 +1,32 @@
+{
+  "status": "implementation_requirements_recorded_before_any_additional_model_task_scoring",
+  "scope": "R1fullparameterreconstruction; R2operator execution must remain separately validated.",
+  "passed_gates": [
+    "Pinned checkpoint and dataset byte hashes",
+    "Complete test token/label independent reconstruction",
+    "CPUandH100officialTHRML publicstate/count/readout oracle,1,376,256bits,zerobackenddifferences",
+    "Actual65536lane primary8192work budget H100publicstate/popcount/rational readout oracle,1,610,612,736bits",
+    "Every controlcode,group,originalBF16point and alias checked for all191,394,818learnedscalars",
+    "Paired5seed/article or review statistical arithmetic oracle, unequalunitweights, decision and invalidinputfixtures"
+  ],
+  "point_and_readout": {
+    "original": "Pinned checkpoint rounded once toBF16; all learnedbiases/norms included, tiesonce",
+    "grouping": "128successivescalars within canonicalparameter; actualshorttailgroups and constants fullycharged",
+    "sampler": "parameter_counts_v2.py,65536cellsper softwaretile, initialfalse,warmup1, all cellsfree, finitefields from12bitcommands",
+    "readout": "Exactint64sum(bitcounts*2^bit),FP64divideby(T*(2^K-1)),FP64lower+span*p, castfloat32thenBF16onCPU, transfer toH100.",
+    "draw_reuse": "One reconstructedmodel draw perMCseed reused for every evaluationexample. No R2or actualGPUmemorycompression claim."
+  },
+  "frozen_selection": "additional_model_inventory/selection_protocol_v1.json",
+  "quality_criteria": "Existingmodel-specific margins and5seedspercondition. PrimaryK1,C8192. Both conditionalMCt4 and crossedseed/data95percent upperbounds must satisfy margin against originalBF16 and K1finiteprogrammeanBF16. Report all formats/budgets and failures.",
+  "remaining_required_implementation": [
+    "Inferenceandcompletecaseauditor sources, checkpoints and durablecallownership",
+    "No-testdata actualmodel forward/parameterreplacement preflight",
+    "Complete prospective execution and statistical protocol binding all sourcebytes and passedgates before first taskscore",
+    "Deterministic originalBF16,K1/K4/K8ownmean,INT2/4/8 controls; fullfixedtasks",
+    "All5seeds for eachK1/K4/K8 andC1024/4096/8192; exactexistingkeylists",
+    "Retain rawcounts and BF16parameterhashes; independent neural replay from storedcounts with no resampling",
+    "Keep allDistilBERT logits; forGPT2 retain fullbatchlogit hashes and alltargetlosscomponents, verify everybatch via independent neuralreplay rather than storing multiTB of logits",
+    "Final paired taskstatistics and independentcase/statistical audits; simulator runtime/work/memory separate from physical energy/latency"
+  ],
+  "nonideality_and_systems_goal": "Still required after additionalmodel qualitytests; physicalhardware claims need access."
+}

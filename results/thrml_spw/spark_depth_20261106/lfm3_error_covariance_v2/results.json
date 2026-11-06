@@ -1,0 +1,371 @@
+{
+  "status": "all24_blocks_five_draw_conditional_error_covariances_measured",
+  "protocol_sha256": "ddea6d73d4444cc9f6bf77ab53b65ecc3ccfb12679074134899b662a691ac714",
+  "checked": [
+    {
+      "seed": 2026111801,
+      "weight_count_hashes_checked": 286,
+      "replayed_targets": 8192
+    },
+    {
+      "seed": 2026111802,
+      "weight_count_hashes_checked": 286,
+      "replayed_targets": 8192
+    },
+    {
+      "seed": 2026111803,
+      "weight_count_hashes_checked": 286,
+      "replayed_targets": 8192
+    },
+    {
+      "seed": 2026111804,
+      "weight_count_hashes_checked": 286,
+      "replayed_targets": 8192
+    },
+    {
+      "seed": 2026111805,
+      "weight_count_hashes_checked": 286,
+      "replayed_targets": 8192
+    }
+  ],
+  "summaries": [
+    {
+      "group": 0,
+      "layer": 0,
+      "mean_absolute_error_correlation": 0.02904843840454874,
+      "covariance_participation_ratio": 8.82563999842666,
+      "largest_eigenvalue_fraction": 0.3243152023468651
+    },
+    {
+      "group": 0,
+      "layer": 1,
+      "mean_absolute_error_correlation": 0.024614181537555575,
+      "covariance_participation_ratio": 5.513795932991251,
+      "largest_eigenvalue_fraction": 0.41839710505213773
+    },
+    {
+      "group": 0,
+      "layer": 2,
+      "mean_absolute_error_correlation": 0.05873855755888639,
+      "covariance_participation_ratio": 6.66002261728915,
+      "largest_eigenvalue_fraction": 0.37587115462841164
+    },
+    {
+      "group": 0,
+      "layer": 3,
+      "mean_absolute_error_correlation": 0.0727052011552521,
+      "covariance_participation_ratio": 6.975501300016274,
+      "largest_eigenvalue_fraction": 0.36496280006367376
+    },
+    {
+      "group": 0,
+      "layer": 4,
+      "mean_absolute_error_correlation": 0.06535752901083908,
+      "covariance_participation_ratio": 11.12635523572324,
+      "largest_eigenvalue_fraction": 0.27599975495066487
+    },
+    {
+      "group": 0,
+      "layer": 5,
+      "mean_absolute_error_correlation": 0.10657338414154839,
+      "covariance_participation_ratio": 10.214270681449781,
+      "largest_eigenvalue_fraction": 0.2825122569970245
+    },
+    {
+      "group": 0,
+      "layer": 6,
+      "mean_absolute_error_correlation": 0.056447215391236795,
+      "covariance_participation_ratio": 19.58945485472163,
+      "largest_eigenvalue_fraction": 0.19107423304914123
+    },
+    {
+      "group": 0,
+      "layer": 7,
+      "mean_absolute_error_correlation": 0.049038511566349426,
+      "covariance_participation_ratio": 7.349775218455494,
+      "largest_eigenvalue_fraction": 0.35703448887916867
+    },
+    {
+      "group": 0,
+      "layer": 8,
+      "mean_absolute_error_correlation": 0.05545796596680196,
+      "covariance_participation_ratio": 17.094020164911036,
+      "largest_eigenvalue_fraction": 0.20507454309812573
+    },
+    {
+      "group": 0,
+      "layer": 9,
+      "mean_absolute_error_correlation": 0.05146787517926682,
+      "covariance_participation_ratio": 9.219336787993866,
+      "largest_eigenvalue_fraction": 0.3121601830297632
+    },
+    {
+      "group": 0,
+      "layer": 10,
+      "mean_absolute_error_correlation": 0.06144032687030629,
+      "covariance_participation_ratio": 12.96489977471629,
+      "largest_eigenvalue_fraction": 0.2531776754920226
+    },
+    {
+      "group": 0,
+      "layer": 11,
+      "mean_absolute_error_correlation": 0.05215722187236213,
+      "covariance_participation_ratio": 13.23223586752144,
+      "largest_eigenvalue_fraction": 0.2515724322474155
+    },
+    {
+      "group": 0,
+      "layer": 12,
+      "mean_absolute_error_correlation": 0.062193488188114314,
+      "covariance_participation_ratio": 6.706562592630153,
+      "largest_eigenvalue_fraction": 0.3738234847890233
+    },
+    {
+      "group": 0,
+      "layer": 13,
+      "mean_absolute_error_correlation": 0.06204124242566478,
+      "covariance_participation_ratio": 14.26771553441316,
+      "largest_eigenvalue_fraction": 0.23654493313818986
+    },
+    {
+      "group": 0,
+      "layer": 14,
+      "mean_absolute_error_correlation": 0.04750508662990904,
+      "covariance_participation_ratio": 15.044703509209791,
+      "largest_eigenvalue_fraction": 0.23375216624535314
+    },
+    {
+      "group": 0,
+      "layer": 15,
+      "mean_absolute_error_correlation": 0.04090443602410057,
+      "covariance_participation_ratio": 17.901396901673575,
+      "largest_eigenvalue_fraction": 0.2090167054120379
+    },
+    {
+      "group": 0,
+      "layer": 16,
+      "mean_absolute_error_correlation": 0.041387068829651444,
+      "covariance_participation_ratio": 8.954633848643047,
+      "largest_eigenvalue_fraction": 0.31999871415340614
+    },
+    {
+      "group": 0,
+      "layer": 17,
+      "mean_absolute_error_correlation": 0.03592153542049232,
+      "covariance_participation_ratio": 12.785307299101689,
+      "largest_eigenvalue_fraction": 0.2600698836963934
+    },
+    {
+      "group": 0,
+      "layer": 18,
+      "mean_absolute_error_correlation": 0.03519300210459749,
+      "covariance_participation_ratio": 7.961369248319701,
+      "largest_eigenvalue_fraction": 0.3412865859827041
+    },
+    {
+      "group": 0,
+      "layer": 19,
+      "mean_absolute_error_correlation": 0.031881316598410966,
+      "covariance_participation_ratio": 8.474933572334104,
+      "largest_eigenvalue_fraction": 0.33122102837874495
+    },
+    {
+      "group": 0,
+      "layer": 20,
+      "mean_absolute_error_correlation": 0.029967106450962903,
+      "covariance_participation_ratio": 7.700694662752581,
+      "largest_eigenvalue_fraction": 0.3497901351726802
+    },
+    {
+      "group": 0,
+      "layer": 21,
+      "mean_absolute_error_correlation": 0.02680580044725294,
+      "covariance_participation_ratio": 12.509206109408545,
+      "largest_eigenvalue_fraction": 0.2654973932872144
+    },
+    {
+      "group": 0,
+      "layer": 22,
+      "mean_absolute_error_correlation": 0.05140022439744292,
+      "covariance_participation_ratio": 15.783280684520596,
+      "largest_eigenvalue_fraction": 0.21973277452790324
+    },
+    {
+      "group": 0,
+      "layer": 23,
+      "mean_absolute_error_correlation": 0.10088893519513746,
+      "covariance_participation_ratio": 4.502312045047071,
+      "largest_eigenvalue_fraction": 0.45989598094076073
+    },
+    {
+      "group": 1,
+      "layer": 0,
+      "mean_absolute_error_correlation": 0.02359578989769834,
+      "covariance_participation_ratio": 59.11228983090506,
+      "largest_eigenvalue_fraction": 0.03084630675257091
+    },
+    {
+      "group": 1,
+      "layer": 1,
+      "mean_absolute_error_correlation": 0.01824631313847026,
+      "covariance_participation_ratio": 60.930431881604314,
+      "largest_eigenvalue_fraction": 0.02673539932757287
+    },
+    {
+      "group": 1,
+      "layer": 2,
+      "mean_absolute_error_correlation": 0.022998040663968905,
+      "covariance_participation_ratio": 58.32124507058664,
+      "largest_eigenvalue_fraction": 0.037717092430770115
+    },
+    {
+      "group": 1,
+      "layer": 3,
+      "mean_absolute_error_correlation": 0.02305578576614182,
+      "covariance_participation_ratio": 59.055577480026855,
+      "largest_eigenvalue_fraction": 0.03287126227278736
+    },
+    {
+      "group": 1,
+      "layer": 4,
+      "mean_absolute_error_correlation": 0.032652466527235614,
+      "covariance_participation_ratio": 52.74192906352073,
+      "largest_eigenvalue_fraction": 0.059715984053480504
+    },
+    {
+      "group": 1,
+      "layer": 5,
+      "mean_absolute_error_correlation": 0.0326940271672504,
+      "covariance_participation_ratio": 52.371788931881746,
+      "largest_eigenvalue_fraction": 0.05264834178766362
+    },
+    {
+      "group": 1,
+      "layer": 6,
+      "mean_absolute_error_correlation": 0.030510665085545688,
+      "covariance_participation_ratio": 45.82144018112484,
+      "largest_eigenvalue_fraction": 0.06749169355828685
+    },
+    {
+      "group": 1,
+      "layer": 7,
+      "mean_absolute_error_correlation": 0.0242129166542121,
+      "covariance_participation_ratio": 48.83323423583544,
+      "largest_eigenvalue_fraction": 0.07034335142198031
+    },
+    {
+      "group": 1,
+      "layer": 8,
+      "mean_absolute_error_correlation": 0.02469400326159702,
+      "covariance_participation_ratio": 57.08341128691394,
+      "largest_eigenvalue_fraction": 0.03337465915942226
+    },
+    {
+      "group": 1,
+      "layer": 9,
+      "mean_absolute_error_correlation": 0.02497540771074607,
+      "covariance_participation_ratio": 52.93353704346597,
+      "largest_eigenvalue_fraction": 0.04879311664165913
+    },
+    {
+      "group": 1,
+      "layer": 10,
+      "mean_absolute_error_correlation": 0.02892030703095146,
+      "covariance_participation_ratio": 53.3996689292183,
+      "largest_eigenvalue_fraction": 0.04043154409144352
+    },
+    {
+      "group": 1,
+      "layer": 11,
+      "mean_absolute_error_correlation": 0.026061642414646823,
+      "covariance_participation_ratio": 54.90444575246,
+      "largest_eigenvalue_fraction": 0.038271607540777054
+    },
+    {
+      "group": 1,
+      "layer": 12,
+      "mean_absolute_error_correlation": 0.02668023011343267,
+      "covariance_participation_ratio": 55.68155548300491,
+      "largest_eigenvalue_fraction": 0.039994629562483446
+    },
+    {
+      "group": 1,
+      "layer": 13,
+      "mean_absolute_error_correlation": 0.022878041646196185,
+      "covariance_participation_ratio": 55.94350623381454,
+      "largest_eigenvalue_fraction": 0.036314735320653595
+    },
+    {
+      "group": 1,
+      "layer": 14,
+      "mean_absolute_error_correlation": 0.03012468328562638,
+      "covariance_participation_ratio": 50.96259124827129,
+      "largest_eigenvalue_fraction": 0.045455947314439846
+    },
+    {
+      "group": 1,
+      "layer": 15,
+      "mean_absolute_error_correlation": 0.02363989503626812,
+      "covariance_participation_ratio": 57.257128918833104,
+      "largest_eigenvalue_fraction": 0.03481515567776447
+    },
+    {
+      "group": 1,
+      "layer": 16,
+      "mean_absolute_error_correlation": 0.022111293975004276,
+      "covariance_participation_ratio": 4.876183817788372,
+      "largest_eigenvalue_fraction": 0.44663754273737766
+    },
+    {
+      "group": 1,
+      "layer": 17,
+      "mean_absolute_error_correlation": 0.020063941935686926,
+      "covariance_participation_ratio": 58.213612627539774,
+      "largest_eigenvalue_fraction": 0.033931547470334916
+    },
+    {
+      "group": 1,
+      "layer": 18,
+      "mean_absolute_error_correlation": 0.018504139314154754,
+      "covariance_participation_ratio": 57.148881571852925,
+      "largest_eigenvalue_fraction": 0.031282092456682384
+    },
+    {
+      "group": 1,
+      "layer": 19,
+      "mean_absolute_error_correlation": 0.01656608293620424,
+      "covariance_participation_ratio": 59.34049436025737,
+      "largest_eigenvalue_fraction": 0.025944716697535328
+    },
+    {
+      "group": 1,
+      "layer": 20,
+      "mean_absolute_error_correlation": 0.021033839199724173,
+      "covariance_participation_ratio": 58.146830700673156,
+      "largest_eigenvalue_fraction": 0.030936420913822444
+    },
+    {
+      "group": 1,
+      "layer": 21,
+      "mean_absolute_error_correlation": 0.017782172189479424,
+      "covariance_participation_ratio": 58.98041181052375,
+      "largest_eigenvalue_fraction": 0.026699260900036628
+    },
+    {
+      "group": 1,
+      "layer": 22,
+      "mean_absolute_error_correlation": 0.02848826551452768,
+      "covariance_participation_ratio": 11.424928941076057,
+      "largest_eigenvalue_fraction": 0.2782166896837806
+    },
+    {
+      "group": 1,
+      "layer": 23,
+      "mean_absolute_error_correlation": 0.03117499499486797,
+      "covariance_participation_ratio": 56.55051261807194,
+      "largest_eigenvalue_fraction": 0.04415831185496562
+    }
+  ],
+  "scope": "Average across input positions of the sample covariance across five independent model weight draws, conditional on each fixed input. All24blocks, two64channel subsets. Training-only descriptive statistic; channel selection already used this cohort. No heldout quality claim or full2048x2048covariance claim.",
+  "elapsed_seconds": 579.7246340049896
+}

@@ -1,0 +1,5 @@
+{
+  "type": "ValueError",
+  "message": "'/__modal/volumes/vo-xPupdD37HndFLHDMPewQva/results/thrml_spw/lfm3_1p7b/holdout_native_v3/202611150/attempts/95d4dcd2599a40c0814e87f201585ccf/batch0_BF16.npz' is not in the subpath of 'results/thrml_spw/lfm3_1p7b/holdout_native_v3/202611150'",
+  "status": "program_failure_preserved_terminal_no_automatic_scientific_retry"
+}

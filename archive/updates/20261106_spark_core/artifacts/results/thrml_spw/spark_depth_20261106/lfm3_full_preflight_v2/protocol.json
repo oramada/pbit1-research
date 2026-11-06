@@ -1,0 +1,23 @@
+{
+  "source_sha256": "444fc1502a73d9ba78340c9c1a5ca3f8aebcdd480ee99b7953f59dd59af3ad08",
+  "prepared_sha256": "993325f38d5da48f3ea4b2828edaee4554e198348bbe972a397c54d754b93502",
+  "offloader_sha256": "321b49d4053ef57c060744742ad3a675ed53c1f408e77501dcdfdf466d55da9e",
+  "cases": [
+    [
+      1,
+      17
+    ],
+    [
+      1,
+      65
+    ],
+    [
+      1,
+      1024
+    ]
+  ],
+  "GPU_cap_bytes": 2147483648,
+  "use_cache": false,
+  "wide_conv_kernel": false,
+  "scope": "Fulloriginalcheckpoint,syntheticIDs only. Tests finiteforwards,modulecoverage,weightimmutabilityandGPUallocation; nottaskquality."
+}

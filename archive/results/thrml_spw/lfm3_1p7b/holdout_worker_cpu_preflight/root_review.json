@@ -1,0 +1,12 @@
+{
+  "status": "root_CPU_long_shape_public_state_audit_source_artifact_and_resource_totals_verified",
+  "reviewed_utc": "2026-10-30T17:23:08.533044+00:00",
+  "audit_sha256": "ccaa766e8d6550a5345476883319c33226e600a4fc4eac333d5db4edc4b67d7c",
+  "protocol_sha256": "ae24b1d67faac0200fae175239f42f582c64ad84b28e6ae8cc78135bb293ac1f",
+  "results_sha256": "1ddc9b596b4fd63845cc1557dd2c7ea3f432e266a45fcfca41e512e1374816a7",
+  "public_bits": 151009280,
+  "integer_entries": 8289792,
+  "max_absolute_integer_total": 2145823019,
+  "CPU_affinity": "producer inherited four available CPUs; CUDA_VISIBLE_DEVICES empty; JAX_PLATFORMS cpu",
+  "scope": "CPU official THRML component check at1,028activationpositions, T8192 and7680fanin, exact independentint64 reconstruction and signed high-magnitude mirrors. Not GPU validation, full-model forward fidelity, quality, heldout scoring, physical bit flips, energy or latency."
+}

@@ -1,0 +1,24 @@
+{
+  "source_sha256": "1a66780f0935f18faa13442c01dd57def5da2034973ff904eebdb332e0ad64f3",
+  "gradient_results_sha256": "9f8d23a42bd311111cafbc302bc2ea65acd1a43942a58b84fbd6eca2c8f446c1",
+  "rows": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "input_length": 129,
+  "groups_for_1D": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "2D_group": 128,
+  "sample_cap": 32768,
+  "scope": "CPUFP32training-onlygradientproxy, no weightupdates orqualityclaim. Shrinkrangeson1Dnorm/biasvectors whilekeepingonepbitperscalar andcountingmetadata."
+}

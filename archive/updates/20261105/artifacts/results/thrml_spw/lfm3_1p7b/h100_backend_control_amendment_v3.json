@@ -1,0 +1,13 @@
+{
+  "status": "explicit_user_authorized_backend_control_amendment_before_continuation",
+  "recorded_utc": "2026-10-30T23:32:26.298472+00:00",
+  "original_producer_protocol_sha256": "f31360b61e60d7549fd1a28de1d31b2f06112556f824f59d89e43889e2b9f4ba",
+  "H100_reference_sha256": "172b7f3d2fdd6776e461f995993b18a6f6e96a7b8c2491475bc8cf70929db9ec",
+  "new_auditor_sha256": "3a8232526459d8b299c6c785903137a3cf834ae7fce6724dcf85c7f716502303",
+  "new_wrapper_sha256": "d9a890a2e1d922dabdec12065a5e63247d31f285865e95851b5ac729b7008384",
+  "orchestrator_sha256": "4639e7150da2dfdbb72b454d5623ada7168382283984f6fb84f030fad2aae6e4",
+  "quality_NLL_margin": 0.01980262729617973,
+  "known_control_shift_same_fit_NLL": 5.150653649454995e-05,
+  "policy": "Use exact H100 master control arrays for H100 cases. Original local BF16 controls and failed bridge retained. Unchanged stochastic producer, seeds, work, and2percentqualitymargin. Backend shift is deterministic, not an estimated variance. Native/nominal bridge arrays match exactly; no full-success claim. Report controls for each backend separately and disclose this post-observation user-authorized amendment.",
+  "scope": "Implementation continuation, not a new preregistered discovery or relaxation of neural quality criteria."
+}

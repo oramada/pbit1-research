@@ -1,0 +1,42 @@
+{
+  "status": "first_complete_v4_native_batch_checkpoints_closed_with_all4legacy_raw_outputs_matching",
+  "observed_unix": 1793915501.6526494,
+  "call_id": "fc-01M6PST9TAEYR7RM5T4H4C69Q3",
+  "seed": 202611150,
+  "batch": 0,
+  "stages": [
+    {
+      "stage": "BF16",
+      "checkpoint_json_sha256": "ca2480d2d2ef5112d7e84239b00b7cd6c345c932fe7cf272dad7f1d664492884",
+      "legacy_output_sha256": "eee6ac58b88403d382b70d7f62f590fb474a1c62b0a5413c2f7f7b699d8a0e29",
+      "raw_float32_bitwise_identical": true,
+      "retained_device_evaluations": 0,
+      "warmup_device_evaluations": 0
+    },
+    {
+      "stage": "same_fit_BF16",
+      "checkpoint_json_sha256": "3775223827f22cbc2e16ac50ce76780d0ca6b856a64910db6eece1ccbaf4cf2f",
+      "legacy_output_sha256": "38d04b58be4e927fb5fb1e343e589ddcc2266fb048babefd47b37441c9100a01",
+      "raw_float32_bitwise_identical": true,
+      "retained_device_evaluations": 0,
+      "warmup_device_evaluations": 0
+    },
+    {
+      "stage": "nominal_controls",
+      "checkpoint_json_sha256": "3d74bdede3ecf099a8044139af7b95b3f8a59347f61488c1a583a36214d9fb94",
+      "legacy_output_sha256": "74e4f4e4837d1a01e5a58967299363bb79a9aae40c112e51df612a31b73a8cd2",
+      "raw_float32_bitwise_identical": true,
+      "retained_device_evaluations": 0,
+      "warmup_device_evaluations": 0
+    },
+    {
+      "stage": "native",
+      "checkpoint_json_sha256": "78eda3d24b80c55dfa27f7d68dfdc4b5d26f62394554cea0eaa75606f800ec1d",
+      "legacy_output_sha256": "8af005dbe49d7e111177feef567554b94451077d0bbc39bbaaf26c4d6c86eea5",
+      "raw_float32_bitwise_identical": true,
+      "retained_device_evaluations": 14175277416448,
+      "warmup_device_evaluations": 1730380544
+    }
+  ],
+  "scope": "Closed stage metadata/digests checked; exact rawlogit replay comparisons performed by frozenproducer. Does not substitute for complete16batch caseaudit or full5seed qualityanalysis."
+}

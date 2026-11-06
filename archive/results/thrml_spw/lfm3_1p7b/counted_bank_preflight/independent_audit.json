@@ -1,0 +1,9 @@
+{
+  "status": "all_six_public_counts_and_exact_integer_observable_factorizations_verified",
+  "source_sha256": "c5e764d69f628fba9a26002412f89cfada6b6040e99638104c2fc9cdf708408d",
+  "results_sha256": "3e087e4c546e84e9d21f26c8b77aaba72e0921b41b1cf33eaf5731cfc1cec572",
+  "public_bits": 175658176,
+  "output_counter_entries_per_path": 4327232,
+  "weight_count_entries_per_path": 1058304,
+  "scope": "Software simulation identity sum_t XZ_t=Xsum_tZ_t underintegeroverflowguard, including520positions/7680fanin. Explicitper-weightint32countworkspace; not physicaldirect-outputcounterdatapath equivalence, freeprecision/samplinggain, fullmodeladoption, modelquality, simulator-speedorhardwareenergy/latencyclaim. Existing model studies unchanged."
+}

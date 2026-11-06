@@ -1,0 +1,19 @@
+{
+  "protocol_sha256": "c8068f1ad89588c04ea6cf0ef4d1be630a675c4bf7f0cbb8c50296b08ad2a91c",
+  "calls": {
+    "gpt2__K1_C262144_seed202611800": "fc-01M6Q1TZV3EFTT4MR34SKC24J9",
+    "gpt2__K1_C262144_seed202611801": "fc-01M6Q1TZZGPC1E290K6186101N",
+    "gpt2__K1_C262144_seed202611802": "fc-01M6Q1V03J3KVMAVNMGTNZ9GBJ",
+    "gpt2__K1_C262144_seed202611803": "fc-01M6Q1V0798PDDTEFNX50BM9YQ"
+  },
+  "completed": {},
+  "status": "four_parallel_H100_fixed_highT_followup_cases_running",
+  "observer": {
+    "pid": 2766230,
+    "start_ticks": 123715748,
+    "argv": [
+      "/home/omarramadan/Desktop/extropic_compression/cloud/highT_execution_v1/client.py"
+    ]
+  },
+  "updated_unix": 1793922531.6457293
+}

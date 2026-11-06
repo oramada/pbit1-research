@@ -1,0 +1,4 @@
+{
+  "status": "aggregation_stopped_before_statistics_written",
+  "cause": "Bit-identical control arrays have independently computed FP64 loss reductions differing by about1e-14 across CPU types. V2 preserves per-seed control values rather than requiring scalar equality. No sampling rerun or quality-margin change."
+}

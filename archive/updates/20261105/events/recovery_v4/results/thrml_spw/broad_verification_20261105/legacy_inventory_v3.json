@@ -1,0 +1,30 @@
+{
+  "status": "preserved_legacy_outputs_hashed_without_quality_inspection",
+  "seed": 202611150,
+  "files": {
+    "batch0_BF16.npz": {
+      "bytes": 102245886,
+      "sha256": "eee6ac58b88403d382b70d7f62f590fb474a1c62b0a5413c2f7f7b699d8a0e29"
+    },
+    "batch0_native.npz": {
+      "bytes": 103090139,
+      "sha256": "8af005dbe49d7e111177feef567554b94451077d0bbc39bbaaf26c4d6c86eea5"
+    },
+    "batch0_nominal_controls.npz": {
+      "bytes": 102190837,
+      "sha256": "74e4f4e4837d1a01e5a58967299363bb79a9aae40c112e51df612a31b73a8cd2"
+    },
+    "batch0_same_fit_BF16.npz": {
+      "bytes": 102200241,
+      "sha256": "38d04b58be4e927fb5fb1e343e589ddcc2266fb048babefd47b37441c9100a01"
+    },
+    "batch1_BF16.npz": {
+      "bytes": 102689206,
+      "sha256": "b7b2b5112fc457ea8aeb7ec98b2bc51552aa7caf9f1a3db7ed9c4c047d150884"
+    },
+    "batch1_same_fit_BF16.npz": {
+      "bytes": 102596067,
+      "sha256": "47d9c1cb119085d78222b22feece3752f248cf90ea6fdcd699d882cb7e6338a7"
+    }
+  }
+}

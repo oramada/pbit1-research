@@ -1,0 +1,8 @@
+{
+  "source_sha256": "585602cb785a08c39447bda180f388942d4656e3f21a6eb4d1a924ad77af62e3",
+  "parser_sha256": "8352c505eebc55fadf1c0dcb59c27d3ef5c2b6453561b24214740861705d1dec",
+  "tokenizer_sha256": "7e226e34bface23ccf6e495d157bf77186c1c30a7659880e1a8994db528c3701",
+  "training_sha256": "e83889baabc497075506f91975be5fac0d45c5290b6b20582c8cd1e853d0c9f7",
+  "test_sha256": "5f1bea067869d04849c0f975a2b29c4ff47d867f484f5010ea5e861eab246d91",
+  "scope": "Preparationonly; LFM3tokenizer, noaddedspecialtokens, allwithinarticletargetsonce. Testwasusedinearlierresearch,notnewunexposeddata. No model scoring or chosen encoding."
+}

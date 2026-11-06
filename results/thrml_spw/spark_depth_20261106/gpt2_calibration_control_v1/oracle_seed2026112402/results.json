@@ -1,0 +1,10 @@
+{
+  "kind": "oracle",
+  "seed": 2026112402,
+  "NLL": 3.8125696617320597,
+  "targets": 1024,
+  "point_sha256": "c83554d6fc57523a2a4865ce38ea882dc9a9b14669606e17e2597c5bb1ebae4a",
+  "bias_SSE_relative_to_requested_mean": 3.7889030635839,
+  "sampling_variance_SSE": 407.78118491314495,
+  "clipped_inverse_requests": 1004129
+}

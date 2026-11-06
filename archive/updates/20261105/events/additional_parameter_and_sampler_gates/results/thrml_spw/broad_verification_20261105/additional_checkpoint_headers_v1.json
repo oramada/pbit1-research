@@ -1,0 +1,2786 @@
+{
+  "openai-community--gpt2": {
+    "file": "data/thrml_spw/broad_additional_v1/openai-community--gpt2/model.safetensors",
+    "header_sha256": "6201ba7dfaf69457803f802c211019e95f0c1a99a1f5387dcb53e500e5e30e85",
+    "header": {
+      "__metadata__": {
+        "format": "pt"
+      },
+      "h.3.ln_2.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          202420224,
+          202423296
+        ]
+      },
+      "h.10.ln_1.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          223154176,
+          223157248
+        ]
+      },
+      "h.2.attn.c_attn.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          2304
+        ],
+        "data_offsets": [
+          541012992,
+          548090880
+        ]
+      },
+      "h.4.attn.c_proj.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          18954240,
+          21313536
+        ]
+      },
+      "h.7.attn.bias": {
+        "dtype": "F32",
+        "shape": [
+          1,
+          1,
+          1024,
+          1024
+        ],
+        "data_offsets": [
+          263339008,
+          267533312
+        ]
+      },
+      "h.4.attn.c_attn.bias": {
+        "dtype": "F32",
+        "shape": [
+          2304
+        ],
+        "data_offsets": [
+          150975488,
+          150984704
+        ]
+      },
+      "h.2.attn.bias": {
+        "dtype": "F32",
+        "shape": [
+          1,
+          1,
+          1024,
+          1024
+        ],
+        "data_offsets": [
+          516081664,
+          520275968
+        ]
+      },
+      "h.5.mlp.c_proj.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          21313536,
+          21316608
+        ]
+      },
+      "h.1.attn.c_proj.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          513716224,
+          516075520
+        ]
+      },
+      "h.4.ln_1.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          206623744,
+          206626816
+        ]
+      },
+      "h.3.attn.c_proj.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          0,
+          3072
+        ]
+      },
+      "h.6.ln_1.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          460497920,
+          460500992
+        ]
+      },
+      "h.7.ln_2.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          85387264,
+          85390336
+        ]
+      },
+      "h.9.ln_1.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          441598976,
+          441602048
+        ]
+      },
+      "h.4.attn.bias": {
+        "dtype": "F32",
+        "shape": [
+          1,
+          1,
+          1024,
+          1024
+        ],
+        "data_offsets": [
+          67521536,
+          71715840
+        ]
+      },
+      "h.3.ln_2.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          524491776,
+          524494848
+        ]
+      },
+      "h.11.mlp.c_fc.bias": {
+        "dtype": "F32",
+        "shape": [
+          3072
+        ],
+        "data_offsets": [
+          132064256,
+          132076544
+        ]
+      },
+      "h.4.ln_2.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          53862400,
+          53865472
+        ]
+      },
+      "h.10.attn.c_attn.bias": {
+        "dtype": "F32",
+        "shape": [
+          2304
+        ],
+        "data_offsets": [
+          176440320,
+          176449536
+        ]
+      },
+      "h.5.mlp.c_proj.weight": {
+        "dtype": "F32",
+        "shape": [
+          3072,
+          768
+        ],
+        "data_offsets": [
+          242083840,
+          251521024
+        ]
+      },
+      "h.8.mlp.c_proj.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          206620672,
+          206623744
+        ]
+      },
+      "h.7.mlp.c_fc.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          3072
+        ],
+        "data_offsets": [
+          441605120,
+          451042304
+        ]
+      },
+      "h.2.mlp.c_fc.bias": {
+        "dtype": "F32",
+        "shape": [
+          3072
+        ],
+        "data_offsets": [
+          3072,
+          15360
+        ]
+      },
+      "h.7.mlp.c_proj.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          53865472,
+          53868544
+        ]
+      },
+      "h.3.mlp.c_proj.weight": {
+        "dtype": "F32",
+        "shape": [
+          3072,
+          768
+        ],
+        "data_offsets": [
+          223157248,
+          232594432
+        ]
+      },
+      "h.7.attn.c_proj.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          251533312,
+          253892608
+        ]
+      },
+      "h.3.ln_1.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          451048448,
+          451051520
+        ]
+      },
+      "h.10.ln_1.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          520288256,
+          520291328
+        ]
+      },
+      "h.9.attn.c_proj.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          531572736,
+          531575808
+        ]
+      },
+      "h.0.mlp.c_proj.weight": {
+        "dtype": "F32",
+        "shape": [
+          3072,
+          768
+        ],
+        "data_offsets": [
+          531575808,
+          541012992
+        ]
+      },
+      "h.8.mlp.c_proj.weight": {
+        "dtype": "F32",
+        "shape": [
+          3072,
+          768
+        ],
+        "data_offsets": [
+          9474048,
+          18911232
+        ]
+      },
+      "h.8.attn.c_proj.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          37859328,
+          40218624
+        ]
+      },
+      "h.11.attn.c_proj.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          139166720,
+          141526016
+        ]
+      },
+      "h.5.ln_2.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          40218624,
+          40221696
+        ]
+      },
+      "h.9.ln_1.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          185902080,
+          185905152
+        ]
+      },
+      "h.0.ln_1.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          242077696,
+          242080768
+        ]
+      },
+      "h.0.attn.c_attn.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          2304
+        ],
+        "data_offsets": [
+          270682112,
+          277760000
+        ]
+      },
+      "h.11.ln_1.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          441602048,
+          441605120
+        ]
+      },
+      "h.9.mlp.c_proj.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          451051520,
+          451054592
+        ]
+      },
+      "h.2.mlp.c_proj.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          451057664,
+          451060736
+        ]
+      },
+      "h.9.attn.c_proj.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          181183488,
+          183542784
+        ]
+      },
+      "h.3.attn.c_attn.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          2304
+        ],
+        "data_offsets": [
+          479375360,
+          486453248
+        ]
+      },
+      "h.1.attn.c_proj.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          160421888,
+          160424960
+        ]
+      },
+      "h.9.attn.c_attn.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          2304
+        ],
+        "data_offsets": [
+          21319680,
+          28397568
+        ]
+      },
+      "h.9.mlp.c_fc.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          3072
+        ],
+        "data_offsets": [
+          277772288,
+          287209472
+        ]
+      },
+      "h.5.mlp.c_fc.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          3072
+        ],
+        "data_offsets": [
+          469938176,
+          479375360
+        ]
+      },
+      "wpe.weight": {
+        "dtype": "F32",
+        "shape": [
+          1024,
+          768
+        ],
+        "data_offsets": [
+          267533312,
+          270679040
+        ]
+      },
+      "h.2.mlp.c_fc.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          3072
+        ],
+        "data_offsets": [
+          451060736,
+          460497920
+        ]
+      },
+      "h.0.attn.c_proj.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          18432,
+          2377728
+        ]
+      },
+      "h.7.ln_2.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          172239872,
+          172242944
+        ]
+      },
+      "h.4.attn.c_proj.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          520291328,
+          520294400
+        ]
+      },
+      "h.0.mlp.c_proj.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          263332864,
+          263335936
+        ]
+      },
+      "h.9.mlp.c_proj.weight": {
+        "dtype": "F32",
+        "shape": [
+          3072,
+          768
+        ],
+        "data_offsets": [
+          150984704,
+          160421888
+        ]
+      },
+      "h.0.attn.bias": {
+        "dtype": "F32",
+        "shape": [
+          1,
+          1,
+          1024,
+          1024
+        ],
+        "data_offsets": [
+          94833664,
+          99027968
+        ]
+      },
+      "h.9.ln_2.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          53859328,
+          53862400
+        ]
+      },
+      "h.11.ln_1.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          53868544,
+          53871616
+        ]
+      },
+      "h.8.ln_2.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          132061184,
+          132064256
+        ]
+      },
+      "h.11.mlp.c_proj.weight": {
+        "dtype": "F32",
+        "shape": [
+          3072,
+          768
+        ],
+        "data_offsets": [
+          160424960,
+          169862144
+        ]
+      },
+      "h.0.ln_1.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          451042304,
+          451045376
+        ]
+      },
+      "h.1.ln_1.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          172236800,
+          172239872
+        ]
+      },
+      "h.0.ln_2.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          206626816,
+          206629888
+        ]
+      },
+      "h.3.mlp.c_fc.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          3072
+        ],
+        "data_offsets": [
+          253892608,
+          263329792
+        ]
+      },
+      "h.8.attn.c_proj.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          150966272,
+          150969344
+        ]
+      },
+      "h.0.ln_2.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          67518464,
+          67521536
+        ]
+      },
+      "h.1.ln_2.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          94830592,
+          94833664
+        ]
+      },
+      "h.3.attn.c_proj.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          176449536,
+          178808832
+        ]
+      },
+      "h.8.ln_1.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          251530240,
+          251533312
+        ]
+      },
+      "h.1.mlp.c_fc.bias": {
+        "dtype": "F32",
+        "shape": [
+          3072
+        ],
+        "data_offsets": [
+          277760000,
+          277772288
+        ]
+      },
+      "h.10.attn.c_proj.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          178808832,
+          181168128
+        ]
+      },
+      "h.8.attn.c_attn.bias": {
+        "dtype": "F32",
+        "shape": [
+          2304
+        ],
+        "data_offsets": [
+          251521024,
+          251530240
+        ]
+      },
+      "h.4.mlp.c_fc.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          3072
+        ],
+        "data_offsets": [
+          185905152,
+          195342336
+        ]
+      },
+      "h.2.attn.c_proj.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          65159168,
+          67518464
+        ]
+      },
+      "h.8.attn.bias": {
+        "dtype": "F32",
+        "shape": [
+          1,
+          1,
+          1024,
+          1024
+        ],
+        "data_offsets": [
+          509521920,
+          513716224
+        ]
+      },
+      "h.11.attn.bias": {
+        "dtype": "F32",
+        "shape": [
+          1,
+          1,
+          1024,
+          1024
+        ],
+        "data_offsets": [
+          49665024,
+          53859328
+        ]
+      },
+      "h.1.ln_2.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          53871616,
+          53874688
+        ]
+      },
+      "h.3.ln_1.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          242074624,
+          242077696
+        ]
+      },
+      "h.8.ln_2.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          263329792,
+          263332864
+        ]
+      },
+      "ln_f.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          9458688,
+          9461760
+        ]
+      },
+      "h.7.ln_1.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          169874432,
+          169877504
+        ]
+      },
+      "h.11.mlp.c_fc.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          3072
+        ],
+        "data_offsets": [
+          40227840,
+          49665024
+        ]
+      },
+      "h.4.mlp.c_proj.weight": {
+        "dtype": "F32",
+        "shape": [
+          3072,
+          768
+        ],
+        "data_offsets": [
+          460500992,
+          469938176
+        ]
+      },
+      "h.3.attn.bias": {
+        "dtype": "F32",
+        "shape": [
+          1,
+          1,
+          1024,
+          1024
+        ],
+        "data_offsets": [
+          202426368,
+          206620672
+        ]
+      },
+      "h.11.attn.c_attn.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          2304
+        ],
+        "data_offsets": [
+          108468224,
+          115546112
+        ]
+      },
+      "h.6.mlp.c_fc.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          3072
+        ],
+        "data_offsets": [
+          28406784,
+          37843968
+        ]
+      },
+      "h.9.attn.c_attn.bias": {
+        "dtype": "F32",
+        "shape": [
+          2304
+        ],
+        "data_offsets": [
+          9461760,
+          9470976
+        ]
+      },
+      "h.9.attn.bias": {
+        "dtype": "F32",
+        "shape": [
+          1,
+          1,
+          1024,
+          1024
+        ],
+        "data_offsets": [
+          81153024,
+          85347328
+        ]
+      },
+      "h.10.attn.c_attn.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          2304
+        ],
+        "data_offsets": [
+          124983296,
+          132061184
+        ]
+      },
+      "h.6.ln_2.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          169862144,
+          169865216
+        ]
+      },
+      "h.7.ln_1.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          516075520,
+          516078592
+        ]
+      },
+      "h.10.mlp.c_fc.bias": {
+        "dtype": "F32",
+        "shape": [
+          3072
+        ],
+        "data_offsets": [
+          520275968,
+          520288256
+        ]
+      },
+      "h.6.mlp.c_fc.bias": {
+        "dtype": "F32",
+        "shape": [
+          3072
+        ],
+        "data_offsets": [
+          232594432,
+          232606720
+        ]
+      },
+      "h.6.attn.c_attn.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          2304
+        ],
+        "data_offsets": [
+          206629888,
+          213707776
+        ]
+      },
+      "h.3.mlp.c_proj.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          15360,
+          18432
+        ]
+      },
+      "h.1.ln_1.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          213710848,
+          213713920
+        ]
+      },
+      "h.8.mlp.c_fc.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          3072
+        ],
+        "data_offsets": [
+          490647552,
+          500084736
+        ]
+      },
+      "h.2.ln_2.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          176437248,
+          176440320
+        ]
+      },
+      "h.8.ln_1.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          242053120,
+          242056192
+        ]
+      },
+      "h.7.mlp.c_proj.weight": {
+        "dtype": "F32",
+        "shape": [
+          3072,
+          768
+        ],
+        "data_offsets": [
+          213713920,
+          223151104
+        ]
+      },
+      "wte.weight": {
+        "dtype": "F32",
+        "shape": [
+          50257,
+          768
+        ],
+        "data_offsets": [
+          287209472,
+          441598976
+        ]
+      },
+      "h.5.ln_2.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          202423296,
+          202426368
+        ]
+      },
+      "h.1.mlp.c_fc.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          3072
+        ],
+        "data_offsets": [
+          232606720,
+          242043904
+        ]
+      },
+      "h.6.attn.c_proj.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          263335936,
+          263339008
+        ]
+      },
+      "h.0.mlp.c_fc.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          3072
+        ],
+        "data_offsets": [
+          115546112,
+          124983296
+        ]
+      },
+      "h.8.attn.c_attn.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          2304
+        ],
+        "data_offsets": [
+          53886976,
+          60964864
+        ]
+      },
+      "h.2.attn.c_proj.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          85347328,
+          85350400
+        ]
+      },
+      "h.2.ln_1.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          85350400,
+          85353472
+        ]
+      },
+      "h.7.attn.c_attn.bias": {
+        "dtype": "F32",
+        "shape": [
+          2304
+        ],
+        "data_offsets": [
+          242043904,
+          242053120
+        ]
+      },
+      "h.5.attn.c_attn.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          2304
+        ],
+        "data_offsets": [
+          524494848,
+          531572736
+        ]
+      },
+      "h.10.attn.c_proj.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          181168128,
+          181171200
+        ]
+      },
+      "h.2.attn.c_attn.bias": {
+        "dtype": "F32",
+        "shape": [
+          2304
+        ],
+        "data_offsets": [
+          28397568,
+          28406784
+        ]
+      },
+      "h.5.attn.bias": {
+        "dtype": "F32",
+        "shape": [
+          1,
+          1,
+          1024,
+          1024
+        ],
+        "data_offsets": [
+          60964864,
+          65159168
+        ]
+      },
+      "h.11.ln_2.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          270679040,
+          270682112
+        ]
+      },
+      "h.11.mlp.c_proj.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          520294400,
+          520297472
+        ]
+      },
+      "h.0.mlp.c_fc.bias": {
+        "dtype": "F32",
+        "shape": [
+          3072
+        ],
+        "data_offsets": [
+          18941952,
+          18954240
+        ]
+      },
+      "h.10.mlp.c_proj.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          150969344,
+          150972416
+        ]
+      },
+      "h.1.mlp.c_proj.weight": {
+        "dtype": "F32",
+        "shape": [
+          3072,
+          768
+        ],
+        "data_offsets": [
+          141526016,
+          150963200
+        ]
+      },
+      "h.10.ln_2.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          516078592,
+          516081664
+        ]
+      },
+      "h.7.attn.c_attn.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          2304
+        ],
+        "data_offsets": [
+          132076544,
+          139154432
+        ]
+      },
+      "h.2.mlp.c_proj.weight": {
+        "dtype": "F32",
+        "shape": [
+          3072,
+          768
+        ],
+        "data_offsets": [
+          500084736,
+          509521920
+        ]
+      },
+      "h.9.ln_2.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          169865216,
+          169868288
+        ]
+      },
+      "h.6.attn.bias": {
+        "dtype": "F32",
+        "shape": [
+          1,
+          1,
+          1024,
+          1024
+        ],
+        "data_offsets": [
+          172242944,
+          176437248
+        ]
+      },
+      "h.5.ln_1.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          2377728,
+          2380800
+        ]
+      },
+      "h.3.mlp.c_fc.bias": {
+        "dtype": "F32",
+        "shape": [
+          3072
+        ],
+        "data_offsets": [
+          18920448,
+          18932736
+        ]
+      },
+      "h.11.attn.c_proj.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          21316608,
+          21319680
+        ]
+      },
+      "h.4.attn.c_attn.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          2304
+        ],
+        "data_offsets": [
+          195342336,
+          202420224
+        ]
+      },
+      "h.3.attn.c_attn.bias": {
+        "dtype": "F32",
+        "shape": [
+          2304
+        ],
+        "data_offsets": [
+          18911232,
+          18920448
+        ]
+      },
+      "h.2.ln_1.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          451054592,
+          451057664
+        ]
+      },
+      "h.2.ln_2.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          223151104,
+          223154176
+        ]
+      },
+      "h.0.attn.c_attn.bias": {
+        "dtype": "F32",
+        "shape": [
+          2304
+        ],
+        "data_offsets": [
+          85365760,
+          85374976
+        ]
+      },
+      "h.1.mlp.c_proj.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          94827520,
+          94830592
+        ]
+      },
+      "h.5.attn.c_proj.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          169871360,
+          169874432
+        ]
+      },
+      "h.6.ln_1.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          451045376,
+          451048448
+        ]
+      },
+      "h.11.attn.c_attn.bias": {
+        "dtype": "F32",
+        "shape": [
+          2304
+        ],
+        "data_offsets": [
+          85353472,
+          85362688
+        ]
+      },
+      "h.9.mlp.c_fc.bias": {
+        "dtype": "F32",
+        "shape": [
+          3072
+        ],
+        "data_offsets": [
+          37847040,
+          37859328
+        ]
+      },
+      "h.5.mlp.c_fc.bias": {
+        "dtype": "F32",
+        "shape": [
+          3072
+        ],
+        "data_offsets": [
+          85374976,
+          85387264
+        ]
+      },
+      "h.10.mlp.c_proj.weight": {
+        "dtype": "F32",
+        "shape": [
+          3072,
+          768
+        ],
+        "data_offsets": [
+          71715840,
+          81153024
+        ]
+      },
+      "h.5.attn.c_attn.bias": {
+        "dtype": "F32",
+        "shape": [
+          2304
+        ],
+        "data_offsets": [
+          18932736,
+          18941952
+        ]
+      },
+      "h.10.ln_2.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          213707776,
+          213710848
+        ]
+      },
+      "h.10.mlp.c_fc.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          3072
+        ],
+        "data_offsets": [
+          99031040,
+          108468224
+        ]
+      },
+      "h.4.mlp.c_proj.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          99027968,
+          99031040
+        ]
+      },
+      "h.0.attn.c_proj.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          9470976,
+          9474048
+        ]
+      },
+      "h.7.attn.c_proj.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          37843968,
+          37847040
+        ]
+      },
+      "h.1.attn.c_attn.bias": {
+        "dtype": "F32",
+        "shape": [
+          2304
+        ],
+        "data_offsets": [
+          242056192,
+          242065408
+        ]
+      },
+      "h.6.mlp.c_proj.weight": {
+        "dtype": "F32",
+        "shape": [
+          3072,
+          768
+        ],
+        "data_offsets": [
+          85390336,
+          94827520
+        ]
+      },
+      "h.4.mlp.c_fc.bias": {
+        "dtype": "F32",
+        "shape": [
+          3072
+        ],
+        "data_offsets": [
+          53874688,
+          53886976
+        ]
+      },
+      "h.11.ln_2.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          40224768,
+          40227840
+        ]
+      },
+      "h.5.ln_1.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          40221696,
+          40224768
+        ]
+      },
+      "h.5.attn.c_proj.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          183542784,
+          185902080
+        ]
+      },
+      "ln_f.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          85362688,
+          85365760
+        ]
+      },
+      "h.7.mlp.c_fc.bias": {
+        "dtype": "F32",
+        "shape": [
+          3072
+        ],
+        "data_offsets": [
+          139154432,
+          139166720
+        ]
+      },
+      "h.6.attn.c_attn.bias": {
+        "dtype": "F32",
+        "shape": [
+          2304
+        ],
+        "data_offsets": [
+          242065408,
+          242074624
+        ]
+      },
+      "h.6.ln_2.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          169868288,
+          169871360
+        ]
+      },
+      "h.6.attn.c_proj.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          169877504,
+          172236800
+        ]
+      },
+      "h.8.mlp.c_fc.bias": {
+        "dtype": "F32",
+        "shape": [
+          3072
+        ],
+        "data_offsets": [
+          181171200,
+          181183488
+        ]
+      },
+      "h.4.ln_2.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          242080768,
+          242083840
+        ]
+      },
+      "h.1.attn.c_attn.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          2304
+        ],
+        "data_offsets": [
+          2380800,
+          9458688
+        ]
+      },
+      "h.1.attn.bias": {
+        "dtype": "F32",
+        "shape": [
+          1,
+          1,
+          1024,
+          1024
+        ],
+        "data_offsets": [
+          486453248,
+          490647552
+        ]
+      },
+      "h.10.attn.bias": {
+        "dtype": "F32",
+        "shape": [
+          1,
+          1,
+          1024,
+          1024
+        ],
+        "data_offsets": [
+          520297472,
+          524491776
+        ]
+      },
+      "h.6.mlp.c_proj.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          150963200,
+          150966272
+        ]
+      },
+      "h.4.ln_1.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          150972416,
+          150975488
+        ]
+      }
+    }
+  },
+  "distilbert--distilbert-base-uncased-finetuned-sst-2-english": {
+    "file": "data/thrml_spw/broad_additional_v1/distilbert--distilbert-base-uncased-finetuned-sst-2-english/model.safetensors",
+    "header_sha256": "04b7c77790681bf8b99db324d3641b8fdb8f9e8b32acf15d79054ddcf7765b9e",
+    "header": {
+      "__metadata__": {
+        "format": "pt"
+      },
+      "classifier.bias": {
+        "dtype": "F32",
+        "shape": [
+          2
+        ],
+        "data_offsets": [
+          0,
+          8
+        ]
+      },
+      "classifier.weight": {
+        "dtype": "F32",
+        "shape": [
+          2,
+          768
+        ],
+        "data_offsets": [
+          8,
+          6152
+        ]
+      },
+      "distilbert.embeddings.LayerNorm.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          6152,
+          9224
+        ]
+      },
+      "distilbert.embeddings.LayerNorm.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          9224,
+          12296
+        ]
+      },
+      "distilbert.embeddings.position_embeddings.weight": {
+        "dtype": "F32",
+        "shape": [
+          512,
+          768
+        ],
+        "data_offsets": [
+          12296,
+          1585160
+        ]
+      },
+      "distilbert.embeddings.word_embeddings.weight": {
+        "dtype": "F32",
+        "shape": [
+          30522,
+          768
+        ],
+        "data_offsets": [
+          1585160,
+          95348744
+        ]
+      },
+      "distilbert.transformer.layer.0.attention.k_lin.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          95348744,
+          95351816
+        ]
+      },
+      "distilbert.transformer.layer.0.attention.k_lin.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          95351816,
+          97711112
+        ]
+      },
+      "distilbert.transformer.layer.0.attention.out_lin.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          97711112,
+          97714184
+        ]
+      },
+      "distilbert.transformer.layer.0.attention.out_lin.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          97714184,
+          100073480
+        ]
+      },
+      "distilbert.transformer.layer.0.attention.q_lin.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          100073480,
+          100076552
+        ]
+      },
+      "distilbert.transformer.layer.0.attention.q_lin.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          100076552,
+          102435848
+        ]
+      },
+      "distilbert.transformer.layer.0.attention.v_lin.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          102435848,
+          102438920
+        ]
+      },
+      "distilbert.transformer.layer.0.attention.v_lin.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          102438920,
+          104798216
+        ]
+      },
+      "distilbert.transformer.layer.0.ffn.lin1.bias": {
+        "dtype": "F32",
+        "shape": [
+          3072
+        ],
+        "data_offsets": [
+          104798216,
+          104810504
+        ]
+      },
+      "distilbert.transformer.layer.0.ffn.lin1.weight": {
+        "dtype": "F32",
+        "shape": [
+          3072,
+          768
+        ],
+        "data_offsets": [
+          104810504,
+          114247688
+        ]
+      },
+      "distilbert.transformer.layer.0.ffn.lin2.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          114247688,
+          114250760
+        ]
+      },
+      "distilbert.transformer.layer.0.ffn.lin2.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          3072
+        ],
+        "data_offsets": [
+          114250760,
+          123687944
+        ]
+      },
+      "distilbert.transformer.layer.0.output_layer_norm.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          123687944,
+          123691016
+        ]
+      },
+      "distilbert.transformer.layer.0.output_layer_norm.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          123691016,
+          123694088
+        ]
+      },
+      "distilbert.transformer.layer.0.sa_layer_norm.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          123694088,
+          123697160
+        ]
+      },
+      "distilbert.transformer.layer.0.sa_layer_norm.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          123697160,
+          123700232
+        ]
+      },
+      "distilbert.transformer.layer.1.attention.k_lin.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          123700232,
+          123703304
+        ]
+      },
+      "distilbert.transformer.layer.1.attention.k_lin.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          123703304,
+          126062600
+        ]
+      },
+      "distilbert.transformer.layer.1.attention.out_lin.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          126062600,
+          126065672
+        ]
+      },
+      "distilbert.transformer.layer.1.attention.out_lin.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          126065672,
+          128424968
+        ]
+      },
+      "distilbert.transformer.layer.1.attention.q_lin.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          128424968,
+          128428040
+        ]
+      },
+      "distilbert.transformer.layer.1.attention.q_lin.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          128428040,
+          130787336
+        ]
+      },
+      "distilbert.transformer.layer.1.attention.v_lin.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          130787336,
+          130790408
+        ]
+      },
+      "distilbert.transformer.layer.1.attention.v_lin.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          130790408,
+          133149704
+        ]
+      },
+      "distilbert.transformer.layer.1.ffn.lin1.bias": {
+        "dtype": "F32",
+        "shape": [
+          3072
+        ],
+        "data_offsets": [
+          133149704,
+          133161992
+        ]
+      },
+      "distilbert.transformer.layer.1.ffn.lin1.weight": {
+        "dtype": "F32",
+        "shape": [
+          3072,
+          768
+        ],
+        "data_offsets": [
+          133161992,
+          142599176
+        ]
+      },
+      "distilbert.transformer.layer.1.ffn.lin2.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          142599176,
+          142602248
+        ]
+      },
+      "distilbert.transformer.layer.1.ffn.lin2.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          3072
+        ],
+        "data_offsets": [
+          142602248,
+          152039432
+        ]
+      },
+      "distilbert.transformer.layer.1.output_layer_norm.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          152039432,
+          152042504
+        ]
+      },
+      "distilbert.transformer.layer.1.output_layer_norm.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          152042504,
+          152045576
+        ]
+      },
+      "distilbert.transformer.layer.1.sa_layer_norm.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          152045576,
+          152048648
+        ]
+      },
+      "distilbert.transformer.layer.1.sa_layer_norm.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          152048648,
+          152051720
+        ]
+      },
+      "distilbert.transformer.layer.2.attention.k_lin.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          152051720,
+          152054792
+        ]
+      },
+      "distilbert.transformer.layer.2.attention.k_lin.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          152054792,
+          154414088
+        ]
+      },
+      "distilbert.transformer.layer.2.attention.out_lin.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          154414088,
+          154417160
+        ]
+      },
+      "distilbert.transformer.layer.2.attention.out_lin.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          154417160,
+          156776456
+        ]
+      },
+      "distilbert.transformer.layer.2.attention.q_lin.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          156776456,
+          156779528
+        ]
+      },
+      "distilbert.transformer.layer.2.attention.q_lin.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          156779528,
+          159138824
+        ]
+      },
+      "distilbert.transformer.layer.2.attention.v_lin.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          159138824,
+          159141896
+        ]
+      },
+      "distilbert.transformer.layer.2.attention.v_lin.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          159141896,
+          161501192
+        ]
+      },
+      "distilbert.transformer.layer.2.ffn.lin1.bias": {
+        "dtype": "F32",
+        "shape": [
+          3072
+        ],
+        "data_offsets": [
+          161501192,
+          161513480
+        ]
+      },
+      "distilbert.transformer.layer.2.ffn.lin1.weight": {
+        "dtype": "F32",
+        "shape": [
+          3072,
+          768
+        ],
+        "data_offsets": [
+          161513480,
+          170950664
+        ]
+      },
+      "distilbert.transformer.layer.2.ffn.lin2.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          170950664,
+          170953736
+        ]
+      },
+      "distilbert.transformer.layer.2.ffn.lin2.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          3072
+        ],
+        "data_offsets": [
+          170953736,
+          180390920
+        ]
+      },
+      "distilbert.transformer.layer.2.output_layer_norm.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          180390920,
+          180393992
+        ]
+      },
+      "distilbert.transformer.layer.2.output_layer_norm.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          180393992,
+          180397064
+        ]
+      },
+      "distilbert.transformer.layer.2.sa_layer_norm.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          180397064,
+          180400136
+        ]
+      },
+      "distilbert.transformer.layer.2.sa_layer_norm.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          180400136,
+          180403208
+        ]
+      },
+      "distilbert.transformer.layer.3.attention.k_lin.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          180403208,
+          180406280
+        ]
+      },
+      "distilbert.transformer.layer.3.attention.k_lin.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          180406280,
+          182765576
+        ]
+      },
+      "distilbert.transformer.layer.3.attention.out_lin.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          182765576,
+          182768648
+        ]
+      },
+      "distilbert.transformer.layer.3.attention.out_lin.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          182768648,
+          185127944
+        ]
+      },
+      "distilbert.transformer.layer.3.attention.q_lin.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          185127944,
+          185131016
+        ]
+      },
+      "distilbert.transformer.layer.3.attention.q_lin.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          185131016,
+          187490312
+        ]
+      },
+      "distilbert.transformer.layer.3.attention.v_lin.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          187490312,
+          187493384
+        ]
+      },
+      "distilbert.transformer.layer.3.attention.v_lin.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          187493384,
+          189852680
+        ]
+      },
+      "distilbert.transformer.layer.3.ffn.lin1.bias": {
+        "dtype": "F32",
+        "shape": [
+          3072
+        ],
+        "data_offsets": [
+          189852680,
+          189864968
+        ]
+      },
+      "distilbert.transformer.layer.3.ffn.lin1.weight": {
+        "dtype": "F32",
+        "shape": [
+          3072,
+          768
+        ],
+        "data_offsets": [
+          189864968,
+          199302152
+        ]
+      },
+      "distilbert.transformer.layer.3.ffn.lin2.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          199302152,
+          199305224
+        ]
+      },
+      "distilbert.transformer.layer.3.ffn.lin2.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          3072
+        ],
+        "data_offsets": [
+          199305224,
+          208742408
+        ]
+      },
+      "distilbert.transformer.layer.3.output_layer_norm.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          208742408,
+          208745480
+        ]
+      },
+      "distilbert.transformer.layer.3.output_layer_norm.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          208745480,
+          208748552
+        ]
+      },
+      "distilbert.transformer.layer.3.sa_layer_norm.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          208748552,
+          208751624
+        ]
+      },
+      "distilbert.transformer.layer.3.sa_layer_norm.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          208751624,
+          208754696
+        ]
+      },
+      "distilbert.transformer.layer.4.attention.k_lin.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          208754696,
+          208757768
+        ]
+      },
+      "distilbert.transformer.layer.4.attention.k_lin.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          208757768,
+          211117064
+        ]
+      },
+      "distilbert.transformer.layer.4.attention.out_lin.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          211117064,
+          211120136
+        ]
+      },
+      "distilbert.transformer.layer.4.attention.out_lin.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          211120136,
+          213479432
+        ]
+      },
+      "distilbert.transformer.layer.4.attention.q_lin.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          213479432,
+          213482504
+        ]
+      },
+      "distilbert.transformer.layer.4.attention.q_lin.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          213482504,
+          215841800
+        ]
+      },
+      "distilbert.transformer.layer.4.attention.v_lin.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          215841800,
+          215844872
+        ]
+      },
+      "distilbert.transformer.layer.4.attention.v_lin.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          215844872,
+          218204168
+        ]
+      },
+      "distilbert.transformer.layer.4.ffn.lin1.bias": {
+        "dtype": "F32",
+        "shape": [
+          3072
+        ],
+        "data_offsets": [
+          218204168,
+          218216456
+        ]
+      },
+      "distilbert.transformer.layer.4.ffn.lin1.weight": {
+        "dtype": "F32",
+        "shape": [
+          3072,
+          768
+        ],
+        "data_offsets": [
+          218216456,
+          227653640
+        ]
+      },
+      "distilbert.transformer.layer.4.ffn.lin2.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          227653640,
+          227656712
+        ]
+      },
+      "distilbert.transformer.layer.4.ffn.lin2.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          3072
+        ],
+        "data_offsets": [
+          227656712,
+          237093896
+        ]
+      },
+      "distilbert.transformer.layer.4.output_layer_norm.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          237093896,
+          237096968
+        ]
+      },
+      "distilbert.transformer.layer.4.output_layer_norm.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          237096968,
+          237100040
+        ]
+      },
+      "distilbert.transformer.layer.4.sa_layer_norm.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          237100040,
+          237103112
+        ]
+      },
+      "distilbert.transformer.layer.4.sa_layer_norm.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          237103112,
+          237106184
+        ]
+      },
+      "distilbert.transformer.layer.5.attention.k_lin.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          237106184,
+          237109256
+        ]
+      },
+      "distilbert.transformer.layer.5.attention.k_lin.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          237109256,
+          239468552
+        ]
+      },
+      "distilbert.transformer.layer.5.attention.out_lin.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          239468552,
+          239471624
+        ]
+      },
+      "distilbert.transformer.layer.5.attention.out_lin.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          239471624,
+          241830920
+        ]
+      },
+      "distilbert.transformer.layer.5.attention.q_lin.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          241830920,
+          241833992
+        ]
+      },
+      "distilbert.transformer.layer.5.attention.q_lin.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          241833992,
+          244193288
+        ]
+      },
+      "distilbert.transformer.layer.5.attention.v_lin.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          244193288,
+          244196360
+        ]
+      },
+      "distilbert.transformer.layer.5.attention.v_lin.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          244196360,
+          246555656
+        ]
+      },
+      "distilbert.transformer.layer.5.ffn.lin1.bias": {
+        "dtype": "F32",
+        "shape": [
+          3072
+        ],
+        "data_offsets": [
+          246555656,
+          246567944
+        ]
+      },
+      "distilbert.transformer.layer.5.ffn.lin1.weight": {
+        "dtype": "F32",
+        "shape": [
+          3072,
+          768
+        ],
+        "data_offsets": [
+          246567944,
+          256005128
+        ]
+      },
+      "distilbert.transformer.layer.5.ffn.lin2.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          256005128,
+          256008200
+        ]
+      },
+      "distilbert.transformer.layer.5.ffn.lin2.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          3072
+        ],
+        "data_offsets": [
+          256008200,
+          265445384
+        ]
+      },
+      "distilbert.transformer.layer.5.output_layer_norm.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          265445384,
+          265448456
+        ]
+      },
+      "distilbert.transformer.layer.5.output_layer_norm.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          265448456,
+          265451528
+        ]
+      },
+      "distilbert.transformer.layer.5.sa_layer_norm.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          265451528,
+          265454600
+        ]
+      },
+      "distilbert.transformer.layer.5.sa_layer_norm.weight": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          265454600,
+          265457672
+        ]
+      },
+      "pre_classifier.bias": {
+        "dtype": "F32",
+        "shape": [
+          768
+        ],
+        "data_offsets": [
+          265457672,
+          265460744
+        ]
+      },
+      "pre_classifier.weight": {
+        "dtype": "F32",
+        "shape": [
+          768,
+          768
+        ],
+        "data_offsets": [
+          265460744,
+          267820040
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": "root_GPU_long_shape_audit_bindings_and_CPU_GPU_exact_replay_verified",
+  "reviewed_utc": "2026-10-30T17:27:17.960389+00:00",
+  "audit_sha256": "b727a7f38f3bb83c172af521d0ffda45ea743f01cbfc5c8f16fcde58321565dc",
+  "results_sha256": "fae37f638b43de700e6bea59991d5920dec9a011e322b808659c8b63d71b20a8",
+  "protocol_sha256": "11087cb6c6a2a701fe0989708a7d70632361cd51f16a4832d77b7287adfe3ff9",
+  "public_bits_per_backend": 151009280,
+  "float64_outputs_per_backend": 267280,
+  "cross_backend_public_state_differences": 0,
+  "cross_backend_output_bitpattern_differences": 0,
+  "scope": "GPU official THRML component check at1,028activationpositions, T8192 and7680fanin, exact independentint64 reconstruction and signed high-magnitude mirrors. Not full-model forward fidelity, quality, heldout scoring, physical bit flips, energy or latency."
+}

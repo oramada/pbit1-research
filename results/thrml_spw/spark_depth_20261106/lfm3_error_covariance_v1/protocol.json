@@ -1,0 +1,20 @@
+{
+  "source_sha256": "c842acbb379b1cc0e3a74e1fd567eed4bfb5b068bd0507b9b47197befb3e9c01",
+  "training_result_sha256": "645a2b056e7793df1dc0a9317e7abd7ef77adf886ebabb3e816270ff710a1f4c",
+  "SDK_source_sha256": "015e64966c6b7031930eb5ffe29b4d81cc4aba2836083477ab239f691cc04705",
+  "selected_channels_sha256": "ba32c4481224b4b1c9734a70c949e85b6d9a9a800b1f027257ee409e73f91150",
+  "seeds": [
+    2026111801,
+    2026111802,
+    2026111803,
+    2026111804,
+    2026111805
+  ],
+  "groups": [
+    "64 largest training-error channels per block",
+    "64 fixed random channels per block"
+  ],
+  "positions_per_block": 8224,
+  "samples": 32768,
+  "scope": "Average across input positions of the sample covariance across five independent model weight draws, conditional on each fixed input. All24blocks, two64channel subsets. Training-only descriptive statistic; channel selection already used this cohort. No heldout quality claim or full2048x2048covariance claim."
+}

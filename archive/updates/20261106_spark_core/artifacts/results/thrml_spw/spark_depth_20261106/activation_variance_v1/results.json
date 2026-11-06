@@ -1,0 +1,1487 @@
+{
+  "source_sha256": "ee208b8a1d41b6e8433f9a4b6acf566fd60ac9e4c995904881a8fa2ea9fce741",
+  "scope": "Conditional independent weight-noise prediction with cleanBF16activationsecondmoments. T8192,G128. Ignores upstreamchanges,nonlinearpropagation,BF16roundingandoutputcovariance. Local variance preference is a candidate selector, not proof of task quality. Attentionoutputprojection omitted because itsinput wasnotrecorded.",
+  "tokens": 1024,
+  "operators": [
+    {
+      "operator": "lm_head",
+      "weight": "transformer.wte.weight",
+      "weight_index": 0,
+      "input_moment_source": "transformer.ln_f",
+      "preferred_by_local_variance": "transposed_matrix",
+      "transposed_over_storage_predicted_variance": 0.0043910318559603695,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 30879.674060163838,
+          "reference_sum_squared_output_per_token": 651490844.8998536,
+          "predicted_relative_output_RMSE": 0.006884655209727208,
+          "top_noise_input_features": [
+            496,
+            430,
+            36,
+            314,
+            374,
+            442,
+            703,
+            6
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 135.5936324998525,
+          "reference_sum_squared_output_per_token": 651490844.8998536,
+          "predicted_relative_output_RMSE": 0.00045621072323853853,
+          "top_noise_input_features": [
+            496,
+            6,
+            314,
+            374,
+            479,
+            362,
+            442,
+            703
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.0.attn.c_attn",
+      "weight": "transformer.h.0.attn.c_attn.weight",
+      "weight_index": 4,
+      "input_moment_source": "transformer.h.0.ln_1",
+      "preferred_by_local_variance": "storage_flat",
+      "transposed_over_storage_predicted_variance": 1.0368833880889292,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 0.8038541359713618,
+          "reference_sum_squared_output_per_token": 3037.586758004115,
+          "predicted_relative_output_RMSE": 0.01626762977010653,
+          "top_noise_input_features": [
+            107,
+            374,
+            496,
+            674,
+            271,
+            679,
+            627,
+            479
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 0.8335030000352843,
+          "reference_sum_squared_output_per_token": 3037.586758004115,
+          "predicted_relative_output_RMSE": 0.0165649160110121,
+          "top_noise_input_features": [
+            480,
+            107,
+            266,
+            138,
+            447,
+            87,
+            674,
+            373
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.0.mlp.c_fc",
+      "weight": "transformer.h.0.mlp.c_fc.weight",
+      "weight_index": 10,
+      "input_moment_source": "transformer.h.0.ln_2",
+      "preferred_by_local_variance": "storage_flat",
+      "transposed_over_storage_predicted_variance": 1.1414998375144276,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 0.8105351186459879,
+          "reference_sum_squared_output_per_token": 5538.030548863913,
+          "predicted_relative_output_RMSE": 0.012097851374041022,
+          "top_noise_input_features": [
+            138,
+            266,
+            393,
+            373,
+            420,
+            107,
+            67,
+            497
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 0.9252257062341326,
+          "reference_sum_squared_output_per_token": 5538.030548863913,
+          "predicted_relative_output_RMSE": 0.012925464873678556,
+          "top_noise_input_features": [
+            266,
+            393,
+            138,
+            640,
+            67,
+            745,
+            480,
+            320
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.0.mlp.c_proj",
+      "weight": "transformer.h.0.mlp.c_proj.weight",
+      "weight_index": 12,
+      "input_moment_source": "transformer.h.0.mlp.act",
+      "preferred_by_local_variance": "transposed_matrix",
+      "transposed_over_storage_predicted_variance": 0.6928473398421826,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 1.292880432169449,
+          "reference_sum_squared_output_per_token": 891.152045930871,
+          "predicted_relative_output_RMSE": 0.03808932505138602,
+          "top_noise_input_features": [
+            1641,
+            2102,
+            1115,
+            1393,
+            1344,
+            1612,
+            633,
+            2845
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 0.8957687681626141,
+          "reference_sum_squared_output_per_token": 891.152045930871,
+          "predicted_relative_output_RMSE": 0.03170458361780582,
+          "top_noise_input_features": [
+            2102,
+            1393,
+            1115,
+            2054,
+            1344,
+            132,
+            1612,
+            2587
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.1.attn.c_attn",
+      "weight": "transformer.h.1.attn.c_attn.weight",
+      "weight_index": 16,
+      "input_moment_source": "transformer.h.1.ln_1",
+      "preferred_by_local_variance": "transposed_matrix",
+      "transposed_over_storage_predicted_variance": 0.7941492268510875,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 1.0898716374415827,
+          "reference_sum_squared_output_per_token": 2420.595876665517,
+          "predicted_relative_output_RMSE": 0.0212190790530539,
+          "top_noise_input_features": [
+            745,
+            459,
+            497,
+            756,
+            64,
+            266,
+            71,
+            420
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 0.8655207182411616,
+          "reference_sum_squared_output_per_token": 2420.595876665517,
+          "predicted_relative_output_RMSE": 0.018909393064830297,
+          "top_noise_input_features": [
+            745,
+            459,
+            497,
+            756,
+            64,
+            266,
+            480,
+            642
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.1.mlp.c_fc",
+      "weight": "transformer.h.1.mlp.c_fc.weight",
+      "weight_index": 22,
+      "input_moment_source": "transformer.h.1.ln_2",
+      "preferred_by_local_variance": "transposed_matrix",
+      "transposed_over_storage_predicted_variance": 0.861675552980274,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 1.2270112470951868,
+          "reference_sum_squared_output_per_token": 4128.780284388595,
+          "predicted_relative_output_RMSE": 0.017239052238405668,
+          "top_noise_input_features": [
+            64,
+            745,
+            266,
+            393,
+            480,
+            288,
+            756,
+            87
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 1.0572855948537607,
+          "reference_sum_squared_output_per_token": 4128.780284388595,
+          "predicted_relative_output_RMSE": 0.016002405508840647,
+          "top_noise_input_features": [
+            393,
+            64,
+            745,
+            288,
+            326,
+            266,
+            480,
+            640
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.1.mlp.c_proj",
+      "weight": "transformer.h.1.mlp.c_proj.weight",
+      "weight_index": 24,
+      "input_moment_source": "transformer.h.1.mlp.act",
+      "preferred_by_local_variance": "transposed_matrix",
+      "transposed_over_storage_predicted_variance": 0.9079633166558909,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 0.5227471310368889,
+          "reference_sum_squared_output_per_token": 2110.6833736651656,
+          "predicted_relative_output_RMSE": 0.015737447141863366,
+          "top_noise_input_features": [
+            1120,
+            2401,
+            242,
+            2450,
+            1825,
+            79,
+            2730,
+            706
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 0.4746352188686052,
+          "reference_sum_squared_output_per_token": 2110.6833736651656,
+          "predicted_relative_output_RMSE": 0.01499575843251384,
+          "top_noise_input_features": [
+            1120,
+            2401,
+            2730,
+            1825,
+            2450,
+            1330,
+            1429,
+            2023
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.2.attn.c_attn",
+      "weight": "transformer.h.2.attn.c_attn.weight",
+      "weight_index": 28,
+      "input_moment_source": "transformer.h.2.ln_1",
+      "preferred_by_local_variance": "transposed_matrix",
+      "transposed_over_storage_predicted_variance": 0.9426607705237633,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 3.340324061395303,
+          "reference_sum_squared_output_per_token": 7302.493147332397,
+          "predicted_relative_output_RMSE": 0.02138743594793739,
+          "top_noise_input_features": [
+            64,
+            745,
+            480,
+            266,
+            756,
+            459,
+            87,
+            497
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 3.1487924535139626,
+          "reference_sum_squared_output_per_token": 7302.493147332397,
+          "predicted_relative_output_RMSE": 0.020765215325732476,
+          "top_noise_input_features": [
+            64,
+            480,
+            266,
+            87,
+            745,
+            459,
+            756,
+            497
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.2.mlp.c_fc",
+      "weight": "transformer.h.2.mlp.c_fc.weight",
+      "weight_index": 34,
+      "input_moment_source": "transformer.h.2.ln_2",
+      "preferred_by_local_variance": "transposed_matrix",
+      "transposed_over_storage_predicted_variance": 0.9452078698808948,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 1.6755216013134202,
+          "reference_sum_squared_output_per_token": 6706.719283571255,
+          "predicted_relative_output_RMSE": 0.01580592624930613,
+          "top_noise_input_features": [
+            64,
+            138,
+            393,
+            266,
+            288,
+            326,
+            745,
+            640
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 1.5837162037168837,
+          "reference_sum_squared_output_per_token": 6706.719283571255,
+          "predicted_relative_output_RMSE": 0.015366806253012953,
+          "top_noise_input_features": [
+            393,
+            138,
+            288,
+            64,
+            326,
+            745,
+            266,
+            640
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.2.mlp.c_proj",
+      "weight": "transformer.h.2.mlp.c_proj.weight",
+      "weight_index": 36,
+      "input_moment_source": "transformer.h.2.mlp.act",
+      "preferred_by_local_variance": "transposed_matrix",
+      "transposed_over_storage_predicted_variance": 0.9118275817339614,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 0.9405275515863383,
+          "reference_sum_squared_output_per_token": 42279.54785039198,
+          "predicted_relative_output_RMSE": 0.004716508201859078,
+          "top_noise_input_features": [
+            666,
+            1825,
+            2714,
+            3034,
+            183,
+            2015,
+            2754,
+            2830
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 0.8575989629171344,
+          "reference_sum_squared_output_per_token": 42279.54785039198,
+          "predicted_relative_output_RMSE": 0.004503777806458884,
+          "top_noise_input_features": [
+            666,
+            1825,
+            3034,
+            2714,
+            2830,
+            820,
+            183,
+            676
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.3.attn.c_attn",
+      "weight": "transformer.h.3.attn.c_attn.weight",
+      "weight_index": 40,
+      "input_moment_source": "transformer.h.3.ln_1",
+      "preferred_by_local_variance": "transposed_matrix",
+      "transposed_over_storage_predicted_variance": 0.30221629862897303,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 12.293410304317515,
+          "reference_sum_squared_output_per_token": 14101.253891762446,
+          "predicted_relative_output_RMSE": 0.029526184036607107,
+          "top_noise_input_features": [
+            64,
+            480,
+            266,
+            87,
+            326,
+            393,
+            288,
+            373
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 3.7152689596981165,
+          "reference_sum_squared_output_per_token": 14101.253891762446,
+          "predicted_relative_output_RMSE": 0.016231784325743914,
+          "top_noise_input_features": [
+            64,
+            480,
+            266,
+            87,
+            393,
+            288,
+            326,
+            373
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.3.mlp.c_fc",
+      "weight": "transformer.h.3.mlp.c_fc.weight",
+      "weight_index": 46,
+      "input_moment_source": "transformer.h.3.ln_2",
+      "preferred_by_local_variance": "storage_flat",
+      "transposed_over_storage_predicted_variance": 1.1782236228615774,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 1.2893587316988915,
+          "reference_sum_squared_output_per_token": 7010.053484290171,
+          "predicted_relative_output_RMSE": 0.013562077353073207,
+          "top_noise_input_features": [
+            393,
+            288,
+            64,
+            447,
+            138,
+            640,
+            326,
+            373
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 1.5191529160304764,
+          "reference_sum_squared_output_per_token": 7010.053484290171,
+          "predicted_relative_output_RMSE": 0.014721093803450954,
+          "top_noise_input_features": [
+            393,
+            288,
+            64,
+            447,
+            373,
+            640,
+            138,
+            326
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.3.mlp.c_proj",
+      "weight": "transformer.h.3.mlp.c_proj.weight",
+      "weight_index": 48,
+      "input_moment_source": "transformer.h.3.mlp.act",
+      "preferred_by_local_variance": "transposed_matrix",
+      "transposed_over_storage_predicted_variance": 0.9866943871677548,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 0.47212529667866454,
+          "reference_sum_squared_output_per_token": 484.8696234050776,
+          "predicted_relative_output_RMSE": 0.031204422315835263,
+          "top_noise_input_features": [
+            1545,
+            614,
+            1751,
+            442,
+            2664,
+            2375,
+            2607,
+            1027
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 0.46584338027274935,
+          "reference_sum_squared_output_per_token": 484.8696234050776,
+          "predicted_relative_output_RMSE": 0.030996130150909608,
+          "top_noise_input_features": [
+            1545,
+            614,
+            2664,
+            1751,
+            2614,
+            1395,
+            2885,
+            442
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.4.attn.c_attn",
+      "weight": "transformer.h.4.attn.c_attn.weight",
+      "weight_index": 52,
+      "input_moment_source": "transformer.h.4.ln_1",
+      "preferred_by_local_variance": "transposed_matrix",
+      "transposed_over_storage_predicted_variance": 0.2504083396185286,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 13.216568512623905,
+          "reference_sum_squared_output_per_token": 11684.001065709523,
+          "predicted_relative_output_RMSE": 0.033632841595943326,
+          "top_noise_input_features": [
+            64,
+            480,
+            266,
+            87,
+            326,
+            288,
+            393,
+            138
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 3.309538976700678,
+          "reference_sum_squared_output_per_token": 11684.001065709523,
+          "predicted_relative_output_RMSE": 0.016830148816272386,
+          "top_noise_input_features": [
+            64,
+            480,
+            266,
+            87,
+            288,
+            393,
+            326,
+            373
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.4.mlp.c_fc",
+      "weight": "transformer.h.4.mlp.c_fc.weight",
+      "weight_index": 58,
+      "input_moment_source": "transformer.h.4.ln_2",
+      "preferred_by_local_variance": "storage_flat",
+      "transposed_over_storage_predicted_variance": 1.1876586559135438,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 1.223859316145366,
+          "reference_sum_squared_output_per_token": 5692.085826332992,
+          "predicted_relative_output_RMSE": 0.01466324291043415,
+          "top_noise_input_features": [
+            64,
+            393,
+            288,
+            326,
+            138,
+            373,
+            640,
+            447
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 1.4535271104404741,
+          "reference_sum_squared_output_per_token": 5692.085826332992,
+          "predicted_relative_output_RMSE": 0.015979965902348195,
+          "top_noise_input_features": [
+            64,
+            393,
+            373,
+            288,
+            326,
+            447,
+            138,
+            640
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.4.mlp.c_proj",
+      "weight": "transformer.h.4.mlp.c_proj.weight",
+      "weight_index": 60,
+      "input_moment_source": "transformer.h.4.mlp.act",
+      "preferred_by_local_variance": "transposed_matrix",
+      "transposed_over_storage_predicted_variance": 0.9666370796042281,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 0.5024902143956934,
+          "reference_sum_squared_output_per_token": 392.2190240985624,
+          "predicted_relative_output_RMSE": 0.03579311344718971,
+          "top_noise_input_features": [
+            787,
+            1894,
+            923,
+            2422,
+            1809,
+            2755,
+            2601,
+            2806
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 0.48572567337315553,
+          "reference_sum_squared_output_per_token": 392.2190240985624,
+          "predicted_relative_output_RMSE": 0.03519096710606115,
+          "top_noise_input_features": [
+            1894,
+            787,
+            2422,
+            2755,
+            923,
+            2806,
+            3060,
+            1322
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.5.attn.c_attn",
+      "weight": "transformer.h.5.attn.c_attn.weight",
+      "weight_index": 64,
+      "input_moment_source": "transformer.h.5.ln_1",
+      "preferred_by_local_variance": "transposed_matrix",
+      "transposed_over_storage_predicted_variance": 0.5371745234222786,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 6.58231675169768,
+          "reference_sum_squared_output_per_token": 5616.177327282787,
+          "predicted_relative_output_RMSE": 0.03423489362400881,
+          "top_noise_input_features": [
+            64,
+            480,
+            266,
+            87,
+            393,
+            326,
+            288,
+            447
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 3.5358528641076816,
+          "reference_sum_squared_output_per_token": 5616.177327282787,
+          "predicted_relative_output_RMSE": 0.02509150355966126,
+          "top_noise_input_features": [
+            64,
+            266,
+            480,
+            87,
+            393,
+            373,
+            326,
+            288
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.5.mlp.c_fc",
+      "weight": "transformer.h.5.mlp.c_fc.weight",
+      "weight_index": 70,
+      "input_moment_source": "transformer.h.5.ln_2",
+      "preferred_by_local_variance": "storage_flat",
+      "transposed_over_storage_predicted_variance": 1.2297531409833211,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 1.215215866111505,
+          "reference_sum_squared_output_per_token": 6150.643178228784,
+          "predicted_relative_output_RMSE": 0.014056152140364053,
+          "top_noise_input_features": [
+            393,
+            288,
+            64,
+            138,
+            640,
+            326,
+            447,
+            373
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 1.4944155283233902,
+          "reference_sum_squared_output_per_token": 6150.643178228784,
+          "predicted_relative_output_RMSE": 0.015587462420461311,
+          "top_noise_input_features": [
+            393,
+            64,
+            288,
+            373,
+            447,
+            138,
+            326,
+            640
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.5.mlp.c_proj",
+      "weight": "transformer.h.5.mlp.c_proj.weight",
+      "weight_index": 72,
+      "input_moment_source": "transformer.h.5.mlp.act",
+      "preferred_by_local_variance": "storage_flat",
+      "transposed_over_storage_predicted_variance": 1.0371393825917825,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 0.5894233024058579,
+          "reference_sum_squared_output_per_token": 379.5782338727702,
+          "predicted_relative_output_RMSE": 0.039406058732984875,
+          "top_noise_input_features": [
+            1790,
+            1888,
+            1629,
+            654,
+            363,
+            1169,
+            1504,
+            1180
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 0.611314119942421,
+          "reference_sum_squared_output_per_token": 379.5782338727702,
+          "predicted_relative_output_RMSE": 0.040131146128387855,
+          "top_noise_input_features": [
+            1790,
+            1888,
+            654,
+            2073,
+            1505,
+            363,
+            1504,
+            1629
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.6.attn.c_attn",
+      "weight": "transformer.h.6.attn.c_attn.weight",
+      "weight_index": 76,
+      "input_moment_source": "transformer.h.6.ln_1",
+      "preferred_by_local_variance": "transposed_matrix",
+      "transposed_over_storage_predicted_variance": 0.38336857097002425,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 7.906101348581284,
+          "reference_sum_squared_output_per_token": 5168.934104978646,
+          "predicted_relative_output_RMSE": 0.039109358355322275,
+          "top_noise_input_features": [
+            64,
+            480,
+            266,
+            87,
+            326,
+            393,
+            288,
+            138
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 3.0309507759497887,
+          "reference_sum_squared_output_per_token": 5168.934104978646,
+          "predicted_relative_output_RMSE": 0.024215249258378868,
+          "top_noise_input_features": [
+            64,
+            266,
+            480,
+            87,
+            393,
+            326,
+            288,
+            138
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.6.mlp.c_fc",
+      "weight": "transformer.h.6.mlp.c_fc.weight",
+      "weight_index": 82,
+      "input_moment_source": "transformer.h.6.ln_2",
+      "preferred_by_local_variance": "storage_flat",
+      "transposed_over_storage_predicted_variance": 1.1978338848615404,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 1.1221816917750558,
+          "reference_sum_squared_output_per_token": 5389.277948692773,
+          "predicted_relative_output_RMSE": 0.01442999890594279,
+          "top_noise_input_features": [
+            393,
+            64,
+            288,
+            138,
+            326,
+            447,
+            640,
+            373
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 1.3441872553794108,
+          "reference_sum_squared_output_per_token": 5389.277948692773,
+          "predicted_relative_output_RMSE": 0.015792998545903558,
+          "top_noise_input_features": [
+            64,
+            393,
+            288,
+            447,
+            373,
+            138,
+            326,
+            640
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.6.mlp.c_proj",
+      "weight": "transformer.h.6.mlp.c_proj.weight",
+      "weight_index": 84,
+      "input_moment_source": "transformer.h.6.mlp.act",
+      "preferred_by_local_variance": "storage_flat",
+      "transposed_over_storage_predicted_variance": 1.0683084165117507,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 0.7734724510947654,
+          "reference_sum_squared_output_per_token": 440.478865766338,
+          "predicted_relative_output_RMSE": 0.041904425129246414,
+          "top_noise_input_features": [
+            522,
+            437,
+            578,
+            3039,
+            834,
+            2037,
+            2062,
+            2758
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 0.8263071294445112,
+          "reference_sum_squared_output_per_token": 440.478865766338,
+          "predicted_relative_output_RMSE": 0.04331199737241079,
+          "top_noise_input_features": [
+            437,
+            578,
+            3039,
+            2037,
+            834,
+            1825,
+            2934,
+            203
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.7.attn.c_attn",
+      "weight": "transformer.h.7.attn.c_attn.weight",
+      "weight_index": 88,
+      "input_moment_source": "transformer.h.7.ln_1",
+      "preferred_by_local_variance": "transposed_matrix",
+      "transposed_over_storage_predicted_variance": 0.5246550951178078,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 6.100086357632209,
+          "reference_sum_squared_output_per_token": 5308.881321733151,
+          "predicted_relative_output_RMSE": 0.03389740741174354,
+          "top_noise_input_features": [
+            64,
+            480,
+            266,
+            87,
+            393,
+            326,
+            288,
+            138
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 3.2004413881903684,
+          "reference_sum_squared_output_per_token": 5308.881321733151,
+          "predicted_relative_output_RMSE": 0.024552935931051827,
+          "top_noise_input_features": [
+            64,
+            266,
+            480,
+            87,
+            393,
+            326,
+            288,
+            138
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.7.mlp.c_fc",
+      "weight": "transformer.h.7.mlp.c_fc.weight",
+      "weight_index": 94,
+      "input_moment_source": "transformer.h.7.ln_2",
+      "preferred_by_local_variance": "storage_flat",
+      "transposed_over_storage_predicted_variance": 1.1465084094156661,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 1.0614410479649754,
+          "reference_sum_squared_output_per_token": 5224.890413095693,
+          "predicted_relative_output_RMSE": 0.014253100464453564,
+          "top_noise_input_features": [
+            393,
+            288,
+            138,
+            64,
+            447,
+            640,
+            326,
+            526
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 1.2169510875908216,
+          "reference_sum_squared_output_per_token": 5224.890413095693,
+          "predicted_relative_output_RMSE": 0.015261526270410693,
+          "top_noise_input_features": [
+            393,
+            64,
+            138,
+            288,
+            447,
+            640,
+            326,
+            526
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.7.mlp.c_proj",
+      "weight": "transformer.h.7.mlp.c_proj.weight",
+      "weight_index": 96,
+      "input_moment_source": "transformer.h.7.mlp.act",
+      "preferred_by_local_variance": "storage_flat",
+      "transposed_over_storage_predicted_variance": 1.0579743019034995,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 1.0216144172422288,
+          "reference_sum_squared_output_per_token": 617.2264953596473,
+          "predicted_relative_output_RMSE": 0.040683773362268,
+          "top_noise_input_features": [
+            2367,
+            2402,
+            159,
+            2742,
+            2361,
+            495,
+            1152,
+            939
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 1.0808417998963975,
+          "reference_sum_squared_output_per_token": 617.2264953596473,
+          "predicted_relative_output_RMSE": 0.0418464658765659,
+          "top_noise_input_features": [
+            2367,
+            2402,
+            159,
+            2489,
+            939,
+            2361,
+            2398,
+            1152
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.8.attn.c_attn",
+      "weight": "transformer.h.8.attn.c_attn.weight",
+      "weight_index": 100,
+      "input_moment_source": "transformer.h.8.ln_1",
+      "preferred_by_local_variance": "transposed_matrix",
+      "transposed_over_storage_predicted_variance": 0.49071460599410394,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 5.452987974327685,
+          "reference_sum_squared_output_per_token": 4634.797717406755,
+          "predicted_relative_output_RMSE": 0.034300612699475985,
+          "top_noise_input_features": [
+            64,
+            266,
+            480,
+            87,
+            138,
+            326,
+            393,
+            288
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 2.6758608453127968,
+          "reference_sum_squared_output_per_token": 4634.797717406755,
+          "predicted_relative_output_RMSE": 0.024027930670495527,
+          "top_noise_input_features": [
+            64,
+            266,
+            480,
+            87,
+            393,
+            326,
+            138,
+            288
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.8.mlp.c_fc",
+      "weight": "transformer.h.8.mlp.c_fc.weight",
+      "weight_index": 106,
+      "input_moment_source": "transformer.h.8.ln_2",
+      "preferred_by_local_variance": "storage_flat",
+      "transposed_over_storage_predicted_variance": 1.1232512024542596,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 1.0704641092337277,
+          "reference_sum_squared_output_per_token": 5284.229390005827,
+          "predicted_relative_output_RMSE": 0.014232959850747231,
+          "top_noise_input_features": [
+            393,
+            288,
+            64,
+            138,
+            640,
+            326,
+            480,
+            447
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 1.2024000978809126,
+          "reference_sum_squared_output_per_token": 5284.229390005827,
+          "predicted_relative_output_RMSE": 0.015084595551792566,
+          "top_noise_input_features": [
+            393,
+            64,
+            288,
+            138,
+            640,
+            326,
+            480,
+            447
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.8.mlp.c_proj",
+      "weight": "transformer.h.8.mlp.c_proj.weight",
+      "weight_index": 108,
+      "input_moment_source": "transformer.h.8.mlp.act",
+      "preferred_by_local_variance": "storage_flat",
+      "transposed_over_storage_predicted_variance": 1.0518426902389402,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 1.4487378664162573,
+          "reference_sum_squared_output_per_token": 889.9120899682034,
+          "predicted_relative_output_RMSE": 0.04034793870086531,
+          "top_noise_input_features": [
+            1253,
+            1640,
+            998,
+            428,
+            1827,
+            1961,
+            1751,
+            737
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 1.5238443348622983,
+          "reference_sum_squared_output_per_token": 889.9120899682034,
+          "predicted_relative_output_RMSE": 0.0413805967115012,
+          "top_noise_input_features": [
+            1253,
+            1751,
+            998,
+            1640,
+            433,
+            737,
+            23,
+            1863
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.9.attn.c_attn",
+      "weight": "transformer.h.9.attn.c_attn.weight",
+      "weight_index": 112,
+      "input_moment_source": "transformer.h.9.ln_1",
+      "preferred_by_local_variance": "transposed_matrix",
+      "transposed_over_storage_predicted_variance": 0.547887361379481,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 4.512390749919646,
+          "reference_sum_squared_output_per_token": 4161.733701450484,
+          "predicted_relative_output_RMSE": 0.03292806470176309,
+          "top_noise_input_features": [
+            64,
+            266,
+            480,
+            87,
+            393,
+            138,
+            447,
+            326
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 2.472281861486653,
+          "reference_sum_squared_output_per_token": 4161.733701450484,
+          "predicted_relative_output_RMSE": 0.024373160455694366,
+          "top_noise_input_features": [
+            64,
+            266,
+            480,
+            393,
+            87,
+            326,
+            138,
+            288
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.9.mlp.c_fc",
+      "weight": "transformer.h.9.mlp.c_fc.weight",
+      "weight_index": 118,
+      "input_moment_source": "transformer.h.9.ln_2",
+      "preferred_by_local_variance": "storage_flat",
+      "transposed_over_storage_predicted_variance": 1.1213853933447617,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 1.1070928414687795,
+          "reference_sum_squared_output_per_token": 5386.479971708552,
+          "predicted_relative_output_RMSE": 0.01433637976030956,
+          "top_noise_input_features": [
+            393,
+            288,
+            640,
+            326,
+            138,
+            64,
+            362,
+            447
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 1.2414777414996372,
+          "reference_sum_squared_output_per_token": 5386.479971708552,
+          "predicted_relative_output_RMSE": 0.015181579007277114,
+          "top_noise_input_features": [
+            393,
+            64,
+            326,
+            288,
+            640,
+            447,
+            138,
+            480
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.9.mlp.c_proj",
+      "weight": "transformer.h.9.mlp.c_proj.weight",
+      "weight_index": 120,
+      "input_moment_source": "transformer.h.9.mlp.act",
+      "preferred_by_local_variance": "storage_flat",
+      "transposed_over_storage_predicted_variance": 1.1238183242248765,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 2.0257699761108032,
+          "reference_sum_squared_output_per_token": 1551.666275893004,
+          "predicted_relative_output_RMSE": 0.036132324712357555,
+          "top_noise_input_features": [
+            840,
+            1305,
+            1950,
+            788,
+            2798,
+            1240,
+            304,
+            739
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 2.276597419817911,
+          "reference_sum_squared_output_per_token": 1551.666275893004,
+          "predicted_relative_output_RMSE": 0.038303985034071085,
+          "top_noise_input_features": [
+            840,
+            304,
+            1889,
+            2798,
+            788,
+            3045,
+            806,
+            1950
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.10.attn.c_attn",
+      "weight": "transformer.h.10.attn.c_attn.weight",
+      "weight_index": 124,
+      "input_moment_source": "transformer.h.10.ln_1",
+      "preferred_by_local_variance": "transposed_matrix",
+      "transposed_over_storage_predicted_variance": 0.6646145922247662,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 3.4047060681207624,
+          "reference_sum_squared_output_per_token": 3854.002208431095,
+          "predicted_relative_output_RMSE": 0.029722397141528873,
+          "top_noise_input_features": [
+            64,
+            266,
+            480,
+            87,
+            393,
+            447,
+            288,
+            326
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 2.2628173351092675,
+          "reference_sum_squared_output_per_token": 3854.002208431095,
+          "predicted_relative_output_RMSE": 0.024230856687130545,
+          "top_noise_input_features": [
+            64,
+            266,
+            480,
+            393,
+            87,
+            288,
+            447,
+            326
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.10.mlp.c_fc",
+      "weight": "transformer.h.10.mlp.c_fc.weight",
+      "weight_index": 130,
+      "input_moment_source": "transformer.h.10.ln_2",
+      "preferred_by_local_variance": "storage_flat",
+      "transposed_over_storage_predicted_variance": 1.0639359855259087,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 1.2029795004007642,
+          "reference_sum_squared_output_per_token": 5361.9701725352625,
+          "predicted_relative_output_RMSE": 0.014978451464156333,
+          "top_noise_input_features": [
+            393,
+            138,
+            362,
+            288,
+            326,
+            640,
+            64,
+            6
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 1.2798931803263525,
+          "reference_sum_squared_output_per_token": 5361.9701725352625,
+          "predicted_relative_output_RMSE": 0.01544986417057248,
+          "top_noise_input_features": [
+            393,
+            326,
+            64,
+            640,
+            138,
+            288,
+            362,
+            314
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.10.mlp.c_proj",
+      "weight": "transformer.h.10.mlp.c_proj.weight",
+      "weight_index": 132,
+      "input_moment_source": "transformer.h.10.mlp.act",
+      "preferred_by_local_variance": "storage_flat",
+      "transposed_over_storage_predicted_variance": 1.0358141547265391,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 4.193263102735727,
+          "reference_sum_squared_output_per_token": 6236.429758389208,
+          "predicted_relative_output_RMSE": 0.025930329697576585,
+          "top_noise_input_features": [
+            1793,
+            379,
+            900,
+            1973,
+            1690,
+            2931,
+            2114,
+            772
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 4.3434412763061925,
+          "reference_sum_squared_output_per_token": 6236.429758389208,
+          "predicted_relative_output_RMSE": 0.026390581485537464,
+          "top_noise_input_features": [
+            1793,
+            379,
+            900,
+            1973,
+            1690,
+            534,
+            3045,
+            2214
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.11.attn.c_attn",
+      "weight": "transformer.h.11.attn.c_attn.weight",
+      "weight_index": 136,
+      "input_moment_source": "transformer.h.11.ln_1",
+      "preferred_by_local_variance": "transposed_matrix",
+      "transposed_over_storage_predicted_variance": 0.8546529838736041,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 2.6518154685270643,
+          "reference_sum_squared_output_per_token": 3333.017003374679,
+          "predicted_relative_output_RMSE": 0.02820673933839759,
+          "top_noise_input_features": [
+            64,
+            393,
+            266,
+            447,
+            480,
+            481,
+            138,
+            87
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 2.266382002858835,
+          "reference_sum_squared_output_per_token": 3333.017003374679,
+          "predicted_relative_output_RMSE": 0.0260764094573753,
+          "top_noise_input_features": [
+            64,
+            393,
+            266,
+            481,
+            447,
+            496,
+            288,
+            430
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.11.mlp.c_fc",
+      "weight": "transformer.h.11.mlp.c_fc.weight",
+      "weight_index": 142,
+      "input_moment_source": "transformer.h.11.ln_2",
+      "preferred_by_local_variance": "transposed_matrix",
+      "transposed_over_storage_predicted_variance": 0.9773312921521797,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 1.304996762231648,
+          "reference_sum_squared_output_per_token": 5177.110535094554,
+          "predicted_relative_output_RMSE": 0.01587672777239981,
+          "top_noise_input_features": [
+            393,
+            362,
+            326,
+            288,
+            6,
+            640,
+            232,
+            314
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 1.2754141718862675,
+          "reference_sum_squared_output_per_token": 5177.110535094554,
+          "predicted_relative_output_RMSE": 0.01569574377284599,
+          "top_noise_input_features": [
+            393,
+            326,
+            481,
+            362,
+            447,
+            314,
+            6,
+            640
+          ]
+        }
+      }
+    },
+    {
+      "operator": "transformer.h.11.mlp.c_proj",
+      "weight": "transformer.h.11.mlp.c_proj.weight",
+      "weight_index": 144,
+      "input_moment_source": "transformer.h.11.mlp.act",
+      "preferred_by_local_variance": "transposed_matrix",
+      "transposed_over_storage_predicted_variance": 0.5293080690689802,
+      "conditions": {
+        "storage_flat": {
+          "predicted_sum_output_variance_per_token": 15.625930688027061,
+          "reference_sum_squared_output_per_token": 11394.33433997408,
+          "predicted_relative_output_RMSE": 0.03703211082336926,
+          "top_noise_input_features": [
+            2378,
+            2910,
+            584,
+            611,
+            1611,
+            2044,
+            737,
+            740
+          ]
+        },
+        "transposed_matrix": {
+          "predicted_sum_output_variance_per_token": 8.270931199885325,
+          "reference_sum_squared_output_per_token": 11394.33433997408,
+          "predicted_relative_output_RMSE": 0.026942179471105148,
+          "top_noise_input_features": [
+            2378,
+            2910,
+            611,
+            2044,
+            1611,
+            740,
+            2408,
+            584
+          ]
+        }
+      }
+    }
+  ]
+}

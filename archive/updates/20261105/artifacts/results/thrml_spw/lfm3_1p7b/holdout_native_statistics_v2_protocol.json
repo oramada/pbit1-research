@@ -1,0 +1,29 @@
+{
+  "status": "complete_paired_holdout_analysis_frozen_before_scoring",
+  "recorded_utc": "2026-11-05T20:17:46.473683+00:00",
+  "sources_sha256": {
+    "preflight_holdout_statistics_v2.py": "93983b05d4e3cdfb420462a8129d72099cd62120383705e53009cb9f9ab1dbf3",
+    "holdout_native_statistics_v2.py": "9379917bc0bfd416595c70696bc021ee9ad853a7c38a8ee3dd27cd1ea10176ac",
+    "verify_holdout_native_statistics_v2.py": "80e2fcd1599c94473ab98a940c5f5ca4465d2df79e5aaa86d53c668761d660c9",
+    "holdout_uncertainty_v2.py": "7f15211e85be0af5a3ab2b96428baba43577ddcbeca6d3e2a953a638da5c14cf",
+    "holdout_uncertainty.py": "d9a03d32c84256568ee656f16a98070aaa092a1219e88e516e1e472aa2e074d1",
+    "holdout_native_statistics.py": "0209dab9e8a23477c99aeccdbc5d271bbcf7953b54d28db1a0ff86e5e461d896",
+    "verify_holdout_native_statistics.py": "4b5d75dcf8665372b6ade4a0596a92232c6d1fd77ae5c22737f494accae3dc1e",
+    "holdout_batch_layout.py": "0344ba0a027b54401f3e5c09c236a0e36f155dad885d1677fe0393ac7444aa70"
+  },
+  "parameters": {
+    "NLL_margin": 0.01980262729617973,
+    "bootstrap_replicates": 10000,
+    "bootstrap_key": 202610400,
+    "unexposed_bootstrap_key": 202611699,
+    "excluded_short_article_indices": [
+      0,
+      1
+    ]
+  },
+  "preflight_sha256": "d131f8b3fb51b56ae065fb8e5bd938f82bb33911e7ca214f554d00585ca6b957",
+  "exposure_ledger_path": "results/thrml_spw/broad_verification_20261105/prior_holdout_exposure.json",
+  "exposure_ledger_sha256": "374007e3be135beb18dbf002d4afa3ff37facc9e8a82dfc99f4679338c5dd693",
+  "quality_rule": "Full40articles and separately previously unexposed38articles must each satisfy the unchanged upper2percentPPLcriterion for short,long,andpooled, with both conditionalMCt4 and crossed-article/seedbootstrap intervals. No score-dependent exclusions, additional seeds or margin changes.",
+  "scope": "The2firstshortarticles were exposed toBF16controls in a failed implementation run. The9728other targets were not used for that model execution. All10240targets remain in the full planned analysis. Approximate uncertainty, no universal/population or numericalBF16claim."
+}

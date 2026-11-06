@@ -1,0 +1,26 @@
+{
+  "status": "candidate_pending_execution_and_statistical_gates_not_launched",
+  "recorded_utc": "2026-11-05T23:36:55.867506+00:00",
+  "reason": "Original five-seedGPT2K1T8192 primary failed by25percentPPL. Finite-programmean is nearBF16; a distinct higherT condition tests finite-sample sensitivity.",
+  "model": "gpt2",
+  "logical_pbits_per_parameter": 1,
+  "samples_per_parameter": 262144,
+  "seeds": [
+    202611800,
+    202611801,
+    202611802,
+    202611803,
+    202611804
+  ],
+  "margin": "Both conditionalMC95 and crossedarticle/seedbootstrap95 uppergap<=log(1.02), versus originalBF16 and finite-programmean1.",
+  "data_scope": "Same already-exposed full283225WikiText2targets/62articles. New stochastic keys, not an independent new-text holdout. Full original104case sweep and its failedprimary remain unchanged.",
+  "counter_format": "uint32, independent savedcount decoder and full neuralreplay",
+  "gates_remaining": [
+    "Complete and inspect original5seedcount-moment audit before diagnosing mechanism",
+    "Measure production65536lane highTcount throughput before deciding feasible full-run resources",
+    "Complete actualmodel integration gate for new uint32worker with independentreplay",
+    "Implement and independently preflight complete5seedstatistics and freeze allscientificcode/inputhashes before firstnewfulltaskscore"
+  ],
+  "resource_warning": "32timeslogical retainedwork versusT8192, identicallogicalpbitcount; no density/time/energy improvement assumed.",
+  "scope": "Prospective follow-up candidate after observing the original failedprimary, not its replacement and not a new success claim."
+}

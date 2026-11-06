@@ -1,0 +1,118 @@
+{
+  "status": "all_five_prior_selected_mean_cases_summarized",
+  "inputs_sha256": {
+    "results/thrml_spw/lfm3_1p7b/counted_mean_t4096/mean/202610420/independent_audit.json": "ec7a7871dee242aea82af1e38bbb09803c1c8a44825c8b07046c4101e598e196",
+    "results/thrml_spw/lfm3_1p7b/counted_mean_t4096/mean/202610420/results.json": "493cebe471016fa9fe75c3bd91805ad12b4f50246508011065ce659129f26146",
+    "results/thrml_spw/lfm3_1p7b/counted_mean_t4096/mean/202610421/independent_audit.json": "a2ef5deb36fbac5841e771c46457045d3f72e7bbe32509de4118416926f8cb1a",
+    "results/thrml_spw/lfm3_1p7b/counted_mean_t4096/mean/202610421/results.json": "b952e3e65551452222ffd5146380f6d82fd84f7c01d1608b682621bd4ae8bb96",
+    "results/thrml_spw/lfm3_1p7b/counted_mean_t4096/mean/202610422/independent_audit.json": "b81982b51911660ad43923af117dad8bb893ed28df2d86fe8e2f06ba828c3458",
+    "results/thrml_spw/lfm3_1p7b/counted_mean_t4096/mean/202610422/results.json": "5ad889cd3f1fa95b8aa8118769367e6e720d0c15bdc7ae3fa99964fce1128264",
+    "results/thrml_spw/lfm3_1p7b/counted_mean_t4096/mean/202610423/independent_audit.json": "547b8fcdb832a4da7788dce4f184f069d550eb7fdd718fccb85abab2142e901a",
+    "results/thrml_spw/lfm3_1p7b/counted_mean_t4096/mean/202610423/results.json": "fbbe39f41f1fb6c38f2c610ef47c347149f343a7ad2eb6f12b6694a514b00e09",
+    "results/thrml_spw/lfm3_1p7b/counted_mean_t4096/mean/202610424/independent_audit.json": "dfa437312bbe487eea52e731648a5b26680190ed1852abedd831c67888377208",
+    "results/thrml_spw/lfm3_1p7b/counted_mean_t4096/mean/202610424/results.json": "8d534cee0dd2384f48f117c9b3057adeeac7437c27f01bc4fe7238163e06e2e9"
+  },
+  "protocol_sha256": "9a9c91c10911629e0676febaf2d7c8e18a17a75b83bb4feebe81a4fc060a76ff",
+  "controls_NLL": {
+    "BF16": 4.978250316314612,
+    "same_fit_BF16": 4.321675645982948,
+    "nominal_controls": 4.29973876220307
+  },
+  "native_NLL": {
+    "values": [
+      4.327380979421812,
+      4.3272920405661495,
+      4.347968930831977,
+      4.324866705168009,
+      4.332892388435712
+    ],
+    "mean": 4.332080208884732,
+    "standard_error": 0.004184226750567595,
+    "MC95_t4_interval": [
+      4.320462933004081,
+      4.343697484765383
+    ]
+  },
+  "native_minus_control_NLL": {
+    "BF16": {
+      "values": [
+        -0.6508693368928,
+        -0.6509582757484624,
+        -0.6302813854826352,
+        -0.6533836111466025,
+        -0.6453579278788997
+      ],
+      "mean": -0.64617010742988,
+      "standard_error": 0.004184226750567595,
+      "MC95_t4_interval": [
+        -0.6577873833105311,
+        -0.6345528315492289
+      ]
+    },
+    "same_fit_BF16": {
+      "values": [
+        0.005705333438863924,
+        0.005616394583201512,
+        0.02629328484902871,
+        0.0031910591850614622,
+        0.011216742452764272
+      ],
+      "mean": 0.010404562901783976,
+      "standard_error": 0.004184226750567595,
+      "MC95_t4_interval": [
+        -0.0012127129788671136,
+        0.022021838782435067
+      ]
+    },
+    "nominal_controls": {
+      "values": [
+        0.027642217218741827,
+        0.027553278363079414,
+        0.04823016862890661,
+        0.025127942964939365,
+        0.033153626232642175
+      ],
+      "mean": 0.032341446681661876,
+      "standard_error": 0.004184226750567595,
+      "MC95_t4_interval": [
+        0.020724170801010786,
+        0.043958722562312966
+      ]
+    }
+  },
+  "native_subset_perplexity": 76.1024309785281,
+  "native_over_same_fit_BF16_PPL_ratio": 1.010458878579891,
+  "native_over_same_fit_BF16_PPL_ratio_MC95_interval": [
+    0.9987880220603569,
+    1.0222661092738152
+  ],
+  "conditional_same_fit_BF16_gate_passed": false,
+  "work_per_seed": [
+    {
+      "retained_scheduled_evaluations": 28352274497536,
+      "warmup_scheduled_evaluations": 6921942016,
+      "max_temporary_weight_count_bytes": 7864320
+    },
+    {
+      "retained_scheduled_evaluations": 28352274497536,
+      "warmup_scheduled_evaluations": 6921942016,
+      "max_temporary_weight_count_bytes": 7864320
+    },
+    {
+      "retained_scheduled_evaluations": 28352274497536,
+      "warmup_scheduled_evaluations": 6921942016,
+      "max_temporary_weight_count_bytes": 7864320
+    },
+    {
+      "retained_scheduled_evaluations": 28352274497536,
+      "warmup_scheduled_evaluations": 6921942016,
+      "max_temporary_weight_count_bytes": 7864320
+    },
+    {
+      "retained_scheduled_evaluations": 28352274497536,
+      "warmup_scheduled_evaluations": 6921942016,
+      "max_temporary_weight_count_bytes": 7864320
+    }
+  ],
+  "scope": "Conditionalexploratoryprecisionextensionatthesameprior-selectedmeantrainedpoint. NewindependentMCkeysavoidcouplingtothetriggeringlower-budgetnoise. Fiveclusters/2048reservedvalidationtargets, allfourcontrols. Sameprior2percentPPLupperMCt4gatevsSAME-FITBF16, no relaxedthreshold. Fourtimesretainednodeevaluations,warmupunchanged;physicalcounter/readout/controlcostsnoteliminated. Int32per-weighttemporarysimulatorcountsareexplicit. No numericalBF16equivalence, generalization/coverage/multiplicity-controlclaim, physicalenergy/latency/residencybenefit ornewholdoutscore. Existingall3candidate/allocated/K8/currentT1024studiesunchanged. NewseedsareadifferentTcondition,neverpoolas10same-conditionruns."
+}

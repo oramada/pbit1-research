@@ -1,0 +1,41 @@
+{
+  "status": "all_coordinates_Adam_trajectory_programs_and_validation_losses_verified",
+  "source_sha256": "9e67f9133cad2748b3d2118a0dafb6286afb88b2a06aa522775f5e3166d53655",
+  "results_sha256": "5092640a00ab15378ccf9b74326f053bc99b77e29b1ec8a5b7aadee0c69819c8",
+  "arm": "mean",
+  "unique_controls": 1728801536,
+  "steps": 16,
+  "control_updates_replayed": 27660824576,
+  "changed_commands": 52610250,
+  "validation_checks": [
+    {
+      "label": "before_mean",
+      "mean_NLL_FP64": 4.985681076255663
+    },
+    {
+      "label": "after_mean",
+      "mean_NLL_FP64": 4.302017009042629
+    },
+    {
+      "label": "after_binomial_202610340",
+      "mean_NLL_FP64": 4.395606291790202
+    },
+    {
+      "label": "after_binomial_202610341",
+      "mean_NLL_FP64": 4.38799899962449
+    },
+    {
+      "label": "after_binomial_202610342",
+      "mean_NLL_FP64": 4.416233808029388
+    },
+    {
+      "label": "after_binomial_202610343",
+      "mean_NLL_FP64": 4.388075420483196
+    },
+    {
+      "label": "after_binomial_202610344",
+      "mean_NLL_FP64": 4.3788804782469635
+    }
+  ],
+  "scope": "Independent raw-gradient multi-step FP32 Adam replay, every final theta/moment/code/range, shared aliases and saved validation logit losses. Does not rerun full derivatives, sampled training draws, or model forwards; independent component STE algebra audited upstream. Validation is nominal-IID Torch surrogate, not officialTHRML quality, generalization or BF16 equivalence."
+}

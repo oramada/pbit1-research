@@ -1,0 +1,294 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsfonts,mathtools}
+\usepackage{booktabs,multirow}
+\usepackage{enumitem}
+\usepackage{xcolor,graphicx}
+\usepackage{hyperref,microtype}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Var}{\operatorname{Var}}
+\newcommand{\Bern}{\operatorname{Bernoulli}}
+\newcommand{\sign}{\operatorname{sign}}
+\newcommand{\clip}{\operatorname{clip}}
+\newcommand{\MSE}{\operatorname{MSE}}
+\newcommand{\KL}{D_{\mathrm{KL}}}
+\newcommand{\Acc}{\operatorname{Acc}}
+\newcommand{\pbit}{\text{p-bit}}
+\newcommand{\pbits}{\text{p-bits}}
+\newcommand{\ours}{\textsc{SPW}}
+
+\title{Single-P-Bit Weight Encoding:\\Implementation and Experimental Execution Plan}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\section{Objective and central hypothesis}
+A continuous machine-learning parameter may be represented by one physical
+probabilistic bit (p-bit) through its stationary probability, instead of by several
+spatial binary elements. For parameter $i$ in range group $g(i)$, define
+\begin{equation}
+ w_i=c_{g(i)}+r_{g(i)}(2p_i-1),\qquad p_i\in[0,1].
+ \label{eq:weightmap}
+\end{equation}
+The stochastic state is $z_i^{(t)}\sim\Bern(p_i)$, or
+$s_i^{(t)}=2z_i^{(t)}-1\in\{-1,+1\}$. From $T$ observations,
+\begin{equation}
+ \hat w_i^{(T)}=c_{g(i)}+r_{g(i)}\frac1T\sum_{t=1}^T s_i^{(t)}.
+ \label{eq:temporalestimate}
+\end{equation}
+The question is whether this spatial-to-temporal precision exchange can compete with
+multi-p-bit encodings while preserving task quality under realistic cost, latency, and
+device nonidealities. Probability as a scalar code is established; the research target
+is whether one programmable probabilistic element per parameter is useful for neural
+computation.
+
+\section{Terminology and research questions}
+We call the representation Single-P-Bit Weight Encoding (\ours). Keep three execution
+regimes distinct: (R1) repeatedly sample, reconstruct weights, then use conventional
+operators; (R2) sample stochastic weights and execute operators directly; (R3) reformulate
+operators to accumulate useful expectations without explicit weight reconstruction.
+
+\begin{description}[leftmargin=!,labelwidth=2.3cm]
+\item[RQ1 Representation] How does scalar reconstruction error vary with sample budget?
+\item[RQ2 Localization] How do layer, channel, block, or group ranges reduce samples?
+\item[RQ3 Robustness] How much stochastic error can each network tolerate?
+\item[RQ4 Tradeoff] When does one p-bit over time beat $K$ spatial p-bits?
+\item[RQ5 Execution] Can useful neural computation avoid deterministic weight recovery?
+\item[RQ6 Training] Can probability parameters be optimized directly?
+\item[RQ7 Hardware] Do sampling, programming, calibration, and correlations preserve an advantage?
+\end{description}
+
+\section{Representation baselines and common interface}
+First reproduce FP reference, INT4, and a $K$-bit bipolar multi-p-bit expansion
+\begin{equation}
+ w\approx \alpha\sum_{k=1}^{K}a_ks_k,\qquad s_k\in\{-1,+1\},\quad K\in\{2,4,8\},
+\end{equation}
+with $K=4$ as the primary comparison. Every encoding implements the same operations:
+\texttt{encode(weight)}, \texttt{sample(encoded,n)}, \texttt{decode(samples)}, and
+\texttt{forward(input,encoded,n)}. Do not start neural comparisons before interface parity.
+Keep the implementation modular under \texttt{encodings/}, \texttt{stochastic/},
+\texttt{operators/}, \texttt{training/}, \texttt{models/}, \texttt{experiments/},
+and \texttt{analysis/}.
+
+\section{Scalar simulator and precision limits}
+For $w\in[-1,1]$, set $p=(w+1)/2$, draw $z_t\sim\Bern(p)$, and estimate
+$\hat w_T=2T^{-1}\sum_tz_t-1$. Then
+\begin{equation}
+ \Var(\hat p_T)=\frac{p(1-p)}T,\qquad
+ \Var(\hat w_T)=\frac{4p(1-p)}T,
+ \quad \operatorname{Std}(\hat w_T)|_{p=1/2}=T^{-1/2}.
+\end{equation}
+Sweep $T\in\{1,2,4,8,16,32,64,128,256,512,1024,4096\}$, at least 1000 uniformly
+spaced target values, and at least 1000 Monte Carlo trials per condition. Report bias,
+MAE, and RMSE. Compare empirical variance to the analytical value. Define worst-case
+$\sigma_T=T^{-1/2}$ and the rough effective precision
+\begin{equation}
+ b_{\mathrm{eff}}=-\log_2\sigma_T\simeq\tfrac12\log_2T,
+ \qquad T\sim2^{2b_{\mathrm{eff}}}.
+\end{equation}
+This exponential temporal cost motivates direct stochastic execution rather than exact
+weight reconstruction.
+
+\section{Local ranges, robust ranges, and metadata}
+For each group $G$, use $c_G=(w_G^{\max}+w_G^{\min})/2$ and
+$r_G=(w_G^{\max}-w_G^{\min})/2$, then
+$p_i=\tfrac12((w_i-c_G)/r_G+1)$, clipped only for numerical protection. Test
+$\epsilon\in\{10^{-6},10^{-4},10^{-3},10^{-2}\}$. Grouping strategies: global,
+per-layer, per-output-channel, per-input-channel, and flattened blocks of 16, 32, 64,
+and 128 weights. Always count storage for every $c_G,r_G$.
+
+Min/max ranges are outlier-sensitive. Also evaluate percentile bounds $l_G=Q_\alpha(W_G)$,
+$u_G=Q_{1-\alpha}(W_G)$ at $\alpha\in\{0,10^{-4},10^{-3},5\cdot10^{-3},10^{-2}\}$.
+Either clip outliers or store sparse residuals $w_i=\tilde w_i+\delta_i$; report the
+residual fraction and metadata cost.
+
+\section{Nonideal p-bits}
+Support temporal Markov correlation with approximately
+$\operatorname{Corr}(s_t,s_{t+\tau})=\rho^\tau$ for
+$\rho\in\{0,.01,.05,.1,.25,.5,.75\}$ and compare with
+$T_{\rm eff}\simeq T(1-\rho)/(1+\rho)$. Model probability calibration as
+\begin{equation}
+ \tilde p_i=\sigma(a_i\operatorname{logit}(p_i)+b_i),\quad
+ a_i\sim\mathcal N(1,\sigma_a^2),\quad b_i\sim\mathcal N(0,\sigma_b^2),
+\end{equation}
+and drift as $b_i(t+1)=b_i(t)+\eta_t$, $\eta_t\sim\mathcal N(0,\sigma_{\rm drift}^2)$.
+Report recalibration frequency. The hardware-equivalent simulator additionally models
+finite switching rate, cross-device correlation, quantized control voltage, and readout
+noise. Quantize $\hat V=Q_{B_V}(V)$ for $B_V\in\{4,6,8,10,12\}$ with
+$p=\sigma(\beta V)$.
+
+\section{Dot products and matrix multiplication}
+For $y=\mathbf w^\top\mathbf x$, directly sample
+\begin{equation}
+ \hat y_t=\sum_i(c_i+r_is_i^{(t)})x_i,\qquad
+ \bar y_T=T^{-1}\sum_t\hat y_t.
+\end{equation}
+Then $\E[\bar y_T]=\mathbf w^\top\mathbf x$, and for independent p-bits
+\begin{equation}
+ \Var(\hat y)=\sum_i x_i^2r_i^2\bigl(1-(2p_i-1)^2\bigr),\quad
+ \Var(\bar y_T)=\Var(\hat y)/T.
+\end{equation}
+Test dimensions $d\in\{16,64,256,1024,4096,16384\}$ with Gaussian,
+unit-normalized, heavy-tailed, and real activation inputs. Extend to $Y=XW$ in both
+reconstructed-matrix mode ($X\hat W_T$) and sample-and-accumulate mode
+($T^{-1}\sum_tXW^{(t)}$).
+
+\section{Neural evaluation, sensitivity, and adaptive inference}
+After operator gates pass, evaluate frozen FP32 MNIST MLP, Fashion-MNIST MLP/CNN, and
+CIFAR-10 small CNN. Compare FP32, FP16/BF16, INT8/4, multi-p-bit $K=4$, and SPW with
+global, layer, channel, and block ranges. Sweep $T\in\{1,2,4,8,16,32,64,128,256\}$.
+Replace one layer at a time to estimate
+$S_\ell(T)=\mathcal L(W_\ell\to\hat W_{\ell,T})-\mathcal L_{FP}$, then allocate
+nonuniform $T_\ell$ according to sensitivity.
+
+Implement empirical-standard-error early stopping at
+$\tau\in\{.1,.05,.01,.005,.001\}$ and classification margin stopping. If logits
+$y_{(1)},y_{(2)}$ have estimated standard deviations $\sigma_{(1)},\sigma_{(2)}$,
+stop when $y_{(1)}-y_{(2)}>\gamma\sqrt{\sigma_{(1)}^2+\sigma_{(2)}^2}$.
+
+\section{Probability-aware and Monte Carlo training}
+Parameterize $p_i=\sigma(\theta_i)$ and
+$w_i(\theta_i)=c_g+r_g(2\sigma(\theta_i)-1)$. Optimize task loss plus saturation
+and variance regularization, e.g.
+\begin{equation}
+ \mathcal L_{\rm total}=\mathcal L_{\rm task}+\lambda_{\rm sat}\mathcal L_{\rm sat}
+ +\lambda_{\rm var}\mathcal L_{\rm var},\qquad
+ v_i=4r_g^2p_i(1-p_i).
+\end{equation}
+Compare expected-weight training, straight-through, Gumbel/Concrete, REINFORCE, and
+local-reparameterization approaches; start with straight-through. Fine-tune only after
+frozen inference is characterized.
+
+\section{Transformers and selective conversion}
+Only after small models pass, progress through a small DistilBERT-like model, GPT-2 Small,
+GPT-2 Medium, a sub-billion Qwen-family model, then approximately 1B parameters. Begin
+with post-training conversion. Evaluate embedding, attention Q/K/V/output, MLP up/gate/down,
+and LM head separately; initially keep LayerNorm and biases deterministic.
+Test hybrid layer assignments $q_\ell\in\{0,1\}$ under converted fractions
+$\rho\in\{.25,.50,.75,.90,1.00\}$.
+
+\section{Fair resource matching and Pareto results}
+For $N$ parameters, a $K$-p-bit method with $T_K$ samples costs
+$C_{\rm multi}=KNT_K$ stochastic-device evaluations; SPW costs $C_{\rm single}=NT_1$.
+Require matched transition counts, so for $K=4$, $T_1=4T_4$. Also compare equal
+physical device count, samples, estimated energy, latency, and task quality. The main
+results are Pareto curves for quality against p-bits/parameter, samples, transitions,
+latency, and energy, plus effective precision versus sampling and sampling versus group
+granularity.
+
+\section{Hardware cost and device counts}
+Separate programming, stochastic transitions, readout, accumulation, and recalibration.
+With transition energy $E_s$, bias-programming energy $E_b$, sampling frequency $f_s$,
+$N_p$ devices, reuse $N_{\rm reuse}$, and sample count $T$,
+\begin{equation}
+ E_{\rm infer}\simeq N_pTE_s+\frac{N_pE_b}{N_{\rm reuse}},\qquad
+ L\simeq T/f_s+L_{\rm program}+L_{\rm readout}.
+\end{equation}
+Static pretrained weights amortize bias programming across inferences. A four-p-bit
+baseline uses $4N$ devices; SPW uses $N+N_{\rm metadata}$, with metadata including
+range parameters and any residual table. Do not call device reduction a systems gain
+unless transition, latency, metadata, and energy costs also support it.
+
+Investigate shared range parameters per matrix, row, column, and $16\times16$,
+$32\times32$, or $64\times64$ tile. If one p-bit is insufficient, use residual
+multi-scale encoding $w_i=c_g+\sum_{k=1}^{K_i}r_{g,k}(2p_{i,k}-1)$ with adaptive
+$K_i\in\{1,2,4\}$. Jointly optimize group-specific spatial precision
+$K_g\in\{1,2,4\}$ and temporal budget $T_g\in\{1,2,4,\ldots,256\}$ under a task-loss
+constraint.
+
+\section{Information theory and end-to-end reporting}
+For $T$ Bernoulli observations, Fisher information is
+$\mathcal I(p)=T/[p(1-p)]$, so the Cram\'er--Rao bound gives
+$\Var(\hat p)\ge p(1-p)/T$. Interpret this as the temporal precision limit and motivate
+native stochastic computation and model-level tolerance, not merely replacement of an
+FP16 memory cell.
+
+Every major model reports task accuracy/perplexity, p-bits/parameter, samples, transitions,
+effective precision, metadata, latency and energy estimates, and sensitivity to
+calibration, correlation, and drift. Use at least five random seeds (prefer ten for
+central claims), report mean and 95\% interval $\bar x\pm1.96s/\sqrt n$, and pair
+evaluations on identical examples and seeds where possible.
+
+\section{Mandatory controls and ablations}
+Negative controls: variance-matched additive Gaussian weight noise; INT2/4/8; equal
+numbers of deterministic and probabilistic binary elements where meaningful; and equal
+total random samples. Required ablations: samples 1--4096, range grouping and block
+size, min-max/percentile/learned ranges, frozen/fine-tuned/stochastic training,
+correlation 0--.75, voltage precision 4--12 bits, 1/2/4 p-bits per weight,
+fixed/adaptive sampling, and reconstructed/direct execution.
+
+\begin{table}[h]
+\centering
+\caption{Ablation matrix}
+\begin{tabular}{ll}\toprule
+Factor & Values \\\midrule
+Samples & $1$--$4096$ \\
+Grouping / block size & global, layer, channel, block / $16,32,64,128$ \\
+Range / training & min-max, percentile, learned / frozen, fine-tuned, stochastic \\
+Nonidealities & correlation $0$--$.75$, voltage $4$--$12$ bits \\
+Spatial / temporal / execution & $1,2,4$ p-bits; fixed/adaptive; reconstructed/direct \\\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Decision gates}
+\begin{enumerate}[label=Gate \Alph*.,leftmargin=*]
+\item Scalar Monte Carlo error agrees with theory within statistical tolerance; failure is a simulator bug.
+\item Dot-product accumulation needs materially fewer effective samples than per-weight reconstruction.
+\item Small-network SPW inference is within roughly 1--2 percentage points absolute accuracy at plausible sampling.
+\item A pretrained Transformer retains useful quality with modest, adaptive, or fine-tuned sampling.
+\item Request physical X0/XTR-0 access only after the simulator finds a favorable quality/device/transition regime.
+\end{enumerate}
+
+\section{Physical validation}
+When hardware is available, characterize devices before large models. H1: calibrate requested
+$p\in\{.01,.05,.1,\ldots,.9,.95,.99\}$ with up to $10^6$ observations per point. H2:
+measure autocorrelation and effective sampling rate. H3: measure cross-device correlations.
+H4: measure probability drift over minutes, hours, and thermal conditions. H5: replicate
+synthetic dot products. H6: run one complete neural linear layer before an end-to-end network.
+
+\section{Execution order and schedule}
+The implementation order is: (1) reproduce FP/INT4/multi-p-bit baselines; (2) scalar simulator
+and variance check; (3) local ranges and metadata; (4) nonideal simulator; (5) dot products;
+(6) matrix multiply; (7) MNIST/Fashion-MNIST; (8) CIFAR-10; (9) sensitivity; (10) adaptive
+sampling; (11) probability fine-tuning; (12) Transformer linear layers and small Transformer;
+(13) spatial-temporal Pareto and cost model; (14) hardware-equivalent simulator; (15) device
+characterization; (16) physical operator and network. Decision gates classify evidence and
+claims; a negative result does not cancel independent experiments in the roadmap. Defer a
+dependent stage only when its prerequisite is technically invalid or its required resource is
+unavailable, and record that specific limitation.
+
+Suggested experiments are \texttt{e00\_reproduce\_baseline.py}, \texttt{e01\_scalar.py},
+\texttt{e02\_local\_range.py}, \texttt{e03\_nonidealities.py}, \texttt{e04\_dot\_product.py},
+\texttt{e05\_matmul.py}, \texttt{e06\_mnist.py}, \texttt{e07\_cifar.py},
+\texttt{e08\_adaptive.py}, \texttt{e09\_finetune.py}, \texttt{e10\_transformer.py},
+\texttt{e11\_cost\_model.py}, and \texttt{e12\_hardware.py}. Preserve configs and raw
+results separately from analysis and plots.
+
+\section{Minimum serious study and failure modes}
+At minimum, report the theoretical variance/information limit, scalar reconstruction, direct
+dot products, one small image model and one Transformer, four-versus-one p-bit, local ranges,
+sampling budgets, nonideal/correlated simulation, device/transition/latency estimates, and
+matched-resource Pareto curves. The simple method is unsuccessful if useful inference needs
+extreme $T$, correlation destroys precision, control-voltage precision or metadata dominates,
+accuracy requires near-deterministic reconstruction, direct execution costs too much, or
+recalibration is too frequent. Such results are valid findings.
+
+\section{Potential result and paper narrative}
+A strong result shows at matched quality that $N_{\pbit}^{\ours}\ll N_{\pbit}^{\rm multi}$,
+while inference energy and latency remain acceptable. The paper should establish that
+probability encodes the parameter, derive sampling limits, show the cost of individual
+reconstruction, test whether neural aggregation reduces samples, add local ranges and
+probability-aware fine-tuning, and validate nonidealities on hardware. The central design
+space is
+\begin{equation}
+ \boxed{\text{spatial p-bits}\times\text{temporal samples}\times
+ \text{local dynamic range}\times\text{network tolerance}}.
+\end{equation}
+One p-bit per weight is its spatially compressed extreme, not an assumed win.
+
+\end{document}

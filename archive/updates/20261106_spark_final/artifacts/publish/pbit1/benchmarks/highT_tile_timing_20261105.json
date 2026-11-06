@@ -1,0 +1,73 @@
+{
+  "status": "complete_production_width_highT_count_timing_fixture",
+  "source_sha256": "38c02d38a5b3346fd21bd93a545b94c0e2e8296842ab3dad97b79b801fb19443",
+  "devices": [
+    "cuda:0"
+  ],
+  "tile_size": 65536,
+  "records": [
+    {
+      "samples": 8192,
+      "cold_seconds_including_JIT": 2.045396706000002,
+      "warm_runs": [
+        {
+          "seed": 202611792,
+          "seconds": 0.054208690999999476,
+          "counts_file_sha256": "d714e9ffb25f6dc9385277420442e49a920e168431b7773a21e4a4c3ff7bf3a2",
+          "counts_array_sha256": "84d60760be3f3ab3cda2b2821935bf37659acc253755e93b81e68ec5c1dae1a8",
+          "scheduled_retained_node_evaluations": 536870912,
+          "retained_node_evaluations_per_second": 9903779303.58077
+        },
+        {
+          "seed": 202611793,
+          "seconds": 0.05440894399999863,
+          "counts_file_sha256": "0c27c75e4c831d84b504c6387fe086c80755ac9c713b251b1f16a875ae751e50",
+          "counts_array_sha256": "e501e41df12ea8a2311d177f82ee46ad4ed8ffb9ed3d391e5c8d56447477ea89",
+          "scheduled_retained_node_evaluations": 536870912,
+          "retained_node_evaluations_per_second": 9867328283.379541
+        },
+        {
+          "seed": 202611794,
+          "seconds": 0.05330778599999775,
+          "counts_file_sha256": "7e3d619c2c75f0f624be187679d6229f74f3b3248ab0f5bcd82c752ee0031fd7",
+          "counts_array_sha256": "47813fb901ee49d689b3fc4edc7371808492f25fbf07e1fabeaa789c75a37570",
+          "scheduled_retained_node_evaluations": 536870912,
+          "retained_node_evaluations_per_second": 10071153808.56415
+        }
+      ],
+      "median_warm_seconds": 0.054208690999999476
+    },
+    {
+      "samples": 262144,
+      "cold_seconds_including_JIT": 3.682179987999998,
+      "warm_runs": [
+        {
+          "seed": 202611792,
+          "seconds": 1.5333020180000005,
+          "counts_file_sha256": "faa88a571f5c89b262619bdf100287268847449564dc348b194e41c5e54a99e6",
+          "counts_array_sha256": "ec6783e135fb18ca0979ccaaa14dcf5f6a3cf6c9bfbab455ac34bebb33e6cd29",
+          "scheduled_retained_node_evaluations": 17179869184,
+          "retained_node_evaluations_per_second": 11204491341.118155
+        },
+        {
+          "seed": 202611793,
+          "seconds": 1.5333683359999988,
+          "counts_file_sha256": "0ce95064d9aa44374741c019984822c257490c3ce784fc620f4c92ef2acc0827",
+          "counts_array_sha256": "9c08fe63e35ad6452b4ce6a47249ca08c0f7277adfbcc34d676ed4662ee2fb0f",
+          "scheduled_retained_node_evaluations": 17179869184,
+          "retained_node_evaluations_per_second": 11204006748.186832
+        },
+        {
+          "seed": 202611794,
+          "seconds": 1.5329766030000016,
+          "counts_file_sha256": "0159e98a6a5afa9099d6bd8d0f51811eedf75b31a19d25a371dffdcec04fd348",
+          "counts_array_sha256": "b6e3b141cf80f7b068bc6cc04e7c5324bf63a89fae97a870fd6c013cb54a6ab9",
+          "scheduled_retained_node_evaluations": 17179869184,
+          "retained_node_evaluations_per_second": 11206869791.99772
+        }
+      ],
+      "median_warm_seconds": 1.5333020180000005
+    }
+  ],
+  "scope": "Official THRML count-only single-tile simulator timing including host readout/decoding in draw, warm disk serialization excluded. Cold/JIT reported separately. Does not measure a full-model runtime, neural quality, physical switching rate, or hardware energy/latency."
+}

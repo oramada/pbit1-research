@@ -1,0 +1,19 @@
+{
+  "source_sha256": "7254545e80a1daf71b4ad85d29341c86849ce7f8fd3dbe6f57b52774275fce2a",
+  "model_preparation_sha256": "993325f38d5da48f3ea4b2828edaee4554e198348bbe972a397c54d754b93502",
+  "data_preparation_sha256": "85edb85705f0b28a35c7d13c1779fb5736a912e8d89145f111ad356c9dfbbd05",
+  "rows": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "input_length": 129,
+  "samples_for_predicted_variance": 32768,
+  "selection": "Minimum conditional output variance per parameter. Tied embedding/head uses head input moments. Norm groups16or128; depthwiseconv groups7,16,128; matrices flatortransposedG128. Exactties choosefewer rangegroups.",
+  "scope": "OriginalBF16checkpoint,training-onlyactivationmoments,allparameterpolicies. No stochasticmodeldraws,qualitylabels,heldoutforwards ortrainingupdates."
+}

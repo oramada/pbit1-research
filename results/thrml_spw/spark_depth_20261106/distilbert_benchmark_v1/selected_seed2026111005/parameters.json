@@ -1,0 +1,1709 @@
+{
+  "point_sha256": "9fbc1a63794b831c32685fc7243f44f583f8bac2b9be924a2bf257d8389653eb",
+  "parameters": [
+    {
+      "counts_uint16_sha256": "7b5ccfc638082d46a12912f33fbfd23f8c6f0f5c8739f9e80d54c9e6fd986f9b",
+      "BF16_sha256": "de920df46b2ec525ef1d0532d0b4b594f20c0b4faad3e776e9d8482825a4329b",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 6.742580041550988,
+      "expected_SSE": 6.743022404997785,
+      "variance_of_SSE": 5.379414123564538e-06,
+      "samples": 32768,
+      "layout": "transposed_matrix",
+      "group": 128,
+      "parameters": 23440896,
+      "range_groups": 183132,
+      "name": "distilbert.embeddings.word_embeddings.weight",
+      "shape": [
+        30522,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "f1b97ae48d6aef0e2330453ef3ebd4c1f8c4d52f707990855ee99068115c530b",
+      "BF16_sha256": "35540c3feb44dee61bff242bd348ab5e8d3108221d46e7c508572e4d1ec869f2",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.013525928102171698,
+      "expected_SSE": 0.013593731351967956,
+      "variance_of_SSE": 8.078800717020257e-09,
+      "samples": 32768,
+      "layout": "transposed_matrix",
+      "group": 128,
+      "parameters": 393216,
+      "range_groups": 3072,
+      "name": "distilbert.embeddings.position_embeddings.weight",
+      "shape": [
+        512,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "cb4ed1e7b1c831fcd5e0ad53b31070670d7c59a083a5609725b46db34c1ebd1c",
+      "BF16_sha256": "4513eb5116049f3797c1510fc5bf4fa0382c5913c6da6c7df3ad7cbda6ebabb1",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0018101075610990319,
+      "expected_SSE": 0.0017866570747633224,
+      "variance_of_SSE": 9.666961738197992e-09,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.embeddings.LayerNorm.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "b59b3d2e00eb05d23572bd9409970ff93c8279c890530c709868178422024250",
+      "BF16_sha256": "f1e830b9fe62175889ab2014e8ebe1b1d4d01ad9aadfc024d7c6a1b234ba8910",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0022252208799865385,
+      "expected_SSE": 0.002173762142379678,
+      "variance_of_SSE": 1.4567329192233528e-08,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.embeddings.LayerNorm.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "3ec8ed08fcfc57f42987a306c382a36ca6e3c9f03ca719dc6b09ac20f6e3e13f",
+      "BF16_sha256": "2472591df6787e32ed8d72695ac20e42aee5e27e468b1cb0abb48a77eda1e4ed",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.20766466459335586,
+      "expected_SSE": 0.20769158291678808,
+      "variance_of_SSE": 2.3960385628276343e-07,
+      "samples": 32768,
+      "layout": "transposed_matrix",
+      "group": 128,
+      "parameters": 589824,
+      "range_groups": 4608,
+      "name": "distilbert.transformer.layer.0.attention.q_lin.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "62c4e16cc2f29d31a792e3c0c9c74e5a98c7c3c0fe90c2ecd405c3de8e47b02a",
+      "BF16_sha256": "9cd435201e386c10891cc81aebca08490f79693cbe0f56662d381800fe9dd5f0",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.014085728908628269,
+      "expected_SSE": 0.01340905539911541,
+      "variance_of_SSE": 5.840525581163435e-07,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.0.attention.q_lin.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "3d749d6331dba791aefef837df2fc346b8cfaa6cbd58d269e98abadc08a94327",
+      "BF16_sha256": "2209d95f4cb206e02186aa8fd8c4a908cd30a753f637d793eb86cca5546ae373",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.22223534205719564,
+      "expected_SSE": 0.22221858125327773,
+      "variance_of_SSE": 5.157238435314378e-07,
+      "samples": 32768,
+      "layout": "transposed_matrix",
+      "group": 128,
+      "parameters": 589824,
+      "range_groups": 4608,
+      "name": "distilbert.transformer.layer.0.attention.k_lin.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "81a79f028666304fc4c58b961bbefeee911f1c40b3646ada1bf8acfe865ffb81",
+      "BF16_sha256": "10ba008e065a51637314eeaa104891f0d3f2ccfc982e2c30a9e226f174b781e1",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 1.234433472999234e-06,
+      "expected_SSE": 1.28562573040207e-06,
+      "variance_of_SSE": 5.961914999194862e-15,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.0.attention.k_lin.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "39fe0885aeff58693b6611f6ddaa2d300796f185b16d78eec3adaece11a03452",
+      "BF16_sha256": "6fa3e7cd5f25a583e9ff231a15e5374bd33279cb8653019efcac38ac72b04ec0",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.12539588995903747,
+      "expected_SSE": 0.12560944407359007,
+      "variance_of_SSE": 6.342660361475592e-08,
+      "samples": 32768,
+      "layout": "transposed_matrix",
+      "group": 128,
+      "parameters": 589824,
+      "range_groups": 4608,
+      "name": "distilbert.transformer.layer.0.attention.v_lin.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "e9c649bfd3768ef545c98be37aa20284a7fb5e1a56fd7462e0026d1bacdc7041",
+      "BF16_sha256": "e428ba4a5d78b01071ce1c2960da6e76dd31e84c01034f2ad9a53748749cec4c",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0009493945402181512,
+      "expected_SSE": 0.0009962062417727046,
+      "variance_of_SSE": 5.9903810697792575e-09,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.0.attention.v_lin.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "8522ee8d2fa92e75a939466b5e7ae01ca024b01c7d8b35fd6ad82b3b52a82434",
+      "BF16_sha256": "182a11bbeb552e4f05d7a486ea7366dc4053f8007229e11c5dbd019924ed303b",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.13206045525860535,
+      "expected_SSE": 0.13250434900762353,
+      "variance_of_SSE": 1.7509510915227801e-07,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 589824,
+      "range_groups": 4608,
+      "name": "distilbert.transformer.layer.0.attention.out_lin.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "889b8e8f2a1c6e2b53b0eaa62c8028e7cea677b4187c77a1f3bd061e92b1f871",
+      "BF16_sha256": "f685bfe42925ccd7035e5f2570522c39f80838efe61204427af3e697b41fb99a",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0005857087770642597,
+      "expected_SSE": 0.0006520752890814805,
+      "variance_of_SSE": 1.7989296391173102e-09,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.0.attention.out_lin.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "3805b8c7be53f398f258efa94cb34e646308d973726a757c6854e0acb9d74455",
+      "BF16_sha256": "e65465263601a7a3cf913634ae66fcf4e5aea74ada7bb99c93ac6849e72d29e0",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0026612364575635365,
+      "expected_SSE": 0.0023971896821708256,
+      "variance_of_SSE": 3.7537566168976306e-08,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.0.sa_layer_norm.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "98221766ec2a9fe158c40ed0f4ed703c54fd07244354b61220d64a53ebceb0f3",
+      "BF16_sha256": "99fad8f29de2b7b9365b35863ad3adcf660801313d9ab8c4ba965e7d4818ddf6",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.034187410673464494,
+      "expected_SSE": 0.03665388790774031,
+      "variance_of_SSE": 4.886511951479091e-06,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.0.sa_layer_norm.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "419d692277b450901192e7fac92abb35fda40ffdcdabd37bea8ee3b4183a62e9",
+      "BF16_sha256": "c48e12ae8eb8cdfcd3dfb09cc696a20c839d4eee5cb90206fefb235aca8d80df",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.745994161769681,
+      "expected_SSE": 0.747143421646016,
+      "variance_of_SSE": 5.63051235354943e-07,
+      "samples": 32768,
+      "layout": "transposed_matrix",
+      "group": 128,
+      "parameters": 2359296,
+      "range_groups": 18432,
+      "name": "distilbert.transformer.layer.0.ffn.lin1.weight",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "53231f8a3c948379d90f003d787ef02358119c02d0bd447bb3d8d844b11d9f91",
+      "BF16_sha256": "33056fd0701a2d5b75b07ea10586d74d95ef6d61cf3e8faebd6be9e63721b09a",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0035545600977745263,
+      "expected_SSE": 0.00340821402241437,
+      "variance_of_SSE": 1.0061167048653187e-08,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 3072,
+      "range_groups": 24,
+      "name": "distilbert.transformer.layer.0.ffn.lin1.bias",
+      "shape": [
+        3072
+      ]
+    },
+    {
+      "counts_uint16_sha256": "45cc1664f952a01b3e32bc7a2cbc51a7c2fcd1433b32378770ffea9e8e2f0616",
+      "BF16_sha256": "a8c435e9fea8124b81da47d778fea0c70367b116368ccd14980e9777d655ce65",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.9936556379064909,
+      "expected_SSE": 0.9915605653530886,
+      "variance_of_SSE": 2.640289008682189e-06,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 2359296,
+      "range_groups": 18432,
+      "name": "distilbert.transformer.layer.0.ffn.lin2.weight",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    {
+      "counts_uint16_sha256": "7db3ae9449dde0abacc784a80699c1c560da325d1d946b0bbff17588efc80f31",
+      "BF16_sha256": "59987e9c1acc1c4f6f6cd358886ee15eb39c34756d070b93ea6bda467fed2ea8",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0019013574938960601,
+      "expected_SSE": 0.0020375327915646696,
+      "variance_of_SSE": 1.2646189636143824e-08,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.0.ffn.lin2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "d018a1b2fbf137adc58f4697c107a6fb8272fae9d4ae1cbc7e56490326ad2115",
+      "BF16_sha256": "4eb892104ac210384128f86464358d533f7c66fb267f297d89641478f099850c",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0007537099469424305,
+      "expected_SSE": 0.0007179848714796583,
+      "variance_of_SSE": 1.97979267020769e-09,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.0.output_layer_norm.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "46fcb112fbd502b186f8f8c122afeea7224aa3f3c14ab27a16de175029033dff",
+      "BF16_sha256": "bb0268db53ddb1372badcc2ba20c106a8339f6a57cdf380c7dfa08d3a3386c05",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0022693404106456446,
+      "expected_SSE": 0.0023824956514829415,
+      "variance_of_SSE": 2.1901737872498178e-08,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.0.output_layer_norm.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "b38ae7fe5dc8e2fb0846269c093e2cd3e98ea6333f5c4df233c928498e50b96f",
+      "BF16_sha256": "0d593315107dc4a256ff83af970adbd5c23148e28c2b128e7211404261adc3ac",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.3837956987875426,
+      "expected_SSE": 0.3835639240848013,
+      "variance_of_SSE": 9.421895243482937e-07,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 589824,
+      "range_groups": 4608,
+      "name": "distilbert.transformer.layer.1.attention.q_lin.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "69ef3c65a972bd50f31d8344f6c002aa660b10e8242fd0ea74bd93b05432160d",
+      "BF16_sha256": "c6a4fc2c1b1edbd62fe197d99b8dc05b04729a496e59e66029a1b55c5d621fbe",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.004631043159741359,
+      "expected_SSE": 0.004187595046617872,
+      "variance_of_SSE": 7.330026056119868e-08,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.1.attention.q_lin.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "d854a8383f63adb5cd70f2c741a8bb7211f3e8799c2914da2fe15417e5c025df",
+      "BF16_sha256": "e6bc8987ff15558139456cea34a95be14c6bdf08d892fc96c84d20305eb01270",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.3813110160262776,
+      "expected_SSE": 0.3825255138293529,
+      "variance_of_SSE": 9.172383376941168e-07,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 589824,
+      "range_groups": 4608,
+      "name": "distilbert.transformer.layer.1.attention.k_lin.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "427a10cbbba79c9845b2cf9f1c7e03d926fde579bcb27f728caa64c1a5b11434",
+      "BF16_sha256": "83ff19ab513b545e30a00efd9770c6e8027931f3b97c9dc4f3f26ae1ea0fb518",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 3.7895604080766836e-06,
+      "expected_SSE": 3.6657335864371223e-06,
+      "variance_of_SSE": 5.685907596147937e-14,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.1.attention.k_lin.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "0564505b3d89363a318b932fb12a264715ef9ac917c385f5be4b4fa9d23f0433",
+      "BF16_sha256": "1a090ea163cbdad8f3aba4edaad743fdd207a8d3629ee657ab1e270f93cfe109",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.1410825212823697,
+      "expected_SSE": 0.14134985601885613,
+      "variance_of_SSE": 8.077976698942613e-08,
+      "samples": 32768,
+      "layout": "transposed_matrix",
+      "group": 128,
+      "parameters": 589824,
+      "range_groups": 4608,
+      "name": "distilbert.transformer.layer.1.attention.v_lin.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "9a84a6c2a19767bff8e929c4d4eeeb0879040f4bd1a0b356721001f457091358",
+      "BF16_sha256": "d330a8427591ee962c51ff1b45736911ac0b9463eb53d207cad962c4526dffd8",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0015703308149332034,
+      "expected_SSE": 0.0015487875240092477,
+      "variance_of_SSE": 1.592690305981586e-08,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.1.attention.v_lin.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "4ae3b09f375bed68ecf3118e93f11867ccc64034ac9a9e2e222528a266cc1f81",
+      "BF16_sha256": "aa8fd611fa135d99c48048c6efe6e6f0877a6acdf19bc8458a47bfdd2e43a830",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.1384992663503145,
+      "expected_SSE": 0.13863587686744194,
+      "variance_of_SSE": 1.1423255818049414e-07,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 589824,
+      "range_groups": 4608,
+      "name": "distilbert.transformer.layer.1.attention.out_lin.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "7e5ed59a43544cd7d94f49d02939a4f4f0410eba2d32c3d791ae4c7e40c91676",
+      "BF16_sha256": "d604a3f5dd9f087a2cf7febe0a75f112780978f1a69bcfc450abe562e2ce0a6d",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.002006749523099967,
+      "expected_SSE": 0.0019958440054142403,
+      "variance_of_SSE": 1.1084747798642283e-08,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.1.attention.out_lin.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "760c332929981a201e5d4546621035b55010f189b26ef5d61438cb183d6c98b3",
+      "BF16_sha256": "e6642a489f56b2de654aa296c57117420e51e41649382d825ce923d087ae4000",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0026748836584302386,
+      "expected_SSE": 0.0025874929342111688,
+      "variance_of_SSE": 4.9235643055710535e-08,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.1.sa_layer_norm.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "f6a20e734d248f9daad4b791952eba2d162b0276240cb574f7120d6affc262f0",
+      "BF16_sha256": "ea2f2194da6a7da8fa219cbeb8b748e287b9c3e9fc1bfa97f5c6e6e49f8182b7",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.009920825419502515,
+      "expected_SSE": 0.009532063181698115,
+      "variance_of_SSE": 3.9574846770320737e-07,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.1.sa_layer_norm.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "d9b564cbae0066afdd7a9437523a9d1da3ada70ac3388c14b9c4c23fd69b9651",
+      "BF16_sha256": "7357c0276b9b1b21a7ff4e8daa9f8cbffc509570583d1290e90cbd3d6ed3998c",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.8893543330498673,
+      "expected_SSE": 0.889040389451404,
+      "variance_of_SSE": 8.393285128535929e-07,
+      "samples": 32768,
+      "layout": "transposed_matrix",
+      "group": 128,
+      "parameters": 2359296,
+      "range_groups": 18432,
+      "name": "distilbert.transformer.layer.1.ffn.lin1.weight",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "02278865eaa5d3ef6405821278c5e18d3ca8414a048fc5091cff3c9ac63dd438",
+      "BF16_sha256": "72b93c7ab77e7db41aade586f992ff8a66aa8f37c096205d6bf53ab391c02ad2",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.006016378298462523,
+      "expected_SSE": 0.006096443493601414,
+      "variance_of_SSE": 3.203206795974219e-08,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 3072,
+      "range_groups": 24,
+      "name": "distilbert.transformer.layer.1.ffn.lin1.bias",
+      "shape": [
+        3072
+      ]
+    },
+    {
+      "counts_uint16_sha256": "56d8e0f1d6137739c27921ccb67f16642bd95c25fcd132fb1f52910f81679fed",
+      "BF16_sha256": "9a7e875435c4089bb4bd34f7ee421ee53d98a45d932a2d547738263f5bb21f79",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.877508944134857,
+      "expected_SSE": 0.8770945615259944,
+      "variance_of_SSE": 1.176270911427141e-06,
+      "samples": 32768,
+      "layout": "transposed_matrix",
+      "group": 128,
+      "parameters": 2359296,
+      "range_groups": 18432,
+      "name": "distilbert.transformer.layer.1.ffn.lin2.weight",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    {
+      "counts_uint16_sha256": "a1b21e71f40741811a713735663f897e6c32cfa85d1637be64cbf2e57f872593",
+      "BF16_sha256": "82176ce7d3dd137bce882a8ee37e949185214f6075ff88c45b699c3818264019",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0010220206563797693,
+      "expected_SSE": 0.0010352227003792148,
+      "variance_of_SSE": 3.1539883222479127e-09,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.1.ffn.lin2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "902b96a1957d11dd59e335e03bc0db87dca46068629002041612f5d7127593f1",
+      "BF16_sha256": "5720457eb0389730b03f661fcfd05ab73c4cdaf5d62a2ab2d2e2ab95c929b434",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0006487444003581058,
+      "expected_SSE": 0.0005984625390424488,
+      "variance_of_SSE": 1.2932305902538572e-09,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.1.output_layer_norm.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "011528fc794801471a4563d400ccdbb8cca7ba4d4829ff332a116ce0bada7922",
+      "BF16_sha256": "5f86f1102a0bd052d54b8fe819b85b3968536e9695e7151fdd03e8f855b2f5d9",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0008342642171427666,
+      "expected_SSE": 0.0008238706227359714,
+      "variance_of_SSE": 2.0109006074574025e-09,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.1.output_layer_norm.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "6e905a4dccb04f360dd29297bf63b82335b8f316ca2f9f4a07c57aeb4215ef41",
+      "BF16_sha256": "9da2d07529566109b62c72e7d9df8bbd315d5cb7191c3d8cc900e4a78cf2cde3",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.24899426468211275,
+      "expected_SSE": 0.24858673715168295,
+      "variance_of_SSE": 2.5751612936299637e-07,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 589824,
+      "range_groups": 4608,
+      "name": "distilbert.transformer.layer.2.attention.q_lin.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "43145c2c5e07b6c3082bf411e9a76e0105ddb43c1a1b4e34bcdcf940cb3a0143",
+      "BF16_sha256": "f6d8fb146e61eed4be95b4bb5d4f6a5743b3f6f648aacada4e83c29c3a16824d",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0059525697843367305,
+      "expected_SSE": 0.005431341008946034,
+      "variance_of_SSE": 1.0225861887179636e-07,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.2.attention.q_lin.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "662d40d02fcbf61fea72e2daf6ef64782f5c62d3072ed9c5db0537d7ac9e0e5d",
+      "BF16_sha256": "eadc711091ac884711e11971d371bf34b2e17f2b7c29c592a5ac56af23648150",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.25161071516829514,
+      "expected_SSE": 0.25266804054170516,
+      "variance_of_SSE": 2.644387794416978e-07,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 589824,
+      "range_groups": 4608,
+      "name": "distilbert.transformer.layer.2.attention.k_lin.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "941a9c3724e80faebb188bdfe4ec6c307329f37e93858564125c455008b55a88",
+      "BF16_sha256": "3885c8b8a4d9918ffbba6f6ef837248c75aa6b79085e046abaf8e5171e431918",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 5.0607972387946484e-06,
+      "expected_SSE": 4.844789994410117e-06,
+      "variance_of_SSE": 6.720964454578466e-14,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.2.attention.k_lin.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "99e1aa7633648a025b7f2d4c5bd3c79061bafaabb76438faacf7dd65b9a5c107",
+      "BF16_sha256": "84f42cea0e3dc523c92074bc62f45f9a7e0a3bbc094612a8b1e77f4da1003be5",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.19429205270464125,
+      "expected_SSE": 0.19395067605470082,
+      "variance_of_SSE": 1.5735917667692438e-07,
+      "samples": 32768,
+      "layout": "transposed_matrix",
+      "group": 128,
+      "parameters": 589824,
+      "range_groups": 4608,
+      "name": "distilbert.transformer.layer.2.attention.v_lin.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "62e0e889d943f4b4fe8b0daa4c629b90c353705e67f4ba8071924ddbaa2a6f19",
+      "BF16_sha256": "4568c7294390c8222f55b0939ad6059806cfeb80e5c115943befa559494708ee",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.00023257329704470876,
+      "expected_SSE": 0.0002652471436193209,
+      "variance_of_SSE": 3.9005047766524584e-10,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.2.attention.v_lin.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "24c200fd54c2e9269cad4ef64d8a5d5076e1e6ba086340d2df4d3823ee96050f",
+      "BF16_sha256": "09526f309942ec7d3a1babdd24048a328ee2df67155675f161483650ee7e57fe",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.17150562789667828,
+      "expected_SSE": 0.17139160945563836,
+      "variance_of_SSE": 1.5001022577558643e-07,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 589824,
+      "range_groups": 4608,
+      "name": "distilbert.transformer.layer.2.attention.out_lin.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "2f6ad5c431be9840881fd47cc9052836b7ae95eab8cb18f891f8988d43d15054",
+      "BF16_sha256": "31c8d532cdb5ff51ac4cbd01589f83006c967c886ec348c0bc1d9ba986bf2f1b",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0006990961277587375,
+      "expected_SSE": 0.0007196753849555253,
+      "variance_of_SSE": 2.4966536629984245e-09,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.2.attention.out_lin.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "eee767c93cbe48a3160d94a00c6055e48081f140a8368cbc365d56f6f09baab2",
+      "BF16_sha256": "f750eea939009541ea7368b76d7a974ef63f38f7088204d28467bc3e47f5afeb",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.003560455921754016,
+      "expected_SSE": 0.004114401514727847,
+      "variance_of_SSE": 1.9139647975286876e-07,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.2.sa_layer_norm.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "26df6ba894153f1a5e0a35ae66fff9d29786e7bf14e1b0347970ffbf867c947f",
+      "BF16_sha256": "4626321ab4bdd7fbf50bf367798abca0e7c568017fa4fbec83a2ac7ce47763fb",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.00625979691911889,
+      "expected_SSE": 0.006176322097566547,
+      "variance_of_SSE": 1.3547344100457268e-07,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.2.sa_layer_norm.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "95b0b52f9ca1b16c94b0675cbce0c25000177b73eb40816a7fa1fa7a01f15c8e",
+      "BF16_sha256": "4e2fef995d6968963eea0001232d47b11207ee9802e48fc865c67ec7c9d77d8f",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.9943412842441075,
+      "expected_SSE": 0.9938558718170019,
+      "variance_of_SSE": 1.0725800112159643e-06,
+      "samples": 32768,
+      "layout": "transposed_matrix",
+      "group": 128,
+      "parameters": 2359296,
+      "range_groups": 18432,
+      "name": "distilbert.transformer.layer.2.ffn.lin1.weight",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "c781dd7fedb0a0eac20d5fd59609e174ea8b986db3c3f0b4091a57bcdfa96775",
+      "BF16_sha256": "3b521b4529cf51e76a8ae24ec8d9d3a823ebb74d498c20988c0b3867b7769445",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0062474339737227935,
+      "expected_SSE": 0.006482440383406916,
+      "variance_of_SSE": 3.670565308309226e-08,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 3072,
+      "range_groups": 24,
+      "name": "distilbert.transformer.layer.2.ffn.lin1.bias",
+      "shape": [
+        3072
+      ]
+    },
+    {
+      "counts_uint16_sha256": "66be653ff5898f316199b52f92b669a1c589b6b98a23358c438733d0466e7519",
+      "BF16_sha256": "7a7a4633fec70011905633ad693676ccf48e24fc6dc882402da78621c3d4f70b",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.9365483894879725,
+      "expected_SSE": 0.9383130266911689,
+      "variance_of_SSE": 1.4926450378855066e-06,
+      "samples": 32768,
+      "layout": "transposed_matrix",
+      "group": 128,
+      "parameters": 2359296,
+      "range_groups": 18432,
+      "name": "distilbert.transformer.layer.2.ffn.lin2.weight",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    {
+      "counts_uint16_sha256": "ed351a868bf4051b35b1ac01676c79d35cf507da24446525c7e1f6f2d07006e1",
+      "BF16_sha256": "29170526e0cfcc56c6ffe008f1de741b191b2fba405603f4280320a62ec7160c",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0006052322773821148,
+      "expected_SSE": 0.0005951406729127267,
+      "variance_of_SSE": 1.0877385724006043e-09,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.2.ffn.lin2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "59f74a7939b80307833f821ff7ab4426aa36b47380af29c9d454217481a143ae",
+      "BF16_sha256": "eea57b2f4f6145705a7548da4b94e1f3003e147070c31dcf7320b97eb018548b",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0005558365661664074,
+      "expected_SSE": 0.0005532166713051674,
+      "variance_of_SSE": 9.627249728372384e-10,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.2.output_layer_norm.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "1feea3a56fac0ed940ed5dcfebb4cd03bea4f0cea79fdcb0d4ae659f496c9925",
+      "BF16_sha256": "0bb9d0c83118a28323e243e3d67a3d274f4ec7a7c25b0b9cb09f31f7f1d4ccc7",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0005780739750762347,
+      "expected_SSE": 0.0006411183384604649,
+      "variance_of_SSE": 1.3549293131597865e-09,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.2.output_layer_norm.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "10eb362595c91f13144585c999a0736afe1012caf83e07864091d9127a12e938",
+      "BF16_sha256": "77e66d5123e305a97b0c87c038059c9c412a42d541f9f7659b2be14756cc894b",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.2607121956099579,
+      "expected_SSE": 0.2615268617527098,
+      "variance_of_SSE": 2.712248690842965e-07,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 589824,
+      "range_groups": 4608,
+      "name": "distilbert.transformer.layer.3.attention.q_lin.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "bf956c153d69060e52f14e3664df1773089d8ce8371cad26e860c3f56c9b267a",
+      "BF16_sha256": "222386aae252d1e1113354b1f1e7b4780b3cdeceb3f4c49e97d97e9af2fae4b6",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.007378092469991054,
+      "expected_SSE": 0.007356038700100911,
+      "variance_of_SSE": 1.8087469855105002e-07,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.3.attention.q_lin.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "6f38ee98a5f448adfd80b1713b843bd18ff095b7906544d834f0b1f74a1c73ae",
+      "BF16_sha256": "419eb8bd285122161f6ebd96c7ff8bf76023d2f44eddf02c18106915a17f1129",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.2678258998960351,
+      "expected_SSE": 0.2681314382932357,
+      "variance_of_SSE": 2.881719530971655e-07,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 589824,
+      "range_groups": 4608,
+      "name": "distilbert.transformer.layer.3.attention.k_lin.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "af363234cc1334484862ea7317bdd709a34f742111829aa1a9f0803f5a295431",
+      "BF16_sha256": "a938522980f256f2d2758d0d2311d2c417088b610b506ef1b16a87237a6ea793",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 4.815809716625905e-06,
+      "expected_SSE": 4.603734256828497e-06,
+      "variance_of_SSE": 7.091829143133072e-14,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.3.attention.k_lin.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "c324b855a7dbed326c7f6b6c2b0173035597048b943622789b1146e6936457f3",
+      "BF16_sha256": "39b734f0cc4a9a191781cb11a882b5654bdef8dc886db1f4bc5862f83c47e116",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.22985041065882303,
+      "expected_SSE": 0.23091734242002168,
+      "variance_of_SSE": 2.2086511037506432e-07,
+      "samples": 32768,
+      "layout": "transposed_matrix",
+      "group": 128,
+      "parameters": 589824,
+      "range_groups": 4608,
+      "name": "distilbert.transformer.layer.3.attention.v_lin.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "fec2412ac5afb2aeb027d6c5bee5b56119dfc32dcdb5c35c43fff23af3d83fc2",
+      "BF16_sha256": "da45679947fdcc43682e2431b7bae099edc5fd2daa08597594557375c84d3674",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0005343302278851476,
+      "expected_SSE": 0.0005316501967301128,
+      "variance_of_SSE": 1.0537766956926135e-09,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.3.attention.v_lin.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "8de2711bd043a12c94f00d7b20902fcccc09eb104d3c5361aa588c266953644b",
+      "BF16_sha256": "560b1d8c19b74ed180c6439926d841854c5a39fd2ff7ecb33757eedfce7efd7a",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.20725119790915347,
+      "expected_SSE": 0.2070220620453114,
+      "variance_of_SSE": 1.9296224805331522e-07,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 589824,
+      "range_groups": 4608,
+      "name": "distilbert.transformer.layer.3.attention.out_lin.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "c2a0ee0a28dc6a795c6d9d233597b1565a145ee23552048399808d8d1dde451a",
+      "BF16_sha256": "5a0ae34d66234b858af3ae4dd99c46f391973d383045df29f550385902ec987b",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0014541467026116704,
+      "expected_SSE": 0.00149133010890418,
+      "variance_of_SSE": 2.1804327607919185e-08,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.3.attention.out_lin.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "391539d5d0963820f77e9bdd824fb353d946a1146d0ea2a8af441a6bbcce9d85",
+      "BF16_sha256": "89183896301b8475f553e573d01f586b8b94babc302444726d77a5df54b18d91",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0038249910752883704,
+      "expected_SSE": 0.0033923521173848054,
+      "variance_of_SSE": 1.2588343698443629e-07,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.3.sa_layer_norm.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "9bd2f29a547292ed632602cf81fbec49a19e899577c07c3d569260cbc87f391e",
+      "BF16_sha256": "2e75b3160181c6eefc5e1dc81479f743e3a45dd86f0341061863bdb77a852694",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.004683192674605856,
+      "expected_SSE": 0.005324330403787696,
+      "variance_of_SSE": 1.8665690059237245e-07,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.3.sa_layer_norm.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "1e67e83f88addfc846988d96112ff4efc8397b94522e31b4fa88d4198810f12a",
+      "BF16_sha256": "894209c47cfda829ad1198d212aaaeffa4839914c78b2c95acba8a6c4a7ec7bd",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.8373811943467271,
+      "expected_SSE": 0.8364665730723898,
+      "variance_of_SSE": 7.133860196016026e-07,
+      "samples": 32768,
+      "layout": "transposed_matrix",
+      "group": 128,
+      "parameters": 2359296,
+      "range_groups": 18432,
+      "name": "distilbert.transformer.layer.3.ffn.lin1.weight",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "d87cc92fea0f77c9f4bba3dccd4c1f6f4f4d2a5d1adc683194567155cbe663c9",
+      "BF16_sha256": "13583109fbaed88de47cc6fe8320305e98475e58456342013c18294307dc0742",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0048427608643859974,
+      "expected_SSE": 0.004931014996256859,
+      "variance_of_SSE": 2.658008564939797e-08,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 3072,
+      "range_groups": 24,
+      "name": "distilbert.transformer.layer.3.ffn.lin1.bias",
+      "shape": [
+        3072
+      ]
+    },
+    {
+      "counts_uint16_sha256": "ab40b4fb8a802329bad59685fe1396071428342d6efdc1430f92cbcb48129897",
+      "BF16_sha256": "b8ad2a1e7ac36dd3eae95c9b61707640603ae4d5deb19fbdd262f61badb3fdbc",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.7606375745570912,
+      "expected_SSE": 0.759767674690942,
+      "variance_of_SSE": 1.2378982396923945e-06,
+      "samples": 32768,
+      "layout": "transposed_matrix",
+      "group": 128,
+      "parameters": 2359296,
+      "range_groups": 18432,
+      "name": "distilbert.transformer.layer.3.ffn.lin2.weight",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    {
+      "counts_uint16_sha256": "30e22944055d6adeb0b514eed37f29b0d96ad124469c87bdef4a905113183343",
+      "BF16_sha256": "668f8844c37a281c2dd5d83388f0f80965a7d28cf601e97233ed89ddcfeca762",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0013684297925321324,
+      "expected_SSE": 0.0012859847289052777,
+      "variance_of_SSE": 7.014982474517352e-09,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.3.ffn.lin2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "cf388352eea42701bf141796cdf7820413074056e5a39b1566205c1a26e2c860",
+      "BF16_sha256": "36034d93272cf7e5278f5edff34e94b9e34126988174049e17ce3fb5e9a09c64",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0009598681815751252,
+      "expected_SSE": 0.0008832461957253485,
+      "variance_of_SSE": 7.2011766136318806e-09,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.3.output_layer_norm.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "cea92e649f00a7a1bb2af70fcc1de77bdae6ec24a496594f1245fc74121118c2",
+      "BF16_sha256": "1a6471ed8ef1d1807f6c84ff515f9532909cbc8b91ef6fb2f9d6c89108b9d461",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0009749411928743775,
+      "expected_SSE": 0.0010717507963652478,
+      "variance_of_SSE": 8.35770574352756e-09,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.3.output_layer_norm.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "1bd157df733354e316b31b187c50e05ea4b46956bde79aef7d1563e0b0cc07f2",
+      "BF16_sha256": "b8f29ac8a2d4baab4d6c719b89982302ea86e959868841980a323b35a664d894",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.24806880453678026,
+      "expected_SSE": 0.2479850860961233,
+      "variance_of_SSE": 2.4371344320574806e-07,
+      "samples": 32768,
+      "layout": "transposed_matrix",
+      "group": 128,
+      "parameters": 589824,
+      "range_groups": 4608,
+      "name": "distilbert.transformer.layer.4.attention.q_lin.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "024ee92b21ff3d563f8c254b3f42c3a56fc3b96c24b0164e5e2f308a75072b04",
+      "BF16_sha256": "3391c928e1644f70a8568a20448b727b5dbf1dbfefe1ee4916fd88ee025a3871",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.007507565157303275,
+      "expected_SSE": 0.007742515877003141,
+      "variance_of_SSE": 1.816901922188104e-07,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.4.attention.q_lin.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "333bde0797818824456408ee0cafd2d172a7dd58358e1509f71c69317bc96b96",
+      "BF16_sha256": "2a327579b7de5074a9961f6ef7582a07dc0d1107415873dc2ea7581fc6426214",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.2678831998896571,
+      "expected_SSE": 0.26723691197606864,
+      "variance_of_SSE": 2.962828531791092e-07,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 589824,
+      "range_groups": 4608,
+      "name": "distilbert.transformer.layer.4.attention.k_lin.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "4b929ddaa1a310ada6fc49ba621995000869b0763559ccad666afea12632a6d3",
+      "BF16_sha256": "d329b7983fe89d2e7b0107c3fa7b83bfcaeb4c9708baa0d89b30aca931d9762d",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 7.704825993785278e-06,
+      "expected_SSE": 7.260874123340981e-06,
+      "variance_of_SSE": 1.7269889181092535e-13,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.4.attention.k_lin.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "1e34303d6e0932f0f9c739e1a7c6c44be0a4ddad67efff781d1eb9aee91c5534",
+      "BF16_sha256": "f6f9dfa483bfd6502b64de04027568437f9f6ecb04586ea8378b700c7e017bfe",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.23764649249318384,
+      "expected_SSE": 0.23815679669051576,
+      "variance_of_SSE": 2.2534226673610678e-07,
+      "samples": 32768,
+      "layout": "transposed_matrix",
+      "group": 128,
+      "parameters": 589824,
+      "range_groups": 4608,
+      "name": "distilbert.transformer.layer.4.attention.v_lin.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "d3ce37b892a77980898f113fd95660c6be0a4ed5e3b01602650d81dbcb25bfe9",
+      "BF16_sha256": "3f5eb20b5e360a4b498be9bb5d10482fea9cb0e942f5a0f28015c6b0c6e4e343",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0005071075905146337,
+      "expected_SSE": 0.00044616885020273096,
+      "variance_of_SSE": 1.0638758656985873e-09,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.4.attention.v_lin.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "5493f0c17fd69d6b37b7459c84350ee90f86027523c90c2b472c4c0e913fd4fd",
+      "BF16_sha256": "ea3b2166381b5d2a3a096fc73b6f29f012ccdadafea8f0a09849132d9ab0f328",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.20860873021310383,
+      "expected_SSE": 0.20915518286884957,
+      "variance_of_SSE": 1.889237346026001e-07,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 589824,
+      "range_groups": 4608,
+      "name": "distilbert.transformer.layer.4.attention.out_lin.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "d9f8da676ed96e17142222162f9aeb18ee642509326666a169203a318d572af1",
+      "BF16_sha256": "49c36f0c8087e032c8d759f8133461602772014014ce7d761c369a320883dfb8",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0008432228888028893,
+      "expected_SSE": 0.0009172271226967215,
+      "variance_of_SSE": 3.5504218266884427e-09,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.4.attention.out_lin.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "d7142801fb63a90fde808c7790362ff370ed91d61f6d5f6a5397b8fb6e3b5f8a",
+      "BF16_sha256": "fb0d9fdabcf7bce2ba377f4446a6ec3f915dd5d3fdd9f8f3d9c016eb1a31e1ed",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0022913441601726445,
+      "expected_SSE": 0.0020959979189383053,
+      "variance_of_SSE": 2.7635595645614025e-08,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.4.sa_layer_norm.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "f1b3efeb9365ff4f8183a3a2dde7675aa052607d9c0654c37343d888379e6aa2",
+      "BF16_sha256": "7caa7824e0597a8deba5a2867c7243e921eed549cce2d55dab3620dc6bd1e249",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0052980064042648925,
+      "expected_SSE": 0.004847362609969549,
+      "variance_of_SSE": 8.747085637211351e-08,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.4.sa_layer_norm.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "35a523d16334c98942b1c9ecc5740ff59a0f6eb432124ed7d78b3be68be9ee2e",
+      "BF16_sha256": "d64c21e5ab7608d3795b3afff849bdbdce518227bf7babe4f50a6f2b08f2f29c",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.8309957360404934,
+      "expected_SSE": 0.8315492641345837,
+      "variance_of_SSE": 8.72718423346436e-07,
+      "samples": 32768,
+      "layout": "transposed_matrix",
+      "group": 128,
+      "parameters": 2359296,
+      "range_groups": 18432,
+      "name": "distilbert.transformer.layer.4.ffn.lin1.weight",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "19ac013f16f175627ccc18518c3d7ad0161fbdffd974d91db57b9e6bd17c2101",
+      "BF16_sha256": "407f4846a3b84861797712070b6e34b8ce21fa19267edd9c4945c83aa52e15bc",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0031518344417749014,
+      "expected_SSE": 0.0032862763719605386,
+      "variance_of_SSE": 1.1807983646799993e-08,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 3072,
+      "range_groups": 24,
+      "name": "distilbert.transformer.layer.4.ffn.lin1.bias",
+      "shape": [
+        3072
+      ]
+    },
+    {
+      "counts_uint16_sha256": "9506b679633bbea22cde0b4224dfea466f57abe05184ed82b2825ab0ffc43ce8",
+      "BF16_sha256": "d82fa2eebcdf8c21302604f2a87463d2aaed3e15f2bb8fbaa928e7094f9ff32a",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.8810264746408774,
+      "expected_SSE": 0.8831546729857697,
+      "variance_of_SSE": 3.417480335970434e-06,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 2359296,
+      "range_groups": 18432,
+      "name": "distilbert.transformer.layer.4.ffn.lin2.weight",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    {
+      "counts_uint16_sha256": "ecdb98b76b59e13fb76a3a54eedc299753b7df3321519d8c98132f107f62a1ca",
+      "BF16_sha256": "44ee628ebee05430deeadca661b0319cfb232b3cd5cd9225e97d2727d1a64b2e",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0017126782236285573,
+      "expected_SSE": 0.0016431351016840644,
+      "variance_of_SSE": 1.0006926369225647e-08,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.4.ffn.lin2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "32779bd818548334fc076d222026892a6725bfdb0acb34bd3d899dd933966ea5",
+      "BF16_sha256": "0600096d67c760744333ffcf09d86b62505c890fa88d495886cb1f3d34023c79",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.002060691220820572,
+      "expected_SSE": 0.0022474302099290025,
+      "variance_of_SSE": 3.710360350495949e-08,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.4.output_layer_norm.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "03772df50be13818faab3ebf9c0a2e1afeb7a8f4cf09241d1fcd5816d3c040ab",
+      "BF16_sha256": "4a1eea97727022036ebe249555b7b307b0bdc2c0bea15c31b2c47cbf344f324c",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.001471367792980867,
+      "expected_SSE": 0.001308312626798849,
+      "variance_of_SSE": 6.7406738222021935e-09,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.4.output_layer_norm.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "66f621e3a3243020e504fd88aa9cc375bf3b5420d1128f7c32a950ac6985d770",
+      "BF16_sha256": "47c2101b969eef0bfd4ff6c1e13457726baf296cb0a47bac6d8797777fe2bd7e",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.2528577516124164,
+      "expected_SSE": 0.25302665785383865,
+      "variance_of_SSE": 3.099401265124399e-07,
+      "samples": 32768,
+      "layout": "transposed_matrix",
+      "group": 128,
+      "parameters": 589824,
+      "range_groups": 4608,
+      "name": "distilbert.transformer.layer.5.attention.q_lin.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "b00283c6352bf6e69d29be36338e42c1ce6206368d7363746654b3ccae6dd8b5",
+      "BF16_sha256": "7c58a34a0242b7f3f560b94ba93e17cfa4a6ac69be6306399fbfbc4ea81b1647",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.008868932694967177,
+      "expected_SSE": 0.008786940410225676,
+      "variance_of_SSE": 2.2605218665159055e-07,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.5.attention.q_lin.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "88a09b60b386a60aa2fcc6236d7e7cd27e955739515cbc3c84031c8ca10bc315",
+      "BF16_sha256": "20717076f60e03e8a341060159181981ffe6256a4ad31ae324fa41cdf2001c5a",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.2474809896648928,
+      "expected_SSE": 0.2471312649376489,
+      "variance_of_SSE": 2.4727998331020217e-07,
+      "samples": 32768,
+      "layout": "transposed_matrix",
+      "group": 128,
+      "parameters": 589824,
+      "range_groups": 4608,
+      "name": "distilbert.transformer.layer.5.attention.k_lin.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "6a5e45a33b78d5795b4391896eaa30f083c740b317eeda73092b3e14f52a3944",
+      "BF16_sha256": "b57f2004231094594beb94569d751364730c5dc07b8bd7cc719ce5b692b568ea",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 6.4648808870227415e-06,
+      "expected_SSE": 7.011461447615517e-06,
+      "variance_of_SSE": 1.5518413439809943e-13,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.5.attention.k_lin.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "3aa78148f6ca8b5fd94fc0b26870f14af057b695b40c4665d77a2e589024a5ec",
+      "BF16_sha256": "0964aae71885d9be19469a3af19e848dbd263882563e9c32bc0000f862ec2485",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.24587766083412171,
+      "expected_SSE": 0.24603229907319646,
+      "variance_of_SSE": 2.448362521722144e-07,
+      "samples": 32768,
+      "layout": "transposed_matrix",
+      "group": 128,
+      "parameters": 589824,
+      "range_groups": 4608,
+      "name": "distilbert.transformer.layer.5.attention.v_lin.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "0a64dbfe0bedf7505027a6a7c93d4d218396dd2cd45fdfa011f9defe94525c4a",
+      "BF16_sha256": "6b34cdb7fec4c8a07d379c5a4bf197d66da5752eb1b78fbcfdf97edd6f0de46b",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.00011286906141254994,
+      "expected_SSE": 0.00010629289920205225,
+      "variance_of_SSE": 4.538699121735902e-11,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.5.attention.v_lin.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "ec29bd439c2de2810317d76e8cbed835d0bb0825f022d02aaa145ae6035f4018",
+      "BF16_sha256": "51c5e487271b7b6c4ce0adbf5eb33f38ab688a03cb49a5c685fb3c3b3b962cdf",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.2195058495567389,
+      "expected_SSE": 0.21942895251333644,
+      "variance_of_SSE": 1.9338961629336231e-07,
+      "samples": 32768,
+      "layout": "transposed_matrix",
+      "group": 128,
+      "parameters": 589824,
+      "range_groups": 4608,
+      "name": "distilbert.transformer.layer.5.attention.out_lin.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "5db2fd2cfb30002e89e1315b3c1a35ab98691dba67270c36b8a16e680a23e133",
+      "BF16_sha256": "c3b9287b6a25fc1e76aab4676ef03f7526589397bcd3e9883e64745a27a14b5f",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0003474732562760676,
+      "expected_SSE": 0.000362553727508387,
+      "variance_of_SSE": 3.8844878961087814e-10,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.5.attention.out_lin.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "45ae6d9faf258750a3b764dde251019520fb2d546b909dcc7dda7bc697069ef3",
+      "BF16_sha256": "94122cb61d91dbe2c7c101b1ea7410ce4b26e1f6016aaca8ff3eed7e7e4af592",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0010380575340609298,
+      "expected_SSE": 0.001006361251888031,
+      "variance_of_SSE": 5.0257407942979255e-09,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.5.sa_layer_norm.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "07874397b2a3b8b2389992cbd23c5321fcc9a7c4673a84f2c5531e7a1d5ccaf2",
+      "BF16_sha256": "761b7f3b47a58034431f778de2f0b646658c0a05ffb11d431bb1a97f478563f6",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0031222694992295965,
+      "expected_SSE": 0.0030543347534597916,
+      "variance_of_SSE": 6.539783575386837e-08,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.5.sa_layer_norm.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "12b097b44dca724a7bc50d47440f58d126010bc739e24be2a5c9a9af68e567e1",
+      "BF16_sha256": "74322b6bc70b6b75f79d488bca2c2dd69c43142c8a8d54c40813e664e360e6d7",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.6440483820642109,
+      "expected_SSE": 0.6446235649552353,
+      "variance_of_SSE": 4.060061929227991e-07,
+      "samples": 32768,
+      "layout": "transposed_matrix",
+      "group": 128,
+      "parameters": 2359296,
+      "range_groups": 18432,
+      "name": "distilbert.transformer.layer.5.ffn.lin1.weight",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "efb20ed381bea9f563361b9ec67bec495ddd3039ea13024280d1c136a994c167",
+      "BF16_sha256": "4feb5c07f949919ccd48802634a8d3722eb3cf60f77967ca87a01b885e8e47c1",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.005944360460761405,
+      "expected_SSE": 0.006075355010770512,
+      "variance_of_SSE": 3.435357414645785e-08,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 3072,
+      "range_groups": 24,
+      "name": "distilbert.transformer.layer.5.ffn.lin1.bias",
+      "shape": [
+        3072
+      ]
+    },
+    {
+      "counts_uint16_sha256": "8dfeab5434b1ab0c74db128ebbaf3194d374874cbf7c80dd55fbee2ce4434645",
+      "BF16_sha256": "85ec6d038cc88530167abddb8f8d8ec8064ab275a45e1e93cf353b306706696e",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.6055085464271919,
+      "expected_SSE": 0.6057896004490149,
+      "variance_of_SSE": 4.946695828157482e-07,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 2359296,
+      "range_groups": 18432,
+      "name": "distilbert.transformer.layer.5.ffn.lin2.weight",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    {
+      "counts_uint16_sha256": "c2b1cf5ed6630c12770782433bdde1f8cb16d88c3fb3896815e99795ac36e841",
+      "BF16_sha256": "2a60d99965b5c41fea88fdc97315996522779da653195b053c1878d7d6a022d4",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0005928618311024398,
+      "expected_SSE": 0.0005908895437933186,
+      "variance_of_SSE": 1.4434569122892575e-09,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.5.ffn.lin2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "150b3a9519f96404ce3d95bfe621619ceca4682ca586ae68f49f90f38481690a",
+      "BF16_sha256": "e1ba7f0ef072082a45a3c899d8a2708689b03ac0c2ab12489f5aa8076827c22a",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0001885486518598152,
+      "expected_SSE": 0.00020911507359004585,
+      "variance_of_SSE": 1.7292715161514903e-10,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.5.output_layer_norm.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "ce752c401f676a10642627860e0bfdb8efa3e6d533215318a8861fbe97f7dbae",
+      "BF16_sha256": "7b854f65fe90370e60570a5b23d712fa0a2c758498ab816b5d7078685725a069",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.0004721793333765384,
+      "expected_SSE": 0.0005008028556721324,
+      "variance_of_SSE": 1.0344049733856526e-09,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "distilbert.transformer.layer.5.output_layer_norm.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "0da23cd3a218e05fb187af05e1583e469af3d661b6329292cbc8f0dae0cfbe62",
+      "BF16_sha256": "138c8fddb6728fa6a572421f5c8830f4b31f202a357c27e9a84b239bb706481a",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.04164631508976217,
+      "expected_SSE": 0.04154905772878641,
+      "variance_of_SSE": 6.609982485700031e-09,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 589824,
+      "range_groups": 4608,
+      "name": "pre_classifier.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "c2cbc2f9d690d08bdaeb0e31c6acdd35d7944e5ea10c28906bd7ecb1da952212",
+      "BF16_sha256": "9c24949b154fea22eb5a004960e98ade8ffb167ffc7a17aac8604207d54ed25a",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 2.593059049672967e-07,
+      "expected_SSE": 2.574648206337363e-07,
+      "variance_of_SSE": 1.864456998195116e-16,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 768,
+      "range_groups": 6,
+      "name": "pre_classifier.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "b6b5706d34d89cbe03d24fe8c2011b8feee973aa4ad0a0af9349805b956632ca",
+      "BF16_sha256": "0c42cbee1f3c91597f8e9409791ffdd40c7975ec76c164c7cc8d74faf75b04e6",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 0.00011652294875021756,
+      "expected_SSE": 0.00011457849884249543,
+      "variance_of_SSE": 1.92060675712683e-11,
+      "samples": 32768,
+      "layout": "transposed_matrix",
+      "group": 128,
+      "parameters": 1536,
+      "range_groups": 12,
+      "name": "classifier.weight",
+      "shape": [
+        2,
+        768
+      ]
+    },
+    {
+      "counts_uint16_sha256": "41b9da21b7033d36ba2bd2067cd4613323bccad4f406a47a9cca26233e3d40c4",
+      "BF16_sha256": "74dd3440b1fd7c46b8e875369708ca4cb83f052461b6b3ece4b6a82a4da18515",
+      "SSE_about_finite_control_mean_before_FP32_BF16_rounding": 1.7297895665700656e-15,
+      "expected_SSE": 2.9182562243012492e-15,
+      "variance_of_SSE": 8.90306677518441e-30,
+      "samples": 32768,
+      "layout": "storage_flat",
+      "group": 128,
+      "parameters": 2,
+      "range_groups": 1,
+      "name": "classifier.bias",
+      "shape": [
+        2
+      ]
+    }
+  ]
+}

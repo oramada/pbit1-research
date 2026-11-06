@@ -1,0 +1,34 @@
+{
+  "status": "all_five_corrupted_copy_fixtures_rejected",
+  "source_sha256": "832616c48ca382e2a538a5848abde1bed8011f52c98049b784fd3248948f6f17",
+  "auditor_source_sha256": "cd5bb4f4da8e75635739215e56bc934ce035d56b3d3289a7bb30da1d78ebe91c",
+  "positive_case_PPL": 25.6001959478643,
+  "fixtures": [
+    {
+      "fixture": "input_identity",
+      "rejected": true,
+      "exception": "AssertionError"
+    },
+    {
+      "fixture": "summary_metric",
+      "rejected": true,
+      "exception": "AssertionError"
+    },
+    {
+      "fixture": "missing_last_window",
+      "rejected": true,
+      "exception": "FileNotFoundError"
+    },
+    {
+      "fixture": "sample_budget",
+      "rejected": true,
+      "exception": "AssertionError"
+    },
+    {
+      "fixture": "layout_choice",
+      "rejected": true,
+      "exception": "AssertionError"
+    }
+  ],
+  "scope": "Symlinks andcopiedJSON onlyintemporarydirectories; originalscientificartifactsuntouched."
+}

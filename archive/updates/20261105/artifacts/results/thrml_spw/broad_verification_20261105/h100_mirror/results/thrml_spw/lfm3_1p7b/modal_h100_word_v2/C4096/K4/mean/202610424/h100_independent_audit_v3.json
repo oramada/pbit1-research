@@ -1,0 +1,43 @@
+{
+  "status": "all_adapted_word_coverage_losses_controls_and_matched_work_verified",
+  "source_sha256": "3a8232526459d8b299c6c785903137a3cf834ae7fce6724dcf85c7f716502303",
+  "results_sha256": "75589ac19741d2cab16db0159baaa1cc28c9063907e3c7a410a1500e5fcbc282",
+  "arm": "mean",
+  "seed": 202610424,
+  "word_bits": 4,
+  "budget": 4096,
+  "samples": 1024,
+  "reference_single_audit_sha256": "dfa437312bbe487eea52e731648a5b26680190ed1852abedd831c67888377208",
+  "all_H100_BF16_controls_bitwise_equal_to_H100_master": true,
+  "local_BF16_control_bitwise_equality_required": false,
+  "backend_control_amendment_sha256": "987baaf4044f93dbefcce93cb8bdba61ae770beacc866df94725722221351b31",
+  "retained_work_exactly_matches_same_budget_single": true,
+  "initial_replay_exact_stages": [],
+  "unique_parameter_coordinates": 1728801536,
+  "targets": 2048,
+  "losses": {
+    "BF16": {
+      "mean_NLL_FP64": 4.978037919774257,
+      "subset_perplexity": 145.18922908360545
+    },
+    "same_fit_BF16": {
+      "mean_NLL_FP64": 4.32172715251944,
+      "subset_perplexity": 75.31860273134096
+    },
+    "nominal_controls": {
+      "mean_NLL_FP64": 4.50904720890737,
+      "subset_perplexity": 90.83523026853035
+    },
+    "native": {
+      "mean_NLL_FP64": 4.5006891057318406,
+      "subset_perplexity": 90.0791839996446
+    }
+  },
+  "retained_scheduled_evaluations": 28352274497536,
+  "warmup_scheduled_evaluations": 27687768064,
+  "sampled_coordinates_across_uses": 6917616640,
+  "max_simultaneous_sampler_state_slots": 1966080,
+  "max_temporary_weight_count_bytes": 7864320,
+  "simulation_observer": "per_weight_counts_per_bitplane_then_integer_contraction",
+  "scope": "All original adapted finite programs and calibrated spatial words/hashes, unchanged range bytes/tied aliases, original same-fit BF16 weight hashes, all saved losses and exact BF16/same-fit control bits versus the H100 master; local control bitwise equality is not required under the explicitly amended backend policy. Every operator retained work matches paired same-budget single, warmup K times separately charged. Observer carry excludes total runtime/replay memory. Full model trajectories not replayed; GPU component public states validated. Conditional validation only; no generalization, numerical equivalence or physical-performance proof."
+}

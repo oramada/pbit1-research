@@ -1,0 +1,7 @@
+{
+  "status": "all48_conditional_covariance_matrices_and_original_trace_diagonals_audited",
+  "source_sha256": "805959c81d73340f92fb9150d8883b7784237ead0d3f03fa67e36d0d99679af4",
+  "result_sha256": "31c5259710eaa53e4852eb48f8ac8e95f24926f0ac435cdb7fcb022b26b63e5a",
+  "direct_covariance_fixture": true,
+  "scope": "Average across input positions of the sample covariance across five independent model weight draws, conditional on each fixed input. All24blocks, two64channel subsets. Training-only descriptive statistic; channel selection already used this cohort. No heldout quality claim or full2048x2048covariance claim."
+}

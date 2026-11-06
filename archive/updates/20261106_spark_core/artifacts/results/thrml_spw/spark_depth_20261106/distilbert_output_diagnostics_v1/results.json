@@ -1,0 +1,149 @@
+{
+  "source_sha256": "f679fb254123582a753048cfd6947e7ef19eaad4f5800a71c3425514a5126e57",
+  "audit_sha256": "d02b9857bbd208109824eb53bb7ac9b9d6d96675d66f1afd8ab3187aab7e446c",
+  "records": [
+    {
+      "method": "selected",
+      "seed_count": 5,
+      "mean_flip_fraction": 0.00344,
+      "margin_bins": [
+        {
+          "low_margin": 0.0,
+          "high_margin": 0.1,
+          "reviews": 143,
+          "mean_flip_fraction_across_seeds": 0.35244755244755244
+        },
+        {
+          "low_margin": 0.1,
+          "high_margin": 0.2,
+          "reviews": 162,
+          "mean_flip_fraction_across_seeds": 0.16049382716049382
+        },
+        {
+          "low_margin": 0.2,
+          "high_margin": 0.30000000000000004,
+          "reviews": 163,
+          "mean_flip_fraction_across_seeds": 0.04294478527607362
+        },
+        {
+          "low_margin": 0.30000000000000004,
+          "high_margin": 0.4,
+          "reviews": 219,
+          "mean_flip_fraction_across_seeds": 0.01004566210045662
+        },
+        {
+          "low_margin": 0.4,
+          "high_margin": 0.5,
+          "reviews": 191,
+          "mean_flip_fraction_across_seeds": 0.0020942408376963353
+        },
+        {
+          "low_margin": 0.5,
+          "high_margin": 0.6000000000000001,
+          "reviews": 241,
+          "mean_flip_fraction_across_seeds": 0.0
+        },
+        {
+          "low_margin": 0.6000000000000001,
+          "high_margin": 0.7000000000000001,
+          "reviews": 288,
+          "mean_flip_fraction_across_seeds": 0.0
+        },
+        {
+          "low_margin": 0.7000000000000001,
+          "high_margin": 0.8,
+          "reviews": 405,
+          "mean_flip_fraction_across_seeds": 0.0
+        },
+        {
+          "low_margin": 0.8,
+          "high_margin": 0.9,
+          "reviews": 826,
+          "mean_flip_fraction_across_seeds": 0.0
+        },
+        {
+          "low_margin": 0.9,
+          "high_margin": 1.0,
+          "reviews": 22362,
+          "mean_flip_fraction_across_seeds": 0.0
+        }
+      ],
+      "baseline_correct_became_wrong_fraction": 0.001808,
+      "baseline_wrong_became_correct_fraction": 0.001632,
+      "mean_CE_change_baseline_correct": 0.0003351101693018418,
+      "mean_CE_change_baseline_wrong": -0.00509979672928139
+    },
+    {
+      "method": "matched_flat",
+      "seed_count": 5,
+      "mean_flip_fraction": 0.003928,
+      "margin_bins": [
+        {
+          "low_margin": 0.0,
+          "high_margin": 0.1,
+          "reviews": 143,
+          "mean_flip_fraction_across_seeds": 0.3678321678321678
+        },
+        {
+          "low_margin": 0.1,
+          "high_margin": 0.2,
+          "reviews": 162,
+          "mean_flip_fraction_across_seeds": 0.19753086419753085
+        },
+        {
+          "low_margin": 0.2,
+          "high_margin": 0.30000000000000004,
+          "reviews": 163,
+          "mean_flip_fraction_across_seeds": 0.053987730061349694
+        },
+        {
+          "low_margin": 0.30000000000000004,
+          "high_margin": 0.4,
+          "reviews": 219,
+          "mean_flip_fraction_across_seeds": 0.017351598173515982
+        },
+        {
+          "low_margin": 0.4,
+          "high_margin": 0.5,
+          "reviews": 191,
+          "mean_flip_fraction_across_seeds": 0.0020942408376963353
+        },
+        {
+          "low_margin": 0.5,
+          "high_margin": 0.6000000000000001,
+          "reviews": 241,
+          "mean_flip_fraction_across_seeds": 0.0016597510373443983
+        },
+        {
+          "low_margin": 0.6000000000000001,
+          "high_margin": 0.7000000000000001,
+          "reviews": 288,
+          "mean_flip_fraction_across_seeds": 0.0006944444444444445
+        },
+        {
+          "low_margin": 0.7000000000000001,
+          "high_margin": 0.8,
+          "reviews": 405,
+          "mean_flip_fraction_across_seeds": 0.0
+        },
+        {
+          "low_margin": 0.8,
+          "high_margin": 0.9,
+          "reviews": 826,
+          "mean_flip_fraction_across_seeds": 0.0
+        },
+        {
+          "low_margin": 0.9,
+          "high_margin": 1.0,
+          "reviews": 22362,
+          "mean_flip_fraction_across_seeds": 0.0
+        }
+      ],
+      "baseline_correct_became_wrong_fraction": 0.002112,
+      "baseline_wrong_became_correct_fraction": 0.001816,
+      "mean_CE_change_baseline_correct": 0.0006510914607597291,
+      "mean_CE_change_baseline_wrong": -0.0006225197205235423
+    }
+  ],
+  "scope": "Posthocdescriptiveoutputdiagnostics oncompletedtestset; do notusefornewthresholdselection. Reviewbinsarecorrelatedwithinmodeldraw, so no IIDreview-basedconfidenceintervalsareclaimed."
+}

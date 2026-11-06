@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "quality_gates_preserved": [
+    "ideal_pass",
+    "uncalibrated_fail",
+    "cal4096_fail"
+  ],
+  "finite_payload_bits_per_weight": 8.53125,
+  "extra_calibration_observed_update_fraction_for_stream": 0.5,
+  "scope": "Report gates and resource subtotals agree with independently audited study. Does not prove physical cost or a successful calibrated quality regime."
+}

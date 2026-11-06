@@ -1,0 +1,122 @@
+{
+  "recorded_utc": "2026-11-05T20:30:14.377785+00:00",
+  "status": "metadata_pinned_before_any_new_model_quality_evaluation",
+  "records": [
+    {
+      "kind": "model",
+      "id": "openai-community/gpt2",
+      "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+      "files": [
+        {
+          "path": "config.json",
+          "bytes": 665,
+          "git_blob_id": "10c66461e4c109db5a2196bff4bb59be30396ed8",
+          "lfs_sha256": null
+        },
+        {
+          "path": "merges.txt",
+          "bytes": 456318,
+          "git_blob_id": "226b0752cac7789c48f0cb3ec53eda48b7be36cc",
+          "lfs_sha256": null
+        },
+        {
+          "path": "model.safetensors",
+          "bytes": 548105171,
+          "git_blob_id": "44b36d6e32d13c8fb28b0feab0ac8bfefa7efeda",
+          "lfs_sha256": "248dfc3911869ec493c76e65bf2fcf7f615828b0254c12b473182f0f81d3a707"
+        },
+        {
+          "path": "tokenizer.json",
+          "bytes": 1355256,
+          "git_blob_id": "4b988bccc9dc5adacd403c00b4704976196548f8",
+          "lfs_sha256": null
+        },
+        {
+          "path": "tokenizer_config.json",
+          "bytes": 26,
+          "git_blob_id": "be4d21d94f3b4687e5a54d84bf6ab46ed0f8defd",
+          "lfs_sha256": null
+        },
+        {
+          "path": "vocab.json",
+          "bytes": 1042301,
+          "git_blob_id": "1f1d9aaca301414e7f6c9396df506798ff4eb9a6",
+          "lfs_sha256": null
+        }
+      ],
+      "primary_source": "https://huggingface.co/openai-community/gpt2"
+    },
+    {
+      "kind": "model",
+      "id": "distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+      "revision": "714eb0fa89d2f80546fda750413ed43d93601a13",
+      "files": [
+        {
+          "path": "config.json",
+          "bytes": 629,
+          "git_blob_id": "b57fe5dfcb8ec3f9bab35ed427c3434e3c7dd1ba",
+          "lfs_sha256": null
+        },
+        {
+          "path": "model.safetensors",
+          "bytes": 267832558,
+          "git_blob_id": "b6229767fd965dc44319b5b401d3af8403f10fed",
+          "lfs_sha256": "7c3919835e442510166d267fe7cbe847e0c51cd26d9ba07b89a57b952b49b8aa"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "bytes": 48,
+          "git_blob_id": "3ed34255a7cb8e6706a8bb21993836e99e7b959f",
+          "lfs_sha256": null
+        },
+        {
+          "path": "vocab.txt",
+          "bytes": 231508,
+          "git_blob_id": "fb140275c155a9c7c5a3b3e0e77a9e839594a938",
+          "lfs_sha256": null
+        }
+      ],
+      "primary_source": "https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english"
+    },
+    {
+      "kind": "dataset",
+      "id": "stanfordnlp/imdb",
+      "revision": "e6281661ce1c48d982bc483cf8a173c1bbeb5d31",
+      "files": [
+        {
+          "path": "README.md",
+          "bytes": 7809,
+          "git_blob_id": "9efdff48906733be2fa05e4538f017d2fbec7afc",
+          "lfs_sha256": null
+        },
+        {
+          "path": "plain_text/test-00000-of-00001.parquet",
+          "bytes": 20470363,
+          "git_blob_id": "f79b44767fc4671bbe0f47437eb9ad5f30c7f18a",
+          "lfs_sha256": "b52e26e2f872d282ffac460bf9770b25ac6f102cda0e6ca7158df98c94e8b3da"
+        }
+      ],
+      "primary_source": "https://huggingface.co/datasets/stanfordnlp/imdb"
+    },
+    {
+      "kind": "dataset",
+      "id": "Salesforce/wikitext",
+      "revision": "b08601e04326c79dfdd32d625aee71d232d685c3",
+      "files": [
+        {
+          "path": "README.md",
+          "bytes": 10464,
+          "git_blob_id": "2a4fec2bc8df76c9d4da1c8e8865b625eb221c76",
+          "lfs_sha256": null
+        },
+        {
+          "path": "wikitext-2-raw-v1/test-00000-of-00001.parquet",
+          "bytes": 732610,
+          "git_blob_id": "6ba58cb2514e5816aa401f841c34a0e3a6b727b4",
+          "lfs_sha256": "5f1bea067869d04849c0f975a2b29c4ff47d867f484f5010ea5e861eab246d91"
+        }
+      ],
+      "primary_source": "https://huggingface.co/datasets/Salesforce/wikitext"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "H100_backend_specific_BF16_controls_frozen_before_continuation",
+  "array_sha256": {
+    "0/BF16": "62f2eaa6170b07d9fa9855e91ec51017f1272c7f050c3eb400b4851e3ab25938",
+    "0/same_fit_BF16": "aba084e3975b07e032b9281676b383e0c755995a31a5e4c9accce9454810b0ca",
+    "1/BF16": "23ad6561ac401bc7851aef92dbf7a0b4c199c42c92bb97b37ab7bea57c214fd1",
+    "1/same_fit_BF16": "51f68b797bf428af51635a6bc03b063bec024f28e506144103df8415c75e5e07",
+    "2/BF16": "99ba28defb1cbcbb8bd57795384006222bd0fb9a2af296c0e59a4cada50b0aef",
+    "2/same_fit_BF16": "88221b7cf0b02799dbab481dffa75e683ccaf190980d2b68275999b942a42440",
+    "3/BF16": "47e3234a0c8b9ef022d2d2789e12ef00d4983f5ae8a6ede4ba311cfaffef6c51",
+    "3/same_fit_BF16": "021239b45d014b0699ce348f2b8ff593c3e610cb1c40350b59762fff726cdc89"
+  },
+  "source_bridge_results_sha256": "cb2356f27199756fe396f1e546e45e2daa72497438dc3a9ef65cc1730a07f9c9",
+  "original_failed_parity_sha256": "3d48b3222ababa43a74138d2a2b199d4ddc156cc4f2ca9932b0d637efe1e2efc"
+}

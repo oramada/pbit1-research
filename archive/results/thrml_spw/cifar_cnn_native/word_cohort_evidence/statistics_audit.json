@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "case_metrics_checked": 150,
+  "mean_control_logits_checked": 500000,
+  "weight_coordinates_checked": 19640,
+  "bootstrap_scalar_values_checked": 120000,
+  "statistics_sha256": "f0672cf474eeb58b1dcc53ca916e47bc2e0d4cf08d448b9b622aed397e58482f"
+}

@@ -1,0 +1,36 @@
+{
+  "status": "all_direct_program_coverage_losses_and_resource_receipts_verified",
+  "source_sha256": "f85318c765d6a6177c310c757cf0714c1cac0f849676dbb2e06d7c30da01a85d",
+  "results_sha256": "dafd9464e58661e1a43b49c90747e9789be1bab2e5c52f7dcc9e041a6bad3864",
+  "arm": "mean",
+  "seed": 202610602,
+  "initial_replay_exact_stages": [],
+  "unique_parameter_coordinates": 1728801536,
+  "targets": 2048,
+  "losses": {
+    "BF16": {
+      "mean_NLL_FP64": 4.978250316314612,
+      "subset_perplexity": 145.22007004870076
+    },
+    "same_fit_BF16": {
+      "mean_NLL_FP64": 4.321675645982948,
+      "subset_perplexity": 75.31472343088639
+    },
+    "nominal_controls": {
+      "mean_NLL_FP64": 4.29973876220307,
+      "subset_perplexity": 73.68054304246463
+    },
+    "native": {
+      "mean_NLL_FP64": 4.30358818784716,
+      "subset_perplexity": 73.96471741747628
+    }
+  },
+  "retained_scheduled_evaluations": 56704548995072,
+  "warmup_scheduled_evaluations": 6921942016,
+  "sampled_coordinates_across_uses": 6917616640,
+  "max_simultaneous_sampler_state_slots": 1966080,
+  "max_temporary_weight_count_bytes": 7864320,
+  "simulation_observer": "per_weight_counts_then_exact_integer_contraction",
+  "lower_budget_deterministic_controls_bitwise_equal": true,
+  "scope": "All canonical finite programs and hashes, tied aliases, same-fit BF16 control weight hashes, complete operator coverage, independent saved-logit losses and scheduled-work bookkeeping. Initial replay additionally requires bitwise whole-model equality to the original unadapted run. Native full trajectories not replayed at model scale; direct worker public trajectories validated by GPU preflight. Conditional validation subset only, no generalization, equivalence or physical-performance proof."
+}

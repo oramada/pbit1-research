@@ -1,0 +1,10 @@
+{
+  "status": "all_predeclared_R1_task_statistics_and_case_bindings_independently_verified",
+  "scope": "primary",
+  "source_sha256": "8eff2c8f2cf578f686abd94de1c5c4285804d253c5c5b31cbbba92367dcf8330",
+  "statistics_sha256": "b92b6da3f9991518006da6db366fc6bb36558c976902aac96f886a62e82a127d",
+  "protocol_sha256": "b003fedc90d962500907e8cf435ca359ab1ef9a27ea3e892c2fe12a17ea79626",
+  "cases_checked": 24,
+  "primary_both_models_pass": false,
+  "scope_note": "Independent bounded-memory frequency-weighted bootstrap and MC arithmetic, completefixedcohorts and audited neuralreplaybindings. Not universal BF16 numericalequivalence or physicalhardwareproof."
+}

@@ -1,0 +1,28 @@
+{
+  "prepare_source_sha256": "de89ecd24d78590e06d8d5d441bd0f89c3243a828e6770a3a02b484f9f1f4e46",
+  "inputs_sha256": "a467a6b34d1c3645ebcd2b5ad8fa35228bcdd8d16da5189c6c2222924cf4fd49",
+  "checkpoint_sha256": "248dfc3911869ec493c76e65bf2fcf7f615828b0254c12b473182f0f81d3a707",
+  "native_source_sha256": "14ab522d92356d3c633787b5249c8a0d04d6c46c3b282fb84bdd72ed1fd9a361",
+  "layouts": [
+    "storage_flat",
+    "transposed_matrix"
+  ],
+  "seeds": [
+    2026110701,
+    2026110702,
+    2026110703,
+    2026110704,
+    2026110705
+  ],
+  "samples": 8192,
+  "nested_budgets": [
+    128,
+    512,
+    2048,
+    8192
+  ],
+  "n_pbits": 6144,
+  "mode": "OfficialTHRML unary SpinNode factors, CPU backend, no NumPy replacement sampler.",
+  "scope": "Isolated real8x768outputweightbank and8clean hiddenvectors fromtrainingdiagnostics. Samefinitecontrolfields; noparameterfitting. Fiveindependentnativechains perlayout. Doesnotconstitutefullmodelnativevalidation.",
+  "weight_moment_gate": "Everylayout/seed/prefix independently computed weightSSE versusexactfinitecontrolmean within8standarddeviations of independentBernoulliSSE expectation, before any output projection. No appqualitygate."
+}

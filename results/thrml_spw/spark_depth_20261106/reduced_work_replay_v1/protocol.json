@@ -1,0 +1,42 @@
+{
+  "source_sha256": "2b30c3b6c19b0561d4f694a853fc72ee94dfe659901bb9379e820d9daed381a0",
+  "benchmark_protocol_sha256": "9737d7e2a1f8bd6c333f52ec5ec4efea6c0469236dbf22729f9a0968656c577b",
+  "SDK_source_sha256": "015e64966c6b7031930eb5ffe29b4d81cc4aba2836083477ab239f691cc04705",
+  "windows": [
+    0,
+    293,
+    585
+  ],
+  "cases": [
+    {
+      "name": "BF16",
+      "kind": "original"
+    },
+    {
+      "name": "reduced_seed2026111401",
+      "kind": "reduced",
+      "seed": 2026111401
+    },
+    {
+      "name": "reduced_seed2026111402",
+      "kind": "reduced",
+      "seed": 2026111402
+    },
+    {
+      "name": "reduced_seed2026111403",
+      "kind": "reduced",
+      "seed": 2026111403
+    },
+    {
+      "name": "reduced_seed2026111404",
+      "kind": "reduced",
+      "seed": 2026111404
+    },
+    {
+      "name": "reduced_seed2026111405",
+      "kind": "reduced",
+      "seed": 2026111405
+    }
+  ],
+  "scope": "All6modelpoints reconstructed;5x148counts checked through independentSDK. Threeprespecifiedfullnetworkwindows perpoint, notall586forwards."
+}

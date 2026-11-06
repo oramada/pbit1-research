@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "source": "research/thrml_spw/spark_depth/lfm3_neuron_structure_v1.py",
+      "sha256": "5bb554b6643f997e9f1fac8f260cc90e318368adf3315595ed777f8d49522a39",
+      "snapshot": "results/thrml_spw/source_snapshots/5bb554b6643f997e9f1fac8f260cc90e318368adf3315595ed777f8d49522a39.py"
+    },
+    {
+      "source": "research/thrml_spw/spark_depth/lfm3_error_propagation_v1.py",
+      "sha256": "7958c47b30a85c43a7d29080d3782afc177009dbd08de81d0104cceb5bc6ae24",
+      "snapshot": "results/thrml_spw/source_snapshots/7958c47b30a85c43a7d29080d3782afc177009dbd08de81d0104cceb5bc6ae24.py"
+    },
+    {
+      "source": "research/thrml_spw/spark_depth/lfm3_causal_propagation_v1.py",
+      "sha256": "d876de191c21efdf3f9c6208e244434d2f469c010799b169d4416191c09457ea",
+      "snapshot": "results/thrml_spw/source_snapshots/d876de191c21efdf3f9c6208e244434d2f469c010799b169d4416191c09457ea.py"
+    },
+    {
+      "source": "research/thrml_spw/spark_depth/replay_lfm3_benchmark_v1.py",
+      "sha256": "b97e3e482a1e9c033ab0d9d1a9fb13a8c0adb52fd781f190858e20725cad1934",
+      "snapshot": "results/thrml_spw/source_snapshots/b97e3e482a1e9c033ab0d9d1a9fb13a8c0adb52fd781f190858e20725cad1934.py"
+    }
+  ]
+}

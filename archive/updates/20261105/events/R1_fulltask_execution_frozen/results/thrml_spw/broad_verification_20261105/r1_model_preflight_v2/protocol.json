@@ -1,0 +1,140 @@
+{
+  "status": "actual_model_synthetic_preflight_no_task_scoring",
+  "output": "results/thrml_spw/broad_verification_20261105/r1_model_preflight_v2",
+  "models": {
+    "gpt2": {
+      "model_type": "gpt2",
+      "package": "results/thrml_spw/broad_verification_20261105/additional_parameter_packages_v1/gpt2/package.json",
+      "package_sha256": "73614f01e0f2220d3035e587d59c68f98c4d2758802b95ebc4462fe52857d009",
+      "checkpoint": "data/thrml_spw/broad_additional_v1/openai-community--gpt2",
+      "data": {
+        "kind": "synthetic",
+        "arrays": "results/thrml_spw/broad_verification_20261105/r1_model_preflight_v2/gpt2_synthetic.npz"
+      }
+    },
+    "distilbert": {
+      "model_type": "distilbert",
+      "package": "results/thrml_spw/broad_verification_20261105/additional_parameter_packages_v1/distilbert/package.json",
+      "package_sha256": "398f7700b54715d96c294a1c7359fe0e8c3418cb981291d0a2deea89f80bbcc9",
+      "checkpoint": "data/thrml_spw/broad_additional_v1/distilbert--distilbert-base-uncased-finetuned-sst-2-english",
+      "data": {
+        "kind": "synthetic",
+        "arrays": "results/thrml_spw/broad_verification_20261105/r1_model_preflight_v2/distilbert_synthetic.npz"
+      }
+    }
+  },
+  "cases": {
+    "gpt2__original": {
+      "model_key": "gpt2",
+      "mode": "control",
+      "arm": "original"
+    },
+    "gpt2__mean1": {
+      "model_key": "gpt2",
+      "mode": "control",
+      "arm": "mean1"
+    },
+    "gpt2__mean4": {
+      "model_key": "gpt2",
+      "mode": "control",
+      "arm": "mean4"
+    },
+    "gpt2__mean8": {
+      "model_key": "gpt2",
+      "mode": "control",
+      "arm": "mean8"
+    },
+    "gpt2__int2": {
+      "model_key": "gpt2",
+      "mode": "control",
+      "arm": "int2"
+    },
+    "gpt2__int4": {
+      "model_key": "gpt2",
+      "mode": "control",
+      "arm": "int4"
+    },
+    "gpt2__int8": {
+      "model_key": "gpt2",
+      "mode": "control",
+      "arm": "int8"
+    },
+    "gpt2__nativeT1": {
+      "model_key": "gpt2",
+      "mode": "native",
+      "bits": 1,
+      "samples": 1,
+      "budget": 1,
+      "seed": 202611960
+    },
+    "distilbert__original": {
+      "model_key": "distilbert",
+      "mode": "control",
+      "arm": "original"
+    },
+    "distilbert__mean1": {
+      "model_key": "distilbert",
+      "mode": "control",
+      "arm": "mean1"
+    },
+    "distilbert__mean4": {
+      "model_key": "distilbert",
+      "mode": "control",
+      "arm": "mean4"
+    },
+    "distilbert__mean8": {
+      "model_key": "distilbert",
+      "mode": "control",
+      "arm": "mean8"
+    },
+    "distilbert__int2": {
+      "model_key": "distilbert",
+      "mode": "control",
+      "arm": "int2"
+    },
+    "distilbert__int4": {
+      "model_key": "distilbert",
+      "mode": "control",
+      "arm": "int4"
+    },
+    "distilbert__int8": {
+      "model_key": "distilbert",
+      "mode": "control",
+      "arm": "int8"
+    },
+    "distilbert__nativeT1": {
+      "model_key": "distilbert",
+      "mode": "native",
+      "bits": 1,
+      "samples": 1,
+      "budget": 1,
+      "seed": 202611961
+    }
+  },
+  "sources_sha256": {
+    "research/thrml_spw/broad/r1_io_v1.py": "e7f6e3d640c43f6412ffaf4588719ac68b74d28c8a9fa05f197c2096161321fc",
+    "research/thrml_spw/broad/r1_worker_v1.py": "c3e8a67ffbd8f0351196125664b5e3e98be563401a798639b38aabb23d2933c3",
+    "research/thrml_spw/broad/r1_model_v1.py": "de2c4657a4efdc8968660106cc3c1fe19f1c55ea1e56b3ae58eca8fb3857825a",
+    "research/thrml_spw/broad/r1_case_v1.py": "6eb98ff5a979f46dc659642dc8ca5a2bf29193c0572f3eb7ef3ce9c0f0c7e4f7",
+    "research/thrml_spw/broad/verify_r1_case_v1.py": "3bfa280c49b0ab5b5828f1a6957f55673b54977409aafeaa867fa60c9e18bb75",
+    "research/thrml_spw/broad/prepare_r1_preflight_v2.py": "9e17a8ff9e9877ce59a169410fca33a3c6ed00e95c914c2411a76db58555ae27",
+    "research/thrml_spw/broad/parameter_program_v1.py": "4d9bae47fe3ab0f92a01aab4df5646ce9cbc5b600a34d54f0df2abd8fe33b7ed",
+    "research/thrml_spw/broad/parameter_counts_v1.py": "f4399e80cad58f2c7b98930b32436306b8e2c164d2e229ad839d6039d264e24a",
+    "research/thrml_spw/broad/parameter_counts_v2.py": "4e4cab531d83ca8f4861f40a6b514e975d2671054fd4f23255c5bd42c524fd7a",
+    "research/thrml_spw/native.py": "14ab522d92356d3c633787b5249c8a0d04d6c46c3b282fb84bdd72ed1fd9a361",
+    "research/thrml_spw/controlled_positive_native.py": "6b2e4bfa2a589c2b9436423aaa4045c5e0d8b421ded0e9d4db0dceae0b492f99",
+    "research/thrml_spw/gpu_environment.py": "816439a3c63f84be0309bfc8c8887067b6f234d223b52beed7b6111c909c4273",
+    "research/thrml_spw/lfm3/counted_bank.py": "48783c3c3c6912061de5158a40c2b8f4223d72c97560d2940b202d8f357f2080",
+    "research/thrml_spw/lfm3/stage_checkpoint_v1.py": "ff51be00b7342503a7e371c71f6f7073e91efd80312ef252ffd754692881d81c"
+  },
+  "inputs_sha256": {
+    "results/thrml_spw/broad_verification_20261105/additional_parameter_packages_v2_audit.json": "d701ce519f58b0d378f083f63e2f1df310a1a332f213f88fc41f3c8f3b473479",
+    "results/thrml_spw/broad_verification_20261105/large_tile_h100_v1_audit.json": "92c4380689056ab3f85a20cfb5fc5c83d28b617142a5aadc10a707ecd8979851",
+    "results/thrml_spw/broad_verification_20261105/parameter_counts_h100_v1_audit.json": "f9446278d013f59fce9151d5e061819a86ecaacd90baa7e572f0cb54a729d304",
+    "results/thrml_spw/broad_verification_20261105/remote_metadata/additional_parameter_packages_v1/gpt2/package.json": "73614f01e0f2220d3035e587d59c68f98c4d2758802b95ebc4462fe52857d009",
+    "results/thrml_spw/broad_verification_20261105/remote_metadata/additional_parameter_packages_v1/distilbert/package.json": "398f7700b54715d96c294a1c7359fe0e8c3418cb981291d0a2deea89f80bbcc9",
+    "results/thrml_spw/broad_verification_20261105/r1_model_preflight_v2/gpt2_synthetic.npz": "ea4b683250d5ea764eee8a2df3153176c0f00aad985ca11e9346faa6bd505490",
+    "results/thrml_spw/broad_verification_20261105/r1_model_preflight_v2/distilbert_synthetic.npz": "db82075d987a67f401748f6d98efc29c502b72d91855030968cdf57f98f06ad3"
+  },
+  "scope": "Both actual pinned models, all seven deterministic controls and a fullparameter officialTHRMLT1draw. Only synthetic integer inputs; no evaluationtokens or taskquality."
+}

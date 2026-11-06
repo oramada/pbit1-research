@@ -1,0 +1,58 @@
+{
+  "status": "full40_and_unexposed38_analysis_and_independent_auditor_fixtures_passed",
+  "sources_sha256": {
+    "preflight_holdout_statistics_v2.py": "93983b05d4e3cdfb420462a8129d72099cd62120383705e53009cb9f9ab1dbf3",
+    "holdout_native_statistics_v2.py": "9379917bc0bfd416595c70696bc021ee9ad853a7c38a8ee3dd27cd1ea10176ac",
+    "verify_holdout_native_statistics_v2.py": "80e2fcd1599c94473ab98a940c5f5ca4465d2df79e5aaa86d53c668761d660c9",
+    "holdout_uncertainty_v2.py": "7f15211e85be0af5a3ab2b96428baba43577ddcbeca6d3e2a953a638da5c14cf",
+    "holdout_uncertainty.py": "d9a03d32c84256568ee656f16a98070aaa092a1219e88e516e1e472aa2e074d1",
+    "holdout_native_statistics.py": "0209dab9e8a23477c99aeccdbc5d271bbcf7953b54d28db1a0ff86e5e461d896",
+    "verify_holdout_native_statistics.py": "4b5d75dcf8665372b6ade4a0596a92232c6d1fd77ae5c22737f494accae3dc1e"
+  },
+  "parameters": {
+    "NLL_margin": 0.01980262729617973,
+    "bootstrap_replicates": 10000,
+    "bootstrap_key": 202610400,
+    "unexposed_bootstrap_key": 202611699,
+    "excluded_short_article_indices": [
+      0,
+      1
+    ]
+  },
+  "cases": [
+    {
+      "case": "zero",
+      "combined_gate": true,
+      "full_gate": true,
+      "unexposed_gate": true
+    },
+    {
+      "case": "small_gap",
+      "combined_gate": true,
+      "full_gate": true,
+      "unexposed_gate": true
+    },
+    {
+      "case": "exposed_only_degradation",
+      "combined_gate": false,
+      "full_gate": false,
+      "unexposed_gate": true
+    },
+    {
+      "case": "long_degradation",
+      "combined_gate": false,
+      "full_gate": false,
+      "unexposed_gate": false
+    }
+  ],
+  "forged_reports_rejected": [
+    "targets",
+    "articles",
+    "weights",
+    "mean",
+    "interval",
+    "combined_gate"
+  ],
+  "original_full40_arithmetic_reproduced": true,
+  "scope": "Synthetic arithmetic only, no model, heldout texts, or quality outcomes. Full40andunexposed38mustbothsatisfytheunchanged2percentcriterion."
+}

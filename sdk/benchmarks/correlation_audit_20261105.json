@@ -1,0 +1,18 @@
+{
+  "status": "all_existing_correlated_dot_tables_and_exact_finite_state_moments_independently_verified",
+  "input_sha256": {
+    "manifest.json": "3019e34d9e4892fa10278fc8ed9c3171ca38107b4551be512594185c197ef88f",
+    "dot_product_mse.csv": "23cab3df37d114d494f6ea63a934607647db4d64b6096da5bbdb080f449e641e",
+    "warmup_stationarity.csv": "7e8a3ce0c3077d6a19a92e47265c15aa7b14ae48c44b38bc219436ca2ee0afbd",
+    "raw_native_trajectories_and_dot_means.npz": "15081d83cf2c480c7c6fba1db483796156d0967c24c8dc670cb70129799d34ee"
+  },
+  "source_sha256": "bc39defbc48e208886d2df8cf8fb77f47c04e70f8da8e9b1ad64ba656b9dde5d",
+  "models": 9,
+  "conditions": 108,
+  "saved_native_state_bits_checked": 6912000,
+  "exact_to_naive_ratio_min": 0.2396895572513875,
+  "exact_to_naive_ratio_max": 7.319554269251502,
+  "mean_abs_empirical_to_exact_ratio_error": 0.03125651460324285,
+  "max_warmup_total_variation": 4.0342729157316626e-14,
+  "scope": "Rebuilds exact stationary Gibbs kernels from saved fields, all lag matrices, Markov-reward finite-T moments and every reported empirical metric from saved raw trajectories. Does not independently replay native random bits, prove large-model robustness, or characterize physical device costs."
+}

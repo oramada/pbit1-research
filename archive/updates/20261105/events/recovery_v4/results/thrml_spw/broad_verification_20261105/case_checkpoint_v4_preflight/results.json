@@ -1,0 +1,23 @@
+{
+  "status": "actual_v4_producer_writer_relative_absolute_roots_loss_codec_and_resume_passed",
+  "cases": [
+    {
+      "supplied_root_was_absolute": false,
+      "output_sha256": "b547398a4fe9eeab30dc103bd1b9d0ab5c1e23c5f44ebf7c65fb44e5a1b7c521",
+      "resume_record_identical": true
+    },
+    {
+      "supplied_root_was_absolute": true,
+      "output_sha256": "b547398a4fe9eeab30dc103bd1b9d0ab5c1e23c5f44ebf7c65fb44e5a1b7c521",
+      "resume_record_identical": true
+    }
+  ],
+  "sources_sha256": {
+    "preflight_case_checkpoint_v4.py": "dba0edb581c677e658bf419f70a18f103bc23687b84912e4b25a6de5bc33b682",
+    "holdout_native_case_v4.py": "4fd5f15c9fe08aa9b7efc7611b85976a61b05fc00535bd788aa800e765f897e4",
+    "verify_holdout_native_case_v4.py": "4a68ce52cbc3ed2135623ba262a4ddbb50540a92c34a150bb06a6d0124a3312c",
+    "stage_checkpoint_v1.py": "ff51be00b7342503a7e371c71f6f7073e91efd80312ef252ffd754692881d81c",
+    "lossless_logits.py": "732e7bf0c2ac1c1134db7e8c0d5fba8512a59a7a8df79e1285d56fe47fec2a87"
+  },
+  "scope": "Small synthetic float32 observations and actual producer checkpoint helper; no real text, neural forward or new MonteCarlo quality evidence."
+}

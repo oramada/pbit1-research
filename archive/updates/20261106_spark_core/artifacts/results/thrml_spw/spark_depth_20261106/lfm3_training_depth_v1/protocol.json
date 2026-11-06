@@ -1,0 +1,87 @@
+{
+  "source_sha256": "e52b70870fea7472478994edbf779f376029c8fd394d7f111be7a2d3c920720a",
+  "selection_sha256": "17fab21ea9869f16c02fa8dc3cfb93ce3fa0c5a2c097a0dabcc4260764732335",
+  "selection_audit_sha256": "459f22c62d6f7c16da205772e43235316b1765f0bd04a94c7793bb95bdeb3fb4",
+  "sampler_sha256": "8003a7db03cedd2cfdfc2dbb63049e45c4c29f6abe6ba195cc4f76645eac012b",
+  "mean_codec_sha256": "1250b109bfb56c78e49b5e35ce08c53d64499068d7eb08bdefed42f5bf216911",
+  "offload_sha256": "321b49d4053ef57c060744742ad3a675ed53c1f408e77501dcdfdf466d55da9e",
+  "training_data_sha256": "1055af9619d3081119cddd2a02894b6f42278efa58115b5a9e33999ee2de83ea",
+  "cases": [
+    {
+      "name": "BF16",
+      "kind": "original"
+    },
+    {
+      "name": "selected_mean",
+      "kind": "mean"
+    },
+    {
+      "name": "selected_seed2026111801",
+      "kind": "selected",
+      "seed": 2026111801
+    },
+    {
+      "name": "selected_seed2026111802",
+      "kind": "selected",
+      "seed": 2026111802
+    },
+    {
+      "name": "selected_seed2026111803",
+      "kind": "selected",
+      "seed": 2026111803
+    },
+    {
+      "name": "selected_seed2026111804",
+      "kind": "selected",
+      "seed": 2026111804
+    },
+    {
+      "name": "selected_seed2026111805",
+      "kind": "selected",
+      "seed": 2026111805
+    }
+  ],
+  "training_rows": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "tokens_per_row": 257,
+  "parameters": 1728801536,
+  "samples": 32768,
+  "controller_bits": 12,
+  "range_metadata_bits_per_group": 64,
+  "state_bits_per_parameter": 1,
+  "observations_per_reconstruction": 56649368731648,
+  "statistic": "Five-seed paired deltaNLL on 8192 training targets; t4 95% interval. Calibration diagnostic only; no heldout success claim.",
+  "scope": "All learned parameters K1 including norms and convolution filters, tied head counted once. Ideal independent binomial R1; model reconstructed once per seed then reused. CPU-master BF16 arithmetic on shared GB10, 2GiB allocator cap. No native fullmodel THRML or device claim."
+}

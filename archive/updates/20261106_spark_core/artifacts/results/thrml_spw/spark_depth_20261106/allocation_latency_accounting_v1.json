@@ -1,0 +1,19 @@
+{
+  "records": [
+    {
+      "proposal": "existing_directions",
+      "observation_cost_ratio": 0.6897136967617308,
+      "fully_parallel_reconstruction_sample_latency_ratio": 4.0,
+      "serialized_parameterized_module_sample_latency_ratio": 3.289473684210526,
+      "serial_module_uses": 76
+    },
+    {
+      "proposal": "gradient_proxy_directions",
+      "observation_cost_ratio": 0.6019125969721844,
+      "fully_parallel_reconstruction_sample_latency_ratio": 4.0,
+      "serialized_parameterized_module_sample_latency_ratio": 3.1266447368421053,
+      "serial_module_uses": 76
+    }
+  ],
+  "assumptions": "Sameindependent samplerate perdevice, nooverlapforserialcase; maxTforfullyparallelreconstruction. SerialcountsmaxTperparameterizedmodule andsecondtiedheaduse; excludesparameterfreeoperators/readout/programming. Thesearelatencyproxies,notmeasuredhardwarelatency. Lowerobservationworkdoesnotnecessarilylowerlatency."
+}

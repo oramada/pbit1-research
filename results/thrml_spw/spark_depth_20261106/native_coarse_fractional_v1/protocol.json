@@ -1,0 +1,24 @@
+{
+  "source_sha256": "f7ee570af1ac19ae4269d4f829cf43a64441d22a536dbcb672abc8705cc62687",
+  "native_source_sha256": "14ab522d92356d3c633787b5249c8a0d04d6c46c3b282fb84bdd72ed1fd9a361",
+  "inputs_sha256": "a467a6b34d1c3645ebcd2b5ad8fa35228bcdd8d16da5189c6c2222924cf4fd49",
+  "seeds": [
+    2026112601,
+    2026112602,
+    2026112603,
+    2026112604,
+    2026112605
+  ],
+  "K1_T": 32768,
+  "K4_T": [
+    8192,
+    32768
+  ],
+  "coarse_bits": 3,
+  "K4_definition": "For normalizedu in[0,1], q=min(floor(8u),7), f=8u-q. Storeq inthreeclampedbinarynodes andf inonefreepbit withsame12bitfieldgrid asK1. Decodeu=(q+z)/8. Fourphysicalelements;onlyonefree stochastic element. Freefractionendpoints usefinitebias notexactclamping.",
+  "ideal_bits_per_parameter_without_ranges": {
+    "K1_controls_and_state": 13,
+    "K4_controls_coarse_commands_and_states": 19
+  },
+  "scope": "Real8x768GPT2headbank and8fixedhiddenvectors, officialTHRML. Stronginternalcoarse/fractionalbaseline, notExtropicproductionencoding. K4T8192matchesall-nodeobservations; K4T32768matchesfree-nodeupdates. Clampednodesdo notswitchrandomly: countthemdifferently. No fullmodelquality, hardwareenergy, or universal dominance claim."
+}

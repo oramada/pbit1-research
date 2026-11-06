@@ -1,0 +1,53 @@
+{
+  "status": "complete_cohorts_dual_control_weighted_bootstrap_oracle_and_forgery_rejections_passed",
+  "cases": [
+    {
+      "metric": "NLL",
+      "case": "zero",
+      "dual_control_gate": true
+    },
+    {
+      "metric": "NLL",
+      "case": "small",
+      "dual_control_gate": true
+    },
+    {
+      "metric": "NLL",
+      "case": "degraded",
+      "dual_control_gate": false
+    },
+    {
+      "metric": "classification_error",
+      "case": "zero",
+      "dual_control_gate": true
+    },
+    {
+      "metric": "classification_error",
+      "case": "small",
+      "dual_control_gate": true
+    },
+    {
+      "metric": "classification_error",
+      "case": "degraded",
+      "dual_control_gate": false
+    }
+  ],
+  "forgeries_rejected": [
+    "mean_gap",
+    "MC_standard_error",
+    "data_units",
+    "quality_gate_met"
+  ],
+  "rejected_cohort_sizes": [
+    0,
+    4,
+    6
+  ],
+  "changed_data_units_rejected": true,
+  "sources_sha256": {
+    "/home/omarramadan/Desktop/extropic_compression/research/thrml_spw/broad/preflight_r1_statistics_v1.py": "94fb6705bf80f2b0df2cc443954537d91ed46b9aef4cfee19c7d184a4fee73d8",
+    "/home/omarramadan/Desktop/extropic_compression/research/thrml_spw/broad/r1_statistics_v1.py": "c1a24b41670c4336e75ec32ece44482f32c7b6c7b8abc3f6c5b7e21c4aeb7b9c",
+    "/home/omarramadan/Desktop/extropic_compression/research/thrml_spw/broad/verify_r1_statistics_v1.py": "8eff2c8f2cf578f686abd94de1c5c4285804d253c5c5b31cbbba92367dcf8330"
+  },
+  "scope": "Synthetic metric sums, no real testtokens or taskquality. Original predeclared margins and5seeds unchanged."
+}

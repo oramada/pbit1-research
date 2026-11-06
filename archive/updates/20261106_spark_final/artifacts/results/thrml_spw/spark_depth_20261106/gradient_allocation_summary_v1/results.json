@@ -1,0 +1,191 @@
+{
+  "source_sha256": "82e08947debdd5613c28c53d5cec204eb9764d252971a16b1e451d270abad720",
+  "proposal_results_sha256": "9f8d23a42bd311111cafbc302bc2ea65acd1a43942a58b84fbd6eca2c8f446c1",
+  "summary": {
+    "existing_directions": {
+      "embedding/head": {
+        "parameters": 38597376,
+        "weighted_mean_samples": 32768.0,
+        "observations": 1264758816768,
+        "predicted_loss_fluctuation_variance": 0.00011085339032623076
+      },
+      "position": {
+        "parameters": 786432,
+        "weighted_mean_samples": 65536.0,
+        "observations": 51539607552,
+        "predicted_loss_fluctuation_variance": 3.49963971067618e-06
+      },
+      "block 0": {
+        "parameters": 7087872,
+        "weighted_mean_samples": 24015.901181059704,
+        "observations": 170221633536,
+        "predicted_loss_fluctuation_variance": 1.4507085392382366e-05
+      },
+      "block 1": {
+        "parameters": 7087872,
+        "weighted_mean_samples": 17873.454545454544,
+        "observations": 126684758016,
+        "predicted_loss_fluctuation_variance": 7.693274507877842e-06
+      },
+      "block 2": {
+        "parameters": 7087872,
+        "weighted_mean_samples": 20635.78025788276,
+        "observations": 146263769088,
+        "predicted_loss_fluctuation_variance": 1.2093020638931894e-05
+      },
+      "block 3": {
+        "parameters": 7087872,
+        "weighted_mean_samples": 17880.555639830967,
+        "observations": 126735089664,
+        "predicted_loss_fluctuation_variance": 8.622028495124268e-06
+      },
+      "block 4": {
+        "parameters": 7087872,
+        "weighted_mean_samples": 17880.555639830967,
+        "observations": 126735089664,
+        "predicted_loss_fluctuation_variance": 9.073870262844386e-06
+      },
+      "block 5": {
+        "parameters": 7087872,
+        "weighted_mean_samples": 20607.375880377072,
+        "observations": 146062442496,
+        "predicted_loss_fluctuation_variance": 8.08539338143186e-06
+      },
+      "block 6": {
+        "parameters": 7087872,
+        "weighted_mean_samples": 20600.27478600065,
+        "observations": 146012110848,
+        "predicted_loss_fluctuation_variance": 7.389754914704313e-06
+      },
+      "block 7": {
+        "parameters": 7087872,
+        "weighted_mean_samples": 15828.339365044967,
+        "observations": 112189243392,
+        "predicted_loss_fluctuation_variance": 7.766467759258644e-06
+      },
+      "block 8": {
+        "parameters": 7087872,
+        "weighted_mean_samples": 13776.123090258967,
+        "observations": 97643397120,
+        "predicted_loss_fluctuation_variance": 9.18366177970383e-06
+      },
+      "block 9": {
+        "parameters": 7087872,
+        "weighted_mean_samples": 10353.39560082349,
+        "observations": 73383542784,
+        "predicted_loss_fluctuation_variance": 7.508518085598139e-06
+      },
+      "block 10": {
+        "parameters": 7087872,
+        "weighted_mean_samples": 13761.920901506122,
+        "observations": 97542733824,
+        "predicted_loss_fluctuation_variance": 6.09613733186782e-06
+      },
+      "block 11": {
+        "parameters": 7087872,
+        "weighted_mean_samples": 17837.949073572436,
+        "observations": 126433099776,
+        "predicted_loss_fluctuation_variance": 7.840628662026964e-06
+      },
+      "final norm": {
+        "parameters": 1536,
+        "weighted_mean_samples": 131072.0,
+        "observations": 201326592,
+        "predicted_loss_fluctuation_variance": 1.93927738257958e-06
+      }
+    },
+    "gradient_proxy_directions": {
+      "embedding/head": {
+        "parameters": 38597376,
+        "weighted_mean_samples": 32768.0,
+        "observations": 1264758816768,
+        "predicted_loss_fluctuation_variance": 0.00011085339032623076
+      },
+      "position": {
+        "parameters": 786432,
+        "weighted_mean_samples": 4096.0,
+        "observations": 3221225472,
+        "predicted_loss_fluctuation_variance": 4.089811601288434e-07
+      },
+      "block 0": {
+        "parameters": 7087872,
+        "weighted_mean_samples": 11745.210098602232,
+        "observations": 83248545792,
+        "predicted_loss_fluctuation_variance": 1.0913097392094102e-05
+      },
+      "block 1": {
+        "parameters": 7087872,
+        "weighted_mean_samples": 11738.10900422581,
+        "observations": 83198214144,
+        "predicted_loss_fluctuation_variance": 9.148708935302438e-06
+      },
+      "block 2": {
+        "parameters": 7087872,
+        "weighted_mean_samples": 16545.549897063604,
+        "observations": 117272739840,
+        "predicted_loss_fluctuation_variance": 1.1499609369533267e-05
+      },
+      "block 3": {
+        "parameters": 7087872,
+        "weighted_mean_samples": 17880.555639830967,
+        "observations": 126735089664,
+        "predicted_loss_fluctuation_variance": 8.01804597757039e-06
+      },
+      "block 4": {
+        "parameters": 7087872,
+        "weighted_mean_samples": 13783.224184635388,
+        "observations": 97693728768,
+        "predicted_loss_fluctuation_variance": 1.1157180507149048e-05
+      },
+      "block 5": {
+        "parameters": 7087872,
+        "weighted_mean_samples": 17880.555639830967,
+        "observations": 126735089664,
+        "predicted_loss_fluctuation_variance": 8.960897738725983e-06
+      },
+      "block 6": {
+        "parameters": 7087872,
+        "weighted_mean_samples": 17170.446202188752,
+        "observations": 121701924864,
+        "predicted_loss_fluctuation_variance": 8.948819126399552e-06
+      },
+      "block 7": {
+        "parameters": 7087872,
+        "weighted_mean_samples": 13080.215841369596,
+        "observations": 92710895616,
+        "predicted_loss_fluctuation_variance": 8.72813657569177e-06
+      },
+      "block 8": {
+        "parameters": 7087872,
+        "weighted_mean_samples": 13094.41803012244,
+        "observations": 92811558912,
+        "predicted_loss_fluctuation_variance": 9.086850471060181e-06
+      },
+      "block 9": {
+        "parameters": 7087872,
+        "weighted_mean_samples": 10346.29450644707,
+        "observations": 73333211136,
+        "predicted_loss_fluctuation_variance": 7.414395511118436e-06
+      },
+      "block 10": {
+        "parameters": 7087872,
+        "weighted_mean_samples": 10346.29450644707,
+        "observations": 73333211136,
+        "predicted_loss_fluctuation_variance": 7.611929741212885e-06
+      },
+      "block 11": {
+        "parameters": 7087872,
+        "weighted_mean_samples": 13745.943439159173,
+        "observations": 97429487616,
+        "predicted_loss_fluctuation_variance": 7.89123639689767e-06
+      },
+      "final norm": {
+        "parameters": 1536,
+        "weighted_mean_samples": 131072.0,
+        "observations": 201326592,
+        "predicted_loss_fluctuation_variance": 1.93927738257958e-06
+      }
+    }
+  },
+  "scope": "Predicted allocation only; constant physicalpbitcount. Trainedon8shortarticles usingfirst-orderlossgradient proxy; notvalidatedneuralqualityorphysicalworkmeasurement."
+}

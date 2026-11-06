@@ -1,0 +1,89 @@
+{
+  "status": "highT_native_public_counts_uint32_roundtrip_and_independent_FP32_readout_verified",
+  "backend": "gpu",
+  "devices": [
+    "cuda:0"
+  ],
+  "source_sha256": "7b07cc12cac25f5f4556d9883745751648420fe0c641447f0816b59674dc820b",
+  "seed": 202611790,
+  "parameter_index": 4,
+  "tile_size": 8,
+  "records": [
+    {
+      "samples": 8192,
+      "public_bits_checked": 196608,
+      "packed_state_SHA256": [
+        "5f44c3f4735885013fefad886efdeeff23829fd87f15f6b98f15ab5e553390a1",
+        "567f3a9e626a18a355c590ff96c94a63dd41fc3c2e089317888e0a10bac135bb",
+        "578011daa8760413f7cfe1b489bc2e519725779df18ff00716ec969c2e978788"
+      ],
+      "counts_SHA256": "a331dd7f78db990927344772900bbfe7a4b56c3342c7940af4a31a47ffc8a743",
+      "decoded_FP32_SHA256": "00b7564fecd3a55404da641fe70df890cde0d509536742f144bce03116f3caa2",
+      "raw_public_file": "results/thrml_spw/broad_verification_20261105/highT_preparation_v1/primitive_gpu/T8192_public_states.npz",
+      "raw_public_file_sha256": "9de68958312b7dc7021b730bd24c8513c11d5a076a67c3f524cba870c7afe706",
+      "count_file": "results/thrml_spw/broad_verification_20261105/highT_preparation_v1/primitive_gpu/T8192_counts.npz",
+      "count_file_sha256": "6784bbe212aee1decc6172f9f2a5916902b101fb8498a331de5b9a824562888b",
+      "max_count": 8188,
+      "uint16_would_corrupt_counts": false,
+      "saved_dtype": "uint32",
+      "resources": {
+        "unique_parameter_scalars": 17,
+        "logical_pbits": 17,
+        "range_groups": 1,
+        "last_group_actual_size": 17,
+        "range_metadata_bits": 64,
+        "finite_control_information_bits": 204,
+        "packed_format_storage_bits_excluding_headers": 268,
+        "actual_single_control_array_bytes": 34,
+        "logical_retained_device_evaluations": 139264,
+        "scheduled_retained_device_evaluations": 196608,
+        "scheduled_warmup_device_evaluations": 24,
+        "sampling_padding_cells_per_bitplane": 7,
+        "software_sampler_state_slots": 8,
+        "software_int32_count_carry_bytes": 32,
+        "software_retained_count_array_bytes": 68,
+        "software_decoded_FP64_array_bytes": 136,
+        "regime": "R1 single model weight reconstruction draw reused across evaluation; no R2or physicalstorageclaim"
+      }
+    },
+    {
+      "samples": 262144,
+      "public_bits_checked": 6291456,
+      "packed_state_SHA256": [
+        "c2c76da666f0406fe1677992d07168d4ed7025819001ca3c432f31736c96a456",
+        "cf277151dddad831c10d4c57839a89f5d791d516052f5fe27fcff2e8a63154d9",
+        "448f2177ae2f1063dcc713c926d7d034a0b6c64aefc62514d69082eb7f7b386f"
+      ],
+      "counts_SHA256": "ca630cc8b8d25599954cf1dbe9bd74137a558868c4753db41281247df8f4b7cf",
+      "decoded_FP32_SHA256": "d8c7668236491bb60df203bdacf68e56719842fb88e7ad57fb4846273b3d79db",
+      "raw_public_file": "results/thrml_spw/broad_verification_20261105/highT_preparation_v1/primitive_gpu/T262144_public_states.npz",
+      "raw_public_file_sha256": "c65941ab1025c8c175cfb0af1b049a4f2b584d783bcfd8042d8f34aa25ab44ea",
+      "count_file": "results/thrml_spw/broad_verification_20261105/highT_preparation_v1/primitive_gpu/T262144_counts.npz",
+      "count_file_sha256": "0a845e7947c1bdcf8575381a4df7e91ab4a6340a99318ca1c5f49801f961784d",
+      "max_count": 262054,
+      "uint16_would_corrupt_counts": true,
+      "saved_dtype": "uint32",
+      "resources": {
+        "unique_parameter_scalars": 17,
+        "logical_pbits": 17,
+        "range_groups": 1,
+        "last_group_actual_size": 17,
+        "range_metadata_bits": 64,
+        "finite_control_information_bits": 204,
+        "packed_format_storage_bits_excluding_headers": 268,
+        "actual_single_control_array_bytes": 34,
+        "logical_retained_device_evaluations": 4456448,
+        "scheduled_retained_device_evaluations": 6291456,
+        "scheduled_warmup_device_evaluations": 24,
+        "sampling_padding_cells_per_bitplane": 7,
+        "software_sampler_state_slots": 8,
+        "software_int32_count_carry_bytes": 32,
+        "software_retained_count_array_bytes": 68,
+        "software_decoded_FP64_array_bytes": 136,
+        "regime": "R1 single model weight reconstruction draw reused across evaluation; no R2or physicalstorageclaim"
+      }
+    }
+  ],
+  "elapsed_seconds": 24.946788909999995,
+  "scope": "Primitive high-sample-count fixture only. Public states and counts use official THRML; no neural task score or BF16-quality conclusion. Production has65536lanes; previously audited at8192samples, while this fixture checks262144samples with8lanes."
+}

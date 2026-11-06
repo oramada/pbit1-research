@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/__modal/volumes/vo-xPupdD37HndFLHDMPewQva/research/thrml_spw/broad/r1_case_v1.py", line 100, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/__modal/volumes/vo-xPupdD37HndFLHDMPewQva/research/thrml_spw/broad/r1_case_v1.py", line 11, in main
+    args=ap.parse_args();p=json.loads(args.protocol.read_text());source_guard(p)
+                                                                 ^^^^^^^^^^^^^^^
+  File "/__modal/volumes/vo-xPupdD37HndFLHDMPewQva/research/thrml_spw/broad/r1_io_v1.py", line 49, in source_guard
+    if sha(path)!=digest:raise ValueError('Frozen source changed: '+path)
+       ^^^^^^^^^
+  File "/__modal/volumes/vo-xPupdD37HndFLHDMPewQva/research/thrml_spw/broad/r1_io_v1.py", line 11, in sha
+    with Path(path).open('rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/omarramadan/Desktop/extropic_compression/research/thrml_spw/broad/r1_io_v1.py'

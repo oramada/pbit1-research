@@ -1,0 +1,602 @@
+{
+  "protocol_sha256": "dc7487d7277a0dda7588c6eaa99a5160e7ab869f69e9f89c06a850c6c824948c",
+  "controls": [
+    {
+      "method": "expected_weight",
+      "method_index": 0,
+      "control": "BF16_weights_F64",
+      "control_index": 0,
+      "mean": [
+        0.57168,
+        1.2164755721661842
+      ]
+    },
+    {
+      "method": "expected_weight",
+      "method_index": 0,
+      "control": "BF16_Torch_CPU",
+      "control_index": 1,
+      "mean": [
+        0.5717000000000001,
+        1.2165017675581575
+      ]
+    },
+    {
+      "method": "expected_weight",
+      "method_index": 0,
+      "control": "BF16_weights_ACT8_F64",
+      "control_index": 2,
+      "mean": [
+        0.57152,
+        1.2170306472382462
+      ]
+    },
+    {
+      "method": "binomial_mean_STE_T256",
+      "method_index": 1,
+      "control": "BF16_weights_F64",
+      "control_index": 0,
+      "mean": [
+        0.55832,
+        1.2517294990641612
+      ]
+    },
+    {
+      "method": "binomial_mean_STE_T256",
+      "method_index": 1,
+      "control": "BF16_Torch_CPU",
+      "control_index": 1,
+      "mean": [
+        0.5584,
+        1.2517938718257209
+      ]
+    },
+    {
+      "method": "binomial_mean_STE_T256",
+      "method_index": 1,
+      "control": "BF16_weights_ACT8_F64",
+      "control_index": 2,
+      "mean": [
+        0.55842,
+        1.2519212661026544
+      ]
+    }
+  ],
+  "contrasts": [
+    {
+      "method_index": 0,
+      "method": "expected_weight",
+      "T": 64,
+      "control_index": 0,
+      "control": "BF16_weights_F64",
+      "array_key": "method0_budget0_c0",
+      "difference": [
+        -0.19230600000000006,
+        0.856820486106881
+      ],
+      "descriptive_95_interval": [
+        [
+          -0.20184015000000008,
+          -0.18110385
+        ],
+        [
+          0.7674102708668389,
+          0.9351071048526166
+        ]
+      ]
+    },
+    {
+      "method_index": 0,
+      "method": "expected_weight",
+      "T": 64,
+      "control_index": 1,
+      "control": "BF16_Torch_CPU",
+      "array_key": "method0_budget0_c1",
+      "difference": [
+        -0.19232600000000002,
+        0.8567942907149079
+      ],
+      "descriptive_95_interval": [
+        [
+          -0.20171075000000005,
+          -0.18095944999999994
+        ],
+        [
+          0.7673991390236491,
+          0.9351125362640246
+        ]
+      ]
+    },
+    {
+      "method_index": 0,
+      "method": "expected_weight",
+      "T": 64,
+      "control_index": 2,
+      "control": "BF16_weights_ACT8_F64",
+      "array_key": "method0_budget0_c2",
+      "difference": [
+        -0.19214599999999998,
+        0.8562654110348191
+      ],
+      "descriptive_95_interval": [
+        [
+          -0.20171000000000006,
+          -0.18065374999999997
+        ],
+        [
+          0.7667384018027233,
+          0.9345109804951145
+        ]
+      ]
+    },
+    {
+      "method_index": 1,
+      "method": "binomial_mean_STE_T256",
+      "T": 64,
+      "control_index": 0,
+      "control": "BF16_weights_F64",
+      "array_key": "method1_budget0_c0",
+      "difference": [
+        -0.103092,
+        0.31865638525274265
+      ],
+      "descriptive_95_interval": [
+        [
+          -0.10715005000000005,
+          -0.09983800000000005
+        ],
+        [
+          0.30656346658671285,
+          0.3270296342225888
+        ]
+      ]
+    },
+    {
+      "method_index": 1,
+      "method": "binomial_mean_STE_T256",
+      "T": 64,
+      "control_index": 1,
+      "control": "BF16_Torch_CPU",
+      "array_key": "method1_budget0_c1",
+      "difference": [
+        -0.103172,
+        0.31859201249118285
+      ],
+      "descriptive_95_interval": [
+        [
+          -0.10703005000000003,
+          -0.10009964999999998
+        ],
+        [
+          0.3064993105357924,
+          0.3269456423242434
+        ]
+      ]
+    },
+    {
+      "method_index": 1,
+      "method": "binomial_mean_STE_T256",
+      "T": 64,
+      "control_index": 2,
+      "control": "BF16_weights_ACT8_F64",
+      "array_key": "method1_budget0_c2",
+      "difference": [
+        -0.10319199999999999,
+        0.31846461821424943
+      ],
+      "descriptive_95_interval": [
+        [
+          -0.10773215000000001,
+          -0.09976795
+        ],
+        [
+          0.30651959661360667,
+          0.3266982827988883
+        ]
+      ]
+    },
+    {
+      "method_index": 0,
+      "method": "expected_weight",
+      "T": 256,
+      "control_index": 0,
+      "control": "BF16_weights_F64",
+      "array_key": "method0_budget1_c0",
+      "difference": [
+        -0.07053000000000002,
+        0.21783959676809594
+      ],
+      "descriptive_95_interval": [
+        [
+          -0.07588805,
+          -0.06416950000000009
+        ],
+        [
+          0.19222581742989,
+          0.23708690282535916
+        ]
+      ]
+    },
+    {
+      "method_index": 0,
+      "method": "expected_weight",
+      "T": 256,
+      "control_index": 1,
+      "control": "BF16_Torch_CPU",
+      "array_key": "method0_budget1_c1",
+      "difference": [
+        -0.07055,
+        0.21781340137612262
+      ],
+      "descriptive_95_interval": [
+        [
+          -0.07579009999999999,
+          -0.06401570000000001
+        ],
+        [
+          0.19223552174736097,
+          0.23709281578310618
+        ]
+      ]
+    },
+    {
+      "method_index": 0,
+      "method": "expected_weight",
+      "T": 256,
+      "control_index": 2,
+      "control": "BF16_weights_ACT8_F64",
+      "array_key": "method0_budget1_c2",
+      "difference": [
+        -0.07036999999999999,
+        0.21728452169603385
+      ],
+      "descriptive_95_interval": [
+        [
+          -0.07560610000000001,
+          -0.06377359999999999
+        ],
+        [
+          0.191574167346174,
+          0.23638767362517485
+        ]
+      ]
+    },
+    {
+      "method_index": 1,
+      "method": "binomial_mean_STE_T256",
+      "T": 256,
+      "control_index": 0,
+      "control": "BF16_weights_F64",
+      "array_key": "method1_budget1_c0",
+      "difference": [
+        -0.02921800000000003,
+        0.07497422123684698
+      ],
+      "descriptive_95_interval": [
+        [
+          -0.03172410000000002,
+          -0.026735850000000016
+        ],
+        [
+          0.07107156038753958,
+          0.07800298354828157
+        ]
+      ]
+    },
+    {
+      "method_index": 1,
+      "method": "binomial_mean_STE_T256",
+      "T": 256,
+      "control_index": 1,
+      "control": "BF16_Torch_CPU",
+      "array_key": "method1_budget1_c1",
+      "difference": [
+        -0.02929800000000001,
+        0.0749098484752873
+      ],
+      "descriptive_95_interval": [
+        [
+          -0.03164200000000004,
+          -0.026951949999999992
+        ],
+        [
+          0.07101581131595491,
+          0.07792092545840254
+        ]
+      ]
+    },
+    {
+      "method_index": 1,
+      "method": "binomial_mean_STE_T256",
+      "T": 256,
+      "control_index": 2,
+      "control": "BF16_weights_ACT8_F64",
+      "array_key": "method1_budget1_c2",
+      "difference": [
+        -0.02931799999999999,
+        0.07478245419835386
+      ],
+      "descriptive_95_interval": [
+        [
+          -0.03218,
+          -0.02643189999999998
+        ],
+        [
+          0.07102232783559105,
+          0.07769448887226386
+        ]
+      ]
+    },
+    {
+      "method_index": 0,
+      "method": "expected_weight",
+      "T": 1024,
+      "control_index": 0,
+      "control": "BF16_weights_F64",
+      "array_key": "method0_budget2_c0",
+      "difference": [
+        -0.020756000000000007,
+        0.053600827094194566
+      ],
+      "descriptive_95_interval": [
+        [
+          -0.022790149999999964,
+          -0.018461900000000024
+        ],
+        [
+          0.04744527506379307,
+          0.058456356044891515
+        ]
+      ]
+    },
+    {
+      "method_index": 0,
+      "method": "expected_weight",
+      "T": 1024,
+      "control_index": 1,
+      "control": "BF16_Torch_CPU",
+      "array_key": "method0_budget2_c1",
+      "difference": [
+        -0.020775999999999985,
+        0.05357463170222117
+      ],
+      "descriptive_95_interval": [
+        [
+          -0.02276010000000002,
+          -0.018287899999999982
+        ],
+        [
+          0.04743678228250292,
+          0.05846801979228693
+        ]
+      ]
+    },
+    {
+      "method_index": 0,
+      "method": "expected_weight",
+      "T": 1024,
+      "control_index": 2,
+      "control": "BF16_weights_ACT8_F64",
+      "array_key": "method0_budget2_c2",
+      "difference": [
+        -0.020596000000000007,
+        0.053045752022132436
+      ],
+      "descriptive_95_interval": [
+        [
+          -0.022484149999999994,
+          -0.018123950000000003
+        ],
+        [
+          0.046781874554808985,
+          0.05783025139831902
+        ]
+      ]
+    },
+    {
+      "method_index": 1,
+      "method": "binomial_mean_STE_T256",
+      "T": 1024,
+      "control_index": 0,
+      "control": "BF16_weights_F64",
+      "array_key": "method1_budget2_c0",
+      "difference": [
+        -0.008174000000000013,
+        0.01844223891266966
+      ],
+      "descriptive_95_interval": [
+        [
+          -0.009114,
+          -0.00714195000000002
+        ],
+        [
+          0.01730508473477676,
+          0.01960840439004454
+        ]
+      ]
+    },
+    {
+      "method_index": 1,
+      "method": "binomial_mean_STE_T256",
+      "T": 1024,
+      "control_index": 1,
+      "control": "BF16_Torch_CPU",
+      "array_key": "method1_budget2_c1",
+      "difference": [
+        -0.008254000000000004,
+        0.018377866151109975
+      ],
+      "descriptive_95_interval": [
+        [
+          -0.009096050000000015,
+          -0.007283949999999991
+        ],
+        [
+          0.01724903601500734,
+          0.019527573700411815
+        ]
+      ]
+    },
+    {
+      "method_index": 1,
+      "method": "binomial_mean_STE_T256",
+      "T": 1024,
+      "control_index": 2,
+      "control": "BF16_weights_ACT8_F64",
+      "array_key": "method1_budget2_c2",
+      "difference": [
+        -0.00827399999999998,
+        0.01825047187417653
+      ],
+      "descriptive_95_interval": [
+        [
+          -0.009570049999999974,
+          -0.006905999999999965
+        ],
+        [
+          0.0171661406873816,
+          0.01941756337171062
+        ]
+      ]
+    },
+    {
+      "method_index": 0,
+      "method": "expected_weight",
+      "T": 4096,
+      "control_index": 0,
+      "control": "BF16_weights_F64",
+      "array_key": "method0_budget3_c0",
+      "difference": [
+        -0.005838000000000014,
+        0.013575507015847194
+      ],
+      "descriptive_95_interval": [
+        [
+          -0.00685005000000002,
+          -0.004834000000000033
+        ],
+        [
+          0.012316114409272261,
+          0.01476694309714248
+        ]
+      ]
+    },
+    {
+      "method_index": 0,
+      "method": "expected_weight",
+      "T": 4096,
+      "control_index": 1,
+      "control": "BF16_Torch_CPU",
+      "array_key": "method0_budget3_c1",
+      "difference": [
+        -0.00585799999999999,
+        0.013549311623873801
+      ],
+      "descriptive_95_interval": [
+        [
+          -0.0070339999999999726,
+          -0.004647999999999974
+        ],
+        [
+          0.012295232959939792,
+          0.014796994591451172
+        ]
+      ]
+    },
+    {
+      "method_index": 0,
+      "method": "expected_weight",
+      "T": 4096,
+      "control_index": 2,
+      "control": "BF16_weights_ACT8_F64",
+      "array_key": "method0_budget3_c2",
+      "difference": [
+        -0.005678000000000009,
+        0.013020431943785079
+      ],
+      "descriptive_95_interval": [
+        [
+          -0.006602050000000012,
+          -0.004524000000000015
+        ],
+        [
+          0.01169006604561924,
+          0.01416660781177962
+        ]
+      ]
+    },
+    {
+      "method_index": 1,
+      "method": "binomial_mean_STE_T256",
+      "T": 4096,
+      "control_index": 0,
+      "control": "BF16_weights_F64",
+      "array_key": "method1_budget3_c0",
+      "difference": [
+        -0.002198000000000007,
+        0.004863179194891911
+      ],
+      "descriptive_95_interval": [
+        [
+          -0.002786000000000011,
+          -0.0016339499999999945
+        ],
+        [
+          0.004531681161412744,
+          0.005208671893875852
+        ]
+      ]
+    },
+    {
+      "method_index": 1,
+      "method": "binomial_mean_STE_T256",
+      "T": 4096,
+      "control_index": 1,
+      "control": "BF16_Torch_CPU",
+      "array_key": "method1_budget3_c1",
+      "difference": [
+        -0.002277999999999998,
+        0.004798806433332228
+      ],
+      "descriptive_95_interval": [
+        [
+          -0.0027860500000000026,
+          -0.0017979499999999768
+        ],
+        [
+          0.004472426793113818,
+          0.005142962096103423
+        ]
+      ]
+    },
+    {
+      "method_index": 1,
+      "method": "binomial_mean_STE_T256",
+      "T": 4096,
+      "control_index": 2,
+      "control": "BF16_weights_ACT8_F64",
+      "array_key": "method1_budget3_c2",
+      "difference": [
+        -0.0022979999999999732,
+        0.004671412156398782
+      ],
+      "descriptive_95_interval": [
+        [
+          -0.003115999999999997,
+          -0.0014578999999999588
+        ],
+        [
+          0.004279032398940852,
+          0.005104561135979363
+        ]
+      ]
+    }
+  ],
+  "metric_order": [
+    "accuracy_fraction",
+    "mean_CE_nats"
+  ],
+  "logits_sha256": "df28e6d95b30a69f1a68265f538728bd8b5806cfce717e51ab82aa92c46a936e",
+  "statistical_arrays_sha256": "f6acc05bdfffaee2104cd9d03e5e02161fbc7117b67a468659c04fd2c609b0d9",
+  "scope": "Retrospective same-fit BF16 comparison on all ten original probability-finetuned exports; no optimization, new stochastic inference, favorable-method selection or fresh-data confirmation. Both methods/all four budgets/all three controls retained. BF16 weights use explicit FP32 cast of learned F64 means then BF16 nearest-even rounding. Weight-only controls retain deterministic original biases and F64 readout, with/without original ACT8 spans; whole CPU BF16 converts inputs/weights/biases and uses the unquantized-activation Torch module graph. CPU internal accumulation widths unclaimed. Parent same-fit ACT8 F64 means remain independently verified controls. Parent model/MC bootstrap indices reused per budget; fixed historically consumed images, unadjusted descriptive intervals, no formal equivalence margin/test. This removes unequal training history within each same-fit contrast, not model-selection bias or every arithmetic difference. No physical efficiency or per-weight numerical precision claim."
+}

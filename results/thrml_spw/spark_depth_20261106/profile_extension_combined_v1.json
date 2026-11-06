@@ -1,0 +1,76 @@
+{
+  "status": "ten_seed_calibration_extension_complete",
+  "source_sha256": "1f56f0348bc81cd26806e772c31cf5bc9f3e4211f073101eda5baf18e8bf5a7b",
+  "parent_sha256": "43d5ebda5a9a6176ddecc8ecf6935096b33e8f5a49677dbf0127a7a14bcfdf2c",
+  "extension_sha256": "23eaae945f596d3112ef32bb07b6eac4c0c857ff7a6d61aaf2694e60e745f112",
+  "selected_profile": "operator_all_T32768",
+  "summaries": {
+    "operator_body_T32768": {
+      "seeds": [
+        2026110661,
+        2026110662,
+        2026110663,
+        2026110664,
+        2026110665,
+        2026110671,
+        2026110672,
+        2026110673,
+        2026110674,
+        2026110675
+      ],
+      "seed_NLL": [
+        3.563584059013438,
+        3.5926199337391833,
+        3.573109797045312,
+        3.5571478581313087,
+        3.5778163580026394,
+        3.560102637650974,
+        3.569998270621848,
+        3.5457228368776708,
+        3.619242975029437,
+        3.591452027732382
+      ],
+      "PPL_ratio": 1.0121018861038464,
+      "MC95_t9_PPL_ratio_interval": [
+        0.9967602658745447,
+        1.0276796366438337
+      ],
+      "qualified": false,
+      "observation_cost_ratio": 3.0694928748202503
+    },
+    "operator_all_T32768": {
+      "seeds": [
+        2026110661,
+        2026110662,
+        2026110663,
+        2026110664,
+        2026110665,
+        2026110671,
+        2026110672,
+        2026110673,
+        2026110674,
+        2026110675
+      ],
+      "seed_NLL": [
+        3.5527319801185584,
+        3.5680351946259847,
+        3.590741043439348,
+        3.5573939110614434,
+        3.568599200780369,
+        3.5857710464748407,
+        3.580933120066891,
+        3.5588463260193492,
+        3.585870877648121,
+        3.5717776594740167
+      ],
+      "PPL_ratio": 1.0090604035555937,
+      "MC95_t9_PPL_ratio_interval": [
+        0.9994876980516356,
+        1.018724792719935
+      ],
+      "qualified": true,
+      "observation_cost_ratio": 4.0
+    }
+  },
+  "scope": "Exploratorycalibrationselection afterpreservedfive-seedfailure. Ten-seedCIs onlysamplinguncertainty. Officialbenchmarkunchangedandnotyetrescored. Lowestobservationcost amongthetwoextendedcandidates."
+}

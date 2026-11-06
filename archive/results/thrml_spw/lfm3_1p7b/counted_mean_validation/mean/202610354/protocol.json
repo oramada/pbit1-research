@@ -1,0 +1,9 @@
+{
+  "arm": "mean",
+  "seed": 202610354,
+  "initial_replay": false,
+  "shared_protocol_sha256": "053c020bfb7907023edc49540a6105f61bfe9512fc9db7603ea8a5a2687c48ee",
+  "package_sha256": "ed690a28d5976aee7d9932872edb30d92adfa26c4fa0e5f248834c3678cf6262",
+  "package_audit_sha256": "bd1f8421e5832a1f9ec0cd81950c2fa46145a161720cc8a1f06620221a8bc93d",
+  "GPU_preflight_audit_sha256": "513ebbf496f8f2d07cc7e8b6b1134b48e831b7e40952b6b355f30fd4ae69ad73"
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "native_query_windows": 150,
+  "native_calibration_events": 90,
+  "native_probe_windows": 180,
+  "independently_reconstructed_segment_field_hashes": 6960,
+  "streaming_Brownian_path_reconstruction": true,
+  "clock_and_calibration_idle_costs_verified": true,
+  "source_sha256": "a1609266bac9b022ca07269896457e53218527098921c145fbadf17b21eeb53d",
+  "scope": "Independent streaming drift path, every active field/hash, counts-to-code fit, query time-averaged means/variance/errors and counterfactual clock/cost identity. Segmented native trajectories separately checked on CPU/CUDA. Synthetic drift, not hardware seconds, throughput or full-model quality."
+}

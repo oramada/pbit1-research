@@ -1,0 +1,5 @@
+{
+  "status": "failed_implementation_check",
+  "source_sha256": "17aa62467d5789dea3dfde6eef1aefc5a0847b60ab074b84b0f49d9035657a52",
+  "reason": "Counter(dict) treats module objects as counts; expected Counter over module names. First forward completed but validation asserted before recording progress. No quality results accepted."
+}

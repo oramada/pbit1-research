@@ -1,0 +1,46 @@
+{
+  "source_sha256": "8bea3fc0398aed254aa6febfbe4f6c69ca68def7c7394560fb00fdc915bd9e35",
+  "benchmark_protocol_sha256": "212899a5637a3690ca223032159d7b804365423aac6e1e274e66af26fa6f0dfc",
+  "canonical_package_sha256": "73614f01e0f2220d3035e587d59c68f98c4d2758802b95ebc4462fe52857d009",
+  "unique_parameters": 124439808,
+  "groups": 972186,
+  "logical_pbits_if_resident": 124439808,
+  "samples": 32768,
+  "comparisons": [
+    {
+      "case": "selected_seed2026110801",
+      "parameters_file_sha256": "d56e86bcde53bd92857f1ab28cb398ab40b04a3bae96e475089f0fca9b10487f",
+      "logical_pbits": 124439808,
+      "observations_per_model_reconstruction": 4077643628544
+    },
+    {
+      "case": "matched_flat_seed2026110801",
+      "parameters_file_sha256": "2c8e0bab4f4650774505696534696d033a62c7abe589648eeb11c3d2f4d28de5",
+      "logical_pbits": 124439808,
+      "observations_per_model_reconstruction": 4077643628544
+    }
+  ],
+  "bits": {
+    "BF16_weight_bits": 1991036928,
+    "ideal_12bit_controls": 1493277696,
+    "binary_states": 124439808,
+    "FP32_range_pairs": 62219904,
+    "orientation_and_T_policy_upper_bound": 2516,
+    "actual_uint16_control_array_bits": 1991036928
+  },
+  "ideal_control_range_state_policy_bytes_rounded_up": 209992491,
+  "ideal_fraction_of_BF16_weight_storage": 0.8437512636631519,
+  "uint16_control_range_state_policy_bytes_rounded_up": 272212395,
+  "uint16_fraction_of_BF16_weight_storage": 1.093751263663152,
+  "additional_BF16_working_weights_bytes_in_R1": 248879616,
+  "additional_original_BF16_CPU_copy_bytes_in_runner": 248879616,
+  "R1_observations_amortized_over_this_586_window_evaluation": 6958436226.1843,
+  "R1_observations_amortized_per_scored_target_in_this_evaluation": 14397188.202114927,
+  "fresh_full_parameter_reconstruction_per_window_hypothesis_observations": 2389499166326784,
+  "notes": [
+    "Idealbitcountsarenotphysicalsiliconarea. Actualsimulatoralsouses temporarycounters,arrays,modelactivationsandframeworkmetadata.",
+    "CurrentR1weightpointisreusedacrossentireevaluation; pertargetamortizationisnotdirectstochasticexecutioncost.",
+    "Freshfullreconstructionperwindowisahypotheticaldifferentexecutionpolicy,notmeasuredR2.",
+    "Nativehardwarelatency/energyrequiresdeviceupdatefrequency,parallelcapacity,biasretention,readout,operatorreuseandcalibrationcosts. Noabsoluteclaimcomputed."
+  ]
+}

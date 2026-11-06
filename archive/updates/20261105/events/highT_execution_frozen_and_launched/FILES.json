@@ -1,0 +1,61 @@
+{
+  "recorded_utc": "2026-11-05T23:51:34.639073+00:00",
+  "files": {
+    "README.md": {
+      "sha256": "7d21397a6272b20832f56c189c6d7fa960fe2a56c14f151a669d33bbc3bd79ec",
+      "bytes": 816
+    },
+    "cloud/highT_execution_v1/app.py": {
+      "sha256": "fa474ee50bdf90fd6e7b269df6a3c8fa6ce90b76a152c861481625e08df43c64",
+      "bytes": 4585
+    },
+    "cloud/highT_execution_v1/client.py": {
+      "sha256": "4b8865d44f90537a18a8df6c789c0bc87262244eebc769f7f438dd9883544000",
+      "bytes": 3140
+    },
+    "cloud/highT_execution_v1/freeze.py": {
+      "sha256": "133a460eb972db44ac132a3f781e9574f3c5a2719bbc4d9d0d7d8a674014dfbf",
+      "bytes": 6153
+    },
+    "cloud/highT_execution_v1/layout.py": {
+      "sha256": "e9ce10187f131a11670cf7565068c4f6a7f618400277b79338f01cbfa725d4e1",
+      "bytes": 372
+    },
+    "research/thrml_spw/broad/highT_statistics_v1.py": {
+      "sha256": "a558e89c05e501981ff591ed6b9b4616ab1f8ad4fa19cf78d0bc39f435992a02",
+      "bytes": 4427
+    },
+    "research/thrml_spw/broad/preflight_highT_statistics_v1.py": {
+      "sha256": "3e60288a4298637473f3c5b66b06455cd98953a04ed842cc7e29c2aa929e0cd7",
+      "bytes": 6173
+    },
+    "research/thrml_spw/broad/verify_highT_statistics_v1.py": {
+      "sha256": "3a936cea2f33213e781462f3da327bd3cf5156120e5b3f3c9050222a246da66d",
+      "bytes": 5044
+    },
+    "results/thrml_spw/broad_verification_20261105/highT_execution_v1/first_live_snapshot.json": {
+      "sha256": "f55f31115482b235ac0e60a1846aa2e8b2e7ffae66d703e8384e76a91dccab72",
+      "bytes": 1425
+    },
+    "results/thrml_spw/broad_verification_20261105/highT_execution_v1/observer/state.json": {
+      "sha256": "2b5d7c2afe479480ad2365ec70d67b835e0ba50d73a6702396911846002517a5",
+      "bytes": 700
+    },
+    "results/thrml_spw/broad_verification_20261105/highT_execution_v1/protocol.json": {
+      "sha256": "c8068f1ad89588c04ea6cf0ef4d1be630a675c4bf7f0cbb8c50296b08ad2a91c",
+      "bytes": 15354
+    },
+    "results/thrml_spw/broad_verification_20261105/highT_execution_v1/transfer_manifest_v2.json": {
+      "sha256": "05872c0caaad25c6f12bcb4d63b20611c236570a02ea59f0249831e50a102f49",
+      "bytes": 5038
+    },
+    "results/thrml_spw/broad_verification_20261105/highT_execution_v1/transfer_v1_failure.json": {
+      "sha256": "c2ac3cf15646e3edfb8c027253e08decb2586d2a5cfbd6c7d3619a153f365a04",
+      "bytes": 273
+    },
+    "results/thrml_spw/broad_verification_20261105/highT_preparation_v1/statistics_preflight.json": {
+      "sha256": "196975a43866d2d6f755741f1732a5adf52f4add0562e47c40b1bcb8f095aba2",
+      "bytes": 764
+    }
+  }
+}

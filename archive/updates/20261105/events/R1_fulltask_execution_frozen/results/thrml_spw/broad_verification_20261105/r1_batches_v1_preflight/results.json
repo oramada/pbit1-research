@@ -1,0 +1,19 @@
+{
+  "status": "all_real_task_batch_indices_masks_labels_targets_and_synthetic_loss_oracles_verified",
+  "counts": {
+    "gpt2": {
+      "batches": 586,
+      "scored_targets_or_reviews": 283225
+    },
+    "distilbert": {
+      "batches": 196,
+      "scored_targets_or_reviews": 25000
+    }
+  },
+  "sources_sha256": {
+    "/home/omarramadan/Desktop/extropic_compression/research/thrml_spw/broad/preflight_r1_batches_v1.py": "f1a74548b840bbce62eb93a11f676a2615a72b7c83252f6eb239756adb444aaa",
+    "/home/omarramadan/Desktop/extropic_compression/research/thrml_spw/broad/r1_model_v1.py": "de2c4657a4efdc8968660106cc3c1fe19f1c55ea1e56b3ae58eca8fb3857825a",
+    "/home/omarramadan/Desktop/extropic_compression/research/thrml_spw/broad/verify_r1_case_v1.py": "3bfa280c49b0ab5b5828f1a6957f55673b54977409aafeaa867fa60c9e18bb75"
+  },
+  "scope": "Fulldata geometry/label alignment plus syntheticlogit arithmetic; no actualmodel forward, taskquality or stochasticdraw."
+}

@@ -1,0 +1,178 @@
+{
+  "status": "all_four_attention_expanded_GPU_worker_cases_produced",
+  "worker_ready": {
+    "ready": true,
+    "devices": [
+      "cuda:0"
+    ]
+  },
+  "protocol_sha256": "13675a1bfc5449badbe29f957ec3e0b3a9f2a8ccf496d8efdc8181d98b11ca56",
+  "records": [
+    {
+      "request": {
+        "input": "results/thrml_spw/lfm3_1p7b/attention_worker_cpu_preflight_v2/input0.npz",
+        "output": "results/thrml_spw/lfm3_1p7b/attention_worker_gpu_preflight_v2/output0.npy",
+        "kind": "elementwise",
+        "samples": 8192,
+        "field_bits": 12,
+        "activation_bits": 12,
+        "key": 202611051,
+        "call": 0,
+        "mode": "native",
+        "replay": true,
+        "state_dir": "results/thrml_spw/lfm3_1p7b/attention_worker_gpu_preflight_v2/states"
+      },
+      "receipt": {
+        "ok": true,
+        "call": 0,
+        "weight_coordinates": 128,
+        "program_codes_used_directly": true,
+        "reference_weights_supplied": false,
+        "range_metadata_dtype": "float32",
+        "padding_nodes": 0,
+        "field_bits": 12,
+        "activation_bits": 12,
+        "public_replay_checked": true,
+        "retained_evaluations": 1048576,
+        "warmup_evaluations": 128,
+        "simulation_observer": "per_weight_counts_then_exact_integer_contraction",
+        "simulation_count_workspace_bytes": 512,
+        "tile_lanes_limit": 4,
+        "max_simultaneous_tile_lanes": 2,
+        "max_simultaneous_sampler_state_slots": 128,
+        "tile_batches": 1,
+        "elapsed_seconds": 4.135450803907588,
+        "finite": true
+      }
+    },
+    {
+      "request": {
+        "input": "results/thrml_spw/lfm3_1p7b/attention_worker_cpu_preflight_v2/input1.npz",
+        "output": "results/thrml_spw/lfm3_1p7b/attention_worker_gpu_preflight_v2/output1.npy",
+        "kind": "elementwise",
+        "samples": 8192,
+        "field_bits": 12,
+        "activation_bits": 12,
+        "key": 202611051,
+        "call": 1,
+        "mode": "native",
+        "replay": true,
+        "state_dir": "results/thrml_spw/lfm3_1p7b/attention_worker_gpu_preflight_v2/states"
+      },
+      "receipt": {
+        "ok": true,
+        "call": 1,
+        "weight_coordinates": 128,
+        "program_codes_used_directly": true,
+        "reference_weights_supplied": false,
+        "range_metadata_dtype": "float32",
+        "padding_nodes": 0,
+        "field_bits": 12,
+        "activation_bits": 12,
+        "public_replay_checked": true,
+        "retained_evaluations": 1048576,
+        "warmup_evaluations": 128,
+        "simulation_observer": "per_weight_counts_then_exact_integer_contraction",
+        "simulation_count_workspace_bytes": 512,
+        "tile_lanes_limit": 4,
+        "max_simultaneous_tile_lanes": 2,
+        "max_simultaneous_sampler_state_slots": 128,
+        "tile_batches": 1,
+        "elapsed_seconds": 2.588724121917039,
+        "finite": true
+      }
+    },
+    {
+      "request": {
+        "input": "results/thrml_spw/lfm3_1p7b/attention_worker_cpu_preflight_v2/input2.npz",
+        "output": "results/thrml_spw/lfm3_1p7b/attention_worker_gpu_preflight_v2/output2.npy",
+        "kind": "elementwise",
+        "samples": 8192,
+        "field_bits": 12,
+        "activation_bits": 12,
+        "key": 202611051,
+        "call": 2,
+        "mode": "native",
+        "replay": true,
+        "state_dir": "results/thrml_spw/lfm3_1p7b/attention_worker_gpu_preflight_v2/states"
+      },
+      "receipt": {
+        "ok": true,
+        "call": 2,
+        "weight_coordinates": 128,
+        "program_codes_used_directly": true,
+        "reference_weights_supplied": false,
+        "range_metadata_dtype": "float32",
+        "padding_nodes": 0,
+        "field_bits": 12,
+        "activation_bits": 12,
+        "public_replay_checked": true,
+        "retained_evaluations": 1048576,
+        "warmup_evaluations": 128,
+        "simulation_observer": "per_weight_counts_then_exact_integer_contraction",
+        "simulation_count_workspace_bytes": 512,
+        "tile_lanes_limit": 4,
+        "max_simultaneous_tile_lanes": 2,
+        "max_simultaneous_sampler_state_slots": 128,
+        "tile_batches": 1,
+        "elapsed_seconds": 3.466382561950013,
+        "finite": true
+      }
+    },
+    {
+      "request": {
+        "input": "results/thrml_spw/lfm3_1p7b/attention_worker_cpu_preflight_v2/input3.npz",
+        "output": "results/thrml_spw/lfm3_1p7b/attention_worker_gpu_preflight_v2/output3.npy",
+        "kind": "elementwise",
+        "samples": 8192,
+        "field_bits": 12,
+        "activation_bits": 12,
+        "key": 202611051,
+        "call": 3,
+        "mode": "native",
+        "replay": true,
+        "state_dir": "results/thrml_spw/lfm3_1p7b/attention_worker_gpu_preflight_v2/states"
+      },
+      "receipt": {
+        "ok": true,
+        "call": 3,
+        "weight_coordinates": 128,
+        "program_codes_used_directly": true,
+        "reference_weights_supplied": false,
+        "range_metadata_dtype": "float32",
+        "padding_nodes": 0,
+        "field_bits": 12,
+        "activation_bits": 12,
+        "public_replay_checked": true,
+        "retained_evaluations": 1048576,
+        "warmup_evaluations": 128,
+        "simulation_observer": "per_weight_counts_then_exact_integer_contraction",
+        "simulation_count_workspace_bytes": 512,
+        "tile_lanes_limit": 4,
+        "max_simultaneous_tile_lanes": 2,
+        "max_simultaneous_sampler_state_slots": 128,
+        "tile_batches": 1,
+        "elapsed_seconds": 2.8313304600305855,
+        "finite": true
+      }
+    }
+  ],
+  "artifacts_sha256": {
+    "results/thrml_spw/lfm3_1p7b/attention_worker_cpu_preflight_v2/input0.npz": "866fa5a32bcdaf386cde924ef56f0730cbee79c725356438ef38a4c0feecca8f",
+    "results/thrml_spw/lfm3_1p7b/attention_worker_cpu_preflight_v2/input1.npz": "c682b71abc33d009921e71322e3b63c962ce7233bb8ffe00ecc64f7fbb23a941",
+    "results/thrml_spw/lfm3_1p7b/attention_worker_cpu_preflight_v2/input2.npz": "38dd255ce5e03e30f478522d3aa9986db1b3b164dd8f9beb92b891e690f3b631",
+    "results/thrml_spw/lfm3_1p7b/attention_worker_cpu_preflight_v2/input3.npz": "887a3df34792aac314d9512796ed83dda03485b44216a817586d61d91d260f9a",
+    "results/thrml_spw/lfm3_1p7b/attention_worker_gpu_preflight_v2/output0.npy": "987e6394b0c94d92a0b4f72ae96190d390917e7dd80728fbe7ab3db6724998ef",
+    "results/thrml_spw/lfm3_1p7b/attention_worker_gpu_preflight_v2/output1.npy": "8eacb3dd893508f14be018db0bc6a397dae9f2d41c7522d8296d90073f1e54e8",
+    "results/thrml_spw/lfm3_1p7b/attention_worker_gpu_preflight_v2/output2.npy": "c86cd60ce0a863336080f77e794c721bce8056265e6664a9aa33c21ec09f938b",
+    "results/thrml_spw/lfm3_1p7b/attention_worker_gpu_preflight_v2/output3.npy": "d6865de027be051e37c0deb84268ef9a5d4282b2d613f0660d3808f00a191a1b",
+    "results/thrml_spw/lfm3_1p7b/attention_worker_gpu_preflight_v2/states/call0_tile0.npz": "8e2dbc2da508a0415ab224900e61c6b65cab66dc21de546b26c544b623c9e394",
+    "results/thrml_spw/lfm3_1p7b/attention_worker_gpu_preflight_v2/states/call0_tile1.npz": "3633491940ca5bd99a45078bb44511595935dae119084be13398d8809e2677f6",
+    "results/thrml_spw/lfm3_1p7b/attention_worker_gpu_preflight_v2/states/call1_tile0.npz": "4d5959b4efac119dd3b2e764a5b52e8f75528dfa7726886e4637581cd62895fd",
+    "results/thrml_spw/lfm3_1p7b/attention_worker_gpu_preflight_v2/states/call1_tile1.npz": "51093f09130c9fef786c6d2eb20c03a98b955694f4c8fb677348e6c7d7c3b9be",
+    "results/thrml_spw/lfm3_1p7b/attention_worker_gpu_preflight_v2/states/call2_tile0.npz": "30b2b4ac242dcf4aa4d23583538999f8abe0f6098922654504bc38b7f339d080",
+    "results/thrml_spw/lfm3_1p7b/attention_worker_gpu_preflight_v2/states/call2_tile1.npz": "7d0d32c9204278c0f328bc457389b69de2ce3614931268b54b2026df62b50e87",
+    "results/thrml_spw/lfm3_1p7b/attention_worker_gpu_preflight_v2/states/call3_tile0.npz": "e3417b38605d2fc2e2bed961d90592b89dad59717a3003487132d49c382142d6",
+    "results/thrml_spw/lfm3_1p7b/attention_worker_gpu_preflight_v2/states/call3_tile1.npz": "80e1da70bcf5c3778baf9bdd172eba83f6dfb81c22840cec63374d10dbb052b7"
+  }
+}

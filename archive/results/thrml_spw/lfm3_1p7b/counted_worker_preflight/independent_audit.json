@@ -1,0 +1,8 @@
+{
+  "status": "all38_outputs_public_states_counters_readouts_and_resource_receipts_verified",
+  "source_sha256": "2168f87f1f3bbaba5b1836becf15b1a1883cda028b73e9ced86ac5a7c67c5dcb",
+  "results_sha256": "4f094bf0cf84643ab01f9965afed587a6b423648aa103507e7e58fe6641c7d86",
+  "public_bits_each_serial_and_batched_path": 62564096,
+  "integer_entries_each_path": 96000,
+  "scope": "Worker/operator fidelity on34prioracceptedcases+4wide/tail cases, exactoriginalpublicstates/counters/outputsandindependentint64/F64readoutreconstruction. No fullmodel parity, timing, quality, physicaladvantage or adoption in existingstudies."
+}

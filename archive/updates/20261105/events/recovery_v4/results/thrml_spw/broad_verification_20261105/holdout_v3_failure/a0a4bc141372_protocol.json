@@ -1,0 +1,1 @@
+{"package_sha256":"ed690a28d5976aee7d9932872edb30d92adfa26c4fa0e5f248834c3678cf6262","samples":8192,"seed":202611150,"selection":{"arm":"mean","pbits_per_parameter":1,"samples":8192,"score_holdout":false,"status":"eligible_after_full_execution_protocol_freeze"},"shared_protocol_sha256":"279bbd2443ab0eef7607b0ac55e255835c83ffd9b71f256f9e34edeb2d163044"}

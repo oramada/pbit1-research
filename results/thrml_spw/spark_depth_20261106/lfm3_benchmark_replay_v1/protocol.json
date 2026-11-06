@@ -1,0 +1,47 @@
+{
+  "source_sha256": "b97e3e482a1e9c033ab0d9d1a9fb13a8c0adb52fd781f190858e20725cad1934",
+  "benchmark_protocol_sha256": "261344e3508c0da489def7ebe47200b65202ce70e03a9dc875ce4b40387fd9df",
+  "SDK_source_sha256": "015e64966c6b7031930eb5ffe29b4d81cc4aba2836083477ab239f691cc04705",
+  "offloader_sha256": "321b49d4053ef57c060744742ad3a675ed53c1f408e77501dcdfdf466d55da9e",
+  "windows": [
+    0,
+    303,
+    606
+  ],
+  "cases": [
+    {
+      "name": "BF16",
+      "kind": "original"
+    },
+    {
+      "name": "selected_mean",
+      "kind": "mean"
+    },
+    {
+      "name": "selected_seed2026111901",
+      "kind": "selected",
+      "seed": 2026111901
+    },
+    {
+      "name": "selected_seed2026111902",
+      "kind": "selected",
+      "seed": 2026111902
+    },
+    {
+      "name": "selected_seed2026111903",
+      "kind": "selected",
+      "seed": 2026111903
+    },
+    {
+      "name": "selected_seed2026111904",
+      "kind": "selected",
+      "seed": 2026111904
+    },
+    {
+      "name": "selected_seed2026111905",
+      "kind": "selected",
+      "seed": 2026111905
+    }
+  ],
+  "scope": "All seven model weight points independently reconstructed with SDK encoding/counts rather than producer sampler. All per-parameter count hashes and BF16 hashes checked. Three prespecified neural windows per point; not all607 forwards replayed."
+}

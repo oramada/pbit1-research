@@ -1,0 +1,49 @@
+{
+  "rows": [
+    {
+      "age": 0,
+      "policy": "retain",
+      "counterfactual_calibration_events": 1,
+      "counterfactual_active_sweeps": 4608,
+      "counterfactual_idle_sweeps": 0,
+      "query_end_clock_sweeps": 4608
+    },
+    {
+      "age": 8,
+      "policy": "retain",
+      "counterfactual_calibration_events": 1,
+      "counterfactual_active_sweeps": 4608,
+      "counterfactual_idle_sweeps": 4096,
+      "query_end_clock_sweeps": 8704
+    },
+    {
+      "age": 8,
+      "policy": "refresh",
+      "counterfactual_calibration_events": 2,
+      "counterfactual_active_sweeps": 8704,
+      "counterfactual_idle_sweeps": 0,
+      "query_end_clock_sweeps": 8704
+    },
+    {
+      "age": 32,
+      "policy": "retain",
+      "counterfactual_calibration_events": 1,
+      "counterfactual_active_sweeps": 4608,
+      "counterfactual_idle_sweeps": 16384,
+      "query_end_clock_sweeps": 20992
+    },
+    {
+      "age": 32,
+      "policy": "refresh",
+      "counterfactual_calibration_events": 2,
+      "counterfactual_active_sweeps": 8704,
+      "counterfactual_idle_sweeps": 12288,
+      "query_end_clock_sweeps": 20992
+    }
+  ],
+  "interval_sweeps": 512,
+  "calibration_sweeps_per_event": 4096,
+  "query_sweeps": 512,
+  "programming_and_fitting_time_in_clock": false,
+  "scope": "Counterfactual schedules sharing an exogenous drift path; refresh occupies an idle gap. Idle physical energy, real switching rate and throughput not measured."
+}

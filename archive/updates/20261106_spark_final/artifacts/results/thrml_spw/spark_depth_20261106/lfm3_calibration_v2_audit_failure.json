@@ -1,0 +1,5 @@
+{
+  "status": "auditor_failed_on_attention_norm_count",
+  "reason": "Independent auditor assumed one normalized vector per token. q_norm has16 query heads and k_norm4 KV heads. Production calibration counts actual reshaped rows, so its original denominator is correct. V3 fixes auditor head factors and matches FP64 encoding arithmetic.",
+  "original_source_preserved": true
+}

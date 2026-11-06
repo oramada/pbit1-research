@@ -1,0 +1,47 @@
+{
+  "version": "0.1.0a2.dev1",
+  "backend": "official THRML",
+  "controls": {
+    "logical_pbits": 7,
+    "free_pbits": 5,
+    "clamped_endpoint_pbits": 2,
+    "bias_dtype": "float32",
+    "bias_storage_bytes_simulator": 20,
+    "beta": 1.0,
+    "couplings": 0,
+    "backend": "thrml.FactorSamplingProgram / SpinGibbsConditional / JaxBackend",
+    "endpoint_policy": "official THRML clamped nodes; no finite-bias endpoint claim"
+  },
+  "weights": [
+    0.0,
+    0.125,
+    0.25,
+    0.5,
+    0.75,
+    0.875,
+    1.0
+  ],
+  "realized_probabilities_from_float32_controls": [
+    0.0,
+    0.12500000578449333,
+    0.24999999628110856,
+    0.5,
+    0.7500000037188914,
+    0.8749999942155067,
+    1.0
+  ],
+  "sample_means": [
+    0.0,
+    0.1162109375,
+    0.255859375,
+    0.5439453125,
+    0.7294921875,
+    0.8935546875,
+    1.0
+  ],
+  "samples_per_chain": 256,
+  "independent_chains": 4,
+  "expected_dot_product": 1.75,
+  "sampled_output_mean": 1.814208984375,
+  "scope": "One logical p-bit per parameter, programmable controls and sampling retained. Endpoints use clamped nodes. CPU simulator demonstration; no BF16-equivalence or hardware-efficiency claim."
+}

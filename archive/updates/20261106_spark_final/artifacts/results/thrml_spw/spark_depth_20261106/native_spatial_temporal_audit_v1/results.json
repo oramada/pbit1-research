@@ -1,0 +1,7 @@
+{
+  "status": "all20_native_count_readouts_and_reference_words_verified",
+  "source_sha256": "dbf74668faf788bae0d8df238caa86c0ecb164100c9bca85515d8e3aa970779b",
+  "result_sha256": "ee750ec8491f77ddaddd396567eb09ca02353fb065a2bbaa1ffc81b04e33b6f2",
+  "checked_cases": 20,
+  "scope": "Equaldeviceobservationsbutdifferentcontrolprecision: K1twelvebitprobabilitycode versusK4fourbitword. InternalstudybaselineusingofficialTHRML, notavendorproductionbaseline; no fullmodelorphysicalcostclaim."
+}

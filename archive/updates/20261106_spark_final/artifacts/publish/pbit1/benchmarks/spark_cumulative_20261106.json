@@ -1,0 +1,105 @@
+{
+  "status": "all41_cumulative_conditions_audited_and_six_neural_rows_replayed",
+  "source_sha256": "2b816bf60cd4e444f004819e4868b9a90595fe9ec26bd4bff0fbff8ffa32efe7",
+  "producer_result_sha256": "907cb2b05bf62609a7603adb746f053906162901fbddf5bb83cb809effd00e07",
+  "curves": {
+    "prefix3": {
+      "delta_NLL": 0.0002539917303790773,
+      "MC95_delta_NLL": [
+        -0.005059379266954325,
+        0.005567362727712479
+      ],
+      "converted_parameters": 21263616
+    },
+    "prefix6": {
+      "delta_NLL": 0.0011516387229240088,
+      "MC95_delta_NLL": [
+        -0.003978983149605016,
+        0.006282260595453034
+      ],
+      "converted_parameters": 42527232
+    },
+    "prefix9": {
+      "delta_NLL": 0.0002054809287158399,
+      "MC95_delta_NLL": [
+        -0.007679040820166322,
+        0.008090002677598001
+      ],
+      "converted_parameters": 63790848
+    },
+    "suffix3": {
+      "delta_NLL": 0.0008346966649515509,
+      "MC95_delta_NLL": [
+        -0.0021425672211771397,
+        0.003811960551080241
+      ],
+      "converted_parameters": 21263616
+    },
+    "suffix6": {
+      "delta_NLL": -0.00018300692022785726,
+      "MC95_delta_NLL": [
+        -0.004736475551439717,
+        0.004370461710984003
+      ],
+      "converted_parameters": 42527232
+    },
+    "suffix9": {
+      "delta_NLL": 0.0007461919202909506,
+      "MC95_delta_NLL": [
+        -0.004496350481214098,
+        0.005988734321795999
+      ],
+      "converted_parameters": 63790848
+    },
+    "all_blocks": {
+      "delta_NLL": 0.001095762043861459,
+      "MC95_delta_NLL": [
+        -0.007257052007591555,
+        0.009448576095314474
+      ],
+      "converted_parameters": 85054464
+    },
+    "all_parameters": {
+      "delta_NLL": 0.005736720363354398,
+      "MC95_delta_NLL": [
+        -0.009476434469760923,
+        0.02094987519646972
+      ],
+      "converted_parameters": 124439808
+    }
+  },
+  "SDK_count_hashes_replayed": 148,
+  "replays": [
+    {
+      "condition": "prefix6",
+      "row": 0,
+      "losses_bitwise_equal": true
+    },
+    {
+      "condition": "prefix6",
+      "row": 7,
+      "losses_bitwise_equal": true
+    },
+    {
+      "condition": "suffix6",
+      "row": 0,
+      "losses_bitwise_equal": true
+    },
+    {
+      "condition": "suffix6",
+      "row": 7,
+      "losses_bitwise_equal": true
+    },
+    {
+      "condition": "all_parameters",
+      "row": 0,
+      "losses_bitwise_equal": true
+    },
+    {
+      "condition": "all_parameters",
+      "row": 7,
+      "losses_bitwise_equal": true
+    }
+  ],
+  "scope": "CPU FP32 neural arithmetic with BF16-rounded original/sampled weights, 1024 training targets. Prefix/suffix curves use 3,6,9 and12 stochastic blocks with all nonblock parameters deterministic. Only all_parameters converts every learned scalar. These are five-seed causal diagnostics, not new GPU heldout quality tests."
+}

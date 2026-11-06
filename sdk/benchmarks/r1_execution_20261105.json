@@ -1,0 +1,89 @@
+{
+  "status": "full_R1_task_study_frozen_and_running",
+  "recorded_utc": "2026-11-05T22:51:36.278240+00:00",
+  "protocol_sha256": "b003fedc90d962500907e8cf435ca359ab1ef9a27ea3e892c2fe12a17ea79626",
+  "cases": 104,
+  "deterministic_controls": 14,
+  "stochastic_cases": 90,
+  "MC_seeds_per_condition": 5,
+  "pbits_per_parameter": [
+    1,
+    4,
+    8
+  ],
+  "equal_work_budgets": [
+    1024,
+    4096,
+    8192
+  ],
+  "samples_rule": "T=C/K",
+  "models": {
+    "gpt2": {
+      "learned_scalars": 124439808,
+      "primary_margin": 0.01980262729617973,
+      "scored_targets_or_reviews": 283225,
+      "seeds_by_budget": {
+        "1024": [
+          202611200,
+          202611201,
+          202611202,
+          202611203,
+          202611204
+        ],
+        "4096": [
+          202611210,
+          202611211,
+          202611212,
+          202611213,
+          202611214
+        ],
+        "8192": [
+          202611220,
+          202611221,
+          202611222,
+          202611223,
+          202611224
+        ]
+      }
+    },
+    "distilbert": {
+      "learned_scalars": 66955010,
+      "primary_margin": 0.02,
+      "scored_targets_or_reviews": 25000,
+      "seeds_by_budget": {
+        "1024": [
+          202611300,
+          202611301,
+          202611302,
+          202611303,
+          202611304
+        ],
+        "4096": [
+          202611310,
+          202611311,
+          202611312,
+          202611313,
+          202611314
+        ],
+        "8192": [
+          202611320,
+          202611321,
+          202611322,
+          202611323,
+          202611324
+        ]
+      }
+    }
+  },
+  "actual_model_synthetic_gates": "Both actualmodels passed all7controls and a completeparameter officialTHRMLT1draw, with independent BF16weight and output replay. This is executionproof, not taskaccuracy.",
+  "quality_rule": "K1C8192bothmodels. BothconditionalMCt4andcrossedseed/data upper95percentbounds must meet existingmargin vsoriginalBF16andK1finiteprogrammeanBF16. No additionalfavorablekeys, ensemblepredictions, filteringorfitting.",
+  "resource_unit": "Transitions percompleteweightreconstructiondraw, reused foralltestexamples; baselinebuffersandBF16modelstorage retained. Not per-inputR2costorphysicalmemorysavings.",
+  "artifact_policy": "AllcountsandBF16weightpoint hashes retained; allclassifierlogits saved, fullGPT2batchlogit hashes and targetlosscomponents retained and everybatch independently replayed without sampling.",
+  "scientific_scope": "Fullfixedtask R1quality only. Approximate confidence intervals, no universal numericalBF16equivalence, R2or physicalhardwareadvantage claim.",
+  "live_snapshot": {
+    "observed_unix": 1793918533.5365238,
+    "completed_control_cases": 12,
+    "completed_stochastic_cases": 0,
+    "note": "Counts are timestamped snapshot evidence, not fullcohort qualityconfirmation."
+  }
+}

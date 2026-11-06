@@ -1,0 +1,29 @@
+{
+  "version": "0.1.0a2.dev1",
+  "status": "fresh_wheel_installed_23_tests_and_native_cli_passed",
+  "runtime_import": "/tmp/pbit-manuscript-package/pbit1/__init__.py",
+  "tests": 23,
+  "skipped": 0,
+  "artifacts": [
+    {
+      "name": "installed_tests.xml",
+      "sha256": "57210e452a892c2e86fae7bacc5859d850cff6ad8a24bfddd7e63d6d44954499",
+      "bytes": 2868
+    },
+    {
+      "name": "native_cli.json",
+      "sha256": "81eba8f4965cddf32f8375d26d30f23c43f71afdbdb4ef895c061db8f8d6a111",
+      "bytes": 1163
+    },
+    {
+      "name": "pbit1-0.1.0a2.dev1-py3-none-any.whl",
+      "sha256": "cbaec117aff87a5cf56c4182f47ecde4527b576744b1c35016478ddeaae7d09d",
+      "bytes": 29451
+    },
+    {
+      "name": "pbit1-0.1.0a2.dev1.tar.gz",
+      "sha256": "98ae2e83c7c00236629c9ab5f68196dd829e763ab23140fb27b460758eac62e2",
+      "bytes": 1090367
+    }
+  ]
+}

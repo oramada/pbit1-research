@@ -1,0 +1,72 @@
+{
+  "status": "all_six_count_factorizations_equal_direct_observer_producer",
+  "protocol_sha256": "9ec03da753d5cfefd5d36bdb06b9d51374bc0759a4d15c1008c6cc8b827ce4dc",
+  "cases": [
+    {
+      "path": "results/thrml_spw/lfm3_1p7b/counted_bank_preflight/case0.npz",
+      "sha256": "f2eb61c44666067a6479b2ba98a23790c64f5f89a7f1878e8ae907fb23417e24",
+      "fanin": 1,
+      "positions": 520,
+      "depthwise": true,
+      "samples": 1,
+      "lanes": 3,
+      "count_workspace_bytes": 768,
+      "reference_output_accumulator_bytes": 399360
+    },
+    {
+      "path": "results/thrml_spw/lfm3_1p7b/counted_bank_preflight/case1.npz",
+      "sha256": "fd70dd43fdedbbd4a7ba3ae72a6b63d927b345a2874332974299a697d0e9ff5c",
+      "fanin": 7,
+      "positions": 520,
+      "depthwise": true,
+      "samples": 16,
+      "lanes": 3,
+      "count_workspace_bytes": 5376,
+      "reference_output_accumulator_bytes": 399360
+    },
+    {
+      "path": "results/thrml_spw/lfm3_1p7b/counted_bank_preflight/case2.npz",
+      "sha256": "fc48f24ffee28f748e789d488ee9275bfefaaf60e493d09acc557e832b7b59b1",
+      "fanin": 128,
+      "positions": 520,
+      "depthwise": false,
+      "samples": 16,
+      "lanes": 4,
+      "count_workspace_bytes": 131072,
+      "reference_output_accumulator_bytes": 532480
+    },
+    {
+      "path": "results/thrml_spw/lfm3_1p7b/counted_bank_preflight/case3.npz",
+      "sha256": "da112cd59b70d1331985faf57317c2f19df1177fc8cddcdc4f97b5a9b72e6b98",
+      "fanin": 7680,
+      "positions": 520,
+      "depthwise": false,
+      "samples": 16,
+      "lanes": 2,
+      "count_workspace_bytes": 3932160,
+      "reference_output_accumulator_bytes": 15974400
+    },
+    {
+      "path": "results/thrml_spw/lfm3_1p7b/counted_bank_preflight/case4.npz",
+      "sha256": "bb0ba0f72347ad52d9491d03d699a4d281a9012ebad35f183e57cf80af9fd5aa",
+      "fanin": 128,
+      "positions": 3,
+      "depthwise": false,
+      "samples": 1024,
+      "lanes": 3,
+      "count_workspace_bytes": 98304,
+      "reference_output_accumulator_bytes": 2304
+    },
+    {
+      "path": "results/thrml_spw/lfm3_1p7b/counted_bank_preflight/case5.npz",
+      "sha256": "32241e4bd07d3bacbcbf858350e4d40f69dd9bf8266661fac4e81db402863819",
+      "fanin": 128,
+      "positions": 2,
+      "depthwise": false,
+      "samples": 8192,
+      "lanes": 2,
+      "count_workspace_bytes": 65536,
+      "reference_output_accumulator_bytes": 1024
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "seed": null,
+  "condition": "baseline",
+  "NLL": 3.8176491898736615,
+  "targets": 1024,
+  "converted_parameters": 0,
+  "point_sha256": "e20e42a46acd6fccecedf83f05bd3c115d137e5c5915f6814ef12fdf13141bc2"
+}

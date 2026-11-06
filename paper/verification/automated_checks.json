@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "copied_input_hashes_checked": 49,
+  "numeric_checks": [
+    "three complete five-seed K1 cohorts",
+    "quality gates",
+    "lower-work budget",
+    "stronger native spatial baseline",
+    "four storage ledgers"
+  ],
+  "pdfs": {
+    "main": {
+      "pages": 12,
+      "sha256": "3127d690c7cd41ce6f1829fe4a0162d44e9dce06f1312b1d8c948fae9bfaad57",
+      "bytes": 597744,
+      "unresolved_references": false,
+      "overfull_boxes": false,
+      "text_geometry_checked": true
+    },
+    "supplement": {
+      "pages": 10,
+      "sha256": "7b46898d91f255e7c991bfdc13b2aff3e8a6abc2cfd4fdd5ff75ec7cac8a51ef",
+      "bytes": 625158,
+      "unresolved_references": false,
+      "overfull_boxes": false,
+      "text_geometry_checked": true
+    }
+  }
+}

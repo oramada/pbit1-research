@@ -1,0 +1,10 @@
+{
+  "kind": "uncalibrated",
+  "seed": 2026112402,
+  "NLL": 3.8827968910214286,
+  "targets": 1024,
+  "point_sha256": "67ff4aa2a2e69fbbb7756f356f10b0ea3c97e12a8f8be1bd7079fe2be1f250a7",
+  "bias_SSE_relative_to_requested_mean": 1695.2277688672125,
+  "sampling_variance_SSE": 407.7551148336138,
+  "clipped_inverse_requests": 0
+}

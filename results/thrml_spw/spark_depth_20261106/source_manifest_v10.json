@@ -1,0 +1,19 @@
+{
+  "files": [
+    {
+      "source": "research/thrml_spw/spark_depth/lfm3_training_depth_v1.py",
+      "sha256": "e52b70870fea7472478994edbf779f376029c8fd394d7f111be7a2d3c920720a",
+      "snapshot": "results/thrml_spw/source_snapshots/e52b70870fea7472478994edbf779f376029c8fd394d7f111be7a2d3c920720a.py"
+    },
+    {
+      "source": "research/thrml_spw/spark_depth/analyze_lfm3_training_depth_v1.py",
+      "sha256": "69b53a42c136ba2b2d23ff72191f7df5bb020a9b829e08354e6147cee1116e57",
+      "snapshot": "results/thrml_spw/source_snapshots/69b53a42c136ba2b2d23ff72191f7df5bb020a9b829e08354e6147cee1116e57.py"
+    },
+    {
+      "source": "research/thrml_spw/spark_depth/audit_lfm3_calibration_v3.py",
+      "sha256": "6cd43daddeedb36d1e0994275f381fa578bc81a70691ec85bae1e0db28dcc9c2",
+      "snapshot": "results/thrml_spw/source_snapshots/6cd43daddeedb36d1e0994275f381fa578bc81a70691ec85bae1e0db28dcc9c2.py"
+    }
+  ]
+}

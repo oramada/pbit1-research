@@ -1,0 +1,9 @@
+{
+  "observed_unix": 1793914218.1411273,
+  "call_id": "fc-01M6PST9TAEYR7RM5T4H4C69Q3",
+  "progress": {
+    "stage": "loading_BF16_backbone",
+    "elapsed_seconds": 4.2669999999134234e-05
+  },
+  "handle_status": "pending_confirmed_by_get"
+}

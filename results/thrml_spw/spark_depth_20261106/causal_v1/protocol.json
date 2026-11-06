@@ -1,0 +1,104 @@
+{
+  "source_sha256": "6965132ce43835ba1c3672290ab4dde837dd0f0f7e078aea0e4b2abcc6970eba",
+  "mapping_sha256": "1250b109bfb56c78e49b5e35ce08c53d64499068d7eb08bdefed42f5bf216911",
+  "metric_source_sha256": "f162cf89eb9177aaa6ce0f01035e89aef5560e0cc6e21a16165d371f4a51d7af",
+  "prepared_sha256": "60ab276bd518d05c9cd2d8a36d67ad32f81f860582f69ea0735bc808b1a12774",
+  "conditions": [
+    {
+      "name": "original_BF16",
+      "restore": "all"
+    },
+    {
+      "name": "ideal_counts_flat_G128",
+      "restore": "none"
+    },
+    {
+      "name": "restore_token_embedding",
+      "restore": "transformer.wte."
+    },
+    {
+      "name": "restore_position_embedding",
+      "restore": "transformer.wpe."
+    },
+    {
+      "name": "restore_norms_and_biases",
+      "restore": "norms_biases"
+    },
+    {
+      "name": "restore_block_00",
+      "restore": "transformer.h.0."
+    },
+    {
+      "name": "restore_block_01",
+      "restore": "transformer.h.1."
+    },
+    {
+      "name": "restore_block_02",
+      "restore": "transformer.h.2."
+    },
+    {
+      "name": "restore_block_03",
+      "restore": "transformer.h.3."
+    },
+    {
+      "name": "restore_block_04",
+      "restore": "transformer.h.4."
+    },
+    {
+      "name": "restore_block_05",
+      "restore": "transformer.h.5."
+    },
+    {
+      "name": "restore_block_06",
+      "restore": "transformer.h.6."
+    },
+    {
+      "name": "restore_block_07",
+      "restore": "transformer.h.7."
+    },
+    {
+      "name": "restore_block_08",
+      "restore": "transformer.h.8."
+    },
+    {
+      "name": "restore_block_09",
+      "restore": "transformer.h.9."
+    },
+    {
+      "name": "restore_block_10",
+      "restore": "transformer.h.10."
+    },
+    {
+      "name": "restore_block_11",
+      "restore": "transformer.h.11."
+    },
+    {
+      "name": "ideal_counts_transposed_G128",
+      "restore": "none",
+      "layout": "transposed_matrix",
+      "group": 128
+    },
+    {
+      "name": "ideal_counts_transposed_G32",
+      "restore": "none",
+      "layout": "transposed_matrix",
+      "group": 32
+    }
+  ],
+  "seed": 2026110621,
+  "binomial_chunk": 262144,
+  "samples": 8192,
+  "rows": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "input_length": 129,
+  "GPU_cap_bytes": 2147483648,
+  "scope": "Training-only causal diagnostic; one ideal independent binomial draw per parameter, reused across all eight inputs. Exact distribution of T independent Bernoulli observations, R1 BF16 reconstruction. No nativeTHRML, crossdeviceclaim, heldoutscore, confidenceintervalorqualitygate. Restored deterministic subsets are diagnostic departures from all-parameterK1; two layout candidates retainK1 andcount fullmetadata."
+}

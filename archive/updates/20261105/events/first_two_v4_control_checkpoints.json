@@ -1,0 +1,24 @@
+{
+  "status": "first_two_full_model_control_checkpoints_closed_and_metadata_bindings_verified",
+  "observed_unix": 1793914357.2335553,
+  "call_id": "fc-01M6PST9TAEYR7RM5T4H4C69Q3",
+  "protocol_sha256": "9fab3acd2b01748426fc73a6712029f07e7e73db3826e2a0cc8cd5ba5cd5216e",
+  "checkpoint_contract_sha256": "b4cfbde9642b82e7893619a7f0988666cefab44ed8a8c658766d8da3c8daa31c",
+  "stages": [
+    {
+      "stage": "BF16",
+      "record_sha256": "ca2480d2d2ef5112d7e84239b00b7cd6c345c932fe7cf272dad7f1d664492884",
+      "legacy_output_sha256": "eee6ac58b88403d382b70d7f62f590fb474a1c62b0a5413c2f7f7b699d8a0e29",
+      "raw_bitwise_replay_match": true,
+      "weighted_modules": 287
+    },
+    {
+      "stage": "same_fit_BF16",
+      "record_sha256": "3775223827f22cbc2e16ac50ce76780d0ca6b856a64910db6eece1ccbaf4cf2f",
+      "legacy_output_sha256": "38d04b58be4e927fb5fb1e343e589ddcc2266fb048babefd47b37441c9100a01",
+      "raw_bitwise_replay_match": true,
+      "weighted_modules": 287
+    }
+  ],
+  "scope": "Committed control-stage metadata and digests independently checked; bitwise raw-output replay assertions performed by frozen producer. Complete case independent raw-data audit and all five-seed quality conclusions remain pending."
+}

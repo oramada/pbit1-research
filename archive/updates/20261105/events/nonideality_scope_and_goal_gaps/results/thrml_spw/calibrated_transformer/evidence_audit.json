@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "native_full_quarter_runs": 15,
+  "native_operator_runs": 180,
+  "native_probe_windows": 120,
+  "new_text_targets": 4096,
+  "all_baselines_scores_prefix_links_bootstrap_draws_and_fixed_gates_recomputed": true,
+  "all_final_model_inputs_and_losses_independently_hook_replayed": true,
+  "all_native_nodes_independently_replayed": true,
+  "manifest_sha256": "317d4bd34e8314e27dbfed4798de3b4eaade71cc92a9b34c53fc051703422741",
+  "source_sha256": "5323d6b146fbd5ba3fcc6d9e3d6ae0dace9090af43583a60c60e85df75251ebf",
+  "scope": "Complete selected quarter-model forward, every native probe/operator and all scored targets on64 new short windows. Synthetic static devices and normalized signed weights. Reporting shape correction retained. No full-model, long-context, physical-cost or architecture-superiority claim.",
+  "model_score_audit_sha256": "d8cfb5a7a3791c9652063f5baa16e1d44d7f598d2a71caf277bc8904757838c4",
+  "native_path_audit_sha256": "30f42a9f24558817305e2b84032df2b4d9f4dac800c347e681639c31f9611e13",
+  "hook_audit_sha256": "e155b747b6bea071e6404f5a4436a48b4634e6758a2c5d91bf639817a589c106"
+}

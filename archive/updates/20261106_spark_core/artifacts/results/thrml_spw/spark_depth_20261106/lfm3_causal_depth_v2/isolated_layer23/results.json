@@ -1,0 +1,38 @@
+{
+  "case": {
+    "name": "isolated_layer23",
+    "mode": "isolated",
+    "scope": "layer:23"
+  },
+  "NLL": 3.223069473601541,
+  "targets": 1024,
+  "point_sha256": "2783b5897d6ecf8f1fd468dd1d6b310fb297ff17c0559b16737e2aaeec67f5e5",
+  "stochastic_parameters": 63985664,
+  "GPU_peak_allocated_bytes": 591396352,
+  "layer_relative_RMSE": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.010719657021478236
+  ]
+}

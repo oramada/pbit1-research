@@ -1,0 +1,21 @@
+{
+  "source_sha256": "44838c0321033573e0fb26053176f98139902e1e0f84e22a925c6e39c3b800ed",
+  "mapping_sha256": "1250b109bfb56c78e49b5e35ce08c53d64499068d7eb08bdefed42f5bf216911",
+  "prepared_sha256": "60ab276bd518d05c9cd2d8a36d67ad32f81f860582f69ea0735bc808b1a12774",
+  "rows": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "length": 129,
+  "precision": "CPU FP32 arithmetic with BF16-rounded original weights",
+  "no_parameter_updates": true,
+  "proxy": "Average over eight article-mean loss gradients: S_g=sum_i E[g_i^2]*VarCoefficient_i. Predicts first-order scalar-loss fluctuation, notmeanloss degradation.",
+  "allocation": "Greedy powers-of-two upgrades from1024to131072 to match proxyvariance of existingoperatorlayout atuniform32768; choose highestvariance-reduction peraddedobservation.",
+  "scope": "Diagnosticproposal only. No heldoutforwards; no fine-tuning. Calibration lacks longpositions/rarevocabulary; gradients and proxy alone do not establish transfer or quality."
+}

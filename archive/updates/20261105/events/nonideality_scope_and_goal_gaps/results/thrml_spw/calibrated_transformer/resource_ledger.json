@@ -1,0 +1,129 @@
+{
+  "converted_weights": 21233664,
+  "model_unique_parameters": 81912576,
+  "converted_fraction": 0.25922349212897416,
+  "free_weight_nodes": 21233664,
+  "exact_clamped_weight_nodes": 0,
+  "numeric_control_range_bias_payload_bytes": 22643712,
+  "numeric_payload_bits_per_converted_weight": 8.53125,
+  "actual_control_archive_bytes": 22655544,
+  "inference_free_evaluations_per_64context_profile": 173946175488,
+  "measured_calibration_free_evaluations_per_profile": 86973087744,
+  "observed_evaluation_multiplier_calibrated_vs_uncalibrated": 1.5,
+  "production_inference_free_evaluations": 2609192632320,
+  "production_calibration_free_evaluations": 434865438720,
+  "verification_inference_free_evaluations": 2609192632320,
+  "verification_calibration_free_evaluations": 434865438720,
+  "extra_large_operator_preflight_free_evaluations": 14495514624,
+  "storage_by_stage": [
+    {
+      "stage": 0,
+      "weights": 1769472,
+      "code_bytes": 1769472,
+      "range_bytes": 110592,
+      "bias_bytes": 9216,
+      "numeric_payload_bytes": 1889280,
+      "archive_bytes": 1890266
+    },
+    {
+      "stage": 1,
+      "weights": 589824,
+      "code_bytes": 589824,
+      "range_bytes": 36864,
+      "bias_bytes": 3072,
+      "numeric_payload_bytes": 629760,
+      "archive_bytes": 630746
+    },
+    {
+      "stage": 2,
+      "weights": 2359296,
+      "code_bytes": 2359296,
+      "range_bytes": 147456,
+      "bias_bytes": 12288,
+      "numeric_payload_bytes": 2519040,
+      "archive_bytes": 2520026
+    },
+    {
+      "stage": 3,
+      "weights": 2359296,
+      "code_bytes": 2359296,
+      "range_bytes": 147456,
+      "bias_bytes": 3072,
+      "numeric_payload_bytes": 2509824,
+      "archive_bytes": 2510810
+    },
+    {
+      "stage": 4,
+      "weights": 1769472,
+      "code_bytes": 1769472,
+      "range_bytes": 110592,
+      "bias_bytes": 9216,
+      "numeric_payload_bytes": 1889280,
+      "archive_bytes": 1890266
+    },
+    {
+      "stage": 5,
+      "weights": 589824,
+      "code_bytes": 589824,
+      "range_bytes": 36864,
+      "bias_bytes": 3072,
+      "numeric_payload_bytes": 629760,
+      "archive_bytes": 630746
+    },
+    {
+      "stage": 6,
+      "weights": 2359296,
+      "code_bytes": 2359296,
+      "range_bytes": 147456,
+      "bias_bytes": 12288,
+      "numeric_payload_bytes": 2519040,
+      "archive_bytes": 2520026
+    },
+    {
+      "stage": 7,
+      "weights": 2359296,
+      "code_bytes": 2359296,
+      "range_bytes": 147456,
+      "bias_bytes": 3072,
+      "numeric_payload_bytes": 2509824,
+      "archive_bytes": 2510810
+    },
+    {
+      "stage": 8,
+      "weights": 1769472,
+      "code_bytes": 1769472,
+      "range_bytes": 110592,
+      "bias_bytes": 9216,
+      "numeric_payload_bytes": 1889280,
+      "archive_bytes": 1890266
+    },
+    {
+      "stage": 9,
+      "weights": 589824,
+      "code_bytes": 589824,
+      "range_bytes": 36864,
+      "bias_bytes": 3072,
+      "numeric_payload_bytes": 629760,
+      "archive_bytes": 630746
+    },
+    {
+      "stage": 10,
+      "weights": 2359296,
+      "code_bytes": 2359296,
+      "range_bytes": 147456,
+      "bias_bytes": 12288,
+      "numeric_payload_bytes": 2519040,
+      "archive_bytes": 2520026
+    },
+    {
+      "stage": 11,
+      "weights": 2359296,
+      "code_bytes": 2359296,
+      "range_bytes": 147456,
+      "bias_bytes": 3072,
+      "numeric_payload_bytes": 2509824,
+      "archive_bytes": 2510810
+    }
+  ],
+  "scope": "Observed native updates and finite artifact payload only. Expanded fields/ranges/state objects, readout and float accumulation, programming, calibration buffers and autonomous background switching are additional. No physical energy/latency or runtime-memory compression claim."
+}

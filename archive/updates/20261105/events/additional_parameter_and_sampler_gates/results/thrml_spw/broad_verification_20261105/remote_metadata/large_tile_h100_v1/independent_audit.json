@@ -1,0 +1,9 @@
+{
+  "status": "full65536lane_T8192matchedwork_states_popcounts_rational_readouts_and_resources_independently_verified",
+  "source_sha256": "13a974007f9943e24735a7d17b97dd251248f086b23b0849f20f83e4e3b42fe9",
+  "results_sha256": "8f54f034e75d7c318108a055b73a3b2f371e6cc4bebfe1df7682ca744c2a5ee9",
+  "cases": 3,
+  "public_state_bits_checked": 1610612736,
+  "parameter_coordinates_across_formats_checked": 196605,
+  "scope": "Entire H100 publicstate traces checked by packed-bytepopcount, complete rational-count readout checkedscalarby scalar. No real model, task quality, physical energy or hardwarelatency result."
+}

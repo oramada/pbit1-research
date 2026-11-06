@@ -1,0 +1,7 @@
+{
+  "kind": "Gaussian",
+  "seed": 2026112201,
+  "NLL": 3.809817183909222,
+  "targets": 1024,
+  "point_sha256": "72f203cb47c1acd7f4dddec7edff75570cd2da7f6585923e974065017b2cfdf4"
+}

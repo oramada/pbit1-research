@@ -1,0 +1,6 @@
+{
+  "source_sha256": "2b488fed2dce9a150da5e50701327873ae9b03066d80914843acba1091be7ec0",
+  "protocol_sha256": "fb4b2c2e83e956eb9463b5717208d2e4788bb332b1e09d2443a489646dfe1501",
+  "thrml_version": "0.1.4",
+  "numpy_version": "2.5.4"
+}

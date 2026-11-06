@@ -1,0 +1,191 @@
+{
+  "status": "all16_training_cases_complete_pending_audit",
+  "protocol_sha256": "2b3e4af5c36941e7ac77a4bf0be27bbce0c0660604a9148b2fe1a439c82d1203",
+  "cases": [
+    {
+      "kind": "baseline",
+      "seed": null,
+      "NLL": 3.8176491898736615,
+      "targets": 1024,
+      "point_sha256": "e20e42a46acd6fccecedf83f05bd3c115d137e5c5915f6814ef12fdf13141bc2",
+      "bias_SSE_relative_to_requested_mean": 0,
+      "sampling_variance_SSE": 0,
+      "clipped_inverse_requests": 0
+    },
+    {
+      "kind": "ideal",
+      "seed": 2026112401,
+      "NLL": 3.8093902263886408,
+      "targets": 1024,
+      "point_sha256": "b7dd81c6a1c31c0d9c76a6395adafbf975f56d6b686869c1eed40b2638151184",
+      "bias_SSE_relative_to_requested_mean": 0.0,
+      "sampling_variance_SSE": 407.78052507393124,
+      "clipped_inverse_requests": 0
+    },
+    {
+      "kind": "uncalibrated",
+      "seed": 2026112401,
+      "NLL": 3.8193905038252955,
+      "targets": 1024,
+      "point_sha256": "77b7cd4b570acb635fdc7ed8f4c886fc02ea4625dfdfbd13811a5c30b9a8bbf9",
+      "bias_SSE_relative_to_requested_mean": 1695.2885050884634,
+      "sampling_variance_SSE": 407.7548043974388,
+      "clipped_inverse_requests": 0
+    },
+    {
+      "kind": "oracle",
+      "seed": 2026112401,
+      "NLL": 3.8112576657494595,
+      "targets": 1024,
+      "point_sha256": "4354c976bf704cac98fb3a732a68da615d19dc875e0e219d5b5b8a9c196e50b4",
+      "bias_SSE_relative_to_requested_mean": 3.7907999770595135,
+      "sampling_variance_SSE": 407.78112895195113,
+      "clipped_inverse_requests": 1002111
+    },
+    {
+      "kind": "ideal",
+      "seed": 2026112402,
+      "NLL": 3.8459211706608176,
+      "targets": 1024,
+      "point_sha256": "5c1fa5e569837bd93725c60e5055a58a3ced4776ad2e6f468b6f4176f8b4b155",
+      "bias_SSE_relative_to_requested_mean": 0.0,
+      "sampling_variance_SSE": 407.78052507393124,
+      "clipped_inverse_requests": 0
+    },
+    {
+      "kind": "uncalibrated",
+      "seed": 2026112402,
+      "NLL": 3.8827968910214286,
+      "targets": 1024,
+      "point_sha256": "67ff4aa2a2e69fbbb7756f356f10b0ea3c97e12a8f8be1bd7079fe2be1f250a7",
+      "bias_SSE_relative_to_requested_mean": 1695.2277688672125,
+      "sampling_variance_SSE": 407.7551148336138,
+      "clipped_inverse_requests": 0
+    },
+    {
+      "kind": "oracle",
+      "seed": 2026112402,
+      "NLL": 3.8125696617320597,
+      "targets": 1024,
+      "point_sha256": "c83554d6fc57523a2a4865ce38ea882dc9a9b14669606e17e2597c5bb1ebae4a",
+      "bias_SSE_relative_to_requested_mean": 3.7889030635839,
+      "sampling_variance_SSE": 407.78118491314495,
+      "clipped_inverse_requests": 1004129
+    },
+    {
+      "kind": "ideal",
+      "seed": 2026112403,
+      "NLL": 3.8025929456538825,
+      "targets": 1024,
+      "point_sha256": "b77f9cf275e267bcb3c2d14b38fe7eaa14b8cdcd0bc36b853b1867458627cf1e",
+      "bias_SSE_relative_to_requested_mean": 0.0,
+      "sampling_variance_SSE": 407.78052507393124,
+      "clipped_inverse_requests": 0
+    },
+    {
+      "kind": "uncalibrated",
+      "seed": 2026112403,
+      "NLL": 3.8569565288149787,
+      "targets": 1024,
+      "point_sha256": "f82dba488e4230079d93fda9405be5a8836f1bd037983a04d3bcfe907ab358ea",
+      "bias_SSE_relative_to_requested_mean": 1694.7801636875436,
+      "sampling_variance_SSE": 407.75510322313204,
+      "clipped_inverse_requests": 0
+    },
+    {
+      "kind": "oracle",
+      "seed": 2026112403,
+      "NLL": 3.8225376273684644,
+      "targets": 1024,
+      "point_sha256": "74cc90918b41aec4bf6a11fa905f7056448cbf51bb638a487284d4400c465cfb",
+      "bias_SSE_relative_to_requested_mean": 3.789911206430202,
+      "sampling_variance_SSE": 407.78118955735596,
+      "clipped_inverse_requests": 1002842
+    },
+    {
+      "kind": "ideal",
+      "seed": 2026112404,
+      "NLL": 3.8143931442637817,
+      "targets": 1024,
+      "point_sha256": "a99533ff3c478d8d571260d1b3071fef4677f42a22c749786a008276020c7167",
+      "bias_SSE_relative_to_requested_mean": 0.0,
+      "sampling_variance_SSE": 407.78052507393124,
+      "clipped_inverse_requests": 0
+    },
+    {
+      "kind": "uncalibrated",
+      "seed": 2026112404,
+      "NLL": 3.870887137212748,
+      "targets": 1024,
+      "point_sha256": "1ce38a291215a10106a48c8c5ee450ec3fbcf2b540f4481ba4461df3aace34ab",
+      "bias_SSE_relative_to_requested_mean": 1695.1740880995385,
+      "sampling_variance_SSE": 407.75459657174974,
+      "clipped_inverse_requests": 0
+    },
+    {
+      "kind": "oracle",
+      "seed": 2026112404,
+      "NLL": 3.8007227425684444,
+      "targets": 1024,
+      "point_sha256": "6f3cf85e7c6103468b68b3399e4c688a587a810880aa169aba3b42b8e8c5710d",
+      "bias_SSE_relative_to_requested_mean": 3.790347351257637,
+      "sampling_variance_SSE": 407.7811406862291,
+      "clipped_inverse_requests": 1002436
+    },
+    {
+      "kind": "ideal",
+      "seed": 2026112405,
+      "NLL": 3.8408067165339483,
+      "targets": 1024,
+      "point_sha256": "393286a50b7e90b7925862a5b5c46650426e04231642b643d693624fdd6673be",
+      "bias_SSE_relative_to_requested_mean": 0.0,
+      "sampling_variance_SSE": 407.78052507393124,
+      "clipped_inverse_requests": 0
+    },
+    {
+      "kind": "uncalibrated",
+      "seed": 2026112405,
+      "NLL": 3.8419688192071346,
+      "targets": 1024,
+      "point_sha256": "0f6cdc31e55b03d1e7e811de6c3ac7f6a4593afd78e7b321791d6d80f645c4e7",
+      "bias_SSE_relative_to_requested_mean": 1695.3083276395064,
+      "sampling_variance_SSE": 407.75687379325814,
+      "clipped_inverse_requests": 0
+    },
+    {
+      "kind": "oracle",
+      "seed": 2026112405,
+      "NLL": 3.8232736105976737,
+      "targets": 1024,
+      "point_sha256": "6bf8da880819a5a9eab99ff340d1685b82a2c65d768cfb1c5e65b864d773b5a2",
+      "bias_SSE_relative_to_requested_mean": 3.78998849213529,
+      "sampling_variance_SSE": 407.781218833453,
+      "clipped_inverse_requests": 1002757
+    }
+  ],
+  "statistics": {
+    "ideal": {
+      "PPL_ratio": 1.0049840299889787,
+      "MC95_t4": [
+        0.9809705297161438,
+        1.0295853646338822
+      ]
+    },
+    "uncalibrated": {
+      "PPL_ratio": 1.0374344455793016,
+      "MC95_t4": [
+        1.0059451961549213,
+        1.0699094075783842
+      ]
+    },
+    "oracle": {
+      "PPL_ratio": 0.9964294613168493,
+      "MC95_t4": [
+        0.9850098532502344,
+        1.0079814614077316
+      ]
+    }
+  },
+  "scope": "FullGPT2, all parameters. FP32CPUarithmetic withBF16-roundedweights; 1024trainingtargets. Independent-binomialR1. Device errors illustrative, not measured hardware. Oracle correction knows true per-device gain/offset, re-quantizes the original12bit controls and clips to their range; it is an upper bound on calibration quality, not a free or deployable measured fix. TwoFP32 calibration values per device would require an additional8Nbytes if retained. No drift/cross-device correlation here.",
+  "elapsed_seconds": 248.64345351420343
+}

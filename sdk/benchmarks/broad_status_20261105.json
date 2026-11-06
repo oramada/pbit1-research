@@ -1,0 +1,95 @@
+{
+  "recorded_utc": "2026-11-06T00:03:00.589845+00:00",
+  "status": "mixed_additional_R1_primary_results_audited_full_sweep_and_LFM3_heldout_running",
+  "accepted_fresh_data_cases": 0,
+  "completed_legacy_native_batch_outputs_preserved": 1,
+  "accepted_matched_resource_cases": 45,
+  "execution_protocol_sha256": "9fab3acd2b01748426fc73a6712029f07e7e73db3826e2a0cc8cd5ba5cd5216e",
+  "scope": "Additional-model full-task R1 primary audited: DistilBERT passed, GPT2 missed; joint primary failed. No completed LFM3 fresh-data conclusion. Original protocols and margins retained.",
+  "recovery": {
+    "cloud_duplicate_claim_and_cross_container_stage_skip_fixture": "passed_using_officialTHRML_CPU",
+    "producer_checkpoint_relative_absolute_path_fixture": "passed",
+    "statistics_and_independent_forgery_rejection_fixtures": "passed",
+    "v3_integration_failure": "Preserved firstBF16stage path defect; no native sampling in that attempt. Corrected in newv4namespace.",
+    "legacy_replay": "Completed old6outputs must match rawbits in same-key recovery; replaywork retained separately and never added asMCseeds.",
+    "first_seed_must_complete_independent_audit_before_remaining_four": true,
+    "v4_launch_guard": "Correctly rejected reuse of an old log directory before core inference. Old call terminal; new v5wrapper uses one shared validated path definition. Frozen scientific v4sources/protocol unchanged."
+  },
+  "additional_assets": {
+    "checkpoint_and_dataset_pinned_hash_verification": "passed",
+    "gpt2_articles": 62,
+    "gpt2_predicted_targets": 283225,
+    "distilbert_reviews": 25000,
+    "distilbert_truncation_fraction": 0.4336,
+    "additional_model_quality_scoring_started": true,
+    "independent_full_data_manifest_audit": "passed_all283225GPT2targets_and_all25000DistilBERTrows",
+    "data_audit_sha256": "a6b79e6b37e543b3fe40712185c99372db96fca389d202c0ca3d74c3bc04b57e",
+    "complete_parameter_package_audit": "passed_every191394818learnedscalar",
+    "primary_sampler_state_bit_audit": 1610612736,
+    "actual_model_replacement_and_neural_replay_gate": "passed_bothmodels_all7controls_and_fullparameterT1draw_syntheticonly"
+  },
+  "systems": "No universal BF16 numerical equivalence, measured physical energy/latency advantage or general-success conclusion.",
+  "transport_amendment_sha256": "506546ecaa63ca31973bc4a451813060c803bb44d95e35251b10d32c82f25f6a",
+  "completed_recovery_native_batches": 1,
+  "legacy_batch0_stage_outputs_bitwise_matched": 4,
+  "remaining_additional_model_gates": "Finish original104case sweep, diagnose primary miss without changing its criteria; complete nonidealities and systems accounting.",
+  "R1_execution": {
+    "protocol_sha256": "b003fedc90d962500907e8cf435ca359ab1ef9a27ea3e892c2fe12a17ea79626",
+    "cases": 104,
+    "parallel_H100_case_limit": 4,
+    "deterministic_controls": 14,
+    "native_cases": 90,
+    "first_control_cases_independently_replayed": 12,
+    "snapshot_unix": 1793918533.5365238,
+    "completed_five_seed_primary_quality_report": true,
+    "primary_independent_audit": "r1_primary_audit_20261105.json",
+    "primary_both_models_pass": false,
+    "primary_model_pass": {
+      "distilbert": true,
+      "gpt2": false
+    },
+    "primary_completed_case_bindings": 24,
+    "statistics_sha256": "b92b6da3f9991518006da6db366fc6bb36558c976902aac96f886a62e82a127d"
+  },
+  "nonideality_evidence": {
+    "independent_correlated_dot_audit": "correlation_audit_20261105.json",
+    "models": 9,
+    "conditions": 108,
+    "saved_state_bits": 6912000,
+    "corruption_fixtures_rejected": 3,
+    "exact_to_naive_variance_range": [
+      0.2396895572513875,
+      7.319554269251502
+    ],
+    "scope": "Bounded smallIsingoperators,selectedquarterDistilGPT2syntheticdevices and separateclockeddriftoperator only. No fulladditionalmodelnonidealqualityresult or physicalhardwareclaim.",
+    "calibration_drift_recomputed_evidence": "nonideality_evidence_20261105.json",
+    "selected_quarter_transformer_gate_results": {
+      "ideal": true,
+      "uncalibrated": false,
+      "cal4096": false
+    }
+  },
+  "primary_saved_count_diagnostic": {
+    "completed": true,
+    "all_aggregate_moment_gates_met": true,
+    "observed_predicted_noise_ratio": {
+      "gpt2": 1.0000000928701407,
+      "distilbert": 1.0000592590462853
+    },
+    "scope": "Aggregate5seednoise consistency, not proof of all distributions or causal layer sensitivity."
+  },
+  "highT_preparation": {
+    "primitive_CPU_H100_bridge": "passed6488064states",
+    "production_tile_timing": "completed,1.53330seconds warmmedianat262144samples",
+    "synthetic_actual_model_integration": "passed_all124439808parameters_and_samekey_weight_and_logit_bridge",
+    "new_fulltask_scoring_started": false,
+    "scope": "Onepbitperlearnedscalar,262144samples,fivefreshfixedMCkeys onalreadyexposedtext;32timesoriginalsamplingwork. Original8192primaryfailedandunchanged. No new qualityresult.",
+    "status": "fixed_five_seed_highTstudy_launched_four_H100jobs",
+    "protocol_sha256": "c8068f1ad89588c04ea6cf0ef4d1be630a675c4bf7f0cbb8c50296b08ad2a91c",
+    "quality_result_available": false,
+    "new_fulltask_study_started": true,
+    "observed_stage": "native_parameter_sampling_before_task_forwards"
+  },
+  "goal_evidence_review": "goal_evidence_review_20261105.json",
+  "goal_complete": false
+}

@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "source": "research/thrml_spw/spark_depth/gaussian_control_v1.py",
+      "sha256": "093c55269d26de67a5133c76abc51659c8bea39740a43d01c335a2797d55fb6b",
+      "snapshot": "results/thrml_spw/source_snapshots/093c55269d26de67a5133c76abc51659c8bea39740a43d01c335a2797d55fb6b.py"
+    },
+    {
+      "source": "research/thrml_spw/spark_depth/audit_gaussian_control_v1.py",
+      "sha256": "4add20ea2092988109880927a7e9d1912bcedc6625e6df22046381d3eac50548",
+      "snapshot": "results/thrml_spw/source_snapshots/4add20ea2092988109880927a7e9d1912bcedc6625e6df22046381d3eac50548.py"
+    },
+    {
+      "source": "research/thrml_spw/spark_depth/audit_gaussian_control_v2.py",
+      "sha256": "4deb6314000cd5839b761cca667c768b1e669bc407f5fde6e9472ed95f9f1dab",
+      "snapshot": "results/thrml_spw/source_snapshots/4deb6314000cd5839b761cca667c768b1e669bc407f5fde6e9472ed95f9f1dab.py"
+    },
+    {
+      "source": "research/thrml_spw/spark_depth/audit_gaussian_control_v3.py",
+      "sha256": "8620deea2216ffad8ec2223d25104bcd252db055077dd15a0017179ac139368a",
+      "snapshot": "results/thrml_spw/source_snapshots/8620deea2216ffad8ec2223d25104bcd252db055077dd15a0017179ac139368a.py"
+    },
+    {
+      "source": "research/thrml_spw/spark_depth/lfm3_causal_depth_v2.py",
+      "sha256": "6b78472f38a5108dd358845e0a69472699fd5cd9bd2a331610f4608195318da7",
+      "snapshot": "results/thrml_spw/source_snapshots/6b78472f38a5108dd358845e0a69472699fd5cd9bd2a331610f4608195318da7.py"
+    },
+    {
+      "source": "research/thrml_spw/spark_depth/lfm3_benchmark_v2.py",
+      "sha256": "963180d6ef8e7f6a473918284282c65c04f7a9660ebdcfa827e50800a4b80725",
+      "snapshot": "results/thrml_spw/source_snapshots/963180d6ef8e7f6a473918284282c65c04f7a9660ebdcfa827e50800a4b80725.py"
+    },
+    {
+      "source": "research/thrml_spw/spark_depth/analyze_lfm3_causal_v1.py",
+      "sha256": "c90ab82096d369b30d05110d94a1b41da8505c53cca08534024a6d8c0ced847e",
+      "snapshot": "results/thrml_spw/source_snapshots/c90ab82096d369b30d05110d94a1b41da8505c53cca08534024a6d8c0ced847e.py"
+    },
+    {
+      "source": "research/thrml_spw/spark_depth/lfm3_pipeline_v1.py",
+      "sha256": "bc1eae9083bd0b2f81d22be01dd6b7d5280bf885d7a0c779931875f8ec067d24",
+      "snapshot": "results/thrml_spw/source_snapshots/bc1eae9083bd0b2f81d22be01dd6b7d5280bf885d7a0c779931875f8ec067d24.py"
+    }
+  ]
+}

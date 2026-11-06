@@ -1,0 +1,28 @@
+{
+  "status": "root_first_T8192_case_source_hash_controls_loss_arithmetic_and_doubled_work_verified",
+  "reviewed_utc": "2026-10-30T17:18:06.100851+00:00",
+  "audit_sha256": "9a62fa424aae4502628f509b569b32d54d28df27491f9ab541aa7363ad118b3b",
+  "results_sha256": "71367fc2c44d20df054fde074d9c59f7a099e29b00475cc660b825319419c6a6",
+  "protocol_sha256": "974b478da7420ee63ee930ee481fcf33f6583a8d0f62dc2d4ce3176105b93341",
+  "seed": 202610600,
+  "samples": 8192,
+  "pbits_per_parameter": 1,
+  "unique_parameter_coordinates": 1728801536,
+  "targets": 2048,
+  "Decimal_saved_loss_means": {
+    "BF16": "4.97825031631461641830563818359375",
+    "same_fit_BF16": "4.321675645982947200204779296875",
+    "nominal_controls": "4.2997387622030696530577265625",
+    "native": "4.3134849191310122383382646484375"
+  },
+  "native_NLL": 4.313484919131014,
+  "native_PPL": 74.70036057719075,
+  "same_fit_BF16_PPL": 75.31472343088639,
+  "individual_PPL_ratio_vs_same_fit_BF16": "0.991842725755218206535022581852643500513971723021896341415113",
+  "retained_scheduled_evaluations": 56704548995072,
+  "warmup_scheduled_evaluations": 6921942016,
+  "reference_T4096_audit_sha256": "ec7a7871dee242aea82af1e38bbb09803c1c8a44825c8b07046c4101e598e196",
+  "all_raw_output_hashes_rechecked": 4,
+  "cohort_quality_gate": "pending_all_five_seeds_and_independent_statistics",
+  "scope": "One accepted seed only on fixed validation texts. Root checked complete coverage/receipt work, source/protocol/result/raw-file hashes, every saved-stage loss mean, identical same-fit weight hashes and control summaries. Existing independent verifier recomputed raw-logit losses and exact control bits across all batches. Resource comparison with independent T4096 root is work/control parity only, not a paired quality contrast. No generalization, numerical BF16 equivalence, physical-device, energy or hardware-latency claim. Main treatment remains one logical p-bit per parameter; software simulator counters and programming/range metadata are additional costs."
+}

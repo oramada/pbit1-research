@@ -1,0 +1,24 @@
+{
+  "status": "tiny_LFM3_streamed_vs_resident_BF16_CUDA_bitwise_matches",
+  "source_sha256": "36c31deb82a2e60f3d75b3b5fe7ebdde33c29c371f7188fc16ead1bb60b18bf6",
+  "offloader_sha256": "321b49d4053ef57c060744742ad3a675ed53c1f408e77501dcdfdf466d55da9e",
+  "records": [
+    {
+      "batch": 1,
+      "length": 17,
+      "logits_equal": true,
+      "max_abs_difference": 0.0,
+      "peak_materialized_parameter_bytes": 32768,
+      "Torch_peak_GPU_allocated_bytes": 33600000
+    },
+    {
+      "batch": 2,
+      "length": 65,
+      "logits_equal": true,
+      "max_abs_difference": 0.0,
+      "peak_materialized_parameter_bytes": 32768,
+      "Torch_peak_GPU_allocated_bytes": 34060288
+    }
+  ],
+  "scope": "Three-layer random smallLFM3topology, allconv/full/slidingkinds. ValidatesCUDAleaftransfersemantics, notfull1.7Bqualityorfullmodelpeakmemory."
+}

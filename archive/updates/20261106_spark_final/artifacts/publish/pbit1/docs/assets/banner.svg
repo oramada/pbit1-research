@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="PBit1 — one programmable p-bit per parameter">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0c162b"/><stop offset="1" stop-color="#162c45"/></linearGradient><linearGradient id="line"><stop stop-color="#49dec0"/><stop offset="1" stop-color="#99a5ff"/></linearGradient></defs>
+<rect width="1200" height="340" rx="22" fill="url(#bg)"/>
+<g fill="none" stroke="#334963" opacity=".32"><path d="M0 80H1200M0 160H1200M0 240H1200M80 0V340M240 0V340M400 0V340M560 0V340M720 0V340M880 0V340M1040 0V340"/></g>
+<text x="64" y="68" font-family="sans-serif" font-size="13" letter-spacing="4" fill="#71d5c3">SINGLE-P-BIT WEIGHT ENCODING</text>
+<text x="60" y="151" font-family="sans-serif" font-size="74" font-weight="700" fill="#f1f6ff">PBit1</text>
+<text x="64" y="193" font-family="sans-serif" font-size="24" fill="#c3d0e8">Precision, sampled over time.</text>
+<text x="64" y="263" font-family="sans-serif" font-size="16" fill="#8de2ce">1.73B parameters</text><text x="250" y="263" font-family="sans-serif" font-size="16" fill="#9caad0">/</text><text x="275" y="263" font-family="sans-serif" font-size="16" fill="#d9e2f9">one logical p-bit each</text>
+<text x="64" y="295" font-family="sans-serif" font-size="12" fill="#9eafca">INDEPENDENT RESEARCH · OFFICIAL THRML BACKEND · AUDITED EXPERIMENTS</text>
+<g transform="translate(760,50)"><circle cx="145" cy="118" r="97" fill="none" stroke="#314f6e" stroke-width="2"/><circle cx="145" cy="118" r="67" fill="none" stroke="#3f677e" stroke-width="1"/><circle cx="145" cy="118" r="33" fill="#32b99d" fill-opacity=".16" stroke="#67e3c6" stroke-width="2"/><text x="145" y="128" text-anchor="middle" font-family="monospace" font-size="30" fill="#bafbe8">p</text><circle cx="145" cy="21" r="8" fill="#76efd3"/><circle cx="226" cy="172" r="6" fill="#a4afff"/><circle cx="66" cy="175" r="6" fill="#76efd3"/><path d="M-40 248h20v-29h29v29h20v-29h48v29h24v-29h18v29h57v-29h26v29h35v-29h19v29h30" fill="none" stroke="url(#line)" stroke-width="3"/></g></svg>

@@ -1,0 +1,4 @@
+{
+  "status": "literal_dictionary_equality_rejected_float_reassociation",
+  "reason": "Independent audit subtracted baseline per seed before averaging, producer subtracted after averaging. V2 retains independent operation ordering and compares statistics at1e-14 relative tolerance. Draw hashes and decoded tensors still require exact equality."
+}

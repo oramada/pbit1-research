@@ -1,0 +1,12 @@
+{
+  "status": "all_four_attention_expanded_public_states_int64_counters_F64_readouts_and_receipts_verified",
+  "source_sha256": "be8fa2645af6b41dd59ad8edeca758e2c097dc78e3a85fbf6c840f75e223b487",
+  "results_sha256": "3bbd3130018515b499242f145f8f6ff4e77b54079447529382e6de5fb123d752",
+  "public_bits_verified": 4194304,
+  "integer_entries_verified": 3962880,
+  "float64_outputs_verified": 3962880,
+  "max_absolute_integer_total": 16769024,
+  "CPU_GPU_public_state_bit_differences": 0,
+  "CPU_GPU_output_bitpattern_differences": 0,
+  "scope": "GPU official THRML attention-component check at8320/2080/16448/4112positions, T8192 and128normchannels, exact independentint64 reconstruction and signed high-magnitude mirrors. Not full-model forward fidelity, quality, heldout scoring, physical bit flips, energy or latency."
+}

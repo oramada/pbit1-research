@@ -1,0 +1,53 @@
+{
+  "status": "unequalarticle_and_review_paired_fiveseed_bootstrap_oracles_batchinvariance_and_rejections_passed",
+  "sources_sha256": {
+    "/home/omarramadan/Desktop/extropic_compression/research/thrml_spw/broad/preflight_task_statistics_v1.py": "f4848b6a21b6950075bcbf9e5c729a84156e3d28b70cce6a9d84f6e27d7fb643",
+    "/home/omarramadan/Desktop/extropic_compression/research/thrml_spw/broad/task_statistics_v1.py": "1d1fe0e27261cde701449dfb7256f5bf6ea2ac98d19e011be0882043b2cb0dba"
+  },
+  "cases": [
+    {
+      "task": "unequal_article_sizes",
+      "case": "zero",
+      "gate": true
+    },
+    {
+      "task": "unequal_article_sizes",
+      "case": "small",
+      "gate": true
+    },
+    {
+      "task": "unequal_article_sizes",
+      "case": "degraded",
+      "gate": false
+    },
+    {
+      "task": "paired_reviews",
+      "case": "zero",
+      "gate": true
+    },
+    {
+      "task": "paired_reviews",
+      "case": "small",
+      "gate": true
+    },
+    {
+      "task": "paired_reviews",
+      "case": "degraded",
+      "gate": false
+    }
+  ],
+  "forgeries_rejected": [
+    "mean",
+    "interval",
+    "gate",
+    "observations",
+    "units"
+  ],
+  "invalid_inputs_rejected": [
+    "four_seeds",
+    "zero_cluster",
+    "nonfinite",
+    "mismatched_units"
+  ],
+  "scope": "Synthetic arithmetic only. Dataunitweights, pairing, marginandseed protocols must be frozen before any real model quality scoring."
+}

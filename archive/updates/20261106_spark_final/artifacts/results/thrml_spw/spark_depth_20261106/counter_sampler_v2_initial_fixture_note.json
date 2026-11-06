@@ -1,0 +1,1 @@
+{"kind":"corrected_test_assertion","detail":"At T=65536 finite p<1 need not produce any count above65535. Assert uint32 and exact raw-count match there; assert actual overflow-sized counts only at larger testedT. Sampling implementation unchanged."}

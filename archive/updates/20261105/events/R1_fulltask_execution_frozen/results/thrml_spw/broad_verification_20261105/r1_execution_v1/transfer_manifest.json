@@ -1,0 +1,13 @@
+{
+  "protocol_sha256": "b003fedc90d962500907e8cf435ca359ab1ef9a27ea3e892c2fe12a17ea79626",
+  "new_metadata_files": {
+    "results/thrml_spw/broad_verification_20261105/additional_model_inventory/selection_protocol_v1.json": "results/thrml_spw/broad_verification_20261105/additional_model_inventory/selection_protocol_v1.json",
+    "results/thrml_spw/broad_verification_20261105/r1_model_preflight_v2/protocol.json": "results/thrml_spw/broad_verification_20261105/r1_model_preflight_v2/protocol.json",
+    "results/thrml_spw/broad_verification_20261105/r1_statistics_v1_preflight/results.json": "results/thrml_spw/broad_verification_20261105/r1_statistics_v1_preflight/results.json",
+    "results/thrml_spw/broad_verification_20261105/r1_batches_v1_preflight/results.json": "results/thrml_spw/broad_verification_20261105/r1_batches_v1_preflight/results.json",
+    "results/thrml_spw/broad_verification_20261105/additional_assets_v1_independent_data_audit.json": "results/thrml_spw/broad_verification_20261105/additional_assets_v1_independent_data_audit.json",
+    "results/thrml_spw/broad_verification_20261105/r1_model_preflight_v2/gpt2_results.json": "results/thrml_spw/broad_verification_20261105/r1_model_preflight_v2/gpt2_results.json",
+    "results/thrml_spw/broad_verification_20261105/r1_model_preflight_v2/distilbert_results.json": "results/thrml_spw/broad_verification_20261105/r1_model_preflight_v2/distilbert_results.json",
+    "results/thrml_spw/broad_verification_20261105/r1_execution_v1/protocol.json": "results/thrml_spw/broad_verification_20261105/r1_execution_v1/protocol.json"
+  }
+}

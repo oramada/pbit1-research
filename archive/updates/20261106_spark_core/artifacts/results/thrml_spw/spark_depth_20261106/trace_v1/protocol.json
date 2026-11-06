@@ -1,0 +1,26 @@
+{
+  "status": "training_only_exploratory_neuron_trace_frozen_before_forwards",
+  "source_sha256": "f162cf89eb9177aaa6ce0f01035e89aef5560e0cc6e21a16165d371f4a51d7af",
+  "prepared_sha256": "60ab276bd518d05c9cd2d8a36d67ad32f81f860582f69ea0735bc808b1a12774",
+  "mapping_sha256": "1250b109bfb56c78e49b5e35ce08c53d64499068d7eb08bdefed42f5bf216911",
+  "rows": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "input_length": 129,
+  "points": [
+    "original_BF16",
+    "finite_mean_G128",
+    "Gaussian_proxy_G128_T8192_seed2026110611"
+  ],
+  "Gaussian_seed": 2026110611,
+  "sampling_budget_for_proxy": 8192,
+  "GPU_allocator_cap_bytes": 2147483648,
+  "scope": "LocalGB10, trainingarticlesonly, one labelledGaussianproxy. No nativepbitsamples,heldoutscore,confidenceinterval,trainingupdateorqualitygate."
+}

@@ -1,0 +1,2 @@
+# Preserve generated SVG path formatting from audited figures.
+*.svg -whitespace

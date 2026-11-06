@@ -1,0 +1,76 @@
+{
+  "status": "v3_terminal_checkpoint_relative_absolute_path_failure_preserved_before_native_sampling",
+  "call_id": "fc-01M6PS7NEJKV91J43XXY8Y376K",
+  "files": {
+    "results/thrml_spw/lfm3_1p7b/holdout_native_v3/202611150/attempts/95d4dcd2599a40c0814e87f201585ccf/failure.json": {
+      "local": "results/thrml_spw/broad_verification_20261105/holdout_v3_failure/dd045b5e0020_failure.json",
+      "sha256": "b41ef95139bfce7266b16187393467db1ec9edc4e127e81ced899238d6121a8c"
+    },
+    "results/thrml_spw/lfm3_1p7b/holdout_native_v3/202611150/attempts/95d4dcd2599a40c0814e87f201585ccf/worker.log": {
+      "local": "results/thrml_spw/broad_verification_20261105/holdout_v3_failure/5f4f164a9055_worker.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/thrml_spw/lfm3_1p7b/holdout_native_v3/202611150/progress.json": {
+      "local": "results/thrml_spw/broad_verification_20261105/holdout_v3_failure/0a5b4ea6b38e_progress.json",
+      "sha256": "7f379f3b6f2593e687a1357276334403781135f4b27dc355116c1fda87245ffb"
+    },
+    "results/thrml_spw/lfm3_1p7b/holdout_native_v3/202611150/attempts/95d4dcd2599a40c0814e87f201585ccf/stage_events.jsonl": {
+      "local": "results/thrml_spw/broad_verification_20261105/holdout_v3_failure/c22a65277890_stage_events.jsonl",
+      "sha256": "4b03979db357b8c1053095bf11db593af86251acb1c6853edcc97ad8b43f9ab0"
+    },
+    "results/thrml_spw/lfm3_1p7b/holdout_native_v3/202611150/protocol.json": {
+      "local": "results/thrml_spw/broad_verification_20261105/holdout_v3_failure/a0a4bc141372_protocol.json",
+      "sha256": "1e78a14c1a0a61a4f780f1b209b8489003e03f3c82001d621f4965c718a3acdb"
+    },
+    "results/thrml_spw/lfm3_1p7b/holdout_native_v3/202611150/contract.json": {
+      "local": "results/thrml_spw/broad_verification_20261105/holdout_v3_failure/77df6d540c3a_contract.json",
+      "sha256": "1e78a14c1a0a61a4f780f1b209b8489003e03f3c82001d621f4965c718a3acdb"
+    },
+    "cloud_holdout_logs_v3/202611150/terminal_failure_f60eb43d8b314b49a3a7d380534be85b.json": {
+      "local": "results/thrml_spw/broad_verification_20261105/holdout_v3_failure/8dd4f33c00de_terminal_failure_f60eb43d8b314b49a3a7d380534be85b.json",
+      "sha256": "d9b3deb30e19301fbfb82befacf4869546b50ce35618abedd0a0d357c8d396b6"
+    },
+    "cloud_holdout_logs_v3/202611150/f60eb43d8b314b49a3a7d380534be85b.log": {
+      "local": "results/thrml_spw/broad_verification_20261105/holdout_v3_failure/33fbe0ce60b1_f60eb43d8b314b49a3a7d380534be85b.log",
+      "sha256": "5cbb19c90de2db1ad4407e8f3c65a697eb2a7475318e136ec99f7fa586d28f21"
+    }
+  },
+  "remote_inventory": [
+    {
+      "path": "results/thrml_spw/lfm3_1p7b/holdout_native_v3/202611150/attempts",
+      "bytes": 32
+    },
+    {
+      "path": "results/thrml_spw/lfm3_1p7b/holdout_native_v3/202611150/attempts/95d4dcd2599a40c0814e87f201585ccf",
+      "bytes": 55
+    },
+    {
+      "path": "results/thrml_spw/lfm3_1p7b/holdout_native_v3/202611150/attempts/95d4dcd2599a40c0814e87f201585ccf/failure.json",
+      "bytes": 364
+    },
+    {
+      "path": "results/thrml_spw/lfm3_1p7b/holdout_native_v3/202611150/attempts/95d4dcd2599a40c0814e87f201585ccf/batch0_BF16.npz",
+      "bytes": 102245886
+    },
+    {
+      "path": "results/thrml_spw/lfm3_1p7b/holdout_native_v3/202611150/attempts/95d4dcd2599a40c0814e87f201585ccf/worker.log",
+      "bytes": 0
+    },
+    {
+      "path": "results/thrml_spw/lfm3_1p7b/holdout_native_v3/202611150/progress.json",
+      "bytes": 84
+    },
+    {
+      "path": "results/thrml_spw/lfm3_1p7b/holdout_native_v3/202611150/attempts/95d4dcd2599a40c0814e87f201585ccf/stage_events.jsonl",
+      "bytes": 86
+    },
+    {
+      "path": "results/thrml_spw/lfm3_1p7b/holdout_native_v3/202611150/protocol.json",
+      "bytes": 354
+    },
+    {
+      "path": "results/thrml_spw/lfm3_1p7b/holdout_native_v3/202611150/contract.json",
+      "bytes": 354
+    }
+  ]
+}

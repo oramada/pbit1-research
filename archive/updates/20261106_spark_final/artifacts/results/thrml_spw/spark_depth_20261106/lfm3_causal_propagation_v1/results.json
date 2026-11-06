@@ -1,0 +1,176 @@
+{
+  "status": "all24_isolated_interventions_verified_no_upstream_change",
+  "source_sha256": "d876de191c21efdf3f9c6208e244434d2f469c010799b169d4416191c09457ea",
+  "causal_result_sha256": "fe8090ddfb5d26f9aea6874f789755a51f409dfc9e54654d8b07ff340e98ad70",
+  "rows": [
+    {
+      "injected_layer": 0,
+      "injected_block_error_power": 0.29673713278997843,
+      "final_block_error_power": 105.62098081430628,
+      "final_to_injected_absolute_error_power": 355.94123263656934,
+      "final_relative_RMS_error": 0.02490058011246159
+    },
+    {
+      "injected_layer": 1,
+      "injected_block_error_power": 0.22772634184807306,
+      "final_block_error_power": 92.35557759146104,
+      "final_to_injected_absolute_error_power": 405.5550923181113,
+      "final_relative_RMS_error": 0.02328444717950041
+    },
+    {
+      "injected_layer": 2,
+      "injected_block_error_power": 0.3095609229022591,
+      "final_block_error_power": 96.56221401538778,
+      "final_to_injected_absolute_error_power": 311.9328276646738,
+      "final_relative_RMS_error": 0.023808825633129714
+    },
+    {
+      "injected_layer": 3,
+      "injected_block_error_power": 0.24482160999681923,
+      "final_block_error_power": 78.4179428918751,
+      "final_to_injected_absolute_error_power": 320.306458620601,
+      "final_relative_RMS_error": 0.021455670436172605
+    },
+    {
+      "injected_layer": 4,
+      "injected_block_error_power": 0.3045867417541812,
+      "final_block_error_power": 74.47801449263375,
+      "final_to_injected_absolute_error_power": 244.52152468521342,
+      "final_relative_RMS_error": 0.02090972938198058
+    },
+    {
+      "injected_layer": 5,
+      "injected_block_error_power": 0.30274350556059204,
+      "final_block_error_power": 71.21367636384184,
+      "final_to_injected_absolute_error_power": 235.22775899676208,
+      "final_relative_RMS_error": 0.020446363158434264
+    },
+    {
+      "injected_layer": 6,
+      "injected_block_error_power": 0.6525322492361205,
+      "final_block_error_power": 69.2188727999519,
+      "final_to_injected_absolute_error_power": 106.07732090020407,
+      "final_relative_RMS_error": 0.020157962286266422
+    },
+    {
+      "injected_layer": 7,
+      "injected_block_error_power": 0.3803462081275465,
+      "final_block_error_power": 58.16165492889019,
+      "final_to_injected_absolute_error_power": 152.91766734108225,
+      "final_relative_RMS_error": 0.01847790562727425
+    },
+    {
+      "injected_layer": 8,
+      "injected_block_error_power": 0.5731192456975158,
+      "final_block_error_power": 57.97409719717325,
+      "final_to_injected_absolute_error_power": 101.15538368741355,
+      "final_relative_RMS_error": 0.01844808810762402
+    },
+    {
+      "injected_layer": 9,
+      "injected_block_error_power": 0.5405333435477839,
+      "final_block_error_power": 53.49497534518929,
+      "final_to_injected_absolute_error_power": 98.96702207874111,
+      "final_relative_RMS_error": 0.01772110761118083
+    },
+    {
+      "injected_layer": 10,
+      "injected_block_error_power": 1.5777565457241542,
+      "final_block_error_power": 60.03974546686368,
+      "final_to_injected_absolute_error_power": 38.053871891437346,
+      "final_relative_RMS_error": 0.018773869219080124
+    },
+    {
+      "injected_layer": 11,
+      "injected_block_error_power": 0.8571320287035542,
+      "final_block_error_power": 50.94091581364319,
+      "final_to_injected_absolute_error_power": 59.431819262072516,
+      "final_relative_RMS_error": 0.017292896460799484
+    },
+    {
+      "injected_layer": 12,
+      "injected_block_error_power": 1.509628081615304,
+      "final_block_error_power": 52.16945283814334,
+      "final_to_injected_absolute_error_power": 34.557818229190566,
+      "final_relative_RMS_error": 0.017500179685240737
+    },
+    {
+      "injected_layer": 13,
+      "injected_block_error_power": 1.912159781851642,
+      "final_block_error_power": 53.21143272724112,
+      "final_to_injected_absolute_error_power": 27.82792172091067,
+      "final_relative_RMS_error": 0.017674081090635643
+    },
+    {
+      "injected_layer": 14,
+      "injected_block_error_power": 5.269117965273196,
+      "final_block_error_power": 68.63275187206808,
+      "final_to_injected_absolute_error_power": 13.02547263591385,
+      "final_relative_RMS_error": 0.02007243560217436
+    },
+    {
+      "injected_layer": 15,
+      "injected_block_error_power": 2.2324450345728906,
+      "final_block_error_power": 42.380083584126865,
+      "final_to_injected_absolute_error_power": 18.983707517007236,
+      "final_relative_RMS_error": 0.015773035160953745
+    },
+    {
+      "injected_layer": 16,
+      "injected_block_error_power": 2.747942604105476,
+      "final_block_error_power": 41.33724253989095,
+      "final_to_injected_absolute_error_power": 15.042978873769911,
+      "final_relative_RMS_error": 0.01557776394315974
+    },
+    {
+      "injected_layer": 17,
+      "injected_block_error_power": 3.2779827345947012,
+      "final_block_error_power": 39.17170480750134,
+      "final_to_injected_absolute_error_power": 11.949942381970672,
+      "final_relative_RMS_error": 0.015164238402731815
+    },
+    {
+      "injected_layer": 18,
+      "injected_block_error_power": 3.9109985742667277,
+      "final_block_error_power": 35.335045306967004,
+      "final_to_injected_absolute_error_power": 9.034788593241041,
+      "final_relative_RMS_error": 0.014402477095658948
+    },
+    {
+      "injected_layer": 19,
+      "injected_block_error_power": 5.732237936299327,
+      "final_block_error_power": 36.975148611841405,
+      "final_to_injected_absolute_error_power": 6.450386223100881,
+      "final_relative_RMS_error": 0.014732936977341538
+    },
+    {
+      "injected_layer": 20,
+      "injected_block_error_power": 8.195711853866683,
+      "final_block_error_power": 36.2296608223578,
+      "final_to_injected_absolute_error_power": 4.42056302958783,
+      "final_relative_RMS_error": 0.014583659005321275
+    },
+    {
+      "injected_layer": 21,
+      "injected_block_error_power": 9.286274024075855,
+      "final_block_error_power": 30.831195403638958,
+      "final_to_injected_absolute_error_power": 3.320082448967706,
+      "final_relative_RMS_error": 0.013453322367775522
+    },
+    {
+      "injected_layer": 22,
+      "injected_block_error_power": 24.180096081945067,
+      "final_block_error_power": 38.14426627278226,
+      "final_to_injected_absolute_error_power": 1.577506811532649,
+      "final_relative_RMS_error": 0.014964044798225894
+    },
+    {
+      "injected_layer": 23,
+      "injected_block_error_power": 19.574606772908794,
+      "final_block_error_power": 19.574606772908794,
+      "final_to_injected_absolute_error_power": 1.0,
+      "final_relative_RMS_error": 0.010719657021478236
+    }
+  ],
+  "scope": "One fixed weight draw on training inputs. Response includes nonlinear propagation and BF16 rounding, not a Jacobian or universal Lipschitz bound."
+}

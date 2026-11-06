@@ -1,0 +1,16 @@
+{
+  "case": {
+    "name": "selected_seed2026111004",
+    "kind": "selected",
+    "seed": 2026111004
+  },
+  "reviews": 25000,
+  "means": {
+    "CE": 0.48330816740147076,
+    "correct": 0.87524,
+    "Brier": 0.21856096212255824,
+    "reference_to_variant_KL": 0.0006053289662556089
+  },
+  "point_sha256": "ed1558c9192f252cf597ddd943642c68f31deda8cf30b12dbcb0193f335db6ac",
+  "GPU_peak_allocated_bytes": 364381184
+}

@@ -1,0 +1,11 @@
+{
+  "checked_utc": "2026-10-31T00:04:54.365178+00:00",
+  "credential_pattern_scan_files": 1791,
+  "source_native_adapter_byte_identical": true,
+  "README_local_links_valid": true,
+  "core_tests": "5 passed; native tests skipped when optional extra absent",
+  "official_backend_tests": "10 passed including core and native; pinned existing CPU environment with isolated wheel install",
+  "wheel_clean_install": true,
+  "graphs": "All figures generated from audited JSON; visually inspected quality and resource figures",
+  "scope": "Research preview, conditional validation result. No measured physical energy or latency claim."
+}

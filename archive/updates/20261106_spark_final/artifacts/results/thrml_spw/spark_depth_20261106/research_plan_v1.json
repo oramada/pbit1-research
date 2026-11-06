@@ -1,0 +1,21 @@
+{
+  "status": "new_local_DGX_Spark_research_goal_active",
+  "recorded_UTC": "2026-11-06T17:58:04.736647+00:00",
+  "hardware": "DGXSparkGB10; useruca32process2869489 activeatintake; do notkill/stopwithoutapproval",
+  "cloud_jobs": "Stopped; do notreactivatewithoutnewexplicitpermission.",
+  "phases": [
+    "Recoverclosedoldresultsandpinlocalmodel/calibrationassets",
+    "Surveyall148GPT2parametertensors,grouporientation,outliers,controllerbiasandpredictednoise",
+    "Traceallblocks,attentionheads,MLPchannelsandresidualerrorontraining-onlywindows",
+    "Causalisolatedandcumulativenoiseinjection/restorationwithnativevsGaussiancontrols",
+    "Developonepbit-preservingrange/layout/control/sampling/trainingfixeswithfullresourceledger",
+    "Selectontrain/calibration,freezeprospectiveheldoutcomplete-seedcohorts,validatecrossarchitecturetransfer"
+  ],
+  "deliverables": [
+    "Perneuron/channel/head/layerdiagnosticsandplots",
+    "Causalerrorpropagationandsensitivitymaps",
+    "Reproduciblelocalimplementationandindependentaudits",
+    "Supportedregimes,counterexamplesandfundamentallimits"
+  ],
+  "success_policy": "MeasureBF16-leveltaskqualityunderfixedcriteria; do notassumeuniversalnumericBF16equivalence orhidecontrollerprecision,metadata orsamplingcosts."
+}

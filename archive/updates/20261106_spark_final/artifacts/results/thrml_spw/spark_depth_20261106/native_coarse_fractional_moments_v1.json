@@ -1,0 +1,280 @@
+{
+  "status": "all30_weight_moments_and_six_correlated_output_MSE_moments_passed",
+  "source_sha256": "bb3b7bc59fd01d06ecb68e84aeb42b2333e8390f97d87335a86c498335fc2037",
+  "result_sha256": "eca60c1fc8ca4bf50a89217105789728853736e0b4f6a2457cd931f21336dad3",
+  "audit_sha256": "2f17412832eb100b005b14b6c20f7a6e87308390910ae699ee4967e14f9529d3",
+  "exact_enumeration_fixture": {
+    "exhaustive_outcomes": 16,
+    "mean": 0.23283933333333331,
+    "variance": 0.12160247375703703
+  },
+  "output_checks": [
+    {
+      "layout": "storage_flat",
+      "kind": "K1",
+      "T": 32768,
+      "expected_output_MSE": 0.01027536331216083,
+      "variance_of_one_draw_output_MSE": 3.904478477127832e-05,
+      "mean_measured_output_MSE": 0.009306478099328094,
+      "five_draw_mean_MSE_z": -0.3467175405527021
+    },
+    {
+      "layout": "storage_flat",
+      "kind": "K4_fractional",
+      "T": 8192,
+      "expected_output_MSE": 0.0007426488530573451,
+      "variance_of_one_draw_output_MSE": 1.5994722935021578e-07,
+      "mean_measured_output_MSE": 0.0008213720990946036,
+      "five_draw_mean_MSE_z": 0.4401489140583473
+    },
+    {
+      "layout": "storage_flat",
+      "kind": "K4_fractional",
+      "T": 32768,
+      "expected_output_MSE": 0.00018680430767705733,
+      "variance_of_one_draw_output_MSE": 1.0121773715304428e-08,
+      "mean_measured_output_MSE": 0.00018252079491690396,
+      "five_draw_mean_MSE_z": -0.0952043418692607
+    },
+    {
+      "layout": "transposed_matrix",
+      "kind": "K1",
+      "T": 32768,
+      "expected_output_MSE": 6.607106868073944e-05,
+      "variance_of_one_draw_output_MSE": 1.095628159717704e-09,
+      "mean_measured_output_MSE": 7.004092487995894e-05,
+      "five_draw_mean_MSE_z": 0.2681811104620893
+    },
+    {
+      "layout": "transposed_matrix",
+      "kind": "K4_fractional",
+      "T": 8192,
+      "expected_output_MSE": 3.746116773714237e-06,
+      "variance_of_one_draw_output_MSE": 3.517770906627331e-12,
+      "mean_measured_output_MSE": 3.311490344701721e-06,
+      "five_draw_mean_MSE_z": -0.5181641440843601
+    },
+    {
+      "layout": "transposed_matrix",
+      "kind": "K4_fractional",
+      "T": 32768,
+      "expected_output_MSE": 9.412770586565269e-07,
+      "variance_of_one_draw_output_MSE": 2.2203261347006166e-13,
+      "mean_measured_output_MSE": 5.69086979115783e-07,
+      "five_draw_mean_MSE_z": -1.7662062199534072
+    }
+  ],
+  "weight_checks": [
+    {
+      "layout": "storage_flat",
+      "kind": "K1",
+      "T": 32768,
+      "seed": 2026112601,
+      "weight_SSE_z": 0.4793947910777527
+    },
+    {
+      "layout": "storage_flat",
+      "kind": "K1",
+      "T": 32768,
+      "seed": 2026112602,
+      "weight_SSE_z": -0.5407713883813029
+    },
+    {
+      "layout": "storage_flat",
+      "kind": "K1",
+      "T": 32768,
+      "seed": 2026112603,
+      "weight_SSE_z": -0.2594206812574778
+    },
+    {
+      "layout": "storage_flat",
+      "kind": "K1",
+      "T": 32768,
+      "seed": 2026112604,
+      "weight_SSE_z": -0.22152924604561522
+    },
+    {
+      "layout": "storage_flat",
+      "kind": "K1",
+      "T": 32768,
+      "seed": 2026112605,
+      "weight_SSE_z": -0.23600563477039657
+    },
+    {
+      "layout": "storage_flat",
+      "kind": "K4_fractional",
+      "T": 8192,
+      "seed": 2026112601,
+      "weight_SSE_z": -1.7469219937643587
+    },
+    {
+      "layout": "storage_flat",
+      "kind": "K4_fractional",
+      "T": 8192,
+      "seed": 2026112602,
+      "weight_SSE_z": 0.29440363763402716
+    },
+    {
+      "layout": "storage_flat",
+      "kind": "K4_fractional",
+      "T": 8192,
+      "seed": 2026112603,
+      "weight_SSE_z": 0.3982567656105208
+    },
+    {
+      "layout": "storage_flat",
+      "kind": "K4_fractional",
+      "T": 8192,
+      "seed": 2026112604,
+      "weight_SSE_z": 1.1564914942658915
+    },
+    {
+      "layout": "storage_flat",
+      "kind": "K4_fractional",
+      "T": 8192,
+      "seed": 2026112605,
+      "weight_SSE_z": -0.1327293383542842
+    },
+    {
+      "layout": "storage_flat",
+      "kind": "K4_fractional",
+      "T": 32768,
+      "seed": 2026112601,
+      "weight_SSE_z": -1.2499661322558142
+    },
+    {
+      "layout": "storage_flat",
+      "kind": "K4_fractional",
+      "T": 32768,
+      "seed": 2026112602,
+      "weight_SSE_z": -0.6141480826657415
+    },
+    {
+      "layout": "storage_flat",
+      "kind": "K4_fractional",
+      "T": 32768,
+      "seed": 2026112603,
+      "weight_SSE_z": -0.878159855785706
+    },
+    {
+      "layout": "storage_flat",
+      "kind": "K4_fractional",
+      "T": 32768,
+      "seed": 2026112604,
+      "weight_SSE_z": -0.3855991001375988
+    },
+    {
+      "layout": "storage_flat",
+      "kind": "K4_fractional",
+      "T": 32768,
+      "seed": 2026112605,
+      "weight_SSE_z": -1.6152642752952773
+    },
+    {
+      "layout": "transposed_matrix",
+      "kind": "K1",
+      "T": 32768,
+      "seed": 2026112601,
+      "weight_SSE_z": 1.0218379326548348
+    },
+    {
+      "layout": "transposed_matrix",
+      "kind": "K1",
+      "T": 32768,
+      "seed": 2026112602,
+      "weight_SSE_z": -1.0277574405831436
+    },
+    {
+      "layout": "transposed_matrix",
+      "kind": "K1",
+      "T": 32768,
+      "seed": 2026112603,
+      "weight_SSE_z": -0.17911107102020463
+    },
+    {
+      "layout": "transposed_matrix",
+      "kind": "K1",
+      "T": 32768,
+      "seed": 2026112604,
+      "weight_SSE_z": -0.14269769113506212
+    },
+    {
+      "layout": "transposed_matrix",
+      "kind": "K1",
+      "T": 32768,
+      "seed": 2026112605,
+      "weight_SSE_z": -0.9276953109954513
+    },
+    {
+      "layout": "transposed_matrix",
+      "kind": "K4_fractional",
+      "T": 8192,
+      "seed": 2026112601,
+      "weight_SSE_z": 0.5519829757682464
+    },
+    {
+      "layout": "transposed_matrix",
+      "kind": "K4_fractional",
+      "T": 8192,
+      "seed": 2026112602,
+      "weight_SSE_z": -0.4738097331611688
+    },
+    {
+      "layout": "transposed_matrix",
+      "kind": "K4_fractional",
+      "T": 8192,
+      "seed": 2026112603,
+      "weight_SSE_z": -0.11150763346142824
+    },
+    {
+      "layout": "transposed_matrix",
+      "kind": "K4_fractional",
+      "T": 8192,
+      "seed": 2026112604,
+      "weight_SSE_z": 0.6845624499836341
+    },
+    {
+      "layout": "transposed_matrix",
+      "kind": "K4_fractional",
+      "T": 8192,
+      "seed": 2026112605,
+      "weight_SSE_z": -0.5752690600597551
+    },
+    {
+      "layout": "transposed_matrix",
+      "kind": "K4_fractional",
+      "T": 32768,
+      "seed": 2026112601,
+      "weight_SSE_z": 2.0244366912332934
+    },
+    {
+      "layout": "transposed_matrix",
+      "kind": "K4_fractional",
+      "T": 32768,
+      "seed": 2026112602,
+      "weight_SSE_z": 0.8662766142480721
+    },
+    {
+      "layout": "transposed_matrix",
+      "kind": "K4_fractional",
+      "T": 32768,
+      "seed": 2026112603,
+      "weight_SSE_z": -0.6350412126233841
+    },
+    {
+      "layout": "transposed_matrix",
+      "kind": "K4_fractional",
+      "T": 32768,
+      "seed": 2026112604,
+      "weight_SSE_z": -0.3290694282218766
+    },
+    {
+      "layout": "transposed_matrix",
+      "kind": "K4_fractional",
+      "T": 32768,
+      "seed": 2026112605,
+      "weight_SSE_z": -0.3112663367277176
+    }
+  ],
+  "scope": "Exact finite-binomial moment calculation includes covariance between fixed input vectors sharing each sampled weight. Monte Carlo output-MSE means need not equal their expectations with only five draws. No neural or hardware systems claim."
+}

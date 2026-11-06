@@ -1,0 +1,101 @@
+{
+  "status": "all11_fullmodel_training_controls_complete_pending_audit",
+  "protocol_sha256": "7f8cc915eb4c3e976e441fec133d0ae78460f0285d1b82dcd059ab621e25228f",
+  "cases": [
+    {
+      "kind": "BF16",
+      "seed": null,
+      "NLL": 3.8176491898736615,
+      "targets": 1024,
+      "point_sha256": "e20e42a46acd6fccecedf83f05bd3c115d137e5c5915f6814ef12fdf13141bc2"
+    },
+    {
+      "kind": "pbit",
+      "seed": 2026112201,
+      "NLL": 3.826669553833643,
+      "targets": 1024,
+      "point_sha256": "e605ac3b9e39d919700df02f17acba0f7fa9eda1a60904cc744afa7b39942382"
+    },
+    {
+      "kind": "Gaussian",
+      "seed": 2026112201,
+      "NLL": 3.809817183909222,
+      "targets": 1024,
+      "point_sha256": "72f203cb47c1acd7f4dddec7edff75570cd2da7f6585923e974065017b2cfdf4"
+    },
+    {
+      "kind": "pbit",
+      "seed": 2026112202,
+      "NLL": 3.803410536460811,
+      "targets": 1024,
+      "point_sha256": "f1987ce3c5ae2dc92f91d6789320297867fa407f2cf6dab1b159b637ec4539fd"
+    },
+    {
+      "kind": "Gaussian",
+      "seed": 2026112202,
+      "NLL": 3.817397598424285,
+      "targets": 1024,
+      "point_sha256": "2d7710510bb2065be24e8bfa5aac61460f58aba63d4c5031b6ca4dcfdcaaf922"
+    },
+    {
+      "kind": "pbit",
+      "seed": 2026112203,
+      "NLL": 3.821269827018293,
+      "targets": 1024,
+      "point_sha256": "0e4bf3c74bfa6447205f513ef0d24d16ce7c6395837827680a8e3a6d52506de0"
+    },
+    {
+      "kind": "Gaussian",
+      "seed": 2026112203,
+      "NLL": 3.8176222588715722,
+      "targets": 1024,
+      "point_sha256": "e718ab3b8fbd43956a6d55ff895259a589d15d02b7e73806406eefb32496bdef"
+    },
+    {
+      "kind": "pbit",
+      "seed": 2026112204,
+      "NLL": 3.8040724267301016,
+      "targets": 1024,
+      "point_sha256": "9dead0c44042c5eea93f23baa8ac086508a2f4553c53bf3ba61fe1077b88ab52"
+    },
+    {
+      "kind": "Gaussian",
+      "seed": 2026112204,
+      "NLL": 3.82072549915269,
+      "targets": 1024,
+      "point_sha256": "4b438fb8407999498175ccd64ca1e3a432ebc3714ff05f27c48c120c2aed0572"
+    },
+    {
+      "kind": "pbit",
+      "seed": 2026112205,
+      "NLL": 3.817197021883856,
+      "targets": 1024,
+      "point_sha256": "fb7db0412a2cc061fbb4550acc0240084dcace3e1fb77864efb001a211d52992"
+    },
+    {
+      "kind": "Gaussian",
+      "seed": 2026112205,
+      "NLL": 3.842939418887163,
+      "targets": 1024,
+      "point_sha256": "a01e586528c33643346cc4c791b5145e7953cc0d1d55a5928a32712379bc1e55"
+    }
+  ],
+  "statistics": {
+    "pbit": {
+      "PPL_ratio_to_baseline": 0.9968795620300441,
+      "MC95_t4_interval": [
+        0.9840853444843889,
+        1.0098401188099162
+      ]
+    },
+    "Gaussian": {
+      "PPL_ratio_to_baseline": 1.004059419186828,
+      "MC95_t4_interval": [
+        0.988554218631755,
+        1.0198078145406504
+      ]
+    }
+  },
+  "scope": "Training-only GPT2 diagnostic. FP32 CPU arithmetic using BF16-rounded original and reconstructed weights. Full-model Gaussian noise matched per coordinate to the finite-controller mean and binomial variance before FP32/BF16 rounding. Independent Gaussian and Bernoulli random keys. No GPU, test-data evaluation, distributional equivalence, or hardware claim.",
+  "elapsed_seconds": 117.67328716488555
+}

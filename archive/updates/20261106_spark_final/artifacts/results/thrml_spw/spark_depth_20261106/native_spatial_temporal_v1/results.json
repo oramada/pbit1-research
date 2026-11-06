@@ -1,0 +1,308 @@
+{
+  "status": "completed_native_equal_observation_K1_K4_realhead_comparison",
+  "protocol_sha256": "9dd24c0934444d26d505b2683fbaf865ce2900d7ab973a9ac6b41509d67e204f",
+  "records": [
+    {
+      "layout": "storage_flat",
+      "method": "K1",
+      "seed": 2026111201,
+      "pbits": 6144,
+      "samples": 32768,
+      "observations": 201326592,
+      "output_MSE_about_original": 0.016860146736428477,
+      "predicted_output_MSE_about_original": 0.010275363312160824,
+      "squared_bias": 0.000124367346664756,
+      "counts_file_sha256": "bddd21b96b4b40151b0afa075a14036c2af1a7b610796a47637064605c52aadf",
+      "trajectory_sha256": "c1c5595c91c6959c9a875037fab17f215c934260e5cc261e7bc68d43438f06be"
+    },
+    {
+      "layout": "storage_flat",
+      "method": "K1",
+      "seed": 2026111202,
+      "pbits": 6144,
+      "samples": 32768,
+      "observations": 201326592,
+      "output_MSE_about_original": 0.015976773945509854,
+      "predicted_output_MSE_about_original": 0.010275363312160824,
+      "squared_bias": 0.000124367346664756,
+      "counts_file_sha256": "23d76482affeed5736f7402329a711e1ebb4c20e7364a069849e989879d222e6",
+      "trajectory_sha256": "4225c1565c0e6a78bf649bd1088f3f8b91e6327725fd579923648cfb9fcd457d"
+    },
+    {
+      "layout": "storage_flat",
+      "method": "K1",
+      "seed": 2026111203,
+      "pbits": 6144,
+      "samples": 32768,
+      "observations": 201326592,
+      "output_MSE_about_original": 0.007450825907040708,
+      "predicted_output_MSE_about_original": 0.010275363312160824,
+      "squared_bias": 0.000124367346664756,
+      "counts_file_sha256": "6428330107c26f1804825d85b0e0980092d7d8e60d8f6426daf67ffaa6bc687b",
+      "trajectory_sha256": "c1c4848da912aa5751999b66fab02855b72d471d0027bd4c5758f0b2f22ad0b9"
+    },
+    {
+      "layout": "storage_flat",
+      "method": "K1",
+      "seed": 2026111204,
+      "pbits": 6144,
+      "samples": 32768,
+      "observations": 201326592,
+      "output_MSE_about_original": 0.011989585580177743,
+      "predicted_output_MSE_about_original": 0.010275363312160824,
+      "squared_bias": 0.000124367346664756,
+      "counts_file_sha256": "896a354c3acf3fe08fdaa6b6c949fd7c808f21048dc8073b0e21491b20ab7be1",
+      "trajectory_sha256": "0d0b66b9cf14c1a47e761f4b64804457825cfa7b5b93d8f25369857e4973669c"
+    },
+    {
+      "layout": "storage_flat",
+      "method": "K1",
+      "seed": 2026111205,
+      "pbits": 6144,
+      "samples": 32768,
+      "observations": 201326592,
+      "output_MSE_about_original": 0.009301646581304394,
+      "predicted_output_MSE_about_original": 0.010275363312160824,
+      "squared_bias": 0.000124367346664756,
+      "counts_file_sha256": "2afd113443baec4c57a5c2791e748638bff92a163707f7dc5bc487b14e5b6679",
+      "trajectory_sha256": "cff9df7e81f8c038a74e270464259c4bc75791e6ff0243c2b8276cb69427a533"
+    },
+    {
+      "layout": "storage_flat",
+      "method": "K4",
+      "seed": 2026111201,
+      "pbits": 24576,
+      "samples": 8192,
+      "observations": 201326592,
+      "output_MSE_about_original": 0.9665648842518715,
+      "predicted_output_MSE_about_original": 0.9760711958854842,
+      "squared_bias": 0.9760333093921443,
+      "counts_file_sha256": "0db533059e55c069bf983269840beb1cef872cdf8cd8a6d06e8c164a33175ef6",
+      "trajectory_sha256": "7714c825c4a14407f6e01ee74ed65d631c881952cb6c50c2ffb53d69813ef1cd"
+    },
+    {
+      "layout": "storage_flat",
+      "method": "K4",
+      "seed": 2026111202,
+      "pbits": 24576,
+      "samples": 8192,
+      "observations": 201326592,
+      "output_MSE_about_original": 0.9782621760180242,
+      "predicted_output_MSE_about_original": 0.9760711958854842,
+      "squared_bias": 0.9760333093921443,
+      "counts_file_sha256": "47fd7716d6a8c49589c7d39b0203733a95a20ffc73938253a49edc4184015f35",
+      "trajectory_sha256": "d7d7518fcd9c1a6728dc45733fb39a9f787afc57e038ee43737062046144723b"
+    },
+    {
+      "layout": "storage_flat",
+      "method": "K4",
+      "seed": 2026111203,
+      "pbits": 24576,
+      "samples": 8192,
+      "observations": 201326592,
+      "output_MSE_about_original": 0.9750221745666727,
+      "predicted_output_MSE_about_original": 0.9760711958854842,
+      "squared_bias": 0.9760333093921443,
+      "counts_file_sha256": "a41fa7754acdf9889365eceefa109719fbde32dde827624035315679ca99e246",
+      "trajectory_sha256": "547235d771b43bed20367378a872c225e5add77557771b3ef7dd1a94165592e9"
+    },
+    {
+      "layout": "storage_flat",
+      "method": "K4",
+      "seed": 2026111204,
+      "pbits": 24576,
+      "samples": 8192,
+      "observations": 201326592,
+      "output_MSE_about_original": 0.9723655792549881,
+      "predicted_output_MSE_about_original": 0.9760711958854842,
+      "squared_bias": 0.9760333093921443,
+      "counts_file_sha256": "59ecd9d21f1257268e184b3cd9b15a13ba23dad02fd7e9d532c0b6e7601dd7f8",
+      "trajectory_sha256": "9d21ee8ed02c4d97baa48557442e5e2bf2a78a019667a0e9e4a129531253d814"
+    },
+    {
+      "layout": "storage_flat",
+      "method": "K4",
+      "seed": 2026111205,
+      "pbits": 24576,
+      "samples": 8192,
+      "observations": 201326592,
+      "output_MSE_about_original": 0.9725829246551898,
+      "predicted_output_MSE_about_original": 0.9760711958854842,
+      "squared_bias": 0.9760333093921443,
+      "counts_file_sha256": "6e579f2a590f132f5c874f6e70107e796801aa44070282d9678e29dcad7a52c9",
+      "trajectory_sha256": "70c8e6001b2c509c0c247c0e47c2d4f214083bf89d6fd6b4fec0847760d8865d"
+    },
+    {
+      "layout": "transposed_matrix",
+      "method": "K1",
+      "seed": 2026111201,
+      "pbits": 6144,
+      "samples": 32768,
+      "observations": 201326592,
+      "output_MSE_about_original": 8.581611417786122e-05,
+      "predicted_output_MSE_about_original": 6.607106868073944e-05,
+      "squared_bias": 4.665460118970077e-07,
+      "counts_file_sha256": "0a3c866610a4c14bf59c47883f013470ec36919ff79ce2cf8f2fe5fa313fff2a",
+      "trajectory_sha256": "10c61757d44b6dacda1cb1eaa896e1c42e786a012537eb777f6a2572645c2ae2"
+    },
+    {
+      "layout": "transposed_matrix",
+      "method": "K1",
+      "seed": 2026111202,
+      "pbits": 6144,
+      "samples": 32768,
+      "observations": 201326592,
+      "output_MSE_about_original": 5.7101514125974996e-05,
+      "predicted_output_MSE_about_original": 6.607106868073944e-05,
+      "squared_bias": 4.665460118970077e-07,
+      "counts_file_sha256": "dc219bc7aac89dbfbed2040545d211d16682ddf48685786bfefedc44e13a7a50",
+      "trajectory_sha256": "2606338b0e4693f1ff59b40ed4538c3de673e1757b73e5ebc7bbb95bdb1c679b"
+    },
+    {
+      "layout": "transposed_matrix",
+      "method": "K1",
+      "seed": 2026111203,
+      "pbits": 6144,
+      "samples": 32768,
+      "observations": 201326592,
+      "output_MSE_about_original": 9.07468768222405e-05,
+      "predicted_output_MSE_about_original": 6.607106868073944e-05,
+      "squared_bias": 4.665460118970077e-07,
+      "counts_file_sha256": "e448f7b593261b28fbcea04df58d8be87f5d5dc359f7ecfa1b96fa1b32ef7683",
+      "trajectory_sha256": "366cc550ec77bfa5965b2324be5dda457533e14fdbeb6c0d53d618c163eac36b"
+    },
+    {
+      "layout": "transposed_matrix",
+      "method": "K1",
+      "seed": 2026111204,
+      "pbits": 6144,
+      "samples": 32768,
+      "observations": 201326592,
+      "output_MSE_about_original": 2.999610699290839e-05,
+      "predicted_output_MSE_about_original": 6.607106868073944e-05,
+      "squared_bias": 4.665460118970077e-07,
+      "counts_file_sha256": "ed8158d3b48a6af64fad88be3c32858363361b90e4e2940c11350e5009862ed3",
+      "trajectory_sha256": "07ed03a6dcf2f8156e78d1a7c4dc2868164aebf93d854275205d9261f4f9e01f"
+    },
+    {
+      "layout": "transposed_matrix",
+      "method": "K1",
+      "seed": 2026111205,
+      "pbits": 6144,
+      "samples": 32768,
+      "observations": 201326592,
+      "output_MSE_about_original": 6.222658726861122e-05,
+      "predicted_output_MSE_about_original": 6.607106868073944e-05,
+      "squared_bias": 4.665460118970077e-07,
+      "counts_file_sha256": "896a11503e37b2572ba5d6365521fde6019051f7162e3a014117fa4dea168713",
+      "trajectory_sha256": "0d801b6386707854fe440f399a5de04e81858c7c254e6ee67c6bb6d75fa4f094"
+    },
+    {
+      "layout": "transposed_matrix",
+      "method": "K4",
+      "seed": 2026111201,
+      "pbits": 24576,
+      "samples": 8192,
+      "observations": 201326592,
+      "output_MSE_about_original": 0.003750647552849731,
+      "predicted_output_MSE_about_original": 0.003751863065125418,
+      "squared_bias": 0.0037516838756408493,
+      "counts_file_sha256": "97cd759c16a85a62d5199a10335bb042308b89ea0a8b5cd9f2daef9a7ce11910",
+      "trajectory_sha256": "a33719d29870ff93a71f0af7724071b78d007fd9d1078d03e623971c221650f9"
+    },
+    {
+      "layout": "transposed_matrix",
+      "method": "K4",
+      "seed": 2026111202,
+      "pbits": 24576,
+      "samples": 8192,
+      "observations": 201326592,
+      "output_MSE_about_original": 0.003770481228409695,
+      "predicted_output_MSE_about_original": 0.003751863065125418,
+      "squared_bias": 0.0037516838756408493,
+      "counts_file_sha256": "fade4391d371521982c68bb367a3fff1b845442cacf1a5a8200ff408fc86d77d",
+      "trajectory_sha256": "a39da7a66bdd650d93c12aa45fb49ca6342b7aa4e9ce987962ed2349df81e0e5"
+    },
+    {
+      "layout": "transposed_matrix",
+      "method": "K4",
+      "seed": 2026111203,
+      "pbits": 24576,
+      "samples": 8192,
+      "observations": 201326592,
+      "output_MSE_about_original": 0.003724021435997659,
+      "predicted_output_MSE_about_original": 0.003751863065125418,
+      "squared_bias": 0.0037516838756408493,
+      "counts_file_sha256": "93371691a44a582a442e1e040d1f3685c13c414aac7048a4584ac27d9105caf1",
+      "trajectory_sha256": "c14e1ae544a86182c6bc3998d9d83d1e4e374426014d85156501cdf60520ba1a"
+    },
+    {
+      "layout": "transposed_matrix",
+      "method": "K4",
+      "seed": 2026111204,
+      "pbits": 24576,
+      "samples": 8192,
+      "observations": 201326592,
+      "output_MSE_about_original": 0.003739991476395237,
+      "predicted_output_MSE_about_original": 0.003751863065125418,
+      "squared_bias": 0.0037516838756408493,
+      "counts_file_sha256": "0b7a3f659e637357c80d1dc70957e82111177f47737eec2d952d40618d834b8f",
+      "trajectory_sha256": "c2fed7b9879fb1199760e721ffa2bbaa87d0be183fa53c8041df44b4338b133e"
+    },
+    {
+      "layout": "transposed_matrix",
+      "method": "K4",
+      "seed": 2026111205,
+      "pbits": 24576,
+      "samples": 8192,
+      "observations": 201326592,
+      "output_MSE_about_original": 0.003721121534681959,
+      "predicted_output_MSE_about_original": 0.003751863065125418,
+      "squared_bias": 0.0037516838756408493,
+      "counts_file_sha256": "174f81c3012195f0dd475a5a3e11d817312c32fd8cdf02ad4317fe5065b43d4b",
+      "trajectory_sha256": "fd7a3a50f66d1e9943be9812fd260280a34c1e5c78c696e1e3567d91e564059d"
+    }
+  ],
+  "controls": [
+    {
+      "layout": "storage_flat",
+      "INT4_exact_word_MSE": 0.9633049881104037
+    },
+    {
+      "layout": "transposed_matrix",
+      "INT4_exact_word_MSE": 0.003813831087284147
+    }
+  ],
+  "summary": {
+    "storage_flat": {
+      "K1": {
+        "mean_output_MSE": 0.012315795750092234,
+        "theoretical_MSE": 0.010275363312160824,
+        "pbits": 6144,
+        "samples": 32768
+      },
+      "K4": {
+        "mean_output_MSE": 0.9729595477493493,
+        "theoretical_MSE": 0.9760711958854842,
+        "pbits": 24576,
+        "samples": 8192
+      }
+    },
+    "transposed_matrix": {
+      "K1": {
+        "mean_output_MSE": 6.517743987751926e-05,
+        "theoretical_MSE": 6.607106868073944e-05,
+        "pbits": 6144,
+        "samples": 32768
+      },
+      "K4": {
+        "mean_output_MSE": 0.003741252645666856,
+        "theoretical_MSE": 0.003751863065125418,
+        "pbits": 24576,
+        "samples": 8192
+      }
+    }
+  },
+  "elapsed_seconds": 22.783357030013576,
+  "scope": "OfficialTHRML, real8x768headweightbank,8fixedhiddenvectors,5seeds. Equal201326592deviceobservationspermethodperseed. K1uses12bitcontrol/scalar;K4uses4bitword/scalar plussharedendpointfields. Countdifferentcontrolprecision. No fullmodelquality orhardwareenergyclaim."
+}

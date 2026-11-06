@@ -1,0 +1,121 @@
+{
+  "recorded_unix": 1793918533.5365238,
+  "protocol_sha256": "b003fedc90d962500907e8cf435ca359ab1ef9a27ea3e892c2fe12a17ea79626",
+  "completed_cases": [
+    {
+      "case": "distilbert__original",
+      "mode": "control",
+      "model": "distilbert",
+      "audit_sha256": "2d8086712f0dd3e229b7b0682a82bc3cc0451e5e5c0613193540f10164d66ee5",
+      "batches": 196,
+      "observations": 25000
+    },
+    {
+      "case": "distilbert__mean1",
+      "mode": "control",
+      "model": "distilbert",
+      "audit_sha256": "7a6ec31debc94ab49850f75845ead516e38257fbd91c7c815b977ec48796dffc",
+      "batches": 196,
+      "observations": 25000
+    },
+    {
+      "case": "distilbert__mean4",
+      "mode": "control",
+      "model": "distilbert",
+      "audit_sha256": "4c2cd8094bdf74b4ece16ae74062f6b5a87870048d038538b6b7bf872e124e6d",
+      "batches": 196,
+      "observations": 25000
+    },
+    {
+      "case": "gpt2__original",
+      "mode": "control",
+      "model": "gpt2",
+      "audit_sha256": "ec5512aef3001f0e7a6112b58ce4b843d2436ae06ec4a17deb119af0ac1c645a",
+      "batches": 586,
+      "observations": 283225
+    },
+    {
+      "case": "gpt2__mean1",
+      "mode": "control",
+      "model": "gpt2",
+      "audit_sha256": "55540781347b7b0f05b8ab4670985d41ea5db256925ad06d504d2eb95b3436dd",
+      "batches": 586,
+      "observations": 283225
+    },
+    {
+      "case": "distilbert__mean8",
+      "mode": "control",
+      "model": "distilbert",
+      "audit_sha256": "65841614bd42a3e90eb525a3fff76e6dfd602bbf09df6147cb70f832d59f07bf",
+      "batches": 196,
+      "observations": 25000
+    },
+    {
+      "case": "distilbert__int2",
+      "mode": "control",
+      "model": "distilbert",
+      "audit_sha256": "77c2f9aa45169f113033b938f7fb1ee2bfb998049ba81246272fff58b9a98189",
+      "batches": 196,
+      "observations": 25000
+    },
+    {
+      "case": "gpt2__mean8",
+      "mode": "control",
+      "model": "gpt2",
+      "audit_sha256": "01cead385e99c37521a5a171b260057f64fd76b0c63f03ca30fe64fcf6953fbf",
+      "batches": 586,
+      "observations": 283225
+    },
+    {
+      "case": "distilbert__int4",
+      "mode": "control",
+      "model": "distilbert",
+      "audit_sha256": "781e39912edfc832157a8c59ff75dc55990a35e4479420da2ce803eed9f96173",
+      "batches": 196,
+      "observations": 25000
+    },
+    {
+      "case": "gpt2__mean4",
+      "mode": "control",
+      "model": "gpt2",
+      "audit_sha256": "953b162fcf515d074bf51cf2f979aa627b6966f2378bf77bc3d9ea1f4e5d3c14",
+      "batches": 586,
+      "observations": 283225
+    },
+    {
+      "case": "distilbert__int8",
+      "mode": "control",
+      "model": "distilbert",
+      "audit_sha256": "cf9ecfb8172f82815c55315fdfb95f3a4d26bcf184c431a88889a6cb3dabbdbc",
+      "batches": 196,
+      "observations": 25000
+    },
+    {
+      "case": "gpt2__int2",
+      "mode": "control",
+      "model": "gpt2",
+      "audit_sha256": "ff4ae5cd31d0234cc8dc23e2029e3d0d80781666161594ae1ece79896d321ee3",
+      "batches": 586,
+      "observations": 283225
+    }
+  ],
+  "submitted_calls": {
+    "gpt2__original": "fc-01M6PX5F4MD1A72WRV1C3FXE70",
+    "distilbert__original": "fc-01M6PX5F8A9HG779P2AB7TY47S",
+    "gpt2__mean1": "fc-01M6PX5FCEAKQS0NPGZ0TRAHFN",
+    "distilbert__mean1": "fc-01M6PX5FGT9WFG8N5Z30BDYXZE",
+    "gpt2__mean4": "fc-01M6PX7V92QCX8A9SGJR8SD539",
+    "distilbert__mean4": "fc-01M6PX8AJ5W66B1PE5NEZ81Y7S",
+    "gpt2__mean8": "fc-01M6PXA7739ZF50JK22DE48BCJ",
+    "distilbert__mean8": "fc-01M6PXGV4EDTJS90NRXX6Y3FT6",
+    "gpt2__int2": "fc-01M6PXJ8K9F7AER35W20X050DC",
+    "distilbert__int2": "fc-01M6PXKP2KBZP8PW7MQ0EH5HR6",
+    "gpt2__int4": "fc-01M6PXP1SWMSB8Q6HVMCEPNC2A",
+    "distilbert__int4": "fc-01M6PXQYFXR24G2FMQQFA9PJM8",
+    "gpt2__int8": "fc-01M6PXTA85YNTTG3E7CZTFVQRR",
+    "distilbert__int8": "fc-01M6PXTSHCQG3NWVD3CSGZJ8GD",
+    "gpt2__K1_C8192_seed202611220": "fc-01M6PXX5BT7GS4ZNXJVNK9ZAW3",
+    "distilbert__K1_C8192_seed202611320": "fc-01M6PXYJVRRWGP1N0GQYHTMGXY"
+  },
+  "scope": "Live state snapshot; deterministic controls are not stochasticquality confirmation. Full5seedcohorts and independentstatistics remain pending."
+}

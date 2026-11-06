@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "source": "research/thrml_spw/spark_depth/audit_lfm3_benchmark_v1.py",
+      "sha256": "2d984430ddff0873ac9b624045eaf270a44e970b3de109ad7d6681cf6ae6e14f",
+      "snapshot": "results/thrml_spw/source_snapshots/2d984430ddff0873ac9b624045eaf270a44e970b3de109ad7d6681cf6ae6e14f.py"
+    },
+    {
+      "source": "research/thrml_spw/spark_depth/test_lfm3_audit_helpers_v1.py",
+      "sha256": "27a7aa9db2ea4660f8d5d0db643fad3923cd774b4172ab219c467a38eb8befcf",
+      "snapshot": "results/thrml_spw/source_snapshots/27a7aa9db2ea4660f8d5d0db643fad3923cd774b4172ab219c467a38eb8befcf.py"
+    },
+    {
+      "source": "research/thrml_spw/spark_depth/gpt2_calibration_control_v1.py",
+      "sha256": "80f22324954589f20e5c7530993926fc1cb23ed3956e717b0d8aee0939e5d4ef",
+      "snapshot": "results/thrml_spw/source_snapshots/80f22324954589f20e5c7530993926fc1cb23ed3956e717b0d8aee0939e5d4ef.py"
+    },
+    {
+      "source": "research/thrml_spw/spark_depth/audit_gpt2_calibration_v1.py",
+      "sha256": "0e544f69953952a43b78b5f34ff7fb4d5f4159919879d604cae4db37da4b631f",
+      "snapshot": "results/thrml_spw/source_snapshots/0e544f69953952a43b78b5f34ff7fb4d5f4159919879d604cae4db37da4b631f.py"
+    },
+    {
+      "source": "research/thrml_spw/spark_depth/analyze_gpt2_calibration_v1.py",
+      "sha256": "a75cde0140b9f66e6b980b2d4111816a99beb7d9129ace93b0b294faa3c5dcef",
+      "snapshot": "results/thrml_spw/source_snapshots/a75cde0140b9f66e6b980b2d4111816a99beb7d9129ace93b0b294faa3c5dcef.py"
+    },
+    {
+      "source": "research/thrml_spw/spark_depth/reduced_work_gpu_v1.py",
+      "sha256": "b735bd0d4afe5a87279b37e9e5120a5fcc383b127577f8cb3ac7dd40d9dfa6eb",
+      "snapshot": "results/thrml_spw/source_snapshots/b735bd0d4afe5a87279b37e9e5120a5fcc383b127577f8cb3ac7dd40d9dfa6eb.py"
+    }
+  ]
+}

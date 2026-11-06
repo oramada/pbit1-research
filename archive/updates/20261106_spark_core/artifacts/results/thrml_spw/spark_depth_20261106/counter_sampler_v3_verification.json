@@ -1,0 +1,48 @@
+{
+  "status": "all4_aligned_group_and_dtype_fixtures_passed",
+  "source_sha256": "1c7a618c24b9cada27dbf05ffcabc79304f44e4d95fbd93344f0b9818e43fa7e",
+  "sampler_sha256": "8003a7db03cedd2cfdfc2dbb63049e45c4c29f6abe6ba195cc4f76645eac012b",
+  "checks": [
+    {
+      "shape": [
+        37500,
+        1,
+        7
+      ],
+      "group": 7,
+      "samples": 32,
+      "layout": "storage_flat",
+      "exact_reference_match": true
+    },
+    {
+      "shape": [
+        37500,
+        1,
+        7
+      ],
+      "group": 7,
+      "samples": 131072,
+      "layout": "storage_flat",
+      "exact_reference_match": true
+    },
+    {
+      "shape": [
+        17,
+        19
+      ],
+      "group": 128,
+      "samples": 8192,
+      "layout": "transposed_matrix",
+      "exact_reference_match": true
+    },
+    {
+      "shape": [
+        21
+      ],
+      "group": 7,
+      "samples": 65536,
+      "layout": "storage_flat",
+      "exact_reference_match": true
+    }
+  ]
+}

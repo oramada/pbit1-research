@@ -1,0 +1,9 @@
+{
+  "files": [
+    {
+      "source": "research/thrml_spw/spark_depth/audit_lfm3_training_v2.py",
+      "sha256": "264a9a897641a70b031d477f4c92f764341b6e6409893685ceb82d21ca5e339a",
+      "snapshot": "results/thrml_spw/source_snapshots/264a9a897641a70b031d477f4c92f764341b6e6409893685ceb82d21ca5e339a.py"
+    }
+  ]
+}

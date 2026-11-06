@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "source": "research/thrml_spw/spark_depth/lfm3_causal_depth_v1.py",
+      "sha256": "0a42b9332a52a489a0edb788894154f7be2a348f34e8e0275ea59d7138787880",
+      "snapshot": "results/thrml_spw/source_snapshots/0a42b9332a52a489a0edb788894154f7be2a348f34e8e0275ea59d7138787880.py"
+    },
+    {
+      "source": "research/thrml_spw/spark_depth/lfm3_benchmark_v1.py",
+      "sha256": "97393ae39d1f45aa22a86a798544ebc32faae5483afb383a36dd6ab723506cf6",
+      "snapshot": "results/thrml_spw/source_snapshots/97393ae39d1f45aa22a86a798544ebc32faae5483afb383a36dd6ab723506cf6.py"
+    },
+    {
+      "source": "research/thrml_spw/spark_depth/verify_lfm3_selected_logits_v1.py",
+      "sha256": "30633067bf98e5051855c4d0127cc1323973f1e3ea90a1a60b4755214d0aa266",
+      "snapshot": "results/thrml_spw/source_snapshots/30633067bf98e5051855c4d0127cc1323973f1e3ea90a1a60b4755214d0aa266.py"
+    },
+    {
+      "source": "research/thrml_spw/spark_depth/verify_sdk_program_v1.py",
+      "sha256": "eab862725abceee85f29a3aa0a4fe48f246f9d07841f4ce241e84574be344367",
+      "snapshot": "results/thrml_spw/source_snapshots/eab862725abceee85f29a3aa0a4fe48f246f9d07841f4ce241e84574be344367.py"
+    },
+    {
+      "source": "research/thrml_spw/spark_depth/verify_sdk_program_v2.py",
+      "sha256": "e343480c60dad5968d05068a42fe1cc9cc3368bb2f0565ef93644f305a60dcf1",
+      "snapshot": "results/thrml_spw/source_snapshots/e343480c60dad5968d05068a42fe1cc9cc3368bb2f0565ef93644f305a60dcf1.py"
+    },
+    {
+      "source": "research/thrml_spw/spark_depth/lfm3_first_seed_diagnostic_v1.py",
+      "sha256": "ea842617fe5ad11f0fb7d8db922ca0535692e5341c22abf2268820fda24cb083",
+      "snapshot": "results/thrml_spw/source_snapshots/ea842617fe5ad11f0fb7d8db922ca0535692e5341c22abf2268820fda24cb083.py"
+    },
+    {
+      "source": "publish/pbit1/src/pbit1/program.py",
+      "sha256": "015e64966c6b7031930eb5ffe29b4d81cc4aba2836083477ab239f691cc04705",
+      "snapshot": "results/thrml_spw/source_snapshots/015e64966c6b7031930eb5ffe29b4d81cc4aba2836083477ab239f691cc04705.py"
+    },
+    {
+      "source": "publish/pbit1/tests/test_finite_program.py",
+      "sha256": "1aee5b63e4ae0900c9c6792ec87d07c376e9fc6492bd3a03e588166b6408924f",
+      "snapshot": "results/thrml_spw/source_snapshots/1aee5b63e4ae0900c9c6792ec87d07c376e9fc6492bd3a03e588166b6408924f.py"
+    }
+  ]
+}

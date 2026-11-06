@@ -1,0 +1,40 @@
+{
+  "status": "identical_control_tensors_have_nonidentical_FP64_metric_reductions",
+  "source_sha256": "a985d908d2dd01c777776ddb6d4100662e85cede9c8994107592ef7bb8ddab28",
+  "inputs_sha256": {
+    "results/thrml_spw/broad_verification_20261105/h100_mirror/results/thrml_spw/lfm3_1p7b/modal_h100_word_v2/C8192/K4/mean/202610600/results.json": "6ae872f4e212e8fd70afa46a0ac8f255679baa8aa123c51af093ad999d0535a7",
+    "results/thrml_spw/broad_verification_20261105/h100_mirror/results/thrml_spw/lfm3_1p7b/modal_h100_word_v2/C8192/K4/mean/202610600/h100_independent_audit_v3.json": "ce2c3ae40bcf49d7cb1e0768ccf4de5d133ad35c9ebdc9dcc4b4bda93bc698bc",
+    "results/thrml_spw/broad_verification_20261105/h100_mirror/results/thrml_spw/lfm3_1p7b/modal_h100_word_v2/C8192/K4/mean/202610601/results.json": "efab6057f8f702b06bb533635a5e0982b9ba6f41f184beeb41acb7a285326409",
+    "results/thrml_spw/broad_verification_20261105/h100_mirror/results/thrml_spw/lfm3_1p7b/modal_h100_word_v2/C8192/K4/mean/202610601/h100_independent_audit_v3.json": "0632bcb58f276aad96a01b62969726551e80fdf613556acf1901675e938b7da9",
+    "results/thrml_spw/broad_verification_20261105/h100_mirror/results/thrml_spw/lfm3_1p7b/modal_h100_word_v2/C8192/K4/mean/202610602/results.json": "944246a64e022d46af3bb1eca23e0e4d9f690bb521fbeeb813b6076fba0ef462",
+    "results/thrml_spw/broad_verification_20261105/h100_mirror/results/thrml_spw/lfm3_1p7b/modal_h100_word_v2/C8192/K4/mean/202610602/h100_independent_audit_v3.json": "bd26bcbf71b872594af2066b50c2abdf7e2b3089a30d34abad5faeff4aee3ef7",
+    "results/thrml_spw/broad_verification_20261105/h100_mirror/results/thrml_spw/lfm3_1p7b/modal_h100_word_v2/C8192/K4/mean/202610603/results.json": "a7cac5419baa076e3bcff1dc091da465da5014d371283398de1bf0ac29f57644",
+    "results/thrml_spw/broad_verification_20261105/h100_mirror/results/thrml_spw/lfm3_1p7b/modal_h100_word_v2/C8192/K4/mean/202610603/h100_independent_audit_v3.json": "2d7805d5d24993a5af4bbee68257477cd59ba1880ef8096a6abb86229fe63fb8",
+    "results/thrml_spw/broad_verification_20261105/h100_mirror/results/thrml_spw/lfm3_1p7b/modal_h100_word_v2/C8192/K4/mean/202610604/results.json": "d3683dd15a17948311664e08badfbbe2fe43a24b18a434e2132b9dc2e6ff1586",
+    "results/thrml_spw/broad_verification_20261105/h100_mirror/results/thrml_spw/lfm3_1p7b/modal_h100_word_v2/C8192/K4/mean/202610604/h100_independent_audit_v3.json": "780ad76a5f8619703d6aa2f957f9686ffde13533e3c05c59b49fbad64043ac22",
+    "results/thrml_spw/broad_verification_20261105/h100_mirror/results/thrml_spw/lfm3_1p7b/modal_h100_word_v2/C8192/K8/mean/202610600/results.json": "68141b92d8f057effcde50dccfe746e127dc82fabedb02fc4065ad470cf7778c",
+    "results/thrml_spw/broad_verification_20261105/h100_mirror/results/thrml_spw/lfm3_1p7b/modal_h100_word_v2/C8192/K8/mean/202610600/h100_independent_audit_v3.json": "3556c0b332a2c7fc24c65a8338baebc8e40f10a7fc84e33965a61c48b556c468",
+    "results/thrml_spw/broad_verification_20261105/h100_mirror/results/thrml_spw/lfm3_1p7b/modal_h100_word_v2/C8192/K8/mean/202610601/results.json": "6856cc51bb5cc7d12ceeab62009a1229d854dcdfe179ae6d9763cad150328621",
+    "results/thrml_spw/broad_verification_20261105/h100_mirror/results/thrml_spw/lfm3_1p7b/modal_h100_word_v2/C8192/K8/mean/202610601/h100_independent_audit_v3.json": "4a70077637709b0ed7fbfb3f804ead190c0c52242b1754e46d48f8ccd23c8348",
+    "results/thrml_spw/broad_verification_20261105/h100_mirror/results/thrml_spw/lfm3_1p7b/modal_h100_word_v2/C8192/K8/mean/202610602/results.json": "98043196db23df06ef889f2b0988f7b14b14183d84a4d67e7c7088bec9a9ee4d",
+    "results/thrml_spw/broad_verification_20261105/h100_mirror/results/thrml_spw/lfm3_1p7b/modal_h100_word_v2/C8192/K8/mean/202610602/h100_independent_audit_v3.json": "0c27b40f97abf514b8fd24e874927bfae0900c7fdc5faf324c94427b8a582966",
+    "results/thrml_spw/broad_verification_20261105/h100_mirror/results/thrml_spw/lfm3_1p7b/modal_h100_word_v2/C8192/K8/mean/202610603/results.json": "027ac2551e943fa7f4f3ba721bee47575d2fbc1fc1ab815c73851df139de88cd",
+    "results/thrml_spw/broad_verification_20261105/h100_mirror/results/thrml_spw/lfm3_1p7b/modal_h100_word_v2/C8192/K8/mean/202610603/h100_independent_audit_v3.json": "0027a94120bfc15040410e451222f27fff7f12bd7fa864a8bfdc4e5a09a3cf80",
+    "results/thrml_spw/broad_verification_20261105/h100_mirror/results/thrml_spw/lfm3_1p7b/modal_h100_word_v2/C8192/K8/mean/202610604/results.json": "5b45cb464d9f78a7c4bfd2329c8e4dcccbf6804081fff5ad75cde960b36ad07f",
+    "results/thrml_spw/broad_verification_20261105/h100_mirror/results/thrml_spw/lfm3_1p7b/modal_h100_word_v2/C8192/K8/mean/202610604/h100_independent_audit_v3.json": "c063c41b217a832bede529fe875f2dc737c901886f8dee1d0a5c3bb2853a58f0"
+  },
+  "observations": [
+    {
+      "word_bits": 4,
+      "maximum_absolute_per_token_NLL_reduction_difference": 3.552713678800501e-15,
+      "entries_different_from_first_seed_control": 15
+    },
+    {
+      "word_bits": 8,
+      "maximum_absolute_per_token_NLL_reduction_difference": 3.552713678800501e-15,
+      "entries_different_from_first_seed_control": 5
+    }
+  ],
+  "engineering_requirement": "Recovery implementation must preserve per-seed losses and allow at most1e-12absolute numerical variation for deterministic FP64 control-loss validation. Keep own-H100 raw control tensor equality, original2percentqualitymargin and paired statistical definitions. Do not round or discard losses.",
+  "scope": "Diagnostic on already completed fixed-validation comparisons, not new holdout outcomes or a change in task-quality criteria."
+}

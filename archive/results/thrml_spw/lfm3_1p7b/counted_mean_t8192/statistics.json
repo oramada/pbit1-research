@@ -1,0 +1,118 @@
+{
+  "status": "all_five_prior_selected_mean_cases_summarized",
+  "inputs_sha256": {
+    "results/thrml_spw/lfm3_1p7b/counted_mean_t8192/mean/202610600/independent_audit.json": "9a62fa424aae4502628f509b569b32d54d28df27491f9ab541aa7363ad118b3b",
+    "results/thrml_spw/lfm3_1p7b/counted_mean_t8192/mean/202610600/results.json": "71367fc2c44d20df054fde074d9c59f7a099e29b00475cc660b825319419c6a6",
+    "results/thrml_spw/lfm3_1p7b/counted_mean_t8192/mean/202610601/independent_audit.json": "edcd2240ddc7c80fac897bf94132107fe115cd485c84185cbcb800955296dea4",
+    "results/thrml_spw/lfm3_1p7b/counted_mean_t8192/mean/202610601/results.json": "47aae7ee4bc435c53f524d5d0995c94a38141202d8de533865dc1efd70390ea5",
+    "results/thrml_spw/lfm3_1p7b/counted_mean_t8192/mean/202610602/independent_audit.json": "07867e20f6a6ea6b7aafe40573df1c572636179cd04e6811f371a1b2b6205d7b",
+    "results/thrml_spw/lfm3_1p7b/counted_mean_t8192/mean/202610602/results.json": "dafd9464e58661e1a43b49c90747e9789be1bab2e5c52f7dcc9e041a6bad3864",
+    "results/thrml_spw/lfm3_1p7b/counted_mean_t8192/mean/202610603/independent_audit.json": "a22127facb805ee703f48dca49f32e4da4edac529155da3db0983cb607318b40",
+    "results/thrml_spw/lfm3_1p7b/counted_mean_t8192/mean/202610603/results.json": "4067994195ca0dcfd3c59403a701e4ed0b2e5e455a7b71cb6a564b06b4ec9974",
+    "results/thrml_spw/lfm3_1p7b/counted_mean_t8192/mean/202610604/independent_audit.json": "dffffea72ff283cdb2f4f449ccb4d3b41ed1575ba1f0f10b80d19ebb16c39703",
+    "results/thrml_spw/lfm3_1p7b/counted_mean_t8192/mean/202610604/results.json": "56f8fb7e6a6d3c4899d1eb282b9768b6d614f8dd2529a6ab8a63ddc651b069da"
+  },
+  "protocol_sha256": "974b478da7420ee63ee930ee481fcf33f6583a8d0f62dc2d4ce3176105b93341",
+  "controls_NLL": {
+    "BF16": 4.978250316314612,
+    "same_fit_BF16": 4.321675645982948,
+    "nominal_controls": 4.29973876220307
+  },
+  "native_NLL": {
+    "values": [
+      4.313484919131014,
+      4.322962388933826,
+      4.30358818784716,
+      4.316338141830917,
+      4.341369896633683
+    ],
+    "mean": 4.31954870687532,
+    "standard_error": 0.00628344238864203,
+    "MC95_t4_interval": [
+      4.302103074011582,
+      4.336994339739058
+    ]
+  },
+  "native_minus_control_NLL": {
+    "BF16": {
+      "values": [
+        -0.6647653971835981,
+        -0.6552879273807859,
+        -0.6746621284674523,
+        -0.6619121744836951,
+        -0.6368804196809288
+      ],
+      "mean": -0.658701609439292,
+      "standard_error": 0.00628344238864203,
+      "MC95_t4_interval": [
+        -0.6761472423030296,
+        -0.6412559765755544
+      ]
+    },
+    "same_fit_BF16": {
+      "values": [
+        -0.008190726851934116,
+        0.0012867429508780504,
+        -0.01808745813578838,
+        -0.005337504152031158,
+        0.019694250650735157
+      ],
+      "mean": -0.0021269391076280896,
+      "standard_error": 0.00628344238864203,
+      "MC95_t4_interval": [
+        -0.019572571971365617,
+        0.015318693756109438
+      ]
+    },
+    "nominal_controls": {
+      "values": [
+        0.013746156927943787,
+        0.023223626730755953,
+        0.0038494256440895214,
+        0.016599379627846744,
+        0.04163113443061306
+      ],
+      "mean": 0.019809944672249814,
+      "standard_error": 0.00628344238864203,
+      "MC95_t4_interval": [
+        0.002364311808512286,
+        0.03725557753598734
+      ]
+    }
+  },
+  "native_subset_perplexity": 75.15470383653333,
+  "native_over_same_fit_BF16_PPL_ratio": 0.997875321224542,
+  "native_over_same_fit_BF16_PPL_ratio_MC95_interval": [
+    0.9806177272446762,
+    1.0154366263669734
+  ],
+  "conditional_same_fit_BF16_gate_passed": true,
+  "work_per_seed": [
+    {
+      "retained_scheduled_evaluations": 56704548995072,
+      "warmup_scheduled_evaluations": 6921942016,
+      "max_temporary_weight_count_bytes": 7864320
+    },
+    {
+      "retained_scheduled_evaluations": 56704548995072,
+      "warmup_scheduled_evaluations": 6921942016,
+      "max_temporary_weight_count_bytes": 7864320
+    },
+    {
+      "retained_scheduled_evaluations": 56704548995072,
+      "warmup_scheduled_evaluations": 6921942016,
+      "max_temporary_weight_count_bytes": 7864320
+    },
+    {
+      "retained_scheduled_evaluations": 56704548995072,
+      "warmup_scheduled_evaluations": 6921942016,
+      "max_temporary_weight_count_bytes": 7864320
+    },
+    {
+      "retained_scheduled_evaluations": 56704548995072,
+      "warmup_scheduled_evaluations": 6921942016,
+      "max_temporary_weight_count_bytes": 7864320
+    }
+  ],
+  "scope": "New exploratory temporal-precision condition after two closed failed validation gates, same prior-selected mean learned point/all1,728,801,536uniqueparameters/2048reservedtargets. Five fresh independent MCclusters600..604, unchanged upperMCt4same-fitBF16NLLmarginlog1.02. TwiceT4096/eighttimesT1024retainednodeevaluations;warmupunchanged, allcontrol/range/readout/countercosts retained. Explicit int32per-weight temporary simulator counts. No numericalBF16equivalence/generalization/physicalenergy/latency/device-residency claim. All oldresultsincludingnegativegateskept; no poolingconditionsasextraMCseeds. Existing matchedspatialstudy onlycoversC1024/C4096: a C8192matchedcontrolstudy would stillbe required before a C8192systems claim. Existingholdoutpolicy qualifiesneitheroldbudget and is notsilentlychanged; no holdout scoring inthisstudy."
+}

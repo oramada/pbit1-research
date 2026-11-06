@@ -1,0 +1,135 @@
+{
+  "scope": "Analytic independent-weight conditional logit variance with originalBF16hiddenheldfixed; trainingdiagnosticrows0:8. No stochasticforwardorqualityclaim.",
+  "results": {
+    "storage_flat": {
+      "mean_conditional_logit_variance": 0.614435283844317,
+      "top10": [
+        {
+          "channel": 496,
+          "contribution": 0.4508631311670566,
+          "mean_hidden_squared": 38822.09791946411,
+          "mean_weight_variance_T8192": 1.1613569470211676e-05
+        },
+        {
+          "channel": 430,
+          "contribution": 0.08458500308712258,
+          "mean_hidden_squared": 9591.531950366916,
+          "mean_weight_variance_T8192": 8.818716710200487e-06
+        },
+        {
+          "channel": 36,
+          "contribution": 0.038738480235024964,
+          "mean_hidden_squared": 6182.09656406939,
+          "mean_weight_variance_T8192": 6.266236677727531e-06
+        },
+        {
+          "channel": 314,
+          "contribution": 0.027212065489832304,
+          "mean_hidden_squared": 1830.0132974814187,
+          "mean_weight_variance_T8192": 1.4869873091787523e-05
+        },
+        {
+          "channel": 374,
+          "contribution": 0.005576628599758947,
+          "mean_hidden_squared": 352.36098188477627,
+          "mean_weight_variance_T8192": 1.582646458166169e-05
+        },
+        {
+          "channel": 442,
+          "contribution": 0.0014941263994174257,
+          "mean_hidden_squared": 118.77535624376105,
+          "mean_weight_variance_T8192": 1.2579431008828552e-05
+        },
+        {
+          "channel": 703,
+          "contribution": 0.0006976385040597594,
+          "mean_hidden_squared": 51.964137527553305,
+          "mean_weight_variance_T8192": 1.3425384067807259e-05
+        },
+        {
+          "channel": 6,
+          "contribution": 0.0006534181111652886,
+          "mean_hidden_squared": 95.99113100349518,
+          "mean_weight_variance_T8192": 6.807067531494098e-06
+        },
+        {
+          "channel": 479,
+          "contribution": 0.0004481673377235022,
+          "mean_hidden_squared": 41.84257802608954,
+          "mean_weight_variance_T8192": 1.0710796486871875e-05
+        },
+        {
+          "channel": 107,
+          "contribution": 0.0003262928332217317,
+          "mean_hidden_squared": 22.575578079439367,
+          "mean_weight_variance_T8192": 1.4453354508733569e-05
+        }
+      ]
+    },
+    "transposed_matrix": {
+      "mean_conditional_logit_variance": 0.0026980049047864475,
+      "top10": [
+        {
+          "channel": 496,
+          "contribution": 0.0001995706006856471,
+          "mean_hidden_squared": 38822.09791946411,
+          "mean_weight_variance_T8192": 5.140644410810911e-09
+        },
+        {
+          "channel": 6,
+          "contribution": 0.00014860112553828132,
+          "mean_hidden_squared": 95.99113100349518,
+          "mean_weight_variance_T8192": 1.5480714101896616e-06
+        },
+        {
+          "channel": 314,
+          "contribution": 0.00011558536251824136,
+          "mean_hidden_squared": 1830.0132974814187,
+          "mean_weight_variance_T8192": 6.31609413315834e-08
+        },
+        {
+          "channel": 374,
+          "contribution": 4.959444935999886e-05,
+          "mean_hidden_squared": 352.36098188477627,
+          "mean_weight_variance_T8192": 1.4074898161175088e-07
+        },
+        {
+          "channel": 479,
+          "contribution": 4.166610432708374e-05,
+          "mean_hidden_squared": 41.84257802608954,
+          "mean_weight_variance_T8192": 9.957824372366405e-07
+        },
+        {
+          "channel": 362,
+          "contribution": 3.1405192184537525e-05,
+          "mean_hidden_squared": 4.68456120663462,
+          "mean_weight_variance_T8192": 6.703977341583068e-06
+        },
+        {
+          "channel": 442,
+          "contribution": 3.11886487471456e-05,
+          "mean_hidden_squared": 118.77535624376105,
+          "mean_weight_variance_T8192": 2.6258518377446543e-07
+        },
+        {
+          "channel": 703,
+          "contribution": 3.107732315426728e-05,
+          "mean_hidden_squared": 51.964137527553305,
+          "mean_weight_variance_T8192": 5.980532850716311e-07
+        },
+        {
+          "channel": 408,
+          "contribution": 2.7322077387940654e-05,
+          "mean_hidden_squared": 13.711433517604064,
+          "mean_weight_variance_T8192": 1.992649226126643e-06
+        },
+        {
+          "channel": 430,
+          "contribution": 2.6142710919157373e-05,
+          "mean_hidden_squared": 9591.531950366916,
+          "mean_weight_variance_T8192": 2.7256032773948384e-09
+        }
+      ]
+    }
+  }
+}

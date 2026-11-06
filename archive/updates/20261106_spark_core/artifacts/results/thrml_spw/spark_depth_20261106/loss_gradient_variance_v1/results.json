@@ -1,0 +1,3297 @@
+{
+  "status": "completed_training_only_CPU_loss_gradient_proxy",
+  "protocol_sha256": "c3b6754d93a4f81310f0941e3fc79850ae5ff632871183bca75f5450424d96c6",
+  "losses_FP32": [
+    4.02469539642334,
+    3.3888659477233887,
+    3.833986282348633,
+    3.2461211681365967,
+    4.408385753631592,
+    4.120304107666016,
+    3.7125284671783447,
+    3.806069850921631
+  ],
+  "parameters": [
+    {
+      "name": "transformer.wte.weight",
+      "elements": 38597376,
+      "storage_S": 47.73697310066284,
+      "transposed_S": 3.6324438942099295,
+      "storage_first_order_mean_control_shift": -0.000109898076707815,
+      "transposed_first_order_mean_control_shift": -0.00010100520335314945
+    },
+    {
+      "name": "transformer.wpe.weight",
+      "elements": 786432,
+      "storage_S": 0.22935238807887412,
+      "transposed_S": 0.0016751868318877427,
+      "storage_first_order_mean_control_shift": -1.9268261474888432e-05,
+      "transposed_first_order_mean_control_shift": -7.846569560370823e-06
+    },
+    {
+      "name": "transformer.h.0.ln_1.weight",
+      "elements": 768,
+      "storage_S": 0.0017293807771919477,
+      "transposed_S": 0.0017293807771919477,
+      "storage_first_order_mean_control_shift": 0.0,
+      "transposed_first_order_mean_control_shift": 0.0
+    },
+    {
+      "name": "transformer.h.0.ln_1.bias",
+      "elements": 768,
+      "storage_S": 0.010346124187524187,
+      "transposed_S": 0.010346124187524187,
+      "storage_first_order_mean_control_shift": -8.461130503000305e-06,
+      "transposed_first_order_mean_control_shift": -8.461130503000305e-06
+    },
+    {
+      "name": "transformer.h.0.attn.c_attn.weight",
+      "elements": 1769472,
+      "storage_S": 0.01759394268196105,
+      "transposed_S": 0.02280536935779167,
+      "storage_first_order_mean_control_shift": -1.4975519234661938e-05,
+      "transposed_first_order_mean_control_shift": 3.6514212429173e-05
+    },
+    {
+      "name": "transformer.h.0.attn.c_attn.bias",
+      "elements": 2304,
+      "storage_S": 0.009661144301697799,
+      "transposed_S": 0.009661144301697799,
+      "storage_first_order_mean_control_shift": -2.3036562262500696e-05,
+      "transposed_first_order_mean_control_shift": -2.3036562262500696e-05
+    },
+    {
+      "name": "transformer.h.0.attn.c_proj.weight",
+      "elements": 589824,
+      "storage_S": 0.8255478832183797,
+      "transposed_S": 0.018803788080898817,
+      "storage_first_order_mean_control_shift": 3.7677729844752836e-05,
+      "transposed_first_order_mean_control_shift": -5.852079021240429e-06
+    },
+    {
+      "name": "transformer.h.0.attn.c_proj.bias",
+      "elements": 768,
+      "storage_S": 0.28259344622335536,
+      "transposed_S": 0.28259344622335536,
+      "storage_first_order_mean_control_shift": -5.379204839323082e-05,
+      "transposed_first_order_mean_control_shift": -5.379204839323082e-05
+    },
+    {
+      "name": "transformer.h.0.ln_2.weight",
+      "elements": 768,
+      "storage_S": 0.009316974443295371,
+      "transposed_S": 0.009316974443295371,
+      "storage_first_order_mean_control_shift": 4.171996258151012e-05,
+      "transposed_first_order_mean_control_shift": 4.171996258151012e-05
+    },
+    {
+      "name": "transformer.h.0.ln_2.bias",
+      "elements": 768,
+      "storage_S": 0.03413137660945746,
+      "transposed_S": 0.03413137660945746,
+      "storage_first_order_mean_control_shift": 3.879513474494903e-05,
+      "transposed_first_order_mean_control_shift": 3.879513474494903e-05
+    },
+    {
+      "name": "transformer.h.0.mlp.c_fc.weight",
+      "elements": 2359296,
+      "storage_S": 0.02987635874928534,
+      "transposed_S": 0.03109506510582241,
+      "storage_first_order_mean_control_shift": -3.5091389187350045e-05,
+      "transposed_first_order_mean_control_shift": -9.373652177331323e-06
+    },
+    {
+      "name": "transformer.h.0.mlp.c_fc.bias",
+      "elements": 3072,
+      "storage_S": 0.0013423737632604492,
+      "transposed_S": 0.0013423737632604492,
+      "storage_first_order_mean_control_shift": 2.486880402606561e-06,
+      "transposed_first_order_mean_control_shift": 2.486880402606561e-06
+    },
+    {
+      "name": "transformer.h.0.mlp.c_proj.weight",
+      "elements": 2359296,
+      "storage_S": 0.06279028229344298,
+      "transposed_S": 0.025505797924675735,
+      "storage_first_order_mean_control_shift": 3.278354159909305e-06,
+      "transposed_first_order_mean_control_shift": 4.357991803110229e-05
+    },
+    {
+      "name": "transformer.h.0.mlp.c_proj.bias",
+      "elements": 768,
+      "storage_S": 0.000901282959853256,
+      "transposed_S": 0.000901282959853256,
+      "storage_first_order_mean_control_shift": -1.8666749088728737e-06,
+      "transposed_first_order_mean_control_shift": -1.8666749088728737e-06
+    },
+    {
+      "name": "transformer.h.1.ln_1.weight",
+      "elements": 768,
+      "storage_S": 0.0018593730377529862,
+      "transposed_S": 0.0018593730377529862,
+      "storage_first_order_mean_control_shift": 0.0,
+      "transposed_first_order_mean_control_shift": 0.0
+    },
+    {
+      "name": "transformer.h.1.ln_1.bias",
+      "elements": 768,
+      "storage_S": 0.016447796139798257,
+      "transposed_S": 0.016447796139798257,
+      "storage_first_order_mean_control_shift": -5.6956890561732365e-06,
+      "transposed_first_order_mean_control_shift": -5.6956890561732365e-06
+    },
+    {
+      "name": "transformer.h.1.attn.c_attn.weight",
+      "elements": 1769472,
+      "storage_S": 0.015375256622238816,
+      "transposed_S": 0.029088923310125383,
+      "storage_first_order_mean_control_shift": 1.0719567336093134e-05,
+      "transposed_first_order_mean_control_shift": -1.3879501521041017e-05
+    },
+    {
+      "name": "transformer.h.1.attn.c_attn.bias",
+      "elements": 2304,
+      "storage_S": 0.0028312972224757934,
+      "transposed_S": 0.0028312972224757934,
+      "storage_first_order_mean_control_shift": -2.40557211040472e-06,
+      "transposed_first_order_mean_control_shift": -2.40557211040472e-06
+    },
+    {
+      "name": "transformer.h.1.attn.c_proj.weight",
+      "elements": 589824,
+      "storage_S": 0.026441847958300964,
+      "transposed_S": 0.009626765460530259,
+      "storage_first_order_mean_control_shift": 2.2718696012751765e-05,
+      "transposed_first_order_mean_control_shift": 1.5450373576449102e-05
+    },
+    {
+      "name": "transformer.h.1.attn.c_proj.bias",
+      "elements": 768,
+      "storage_S": 0.0004773754345435952,
+      "transposed_S": 0.0004773754345435952,
+      "storage_first_order_mean_control_shift": -9.32450643642991e-06,
+      "transposed_first_order_mean_control_shift": -9.32450643642991e-06
+    },
+    {
+      "name": "transformer.h.1.ln_2.weight",
+      "elements": 768,
+      "storage_S": 0.0030603580837264494,
+      "transposed_S": 0.0030603580837264494,
+      "storage_first_order_mean_control_shift": 0.0,
+      "transposed_first_order_mean_control_shift": 0.0
+    },
+    {
+      "name": "transformer.h.1.ln_2.bias",
+      "elements": 768,
+      "storage_S": 0.008318228601991232,
+      "transposed_S": 0.008318228601991232,
+      "storage_first_order_mean_control_shift": -5.4307126401625244e-05,
+      "transposed_first_order_mean_control_shift": -5.4307126401625244e-05
+    },
+    {
+      "name": "transformer.h.1.mlp.c_fc.weight",
+      "elements": 2359296,
+      "storage_S": 0.07041690200527412,
+      "transposed_S": 0.053308317814968864,
+      "storage_first_order_mean_control_shift": 8.711743835725235e-05,
+      "transposed_first_order_mean_control_shift": -9.955058861230436e-05
+    },
+    {
+      "name": "transformer.h.1.mlp.c_fc.bias",
+      "elements": 3072,
+      "storage_S": 0.0014917681581950969,
+      "transposed_S": 0.0014917681581950969,
+      "storage_first_order_mean_control_shift": -2.8202276675457893e-06,
+      "transposed_first_order_mean_control_shift": -2.8202276675457893e-06
+    },
+    {
+      "name": "transformer.h.1.mlp.c_proj.weight",
+      "elements": 2359296,
+      "storage_S": 0.03878219256265712,
+      "transposed_S": 0.025778406243192557,
+      "storage_first_order_mean_control_shift": -3.2787224836785864e-05,
+      "transposed_first_order_mean_control_shift": -4.5357516532496266e-05
+    },
+    {
+      "name": "transformer.h.1.mlp.c_proj.bias",
+      "elements": 768,
+      "storage_S": 0.0007449652458441925,
+      "transposed_S": 0.0007449652458441925,
+      "storage_first_order_mean_control_shift": 2.680893313039556e-07,
+      "transposed_first_order_mean_control_shift": 2.680893313039556e-07
+    },
+    {
+      "name": "transformer.h.2.ln_1.weight",
+      "elements": 768,
+      "storage_S": 0.0035070369862507953,
+      "transposed_S": 0.0035070369862507953,
+      "storage_first_order_mean_control_shift": -1.563761230727323e-06,
+      "transposed_first_order_mean_control_shift": -1.563761230727323e-06
+    },
+    {
+      "name": "transformer.h.2.ln_1.bias",
+      "elements": 768,
+      "storage_S": 0.029937062175716303,
+      "transposed_S": 0.029937062175716303,
+      "storage_first_order_mean_control_shift": -2.2536128233868052e-05,
+      "transposed_first_order_mean_control_shift": -2.2536128233868052e-05
+    },
+    {
+      "name": "transformer.h.2.attn.c_attn.weight",
+      "elements": 1769472,
+      "storage_S": 0.052303615998292564,
+      "transposed_S": 0.10494897841125886,
+      "storage_first_order_mean_control_shift": 0.00015441642023553918,
+      "transposed_first_order_mean_control_shift": 3.2614441748636273e-06
+    },
+    {
+      "name": "transformer.h.2.attn.c_attn.bias",
+      "elements": 2304,
+      "storage_S": 0.004444040869857234,
+      "transposed_S": 0.004444040869857234,
+      "storage_first_order_mean_control_shift": 1.259956471850276e-05,
+      "transposed_first_order_mean_control_shift": 1.259956471850276e-05
+    },
+    {
+      "name": "transformer.h.2.attn.c_proj.weight",
+      "elements": 589824,
+      "storage_S": 0.020974563809182417,
+      "transposed_S": 0.011422986778692171,
+      "storage_first_order_mean_control_shift": -7.876419793548241e-05,
+      "transposed_first_order_mean_control_shift": 5.755607983363029e-05
+    },
+    {
+      "name": "transformer.h.2.attn.c_proj.bias",
+      "elements": 768,
+      "storage_S": 0.0008298574352684674,
+      "transposed_S": 0.0008298574352684674,
+      "storage_first_order_mean_control_shift": -1.9842685014537231e-07,
+      "transposed_first_order_mean_control_shift": -1.9842685014537231e-07
+    },
+    {
+      "name": "transformer.h.2.ln_2.weight",
+      "elements": 768,
+      "storage_S": 0.004321914663506187,
+      "transposed_S": 0.004321914663506187,
+      "storage_first_order_mean_control_shift": 0.0,
+      "transposed_first_order_mean_control_shift": 0.0
+    },
+    {
+      "name": "transformer.h.2.ln_2.bias",
+      "elements": 768,
+      "storage_S": 0.010726089345621716,
+      "transposed_S": 0.010726089345621716,
+      "storage_first_order_mean_control_shift": -2.606113800959417e-05,
+      "transposed_first_order_mean_control_shift": -2.606113800959417e-05
+    },
+    {
+      "name": "transformer.h.2.mlp.c_fc.weight",
+      "elements": 2359296,
+      "storage_S": 0.08628698008937842,
+      "transposed_S": 0.07966351243839365,
+      "storage_first_order_mean_control_shift": 4.6378838027487264e-05,
+      "transposed_first_order_mean_control_shift": 3.4121889785628005e-05
+    },
+    {
+      "name": "transformer.h.2.mlp.c_fc.bias",
+      "elements": 3072,
+      "storage_S": 0.002405423405003931,
+      "transposed_S": 0.002405423405003931,
+      "storage_first_order_mean_control_shift": 9.793289413882744e-06,
+      "transposed_first_order_mean_control_shift": 9.793289413882744e-06
+    },
+    {
+      "name": "transformer.h.2.mlp.c_proj.weight",
+      "elements": 2359296,
+      "storage_S": 0.04977416530924264,
+      "transposed_S": 0.03789553572522853,
+      "storage_first_order_mean_control_shift": -0.00019311491546049315,
+      "transposed_first_order_mean_control_shift": 3.0319439812602667e-05
+    },
+    {
+      "name": "transformer.h.2.mlp.c_proj.bias",
+      "elements": 768,
+      "storage_S": 0.000820166877384409,
+      "transposed_S": 0.000820166877384409,
+      "storage_first_order_mean_control_shift": -7.825599118993498e-07,
+      "transposed_first_order_mean_control_shift": -7.825599118993498e-07
+    },
+    {
+      "name": "transformer.h.3.ln_1.weight",
+      "elements": 768,
+      "storage_S": 0.0015706893771263034,
+      "transposed_S": 0.0015706893771263034,
+      "storage_first_order_mean_control_shift": 1.5930749057702087e-06,
+      "transposed_first_order_mean_control_shift": 1.5930749057702087e-06
+    },
+    {
+      "name": "transformer.h.3.ln_1.bias",
+      "elements": 768,
+      "storage_S": 0.01858461986665401,
+      "transposed_S": 0.01858461986665401,
+      "storage_first_order_mean_control_shift": 3.549823832718971e-05,
+      "transposed_first_order_mean_control_shift": 3.549823832718971e-05
+    },
+    {
+      "name": "transformer.h.3.attn.c_attn.weight",
+      "elements": 1769472,
+      "storage_S": 0.08004276030723728,
+      "transposed_S": 0.0956440580236582,
+      "storage_first_order_mean_control_shift": -8.309562804739354e-05,
+      "transposed_first_order_mean_control_shift": 8.503964328202613e-05
+    },
+    {
+      "name": "transformer.h.3.attn.c_attn.bias",
+      "elements": 2304,
+      "storage_S": 0.0040632505089369724,
+      "transposed_S": 0.0040632505089369724,
+      "storage_first_order_mean_control_shift": -1.3009063414057802e-05,
+      "transposed_first_order_mean_control_shift": -1.3009063414057802e-05
+    },
+    {
+      "name": "transformer.h.3.attn.c_proj.weight",
+      "elements": 589824,
+      "storage_S": 0.011685721585264314,
+      "transposed_S": 0.009590720875872061,
+      "storage_first_order_mean_control_shift": -4.9892222945160505e-05,
+      "transposed_first_order_mean_control_shift": -3.872118080303991e-07
+    },
+    {
+      "name": "transformer.h.3.attn.c_proj.bias",
+      "elements": 768,
+      "storage_S": 0.0006818989774946353,
+      "transposed_S": 0.0006818989774946353,
+      "storage_first_order_mean_control_shift": -1.1475712184900837e-05,
+      "transposed_first_order_mean_control_shift": -1.1475712184900837e-05
+    },
+    {
+      "name": "transformer.h.3.ln_2.weight",
+      "elements": 768,
+      "storage_S": 0.003441687976127003,
+      "transposed_S": 0.003441687976127003,
+      "storage_first_order_mean_control_shift": 3.936215488054007e-06,
+      "transposed_first_order_mean_control_shift": 3.936215488054007e-06
+    },
+    {
+      "name": "transformer.h.3.ln_2.bias",
+      "elements": 768,
+      "storage_S": 0.006307100478866091,
+      "transposed_S": 0.006307100478866091,
+      "storage_first_order_mean_control_shift": 4.258424060591369e-05,
+      "transposed_first_order_mean_control_shift": 4.258424060591369e-05
+    },
+    {
+      "name": "transformer.h.3.mlp.c_fc.weight",
+      "elements": 2359296,
+      "storage_S": 0.03697339155166947,
+      "transposed_S": 0.03872996943029795,
+      "storage_first_order_mean_control_shift": 3.5820248477876566e-05,
+      "transposed_first_order_mean_control_shift": 6.0294883209642536e-05
+    },
+    {
+      "name": "transformer.h.3.mlp.c_fc.bias",
+      "elements": 3072,
+      "storage_S": 0.00080936239901512,
+      "transposed_S": 0.00080936239901512,
+      "storage_first_order_mean_control_shift": -1.1162276713338332e-06,
+      "transposed_first_order_mean_control_shift": -1.1162276713338332e-06
+    },
+    {
+      "name": "transformer.h.3.mlp.c_proj.weight",
+      "elements": 2359296,
+      "storage_S": 0.026000080022748694,
+      "transposed_S": 0.020071533906492186,
+      "storage_first_order_mean_control_shift": 4.974929441120254e-05,
+      "transposed_first_order_mean_control_shift": 2.7187871129878206e-05
+    },
+    {
+      "name": "transformer.h.3.mlp.c_proj.bias",
+      "elements": 768,
+      "storage_S": 0.0008448672357146661,
+      "transposed_S": 0.0008448672357146661,
+      "storage_first_order_mean_control_shift": -1.1982771884209986e-05,
+      "transposed_first_order_mean_control_shift": -1.1982771884209986e-05
+    },
+    {
+      "name": "transformer.h.4.ln_1.weight",
+      "elements": 768,
+      "storage_S": 0.001021842680625259,
+      "transposed_S": 0.001021842680625259,
+      "storage_first_order_mean_control_shift": 4.4478802465164335e-05,
+      "transposed_first_order_mean_control_shift": 4.4478802465164335e-05
+    },
+    {
+      "name": "transformer.h.4.ln_1.bias",
+      "elements": 768,
+      "storage_S": 0.027801872463890362,
+      "transposed_S": 0.027801872463890362,
+      "storage_first_order_mean_control_shift": -6.116974590163887e-05,
+      "transposed_first_order_mean_control_shift": -6.116974590163887e-05
+    },
+    {
+      "name": "transformer.h.4.attn.c_attn.weight",
+      "elements": 1769472,
+      "storage_S": 0.08330425286964226,
+      "transposed_S": 0.07116579899619008,
+      "storage_first_order_mean_control_shift": 7.767608344626882e-05,
+      "transposed_first_order_mean_control_shift": -3.8906116313484516e-05
+    },
+    {
+      "name": "transformer.h.4.attn.c_attn.bias",
+      "elements": 2304,
+      "storage_S": 0.004644673926249603,
+      "transposed_S": 0.004644673926249603,
+      "storage_first_order_mean_control_shift": -7.037386150696909e-06,
+      "transposed_first_order_mean_control_shift": -7.037386150696909e-06
+    },
+    {
+      "name": "transformer.h.4.attn.c_proj.weight",
+      "elements": 589824,
+      "storage_S": 0.0091656587267282,
+      "transposed_S": 0.009724081216623394,
+      "storage_first_order_mean_control_shift": 2.05994525410245e-05,
+      "transposed_first_order_mean_control_shift": -2.5947663978448992e-05
+    },
+    {
+      "name": "transformer.h.4.attn.c_proj.bias",
+      "elements": 768,
+      "storage_S": 0.0005282692883413731,
+      "transposed_S": 0.0005282692883413731,
+      "storage_first_order_mean_control_shift": -1.7078471772832837e-06,
+      "transposed_first_order_mean_control_shift": -1.7078471772832837e-06
+    },
+    {
+      "name": "transformer.h.4.ln_2.weight",
+      "elements": 768,
+      "storage_S": 0.0038092802844837985,
+      "transposed_S": 0.0038092802844837985,
+      "storage_first_order_mean_control_shift": -3.2729197556591316e-06,
+      "transposed_first_order_mean_control_shift": -3.2729197556591316e-06
+    },
+    {
+      "name": "transformer.h.4.ln_2.bias",
+      "elements": 768,
+      "storage_S": 0.0015752341557730856,
+      "transposed_S": 0.0015752341557730856,
+      "storage_first_order_mean_control_shift": 5.543132703296483e-06,
+      "transposed_first_order_mean_control_shift": 5.543132703296483e-06
+    },
+    {
+      "name": "transformer.h.4.mlp.c_fc.weight",
+      "elements": 2359296,
+      "storage_S": 0.056478096738945674,
+      "transposed_S": 0.05496211862249556,
+      "storage_first_order_mean_control_shift": 1.5165908687121325e-05,
+      "transposed_first_order_mean_control_shift": -4.694379662462174e-05
+    },
+    {
+      "name": "transformer.h.4.mlp.c_fc.bias",
+      "elements": 3072,
+      "storage_S": 0.0013705041896827962,
+      "transposed_S": 0.0013705041896827962,
+      "storage_first_order_mean_control_shift": 6.495408898084796e-06,
+      "transposed_first_order_mean_control_shift": 6.495408898084796e-06
+    },
+    {
+      "name": "transformer.h.4.mlp.c_proj.weight",
+      "elements": 2359296,
+      "storage_S": 0.02682945479264952,
+      "transposed_S": 0.021008967496995535,
+      "storage_first_order_mean_control_shift": -5.910183517134395e-05,
+      "transposed_first_order_mean_control_shift": 1.7556700812438313e-05
+    },
+    {
+      "name": "transformer.h.4.mlp.c_proj.bias",
+      "elements": 768,
+      "storage_S": 0.0012514222507303992,
+      "transposed_S": 0.0012514222507303992,
+      "storage_first_order_mean_control_shift": -5.994024117710051e-07,
+      "transposed_first_order_mean_control_shift": -5.994024117710051e-07
+    },
+    {
+      "name": "transformer.h.5.ln_1.weight",
+      "elements": 768,
+      "storage_S": 0.001509121804075525,
+      "transposed_S": 0.001509121804075525,
+      "storage_first_order_mean_control_shift": 0.0,
+      "transposed_first_order_mean_control_shift": 0.0
+    },
+    {
+      "name": "transformer.h.5.ln_1.bias",
+      "elements": 768,
+      "storage_S": 0.00847849878132674,
+      "transposed_S": 0.00847849878132674,
+      "storage_first_order_mean_control_shift": -1.1195787327738897e-06,
+      "transposed_first_order_mean_control_shift": -1.1195787327738897e-06
+    },
+    {
+      "name": "transformer.h.5.attn.c_attn.weight",
+      "elements": 1769472,
+      "storage_S": 0.09439029364929225,
+      "transposed_S": 0.10207243546845372,
+      "storage_first_order_mean_control_shift": -0.00012906576165941174,
+      "transposed_first_order_mean_control_shift": -5.3358009658523174e-05
+    },
+    {
+      "name": "transformer.h.5.attn.c_attn.bias",
+      "elements": 2304,
+      "storage_S": 0.0033090640457506416,
+      "transposed_S": 0.0033090640457506416,
+      "storage_first_order_mean_control_shift": 9.676774400725e-06,
+      "transposed_first_order_mean_control_shift": 9.676774400725e-06
+    },
+    {
+      "name": "transformer.h.5.attn.c_proj.weight",
+      "elements": 589824,
+      "storage_S": 0.01182844323815775,
+      "transposed_S": 0.013750800348579595,
+      "storage_first_order_mean_control_shift": 6.081975644200859e-06,
+      "transposed_first_order_mean_control_shift": 4.055695570863253e-05
+    },
+    {
+      "name": "transformer.h.5.attn.c_proj.bias",
+      "elements": 768,
+      "storage_S": 0.0006373445006126533,
+      "transposed_S": 0.0006373445006126533,
+      "storage_first_order_mean_control_shift": 4.790562050702163e-06,
+      "transposed_first_order_mean_control_shift": 4.790562050702163e-06
+    },
+    {
+      "name": "transformer.h.5.ln_2.weight",
+      "elements": 768,
+      "storage_S": 0.0031077031492075134,
+      "transposed_S": 0.0031077031492075134,
+      "storage_first_order_mean_control_shift": 0.0,
+      "transposed_first_order_mean_control_shift": 0.0
+    },
+    {
+      "name": "transformer.h.5.ln_2.bias",
+      "elements": 768,
+      "storage_S": 0.0030466976437345276,
+      "transposed_S": 0.0030466976437345276,
+      "storage_first_order_mean_control_shift": 2.0802161747400516e-05,
+      "transposed_first_order_mean_control_shift": 2.0802161747400516e-05
+    },
+    {
+      "name": "transformer.h.5.mlp.c_fc.weight",
+      "elements": 2359296,
+      "storage_S": 0.0417131016025907,
+      "transposed_S": 0.0463298547013742,
+      "storage_first_order_mean_control_shift": -5.0595601649782775e-05,
+      "transposed_first_order_mean_control_shift": -3.9442362260171824e-05
+    },
+    {
+      "name": "transformer.h.5.mlp.c_fc.bias",
+      "elements": 3072,
+      "storage_S": 0.0011109333849973872,
+      "transposed_S": 0.0011109333849973872,
+      "storage_first_order_mean_control_shift": 1.3726124457843293e-05,
+      "transposed_first_order_mean_control_shift": 1.3726124457843293e-05
+    },
+    {
+      "name": "transformer.h.5.mlp.c_proj.weight",
+      "elements": 2359296,
+      "storage_S": 0.02500600093661466,
+      "transposed_S": 0.02159566761805116,
+      "storage_first_order_mean_control_shift": 4.277127748411362e-05,
+      "transposed_first_order_mean_control_shift": 3.5873892877476206e-05
+    },
+    {
+      "name": "transformer.h.5.mlp.c_proj.bias",
+      "elements": 768,
+      "storage_S": 0.000788276503614547,
+      "transposed_S": 0.000788276503614547,
+      "storage_first_order_mean_control_shift": -1.0461440163667471e-07,
+      "transposed_first_order_mean_control_shift": -1.0461440163667471e-07
+    },
+    {
+      "name": "transformer.h.6.ln_1.weight",
+      "elements": 768,
+      "storage_S": 0.0012350144600154866,
+      "transposed_S": 0.0012350144600154866,
+      "storage_first_order_mean_control_shift": 0.0,
+      "transposed_first_order_mean_control_shift": 0.0
+    },
+    {
+      "name": "transformer.h.6.ln_1.bias",
+      "elements": 768,
+      "storage_S": 0.028938741672012318,
+      "transposed_S": 0.028938741672012318,
+      "storage_first_order_mean_control_shift": 4.734963140638759e-05,
+      "transposed_first_order_mean_control_shift": 4.734963140638759e-05
+    },
+    {
+      "name": "transformer.h.6.attn.c_attn.weight",
+      "elements": 1769472,
+      "storage_S": 0.10845443181840811,
+      "transposed_S": 0.08606631738003222,
+      "storage_first_order_mean_control_shift": 2.0374759393622893e-05,
+      "transposed_first_order_mean_control_shift": 2.355122504027037e-05
+    },
+    {
+      "name": "transformer.h.6.attn.c_attn.bias",
+      "elements": 2304,
+      "storage_S": 0.0015562662334234504,
+      "transposed_S": 0.0015562662334234504,
+      "storage_first_order_mean_control_shift": 7.733207746209743e-08,
+      "transposed_first_order_mean_control_shift": 7.733207746209743e-08
+    },
+    {
+      "name": "transformer.h.6.attn.c_proj.weight",
+      "elements": 589824,
+      "storage_S": 0.0075727593291836925,
+      "transposed_S": 0.0066455996661652144,
+      "storage_first_order_mean_control_shift": -2.4030114076245722e-05,
+      "transposed_first_order_mean_control_shift": -1.0926118331165276e-05
+    },
+    {
+      "name": "transformer.h.6.attn.c_proj.bias",
+      "elements": 768,
+      "storage_S": 0.00030691280276121856,
+      "transposed_S": 0.00030691280276121856,
+      "storage_first_order_mean_control_shift": -3.114143939882824e-06,
+      "transposed_first_order_mean_control_shift": -3.114143939882824e-06
+    },
+    {
+      "name": "transformer.h.6.ln_2.weight",
+      "elements": 768,
+      "storage_S": 0.002943313833307384,
+      "transposed_S": 0.002943313833307384,
+      "storage_first_order_mean_control_shift": 0.0,
+      "transposed_first_order_mean_control_shift": 0.0
+    },
+    {
+      "name": "transformer.h.6.ln_2.bias",
+      "elements": 768,
+      "storage_S": 0.002485007499040098,
+      "transposed_S": 0.002485007499040098,
+      "storage_first_order_mean_control_shift": 1.734415218921097e-05,
+      "transposed_first_order_mean_control_shift": 1.734415218921097e-05
+    },
+    {
+      "name": "transformer.h.6.mlp.c_fc.weight",
+      "elements": 2359296,
+      "storage_S": 0.04073122329247182,
+      "transposed_S": 0.046817886377487516,
+      "storage_first_order_mean_control_shift": 7.933312523748287e-05,
+      "transposed_first_order_mean_control_shift": -5.06461020205502e-05
+    },
+    {
+      "name": "transformer.h.6.mlp.c_fc.bias",
+      "elements": 3072,
+      "storage_S": 0.0010714080858003315,
+      "transposed_S": 0.0010714080858003315,
+      "storage_first_order_mean_control_shift": 5.1194058935644625e-06,
+      "transposed_first_order_mean_control_shift": 5.1194058935644625e-06
+    },
+    {
+      "name": "transformer.h.6.mlp.c_proj.weight",
+      "elements": 2359296,
+      "storage_S": 0.02465373908148561,
+      "transposed_S": 0.02214223692178788,
+      "storage_first_order_mean_control_shift": -1.716202852629688e-06,
+      "transposed_first_order_mean_control_shift": 9.549358193577998e-07
+    },
+    {
+      "name": "transformer.h.6.mlp.c_proj.bias",
+      "elements": 768,
+      "storage_S": 0.0007479275599439441,
+      "transposed_S": 0.0007479275599439441,
+      "storage_first_order_mean_control_shift": -5.903205507716558e-06,
+      "transposed_first_order_mean_control_shift": -5.903205507716558e-06
+    },
+    {
+      "name": "transformer.h.7.ln_1.weight",
+      "elements": 768,
+      "storage_S": 0.0015476212781358586,
+      "transposed_S": 0.0015476212781358586,
+      "storage_first_order_mean_control_shift": 0.0,
+      "transposed_first_order_mean_control_shift": 0.0
+    },
+    {
+      "name": "transformer.h.7.ln_1.bias",
+      "elements": 768,
+      "storage_S": 0.019694360709467222,
+      "transposed_S": 0.019694360709467222,
+      "storage_first_order_mean_control_shift": 3.1615911225486154e-05,
+      "transposed_first_order_mean_control_shift": 3.1615911225486154e-05
+    },
+    {
+      "name": "transformer.h.7.attn.c_attn.weight",
+      "elements": 1769472,
+      "storage_S": 0.061163791752383956,
+      "transposed_S": 0.057562410726033526,
+      "storage_first_order_mean_control_shift": -6.103539899190435e-05,
+      "transposed_first_order_mean_control_shift": -4.562638756282563e-05
+    },
+    {
+      "name": "transformer.h.7.attn.c_attn.bias",
+      "elements": 2304,
+      "storage_S": 0.0015395913039683996,
+      "transposed_S": 0.0015395913039683996,
+      "storage_first_order_mean_control_shift": -2.8406115094058225e-06,
+      "transposed_first_order_mean_control_shift": -2.8406115094058225e-06
+    },
+    {
+      "name": "transformer.h.7.attn.c_proj.weight",
+      "elements": 589824,
+      "storage_S": 0.005913974030765542,
+      "transposed_S": 0.005208539396622337,
+      "storage_first_order_mean_control_shift": -7.3953265498488335e-06,
+      "transposed_first_order_mean_control_shift": -3.7998705413830035e-05
+    },
+    {
+      "name": "transformer.h.7.attn.c_proj.bias",
+      "elements": 768,
+      "storage_S": 0.0004413958719716502,
+      "transposed_S": 0.0004413958719716502,
+      "storage_first_order_mean_control_shift": 1.2043755643828535e-07,
+      "transposed_first_order_mean_control_shift": 1.2043755643828535e-07
+    },
+    {
+      "name": "transformer.h.7.ln_2.weight",
+      "elements": 768,
+      "storage_S": 0.002782692886053885,
+      "transposed_S": 0.002782692886053885,
+      "storage_first_order_mean_control_shift": 3.381570104465936e-05,
+      "transposed_first_order_mean_control_shift": 3.381570104465936e-05
+    },
+    {
+      "name": "transformer.h.7.ln_2.bias",
+      "elements": 768,
+      "storage_S": 0.0036845511344861083,
+      "transposed_S": 0.0036845511344861083,
+      "storage_first_order_mean_control_shift": 8.19954619670285e-06,
+      "transposed_first_order_mean_control_shift": 8.19954619670285e-06
+    },
+    {
+      "name": "transformer.h.7.mlp.c_fc.weight",
+      "elements": 2359296,
+      "storage_S": 0.029061424448564712,
+      "transposed_S": 0.032136888504902705,
+      "storage_first_order_mean_control_shift": 9.866483585395089e-05,
+      "transposed_first_order_mean_control_shift": -3.4947838301745345e-05
+    },
+    {
+      "name": "transformer.h.7.mlp.c_fc.bias",
+      "elements": 3072,
+      "storage_S": 0.001209281828200852,
+      "transposed_S": 0.001209281828200852,
+      "storage_first_order_mean_control_shift": -5.416153538562564e-07,
+      "transposed_first_order_mean_control_shift": -5.416153538562564e-07
+    },
+    {
+      "name": "transformer.h.7.mlp.c_proj.weight",
+      "elements": 2359296,
+      "storage_S": 0.024650599387126472,
+      "transposed_S": 0.020812500815428587,
+      "storage_first_order_mean_control_shift": 3.953459240528808e-05,
+      "transposed_first_order_mean_control_shift": 1.3790904833917321e-05
+    },
+    {
+      "name": "transformer.h.7.mlp.c_proj.bias",
+      "elements": 768,
+      "storage_S": 0.0005972284430462149,
+      "transposed_S": 0.0005972284430462149,
+      "storage_first_order_mean_control_shift": -5.4152968809832724e-06,
+      "transposed_first_order_mean_control_shift": -5.4152968809832724e-06
+    },
+    {
+      "name": "transformer.h.8.ln_1.weight",
+      "elements": 768,
+      "storage_S": 0.001614484894030858,
+      "transposed_S": 0.001614484894030858,
+      "storage_first_order_mean_control_shift": 8.804690196484444e-06,
+      "transposed_first_order_mean_control_shift": 8.804690196484444e-06
+    },
+    {
+      "name": "transformer.h.8.ln_1.bias",
+      "elements": 768,
+      "storage_S": 0.017344233360413505,
+      "transposed_S": 0.017344233360413505,
+      "storage_first_order_mean_control_shift": 1.3258492176017322e-05,
+      "transposed_first_order_mean_control_shift": 1.3258492176017322e-05
+    },
+    {
+      "name": "transformer.h.8.attn.c_attn.weight",
+      "elements": 1769472,
+      "storage_S": 0.07254685402176576,
+      "transposed_S": 0.06897058838692606,
+      "storage_first_order_mean_control_shift": -0.00010837924746070994,
+      "transposed_first_order_mean_control_shift": -7.424230892219559e-05
+    },
+    {
+      "name": "transformer.h.8.attn.c_attn.bias",
+      "elements": 2304,
+      "storage_S": 0.0016781791296854019,
+      "transposed_S": 0.0016781791296854019,
+      "storage_first_order_mean_control_shift": 1.1652786677972553e-05,
+      "transposed_first_order_mean_control_shift": 1.1652786677972553e-05
+    },
+    {
+      "name": "transformer.h.8.attn.c_proj.weight",
+      "elements": 589824,
+      "storage_S": 0.0069302232362182066,
+      "transposed_S": 0.005721327174856003,
+      "storage_first_order_mean_control_shift": -4.492088549718224e-06,
+      "transposed_first_order_mean_control_shift": 3.87846836407167e-06
+    },
+    {
+      "name": "transformer.h.8.attn.c_proj.bias",
+      "elements": 768,
+      "storage_S": 0.0003321371573937179,
+      "transposed_S": 0.0003321371573937179,
+      "storage_first_order_mean_control_shift": -4.521740505428196e-06,
+      "transposed_first_order_mean_control_shift": -4.521740505428196e-06
+    },
+    {
+      "name": "transformer.h.8.ln_2.weight",
+      "elements": 768,
+      "storage_S": 0.005046352633369278,
+      "transposed_S": 0.005046352633369278,
+      "storage_first_order_mean_control_shift": -1.8119575472042015e-05,
+      "transposed_first_order_mean_control_shift": -1.8119575472042015e-05
+    },
+    {
+      "name": "transformer.h.8.ln_2.bias",
+      "elements": 768,
+      "storage_S": 0.006119069985059207,
+      "transposed_S": 0.006119069985059207,
+      "storage_first_order_mean_control_shift": 6.599019058126099e-06,
+      "transposed_first_order_mean_control_shift": 6.599019058126099e-06
+    },
+    {
+      "name": "transformer.h.8.mlp.c_fc.weight",
+      "elements": 2359296,
+      "storage_S": 0.026771704642043797,
+      "transposed_S": 0.030341383977608265,
+      "storage_first_order_mean_control_shift": 2.7334588192572156e-05,
+      "transposed_first_order_mean_control_shift": 2.1913766452909297e-05
+    },
+    {
+      "name": "transformer.h.8.mlp.c_fc.bias",
+      "elements": 3072,
+      "storage_S": 0.0008942178809187065,
+      "transposed_S": 0.0008942178809187065,
+      "storage_first_order_mean_control_shift": 1.1977196381203654e-05,
+      "transposed_first_order_mean_control_shift": 1.1977196381203654e-05
+    },
+    {
+      "name": "transformer.h.8.mlp.c_proj.weight",
+      "elements": 2359296,
+      "storage_S": 0.021719912131685417,
+      "transposed_S": 0.018670618334529755,
+      "storage_first_order_mean_control_shift": 3.551314404286902e-05,
+      "transposed_first_order_mean_control_shift": 6.848551572965731e-06
+    },
+    {
+      "name": "transformer.h.8.mlp.c_proj.bias",
+      "elements": 768,
+      "storage_S": 0.00028358124084303695,
+      "transposed_S": 0.00028358124084303695,
+      "storage_first_order_mean_control_shift": -4.605059674151445e-06,
+      "transposed_first_order_mean_control_shift": -4.605059674151445e-06
+    },
+    {
+      "name": "transformer.h.9.ln_1.weight",
+      "elements": 768,
+      "storage_S": 0.0009877211054533219,
+      "transposed_S": 0.0009877211054533219,
+      "storage_first_order_mean_control_shift": -3.712920329235203e-05,
+      "transposed_first_order_mean_control_shift": -3.712920329235203e-05
+    },
+    {
+      "name": "transformer.h.9.ln_1.bias",
+      "elements": 768,
+      "storage_S": 0.015279407450652874,
+      "transposed_S": 0.015279407450652874,
+      "storage_first_order_mean_control_shift": 2.588952079039461e-05,
+      "transposed_first_order_mean_control_shift": 2.588952079039461e-05
+    },
+    {
+      "name": "transformer.h.9.attn.c_attn.weight",
+      "elements": 1769472,
+      "storage_S": 0.0511351159484484,
+      "transposed_S": 0.03456724474428821,
+      "storage_first_order_mean_control_shift": 2.5023021752574908e-05,
+      "transposed_first_order_mean_control_shift": 4.738224611279702e-05
+    },
+    {
+      "name": "transformer.h.9.attn.c_attn.bias",
+      "elements": 2304,
+      "storage_S": 0.0009222045348551639,
+      "transposed_S": 0.0009222045348551639,
+      "storage_first_order_mean_control_shift": 9.40369577824454e-08,
+      "transposed_first_order_mean_control_shift": 9.40369577824454e-08
+    },
+    {
+      "name": "transformer.h.9.attn.c_proj.weight",
+      "elements": 589824,
+      "storage_S": 0.005208969614252792,
+      "transposed_S": 0.004406805412824588,
+      "storage_first_order_mean_control_shift": -1.1134875676652752e-05,
+      "transposed_first_order_mean_control_shift": -4.052679111798e-06
+    },
+    {
+      "name": "transformer.h.9.attn.c_proj.bias",
+      "elements": 768,
+      "storage_S": 0.0004977931406477627,
+      "transposed_S": 0.0004977931406477627,
+      "storage_first_order_mean_control_shift": 9.297403971656598e-06,
+      "transposed_first_order_mean_control_shift": 9.297403971656598e-06
+    },
+    {
+      "name": "transformer.h.9.ln_2.weight",
+      "elements": 768,
+      "storage_S": 0.003057190535105058,
+      "transposed_S": 0.003057190535105058,
+      "storage_first_order_mean_control_shift": 9.112241485809136e-07,
+      "transposed_first_order_mean_control_shift": 9.112241485809136e-07
+    },
+    {
+      "name": "transformer.h.9.ln_2.bias",
+      "elements": 768,
+      "storage_S": 0.003131410189922704,
+      "transposed_S": 0.003131410189922704,
+      "storage_first_order_mean_control_shift": -8.562387103283609e-06,
+      "transposed_first_order_mean_control_shift": -8.562387103283609e-06
+    },
+    {
+      "name": "transformer.h.9.mlp.c_fc.weight",
+      "elements": 2359296,
+      "storage_S": 0.01930489459483138,
+      "transposed_S": 0.022367760621010403,
+      "storage_first_order_mean_control_shift": -3.109575324113084e-05,
+      "transposed_first_order_mean_control_shift": 1.1182848603149248e-05
+    },
+    {
+      "name": "transformer.h.9.mlp.c_fc.bias",
+      "elements": 3072,
+      "storage_S": 0.0006084022660963938,
+      "transposed_S": 0.0006084022660963938,
+      "storage_first_order_mean_control_shift": 1.1552024329936897e-05,
+      "transposed_first_order_mean_control_shift": 1.1552024329936897e-05
+    },
+    {
+      "name": "transformer.h.9.mlp.c_proj.weight",
+      "elements": 2359296,
+      "storage_S": 0.01805616341644045,
+      "transposed_S": 0.01826913340185468,
+      "storage_first_order_mean_control_shift": -1.811163476049374e-05,
+      "transposed_first_order_mean_control_shift": 1.783928179021007e-05
+    },
+    {
+      "name": "transformer.h.9.mlp.c_proj.bias",
+      "elements": 768,
+      "storage_S": 0.00024167326456734826,
+      "transposed_S": 0.00024167326456734826,
+      "storage_first_order_mean_control_shift": 1.357141637339885e-06,
+      "transposed_first_order_mean_control_shift": 1.357141637339885e-06
+    },
+    {
+      "name": "transformer.h.10.ln_1.weight",
+      "elements": 768,
+      "storage_S": 0.0010441485085776578,
+      "transposed_S": 0.0010441485085776578,
+      "storage_first_order_mean_control_shift": -6.800594860578713e-05,
+      "transposed_first_order_mean_control_shift": -6.800594860578713e-05
+    },
+    {
+      "name": "transformer.h.10.ln_1.bias",
+      "elements": 768,
+      "storage_S": 0.010024119766135514,
+      "transposed_S": 0.010024119766135514,
+      "storage_first_order_mean_control_shift": -1.9050162820300268e-05,
+      "transposed_first_order_mean_control_shift": -1.9050162820300268e-05
+    },
+    {
+      "name": "transformer.h.10.attn.c_attn.weight",
+      "elements": 1769472,
+      "storage_S": 0.03154654359660995,
+      "transposed_S": 0.029244646185888696,
+      "storage_first_order_mean_control_shift": 8.597489485835032e-06,
+      "transposed_first_order_mean_control_shift": -2.9064350202872196e-05
+    },
+    {
+      "name": "transformer.h.10.attn.c_attn.bias",
+      "elements": 2304,
+      "storage_S": 0.0012828755235850429,
+      "transposed_S": 0.0012828755235850429,
+      "storage_first_order_mean_control_shift": -4.93341901177443e-06,
+      "transposed_first_order_mean_control_shift": -4.93341901177443e-06
+    },
+    {
+      "name": "transformer.h.10.attn.c_proj.weight",
+      "elements": 589824,
+      "storage_S": 0.006009024543822802,
+      "transposed_S": 0.005307776194897201,
+      "storage_first_order_mean_control_shift": -1.580713542875468e-06,
+      "transposed_first_order_mean_control_shift": 2.6011810073029444e-05
+    },
+    {
+      "name": "transformer.h.10.attn.c_proj.bias",
+      "elements": 768,
+      "storage_S": 0.0005445249977266856,
+      "transposed_S": 0.0005445249977266856,
+      "storage_first_order_mean_control_shift": 6.090927726430662e-06,
+      "transposed_first_order_mean_control_shift": 6.090927726430662e-06
+    },
+    {
+      "name": "transformer.h.10.ln_2.weight",
+      "elements": 768,
+      "storage_S": 0.003203301013317347,
+      "transposed_S": 0.003203301013317347,
+      "storage_first_order_mean_control_shift": 2.3566309693023868e-05,
+      "transposed_first_order_mean_control_shift": 2.3566309693023868e-05
+    },
+    {
+      "name": "transformer.h.10.ln_2.bias",
+      "elements": 768,
+      "storage_S": 0.003337592914635358,
+      "transposed_S": 0.003337592914635358,
+      "storage_first_order_mean_control_shift": 2.46648447147892e-05,
+      "transposed_first_order_mean_control_shift": 2.46648447147892e-05
+    },
+    {
+      "name": "transformer.h.10.mlp.c_fc.weight",
+      "elements": 2359296,
+      "storage_S": 0.018963166961828284,
+      "transposed_S": 0.02226312885673067,
+      "storage_first_order_mean_control_shift": 4.02818541364343e-05,
+      "transposed_first_order_mean_control_shift": -4.4665252389321736e-05
+    },
+    {
+      "name": "transformer.h.10.mlp.c_fc.bias",
+      "elements": 3072,
+      "storage_S": 0.0006067617639580854,
+      "transposed_S": 0.0006067617639580854,
+      "storage_first_order_mean_control_shift": 3.9698691842551034e-07,
+      "transposed_first_order_mean_control_shift": 3.9698691842551034e-07
+    },
+    {
+      "name": "transformer.h.10.mlp.c_proj.weight",
+      "elements": 2359296,
+      "storage_S": 0.023889746182497156,
+      "transposed_S": 0.02202494777325963,
+      "storage_first_order_mean_control_shift": 8.497751248283694e-05,
+      "transposed_first_order_mean_control_shift": 1.0168593419193921e-05
+    },
+    {
+      "name": "transformer.h.10.mlp.c_proj.bias",
+      "elements": 768,
+      "storage_S": 0.00027097195008915503,
+      "transposed_S": 0.00027097195008915503,
+      "storage_first_order_mean_control_shift": 4.879862745129845e-06,
+      "transposed_first_order_mean_control_shift": 4.879862745129845e-06
+    },
+    {
+      "name": "transformer.h.11.ln_1.weight",
+      "elements": 768,
+      "storage_S": 0.0005861720644728269,
+      "transposed_S": 0.0005861720644728269,
+      "storage_first_order_mean_control_shift": 5.366105131088261e-05,
+      "transposed_first_order_mean_control_shift": 5.366105131088261e-05
+    },
+    {
+      "name": "transformer.h.11.ln_1.bias",
+      "elements": 768,
+      "storage_S": 0.006509845185175858,
+      "transposed_S": 0.006509845185175858,
+      "storage_first_order_mean_control_shift": -2.6430172276205972e-05,
+      "transposed_first_order_mean_control_shift": -2.6430172276205972e-05
+    },
+    {
+      "name": "transformer.h.11.attn.c_attn.weight",
+      "elements": 1769472,
+      "storage_S": 0.0679323769368749,
+      "transposed_S": 0.03510389496278035,
+      "storage_first_order_mean_control_shift": -4.422401976710299e-05,
+      "transposed_first_order_mean_control_shift": -5.113813247399946e-05
+    },
+    {
+      "name": "transformer.h.11.attn.c_attn.bias",
+      "elements": 2304,
+      "storage_S": 0.0003679002997813056,
+      "transposed_S": 0.0003679002997813056,
+      "storage_first_order_mean_control_shift": 2.6960186826371186e-06,
+      "transposed_first_order_mean_control_shift": 2.6960186826371186e-06
+    },
+    {
+      "name": "transformer.h.11.attn.c_proj.weight",
+      "elements": 589824,
+      "storage_S": 0.07200632663559653,
+      "transposed_S": 0.011920171109660434,
+      "storage_first_order_mean_control_shift": 9.98877832685189e-05,
+      "transposed_first_order_mean_control_shift": 5.289300591809551e-05
+    },
+    {
+      "name": "transformer.h.11.attn.c_proj.bias",
+      "elements": 768,
+      "storage_S": 0.0018723975425885184,
+      "transposed_S": 0.0018723975425885184,
+      "storage_first_order_mean_control_shift": -2.3536136887313333e-05,
+      "transposed_first_order_mean_control_shift": -2.3536136887313333e-05
+    },
+    {
+      "name": "transformer.h.11.ln_2.weight",
+      "elements": 768,
+      "storage_S": 0.006721594104311286,
+      "transposed_S": 0.006721594104311286,
+      "storage_first_order_mean_control_shift": 7.585938669762982e-05,
+      "transposed_first_order_mean_control_shift": 7.585938669762982e-05
+    },
+    {
+      "name": "transformer.h.11.ln_2.bias",
+      "elements": 768,
+      "storage_S": 0.0028873348824396345,
+      "transposed_S": 0.0028873348824396345,
+      "storage_first_order_mean_control_shift": 5.303128922738709e-06,
+      "transposed_first_order_mean_control_shift": 5.303128922738709e-06
+    },
+    {
+      "name": "transformer.h.11.mlp.c_fc.weight",
+      "elements": 2359296,
+      "storage_S": 0.026663942891078755,
+      "transposed_S": 0.0282193146093593,
+      "storage_first_order_mean_control_shift": 1.6934862553181e-05,
+      "transposed_first_order_mean_control_shift": -0.00016007231313637486
+    },
+    {
+      "name": "transformer.h.11.mlp.c_fc.bias",
+      "elements": 3072,
+      "storage_S": 0.0006433917276306055,
+      "transposed_S": 0.0006433917276306055,
+      "storage_first_order_mean_control_shift": -9.456337253637911e-06,
+      "transposed_first_order_mean_control_shift": -9.456337253637911e-06
+    },
+    {
+      "name": "transformer.h.11.mlp.c_proj.weight",
+      "elements": 2359296,
+      "storage_S": 0.046804109561375616,
+      "transposed_S": 0.026451803035056853,
+      "storage_first_order_mean_control_shift": -0.00010033912644942477,
+      "transposed_first_order_mean_control_shift": 2.3225988134478486e-05
+    },
+    {
+      "name": "transformer.h.11.mlp.c_proj.bias",
+      "elements": 768,
+      "storage_S": 3.1436038966369806e-05,
+      "transposed_S": 3.1436038966369806e-05,
+      "storage_first_order_mean_control_shift": -1.8872007289515852e-06,
+      "transposed_first_order_mean_control_shift": -1.8872007289515852e-06
+    },
+    {
+      "name": "transformer.ln_f.weight",
+      "elements": 768,
+      "storage_S": 0.11003126286023103,
+      "transposed_S": 0.11003126286023103,
+      "storage_first_order_mean_control_shift": -0.0010416257206458113,
+      "transposed_first_order_mean_control_shift": -0.0010416257206458113
+    },
+    {
+      "name": "transformer.ln_f.bias",
+      "elements": 768,
+      "storage_S": 0.14415370222923965,
+      "transposed_S": 0.14415370222923965,
+      "storage_first_order_mean_control_shift": -9.04755609108035e-05,
+      "transposed_first_order_mean_control_shift": -9.04755609108035e-05
+    }
+  ],
+  "allocation_proposals": [
+    {
+      "name": "existing_directions",
+      "proxy_constraint_satisfied": true,
+      "proxy_variance": 0.00022215214863123886,
+      "target_proxy_variance": 0.00022352116122344395,
+      "observations": 2812406661120,
+      "versus_uniform_32768_cost": 0.6897136967617308,
+      "parameters": [
+        {
+          "name": "transformer.wte.weight",
+          "layout": "transposed_matrix",
+          "samples": 32768,
+          "parameters": 38597376,
+          "proxy_coefficient": 3.6324438942099295
+        },
+        {
+          "name": "transformer.wpe.weight",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 786432,
+          "proxy_coefficient": 0.22935238807887412
+        },
+        {
+          "name": "transformer.h.0.ln_1.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0017293807771919477
+        },
+        {
+          "name": "transformer.h.0.ln_1.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.010346124187524187
+        },
+        {
+          "name": "transformer.h.0.attn.c_attn.weight",
+          "layout": "storage_flat",
+          "samples": 8192,
+          "parameters": 1769472,
+          "proxy_coefficient": 0.01759394268196105
+        },
+        {
+          "name": "transformer.h.0.attn.c_attn.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 2304,
+          "proxy_coefficient": 0.009661144301697799
+        },
+        {
+          "name": "transformer.h.0.attn.c_proj.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 589824,
+          "proxy_coefficient": 0.8255478832183797
+        },
+        {
+          "name": "transformer.h.0.attn.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.28259344622335536
+        },
+        {
+          "name": "transformer.h.0.ln_2.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.009316974443295371
+        },
+        {
+          "name": "transformer.h.0.ln_2.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.03413137660945746
+        },
+        {
+          "name": "transformer.h.0.mlp.c_fc.weight",
+          "layout": "storage_flat",
+          "samples": 16384,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.02987635874928534
+        },
+        {
+          "name": "transformer.h.0.mlp.c_fc.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 3072,
+          "proxy_coefficient": 0.0013423737632604492
+        },
+        {
+          "name": "transformer.h.0.mlp.c_proj.weight",
+          "layout": "transposed_matrix",
+          "samples": 16384,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.025505797924675735
+        },
+        {
+          "name": "transformer.h.0.mlp.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.000901282959853256
+        },
+        {
+          "name": "transformer.h.1.ln_1.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0018593730377529862
+        },
+        {
+          "name": "transformer.h.1.ln_1.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.016447796139798257
+        },
+        {
+          "name": "transformer.h.1.attn.c_attn.weight",
+          "layout": "transposed_matrix",
+          "samples": 16384,
+          "parameters": 1769472,
+          "proxy_coefficient": 0.029088923310125383
+        },
+        {
+          "name": "transformer.h.1.attn.c_attn.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 2304,
+          "proxy_coefficient": 0.0028312972224757934
+        },
+        {
+          "name": "transformer.h.1.attn.c_proj.weight",
+          "layout": "storage_flat",
+          "samples": 32768,
+          "parameters": 589824,
+          "proxy_coefficient": 0.026441847958300964
+        },
+        {
+          "name": "transformer.h.1.attn.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 768,
+          "proxy_coefficient": 0.0004773754345435952
+        },
+        {
+          "name": "transformer.h.1.ln_2.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0030603580837264494
+        },
+        {
+          "name": "transformer.h.1.ln_2.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.008318228601991232
+        },
+        {
+          "name": "transformer.h.1.mlp.c_fc.weight",
+          "layout": "transposed_matrix",
+          "samples": 16384,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.053308317814968864
+        },
+        {
+          "name": "transformer.h.1.mlp.c_fc.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 3072,
+          "proxy_coefficient": 0.0014917681581950969
+        },
+        {
+          "name": "transformer.h.1.mlp.c_proj.weight",
+          "layout": "transposed_matrix",
+          "samples": 16384,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.025778406243192557
+        },
+        {
+          "name": "transformer.h.1.mlp.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0007449652458441925
+        },
+        {
+          "name": "transformer.h.2.ln_1.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0035070369862507953
+        },
+        {
+          "name": "transformer.h.2.ln_1.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.029937062175716303
+        },
+        {
+          "name": "transformer.h.2.attn.c_attn.weight",
+          "layout": "transposed_matrix",
+          "samples": 32768,
+          "parameters": 1769472,
+          "proxy_coefficient": 0.10494897841125886
+        },
+        {
+          "name": "transformer.h.2.attn.c_attn.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 2304,
+          "proxy_coefficient": 0.004444040869857234
+        },
+        {
+          "name": "transformer.h.2.attn.c_proj.weight",
+          "layout": "storage_flat",
+          "samples": 16384,
+          "parameters": 589824,
+          "proxy_coefficient": 0.020974563809182417
+        },
+        {
+          "name": "transformer.h.2.attn.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0008298574352684674
+        },
+        {
+          "name": "transformer.h.2.ln_2.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.004321914663506187
+        },
+        {
+          "name": "transformer.h.2.ln_2.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.010726089345621716
+        },
+        {
+          "name": "transformer.h.2.mlp.c_fc.weight",
+          "layout": "transposed_matrix",
+          "samples": 16384,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.07966351243839365
+        },
+        {
+          "name": "transformer.h.2.mlp.c_fc.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 3072,
+          "proxy_coefficient": 0.002405423405003931
+        },
+        {
+          "name": "transformer.h.2.mlp.c_proj.weight",
+          "layout": "transposed_matrix",
+          "samples": 16384,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.03789553572522853
+        },
+        {
+          "name": "transformer.h.2.mlp.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.000820166877384409
+        },
+        {
+          "name": "transformer.h.3.ln_1.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0015706893771263034
+        },
+        {
+          "name": "transformer.h.3.ln_1.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.01858461986665401
+        },
+        {
+          "name": "transformer.h.3.attn.c_attn.weight",
+          "layout": "transposed_matrix",
+          "samples": 32768,
+          "parameters": 1769472,
+          "proxy_coefficient": 0.0956440580236582
+        },
+        {
+          "name": "transformer.h.3.attn.c_attn.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 2304,
+          "proxy_coefficient": 0.0040632505089369724
+        },
+        {
+          "name": "transformer.h.3.attn.c_proj.weight",
+          "layout": "storage_flat",
+          "samples": 16384,
+          "parameters": 589824,
+          "proxy_coefficient": 0.011685721585264314
+        },
+        {
+          "name": "transformer.h.3.attn.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0006818989774946353
+        },
+        {
+          "name": "transformer.h.3.ln_2.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.003441687976127003
+        },
+        {
+          "name": "transformer.h.3.ln_2.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.006307100478866091
+        },
+        {
+          "name": "transformer.h.3.mlp.c_fc.weight",
+          "layout": "storage_flat",
+          "samples": 16384,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.03697339155166947
+        },
+        {
+          "name": "transformer.h.3.mlp.c_fc.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 3072,
+          "proxy_coefficient": 0.00080936239901512
+        },
+        {
+          "name": "transformer.h.3.mlp.c_proj.weight",
+          "layout": "transposed_matrix",
+          "samples": 8192,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.020071533906492186
+        },
+        {
+          "name": "transformer.h.3.mlp.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0008448672357146661
+        },
+        {
+          "name": "transformer.h.4.ln_1.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.001021842680625259
+        },
+        {
+          "name": "transformer.h.4.ln_1.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.027801872463890362
+        },
+        {
+          "name": "transformer.h.4.attn.c_attn.weight",
+          "layout": "transposed_matrix",
+          "samples": 32768,
+          "parameters": 1769472,
+          "proxy_coefficient": 0.07116579899619008
+        },
+        {
+          "name": "transformer.h.4.attn.c_attn.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 2304,
+          "proxy_coefficient": 0.004644673926249603
+        },
+        {
+          "name": "transformer.h.4.attn.c_proj.weight",
+          "layout": "storage_flat",
+          "samples": 16384,
+          "parameters": 589824,
+          "proxy_coefficient": 0.0091656587267282
+        },
+        {
+          "name": "transformer.h.4.attn.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0005282692883413731
+        },
+        {
+          "name": "transformer.h.4.ln_2.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0038092802844837985
+        },
+        {
+          "name": "transformer.h.4.ln_2.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0015752341557730856
+        },
+        {
+          "name": "transformer.h.4.mlp.c_fc.weight",
+          "layout": "storage_flat",
+          "samples": 16384,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.056478096738945674
+        },
+        {
+          "name": "transformer.h.4.mlp.c_fc.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 3072,
+          "proxy_coefficient": 0.0013705041896827962
+        },
+        {
+          "name": "transformer.h.4.mlp.c_proj.weight",
+          "layout": "transposed_matrix",
+          "samples": 8192,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.021008967496995535
+        },
+        {
+          "name": "transformer.h.4.mlp.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0012514222507303992
+        },
+        {
+          "name": "transformer.h.5.ln_1.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.001509121804075525
+        },
+        {
+          "name": "transformer.h.5.ln_1.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.00847849878132674
+        },
+        {
+          "name": "transformer.h.5.attn.c_attn.weight",
+          "layout": "transposed_matrix",
+          "samples": 32768,
+          "parameters": 1769472,
+          "proxy_coefficient": 0.10207243546845372
+        },
+        {
+          "name": "transformer.h.5.attn.c_attn.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 2304,
+          "proxy_coefficient": 0.0033090640457506416
+        },
+        {
+          "name": "transformer.h.5.attn.c_proj.weight",
+          "layout": "storage_flat",
+          "samples": 16384,
+          "parameters": 589824,
+          "proxy_coefficient": 0.01182844323815775
+        },
+        {
+          "name": "transformer.h.5.attn.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0006373445006126533
+        },
+        {
+          "name": "transformer.h.5.ln_2.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0031077031492075134
+        },
+        {
+          "name": "transformer.h.5.ln_2.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0030466976437345276
+        },
+        {
+          "name": "transformer.h.5.mlp.c_fc.weight",
+          "layout": "storage_flat",
+          "samples": 16384,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.0417131016025907
+        },
+        {
+          "name": "transformer.h.5.mlp.c_fc.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 3072,
+          "proxy_coefficient": 0.0011109333849973872
+        },
+        {
+          "name": "transformer.h.5.mlp.c_proj.weight",
+          "layout": "storage_flat",
+          "samples": 16384,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.02500600093661466
+        },
+        {
+          "name": "transformer.h.5.mlp.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.000788276503614547
+        },
+        {
+          "name": "transformer.h.6.ln_1.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0012350144600154866
+        },
+        {
+          "name": "transformer.h.6.ln_1.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.028938741672012318
+        },
+        {
+          "name": "transformer.h.6.attn.c_attn.weight",
+          "layout": "transposed_matrix",
+          "samples": 32768,
+          "parameters": 1769472,
+          "proxy_coefficient": 0.08606631738003222
+        },
+        {
+          "name": "transformer.h.6.attn.c_attn.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 2304,
+          "proxy_coefficient": 0.0015562662334234504
+        },
+        {
+          "name": "transformer.h.6.attn.c_proj.weight",
+          "layout": "storage_flat",
+          "samples": 16384,
+          "parameters": 589824,
+          "proxy_coefficient": 0.0075727593291836925
+        },
+        {
+          "name": "transformer.h.6.attn.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 768,
+          "proxy_coefficient": 0.00030691280276121856
+        },
+        {
+          "name": "transformer.h.6.ln_2.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.002943313833307384
+        },
+        {
+          "name": "transformer.h.6.ln_2.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.002485007499040098
+        },
+        {
+          "name": "transformer.h.6.mlp.c_fc.weight",
+          "layout": "storage_flat",
+          "samples": 16384,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.04073122329247182
+        },
+        {
+          "name": "transformer.h.6.mlp.c_fc.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 3072,
+          "proxy_coefficient": 0.0010714080858003315
+        },
+        {
+          "name": "transformer.h.6.mlp.c_proj.weight",
+          "layout": "storage_flat",
+          "samples": 16384,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.02465373908148561
+        },
+        {
+          "name": "transformer.h.6.mlp.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0007479275599439441
+        },
+        {
+          "name": "transformer.h.7.ln_1.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0015476212781358586
+        },
+        {
+          "name": "transformer.h.7.ln_1.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.019694360709467222
+        },
+        {
+          "name": "transformer.h.7.attn.c_attn.weight",
+          "layout": "transposed_matrix",
+          "samples": 16384,
+          "parameters": 1769472,
+          "proxy_coefficient": 0.057562410726033526
+        },
+        {
+          "name": "transformer.h.7.attn.c_attn.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 2304,
+          "proxy_coefficient": 0.0015395913039683996
+        },
+        {
+          "name": "transformer.h.7.attn.c_proj.weight",
+          "layout": "storage_flat",
+          "samples": 8192,
+          "parameters": 589824,
+          "proxy_coefficient": 0.005913974030765542
+        },
+        {
+          "name": "transformer.h.7.attn.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 768,
+          "proxy_coefficient": 0.0004413958719716502
+        },
+        {
+          "name": "transformer.h.7.ln_2.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.002782692886053885
+        },
+        {
+          "name": "transformer.h.7.ln_2.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0036845511344861083
+        },
+        {
+          "name": "transformer.h.7.mlp.c_fc.weight",
+          "layout": "storage_flat",
+          "samples": 16384,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.029061424448564712
+        },
+        {
+          "name": "transformer.h.7.mlp.c_fc.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 3072,
+          "proxy_coefficient": 0.001209281828200852
+        },
+        {
+          "name": "transformer.h.7.mlp.c_proj.weight",
+          "layout": "storage_flat",
+          "samples": 16384,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.024650599387126472
+        },
+        {
+          "name": "transformer.h.7.mlp.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0005972284430462149
+        },
+        {
+          "name": "transformer.h.8.ln_1.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.001614484894030858
+        },
+        {
+          "name": "transformer.h.8.ln_1.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.017344233360413505
+        },
+        {
+          "name": "transformer.h.8.attn.c_attn.weight",
+          "layout": "transposed_matrix",
+          "samples": 16384,
+          "parameters": 1769472,
+          "proxy_coefficient": 0.06897058838692606
+        },
+        {
+          "name": "transformer.h.8.attn.c_attn.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 2304,
+          "proxy_coefficient": 0.0016781791296854019
+        },
+        {
+          "name": "transformer.h.8.attn.c_proj.weight",
+          "layout": "storage_flat",
+          "samples": 16384,
+          "parameters": 589824,
+          "proxy_coefficient": 0.0069302232362182066
+        },
+        {
+          "name": "transformer.h.8.attn.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 768,
+          "proxy_coefficient": 0.0003321371573937179
+        },
+        {
+          "name": "transformer.h.8.ln_2.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.005046352633369278
+        },
+        {
+          "name": "transformer.h.8.ln_2.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.006119069985059207
+        },
+        {
+          "name": "transformer.h.8.mlp.c_fc.weight",
+          "layout": "storage_flat",
+          "samples": 16384,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.026771704642043797
+        },
+        {
+          "name": "transformer.h.8.mlp.c_fc.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 3072,
+          "proxy_coefficient": 0.0008942178809187065
+        },
+        {
+          "name": "transformer.h.8.mlp.c_proj.weight",
+          "layout": "storage_flat",
+          "samples": 8192,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.021719912131685417
+        },
+        {
+          "name": "transformer.h.8.mlp.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 768,
+          "proxy_coefficient": 0.00028358124084303695
+        },
+        {
+          "name": "transformer.h.9.ln_1.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0009877211054533219
+        },
+        {
+          "name": "transformer.h.9.ln_1.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.015279407450652874
+        },
+        {
+          "name": "transformer.h.9.attn.c_attn.weight",
+          "layout": "transposed_matrix",
+          "samples": 16384,
+          "parameters": 1769472,
+          "proxy_coefficient": 0.03456724474428821
+        },
+        {
+          "name": "transformer.h.9.attn.c_attn.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 2304,
+          "proxy_coefficient": 0.0009222045348551639
+        },
+        {
+          "name": "transformer.h.9.attn.c_proj.weight",
+          "layout": "storage_flat",
+          "samples": 8192,
+          "parameters": 589824,
+          "proxy_coefficient": 0.005208969614252792
+        },
+        {
+          "name": "transformer.h.9.attn.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0004977931406477627
+        },
+        {
+          "name": "transformer.h.9.ln_2.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.003057190535105058
+        },
+        {
+          "name": "transformer.h.9.ln_2.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.003131410189922704
+        },
+        {
+          "name": "transformer.h.9.mlp.c_fc.weight",
+          "layout": "storage_flat",
+          "samples": 8192,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.01930489459483138
+        },
+        {
+          "name": "transformer.h.9.mlp.c_fc.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 3072,
+          "proxy_coefficient": 0.0006084022660963938
+        },
+        {
+          "name": "transformer.h.9.mlp.c_proj.weight",
+          "layout": "storage_flat",
+          "samples": 8192,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.01805616341644045
+        },
+        {
+          "name": "transformer.h.9.mlp.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 768,
+          "proxy_coefficient": 0.00024167326456734826
+        },
+        {
+          "name": "transformer.h.10.ln_1.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0010441485085776578
+        },
+        {
+          "name": "transformer.h.10.ln_1.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.010024119766135514
+        },
+        {
+          "name": "transformer.h.10.attn.c_attn.weight",
+          "layout": "transposed_matrix",
+          "samples": 16384,
+          "parameters": 1769472,
+          "proxy_coefficient": 0.029244646185888696
+        },
+        {
+          "name": "transformer.h.10.attn.c_attn.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 2304,
+          "proxy_coefficient": 0.0012828755235850429
+        },
+        {
+          "name": "transformer.h.10.attn.c_proj.weight",
+          "layout": "storage_flat",
+          "samples": 16384,
+          "parameters": 589824,
+          "proxy_coefficient": 0.006009024543822802
+        },
+        {
+          "name": "transformer.h.10.attn.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0005445249977266856
+        },
+        {
+          "name": "transformer.h.10.ln_2.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.003203301013317347
+        },
+        {
+          "name": "transformer.h.10.ln_2.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.003337592914635358
+        },
+        {
+          "name": "transformer.h.10.mlp.c_fc.weight",
+          "layout": "storage_flat",
+          "samples": 8192,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.018963166961828284
+        },
+        {
+          "name": "transformer.h.10.mlp.c_fc.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 3072,
+          "proxy_coefficient": 0.0006067617639580854
+        },
+        {
+          "name": "transformer.h.10.mlp.c_proj.weight",
+          "layout": "storage_flat",
+          "samples": 16384,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.023889746182497156
+        },
+        {
+          "name": "transformer.h.10.mlp.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 768,
+          "proxy_coefficient": 0.00027097195008915503
+        },
+        {
+          "name": "transformer.h.11.ln_1.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0005861720644728269
+        },
+        {
+          "name": "transformer.h.11.ln_1.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.006509845185175858
+        },
+        {
+          "name": "transformer.h.11.attn.c_attn.weight",
+          "layout": "transposed_matrix",
+          "samples": 16384,
+          "parameters": 1769472,
+          "proxy_coefficient": 0.03510389496278035
+        },
+        {
+          "name": "transformer.h.11.attn.c_attn.bias",
+          "layout": "storage_flat",
+          "samples": 32768,
+          "parameters": 2304,
+          "proxy_coefficient": 0.0003679002997813056
+        },
+        {
+          "name": "transformer.h.11.attn.c_proj.weight",
+          "layout": "storage_flat",
+          "samples": 32768,
+          "parameters": 589824,
+          "proxy_coefficient": 0.07200632663559653
+        },
+        {
+          "name": "transformer.h.11.attn.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0018723975425885184
+        },
+        {
+          "name": "transformer.h.11.ln_2.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.006721594104311286
+        },
+        {
+          "name": "transformer.h.11.ln_2.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0028873348824396345
+        },
+        {
+          "name": "transformer.h.11.mlp.c_fc.weight",
+          "layout": "transposed_matrix",
+          "samples": 16384,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.0282193146093593
+        },
+        {
+          "name": "transformer.h.11.mlp.c_fc.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 3072,
+          "proxy_coefficient": 0.0006433917276306055
+        },
+        {
+          "name": "transformer.h.11.mlp.c_proj.weight",
+          "layout": "transposed_matrix",
+          "samples": 16384,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.026451803035056853
+        },
+        {
+          "name": "transformer.h.11.mlp.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 32768,
+          "parameters": 768,
+          "proxy_coefficient": 3.1436038966369806e-05
+        },
+        {
+          "name": "transformer.ln_f.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.11003126286023103
+        },
+        {
+          "name": "transformer.ln_f.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.14415370222923965
+        }
+      ]
+    },
+    {
+      "name": "gradient_proxy_directions",
+      "proxy_constraint_satisfied": true,
+      "proxy_variance": 0.0002225805566116949,
+      "target_proxy_variance": 0.00022352116122344395,
+      "observations": 2454385065984,
+      "versus_uniform_32768_cost": 0.6019125969721844,
+      "parameters": [
+        {
+          "name": "transformer.wte.weight",
+          "layout": "transposed_matrix",
+          "samples": 32768,
+          "parameters": 38597376,
+          "proxy_coefficient": 3.6324438942099295
+        },
+        {
+          "name": "transformer.wpe.weight",
+          "layout": "transposed_matrix",
+          "samples": 4096,
+          "parameters": 786432,
+          "proxy_coefficient": 0.0016751868318877427
+        },
+        {
+          "name": "transformer.h.0.ln_1.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0017293807771919477
+        },
+        {
+          "name": "transformer.h.0.ln_1.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.010346124187524187
+        },
+        {
+          "name": "transformer.h.0.attn.c_attn.weight",
+          "layout": "storage_flat",
+          "samples": 8192,
+          "parameters": 1769472,
+          "proxy_coefficient": 0.01759394268196105
+        },
+        {
+          "name": "transformer.h.0.attn.c_attn.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 2304,
+          "proxy_coefficient": 0.009661144301697799
+        },
+        {
+          "name": "transformer.h.0.attn.c_proj.weight",
+          "layout": "transposed_matrix",
+          "samples": 16384,
+          "parameters": 589824,
+          "proxy_coefficient": 0.018803788080898817
+        },
+        {
+          "name": "transformer.h.0.attn.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.28259344622335536
+        },
+        {
+          "name": "transformer.h.0.ln_2.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.009316974443295371
+        },
+        {
+          "name": "transformer.h.0.ln_2.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.03413137660945746
+        },
+        {
+          "name": "transformer.h.0.mlp.c_fc.weight",
+          "layout": "storage_flat",
+          "samples": 16384,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.02987635874928534
+        },
+        {
+          "name": "transformer.h.0.mlp.c_fc.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 3072,
+          "proxy_coefficient": 0.0013423737632604492
+        },
+        {
+          "name": "transformer.h.0.mlp.c_proj.weight",
+          "layout": "transposed_matrix",
+          "samples": 8192,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.025505797924675735
+        },
+        {
+          "name": "transformer.h.0.mlp.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.000901282959853256
+        },
+        {
+          "name": "transformer.h.1.ln_1.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0018593730377529862
+        },
+        {
+          "name": "transformer.h.1.ln_1.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.016447796139798257
+        },
+        {
+          "name": "transformer.h.1.attn.c_attn.weight",
+          "layout": "storage_flat",
+          "samples": 8192,
+          "parameters": 1769472,
+          "proxy_coefficient": 0.015375256622238816
+        },
+        {
+          "name": "transformer.h.1.attn.c_attn.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 2304,
+          "proxy_coefficient": 0.0028312972224757934
+        },
+        {
+          "name": "transformer.h.1.attn.c_proj.weight",
+          "layout": "transposed_matrix",
+          "samples": 16384,
+          "parameters": 589824,
+          "proxy_coefficient": 0.009626765460530259
+        },
+        {
+          "name": "transformer.h.1.attn.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 768,
+          "proxy_coefficient": 0.0004773754345435952
+        },
+        {
+          "name": "transformer.h.1.ln_2.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0030603580837264494
+        },
+        {
+          "name": "transformer.h.1.ln_2.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.008318228601991232
+        },
+        {
+          "name": "transformer.h.1.mlp.c_fc.weight",
+          "layout": "transposed_matrix",
+          "samples": 16384,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.053308317814968864
+        },
+        {
+          "name": "transformer.h.1.mlp.c_fc.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 3072,
+          "proxy_coefficient": 0.0014917681581950969
+        },
+        {
+          "name": "transformer.h.1.mlp.c_proj.weight",
+          "layout": "transposed_matrix",
+          "samples": 8192,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.025778406243192557
+        },
+        {
+          "name": "transformer.h.1.mlp.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0007449652458441925
+        },
+        {
+          "name": "transformer.h.2.ln_1.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0035070369862507953
+        },
+        {
+          "name": "transformer.h.2.ln_1.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.029937062175716303
+        },
+        {
+          "name": "transformer.h.2.attn.c_attn.weight",
+          "layout": "storage_flat",
+          "samples": 16384,
+          "parameters": 1769472,
+          "proxy_coefficient": 0.052303615998292564
+        },
+        {
+          "name": "transformer.h.2.attn.c_attn.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 2304,
+          "proxy_coefficient": 0.004444040869857234
+        },
+        {
+          "name": "transformer.h.2.attn.c_proj.weight",
+          "layout": "transposed_matrix",
+          "samples": 16384,
+          "parameters": 589824,
+          "proxy_coefficient": 0.011422986778692171
+        },
+        {
+          "name": "transformer.h.2.attn.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0008298574352684674
+        },
+        {
+          "name": "transformer.h.2.ln_2.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.004321914663506187
+        },
+        {
+          "name": "transformer.h.2.ln_2.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.010726089345621716
+        },
+        {
+          "name": "transformer.h.2.mlp.c_fc.weight",
+          "layout": "transposed_matrix",
+          "samples": 16384,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.07966351243839365
+        },
+        {
+          "name": "transformer.h.2.mlp.c_fc.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 3072,
+          "proxy_coefficient": 0.002405423405003931
+        },
+        {
+          "name": "transformer.h.2.mlp.c_proj.weight",
+          "layout": "transposed_matrix",
+          "samples": 16384,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.03789553572522853
+        },
+        {
+          "name": "transformer.h.2.mlp.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.000820166877384409
+        },
+        {
+          "name": "transformer.h.3.ln_1.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0015706893771263034
+        },
+        {
+          "name": "transformer.h.3.ln_1.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.01858461986665401
+        },
+        {
+          "name": "transformer.h.3.attn.c_attn.weight",
+          "layout": "storage_flat",
+          "samples": 32768,
+          "parameters": 1769472,
+          "proxy_coefficient": 0.08004276030723728
+        },
+        {
+          "name": "transformer.h.3.attn.c_attn.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 2304,
+          "proxy_coefficient": 0.0040632505089369724
+        },
+        {
+          "name": "transformer.h.3.attn.c_proj.weight",
+          "layout": "transposed_matrix",
+          "samples": 16384,
+          "parameters": 589824,
+          "proxy_coefficient": 0.009590720875872061
+        },
+        {
+          "name": "transformer.h.3.attn.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0006818989774946353
+        },
+        {
+          "name": "transformer.h.3.ln_2.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.003441687976127003
+        },
+        {
+          "name": "transformer.h.3.ln_2.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.006307100478866091
+        },
+        {
+          "name": "transformer.h.3.mlp.c_fc.weight",
+          "layout": "storage_flat",
+          "samples": 16384,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.03697339155166947
+        },
+        {
+          "name": "transformer.h.3.mlp.c_fc.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 3072,
+          "proxy_coefficient": 0.00080936239901512
+        },
+        {
+          "name": "transformer.h.3.mlp.c_proj.weight",
+          "layout": "transposed_matrix",
+          "samples": 8192,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.020071533906492186
+        },
+        {
+          "name": "transformer.h.3.mlp.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0008448672357146661
+        },
+        {
+          "name": "transformer.h.4.ln_1.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.001021842680625259
+        },
+        {
+          "name": "transformer.h.4.ln_1.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.027801872463890362
+        },
+        {
+          "name": "transformer.h.4.attn.c_attn.weight",
+          "layout": "transposed_matrix",
+          "samples": 16384,
+          "parameters": 1769472,
+          "proxy_coefficient": 0.07116579899619008
+        },
+        {
+          "name": "transformer.h.4.attn.c_attn.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 2304,
+          "proxy_coefficient": 0.004644673926249603
+        },
+        {
+          "name": "transformer.h.4.attn.c_proj.weight",
+          "layout": "storage_flat",
+          "samples": 16384,
+          "parameters": 589824,
+          "proxy_coefficient": 0.0091656587267282
+        },
+        {
+          "name": "transformer.h.4.attn.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 768,
+          "proxy_coefficient": 0.0005282692883413731
+        },
+        {
+          "name": "transformer.h.4.ln_2.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0038092802844837985
+        },
+        {
+          "name": "transformer.h.4.ln_2.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0015752341557730856
+        },
+        {
+          "name": "transformer.h.4.mlp.c_fc.weight",
+          "layout": "transposed_matrix",
+          "samples": 16384,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.05496211862249556
+        },
+        {
+          "name": "transformer.h.4.mlp.c_fc.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 3072,
+          "proxy_coefficient": 0.0013705041896827962
+        },
+        {
+          "name": "transformer.h.4.mlp.c_proj.weight",
+          "layout": "transposed_matrix",
+          "samples": 8192,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.021008967496995535
+        },
+        {
+          "name": "transformer.h.4.mlp.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0012514222507303992
+        },
+        {
+          "name": "transformer.h.5.ln_1.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.001509121804075525
+        },
+        {
+          "name": "transformer.h.5.ln_1.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.00847849878132674
+        },
+        {
+          "name": "transformer.h.5.attn.c_attn.weight",
+          "layout": "storage_flat",
+          "samples": 32768,
+          "parameters": 1769472,
+          "proxy_coefficient": 0.09439029364929225
+        },
+        {
+          "name": "transformer.h.5.attn.c_attn.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 2304,
+          "proxy_coefficient": 0.0033090640457506416
+        },
+        {
+          "name": "transformer.h.5.attn.c_proj.weight",
+          "layout": "storage_flat",
+          "samples": 16384,
+          "parameters": 589824,
+          "proxy_coefficient": 0.01182844323815775
+        },
+        {
+          "name": "transformer.h.5.attn.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0006373445006126533
+        },
+        {
+          "name": "transformer.h.5.ln_2.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0031077031492075134
+        },
+        {
+          "name": "transformer.h.5.ln_2.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0030466976437345276
+        },
+        {
+          "name": "transformer.h.5.mlp.c_fc.weight",
+          "layout": "storage_flat",
+          "samples": 16384,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.0417131016025907
+        },
+        {
+          "name": "transformer.h.5.mlp.c_fc.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 3072,
+          "proxy_coefficient": 0.0011109333849973872
+        },
+        {
+          "name": "transformer.h.5.mlp.c_proj.weight",
+          "layout": "transposed_matrix",
+          "samples": 8192,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.02159566761805116
+        },
+        {
+          "name": "transformer.h.5.mlp.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.000788276503614547
+        },
+        {
+          "name": "transformer.h.6.ln_1.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0012350144600154866
+        },
+        {
+          "name": "transformer.h.6.ln_1.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.028938741672012318
+        },
+        {
+          "name": "transformer.h.6.attn.c_attn.weight",
+          "layout": "transposed_matrix",
+          "samples": 32768,
+          "parameters": 1769472,
+          "proxy_coefficient": 0.08606631738003222
+        },
+        {
+          "name": "transformer.h.6.attn.c_attn.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 2304,
+          "proxy_coefficient": 0.0015562662334234504
+        },
+        {
+          "name": "transformer.h.6.attn.c_proj.weight",
+          "layout": "transposed_matrix",
+          "samples": 8192,
+          "parameters": 589824,
+          "proxy_coefficient": 0.0066455996661652144
+        },
+        {
+          "name": "transformer.h.6.attn.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 768,
+          "proxy_coefficient": 0.00030691280276121856
+        },
+        {
+          "name": "transformer.h.6.ln_2.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.002943313833307384
+        },
+        {
+          "name": "transformer.h.6.ln_2.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.002485007499040098
+        },
+        {
+          "name": "transformer.h.6.mlp.c_fc.weight",
+          "layout": "storage_flat",
+          "samples": 16384,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.04073122329247182
+        },
+        {
+          "name": "transformer.h.6.mlp.c_fc.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 3072,
+          "proxy_coefficient": 0.0010714080858003315
+        },
+        {
+          "name": "transformer.h.6.mlp.c_proj.weight",
+          "layout": "transposed_matrix",
+          "samples": 8192,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.02214223692178788
+        },
+        {
+          "name": "transformer.h.6.mlp.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0007479275599439441
+        },
+        {
+          "name": "transformer.h.7.ln_1.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0015476212781358586
+        },
+        {
+          "name": "transformer.h.7.ln_1.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.019694360709467222
+        },
+        {
+          "name": "transformer.h.7.attn.c_attn.weight",
+          "layout": "transposed_matrix",
+          "samples": 16384,
+          "parameters": 1769472,
+          "proxy_coefficient": 0.057562410726033526
+        },
+        {
+          "name": "transformer.h.7.attn.c_attn.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 2304,
+          "proxy_coefficient": 0.0015395913039683996
+        },
+        {
+          "name": "transformer.h.7.attn.c_proj.weight",
+          "layout": "transposed_matrix",
+          "samples": 8192,
+          "parameters": 589824,
+          "proxy_coefficient": 0.005208539396622337
+        },
+        {
+          "name": "transformer.h.7.attn.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 768,
+          "proxy_coefficient": 0.0004413958719716502
+        },
+        {
+          "name": "transformer.h.7.ln_2.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.002782692886053885
+        },
+        {
+          "name": "transformer.h.7.ln_2.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0036845511344861083
+        },
+        {
+          "name": "transformer.h.7.mlp.c_fc.weight",
+          "layout": "storage_flat",
+          "samples": 16384,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.029061424448564712
+        },
+        {
+          "name": "transformer.h.7.mlp.c_fc.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 3072,
+          "proxy_coefficient": 0.001209281828200852
+        },
+        {
+          "name": "transformer.h.7.mlp.c_proj.weight",
+          "layout": "transposed_matrix",
+          "samples": 8192,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.020812500815428587
+        },
+        {
+          "name": "transformer.h.7.mlp.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0005972284430462149
+        },
+        {
+          "name": "transformer.h.8.ln_1.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.001614484894030858
+        },
+        {
+          "name": "transformer.h.8.ln_1.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.017344233360413505
+        },
+        {
+          "name": "transformer.h.8.attn.c_attn.weight",
+          "layout": "transposed_matrix",
+          "samples": 16384,
+          "parameters": 1769472,
+          "proxy_coefficient": 0.06897058838692606
+        },
+        {
+          "name": "transformer.h.8.attn.c_attn.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 2304,
+          "proxy_coefficient": 0.0016781791296854019
+        },
+        {
+          "name": "transformer.h.8.attn.c_proj.weight",
+          "layout": "transposed_matrix",
+          "samples": 8192,
+          "parameters": 589824,
+          "proxy_coefficient": 0.005721327174856003
+        },
+        {
+          "name": "transformer.h.8.attn.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 768,
+          "proxy_coefficient": 0.0003321371573937179
+        },
+        {
+          "name": "transformer.h.8.ln_2.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.005046352633369278
+        },
+        {
+          "name": "transformer.h.8.ln_2.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.006119069985059207
+        },
+        {
+          "name": "transformer.h.8.mlp.c_fc.weight",
+          "layout": "storage_flat",
+          "samples": 16384,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.026771704642043797
+        },
+        {
+          "name": "transformer.h.8.mlp.c_fc.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 3072,
+          "proxy_coefficient": 0.0008942178809187065
+        },
+        {
+          "name": "transformer.h.8.mlp.c_proj.weight",
+          "layout": "transposed_matrix",
+          "samples": 8192,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.018670618334529755
+        },
+        {
+          "name": "transformer.h.8.mlp.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 768,
+          "proxy_coefficient": 0.00028358124084303695
+        },
+        {
+          "name": "transformer.h.9.ln_1.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0009877211054533219
+        },
+        {
+          "name": "transformer.h.9.ln_1.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.015279407450652874
+        },
+        {
+          "name": "transformer.h.9.attn.c_attn.weight",
+          "layout": "transposed_matrix",
+          "samples": 16384,
+          "parameters": 1769472,
+          "proxy_coefficient": 0.03456724474428821
+        },
+        {
+          "name": "transformer.h.9.attn.c_attn.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 2304,
+          "proxy_coefficient": 0.0009222045348551639
+        },
+        {
+          "name": "transformer.h.9.attn.c_proj.weight",
+          "layout": "transposed_matrix",
+          "samples": 8192,
+          "parameters": 589824,
+          "proxy_coefficient": 0.004406805412824588
+        },
+        {
+          "name": "transformer.h.9.attn.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 768,
+          "proxy_coefficient": 0.0004977931406477627
+        },
+        {
+          "name": "transformer.h.9.ln_2.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.003057190535105058
+        },
+        {
+          "name": "transformer.h.9.ln_2.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.003131410189922704
+        },
+        {
+          "name": "transformer.h.9.mlp.c_fc.weight",
+          "layout": "storage_flat",
+          "samples": 8192,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.01930489459483138
+        },
+        {
+          "name": "transformer.h.9.mlp.c_fc.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 3072,
+          "proxy_coefficient": 0.0006084022660963938
+        },
+        {
+          "name": "transformer.h.9.mlp.c_proj.weight",
+          "layout": "storage_flat",
+          "samples": 8192,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.01805616341644045
+        },
+        {
+          "name": "transformer.h.9.mlp.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 768,
+          "proxy_coefficient": 0.00024167326456734826
+        },
+        {
+          "name": "transformer.h.10.ln_1.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0010441485085776578
+        },
+        {
+          "name": "transformer.h.10.ln_1.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.010024119766135514
+        },
+        {
+          "name": "transformer.h.10.attn.c_attn.weight",
+          "layout": "transposed_matrix",
+          "samples": 16384,
+          "parameters": 1769472,
+          "proxy_coefficient": 0.029244646185888696
+        },
+        {
+          "name": "transformer.h.10.attn.c_attn.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 2304,
+          "proxy_coefficient": 0.0012828755235850429
+        },
+        {
+          "name": "transformer.h.10.attn.c_proj.weight",
+          "layout": "transposed_matrix",
+          "samples": 8192,
+          "parameters": 589824,
+          "proxy_coefficient": 0.005307776194897201
+        },
+        {
+          "name": "transformer.h.10.attn.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 768,
+          "proxy_coefficient": 0.0005445249977266856
+        },
+        {
+          "name": "transformer.h.10.ln_2.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.003203301013317347
+        },
+        {
+          "name": "transformer.h.10.ln_2.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.003337592914635358
+        },
+        {
+          "name": "transformer.h.10.mlp.c_fc.weight",
+          "layout": "storage_flat",
+          "samples": 8192,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.018963166961828284
+        },
+        {
+          "name": "transformer.h.10.mlp.c_fc.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 3072,
+          "proxy_coefficient": 0.0006067617639580854
+        },
+        {
+          "name": "transformer.h.10.mlp.c_proj.weight",
+          "layout": "transposed_matrix",
+          "samples": 8192,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.02202494777325963
+        },
+        {
+          "name": "transformer.h.10.mlp.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 768,
+          "proxy_coefficient": 0.00027097195008915503
+        },
+        {
+          "name": "transformer.h.11.ln_1.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0005861720644728269
+        },
+        {
+          "name": "transformer.h.11.ln_1.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.006509845185175858
+        },
+        {
+          "name": "transformer.h.11.attn.c_attn.weight",
+          "layout": "transposed_matrix",
+          "samples": 16384,
+          "parameters": 1769472,
+          "proxy_coefficient": 0.03510389496278035
+        },
+        {
+          "name": "transformer.h.11.attn.c_attn.bias",
+          "layout": "storage_flat",
+          "samples": 32768,
+          "parameters": 2304,
+          "proxy_coefficient": 0.0003679002997813056
+        },
+        {
+          "name": "transformer.h.11.attn.c_proj.weight",
+          "layout": "transposed_matrix",
+          "samples": 16384,
+          "parameters": 589824,
+          "proxy_coefficient": 0.011920171109660434
+        },
+        {
+          "name": "transformer.h.11.attn.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0018723975425885184
+        },
+        {
+          "name": "transformer.h.11.ln_2.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.006721594104311286
+        },
+        {
+          "name": "transformer.h.11.ln_2.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.0028873348824396345
+        },
+        {
+          "name": "transformer.h.11.mlp.c_fc.weight",
+          "layout": "storage_flat",
+          "samples": 16384,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.026663942891078755
+        },
+        {
+          "name": "transformer.h.11.mlp.c_fc.bias",
+          "layout": "storage_flat",
+          "samples": 65536,
+          "parameters": 3072,
+          "proxy_coefficient": 0.0006433917276306055
+        },
+        {
+          "name": "transformer.h.11.mlp.c_proj.weight",
+          "layout": "transposed_matrix",
+          "samples": 8192,
+          "parameters": 2359296,
+          "proxy_coefficient": 0.026451803035056853
+        },
+        {
+          "name": "transformer.h.11.mlp.c_proj.bias",
+          "layout": "storage_flat",
+          "samples": 16384,
+          "parameters": 768,
+          "proxy_coefficient": 3.1436038966369806e-05
+        },
+        {
+          "name": "transformer.ln_f.weight",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.11003126286023103
+        },
+        {
+          "name": "transformer.ln_f.bias",
+          "layout": "storage_flat",
+          "samples": 131072,
+          "parameters": 768,
+          "proxy_coefficient": 0.14415370222923965
+        }
+      ]
+    }
+  ],
+  "channel_statistics_sha256": "6e3566f5a74d865c449de91f4e29d57ae185d71ee0cedf9848f4b2406b088a5e",
+  "elapsed_seconds": 16.884993848158047,
+  "scope": "Diagnosticproposal only. No heldoutforwards; no fine-tuning. Calibration lacks longpositions/rarevocabulary; gradients and proxy alone do not establish transfer or quality."
+}

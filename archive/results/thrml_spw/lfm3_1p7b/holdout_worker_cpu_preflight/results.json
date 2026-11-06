@@ -1,0 +1,178 @@
+{
+  "status": "all_four_1028_position_CPU_worker_cases_produced",
+  "worker_ready": {
+    "ready": true,
+    "devices": [
+      "cpu:0"
+    ]
+  },
+  "protocol_sha256": "ae24b1d67faac0200fae175239f42f582c64ad84b28e6ae8cc78135bb293ac1f",
+  "records": [
+    {
+      "request": {
+        "input": "results/thrml_spw/lfm3_1p7b/holdout_worker_cpu_preflight/input0.npz",
+        "output": "results/thrml_spw/lfm3_1p7b/holdout_worker_cpu_preflight/output0.npy",
+        "kind": "linear",
+        "samples": 8192,
+        "field_bits": 12,
+        "activation_bits": 12,
+        "key": 202610703,
+        "call": 0,
+        "mode": "native",
+        "replay": true,
+        "state_dir": "results/thrml_spw/lfm3_1p7b/holdout_worker_cpu_preflight/states"
+      },
+      "receipt": {
+        "ok": true,
+        "call": 0,
+        "weight_coordinates": 8320,
+        "program_codes_used_directly": true,
+        "reference_weights_supplied": false,
+        "range_metadata_dtype": "float32",
+        "padding_nodes": 8064,
+        "field_bits": 12,
+        "activation_bits": 12,
+        "public_replay_checked": true,
+        "retained_evaluations": 134217728,
+        "warmup_evaluations": 16384,
+        "simulation_observer": "per_weight_counts_then_exact_integer_contraction",
+        "simulation_count_workspace_bytes": 65536,
+        "tile_lanes_limit": 4,
+        "max_simultaneous_tile_lanes": 2,
+        "max_simultaneous_sampler_state_slots": 16384,
+        "tile_batches": 1,
+        "elapsed_seconds": 16.138416002038866,
+        "finite": true
+      }
+    },
+    {
+      "request": {
+        "input": "results/thrml_spw/lfm3_1p7b/holdout_worker_cpu_preflight/input1.npz",
+        "output": "results/thrml_spw/lfm3_1p7b/holdout_worker_cpu_preflight/output1.npy",
+        "kind": "linear",
+        "samples": 16,
+        "field_bits": 12,
+        "activation_bits": 12,
+        "key": 202610703,
+        "call": 1,
+        "mode": "native",
+        "replay": true,
+        "state_dir": "results/thrml_spw/lfm3_1p7b/holdout_worker_cpu_preflight/states"
+      },
+      "receipt": {
+        "ok": true,
+        "call": 1,
+        "weight_coordinates": 499200,
+        "program_codes_used_directly": true,
+        "reference_weights_supplied": false,
+        "range_metadata_dtype": "float32",
+        "padding_nodes": 483840,
+        "field_bits": 12,
+        "activation_bits": 12,
+        "public_replay_checked": true,
+        "retained_evaluations": 15728640,
+        "warmup_evaluations": 983040,
+        "simulation_observer": "per_weight_counts_then_exact_integer_contraction",
+        "simulation_count_workspace_bytes": 3932160,
+        "tile_lanes_limit": 4,
+        "max_simultaneous_tile_lanes": 2,
+        "max_simultaneous_sampler_state_slots": 983040,
+        "tile_batches": 1,
+        "elapsed_seconds": 18.574724252917804,
+        "finite": true
+      }
+    },
+    {
+      "request": {
+        "input": "results/thrml_spw/lfm3_1p7b/holdout_worker_cpu_preflight/input2.npz",
+        "output": "results/thrml_spw/lfm3_1p7b/holdout_worker_cpu_preflight/output2.npy",
+        "kind": "conv",
+        "samples": 16,
+        "field_bits": 12,
+        "activation_bits": 12,
+        "key": 202610703,
+        "call": 2,
+        "mode": "native",
+        "replay": true,
+        "state_dir": "results/thrml_spw/lfm3_1p7b/holdout_worker_cpu_preflight/states"
+      },
+      "receipt": {
+        "ok": true,
+        "call": 2,
+        "weight_coordinates": 455,
+        "program_codes_used_directly": true,
+        "reference_weights_supplied": false,
+        "range_metadata_dtype": "float32",
+        "padding_nodes": 441,
+        "field_bits": 12,
+        "activation_bits": 12,
+        "public_replay_checked": true,
+        "retained_evaluations": 14336,
+        "warmup_evaluations": 896,
+        "simulation_observer": "per_weight_counts_then_exact_integer_contraction",
+        "simulation_count_workspace_bytes": 3584,
+        "tile_lanes_limit": 4,
+        "max_simultaneous_tile_lanes": 2,
+        "max_simultaneous_sampler_state_slots": 896,
+        "tile_batches": 1,
+        "elapsed_seconds": 1.2033394749742001,
+        "finite": true
+      }
+    },
+    {
+      "request": {
+        "input": "results/thrml_spw/lfm3_1p7b/holdout_worker_cpu_preflight/input3.npz",
+        "output": "results/thrml_spw/lfm3_1p7b/holdout_worker_cpu_preflight/output3.npy",
+        "kind": "elementwise",
+        "samples": 8192,
+        "field_bits": 12,
+        "activation_bits": 12,
+        "key": 202610703,
+        "call": 3,
+        "mode": "native",
+        "replay": true,
+        "state_dir": "results/thrml_spw/lfm3_1p7b/holdout_worker_cpu_preflight/states"
+      },
+      "receipt": {
+        "ok": true,
+        "call": 3,
+        "weight_coordinates": 65,
+        "program_codes_used_directly": true,
+        "reference_weights_supplied": false,
+        "range_metadata_dtype": "float32",
+        "padding_nodes": 63,
+        "field_bits": 12,
+        "activation_bits": 12,
+        "public_replay_checked": true,
+        "retained_evaluations": 1048576,
+        "warmup_evaluations": 128,
+        "simulation_observer": "per_weight_counts_then_exact_integer_contraction",
+        "simulation_count_workspace_bytes": 512,
+        "tile_lanes_limit": 4,
+        "max_simultaneous_tile_lanes": 2,
+        "max_simultaneous_sampler_state_slots": 128,
+        "tile_batches": 1,
+        "elapsed_seconds": 1.3865111289778724,
+        "finite": true
+      }
+    }
+  ],
+  "artifacts_sha256": {
+    "results/thrml_spw/lfm3_1p7b/holdout_worker_cpu_preflight/input0.npz": "f0a3bac5caa7ef85958b34032a3b2ca9afefd7076478d963af8301b469d5b5ea",
+    "results/thrml_spw/lfm3_1p7b/holdout_worker_cpu_preflight/input1.npz": "0091149bb8e31bc2c0f553fd5c68a20cf5e921d499d9eac9077dcd15fadc33c1",
+    "results/thrml_spw/lfm3_1p7b/holdout_worker_cpu_preflight/input2.npz": "10056472732a32aea89dc0932580208e9c0f89a4e449266599f47db2d4daae6c",
+    "results/thrml_spw/lfm3_1p7b/holdout_worker_cpu_preflight/input3.npz": "0702cfb7af27cd73b36e721070c818c6889e7f215ea7967fe10d7c59b0bf7c8e",
+    "results/thrml_spw/lfm3_1p7b/holdout_worker_cpu_preflight/output0.npy": "4fadd277380b185fa48a74b8b62aab4263fafb062a607198e0c1ae2266a03cdb",
+    "results/thrml_spw/lfm3_1p7b/holdout_worker_cpu_preflight/output1.npy": "07c9c73e376594c8d3206f4d0e77ca7a95698ebbf200df9dfcf2b8ed35441166",
+    "results/thrml_spw/lfm3_1p7b/holdout_worker_cpu_preflight/output2.npy": "7a328d532a7b20c3f769376b13bd20c4651b9aab9352e858cad2bbf6ec533e3f",
+    "results/thrml_spw/lfm3_1p7b/holdout_worker_cpu_preflight/output3.npy": "a418955aadb8a59cb9d3e92d75c4da7e7ec7e40dd45833cadaf36c10bf827732",
+    "results/thrml_spw/lfm3_1p7b/holdout_worker_cpu_preflight/states/call0_tile0.npz": "4d6300873c55cc2dfb69598ed2e9c3aab37990a46f3f3d029b6900f379d137ff",
+    "results/thrml_spw/lfm3_1p7b/holdout_worker_cpu_preflight/states/call0_tile1.npz": "9fc45c7b8c25025fc243c279c361156273f18e5a3330ec037489319ff95d9721",
+    "results/thrml_spw/lfm3_1p7b/holdout_worker_cpu_preflight/states/call1_tile0.npz": "ce8a68d755aad7dff486794107877bca96aeacc362b71388f28366cc7fe1526b",
+    "results/thrml_spw/lfm3_1p7b/holdout_worker_cpu_preflight/states/call1_tile1.npz": "bbfa616824d4046cd2e102018a9573cbda4081fafb62d3328abb4b9f7692d9a0",
+    "results/thrml_spw/lfm3_1p7b/holdout_worker_cpu_preflight/states/call2_tile0.npz": "0a16f5d41c1b1d3532553318a135cb1e1a735f92d1f4e252891f1ca2482f4f99",
+    "results/thrml_spw/lfm3_1p7b/holdout_worker_cpu_preflight/states/call2_tile1.npz": "f28dc0608610f2d69c62bdba61b58b4551731ddfb08b6c16c9984cf7fa12bb74",
+    "results/thrml_spw/lfm3_1p7b/holdout_worker_cpu_preflight/states/call3_tile0.npz": "063ef16ba9356ddfd6c58f83803e59db24c9dcfae7aa4fb773b0c9ef812c3d49",
+    "results/thrml_spw/lfm3_1p7b/holdout_worker_cpu_preflight/states/call3_tile1.npz": "5265612fd7c1386cf8958e64ba43bdcd445c6f7e44dfecc8998cc34d83d523e9"
+  }
+}

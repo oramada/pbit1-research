@@ -1,0 +1,31 @@
+{
+  "status": "complete_paired_holdout_analysis_frozen_before_scoring",
+  "recorded_utc": "2026-11-05T21:17:32.825455+00:00",
+  "sources_sha256": {
+    "preflight_holdout_statistics_v3.py": "8fe66e457c130aef697130713a2a2291bee810d973ad7cefe0c11d2e93794cf1",
+    "holdout_native_statistics_v3.py": "b6343e0bed2faeeb26897114f2d0ab669f79cfec944e8eb373e5c67cf34aeac5",
+    "verify_holdout_native_statistics_v3.py": "669a95b9300c752aff00fcfeb652eeb72a17525d04310c7a991730baa121a9b0",
+    "holdout_uncertainty_v2.py": "7f15211e85be0af5a3ab2b96428baba43577ddcbeca6d3e2a953a638da5c14cf",
+    "holdout_uncertainty.py": "d9a03d32c84256568ee656f16a98070aaa092a1219e88e516e1e472aa2e074d1",
+    "holdout_native_statistics.py": "0209dab9e8a23477c99aeccdbc5d271bbcf7953b54d28db1a0ff86e5e461d896",
+    "verify_holdout_native_statistics.py": "4b5d75dcf8665372b6ade4a0596a92232c6d1fd77ae5c22737f494accae3dc1e"
+  },
+  "parameters": {
+    "NLL_margin": 0.01980262729617973,
+    "bootstrap_replicates": 10000,
+    "bootstrap_key": 202610400,
+    "unexposed_bootstrap_key": 202611699,
+    "excluded_short_article_indices": [
+      0,
+      1
+    ],
+    "control_loss_absolute_tolerance": 1e-12
+  },
+  "preflight_sha256": "07452e5a3c60f1996196c8ce2638f3bb751227a71d6046ee8a30e24c5f9408b4",
+  "exposure_ledger_path": "results/thrml_spw/broad_verification_20261105/prior_holdout_exposure.json",
+  "exposure_ledger_sha256": "374007e3be135beb18dbf002d4afa3ff37facc9e8a82dfc99f4679338c5dd693",
+  "quality_rule": "Full40articles and separately previously unexposed38articles must each satisfy the unchanged upper2percentPPLcriterion for short,long,andpooled, with both conditionalMCt4 and crossed-article/seedbootstrap intervals. No score-dependent exclusions, additional seeds or margin changes.",
+  "scope": "The2firstshortarticles were exposed toBF16controls in a failed implementation run. The9728other targets were not used for that model execution. All10240targets remain in the full planned analysis. Approximate uncertainty, no universal/population or numericalBF16claim.",
+  "supersedes_transport_only_analysis_sha256": "d9a481a25fae075334d37e370395431499dc45c27a79e34b63f266754b1685e0",
+  "engineering_change": "Only cross-seed FP64 metric-reduction guard changes to1e-12absolute. Keep every seed loss, raw control tensor bit equality, all frozen2percentcriteria, bootstrap keys and exposure definition."
+}

@@ -1,0 +1,29 @@
+{
+  "status": "recovery_design_before_any_new_sampling_not_execution_authorization",
+  "recorded_utc": "2026-11-05T20:52:51.723222+00:00",
+  "unchanged_science": {
+    "samples": 8192,
+    "seeds": [
+      202611150,
+      202611151,
+      202611152,
+      202611153,
+      202611154
+    ],
+    "data": "all10240targets and separately9728previouslyunexposedtargets as prospectively frozen before the interrupted run",
+    "quality_margin_NLL": 0.01980262729617973,
+    "model_point": "ed690a28d5976aee7d9932872edb30d92adfa26c4fa0e5f248834c3678cf6262"
+  },
+  "required_changes": [
+    "Versioned output namespace, preserve every old output and failure",
+    "Durable function-call handles via spawn/get; restarted coordinator reattaches instead of submitting duplicate seed",
+    "Non-preemptible CPU coordinator or deployed job-queue app; GPU functions remain preemptible perModal docs",
+    "Per-stage atomic checkpoints binding protocol, seed, batch, program/control hashes, input IDs, raw output digest, losses, module coverage and operator receipts",
+    "Periodic Volume commits of closed checkpoint files and unique attempt logs",
+    "Skip only cryptographically validated complete stages; actual programming/model errors remain terminal",
+    "For the legacy interrupted attempt lacking complete receipt checkpoints, prospectively authorize one deterministic same-key recovery replay, verify completed old output bits, retain old artifacts and charge duplicate work; never treat replay as another MC seed",
+    "Inject interruptions on synthetic/component fixtures before adoption; prove completed-stage skip, rejection of corrupt checkpoints, same-key output fidelity and no duplicate active claims",
+    "New execution/namespace bindings may change, but statistical functions, primary criteria, frozen data and MC key list must not change"
+  ],
+  "remaining_unverified": "Implementation and fault-injection proof of recovery; then complete full5seedstudy, additionalmodels/tasks and nonideality/systems regimes."
+}

@@ -1,0 +1,14 @@
+{
+  "protocol_sha256": "b003fedc90d962500907e8cf435ca359ab1ef9a27ea3e892c2fe12a17ea79626",
+  "image_recipe_source": "cloud/broad_validation_v2/app.py",
+  "image_recipe_sha256": "9c3b77dbacffe2691473c17bd7f5a472b069c15342c0f721bf20dfb9f84cbcf7",
+  "dependencies": {
+    "torch": "2.14.1+cu130",
+    "transformers": "5.21.0",
+    "numpy_torch": "2.5.3",
+    "numpy_THRML": "2.5.4",
+    "jax": "0.12.0.1",
+    "THRML_git_revision": "2d54cd8404df85bb65703d7e8b4e84e48c1b72a9"
+  },
+  "purpose": "Record the unchanged pinned container recipe before first realtaskscoring; scientific protocol and all104cases unchanged."
+}

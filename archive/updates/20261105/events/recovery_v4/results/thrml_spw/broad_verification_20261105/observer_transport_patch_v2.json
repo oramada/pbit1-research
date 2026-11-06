@@ -1,0 +1,7 @@
+{
+  "status": "observer_only_builtin_poll_timeout_handling_corrected_no_experiment_change",
+  "source": "cloud/broad_validation_v3/client_v2.py",
+  "sha256": "4a649a0acab0ea6ce35b7631b1e9d99f085164357a7be717675b1348db0bb834",
+  "original_function_call_id": "fc-01M6PS7NEJKV91J43XXY8Y376K",
+  "policy": "Reattach existing handle, no new seed submission; original frozenclient source unchanged."
+}

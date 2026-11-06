@@ -1,0 +1,37 @@
+{
+  "status": "five_budgets_verified_against_independent_decode_and_legacy_low_T",
+  "source_sha256": "281fadc94e82e1ea7b1e8dd0f731f7b4cb05ba9a89fad58823b1e4597113ccc3",
+  "sampler_sha256": "aba6c01160328fcba0ef4fdf019a1e8521630316f09ac3033849cf2393d08f74",
+  "checks": [
+    {
+      "samples": 8192,
+      "counter_dtype": "uint16",
+      "max_count": 8189,
+      "passed": true
+    },
+    {
+      "samples": 32768,
+      "counter_dtype": "uint16",
+      "max_count": 32756,
+      "passed": true
+    },
+    {
+      "samples": 65536,
+      "counter_dtype": "uint32",
+      "max_count": 65511,
+      "passed": true
+    },
+    {
+      "samples": 131072,
+      "counter_dtype": "uint32",
+      "max_count": 131030,
+      "passed": true
+    },
+    {
+      "samples": 262144,
+      "counter_dtype": "uint32",
+      "max_count": 262060,
+      "passed": true
+    }
+  ]
+}

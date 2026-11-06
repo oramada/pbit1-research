@@ -1,0 +1,17 @@
+{
+  "source_sha256": "8618b1b87e6249a8a4b5b398fdab64124ea921cc7dfac833fefc984e98687dde",
+  "native_source_sha256": "14ab522d92356d3c633787b5249c8a0d04d6c46c3b282fb84bdd72ed1fd9a361",
+  "reference_definition_sha256": "4d9bae47fe3ab0f92a01aab4df5646ce9cbc5b600a34d54f0df2abd8fe33b7ed",
+  "input_sha256": "a467a6b34d1c3645ebcd2b5ad8fa35228bcdd8d16da5189c6c2222924cf4fd49",
+  "seeds": [
+    2026111201,
+    2026111202,
+    2026111203,
+    2026111204,
+    2026111205
+  ],
+  "K1_samples": 32768,
+  "K4_samples": 8192,
+  "K4_definition": "Quantize normalized finite-programprobabilityto4bitword. Fourindependentendpoint-biasedspins withpositionalcoefficients1,2,4,8. Noanalogprobabilityreplicas.",
+  "scope": "OfficialTHRML, real8x768headweightbank,8fixedhiddenvectors,5seeds. Equal201326592deviceobservationspermethodperseed. K1uses12bitcontrol/scalar;K4uses4bitword/scalar plussharedendpointfields. Countdifferentcontrolprecision. No fullmodelquality orhardwareenergyclaim."
+}

@@ -1,0 +1,50 @@
+{
+  "status": "real_process_interruptions_stage_skip_same_key_replay_and_corruption_rejection_passed",
+  "sources_sha256": {
+    "preflight_stage_checkpoint_v1.py": "0924a7460d91614fdcbd18ceef58c1fc57c22135075e563929255e2a6af3496d",
+    "stage_checkpoint_v1.py": "ff51be00b7342503a7e371c71f6f7073e91efd80312ef252ffd754692881d81c"
+  },
+  "auxiliary_sources_sha256": {
+    "research/thrml_spw/native.py": "14ab522d92356d3c633787b5249c8a0d04d6c46c3b282fb84bdd72ed1fd9a361"
+  },
+  "contract": {
+    "fixture": "official_unary_probability_counts",
+    "seed": 202611901,
+    "samples": 512,
+    "logical_pbits": 65,
+    "stages": 2
+  },
+  "after_committed_stage_sampling_events": [
+    {
+      "batch": 0,
+      "seed": 202611901
+    },
+    {
+      "batch": 1,
+      "seed": 202611902
+    }
+  ],
+  "before_commit_sampling_events_including_charged_replay": [
+    {
+      "batch": 0,
+      "seed": 202611901
+    },
+    {
+      "batch": 0,
+      "seed": 202611901
+    },
+    {
+      "batch": 1,
+      "seed": 202611902
+    }
+  ],
+  "corruptions_rejected": [
+    "contract",
+    "payload",
+    "truncated_metadata",
+    "metadata_digest",
+    "path_escape"
+  ],
+  "orphan_attempt_payloads_preserved": true,
+  "scope": "Actual subprocess exit/restart and officialTHRML deterministic replay on local disk. No Modal distributed locking/commit proof, model inference, new neural MC trial, or fresh-data outcome."
+}

@@ -1,0 +1,10 @@
+# Preserve byte-exact experimental snapshots and generated vector artwork.
+archive/** -whitespace
+results/** -whitespace
+research/** -whitespace
+*.svg -whitespace
+# Historical source bytes are retained, including harmless final blank lines.
+stochastic/hardware_equivalent.py -whitespace
+stochastic/voltage_quantization.py -whitespace
+sdk/src/pbit1/stochastic/hardware_equivalent.py -whitespace
+sdk/src/pbit1/stochastic/voltage_quantization.py -whitespace

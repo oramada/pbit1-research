@@ -1,0 +1,1041 @@
+{
+  "point_sha256": "2d7710510bb2065be24e8bfa5aac61460f58aba63d4c5031b6ca4dcfdcaaf922",
+  "records": [
+    {
+      "name": "transformer.wte.weight",
+      "normal_noise_sha256": "b89c1f88f6245dfedbfbc7492965ac518a3fb3026667a8e556648ae3bd3b6cf6",
+      "pre_FP32_SSE_about_mean": 102.11477181553293,
+      "expected_SSE": 102.14413863592938,
+      "BF16_sha256": "0bcaab688b14d8db0b210a1e0a49e792f7406725ed5761a2de4918857c0922cd"
+    },
+    {
+      "name": "transformer.wpe.weight",
+      "normal_noise_sha256": "94fc9f35870e1a8bb4a89a25175fcd65ae582e66215edf1f2a64495a230f7040",
+      "pre_FP32_SSE_about_mean": 10.046897420061603,
+      "expected_SSE": 10.051688508899684,
+      "BF16_sha256": "50670553117a58d67bf7591650e717034807e87a27a395387c77a94fb97cd0bf"
+    },
+    {
+      "name": "transformer.h.0.ln_1.weight",
+      "normal_noise_sha256": "52860ad0057f60255b5f0e2c54294cffd1458cb97aed32b135e2c5f8112e3386",
+      "pre_FP32_SSE_about_mean": 0.00018039046901813759,
+      "expected_SSE": 0.00016338407576538697,
+      "BF16_sha256": "31c3e82f1497ea9cd0537f92afd7407a222707df4ee597d87a1d5305963659e4"
+    },
+    {
+      "name": "transformer.h.0.ln_1.bias",
+      "normal_noise_sha256": "bc9be5f3e4f072eacc3361e96056768554074d783b083c02abb9d5363e5bd126",
+      "pre_FP32_SSE_about_mean": 0.0005430175022786684,
+      "expected_SSE": 0.0004913529525810533,
+      "BF16_sha256": "e745887bbf33cc947236249ee1609a7fccfe277352b3bc0346f51d4ef55e8a5e"
+    },
+    {
+      "name": "transformer.h.0.attn.c_attn.weight",
+      "normal_noise_sha256": "393e0f521419274cc54c328ff5d12deab78aa36e364e61c5f5a8ae57ccb242e0",
+      "pre_FP32_SSE_about_mean": 14.41687774877603,
+      "expected_SSE": 14.41486276915008,
+      "BF16_sha256": "a9490ffc1ee27b7d8cab32c5e48b4ee6abb87650da3ad0d2975b5d031df2f306"
+    },
+    {
+      "name": "transformer.h.0.attn.c_attn.bias",
+      "normal_noise_sha256": "ca18be9d3c316697c620e1b97cf8a5932b2c2d44aae8529a5afa42dda3527db5",
+      "pre_FP32_SSE_about_mean": 0.025011631273295254,
+      "expected_SSE": 0.025413955292727514,
+      "BF16_sha256": "e1f930868197aa277448ac8a34137eb475ea2dafa5094a97593a541f2639134f"
+    },
+    {
+      "name": "transformer.h.0.attn.c_proj.weight",
+      "normal_noise_sha256": "b8c3a6b4f502caa08e3713721b09462b7a2b740d1e089e7b2d7b8b6699b6778c",
+      "pre_FP32_SSE_about_mean": 7.333363141442435,
+      "expected_SSE": 7.3606659977437205,
+      "BF16_sha256": "9fe146378af0c0c7c16591ecf702b2adbae6c289f550bff8877728a007b4db1f"
+    },
+    {
+      "name": "transformer.h.0.attn.c_proj.bias",
+      "normal_noise_sha256": "5a0534b6d1f78ae29e857e3cf08454f4d72a1651a89f3e0ec180832885134e49",
+      "pre_FP32_SSE_about_mean": 0.04691759411787977,
+      "expected_SSE": 0.04776857403316753,
+      "BF16_sha256": "b42513a2dfb72266e3c86de252068e7229caebe0f9675a7de88cb0ffc5e64c0e"
+    },
+    {
+      "name": "transformer.h.0.ln_2.weight",
+      "normal_noise_sha256": "63a0a79290cb3f4196636d79da17192cae8a01e611a87a6027c2f23faeecce8d",
+      "pre_FP32_SSE_about_mean": 0.004777071773323079,
+      "expected_SSE": 0.004747733553667584,
+      "BF16_sha256": "ea032786586931e090d4cca42ed2433a7943570ce5c3f0b9938f4b391a647590"
+    },
+    {
+      "name": "transformer.h.0.ln_2.bias",
+      "normal_noise_sha256": "540611a0a8be153717c030ba13f05ddcdcd29ae3d0b0138dda7a86aae1d117ed",
+      "pre_FP32_SSE_about_mean": 0.0034649654597724813,
+      "expected_SSE": 0.0037222846349873676,
+      "BF16_sha256": "c3967a81349942ad791b1059123ddff8de7c6b52fb12a568a0eab9622e8ba0b0"
+    },
+    {
+      "name": "transformer.h.0.mlp.c_fc.weight",
+      "normal_noise_sha256": "cd5e6273639cfd5b8bf63f87528cf02103a33eeb9db1e6472fd841fcef889285",
+      "pre_FP32_SSE_about_mean": 10.436389564951627,
+      "expected_SSE": 10.447993886416631,
+      "BF16_sha256": "6089e6bee18817253b7d41be66a13ac524913cef427d73c17cc3e2c014046b50"
+    },
+    {
+      "name": "transformer.h.0.mlp.c_fc.bias",
+      "normal_noise_sha256": "7ac7168f2e270f7f20dba79b736dc6fce12e5f629f5a38e6cc737c889a53e95d",
+      "pre_FP32_SSE_about_mean": 0.009216282370043533,
+      "expected_SSE": 0.009012406023761807,
+      "BF16_sha256": "38033fc894c612672bfaaf10e2364ff34bcfe9759f98f1f427a110b42f682be9"
+    },
+    {
+      "name": "transformer.h.0.mlp.c_proj.weight",
+      "normal_noise_sha256": "5bd4d88fb9724e8ad5fdb03bbfe9b124b2362ea15549e5b57fa62702b4895cb9",
+      "pre_FP32_SSE_about_mean": 5.249797490844627,
+      "expected_SSE": 5.239211851642258,
+      "BF16_sha256": "fee08b08138ddad1fa22daf343ce43769f4fc07272ebd47e636ba7e9b41098a7"
+    },
+    {
+      "name": "transformer.h.0.mlp.c_proj.bias",
+      "normal_noise_sha256": "515d4d516d728117dcf5c7d83f6e29e8c7ffc7ed90a8bc67797f9ee8181f96dc",
+      "pre_FP32_SSE_about_mean": 0.0035899749963707516,
+      "expected_SSE": 0.0037372189117701117,
+      "BF16_sha256": "913a4833a34a2d89ac2e48fde89f6a158d875ae20630dbaa5c45056d73b872b3"
+    },
+    {
+      "name": "transformer.h.1.ln_1.weight",
+      "normal_noise_sha256": "f19a2108ca4eb03e7a3659c14570d4797c5055650a831ccb667714f37d5c7f0e",
+      "pre_FP32_SSE_about_mean": 0.0008359750099120374,
+      "expected_SSE": 0.0009346608637623027,
+      "BF16_sha256": "13700454811e0662bde8424ee8572ec1ba0e12217a184e65cf0d18d832e7f507"
+    },
+    {
+      "name": "transformer.h.1.ln_1.bias",
+      "normal_noise_sha256": "2726731041b7abd3c1ccb3ec844117d4e0f3a69474b01e381016b628d23266d6",
+      "pre_FP32_SSE_about_mean": 0.0018291680248894195,
+      "expected_SSE": 0.0019200979918503388,
+      "BF16_sha256": "04bc2551cab259f39898b673e4d0691575042b574d591b2fa37178a5f032cd32"
+    },
+    {
+      "name": "transformer.h.1.attn.c_attn.weight",
+      "normal_noise_sha256": "0b848c5908e0d7dc98cfafde4af09707bdb096521737f6ad9591762340d8afaf",
+      "pre_FP32_SSE_about_mean": 6.663987757156738,
+      "expected_SSE": 6.650069553975042,
+      "BF16_sha256": "3e64e5079601a151def661867e89e8a8106b9d7fead536ee3affa4ea14d7b345"
+    },
+    {
+      "name": "transformer.h.1.attn.c_attn.bias",
+      "normal_noise_sha256": "1008aebf6417020561126317dba46fcb9af28fb987b49c4b574e7ac29a0d691e",
+      "pre_FP32_SSE_about_mean": 0.032510334078060574,
+      "expected_SSE": 0.03387220674477841,
+      "BF16_sha256": "58ec4b0abdaf8ea7ad60011ee0e26dc1da62147c5ece0d349d461bbc43cb4a83"
+    },
+    {
+      "name": "transformer.h.1.attn.c_proj.weight",
+      "normal_noise_sha256": "d31db694d9cc8103caf3131de04f3b09bdb7033898b8d3ea766b6a2d12498b87",
+      "pre_FP32_SSE_about_mean": 2.0204401514293635,
+      "expected_SSE": 2.0245323016168757,
+      "BF16_sha256": "5c19ccd7dceeca8f2a208acf511aa64db52fbf15172b836cb3c4f4aceab0dd8c"
+    },
+    {
+      "name": "transformer.h.1.attn.c_proj.bias",
+      "normal_noise_sha256": "a5520cd75001299d9adcaddd7b5811b154da264bac5b5e41ee007ce79d03f46b",
+      "pre_FP32_SSE_about_mean": 0.0022002379444750423,
+      "expected_SSE": 0.0025761462876627184,
+      "BF16_sha256": "60349a4183a715eba0185ef625402cd3e9c8b3c3f801b86e629ef555c125dd68"
+    },
+    {
+      "name": "transformer.h.1.ln_2.weight",
+      "normal_noise_sha256": "0073132c0504151d991514b78aced876a7c155a908c2963a6d6f4dd6f9dd02b2",
+      "pre_FP32_SSE_about_mean": 0.00032661233273089454,
+      "expected_SSE": 0.000282694236385839,
+      "BF16_sha256": "b6c2c3423ef4752d5fd54bcb633d2e0053b26bb6a4456e9f1bdd99597a981a10"
+    },
+    {
+      "name": "transformer.h.1.ln_2.bias",
+      "normal_noise_sha256": "4fa057dafdac81d7828d2fc880ad603984412f565e3e2cee90fb7ac91b58e5aa",
+      "pre_FP32_SSE_about_mean": 0.0007869309227970951,
+      "expected_SSE": 0.0007762489968207468,
+      "BF16_sha256": "212a7cb087ff81f31f8fb59df52e8737ea10c370574a21376878bba805540833"
+    },
+    {
+      "name": "transformer.h.1.mlp.c_fc.weight",
+      "normal_noise_sha256": "f0b07e2ad903fd2d4a1eff41ccf2beb5ecb3812c894b5954552a0c24035c5394",
+      "pre_FP32_SSE_about_mean": 7.469024865982202,
+      "expected_SSE": 7.464242546697913,
+      "BF16_sha256": "0ec857d5bf82bf237c3890b8d45e6f3d187954f24c73ebedde4bb2ca6e76613b"
+    },
+    {
+      "name": "transformer.h.1.mlp.c_fc.bias",
+      "normal_noise_sha256": "3a1b27cfe996cd6176f5a3b54da9be9eb2976b5badec1b2b241eebf895eca136",
+      "pre_FP32_SSE_about_mean": 0.005184515660375978,
+      "expected_SSE": 0.005461234234467727,
+      "BF16_sha256": "1d0463307c93dce2ce1abd6688cc6daf48b171ad9c26f53c77adfdd2b5edf324"
+    },
+    {
+      "name": "transformer.h.1.mlp.c_proj.weight",
+      "normal_noise_sha256": "dee47b931aa9d061710812a80e5af17130b846d185d719dc3b25e47757ea3860",
+      "pre_FP32_SSE_about_mean": 4.30440214869032,
+      "expected_SSE": 4.306863954659096,
+      "BF16_sha256": "930127512582c1ea806a9f735287847c6d0b2932b2737e3075440739e61fea47"
+    },
+    {
+      "name": "transformer.h.1.mlp.c_proj.bias",
+      "normal_noise_sha256": "6a6bdf6c9052c6a60f0ac68ee753fcd332a2df8dc8c3b0a537c99b43bc0e7554",
+      "pre_FP32_SSE_about_mean": 0.002124560228626348,
+      "expected_SSE": 0.0022204814637299475,
+      "BF16_sha256": "b857c1567969fdfa3fbe831db73262748f3056f2a23c95778795eca6049b2806"
+    },
+    {
+      "name": "transformer.h.2.ln_1.weight",
+      "normal_noise_sha256": "a5f8ec9ef4d6cd088bbeae3fd770e1fba8f3d63ce20371e49fcd74a7440b6486",
+      "pre_FP32_SSE_about_mean": 0.0014937011900497687,
+      "expected_SSE": 0.0015586221196456818,
+      "BF16_sha256": "5f28d85c1797279bcb50d9f0f06bd91bf078e6d612035b5270ff015c0d832f23"
+    },
+    {
+      "name": "transformer.h.2.ln_1.bias",
+      "normal_noise_sha256": "34696a4a2b49ee1334af5452595d3c52101a26e9cff38a7d9f00051f6b6bda87",
+      "pre_FP32_SSE_about_mean": 0.002165121635696273,
+      "expected_SSE": 0.001913012801937555,
+      "BF16_sha256": "162bfcb744f3b73db7f92d78f3023528ed0a3cd423cec2f5cb7f37e407705005"
+    },
+    {
+      "name": "transformer.h.2.attn.c_attn.weight",
+      "normal_noise_sha256": "1ac731ae751d9c4b0ceb19724afefea49aaeef6dd7b3dbea676f086de9c860ba",
+      "pre_FP32_SSE_about_mean": 8.10455531506028,
+      "expected_SSE": 8.110272165305847,
+      "BF16_sha256": "78169949f1fd2f14659f9371b3090c8a49c9266c75794e8285f3365ee400f61e"
+    },
+    {
+      "name": "transformer.h.2.attn.c_attn.bias",
+      "normal_noise_sha256": "760d9060e20be73f0e30920c683bd56f21cb377c99672e3dbe787f3337907fc9",
+      "pre_FP32_SSE_about_mean": 0.017229324970263547,
+      "expected_SSE": 0.01757277368680281,
+      "BF16_sha256": "635e7ed43a12d37cccea003856482911c4d8666a0c1701419ddbdaeb259e6097"
+    },
+    {
+      "name": "transformer.h.2.attn.c_proj.weight",
+      "normal_noise_sha256": "624c7447cfa81121b44a2e1c2ac15f3ef7327652fd12bffeabc10e4eafe9a86a",
+      "pre_FP32_SSE_about_mean": 0.9631424755762954,
+      "expected_SSE": 0.968546256637501,
+      "BF16_sha256": "33d1b8af516b65f79ecb1c788c23c79f7692402fd08a1c5adfb1832a7086046a"
+    },
+    {
+      "name": "transformer.h.2.attn.c_proj.bias",
+      "normal_noise_sha256": "f2beef2ae03a77a6ef618b45346cc733573da9344c9cd3a90541051cce585d72",
+      "pre_FP32_SSE_about_mean": 0.003562765004911791,
+      "expected_SSE": 0.0034876407581829303,
+      "BF16_sha256": "90450656e4adac7a2a895df4848180c26994783d7291d185384969b05e27d21a"
+    },
+    {
+      "name": "transformer.h.2.ln_2.weight",
+      "normal_noise_sha256": "a8bf471913223857c041d6f56be688a94b9c98804de3ac47bd0ae3c2c71da16e",
+      "pre_FP32_SSE_about_mean": 0.000650892452505059,
+      "expected_SSE": 0.0007010032103579794,
+      "BF16_sha256": "4f3bc516f628e4a474466eb81f961560a52e55d7db34b8714f3003da85bb1848"
+    },
+    {
+      "name": "transformer.h.2.ln_2.bias",
+      "normal_noise_sha256": "17dbc9ec0f372466ab0476d4a2441ed43f2946a73889d901cc3b6b89b4a49450",
+      "pre_FP32_SSE_about_mean": 0.0009889898150492456,
+      "expected_SSE": 0.0010450728750379436,
+      "BF16_sha256": "d4fcfde4f5060f27df7955df21a6c2e3faf79b1dd2a1dc1fe14f97e7e5e3a671"
+    },
+    {
+      "name": "transformer.h.2.mlp.c_fc.weight",
+      "normal_noise_sha256": "ff9fb01843b5c65f26dfaa94351583021f4dde02ff0b5cbc27651666f8a2b962",
+      "pre_FP32_SSE_about_mean": 7.967094403906271,
+      "expected_SSE": 8.007368518256182,
+      "BF16_sha256": "69e40ab464e599bf5e331bb66e56c2cca920182e278d26ad4bdd077123d89f37"
+    },
+    {
+      "name": "transformer.h.2.mlp.c_fc.bias",
+      "normal_noise_sha256": "9947fb8612af950efe27b63395b42b7af4267683b001896a6966331236f4eaee",
+      "pre_FP32_SSE_about_mean": 0.009362091893115411,
+      "expected_SSE": 0.00938179521772477,
+      "BF16_sha256": "cf11eba75f59832f56c2ddce2bd0b3fdc0fb568eb2f8d0e97a64308db4f94a78"
+    },
+    {
+      "name": "transformer.h.2.mlp.c_proj.weight",
+      "normal_noise_sha256": "710493900a74c0ae153fc3bb370f2a51c3a3b0b46cca070096353eb4210b45c7",
+      "pre_FP32_SSE_about_mean": 4.817357952283181,
+      "expected_SSE": 4.828688782471307,
+      "BF16_sha256": "d79ce42cfd95f4cc26ea1ce880d03e71a80e3c691054b151242b16a64ecc8aef"
+    },
+    {
+      "name": "transformer.h.2.mlp.c_proj.bias",
+      "normal_noise_sha256": "733b324fd4082b0e9c8f5b50cf582db3d3f2d1ae3a3948fb05d700ed601e5bbf",
+      "pre_FP32_SSE_about_mean": 0.0024672442001163553,
+      "expected_SSE": 0.002418154621408613,
+      "BF16_sha256": "0118222e8e66ba7ee3fdb61886654b4a5905deb5454ec85a5315a991fae54b1c"
+    },
+    {
+      "name": "transformer.h.3.ln_1.weight",
+      "normal_noise_sha256": "1d7285d8402c0af4a277f2026dee97fa45a08eb4859c89517d214abd666d04f8",
+      "pre_FP32_SSE_about_mean": 0.001383252514206463,
+      "expected_SSE": 0.0012573595359002406,
+      "BF16_sha256": "e02da9fd9ad4ca085e945394d601737fb627128d4cc58176ff9b9053654a01c6"
+    },
+    {
+      "name": "transformer.h.3.ln_1.bias",
+      "normal_noise_sha256": "2cbcd87eb7ce6a35ed8ff6b779045ec00c48177bfb4bce3ebd628ff9db11f671",
+      "pre_FP32_SSE_about_mean": 0.001642447806804821,
+      "expected_SSE": 0.001781811412801022,
+      "BF16_sha256": "3465376dc20eb64293871f6f13e7b573943cea4c69d68f0c276da62ef71a3acd"
+    },
+    {
+      "name": "transformer.h.3.attn.c_attn.weight",
+      "normal_noise_sha256": "515522245b2315abecbf7c4e88e3748ba599dbf92189ecb393a86c02d92b4e6d",
+      "pre_FP32_SSE_about_mean": 6.741387422700132,
+      "expected_SSE": 6.726511893047908,
+      "BF16_sha256": "ceb225456b98a7236b1aff80957f16f6ef3d2825252934a8d93aaa2549dbaade"
+    },
+    {
+      "name": "transformer.h.3.attn.c_attn.bias",
+      "normal_noise_sha256": "2cb47701987e6e235725d738a8d6376cf7c0154e83bc6c11cb8ba7564b081e99",
+      "pre_FP32_SSE_about_mean": 0.010709842358540694,
+      "expected_SSE": 0.010202857800826845,
+      "BF16_sha256": "d5acd287711fd9c93fc3b359414793075f07a297573207948626fd857ebe929a"
+    },
+    {
+      "name": "transformer.h.3.attn.c_proj.weight",
+      "normal_noise_sha256": "3a6b98d698f880d316a6b2c0dd92b84723a8bb701a579fbe57a5ab26b1d28f60",
+      "pre_FP32_SSE_about_mean": 0.9151072080641458,
+      "expected_SSE": 0.9146718578908118,
+      "BF16_sha256": "1758f63d66528230268e9a8be584958b4105d561dec4a20e5ece1bc912546ade"
+    },
+    {
+      "name": "transformer.h.3.attn.c_proj.bias",
+      "normal_noise_sha256": "627dc69fc1dd58eb5cd457d5eaca12d599872366b7307d525cbf5d944f632d08",
+      "pre_FP32_SSE_about_mean": 0.0022855556745080582,
+      "expected_SSE": 0.0024036678684157043,
+      "BF16_sha256": "dd6781252e1236986da3ad4da1a7bf4de2cdb8f737e7dee9c23d0b2c02d95220"
+    },
+    {
+      "name": "transformer.h.3.ln_2.weight",
+      "normal_noise_sha256": "ed7c1b9127138cd7093822b806c63a0cfe8c880b36b0276fac3912eec058207e",
+      "pre_FP32_SSE_about_mean": 0.0010815717943513292,
+      "expected_SSE": 0.001142970125446454,
+      "BF16_sha256": "9309965f340f00053e6018d31a4d50891a709f8210dcfbeca8e5e785bb555a39"
+    },
+    {
+      "name": "transformer.h.3.ln_2.bias",
+      "normal_noise_sha256": "dad16d2a2e1a9ebe42b92ea2dfd90262d166c7a16fa993e5a37e204348a5249d",
+      "pre_FP32_SSE_about_mean": 0.0010533518473789052,
+      "expected_SSE": 0.0009851206564330446,
+      "BF16_sha256": "75de64c2028464833e325a269e6b200e7cbbb3c90b9d5a7bfb6317d5b4b2c809"
+    },
+    {
+      "name": "transformer.h.3.mlp.c_fc.weight",
+      "normal_noise_sha256": "a380b20ed0e1dd8cfd51b35c4a2cf88280a019a19a8176f6e969d2c7f35f0664",
+      "pre_FP32_SSE_about_mean": 7.526136598507288,
+      "expected_SSE": 7.524525632771183,
+      "BF16_sha256": "b07a8a39ac02df780a5e03862f7943e2842ff8ef69be89951e974456a1a18164"
+    },
+    {
+      "name": "transformer.h.3.mlp.c_fc.bias",
+      "normal_noise_sha256": "4f07c2194c76acb542739fb498dca2ce3d124e298455e653fe9887f50f679863",
+      "pre_FP32_SSE_about_mean": 0.005315140818241261,
+      "expected_SSE": 0.005087320128347044,
+      "BF16_sha256": "92035a3592733cbff03d0d69eff11909c5a5ec527a75ccee7d166d7defc246f1"
+    },
+    {
+      "name": "transformer.h.3.mlp.c_proj.weight",
+      "normal_noise_sha256": "ae0696c8c3ad0f5029142f35567dab763c34f1c1bf033871d6459d1ea03152c9",
+      "pre_FP32_SSE_about_mean": 4.380585064150807,
+      "expected_SSE": 4.382247902277767,
+      "BF16_sha256": "5d660a1dd82677ec73842ab7cc0ab66184756928c46463dd0115979e0a8eecb9"
+    },
+    {
+      "name": "transformer.h.3.mlp.c_proj.bias",
+      "normal_noise_sha256": "4465175c0c8964de5210b7af6226d43ca0800fe4b9db58a95dcff94eecf065e8",
+      "pre_FP32_SSE_about_mean": 0.0026496716006362097,
+      "expected_SSE": 0.002500886446367735,
+      "BF16_sha256": "c385e2903ecaefbf1358f6a546eb1382716bfb3363206009cafd2080f3450ae6"
+    },
+    {
+      "name": "transformer.h.4.ln_1.weight",
+      "normal_noise_sha256": "86695fda60ed7a470cf4f62789dac88da998a1df13098f45027a9857250f24f4",
+      "pre_FP32_SSE_about_mean": 0.0010652354330054979,
+      "expected_SSE": 0.000938759820486601,
+      "BF16_sha256": "3536476825874b98d2db883863bf33e209a0304278a53a515487741220bfdb7e"
+    },
+    {
+      "name": "transformer.h.4.ln_1.bias",
+      "normal_noise_sha256": "a5d12c65f637da13d90a5ece7fd70dcc1db536fb4dbd5fb4b3d01d743900a8b3",
+      "pre_FP32_SSE_about_mean": 0.0016531021506660912,
+      "expected_SSE": 0.001800006482237214,
+      "BF16_sha256": "65a8a5ee123b59f778ead0c06f35f7160eaa49e6f8940cec540832585ff0a316"
+    },
+    {
+      "name": "transformer.h.4.attn.c_attn.weight",
+      "normal_noise_sha256": "1a8673185e204ca3076ff9034b71a664ac0fdbc045260c76485163a50c49c610",
+      "pre_FP32_SSE_about_mean": 7.238694963306094,
+      "expected_SSE": 7.236537052382622,
+      "BF16_sha256": "c8d0c29c2f289dbfba2d0d5b495e20d62706c7d7d9cbc0a8f3054fd34c634569"
+    },
+    {
+      "name": "transformer.h.4.attn.c_attn.bias",
+      "normal_noise_sha256": "c1253ff2ab2c0acd675eb123009ef14a2613acb2100d9828cd3bcd14eb45efc9",
+      "pre_FP32_SSE_about_mean": 0.04007458208654838,
+      "expected_SSE": 0.03764107362916809,
+      "BF16_sha256": "7e1b36c0c2d389f5e7a97fe0115b4e1c6c7e060f02d7d8c5e1af33de45f03db8"
+    },
+    {
+      "name": "transformer.h.4.attn.c_proj.weight",
+      "normal_noise_sha256": "21faefdae2058913ab2a1c56cf4404c3f6320023d3f42c286015b20ef53be8ba",
+      "pre_FP32_SSE_about_mean": 1.0707799653029568,
+      "expected_SSE": 1.0694240339735464,
+      "BF16_sha256": "eb1dbbc2f03ed1e7d5189238b3d10bae29e37cc087e8a522a639ab9873284842"
+    },
+    {
+      "name": "transformer.h.4.attn.c_proj.bias",
+      "normal_noise_sha256": "ec5e0df7ec524ebe108495325893253fb672783ec2eae112711f1385652e8e6b",
+      "pre_FP32_SSE_about_mean": 0.0019318084983454829,
+      "expected_SSE": 0.0019692155136293386,
+      "BF16_sha256": "39234c5d98412d969a8baad581abc6234edd6ab94f79e8db7161211898041fbc"
+    },
+    {
+      "name": "transformer.h.4.ln_2.weight",
+      "normal_noise_sha256": "5fc3e3b4676c1466cb40188870b41d804c0962874e0867879d52aec5845882c7",
+      "pre_FP32_SSE_about_mean": 0.0008321995659129831,
+      "expected_SSE": 0.0007941988423852103,
+      "BF16_sha256": "b51ddd956fd3a9656800b198cea39b755dde92da6a07cd3522f2c1b7897de553"
+    },
+    {
+      "name": "transformer.h.4.ln_2.bias",
+      "normal_noise_sha256": "5c83539eaee71866413a3be15b1d0e2246271235f55b415085afd678bf681e44",
+      "pre_FP32_SSE_about_mean": 0.00018735222845243647,
+      "expected_SSE": 0.00019323023838044043,
+      "BF16_sha256": "ee3ebeb6d8e52bf3976e44a046f4bdf62a78e4672b7a33b340b6af669654d750"
+    },
+    {
+      "name": "transformer.h.4.mlp.c_fc.weight",
+      "normal_noise_sha256": "c134f1fe96bde7dfa9e219828660f4e7295770713c7b57afe5306b87fd0b9b1f",
+      "pre_FP32_SSE_about_mean": 7.696924440228638,
+      "expected_SSE": 7.700543830576881,
+      "BF16_sha256": "f7b7e90175d686782982d152933d27d9cb490234d593ebee98723be9ebe86531"
+    },
+    {
+      "name": "transformer.h.4.mlp.c_fc.bias",
+      "normal_noise_sha256": "0191c25d0b0857de53fc15eeaba41320222dad975ea0d0439fdb95d0faed768e",
+      "pre_FP32_SSE_about_mean": 0.006613412043908019,
+      "expected_SSE": 0.006603021164838433,
+      "BF16_sha256": "970700a9a53917b1715c746f45e16ce549eecbc04c1445961ae0f9dd6ae427ea"
+    },
+    {
+      "name": "transformer.h.4.mlp.c_proj.weight",
+      "normal_noise_sha256": "828d2d5279ad9d4f39a0b886d118b21c0dbb98a0eae26f93cd5c9b1a51c89ce6",
+      "pre_FP32_SSE_about_mean": 4.203483918626748,
+      "expected_SSE": 4.207565610294318,
+      "BF16_sha256": "2e6ebf07c46c37dffeae2d5127ce7cfc54d126694ce9c079cece4adc4e17d415"
+    },
+    {
+      "name": "transformer.h.4.mlp.c_proj.bias",
+      "normal_noise_sha256": "21a0c6f2bcfa954c384e0a12c053dcbd92276bfcfdac00435ecdadf8287c752b",
+      "pre_FP32_SSE_about_mean": 0.003766848331690888,
+      "expected_SSE": 0.003729414116569622,
+      "BF16_sha256": "f496a1a4d2126477f3ef47e36936322e4dd1bfce608883a3ff667d3cbbf76417"
+    },
+    {
+      "name": "transformer.h.5.ln_1.weight",
+      "normal_noise_sha256": "4fc7794650727829f328e2e0563d7e7cd399d2a9fe006e80c977d8ed42218779",
+      "pre_FP32_SSE_about_mean": 0.000975675847531362,
+      "expected_SSE": 0.0009258092470294209,
+      "BF16_sha256": "a2a65bfd953c51249ec4a6822139e494ca2dfb7b166626026c6247d6e6e08c9c"
+    },
+    {
+      "name": "transformer.h.5.ln_1.bias",
+      "normal_noise_sha256": "373230d0a826e76acce6d3376c1bf42334aae5d94a685a62e6a6c4c4ed3fb1dd",
+      "pre_FP32_SSE_about_mean": 0.0008431282890150249,
+      "expected_SSE": 0.0008522254209360677,
+      "BF16_sha256": "cc134c67bd82c14212caacbcdd5661450e2a89b114e20bb946f3eccafc138b09"
+    },
+    {
+      "name": "transformer.h.5.attn.c_attn.weight",
+      "normal_noise_sha256": "790a340629f93286756c38eb37e49ff129962e72f8d0b07d6c5790144bd72a6f",
+      "pre_FP32_SSE_about_mean": 5.271008855616611,
+      "expected_SSE": 5.268762102012722,
+      "BF16_sha256": "5ca8a39ba4b7dbf3046ada1108ab7974a43ecd7d0eda535b443610489ce0aa95"
+    },
+    {
+      "name": "transformer.h.5.attn.c_attn.bias",
+      "normal_noise_sha256": "aa240a8ba3e64f669f340bba8133242cb498cfdc2e84ac294756a7ac07968923",
+      "pre_FP32_SSE_about_mean": 0.0073011490474815775,
+      "expected_SSE": 0.007101016923786391,
+      "BF16_sha256": "2a37eeae106131166d4d1b8116f105b00900fea3cc8cf681d67b355ac1532299"
+    },
+    {
+      "name": "transformer.h.5.attn.c_proj.weight",
+      "normal_noise_sha256": "1e43559052bb374e26feea48b95d8d88591ee7fd183cc59c9ed369dc215c51b0",
+      "pre_FP32_SSE_about_mean": 1.0688946287046244,
+      "expected_SSE": 1.0687855387639995,
+      "BF16_sha256": "0348715d1f125fa56ed1c99d866a491668bd568c5045f7bb1399e518eef9ad5e"
+    },
+    {
+      "name": "transformer.h.5.attn.c_proj.bias",
+      "normal_noise_sha256": "1a2893cf5b610b3b40c4955667b0ecf5a97455b47381eba1de22e8ca0fe5cb35",
+      "pre_FP32_SSE_about_mean": 0.0024452232717573972,
+      "expected_SSE": 0.0025107419642410363,
+      "BF16_sha256": "e79f7124b7364e7e27a83d0ca6291ae8ca56509dd5165cd4113e81ac35f2b237"
+    },
+    {
+      "name": "transformer.h.5.ln_2.weight",
+      "normal_noise_sha256": "e0499a237210e91ba2a43e570a9e77e1d721da5e44068330da1f041ca94f5ff3",
+      "pre_FP32_SSE_about_mean": 0.0010608515151927476,
+      "expected_SSE": 0.0009549217450699307,
+      "BF16_sha256": "4f5f001e210d5cf2531a5a073a3d99a99dd0fc6b2e13759fc792a74407506733"
+    },
+    {
+      "name": "transformer.h.5.ln_2.bias",
+      "normal_noise_sha256": "ebc373a2838d9c44aea8301ab5237e3cd8af0f24fd37bc660f6329951e6b4e06",
+      "pre_FP32_SSE_about_mean": 0.00040454880892091665,
+      "expected_SSE": 0.000409499343123791,
+      "BF16_sha256": "28de565ecf82a1bf3cfb6c033b541a7f0cd0b1f7317b4a425bfa96032a16c6b0"
+    },
+    {
+      "name": "transformer.h.5.mlp.c_fc.weight",
+      "normal_noise_sha256": "3168d1274181284be2ac6a8ebd740c2c6d6b697d2a6de9311c5d4ec63416e802",
+      "pre_FP32_SSE_about_mean": 7.2134939991786595,
+      "expected_SSE": 7.2223553362657,
+      "BF16_sha256": "6bbdf844b03ebee83eaf992073800f16df16d669a43c0fd5ef593abea1f2c943"
+    },
+    {
+      "name": "transformer.h.5.mlp.c_fc.bias",
+      "normal_noise_sha256": "b86d31cfa46fd72ceeb2a8d30303a83edad8372af94491e24c7dc052e958c725",
+      "pre_FP32_SSE_about_mean": 0.005318769342585773,
+      "expected_SSE": 0.00511901847690909,
+      "BF16_sha256": "f032b737d42968d96fb2a737cc29486eb55ffabcf4ad93fd08fac1d6481f3a01"
+    },
+    {
+      "name": "transformer.h.5.mlp.c_proj.weight",
+      "normal_noise_sha256": "e32ca4aa6cfbb9f565e993096c3d8def4201eeb238ee5c66762c836868548791",
+      "pre_FP32_SSE_about_mean": 4.548412283297653,
+      "expected_SSE": 4.545776170690307,
+      "BF16_sha256": "23c1b1a35ef2c28460edad36f07fe7c8156f1d29b2d27ff785cd7771b772b360"
+    },
+    {
+      "name": "transformer.h.5.mlp.c_proj.bias",
+      "normal_noise_sha256": "cf0dd4c151b5fe13bab35846fe0188f88e32738fdf3ba741402800d65673fd06",
+      "pre_FP32_SSE_about_mean": 0.0027046303059261364,
+      "expected_SSE": 0.0025375679571555993,
+      "BF16_sha256": "406f4407fd8471627971e1cf2f5442e226de829296d8dd30aa5b767a447e858a"
+    },
+    {
+      "name": "transformer.h.6.ln_1.weight",
+      "normal_noise_sha256": "7bd3fd7b71ad2f8d3ac6905e45e01b2ff599fd02f23a91b7f4fcf8ee0dd5c371",
+      "pre_FP32_SSE_about_mean": 0.0009770956739354672,
+      "expected_SSE": 0.0010531544598650383,
+      "BF16_sha256": "a830dd12cc80965096750eb70fbffc6e20ab69ad737e00b2ad48b9357ecb6b12"
+    },
+    {
+      "name": "transformer.h.6.ln_1.bias",
+      "normal_noise_sha256": "25b509b6d27826cecd5bdc5164f1e74a2f728b8455eeaf34244d7305d8c1e1d8",
+      "pre_FP32_SSE_about_mean": 0.0014817598281395518,
+      "expected_SSE": 0.001442353727289648,
+      "BF16_sha256": "56828b3d0477288f26c78b4305f44160173ac6473dcbfa5fae0578339e71028d"
+    },
+    {
+      "name": "transformer.h.6.attn.c_attn.weight",
+      "normal_noise_sha256": "8e8c559c5c65be85efdeff374584fbbd8bf1ca255d5d46432ef6923d85ad7a38",
+      "pre_FP32_SSE_about_mean": 5.218329002022076,
+      "expected_SSE": 5.217963113830393,
+      "BF16_sha256": "f170c5d57b6703c89a343a66c35f40d4d7dd27584fc25df2c2e2532a8d2897bc"
+    },
+    {
+      "name": "transformer.h.6.attn.c_attn.bias",
+      "normal_noise_sha256": "bb10a1bbedb2cd3839b8a64470bdf0911f0c4ea9ed06cf58de9f5c529b94d532",
+      "pre_FP32_SSE_about_mean": 0.009002750807438079,
+      "expected_SSE": 0.009627327694497388,
+      "BF16_sha256": "a59dbc1da79350627accab9951ff350f918a4b344e30a9cce38cd550f34be6fa"
+    },
+    {
+      "name": "transformer.h.6.attn.c_proj.weight",
+      "normal_noise_sha256": "ad90175f6237bbabacd6155c2af929976a0b11312af5abd536a87482dd5d37d9",
+      "pre_FP32_SSE_about_mean": 1.5606608083369857,
+      "expected_SSE": 1.5612831660557993,
+      "BF16_sha256": "83dbad04eca6e6d77ebe242757080cd96576d91ab85a90869eea0e9aedbb78c4"
+    },
+    {
+      "name": "transformer.h.6.attn.c_proj.bias",
+      "normal_noise_sha256": "2ca9418e363ddeee1aca467c9df80bfef6db2a8acb6a35f45a854b309c1123fa",
+      "pre_FP32_SSE_about_mean": 0.0015488276538869854,
+      "expected_SSE": 0.0015506462394950541,
+      "BF16_sha256": "9827dafe36c8c64ca5a5fdfd6b8c7662fd9a5cc26871b0e9bf3fd354bab26342"
+    },
+    {
+      "name": "transformer.h.6.ln_2.weight",
+      "normal_noise_sha256": "2f735212bc8c893fd7ece091f78e4c9278b99907128c57eab2f32e3e10249b3d",
+      "pre_FP32_SSE_about_mean": 0.0008023942418289128,
+      "expected_SSE": 0.0008032811478560628,
+      "BF16_sha256": "3e70c5dfc652359fe1ed3a3e90e5028ff93dd4a6a1cb663b9542675e9c2ed050"
+    },
+    {
+      "name": "transformer.h.6.ln_2.bias",
+      "normal_noise_sha256": "4408391f4f8075f6f97ef7efec037adc8773132b3531cd3394712b014554220f",
+      "pre_FP32_SSE_about_mean": 0.0003024761494277424,
+      "expected_SSE": 0.00032909645512480034,
+      "BF16_sha256": "f1a19ecef50d3dbd4ff6119da1f59027ed85b6f328e3eea82aa95f4c9e0157db"
+    },
+    {
+      "name": "transformer.h.6.mlp.c_fc.weight",
+      "normal_noise_sha256": "ede1a06b6c706cacc951aaf2a36ee116bf1a3f9143d5a527bb9f5c37c0858889",
+      "pre_FP32_SSE_about_mean": 7.0922612976340424,
+      "expected_SSE": 7.086231836827453,
+      "BF16_sha256": "cd2108821bcfa9de2828064f5574b3ddf92a2c364f31494e6936457fc3f2c2cd"
+    },
+    {
+      "name": "transformer.h.6.mlp.c_fc.bias",
+      "normal_noise_sha256": "168cc46364bf6a8ed20011118517703111af8f246dc9c594f824711d2dfcb750",
+      "pre_FP32_SSE_about_mean": 0.00538303084333497,
+      "expected_SSE": 0.005464935398150769,
+      "BF16_sha256": "3443ee39b03286bbd8d7f251a37d7a7a0455f08602cb3d595e28e7cbd9fa5a9e"
+    },
+    {
+      "name": "transformer.h.6.mlp.c_proj.weight",
+      "normal_noise_sha256": "ec47e143841f3c3663f406d0c1b8209967c4528c97072a49af86dedcd2c7133d",
+      "pre_FP32_SSE_about_mean": 5.530395911625841,
+      "expected_SSE": 5.5350138786715055,
+      "BF16_sha256": "82c317a25ac6574aaeeabb7caa7f857f7b943e7442e0f179e0c5ed0ac8333d52"
+    },
+    {
+      "name": "transformer.h.6.mlp.c_proj.bias",
+      "normal_noise_sha256": "c2b189761d6effa97750f1c4ddb4f68b85dc8bd3c030b521747520ac7c1e41ca",
+      "pre_FP32_SSE_about_mean": 0.002905237563810639,
+      "expected_SSE": 0.003194037846214415,
+      "BF16_sha256": "e46749c06dd6ca07135efaff5aec6f401cf318ced31d980f4a0c33cad01493c2"
+    },
+    {
+      "name": "transformer.h.7.ln_1.weight",
+      "normal_noise_sha256": "948131ca87fb33132c1663b2dadb043b6a2368be8d54bb9c06edac5a886ca5b7",
+      "pre_FP32_SSE_about_mean": 0.001182992605133902,
+      "expected_SSE": 0.0011563413261152932,
+      "BF16_sha256": "7ed00e3ada0dd55f85a85215e041c52fec0231e33e550e18c0193227e8bc3292"
+    },
+    {
+      "name": "transformer.h.7.ln_1.bias",
+      "normal_noise_sha256": "90e6c3f4bf8c524a5198548ad4b9987482a554ce81f1826d7b1abcb35b38a861",
+      "pre_FP32_SSE_about_mean": 0.0011553108603705726,
+      "expected_SSE": 0.0012285101683855552,
+      "BF16_sha256": "e9310a90f7235f99d5f4480af046e3cf467b5640559dae95508810bd38652d2f"
+    },
+    {
+      "name": "transformer.h.7.attn.c_attn.weight",
+      "normal_noise_sha256": "c8d49693448474459de496e51fe5a48cc8c5fca0767c59f03a450c4b6de61dab",
+      "pre_FP32_SSE_about_mean": 5.344494635820561,
+      "expected_SSE": 5.344604742726712,
+      "BF16_sha256": "dca9af10185ee73495dbd0603b431687e15443f112dd4751715d788ac6105b2a"
+    },
+    {
+      "name": "transformer.h.7.attn.c_attn.bias",
+      "normal_noise_sha256": "f6b9fb9e01d7516cae267b3cd6d001309504e2f5de703c4f55db88ffae5b70a9",
+      "pre_FP32_SSE_about_mean": 0.009418746981157772,
+      "expected_SSE": 0.009525467295638305,
+      "BF16_sha256": "4151e9ef656d949e4a5613c42daeea4aee8afdf97a445080fe9e5888b86cc943"
+    },
+    {
+      "name": "transformer.h.7.attn.c_proj.weight",
+      "normal_noise_sha256": "bf0dd0d9a878e53012e15bbcf703808762aa8a55f048729126979e843ad4ab21",
+      "pre_FP32_SSE_about_mean": 1.6101926737735284,
+      "expected_SSE": 1.6091073500555608,
+      "BF16_sha256": "98514475a94e6e92f4f5810a3857ca0e792a698446bca642bb1f48d4b3733fa8"
+    },
+    {
+      "name": "transformer.h.7.attn.c_proj.bias",
+      "normal_noise_sha256": "a0eb4e8098e213eef50278621eed9460595dd4cec2a53ad7c8e1c2bb1b4a28e3",
+      "pre_FP32_SSE_about_mean": 0.003107752628751615,
+      "expected_SSE": 0.0030684550924230526,
+      "BF16_sha256": "05a3646aae4e8a2265f59f2851c2f073c16e907dbc1ef9dbe8c48b5638212d32"
+    },
+    {
+      "name": "transformer.h.7.ln_2.weight",
+      "normal_noise_sha256": "d554f160d3a3fbedb334a10a8ff682c6d0d0ab19c356c9e2c5b6452c66fcb1aa",
+      "pre_FP32_SSE_about_mean": 0.0008426912033750148,
+      "expected_SSE": 0.0008504761947342244,
+      "BF16_sha256": "269bad57d811aa8f4940499530658e47781b2cc6a472fb55b9ace661e97a6b0b"
+    },
+    {
+      "name": "transformer.h.7.ln_2.bias",
+      "normal_noise_sha256": "fda3bcbdbe551300a0a0999ba0a4f7a97bfc8c6db078a6449b633607058a9c24",
+      "pre_FP32_SSE_about_mean": 0.0006091035833712128,
+      "expected_SSE": 0.0006287935779749703,
+      "BF16_sha256": "a3146a222d11110efa720cf3182716653f7059c8543bf78a941b8e080ca5d3e4"
+    },
+    {
+      "name": "transformer.h.7.mlp.c_fc.weight",
+      "normal_noise_sha256": "2a5d7910fba81ceb5add43cd444c97c96430d52da1b44b19f2e9df95c4c91ff2",
+      "pre_FP32_SSE_about_mean": 6.866998641549925,
+      "expected_SSE": 6.868600495134749,
+      "BF16_sha256": "ee2251f2507254876ee31780a8992406227cd38cde5b47ea7aae0e9a4f6c4c9c"
+    },
+    {
+      "name": "transformer.h.7.mlp.c_fc.bias",
+      "normal_noise_sha256": "097251a96caf40bfe863ea2f8bbd4a61e058e7675a511eea619308c54349cd59",
+      "pre_FP32_SSE_about_mean": 0.007471234184382113,
+      "expected_SSE": 0.007816975013936247,
+      "BF16_sha256": "0a05fc80b937f3cacc981792e639417d582a889162289d0e0e4be9ea3a7fd99e"
+    },
+    {
+      "name": "transformer.h.7.mlp.c_proj.weight",
+      "normal_noise_sha256": "5e75a139754dcb6d5bc3b6ac0b1b2998f44e64eb44a0fab11e79f76d317a02e9",
+      "pre_FP32_SSE_about_mean": 6.469452096550896,
+      "expected_SSE": 6.470870993869716,
+      "BF16_sha256": "1bca85e7efe5e4cbebf4813ef9f5fd4f084bac8e314d82950d79a7cacb933f46"
+    },
+    {
+      "name": "transformer.h.7.mlp.c_proj.bias",
+      "normal_noise_sha256": "22f4516a08c3c8d961f210afc24b644843bf218d16929ba9659a71a550fcf1c7",
+      "pre_FP32_SSE_about_mean": 0.0036607935168483,
+      "expected_SSE": 0.003703912944602551,
+      "BF16_sha256": "d962d96b20eb4bdaea594ec934efbfc14ea91299fea3400d365a9bd59c5a7810"
+    },
+    {
+      "name": "transformer.h.8.ln_1.weight",
+      "normal_noise_sha256": "c7f9488defa00c8c80a7243b2ca3ce9e7b4b1581b6b823e1dd412383422eb399",
+      "pre_FP32_SSE_about_mean": 0.0013951293112437918,
+      "expected_SSE": 0.0012277095338867434,
+      "BF16_sha256": "a300abdbb351f2a8cbe1bdeff7af261f03682980672d728e1de1ad26ed3348d6"
+    },
+    {
+      "name": "transformer.h.8.ln_1.bias",
+      "normal_noise_sha256": "5d53c1b4f9a406febe6e1a9e21d813603952a1de020575f6c9218fb78117c85a",
+      "pre_FP32_SSE_about_mean": 0.0013887645838319496,
+      "expected_SSE": 0.001386700577004199,
+      "BF16_sha256": "e067d524633b1a1319c58437bbae89d5bc00b43a6853f8ec7c4ceb275dc4d46e"
+    },
+    {
+      "name": "transformer.h.8.attn.c_attn.weight",
+      "normal_noise_sha256": "79b189032da136a4bdae975d8be03e741136ee7c32fce76c3b28b563e2568417",
+      "pre_FP32_SSE_about_mean": 5.15680911359943,
+      "expected_SSE": 5.165614442903813,
+      "BF16_sha256": "8ce074986ae61bbf4bc9c006c03e5d19b061e7c6c8722ded72fd7dc0fedefed2"
+    },
+    {
+      "name": "transformer.h.8.attn.c_attn.bias",
+      "normal_noise_sha256": "20ad639cbc57542508c5450420345c31ac1d19a23d89e4bd9f8eda8d8279b5ee",
+      "pre_FP32_SSE_about_mean": 0.011264125953793344,
+      "expected_SSE": 0.011808632369067453,
+      "BF16_sha256": "cf85ae1bce6628e5d0f0f28d5090e2e2bfae4435419ca19ef78abecb5d3d2e85"
+    },
+    {
+      "name": "transformer.h.8.attn.c_proj.weight",
+      "normal_noise_sha256": "9d245b22c0972e2aa0e38262fafec1f514433f8e71c6bfb06c31090b818c3f7d",
+      "pre_FP32_SSE_about_mean": 1.8398395526522602,
+      "expected_SSE": 1.8425728242077477,
+      "BF16_sha256": "fe41b9a9ccabb0d2491619a0d7136c65b972e8ad074e952a471113c9a8abc55a"
+    },
+    {
+      "name": "transformer.h.8.attn.c_proj.bias",
+      "normal_noise_sha256": "1877a8884c674edbfa090b4823b169d922cce38b94fff3a48d53dc70b342e6a5",
+      "pre_FP32_SSE_about_mean": 0.0037575111886333935,
+      "expected_SSE": 0.0034321919381808223,
+      "BF16_sha256": "da16ce0a6b776fbaae3be6b747451ff40a2815021747f5933a935655a657608e"
+    },
+    {
+      "name": "transformer.h.8.ln_2.weight",
+      "normal_noise_sha256": "72377ccfc451af9a5be17ed5652f933d64ba3643e1a14ae531e7d7efdf8b9980",
+      "pre_FP32_SSE_about_mean": 0.0008448784451024964,
+      "expected_SSE": 0.0008077430865065404,
+      "BF16_sha256": "4ec2b90f76bd97e0d9ffcf00bca278269b584f00dca5e955b29e750784553a24"
+    },
+    {
+      "name": "transformer.h.8.ln_2.bias",
+      "normal_noise_sha256": "c96a348843c75f8340aca130b8b8833bda21ac56ee6c4503f868297dba82e245",
+      "pre_FP32_SSE_about_mean": 0.0008975784460657409,
+      "expected_SSE": 0.0010244101744867197,
+      "BF16_sha256": "d4b475496bc7b28cf036858d0f554731c67840f287db04ac75d5195e84d7690b"
+    },
+    {
+      "name": "transformer.h.8.mlp.c_fc.weight",
+      "normal_noise_sha256": "3eb96660d02f2773e057e66914eeeda7186f1842b9b3d8d991cb42299ab26108",
+      "pre_FP32_SSE_about_mean": 6.867747921870077,
+      "expected_SSE": 6.872398687714554,
+      "BF16_sha256": "3d076a8373a76c5fb11053640712819326a0ddabe13b8e1dc8d0e07c43764886"
+    },
+    {
+      "name": "transformer.h.8.mlp.c_fc.bias",
+      "normal_noise_sha256": "8ab5c87de9cd39e8899c6d2ef89bf0542e9ce94f89f89326b533ee86545a3970",
+      "pre_FP32_SSE_about_mean": 0.007424633816348054,
+      "expected_SSE": 0.00704116278711505,
+      "BF16_sha256": "5e04ea3640fe582e17e5e2c66cb0963fe6dbb5a159a76d7f4052bdfc0307c587"
+    },
+    {
+      "name": "transformer.h.8.mlp.c_proj.weight",
+      "normal_noise_sha256": "d7806fc388a2cceac832aae8d62cee8ea0798b9dc8fa57ae24d9820cc2a56bb4",
+      "pre_FP32_SSE_about_mean": 8.328738712562515,
+      "expected_SSE": 8.3289635444235,
+      "BF16_sha256": "a8d4bffbdb0a3fdfb73e5c73b39c84bc028647bc8f167f1a612c6665d37de07a"
+    },
+    {
+      "name": "transformer.h.8.mlp.c_proj.bias",
+      "normal_noise_sha256": "e4bf8d3c3de1b2336bb341700c00734d0d14e4eafbe6e3b06a6ea0266cc80df0",
+      "pre_FP32_SSE_about_mean": 0.002931301282343727,
+      "expected_SSE": 0.0030394439592555415,
+      "BF16_sha256": "b2a3e78d1aa3ecd3949134c5bb1dbd8a24672787e2ef4b63b9868c5605860c23"
+    },
+    {
+      "name": "transformer.h.9.ln_1.weight",
+      "normal_noise_sha256": "ded2c08c6a4a88548b1ce0d7621dfc86d454385a08c15cbd9ac253245e1a3241",
+      "pre_FP32_SSE_about_mean": 0.001261282326978486,
+      "expected_SSE": 0.0012780427167529197,
+      "BF16_sha256": "70ae70987c4f6da61bea64fb0f00a91ee692bb766371d2bb39561ef5b23f0568"
+    },
+    {
+      "name": "transformer.h.9.ln_1.bias",
+      "normal_noise_sha256": "5d339b348cdd4c6e6b03e85db6c1f236a9a6f6944324cb3807b065e5bc63ab1f",
+      "pre_FP32_SSE_about_mean": 0.001230893975986297,
+      "expected_SSE": 0.001244697222534793,
+      "BF16_sha256": "5081d04710f6cdbffe64d09cebf35628a535dc8a1bdf88150fe91451e2304044"
+    },
+    {
+      "name": "transformer.h.9.attn.c_attn.weight",
+      "normal_noise_sha256": "0946d22c0f30c601457cf891d4a6e5d575f051581a7c4e920f9ed9196a9b120f",
+      "pre_FP32_SSE_about_mean": 5.14476518228472,
+      "expected_SSE": 5.151378593640357,
+      "BF16_sha256": "58196b6ab4f300e38d23ddfa9e7b439b71df9398a8efb57943b7137a2ff2e1e2"
+    },
+    {
+      "name": "transformer.h.9.attn.c_attn.bias",
+      "normal_noise_sha256": "c1bb6bd7d5dc1b0f5adbce47d30585f33f0045353aa2f3e7c4e60a0e1dfef3fa",
+      "pre_FP32_SSE_about_mean": 0.012285411474225176,
+      "expected_SSE": 0.012896598406129164,
+      "BF16_sha256": "d55fbfc18e0ae648b907d228248160790bd5a93ba1f3605e5b7b7130c94a81a7"
+    },
+    {
+      "name": "transformer.h.9.attn.c_proj.weight",
+      "normal_noise_sha256": "a42a23d8942a575a7002836759bb22a342779a3f1f48f7539b2e538b7b9cc46f",
+      "pre_FP32_SSE_about_mean": 2.3230003463108595,
+      "expected_SSE": 2.3285212961260804,
+      "BF16_sha256": "02bb5d39ffc3ccd8ff914b155c9f0321cc83702cea07e1aa638e03c882781587"
+    },
+    {
+      "name": "transformer.h.9.attn.c_proj.bias",
+      "normal_noise_sha256": "f37e23219a49fe1b8ed2f1956467a63a6d2e95229660068ec1fdcb76ead76fa2",
+      "pre_FP32_SSE_about_mean": 0.008168265144994441,
+      "expected_SSE": 0.008303130613807328,
+      "BF16_sha256": "e342e09b828e1cddd4aaac10d4d50afe3f6501e9696cf5b02177b916fdf9bfc1"
+    },
+    {
+      "name": "transformer.h.9.ln_2.weight",
+      "normal_noise_sha256": "942dc5b54f9e635e0345da5d91a986e7646a0fc813ec9965ebee1d93acca82d8",
+      "pre_FP32_SSE_about_mean": 0.0008377420310834916,
+      "expected_SSE": 0.0008920077131851679,
+      "BF16_sha256": "36921f0c78587d5d4321fdd44091d38332344d5e4322e9ad740f653b6af3bdc5"
+    },
+    {
+      "name": "transformer.h.9.ln_2.bias",
+      "normal_noise_sha256": "c3ba86961a17fbdf5b1d4ade56d4f82857f0743ff4b9e742226e3f3134770e08",
+      "pre_FP32_SSE_about_mean": 0.0010128161630310998,
+      "expected_SSE": 0.0008653051556898895,
+      "BF16_sha256": "5ff8c7d9ff935f9174af95bf8dc6c4f752b7c836f720810dad6e86726f260f98"
+    },
+    {
+      "name": "transformer.h.9.mlp.c_fc.weight",
+      "normal_noise_sha256": "4ce5d20ada8431223366d503ea5fcfe3aaa7fdba64f8f918c9d2ba6c880dcdf3",
+      "pre_FP32_SSE_about_mean": 6.878848911567287,
+      "expected_SSE": 6.884446530136403,
+      "BF16_sha256": "24b6edcd60d2dcff293f0e64aa02753ceb21a47ec793e3f61912b912802c220b"
+    },
+    {
+      "name": "transformer.h.9.mlp.c_fc.bias",
+      "normal_noise_sha256": "dca9fd37cd96c33625632a873dfa44b42ec0d15e7b1c6d2e5ef27de8906a1e02",
+      "pre_FP32_SSE_about_mean": 0.007920731320127024,
+      "expected_SSE": 0.007635325515568338,
+      "BF16_sha256": "c530decf6c462d3d6d8fd759e40d3f4263a03335bfced3cfda525c9da5642850"
+    },
+    {
+      "name": "transformer.h.9.mlp.c_proj.weight",
+      "normal_noise_sha256": "ef5c6efa2000066da53c1d046702714d3a1657302e64612a59254a2cd87f26e4",
+      "pre_FP32_SSE_about_mean": 10.924461513620718,
+      "expected_SSE": 10.918669064367853,
+      "BF16_sha256": "460618d5da57313671007278ae424744a4aa95aec6d75bc8dfbeab2b713ddc6e"
+    },
+    {
+      "name": "transformer.h.9.mlp.c_proj.bias",
+      "normal_noise_sha256": "601d6120bef0ef5267b7e32b272cc1d17e7d30c21974d3bb8fbabfa9f33852ab",
+      "pre_FP32_SSE_about_mean": 0.004142482826812325,
+      "expected_SSE": 0.004258605963867405,
+      "BF16_sha256": "72786dae3bb2a804d05fef2d380825a026c91b4a13703b811a76e9827768900a"
+    },
+    {
+      "name": "transformer.h.10.ln_1.weight",
+      "normal_noise_sha256": "6e36ef1f00327a5494c72d723c429916e7ba132d21295c9455c5653a4b76458a",
+      "pre_FP32_SSE_about_mean": 0.0013446696262485224,
+      "expected_SSE": 0.0013153332063452548,
+      "BF16_sha256": "833919247f655cabbd79835aab4113477a1bcf049f91bc7121c65f8f54f6eca5"
+    },
+    {
+      "name": "transformer.h.10.ln_1.bias",
+      "normal_noise_sha256": "51cf910fc7321d261c86778c14c32ae5ac01c872b0b0cd85a1683c6af988aa9e",
+      "pre_FP32_SSE_about_mean": 0.0012228416060754768,
+      "expected_SSE": 0.0011935570158229407,
+      "BF16_sha256": "39f2a72bc07ee58468754f72fb3d860583a99d82cea36d4459f98a2c7cf7dc5e"
+    },
+    {
+      "name": "transformer.h.10.attn.c_attn.weight",
+      "normal_noise_sha256": "2962ee17e1883cc44d381f52ee04ebb032e71af9ac30e878c2cd26ac927d6238",
+      "pre_FP32_SSE_about_mean": 5.222049496546674,
+      "expected_SSE": 5.217404364835235,
+      "BF16_sha256": "1b045347429b706623dfabd94a4cc94ea9de1e844dd7aaa4be6d5cf6bbc32e0e"
+    },
+    {
+      "name": "transformer.h.10.attn.c_attn.bias",
+      "normal_noise_sha256": "9d8a5a027e9ff7e73a4739cb4c2bf2e1ffdce57c100cbf9548da5dcc25a5ed80",
+      "pre_FP32_SSE_about_mean": 0.012635291461110634,
+      "expected_SSE": 0.012728388120194145,
+      "BF16_sha256": "80f20c145a072a192dd801db21a1bc345dfdb6faef57c66fce39cf90a473a2a8"
+    },
+    {
+      "name": "transformer.h.10.attn.c_proj.weight",
+      "normal_noise_sha256": "a6738aeb610ee7b0a043458e5a82a84e43691381dc8307919da50dfd37e84feb",
+      "pre_FP32_SSE_about_mean": 2.777403493469371,
+      "expected_SSE": 2.773002838919396,
+      "BF16_sha256": "2d2c51c644692f1b4a5e3ff376e907e8e8aef13bdd25e2435b2e044b3e3d6d7c"
+    },
+    {
+      "name": "transformer.h.10.attn.c_proj.bias",
+      "normal_noise_sha256": "39800467e0034d0a1dd71783465317058c46f4ac45cb0213bd4f6249eeb6f9db",
+      "pre_FP32_SSE_about_mean": 0.01359630153226878,
+      "expected_SSE": 0.014740122184638353,
+      "BF16_sha256": "eb06dbea76d5fa0c26606c5463f80eedc2c428914a7135ec8d01c05a8afee55d"
+    },
+    {
+      "name": "transformer.h.10.ln_2.weight",
+      "normal_noise_sha256": "7a12fc70d8847a11fdee5c6d9e1f8345ab14a0781fa87046e78cc16505723fda",
+      "pre_FP32_SSE_about_mean": 0.0013440365603526211,
+      "expected_SSE": 0.0013234865493206801,
+      "BF16_sha256": "77ab934b0a4c76d7d3479ac3544bb1c99dade802900317ebc5b96bbc617d04b5"
+    },
+    {
+      "name": "transformer.h.10.ln_2.bias",
+      "normal_noise_sha256": "ef385bb40f7fede5f3fc8aec24d862de7ad04f4c14f50f02b6ccaef5af9ea718",
+      "pre_FP32_SSE_about_mean": 0.0010011627703458146,
+      "expected_SSE": 0.0009505242972127611,
+      "BF16_sha256": "516462cfca7d6f840f81e0a0c099ff54d57256da36ed2982a7094c877077c28a"
+    },
+    {
+      "name": "transformer.h.10.mlp.c_fc.weight",
+      "normal_noise_sha256": "d83211f96c49f4801a17a405a26565739dae7fd09d60eafc78b5ad171eb17878",
+      "pre_FP32_SSE_about_mean": 6.93803531892117,
+      "expected_SSE": 6.93713205013094,
+      "BF16_sha256": "71197d206e036ff241cd981261487448748494e92e122a4bcfc643407f3d5c55"
+    },
+    {
+      "name": "transformer.h.10.mlp.c_fc.bias",
+      "normal_noise_sha256": "922b6e36104af5f7fbdb901130787e30fbc1b1300415512f20eb2c46eff9ff5c",
+      "pre_FP32_SSE_about_mean": 0.00883411862103755,
+      "expected_SSE": 0.008640369267777101,
+      "BF16_sha256": "d26966dea052fafc649b5f60e622ee9ab9b8a16ccf833433c3ea1d4c214d6afc"
+    },
+    {
+      "name": "transformer.h.10.mlp.c_proj.weight",
+      "normal_noise_sha256": "8a0f2da64470ae03ed71d172e7fd1af42ebbc4e9b6516ddf5ed2bbc6d1a12c93",
+      "pre_FP32_SSE_about_mean": 14.74115921114711,
+      "expected_SSE": 14.751672683035356,
+      "BF16_sha256": "f3a15f00b80a6645d2421270a0d2504d4dfa5dee9c1fa8fa5ab510925d37d439"
+    },
+    {
+      "name": "transformer.h.10.mlp.c_proj.bias",
+      "normal_noise_sha256": "5b7874aa303a852ad650f14d3d92779b5e7243cf004a158e031fc4fc88f65f87",
+      "pre_FP32_SSE_about_mean": 0.00832807471763852,
+      "expected_SSE": 0.007819841163876476,
+      "BF16_sha256": "482b0f0bead723c73c68d69da5d431e1fcd277392e08cc6c7d215c756f0f5d19"
+    },
+    {
+      "name": "transformer.h.11.ln_1.weight",
+      "normal_noise_sha256": "264266ad5d3712ed1f12179f422cb312b478a4c635e04fb9bbeaa03ba6cf2050",
+      "pre_FP32_SSE_about_mean": 0.0017938515449795662,
+      "expected_SSE": 0.001841719923549185,
+      "BF16_sha256": "9e260f4c59cf201bf7b87ed1449438580a68ffcd302d8800feb9e07437295d21"
+    },
+    {
+      "name": "transformer.h.11.ln_1.bias",
+      "normal_noise_sha256": "68171a2212815484081ac59765ee63592675aac15544f39a34af7e1584680673",
+      "pre_FP32_SSE_about_mean": 0.0014451514145036456,
+      "expected_SSE": 0.001425218203590481,
+      "BF16_sha256": "a786ede1163b34e6a926bd7d29ef5b169a4c9f7d4dc75501542e4c10835d831c"
+    },
+    {
+      "name": "transformer.h.11.attn.c_attn.weight",
+      "normal_noise_sha256": "b90170be19c9c2352e5398d6320c43fb31b748dded485d0dff5c32ac0d1c3ee3",
+      "pre_FP32_SSE_about_mean": 5.460946678117709,
+      "expected_SSE": 5.463856327493859,
+      "BF16_sha256": "90847b9abf942546b265a2118cff3e0b5b6eaac50867bb6689cfdb7e1de6b8cd"
+    },
+    {
+      "name": "transformer.h.11.attn.c_attn.bias",
+      "normal_noise_sha256": "bc5680b12e1bc6806938c64e0c0065d61154f6a8dfe80c84a4dd3c70ba144655",
+      "pre_FP32_SSE_about_mean": 0.009186515737397507,
+      "expected_SSE": 0.00897465590669923,
+      "BF16_sha256": "380f3a88cac3807d81572186130c6ac6ae31cf0cc555ee779573f5f5d639804b"
+    },
+    {
+      "name": "transformer.h.11.attn.c_proj.weight",
+      "normal_noise_sha256": "17e0b4cbd82c8a59c8b999820451df34427914c2213faf0436cc9c6164dfa254",
+      "pre_FP32_SSE_about_mean": 6.340761642562914,
+      "expected_SSE": 6.364862889496902,
+      "BF16_sha256": "4020f223a25362bc61438693cf09b038bf5fb77ad72d1beeb198b3ce0061f225"
+    },
+    {
+      "name": "transformer.h.11.attn.c_proj.bias",
+      "normal_noise_sha256": "2bc38e7f15ec0edbd40a0d44650d3b501cc9c4e4262e9c796007bb238894a5bc",
+      "pre_FP32_SSE_about_mean": 0.09496633611067387,
+      "expected_SSE": 0.09361473787702425,
+      "BF16_sha256": "40f039784da42098f4f5b3531d92221f26a4f4b42082149255f726a4c7c657a3"
+    },
+    {
+      "name": "transformer.h.11.ln_2.weight",
+      "normal_noise_sha256": "c1bb536ac613cb563cf99c4fa6419da8785fd92ac4132046a0efee1a22f9cdb3",
+      "pre_FP32_SSE_about_mean": 0.003987314355289703,
+      "expected_SSE": 0.003978240222320368,
+      "BF16_sha256": "60328034d0f3ff474592c56fc95557eccfa05c86950fa2ea30e6a066aea26739"
+    },
+    {
+      "name": "transformer.h.11.ln_2.bias",
+      "normal_noise_sha256": "bd2dbd7cdaeef9fd6020868968bd16850190603096c1233e3dcac6ef7ec40a61",
+      "pre_FP32_SSE_about_mean": 0.0007204459882239756,
+      "expected_SSE": 0.000670430746287833,
+      "BF16_sha256": "858c0722b40fecbac5820321be4dd2d6c8b6eff670d1cba2984edc187c63c201"
+    },
+    {
+      "name": "transformer.h.11.mlp.c_fc.weight",
+      "normal_noise_sha256": "335d5d3f37db293b0948856ee70a433d205a1a353843764dc04b5783fb120072",
+      "pre_FP32_SSE_about_mean": 7.272655892461617,
+      "expected_SSE": 7.274807438614152,
+      "BF16_sha256": "6af2a700fb43fca09e839bf045480c9d8c8aa3194a113891d874089c9cbc24e4"
+    },
+    {
+      "name": "transformer.h.11.mlp.c_fc.bias",
+      "normal_noise_sha256": "c57f1624cc6b7821bc78a0b24f8040f29aa89b8d71b4f7c93825465c0f5fe92d",
+      "pre_FP32_SSE_about_mean": 0.008870943448704843,
+      "expected_SSE": 0.00873476036347762,
+      "BF16_sha256": "bed317c74ea24627d4e1c844983c7a085979062e961accac815325a9ee3a7a07"
+    },
+    {
+      "name": "transformer.h.11.mlp.c_proj.weight",
+      "normal_noise_sha256": "067f2235aaf7ee32ac058a9547a5c3f9a6a1fe33896561607f85d4b2e155f55c",
+      "pre_FP32_SSE_about_mean": 21.021526727253484,
+      "expected_SSE": 21.03549782818242,
+      "BF16_sha256": "a6bf514cfa6bd9cb5fdb77f99f53ecfe2a2b1fea720e71366b91fa561afe4d6c"
+    },
+    {
+      "name": "transformer.h.11.mlp.c_proj.bias",
+      "normal_noise_sha256": "85d27b246855a1764459fb15b5f3292d14dc8f99c7c10d0a9f0c8ca85f619d37",
+      "pre_FP32_SSE_about_mean": 0.0016915943498641243,
+      "expected_SSE": 0.001728366335461815,
+      "BF16_sha256": "70bdb05b9d481bf78e1a9ef5711366841a21c35a1af47fe80ee2c7c52e43b413"
+    },
+    {
+      "name": "transformer.ln_f.weight",
+      "normal_noise_sha256": "20d935964d21c50fcce0b75c8dd98c042e78d5f1294fa6bd38df1f20b51cc9b6",
+      "pre_FP32_SSE_about_mean": 0.2581861360308749,
+      "expected_SSE": 0.26655748041489624,
+      "BF16_sha256": "25cc482345f08ab5e378c3c26361fae7ea1fde97ee1dcea65eddb33490892e44"
+    },
+    {
+      "name": "transformer.ln_f.bias",
+      "normal_noise_sha256": "b5ea796169c15fd1a08711a51fcccc4dbb6c008fa5f808995d141e17a2b061be",
+      "pre_FP32_SSE_about_mean": 0.05528853253571577,
+      "expected_SSE": 0.053752227618199575,
+      "BF16_sha256": "5894e32e47d20853807c7a49de724e1ddb0620c262d0b6b297f434da4cd26079"
+    }
+  ]
+}

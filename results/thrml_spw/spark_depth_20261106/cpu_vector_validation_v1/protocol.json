@@ -1,0 +1,3000 @@
+{
+  "source_sha256": "4e9929709b4dbdac19463f5ab02eee9edcd26e75ea94abdf0f5066ad19ea3468",
+  "sampler_sha256": "aba6c01160328fcba0ef4fdf019a1e8521630316f09ac3033849cf2393d08f74",
+  "proposal_sha256": "6da160a9f4fee7741ffcb444b29c9dab3ed5ef00f4086d835d7392c13d5a8909",
+  "seeds": [
+    2026111311,
+    2026111312,
+    2026111313,
+    2026111314,
+    2026111315
+  ],
+  "policies": {
+    "uniform32768": {
+      "transformer.wte.weight": {
+        "layout": "transposed_matrix",
+        "samples": 32768
+      },
+      "transformer.wpe.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.0.ln_1.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.0.ln_1.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.0.attn.c_attn.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.0.attn.c_attn.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.0.attn.c_proj.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.0.attn.c_proj.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.0.ln_2.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.0.ln_2.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.0.mlp.c_fc.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.0.mlp.c_fc.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.0.mlp.c_proj.weight": {
+        "layout": "transposed_matrix",
+        "samples": 32768
+      },
+      "transformer.h.0.mlp.c_proj.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.1.ln_1.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.1.ln_1.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.1.attn.c_attn.weight": {
+        "layout": "transposed_matrix",
+        "samples": 32768
+      },
+      "transformer.h.1.attn.c_attn.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.1.attn.c_proj.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.1.attn.c_proj.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.1.ln_2.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.1.ln_2.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.1.mlp.c_fc.weight": {
+        "layout": "transposed_matrix",
+        "samples": 32768
+      },
+      "transformer.h.1.mlp.c_fc.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.1.mlp.c_proj.weight": {
+        "layout": "transposed_matrix",
+        "samples": 32768
+      },
+      "transformer.h.1.mlp.c_proj.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.2.ln_1.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.2.ln_1.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.2.attn.c_attn.weight": {
+        "layout": "transposed_matrix",
+        "samples": 32768
+      },
+      "transformer.h.2.attn.c_attn.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.2.attn.c_proj.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.2.attn.c_proj.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.2.ln_2.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.2.ln_2.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.2.mlp.c_fc.weight": {
+        "layout": "transposed_matrix",
+        "samples": 32768
+      },
+      "transformer.h.2.mlp.c_fc.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.2.mlp.c_proj.weight": {
+        "layout": "transposed_matrix",
+        "samples": 32768
+      },
+      "transformer.h.2.mlp.c_proj.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.3.ln_1.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.3.ln_1.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.3.attn.c_attn.weight": {
+        "layout": "transposed_matrix",
+        "samples": 32768
+      },
+      "transformer.h.3.attn.c_attn.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.3.attn.c_proj.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.3.attn.c_proj.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.3.ln_2.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.3.ln_2.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.3.mlp.c_fc.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.3.mlp.c_fc.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.3.mlp.c_proj.weight": {
+        "layout": "transposed_matrix",
+        "samples": 32768
+      },
+      "transformer.h.3.mlp.c_proj.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.4.ln_1.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.4.ln_1.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.4.attn.c_attn.weight": {
+        "layout": "transposed_matrix",
+        "samples": 32768
+      },
+      "transformer.h.4.attn.c_attn.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.4.attn.c_proj.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.4.attn.c_proj.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.4.ln_2.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.4.ln_2.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.4.mlp.c_fc.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.4.mlp.c_fc.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.4.mlp.c_proj.weight": {
+        "layout": "transposed_matrix",
+        "samples": 32768
+      },
+      "transformer.h.4.mlp.c_proj.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.5.ln_1.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.5.ln_1.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.5.attn.c_attn.weight": {
+        "layout": "transposed_matrix",
+        "samples": 32768
+      },
+      "transformer.h.5.attn.c_attn.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.5.attn.c_proj.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.5.attn.c_proj.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.5.ln_2.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.5.ln_2.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.5.mlp.c_fc.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.5.mlp.c_fc.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.5.mlp.c_proj.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.5.mlp.c_proj.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.6.ln_1.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.6.ln_1.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.6.attn.c_attn.weight": {
+        "layout": "transposed_matrix",
+        "samples": 32768
+      },
+      "transformer.h.6.attn.c_attn.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.6.attn.c_proj.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.6.attn.c_proj.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.6.ln_2.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.6.ln_2.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.6.mlp.c_fc.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.6.mlp.c_fc.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.6.mlp.c_proj.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.6.mlp.c_proj.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.7.ln_1.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.7.ln_1.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.7.attn.c_attn.weight": {
+        "layout": "transposed_matrix",
+        "samples": 32768
+      },
+      "transformer.h.7.attn.c_attn.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.7.attn.c_proj.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.7.attn.c_proj.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.7.ln_2.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.7.ln_2.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.7.mlp.c_fc.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.7.mlp.c_fc.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.7.mlp.c_proj.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.7.mlp.c_proj.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.8.ln_1.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.8.ln_1.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.8.attn.c_attn.weight": {
+        "layout": "transposed_matrix",
+        "samples": 32768
+      },
+      "transformer.h.8.attn.c_attn.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.8.attn.c_proj.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.8.attn.c_proj.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.8.ln_2.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.8.ln_2.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.8.mlp.c_fc.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.8.mlp.c_fc.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.8.mlp.c_proj.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.8.mlp.c_proj.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.9.ln_1.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.9.ln_1.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.9.attn.c_attn.weight": {
+        "layout": "transposed_matrix",
+        "samples": 32768
+      },
+      "transformer.h.9.attn.c_attn.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.9.attn.c_proj.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.9.attn.c_proj.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.9.ln_2.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.9.ln_2.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.9.mlp.c_fc.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.9.mlp.c_fc.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.9.mlp.c_proj.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.9.mlp.c_proj.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.10.ln_1.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.10.ln_1.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.10.attn.c_attn.weight": {
+        "layout": "transposed_matrix",
+        "samples": 32768
+      },
+      "transformer.h.10.attn.c_attn.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.10.attn.c_proj.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.10.attn.c_proj.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.10.ln_2.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.10.ln_2.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.10.mlp.c_fc.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.10.mlp.c_fc.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.10.mlp.c_proj.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.10.mlp.c_proj.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.11.ln_1.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.11.ln_1.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.11.attn.c_attn.weight": {
+        "layout": "transposed_matrix",
+        "samples": 32768
+      },
+      "transformer.h.11.attn.c_attn.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.11.attn.c_proj.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.11.attn.c_proj.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.11.ln_2.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.11.ln_2.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.11.mlp.c_fc.weight": {
+        "layout": "transposed_matrix",
+        "samples": 32768
+      },
+      "transformer.h.11.mlp.c_fc.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.h.11.mlp.c_proj.weight": {
+        "layout": "transposed_matrix",
+        "samples": 32768
+      },
+      "transformer.h.11.mlp.c_proj.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.ln_f.weight": {
+        "layout": "storage_flat",
+        "samples": 32768
+      },
+      "transformer.ln_f.bias": {
+        "layout": "storage_flat",
+        "samples": 32768
+      }
+    },
+    "existing_directions_vectorG16": {
+      "transformer.wte.weight": {
+        "name": "transformer.wte.weight",
+        "parameters": 38597376,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 32768,
+        "proxy_coefficient": 3.6324438942099295
+      },
+      "transformer.wpe.weight": {
+        "name": "transformer.wpe.weight",
+        "parameters": 786432,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.22935238807887412
+      },
+      "transformer.h.0.ln_1.weight": {
+        "name": "transformer.h.0.ln_1.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0007935079647502059
+      },
+      "transformer.h.0.ln_1.bias": {
+        "name": "transformer.h.0.ln_1.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.002081764480423007
+      },
+      "transformer.h.0.attn.c_attn.weight": {
+        "name": "transformer.h.0.attn.c_attn.weight",
+        "parameters": 1769472,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.01759394268196105
+      },
+      "transformer.h.0.attn.c_attn.bias": {
+        "name": "transformer.h.0.attn.c_attn.bias",
+        "parameters": 2304,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0013191508861696416
+      },
+      "transformer.h.0.attn.c_proj.weight": {
+        "name": "transformer.h.0.attn.c_proj.weight",
+        "parameters": 589824,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.8255478832183797
+      },
+      "transformer.h.0.attn.c_proj.bias": {
+        "name": "transformer.h.0.attn.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.01579801987013742
+      },
+      "transformer.h.0.ln_2.weight": {
+        "name": "transformer.h.0.ln_2.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.002748733273363469
+      },
+      "transformer.h.0.ln_2.bias": {
+        "name": "transformer.h.0.ln_2.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0019445957145596464
+      },
+      "transformer.h.0.mlp.c_fc.weight": {
+        "name": "transformer.h.0.mlp.c_fc.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.02987635874928534
+      },
+      "transformer.h.0.mlp.c_fc.bias": {
+        "name": "transformer.h.0.mlp.c_fc.bias",
+        "parameters": 3072,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0004648663002687602
+      },
+      "transformer.h.0.mlp.c_proj.weight": {
+        "name": "transformer.h.0.mlp.c_proj.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 16384,
+        "proxy_coefficient": 0.025505797924675735
+      },
+      "transformer.h.0.mlp.c_proj.bias": {
+        "name": "transformer.h.0.mlp.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00012214793501149474
+      },
+      "transformer.h.1.ln_1.weight": {
+        "name": "transformer.h.1.ln_1.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00018499566162394527
+      },
+      "transformer.h.1.ln_1.bias": {
+        "name": "transformer.h.1.ln_1.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0005988984570860607
+      },
+      "transformer.h.1.attn.c_attn.weight": {
+        "name": "transformer.h.1.attn.c_attn.weight",
+        "parameters": 1769472,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 16384,
+        "proxy_coefficient": 0.029088923310125383
+      },
+      "transformer.h.1.attn.c_attn.bias": {
+        "name": "transformer.h.1.attn.c_attn.bias",
+        "parameters": 2304,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00033912958006085875
+      },
+      "transformer.h.1.attn.c_proj.weight": {
+        "name": "transformer.h.1.attn.c_proj.weight",
+        "parameters": 589824,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.026441847958300964
+      },
+      "transformer.h.1.attn.c_proj.bias": {
+        "name": "transformer.h.1.attn.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00012206031456722556
+      },
+      "transformer.h.1.ln_2.weight": {
+        "name": "transformer.h.1.ln_2.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0001719375228357603
+      },
+      "transformer.h.1.ln_2.bias": {
+        "name": "transformer.h.1.ln_2.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0005703681701374871
+      },
+      "transformer.h.1.mlp.c_fc.weight": {
+        "name": "transformer.h.1.mlp.c_fc.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 16384,
+        "proxy_coefficient": 0.053308317814968864
+      },
+      "transformer.h.1.mlp.c_fc.bias": {
+        "name": "transformer.h.1.mlp.c_fc.bias",
+        "parameters": 3072,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0004646591323407787
+      },
+      "transformer.h.1.mlp.c_proj.weight": {
+        "name": "transformer.h.1.mlp.c_proj.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 16384,
+        "proxy_coefficient": 0.025778406243192557
+      },
+      "transformer.h.1.mlp.c_proj.bias": {
+        "name": "transformer.h.1.mlp.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0001553488928900869
+      },
+      "transformer.h.2.ln_1.weight": {
+        "name": "transformer.h.2.ln_1.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0003824349566902014
+      },
+      "transformer.h.2.ln_1.bias": {
+        "name": "transformer.h.2.ln_1.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0008188810227337286
+      },
+      "transformer.h.2.attn.c_attn.weight": {
+        "name": "transformer.h.2.attn.c_attn.weight",
+        "parameters": 1769472,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 32768,
+        "proxy_coefficient": 0.10494897841125886
+      },
+      "transformer.h.2.attn.c_attn.bias": {
+        "name": "transformer.h.2.attn.c_attn.bias",
+        "parameters": 2304,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00036077062044777226
+      },
+      "transformer.h.2.attn.c_proj.weight": {
+        "name": "transformer.h.2.attn.c_proj.weight",
+        "parameters": 589824,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.020974563809182417
+      },
+      "transformer.h.2.attn.c_proj.bias": {
+        "name": "transformer.h.2.attn.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0002787878802188493
+      },
+      "transformer.h.2.ln_2.weight": {
+        "name": "transformer.h.2.ln_2.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.000718782235192643
+      },
+      "transformer.h.2.ln_2.bias": {
+        "name": "transformer.h.2.ln_2.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0010564325941894337
+      },
+      "transformer.h.2.mlp.c_fc.weight": {
+        "name": "transformer.h.2.mlp.c_fc.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 32768,
+        "proxy_coefficient": 0.07966351243839365
+      },
+      "transformer.h.2.mlp.c_fc.bias": {
+        "name": "transformer.h.2.mlp.c_fc.bias",
+        "parameters": 3072,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0004472673638396517
+      },
+      "transformer.h.2.mlp.c_proj.weight": {
+        "name": "transformer.h.2.mlp.c_proj.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 16384,
+        "proxy_coefficient": 0.03789553572522853
+      },
+      "transformer.h.2.mlp.c_proj.bias": {
+        "name": "transformer.h.2.mlp.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00022397514710508835
+      },
+      "transformer.h.3.ln_1.weight": {
+        "name": "transformer.h.3.ln_1.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00013313538240145126
+      },
+      "transformer.h.3.ln_1.bias": {
+        "name": "transformer.h.3.ln_1.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0006737486935698645
+      },
+      "transformer.h.3.attn.c_attn.weight": {
+        "name": "transformer.h.3.attn.c_attn.weight",
+        "parameters": 1769472,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 32768,
+        "proxy_coefficient": 0.0956440580236582
+      },
+      "transformer.h.3.attn.c_attn.bias": {
+        "name": "transformer.h.3.attn.c_attn.bias",
+        "parameters": 2304,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00038096925268973827
+      },
+      "transformer.h.3.attn.c_proj.weight": {
+        "name": "transformer.h.3.attn.c_proj.weight",
+        "parameters": 589824,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.011685721585264314
+      },
+      "transformer.h.3.attn.c_proj.bias": {
+        "name": "transformer.h.3.attn.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00017908335710239512
+      },
+      "transformer.h.3.ln_2.weight": {
+        "name": "transformer.h.3.ln_2.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00016944816969645984
+      },
+      "transformer.h.3.ln_2.bias": {
+        "name": "transformer.h.3.ln_2.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0006327877679338596
+      },
+      "transformer.h.3.mlp.c_fc.weight": {
+        "name": "transformer.h.3.mlp.c_fc.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.03697339155166947
+      },
+      "transformer.h.3.mlp.c_fc.bias": {
+        "name": "transformer.h.3.mlp.c_fc.bias",
+        "parameters": 3072,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00021226956734866751
+      },
+      "transformer.h.3.mlp.c_proj.weight": {
+        "name": "transformer.h.3.mlp.c_proj.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 16384,
+        "proxy_coefficient": 0.020071533906492186
+      },
+      "transformer.h.3.mlp.c_proj.bias": {
+        "name": "transformer.h.3.mlp.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0001832096060318292
+      },
+      "transformer.h.4.ln_1.weight": {
+        "name": "transformer.h.4.ln_1.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 8.791547376060659e-05
+      },
+      "transformer.h.4.ln_1.bias": {
+        "name": "transformer.h.4.ln_1.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.000951172612693894
+      },
+      "transformer.h.4.attn.c_attn.weight": {
+        "name": "transformer.h.4.attn.c_attn.weight",
+        "parameters": 1769472,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 32768,
+        "proxy_coefficient": 0.07116579899619008
+      },
+      "transformer.h.4.attn.c_attn.bias": {
+        "name": "transformer.h.4.attn.c_attn.bias",
+        "parameters": 2304,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0003304915593816294
+      },
+      "transformer.h.4.attn.c_proj.weight": {
+        "name": "transformer.h.4.attn.c_proj.weight",
+        "parameters": 589824,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.0091656587267282
+      },
+      "transformer.h.4.attn.c_proj.bias": {
+        "name": "transformer.h.4.attn.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0001381788686735167
+      },
+      "transformer.h.4.ln_2.weight": {
+        "name": "transformer.h.4.ln_2.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0005351758143560567
+      },
+      "transformer.h.4.ln_2.bias": {
+        "name": "transformer.h.4.ln_2.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0003609828199123437
+      },
+      "transformer.h.4.mlp.c_fc.weight": {
+        "name": "transformer.h.4.mlp.c_fc.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.056478096738945674
+      },
+      "transformer.h.4.mlp.c_fc.bias": {
+        "name": "transformer.h.4.mlp.c_fc.bias",
+        "parameters": 3072,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0003588456412493292
+      },
+      "transformer.h.4.mlp.c_proj.weight": {
+        "name": "transformer.h.4.mlp.c_proj.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 16384,
+        "proxy_coefficient": 0.021008967496995535
+      },
+      "transformer.h.4.mlp.c_proj.bias": {
+        "name": "transformer.h.4.mlp.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00031152468206640583
+      },
+      "transformer.h.5.ln_1.weight": {
+        "name": "transformer.h.5.ln_1.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00012663223059734084
+      },
+      "transformer.h.5.ln_1.bias": {
+        "name": "transformer.h.5.ln_1.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0004899721407105104
+      },
+      "transformer.h.5.attn.c_attn.weight": {
+        "name": "transformer.h.5.attn.c_attn.weight",
+        "parameters": 1769472,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 32768,
+        "proxy_coefficient": 0.10207243546845372
+      },
+      "transformer.h.5.attn.c_attn.bias": {
+        "name": "transformer.h.5.attn.c_attn.bias",
+        "parameters": 2304,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00033018753936281766
+      },
+      "transformer.h.5.attn.c_proj.weight": {
+        "name": "transformer.h.5.attn.c_proj.weight",
+        "parameters": 589824,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.01182844323815775
+      },
+      "transformer.h.5.attn.c_proj.bias": {
+        "name": "transformer.h.5.attn.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00016933382827740763
+      },
+      "transformer.h.5.ln_2.weight": {
+        "name": "transformer.h.5.ln_2.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00011344129622417427
+      },
+      "transformer.h.5.ln_2.bias": {
+        "name": "transformer.h.5.ln_2.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00038775267707985995
+      },
+      "transformer.h.5.mlp.c_fc.weight": {
+        "name": "transformer.h.5.mlp.c_fc.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.0417131016025907
+      },
+      "transformer.h.5.mlp.c_fc.bias": {
+        "name": "transformer.h.5.mlp.c_fc.bias",
+        "parameters": 3072,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00027555909349686876
+      },
+      "transformer.h.5.mlp.c_proj.weight": {
+        "name": "transformer.h.5.mlp.c_proj.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.02500600093661466
+      },
+      "transformer.h.5.mlp.c_proj.bias": {
+        "name": "transformer.h.5.mlp.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00017824815504226558
+      },
+      "transformer.h.6.ln_1.weight": {
+        "name": "transformer.h.6.ln_1.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 9.531522519167275e-05
+      },
+      "transformer.h.6.ln_1.bias": {
+        "name": "transformer.h.6.ln_1.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0012576633833298297
+      },
+      "transformer.h.6.attn.c_attn.weight": {
+        "name": "transformer.h.6.attn.c_attn.weight",
+        "parameters": 1769472,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 32768,
+        "proxy_coefficient": 0.08606631738003222
+      },
+      "transformer.h.6.attn.c_attn.bias": {
+        "name": "transformer.h.6.attn.c_attn.bias",
+        "parameters": 2304,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0001981935561365979
+      },
+      "transformer.h.6.attn.c_proj.weight": {
+        "name": "transformer.h.6.attn.c_proj.weight",
+        "parameters": 589824,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.0075727593291836925
+      },
+      "transformer.h.6.attn.c_proj.bias": {
+        "name": "transformer.h.6.attn.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00011595591468490626
+      },
+      "transformer.h.6.ln_2.weight": {
+        "name": "transformer.h.6.ln_2.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00014659134232585677
+      },
+      "transformer.h.6.ln_2.bias": {
+        "name": "transformer.h.6.ln_2.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0003931265316507759
+      },
+      "transformer.h.6.mlp.c_fc.weight": {
+        "name": "transformer.h.6.mlp.c_fc.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.04073122329247182
+      },
+      "transformer.h.6.mlp.c_fc.bias": {
+        "name": "transformer.h.6.mlp.c_fc.bias",
+        "parameters": 3072,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00030197423354811617
+      },
+      "transformer.h.6.mlp.c_proj.weight": {
+        "name": "transformer.h.6.mlp.c_proj.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.02465373908148561
+      },
+      "transformer.h.6.mlp.c_proj.bias": {
+        "name": "transformer.h.6.mlp.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00020009201760097018
+      },
+      "transformer.h.7.ln_1.weight": {
+        "name": "transformer.h.7.ln_1.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0001226095604533263
+      },
+      "transformer.h.7.ln_1.bias": {
+        "name": "transformer.h.7.ln_1.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0008323011013291874
+      },
+      "transformer.h.7.attn.c_attn.weight": {
+        "name": "transformer.h.7.attn.c_attn.weight",
+        "parameters": 1769472,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 32768,
+        "proxy_coefficient": 0.057562410726033526
+      },
+      "transformer.h.7.attn.c_attn.bias": {
+        "name": "transformer.h.7.attn.c_attn.bias",
+        "parameters": 2304,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0001643932303078238
+      },
+      "transformer.h.7.attn.c_proj.weight": {
+        "name": "transformer.h.7.attn.c_proj.weight",
+        "parameters": 589824,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.005913974030765542
+      },
+      "transformer.h.7.attn.c_proj.bias": {
+        "name": "transformer.h.7.attn.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00016782205728158495
+      },
+      "transformer.h.7.ln_2.weight": {
+        "name": "transformer.h.7.ln_2.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0001315069633602157
+      },
+      "transformer.h.7.ln_2.bias": {
+        "name": "transformer.h.7.ln_2.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0005286079709541195
+      },
+      "transformer.h.7.mlp.c_fc.weight": {
+        "name": "transformer.h.7.mlp.c_fc.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.029061424448564712
+      },
+      "transformer.h.7.mlp.c_fc.bias": {
+        "name": "transformer.h.7.mlp.c_fc.bias",
+        "parameters": 3072,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0002253288697033241
+      },
+      "transformer.h.7.mlp.c_proj.weight": {
+        "name": "transformer.h.7.mlp.c_proj.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.024650599387126472
+      },
+      "transformer.h.7.mlp.c_proj.bias": {
+        "name": "transformer.h.7.mlp.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0001405382926090969
+      },
+      "transformer.h.8.ln_1.weight": {
+        "name": "transformer.h.8.ln_1.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00011719616957976658
+      },
+      "transformer.h.8.ln_1.bias": {
+        "name": "transformer.h.8.ln_1.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0007878616413083819
+      },
+      "transformer.h.8.attn.c_attn.weight": {
+        "name": "transformer.h.8.attn.c_attn.weight",
+        "parameters": 1769472,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 32768,
+        "proxy_coefficient": 0.06897058838692606
+      },
+      "transformer.h.8.attn.c_attn.bias": {
+        "name": "transformer.h.8.attn.c_attn.bias",
+        "parameters": 2304,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0002980971694216686
+      },
+      "transformer.h.8.attn.c_proj.weight": {
+        "name": "transformer.h.8.attn.c_proj.weight",
+        "parameters": 589824,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.0069302232362182066
+      },
+      "transformer.h.8.attn.c_proj.bias": {
+        "name": "transformer.h.8.attn.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 9.349395754385503e-05
+      },
+      "transformer.h.8.ln_2.weight": {
+        "name": "transformer.h.8.ln_2.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00020098758746612327
+      },
+      "transformer.h.8.ln_2.bias": {
+        "name": "transformer.h.8.ln_2.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0005046897073943781
+      },
+      "transformer.h.8.mlp.c_fc.weight": {
+        "name": "transformer.h.8.mlp.c_fc.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.026771704642043797
+      },
+      "transformer.h.8.mlp.c_fc.bias": {
+        "name": "transformer.h.8.mlp.c_fc.bias",
+        "parameters": 3072,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00021875752942821671
+      },
+      "transformer.h.8.mlp.c_proj.weight": {
+        "name": "transformer.h.8.mlp.c_proj.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.021719912131685417
+      },
+      "transformer.h.8.mlp.c_proj.bias": {
+        "name": "transformer.h.8.mlp.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 7.569772403463896e-05
+      },
+      "transformer.h.9.ln_1.weight": {
+        "name": "transformer.h.9.ln_1.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 7.053004482508554e-05
+      },
+      "transformer.h.9.ln_1.bias": {
+        "name": "transformer.h.9.ln_1.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0008578383376753772
+      },
+      "transformer.h.9.attn.c_attn.weight": {
+        "name": "transformer.h.9.attn.c_attn.weight",
+        "parameters": 1769472,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 16384,
+        "proxy_coefficient": 0.03456724474428821
+      },
+      "transformer.h.9.attn.c_attn.bias": {
+        "name": "transformer.h.9.attn.c_attn.bias",
+        "parameters": 2304,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00018006452654964608
+      },
+      "transformer.h.9.attn.c_proj.weight": {
+        "name": "transformer.h.9.attn.c_proj.weight",
+        "parameters": 589824,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.005208969614252792
+      },
+      "transformer.h.9.attn.c_proj.bias": {
+        "name": "transformer.h.9.attn.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00013982524101609212
+      },
+      "transformer.h.9.ln_2.weight": {
+        "name": "transformer.h.9.ln_2.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00044099063106826827
+      },
+      "transformer.h.9.ln_2.bias": {
+        "name": "transformer.h.9.ln_2.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0002535260822317491
+      },
+      "transformer.h.9.mlp.c_fc.weight": {
+        "name": "transformer.h.9.mlp.c_fc.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.01930489459483138
+      },
+      "transformer.h.9.mlp.c_fc.bias": {
+        "name": "transformer.h.9.mlp.c_fc.bias",
+        "parameters": 3072,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00014923338074918508
+      },
+      "transformer.h.9.mlp.c_proj.weight": {
+        "name": "transformer.h.9.mlp.c_proj.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.01805616341644045
+      },
+      "transformer.h.9.mlp.c_proj.bias": {
+        "name": "transformer.h.9.mlp.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 6.977191117911544e-05
+      },
+      "transformer.h.10.ln_1.weight": {
+        "name": "transformer.h.10.ln_1.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00011134366577216047
+      },
+      "transformer.h.10.ln_1.bias": {
+        "name": "transformer.h.10.ln_1.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.000729043845336242
+      },
+      "transformer.h.10.attn.c_attn.weight": {
+        "name": "transformer.h.10.attn.c_attn.weight",
+        "parameters": 1769472,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 16384,
+        "proxy_coefficient": 0.029244646185888696
+      },
+      "transformer.h.10.attn.c_attn.bias": {
+        "name": "transformer.h.10.attn.c_attn.bias",
+        "parameters": 2304,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0001999189106122512
+      },
+      "transformer.h.10.attn.c_proj.weight": {
+        "name": "transformer.h.10.attn.c_proj.weight",
+        "parameters": 589824,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.006009024543822802
+      },
+      "transformer.h.10.attn.c_proj.bias": {
+        "name": "transformer.h.10.attn.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 7.697943480773124e-05
+      },
+      "transformer.h.10.ln_2.weight": {
+        "name": "transformer.h.10.ln_2.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00036732115927630177
+      },
+      "transformer.h.10.ln_2.bias": {
+        "name": "transformer.h.10.ln_2.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00029512122718533166
+      },
+      "transformer.h.10.mlp.c_fc.weight": {
+        "name": "transformer.h.10.mlp.c_fc.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.018963166961828284
+      },
+      "transformer.h.10.mlp.c_fc.bias": {
+        "name": "transformer.h.10.mlp.c_fc.bias",
+        "parameters": 3072,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00013758327978815173
+      },
+      "transformer.h.10.mlp.c_proj.weight": {
+        "name": "transformer.h.10.mlp.c_proj.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.023889746182497156
+      },
+      "transformer.h.10.mlp.c_proj.bias": {
+        "name": "transformer.h.10.mlp.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 7.78870305193302e-05
+      },
+      "transformer.h.11.ln_1.weight": {
+        "name": "transformer.h.11.ln_1.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 5.411470069591744e-05
+      },
+      "transformer.h.11.ln_1.bias": {
+        "name": "transformer.h.11.ln_1.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0006366814495483954
+      },
+      "transformer.h.11.attn.c_attn.weight": {
+        "name": "transformer.h.11.attn.c_attn.weight",
+        "parameters": 1769472,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 16384,
+        "proxy_coefficient": 0.03510389496278035
+      },
+      "transformer.h.11.attn.c_attn.bias": {
+        "name": "transformer.h.11.attn.c_attn.bias",
+        "parameters": 2304,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 9.137682648872386e-05
+      },
+      "transformer.h.11.attn.c_proj.weight": {
+        "name": "transformer.h.11.attn.c_proj.weight",
+        "parameters": 589824,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.07200632663559653
+      },
+      "transformer.h.11.attn.c_proj.bias": {
+        "name": "transformer.h.11.attn.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00021837310024567266
+      },
+      "transformer.h.11.ln_2.weight": {
+        "name": "transformer.h.11.ln_2.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0007873549321125667
+      },
+      "transformer.h.11.ln_2.bias": {
+        "name": "transformer.h.11.ln_2.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00036860521454305177
+      },
+      "transformer.h.11.mlp.c_fc.weight": {
+        "name": "transformer.h.11.mlp.c_fc.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 16384,
+        "proxy_coefficient": 0.0282193146093593
+      },
+      "transformer.h.11.mlp.c_fc.bias": {
+        "name": "transformer.h.11.mlp.c_fc.bias",
+        "parameters": 3072,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0001352868660920237
+      },
+      "transformer.h.11.mlp.c_proj.weight": {
+        "name": "transformer.h.11.mlp.c_proj.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 16384,
+        "proxy_coefficient": 0.026451803035056853
+      },
+      "transformer.h.11.mlp.c_proj.bias": {
+        "name": "transformer.h.11.mlp.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 1.200619184064083e-05
+      },
+      "transformer.ln_f.weight": {
+        "name": "transformer.ln_f.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.011137278857684757
+      },
+      "transformer.ln_f.bias": {
+        "name": "transformer.ln_f.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.009524914556438698
+      }
+    },
+    "gradient_proxy_directions_vectorG16": {
+      "transformer.wte.weight": {
+        "name": "transformer.wte.weight",
+        "parameters": 38597376,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 32768,
+        "proxy_coefficient": 3.6324438942099295
+      },
+      "transformer.wpe.weight": {
+        "name": "transformer.wpe.weight",
+        "parameters": 786432,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 4096,
+        "proxy_coefficient": 0.0016751868318877427
+      },
+      "transformer.h.0.ln_1.weight": {
+        "name": "transformer.h.0.ln_1.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0007935079647502059
+      },
+      "transformer.h.0.ln_1.bias": {
+        "name": "transformer.h.0.ln_1.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.002081764480423007
+      },
+      "transformer.h.0.attn.c_attn.weight": {
+        "name": "transformer.h.0.attn.c_attn.weight",
+        "parameters": 1769472,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 8192,
+        "proxy_coefficient": 0.01759394268196105
+      },
+      "transformer.h.0.attn.c_attn.bias": {
+        "name": "transformer.h.0.attn.c_attn.bias",
+        "parameters": 2304,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0013191508861696416
+      },
+      "transformer.h.0.attn.c_proj.weight": {
+        "name": "transformer.h.0.attn.c_proj.weight",
+        "parameters": 589824,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 16384,
+        "proxy_coefficient": 0.018803788080898817
+      },
+      "transformer.h.0.attn.c_proj.bias": {
+        "name": "transformer.h.0.attn.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.01579801987013742
+      },
+      "transformer.h.0.ln_2.weight": {
+        "name": "transformer.h.0.ln_2.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.002748733273363469
+      },
+      "transformer.h.0.ln_2.bias": {
+        "name": "transformer.h.0.ln_2.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0019445957145596464
+      },
+      "transformer.h.0.mlp.c_fc.weight": {
+        "name": "transformer.h.0.mlp.c_fc.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.02987635874928534
+      },
+      "transformer.h.0.mlp.c_fc.bias": {
+        "name": "transformer.h.0.mlp.c_fc.bias",
+        "parameters": 3072,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0004648663002687602
+      },
+      "transformer.h.0.mlp.c_proj.weight": {
+        "name": "transformer.h.0.mlp.c_proj.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 8192,
+        "proxy_coefficient": 0.025505797924675735
+      },
+      "transformer.h.0.mlp.c_proj.bias": {
+        "name": "transformer.h.0.mlp.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00012214793501149474
+      },
+      "transformer.h.1.ln_1.weight": {
+        "name": "transformer.h.1.ln_1.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00018499566162394527
+      },
+      "transformer.h.1.ln_1.bias": {
+        "name": "transformer.h.1.ln_1.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0005988984570860607
+      },
+      "transformer.h.1.attn.c_attn.weight": {
+        "name": "transformer.h.1.attn.c_attn.weight",
+        "parameters": 1769472,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 8192,
+        "proxy_coefficient": 0.015375256622238816
+      },
+      "transformer.h.1.attn.c_attn.bias": {
+        "name": "transformer.h.1.attn.c_attn.bias",
+        "parameters": 2304,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00033912958006085875
+      },
+      "transformer.h.1.attn.c_proj.weight": {
+        "name": "transformer.h.1.attn.c_proj.weight",
+        "parameters": 589824,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 16384,
+        "proxy_coefficient": 0.009626765460530259
+      },
+      "transformer.h.1.attn.c_proj.bias": {
+        "name": "transformer.h.1.attn.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00012206031456722556
+      },
+      "transformer.h.1.ln_2.weight": {
+        "name": "transformer.h.1.ln_2.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0001719375228357603
+      },
+      "transformer.h.1.ln_2.bias": {
+        "name": "transformer.h.1.ln_2.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0005703681701374871
+      },
+      "transformer.h.1.mlp.c_fc.weight": {
+        "name": "transformer.h.1.mlp.c_fc.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 16384,
+        "proxy_coefficient": 0.053308317814968864
+      },
+      "transformer.h.1.mlp.c_fc.bias": {
+        "name": "transformer.h.1.mlp.c_fc.bias",
+        "parameters": 3072,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0004646591323407787
+      },
+      "transformer.h.1.mlp.c_proj.weight": {
+        "name": "transformer.h.1.mlp.c_proj.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 8192,
+        "proxy_coefficient": 0.025778406243192557
+      },
+      "transformer.h.1.mlp.c_proj.bias": {
+        "name": "transformer.h.1.mlp.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0001553488928900869
+      },
+      "transformer.h.2.ln_1.weight": {
+        "name": "transformer.h.2.ln_1.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0003824349566902014
+      },
+      "transformer.h.2.ln_1.bias": {
+        "name": "transformer.h.2.ln_1.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0008188810227337286
+      },
+      "transformer.h.2.attn.c_attn.weight": {
+        "name": "transformer.h.2.attn.c_attn.weight",
+        "parameters": 1769472,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.052303615998292564
+      },
+      "transformer.h.2.attn.c_attn.bias": {
+        "name": "transformer.h.2.attn.c_attn.bias",
+        "parameters": 2304,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00036077062044777226
+      },
+      "transformer.h.2.attn.c_proj.weight": {
+        "name": "transformer.h.2.attn.c_proj.weight",
+        "parameters": 589824,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 16384,
+        "proxy_coefficient": 0.011422986778692171
+      },
+      "transformer.h.2.attn.c_proj.bias": {
+        "name": "transformer.h.2.attn.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0002787878802188493
+      },
+      "transformer.h.2.ln_2.weight": {
+        "name": "transformer.h.2.ln_2.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.000718782235192643
+      },
+      "transformer.h.2.ln_2.bias": {
+        "name": "transformer.h.2.ln_2.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0010564325941894337
+      },
+      "transformer.h.2.mlp.c_fc.weight": {
+        "name": "transformer.h.2.mlp.c_fc.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 16384,
+        "proxy_coefficient": 0.07966351243839365
+      },
+      "transformer.h.2.mlp.c_fc.bias": {
+        "name": "transformer.h.2.mlp.c_fc.bias",
+        "parameters": 3072,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0004472673638396517
+      },
+      "transformer.h.2.mlp.c_proj.weight": {
+        "name": "transformer.h.2.mlp.c_proj.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 16384,
+        "proxy_coefficient": 0.03789553572522853
+      },
+      "transformer.h.2.mlp.c_proj.bias": {
+        "name": "transformer.h.2.mlp.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00022397514710508835
+      },
+      "transformer.h.3.ln_1.weight": {
+        "name": "transformer.h.3.ln_1.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00013313538240145126
+      },
+      "transformer.h.3.ln_1.bias": {
+        "name": "transformer.h.3.ln_1.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0006737486935698645
+      },
+      "transformer.h.3.attn.c_attn.weight": {
+        "name": "transformer.h.3.attn.c_attn.weight",
+        "parameters": 1769472,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.08004276030723728
+      },
+      "transformer.h.3.attn.c_attn.bias": {
+        "name": "transformer.h.3.attn.c_attn.bias",
+        "parameters": 2304,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00038096925268973827
+      },
+      "transformer.h.3.attn.c_proj.weight": {
+        "name": "transformer.h.3.attn.c_proj.weight",
+        "parameters": 589824,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 16384,
+        "proxy_coefficient": 0.009590720875872061
+      },
+      "transformer.h.3.attn.c_proj.bias": {
+        "name": "transformer.h.3.attn.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00017908335710239512
+      },
+      "transformer.h.3.ln_2.weight": {
+        "name": "transformer.h.3.ln_2.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00016944816969645984
+      },
+      "transformer.h.3.ln_2.bias": {
+        "name": "transformer.h.3.ln_2.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0006327877679338596
+      },
+      "transformer.h.3.mlp.c_fc.weight": {
+        "name": "transformer.h.3.mlp.c_fc.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.03697339155166947
+      },
+      "transformer.h.3.mlp.c_fc.bias": {
+        "name": "transformer.h.3.mlp.c_fc.bias",
+        "parameters": 3072,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00021226956734866751
+      },
+      "transformer.h.3.mlp.c_proj.weight": {
+        "name": "transformer.h.3.mlp.c_proj.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 8192,
+        "proxy_coefficient": 0.020071533906492186
+      },
+      "transformer.h.3.mlp.c_proj.bias": {
+        "name": "transformer.h.3.mlp.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0001832096060318292
+      },
+      "transformer.h.4.ln_1.weight": {
+        "name": "transformer.h.4.ln_1.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 8.791547376060659e-05
+      },
+      "transformer.h.4.ln_1.bias": {
+        "name": "transformer.h.4.ln_1.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.000951172612693894
+      },
+      "transformer.h.4.attn.c_attn.weight": {
+        "name": "transformer.h.4.attn.c_attn.weight",
+        "parameters": 1769472,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 16384,
+        "proxy_coefficient": 0.07116579899619008
+      },
+      "transformer.h.4.attn.c_attn.bias": {
+        "name": "transformer.h.4.attn.c_attn.bias",
+        "parameters": 2304,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0003304915593816294
+      },
+      "transformer.h.4.attn.c_proj.weight": {
+        "name": "transformer.h.4.attn.c_proj.weight",
+        "parameters": 589824,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.0091656587267282
+      },
+      "transformer.h.4.attn.c_proj.bias": {
+        "name": "transformer.h.4.attn.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0001381788686735167
+      },
+      "transformer.h.4.ln_2.weight": {
+        "name": "transformer.h.4.ln_2.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0005351758143560567
+      },
+      "transformer.h.4.ln_2.bias": {
+        "name": "transformer.h.4.ln_2.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0003609828199123437
+      },
+      "transformer.h.4.mlp.c_fc.weight": {
+        "name": "transformer.h.4.mlp.c_fc.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 16384,
+        "proxy_coefficient": 0.05496211862249556
+      },
+      "transformer.h.4.mlp.c_fc.bias": {
+        "name": "transformer.h.4.mlp.c_fc.bias",
+        "parameters": 3072,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0003588456412493292
+      },
+      "transformer.h.4.mlp.c_proj.weight": {
+        "name": "transformer.h.4.mlp.c_proj.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 8192,
+        "proxy_coefficient": 0.021008967496995535
+      },
+      "transformer.h.4.mlp.c_proj.bias": {
+        "name": "transformer.h.4.mlp.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00031152468206640583
+      },
+      "transformer.h.5.ln_1.weight": {
+        "name": "transformer.h.5.ln_1.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00012663223059734084
+      },
+      "transformer.h.5.ln_1.bias": {
+        "name": "transformer.h.5.ln_1.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0004899721407105104
+      },
+      "transformer.h.5.attn.c_attn.weight": {
+        "name": "transformer.h.5.attn.c_attn.weight",
+        "parameters": 1769472,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.09439029364929225
+      },
+      "transformer.h.5.attn.c_attn.bias": {
+        "name": "transformer.h.5.attn.c_attn.bias",
+        "parameters": 2304,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00033018753936281766
+      },
+      "transformer.h.5.attn.c_proj.weight": {
+        "name": "transformer.h.5.attn.c_proj.weight",
+        "parameters": 589824,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.01182844323815775
+      },
+      "transformer.h.5.attn.c_proj.bias": {
+        "name": "transformer.h.5.attn.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00016933382827740763
+      },
+      "transformer.h.5.ln_2.weight": {
+        "name": "transformer.h.5.ln_2.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00011344129622417427
+      },
+      "transformer.h.5.ln_2.bias": {
+        "name": "transformer.h.5.ln_2.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00038775267707985995
+      },
+      "transformer.h.5.mlp.c_fc.weight": {
+        "name": "transformer.h.5.mlp.c_fc.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.0417131016025907
+      },
+      "transformer.h.5.mlp.c_fc.bias": {
+        "name": "transformer.h.5.mlp.c_fc.bias",
+        "parameters": 3072,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00027555909349686876
+      },
+      "transformer.h.5.mlp.c_proj.weight": {
+        "name": "transformer.h.5.mlp.c_proj.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 8192,
+        "proxy_coefficient": 0.02159566761805116
+      },
+      "transformer.h.5.mlp.c_proj.bias": {
+        "name": "transformer.h.5.mlp.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00017824815504226558
+      },
+      "transformer.h.6.ln_1.weight": {
+        "name": "transformer.h.6.ln_1.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 9.531522519167275e-05
+      },
+      "transformer.h.6.ln_1.bias": {
+        "name": "transformer.h.6.ln_1.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0012576633833298297
+      },
+      "transformer.h.6.attn.c_attn.weight": {
+        "name": "transformer.h.6.attn.c_attn.weight",
+        "parameters": 1769472,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 32768,
+        "proxy_coefficient": 0.08606631738003222
+      },
+      "transformer.h.6.attn.c_attn.bias": {
+        "name": "transformer.h.6.attn.c_attn.bias",
+        "parameters": 2304,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0001981935561365979
+      },
+      "transformer.h.6.attn.c_proj.weight": {
+        "name": "transformer.h.6.attn.c_proj.weight",
+        "parameters": 589824,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 8192,
+        "proxy_coefficient": 0.0066455996661652144
+      },
+      "transformer.h.6.attn.c_proj.bias": {
+        "name": "transformer.h.6.attn.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00011595591468490626
+      },
+      "transformer.h.6.ln_2.weight": {
+        "name": "transformer.h.6.ln_2.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00014659134232585677
+      },
+      "transformer.h.6.ln_2.bias": {
+        "name": "transformer.h.6.ln_2.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0003931265316507759
+      },
+      "transformer.h.6.mlp.c_fc.weight": {
+        "name": "transformer.h.6.mlp.c_fc.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.04073122329247182
+      },
+      "transformer.h.6.mlp.c_fc.bias": {
+        "name": "transformer.h.6.mlp.c_fc.bias",
+        "parameters": 3072,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00030197423354811617
+      },
+      "transformer.h.6.mlp.c_proj.weight": {
+        "name": "transformer.h.6.mlp.c_proj.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 8192,
+        "proxy_coefficient": 0.02214223692178788
+      },
+      "transformer.h.6.mlp.c_proj.bias": {
+        "name": "transformer.h.6.mlp.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00020009201760097018
+      },
+      "transformer.h.7.ln_1.weight": {
+        "name": "transformer.h.7.ln_1.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0001226095604533263
+      },
+      "transformer.h.7.ln_1.bias": {
+        "name": "transformer.h.7.ln_1.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0008323011013291874
+      },
+      "transformer.h.7.attn.c_attn.weight": {
+        "name": "transformer.h.7.attn.c_attn.weight",
+        "parameters": 1769472,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 16384,
+        "proxy_coefficient": 0.057562410726033526
+      },
+      "transformer.h.7.attn.c_attn.bias": {
+        "name": "transformer.h.7.attn.c_attn.bias",
+        "parameters": 2304,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0001643932303078238
+      },
+      "transformer.h.7.attn.c_proj.weight": {
+        "name": "transformer.h.7.attn.c_proj.weight",
+        "parameters": 589824,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 8192,
+        "proxy_coefficient": 0.005208539396622337
+      },
+      "transformer.h.7.attn.c_proj.bias": {
+        "name": "transformer.h.7.attn.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00016782205728158495
+      },
+      "transformer.h.7.ln_2.weight": {
+        "name": "transformer.h.7.ln_2.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0001315069633602157
+      },
+      "transformer.h.7.ln_2.bias": {
+        "name": "transformer.h.7.ln_2.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0005286079709541195
+      },
+      "transformer.h.7.mlp.c_fc.weight": {
+        "name": "transformer.h.7.mlp.c_fc.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.029061424448564712
+      },
+      "transformer.h.7.mlp.c_fc.bias": {
+        "name": "transformer.h.7.mlp.c_fc.bias",
+        "parameters": 3072,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0002253288697033241
+      },
+      "transformer.h.7.mlp.c_proj.weight": {
+        "name": "transformer.h.7.mlp.c_proj.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 8192,
+        "proxy_coefficient": 0.020812500815428587
+      },
+      "transformer.h.7.mlp.c_proj.bias": {
+        "name": "transformer.h.7.mlp.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0001405382926090969
+      },
+      "transformer.h.8.ln_1.weight": {
+        "name": "transformer.h.8.ln_1.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00011719616957976658
+      },
+      "transformer.h.8.ln_1.bias": {
+        "name": "transformer.h.8.ln_1.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0007878616413083819
+      },
+      "transformer.h.8.attn.c_attn.weight": {
+        "name": "transformer.h.8.attn.c_attn.weight",
+        "parameters": 1769472,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 16384,
+        "proxy_coefficient": 0.06897058838692606
+      },
+      "transformer.h.8.attn.c_attn.bias": {
+        "name": "transformer.h.8.attn.c_attn.bias",
+        "parameters": 2304,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0002980971694216686
+      },
+      "transformer.h.8.attn.c_proj.weight": {
+        "name": "transformer.h.8.attn.c_proj.weight",
+        "parameters": 589824,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 8192,
+        "proxy_coefficient": 0.005721327174856003
+      },
+      "transformer.h.8.attn.c_proj.bias": {
+        "name": "transformer.h.8.attn.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 9.349395754385503e-05
+      },
+      "transformer.h.8.ln_2.weight": {
+        "name": "transformer.h.8.ln_2.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00020098758746612327
+      },
+      "transformer.h.8.ln_2.bias": {
+        "name": "transformer.h.8.ln_2.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0005046897073943781
+      },
+      "transformer.h.8.mlp.c_fc.weight": {
+        "name": "transformer.h.8.mlp.c_fc.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 8192,
+        "proxy_coefficient": 0.026771704642043797
+      },
+      "transformer.h.8.mlp.c_fc.bias": {
+        "name": "transformer.h.8.mlp.c_fc.bias",
+        "parameters": 3072,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00021875752942821671
+      },
+      "transformer.h.8.mlp.c_proj.weight": {
+        "name": "transformer.h.8.mlp.c_proj.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 8192,
+        "proxy_coefficient": 0.018670618334529755
+      },
+      "transformer.h.8.mlp.c_proj.bias": {
+        "name": "transformer.h.8.mlp.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 7.569772403463896e-05
+      },
+      "transformer.h.9.ln_1.weight": {
+        "name": "transformer.h.9.ln_1.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 7.053004482508554e-05
+      },
+      "transformer.h.9.ln_1.bias": {
+        "name": "transformer.h.9.ln_1.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0008578383376753772
+      },
+      "transformer.h.9.attn.c_attn.weight": {
+        "name": "transformer.h.9.attn.c_attn.weight",
+        "parameters": 1769472,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 16384,
+        "proxy_coefficient": 0.03456724474428821
+      },
+      "transformer.h.9.attn.c_attn.bias": {
+        "name": "transformer.h.9.attn.c_attn.bias",
+        "parameters": 2304,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00018006452654964608
+      },
+      "transformer.h.9.attn.c_proj.weight": {
+        "name": "transformer.h.9.attn.c_proj.weight",
+        "parameters": 589824,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 8192,
+        "proxy_coefficient": 0.004406805412824588
+      },
+      "transformer.h.9.attn.c_proj.bias": {
+        "name": "transformer.h.9.attn.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00013982524101609212
+      },
+      "transformer.h.9.ln_2.weight": {
+        "name": "transformer.h.9.ln_2.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00044099063106826827
+      },
+      "transformer.h.9.ln_2.bias": {
+        "name": "transformer.h.9.ln_2.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0002535260822317491
+      },
+      "transformer.h.9.mlp.c_fc.weight": {
+        "name": "transformer.h.9.mlp.c_fc.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 8192,
+        "proxy_coefficient": 0.01930489459483138
+      },
+      "transformer.h.9.mlp.c_fc.bias": {
+        "name": "transformer.h.9.mlp.c_fc.bias",
+        "parameters": 3072,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.00014923338074918508
+      },
+      "transformer.h.9.mlp.c_proj.weight": {
+        "name": "transformer.h.9.mlp.c_proj.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 8192,
+        "proxy_coefficient": 0.01805616341644045
+      },
+      "transformer.h.9.mlp.c_proj.bias": {
+        "name": "transformer.h.9.mlp.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 6.977191117911544e-05
+      },
+      "transformer.h.10.ln_1.weight": {
+        "name": "transformer.h.10.ln_1.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00011134366577216047
+      },
+      "transformer.h.10.ln_1.bias": {
+        "name": "transformer.h.10.ln_1.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.000729043845336242
+      },
+      "transformer.h.10.attn.c_attn.weight": {
+        "name": "transformer.h.10.attn.c_attn.weight",
+        "parameters": 1769472,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 16384,
+        "proxy_coefficient": 0.029244646185888696
+      },
+      "transformer.h.10.attn.c_attn.bias": {
+        "name": "transformer.h.10.attn.c_attn.bias",
+        "parameters": 2304,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0001999189106122512
+      },
+      "transformer.h.10.attn.c_proj.weight": {
+        "name": "transformer.h.10.attn.c_proj.weight",
+        "parameters": 589824,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 8192,
+        "proxy_coefficient": 0.005307776194897201
+      },
+      "transformer.h.10.attn.c_proj.bias": {
+        "name": "transformer.h.10.attn.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 7.697943480773124e-05
+      },
+      "transformer.h.10.ln_2.weight": {
+        "name": "transformer.h.10.ln_2.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00036732115927630177
+      },
+      "transformer.h.10.ln_2.bias": {
+        "name": "transformer.h.10.ln_2.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00029512122718533166
+      },
+      "transformer.h.10.mlp.c_fc.weight": {
+        "name": "transformer.h.10.mlp.c_fc.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 8192,
+        "proxy_coefficient": 0.018963166961828284
+      },
+      "transformer.h.10.mlp.c_fc.bias": {
+        "name": "transformer.h.10.mlp.c_fc.bias",
+        "parameters": 3072,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.00013758327978815173
+      },
+      "transformer.h.10.mlp.c_proj.weight": {
+        "name": "transformer.h.10.mlp.c_proj.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 8192,
+        "proxy_coefficient": 0.02202494777325963
+      },
+      "transformer.h.10.mlp.c_proj.bias": {
+        "name": "transformer.h.10.mlp.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 7.78870305193302e-05
+      },
+      "transformer.h.11.ln_1.weight": {
+        "name": "transformer.h.11.ln_1.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 5.411470069591744e-05
+      },
+      "transformer.h.11.ln_1.bias": {
+        "name": "transformer.h.11.ln_1.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0006366814495483954
+      },
+      "transformer.h.11.attn.c_attn.weight": {
+        "name": "transformer.h.11.attn.c_attn.weight",
+        "parameters": 1769472,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 16384,
+        "proxy_coefficient": 0.03510389496278035
+      },
+      "transformer.h.11.attn.c_attn.bias": {
+        "name": "transformer.h.11.attn.c_attn.bias",
+        "parameters": 2304,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 9.137682648872386e-05
+      },
+      "transformer.h.11.attn.c_proj.weight": {
+        "name": "transformer.h.11.attn.c_proj.weight",
+        "parameters": 589824,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 16384,
+        "proxy_coefficient": 0.011920171109660434
+      },
+      "transformer.h.11.attn.c_proj.bias": {
+        "name": "transformer.h.11.attn.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00021837310024567266
+      },
+      "transformer.h.11.ln_2.weight": {
+        "name": "transformer.h.11.ln_2.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.0007873549321125667
+      },
+      "transformer.h.11.ln_2.bias": {
+        "name": "transformer.h.11.ln_2.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.00036860521454305177
+      },
+      "transformer.h.11.mlp.c_fc.weight": {
+        "name": "transformer.h.11.mlp.c_fc.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "storage_flat",
+        "samples": 8192,
+        "proxy_coefficient": 0.026663942891078755
+      },
+      "transformer.h.11.mlp.c_fc.bias": {
+        "name": "transformer.h.11.mlp.c_fc.bias",
+        "parameters": 3072,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 0.0001352868660920237
+      },
+      "transformer.h.11.mlp.c_proj.weight": {
+        "name": "transformer.h.11.mlp.c_proj.weight",
+        "parameters": 2359296,
+        "group": 128,
+        "layout": "transposed_matrix",
+        "samples": 8192,
+        "proxy_coefficient": 0.026451803035056853
+      },
+      "transformer.h.11.mlp.c_proj.bias": {
+        "name": "transformer.h.11.mlp.c_proj.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 16384,
+        "proxy_coefficient": 1.200619184064083e-05
+      },
+      "transformer.ln_f.weight": {
+        "name": "transformer.ln_f.weight",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.011137278857684757
+      },
+      "transformer.ln_f.bias": {
+        "name": "transformer.ln_f.bias",
+        "parameters": 768,
+        "group": 16,
+        "layout": "storage_flat",
+        "samples": 32768,
+        "proxy_coefficient": 0.009524914556438698
+      }
+    }
+  },
+  "rows": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "length": 257,
+  "scope": "Diagnosticrows0:8 andcalibrationrows8:16 only. FP32CPUarithmetic withsampledBF16weights. No GPU,testdata,parameterupdates ordeploymentselection. One-pbitperparameter retained; vectorsusegroup16andallT<=32768. Pairedfive-seed comparisonsare descriptive; requirefutureprospectiveGPUconfirmation."
+}

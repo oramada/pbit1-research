@@ -1,0 +1,26 @@
+{
+  "status": "transport_only_amendment_frozen_before_core_v4_inference",
+  "recorded_utc": "2026-11-05T21:28:15.538917+00:00",
+  "app": "pbit1-broad-heldout-v5",
+  "logs": "cloud_holdout_logs_v5",
+  "core_protocol": "results/thrml_spw/lfm3_1p7b/holdout_native_v4_protocol.json",
+  "core_protocol_sha256": "9fab3acd2b01748426fc73a6712029f07e7e73db3826e2a0cc8cd5ba5cd5216e",
+  "core_assets": "holdout_assets_v4.json",
+  "case_modules": [
+    "holdout_native_case_v4",
+    "verify_holdout_native_case_v4"
+  ],
+  "statistics_modules": [
+    "holdout_native_statistics_v4",
+    "verify_holdout_native_statistics_v4"
+  ],
+  "prior_terminal_call_id": "fc-01M6PSMSANJSMMD1G3N929HZN0",
+  "prior_terminal_reason": "Reused v3logdirectory correctly rejected by terminal failure guard before starting frozen v4core. No native sampling or v4case output was produced.",
+  "engineering_change": "Only deployed app/claim/log/observer namespace corrected. All corev4sources, protocol, rawdata, seeds, margin and stage checkpoint behavior remain byte-identical. No extra MC trial or score selection.",
+  "sources_sha256": {
+    "cloud/broad_validation_v5/layout.py": "a255b6230e1a43410fff6ba7257091e718eb3e133793abd3d1a80f47b1878885",
+    "cloud/broad_validation_v5/client.py": "4e50d21a9579df6e006f54bc8057288fc50abb954f753dcc40d6589102d0936e",
+    "cloud/broad_validation_v5/app.py": "87b934b1a0745a1f943e726921fb507871b1897299290732a87e888b92d43b96",
+    "cloud/broad_validation_v5/freeze.py": "1b7d151fb37d3276049a98cca3b7af1af9096cfee45c7a36c5b1550c7e429344"
+  }
+}

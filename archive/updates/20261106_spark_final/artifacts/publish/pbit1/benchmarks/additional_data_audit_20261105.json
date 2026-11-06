@@ -1,0 +1,18 @@
+{
+  "status": "all_real_test_tokens_labels_article_targets_and_truncation_independently_rebuilt",
+  "source_sha256": "a99dd4dd0e96a737c1158c4eed87ee90f99f0b0742a8771e778b9f02be9874a6",
+  "manifest_sha256": "e001635f25503f028465339e0ab59376f9acbdf8275ae8138f9bddc571e7ae42",
+  "download_manifest_sha256": "189663ab3340d637efa2da0cdf52f98867c076f6b300a5056196a2c70d0ea094",
+  "hash_checked_nonweight_files": 16,
+  "gpt2_articles": 62,
+  "gpt2_targets": 283225,
+  "gpt2_all_targets_once_and_article_bounded": true,
+  "distilbert_reviews": 25000,
+  "distilbert_all_token_rows_rebuilt": true,
+  "distilbert_truncated_reviews": 10840,
+  "distilbert_class_counts": [
+    12500,
+    12500
+  ],
+  "scope": "Independent local reconstruction of all test tokens/labels from pinned tokenizer/dataset bytes. Model weights were hash-checked by remote producer and not downloaded for this data audit. No model forward or new quality result."
+}

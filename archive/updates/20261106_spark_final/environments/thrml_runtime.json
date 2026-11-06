@@ -1,0 +1,32 @@
+{
+  "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "platform": "Linux-6.17.0-1014-nvidia-aarch64-with-glibc2.39",
+  "distributions": {
+    "contourpy": "1.4.0",
+    "cycler": "0.12.1",
+    "equinox": "0.13.8",
+    "fonttools": "4.67.0",
+    "iniconfig": "2.3.1",
+    "jax": "0.12.0.1",
+    "jaxlib": "0.12.0.1",
+    "jaxtyping": "0.3.11",
+    "kiwisolver": "1.5.1",
+    "matplotlib": "3.11.2",
+    "ml_dtypes": "0.6.0",
+    "numpy": "2.5.4",
+    "opt_einsum": "3.4.0",
+    "packaging": "26.3",
+    "pillow": "13.0.0",
+    "pip": "24.0",
+    "pluggy": "1.7.0",
+    "pyparsing": "3.3.3",
+    "pytest": "8.3.5",
+    "python-dateutil": "3.0.0",
+    "scipy": "1.18.1",
+    "six": "1.17.0",
+    "thrml": "0.1.4",
+    "typing_extensions": "4.16.0",
+    "tzdata": "2026.5",
+    "wadler_lindig": "0.1.8"
+  }
+}

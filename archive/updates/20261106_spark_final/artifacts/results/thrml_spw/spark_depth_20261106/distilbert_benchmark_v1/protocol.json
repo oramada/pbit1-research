@@ -1,0 +1,149 @@
+{
+  "plan_sha256": "a5c1b5196a2554c35ce9be622c0ea5d24d9e6c9f6b10589eaf259f5c97861aba",
+  "source_sha256": "c58eb9cde585d42a6be29f5dcc4148d645713d3b674740e5dc1cd8fbc0a8fbd2",
+  "sampler_sha256": "6965132ce43835ba1c3672290ab4dde837dd0f0f7e078aea0e4b2abcc6970eba",
+  "mapping_sha256": "1250b109bfb56c78e49b5e35ce08c53d64499068d7eb08bdefed42f5bf216911",
+  "plan": {
+    "status": "cross_architecture_policy_and_full_data_frozen_no_test_forward",
+    "source_sha256": "d4bd6fe5324b27f3bd9007cf6b22b74f271fe9047e906ecaba44aa90dd880295",
+    "model_preparation": "results/thrml_spw/spark_depth_20261106/distilbert_preparation_v1/results.json",
+    "model_preparation_sha256": "f1902e05de3f9ea8d3cbb693ef32b3ca890b4d0853383a56bab479b1ded5f8b3",
+    "training_diagnostics_sha256": "67e939a6911c122aa4883490f949476d13615ca266bc4ab78d111aa0edb2f903",
+    "GPT2_calibration_selection_sha256": "ee7571a3e7b8da0f7ff0af4516f01f107515f4d6305b35e7e9e95ed1f815ac5d",
+    "model": "distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+    "unique_parameters": 66955010,
+    "arrays": "results/thrml_spw/broad_verification_20261105/additional_assets_v1_mirror/results/thrml_spw/broad_verification_20261105/additional_assets_v1/distilbert_tokens.npz",
+    "arrays_sha256": "ef9c432050f58d3db91fcf85a8530bc2423eb441aefe0f42c61776fd74a247cb",
+    "layout": "results/thrml_spw/broad_verification_20261105/additional_assets_v1_mirror/results/thrml_spw/broad_verification_20261105/additional_assets_v1/distilbert_layout.json",
+    "layout_sha256": "566bb4c993968db0190ce64bedd06605ea2a1896e2a35230111b4d74258a59bb",
+    "reviews": 25000,
+    "label_counts": [
+      12500,
+      12500
+    ],
+    "input_shape": [
+      25000,
+      256
+    ],
+    "group_size": 128,
+    "control_bits": 12,
+    "field_range": [
+      -4,
+      4
+    ],
+    "samples": 32768,
+    "preferences": {
+      "distilbert.embeddings.word_embeddings.weight": "transposed_matrix",
+      "distilbert.embeddings.position_embeddings.weight": "transposed_matrix",
+      "distilbert.transformer.layer.0.attention.q_lin.weight": "transposed_matrix",
+      "distilbert.transformer.layer.0.attention.k_lin.weight": "transposed_matrix",
+      "distilbert.transformer.layer.0.attention.v_lin.weight": "transposed_matrix",
+      "distilbert.transformer.layer.0.attention.out_lin.weight": "storage_flat",
+      "distilbert.transformer.layer.0.ffn.lin1.weight": "transposed_matrix",
+      "distilbert.transformer.layer.0.ffn.lin2.weight": "storage_flat",
+      "distilbert.transformer.layer.1.attention.q_lin.weight": "storage_flat",
+      "distilbert.transformer.layer.1.attention.k_lin.weight": "storage_flat",
+      "distilbert.transformer.layer.1.attention.v_lin.weight": "transposed_matrix",
+      "distilbert.transformer.layer.1.attention.out_lin.weight": "storage_flat",
+      "distilbert.transformer.layer.1.ffn.lin1.weight": "transposed_matrix",
+      "distilbert.transformer.layer.1.ffn.lin2.weight": "transposed_matrix",
+      "distilbert.transformer.layer.2.attention.q_lin.weight": "storage_flat",
+      "distilbert.transformer.layer.2.attention.k_lin.weight": "storage_flat",
+      "distilbert.transformer.layer.2.attention.v_lin.weight": "transposed_matrix",
+      "distilbert.transformer.layer.2.attention.out_lin.weight": "storage_flat",
+      "distilbert.transformer.layer.2.ffn.lin1.weight": "transposed_matrix",
+      "distilbert.transformer.layer.2.ffn.lin2.weight": "transposed_matrix",
+      "distilbert.transformer.layer.3.attention.q_lin.weight": "storage_flat",
+      "distilbert.transformer.layer.3.attention.k_lin.weight": "storage_flat",
+      "distilbert.transformer.layer.3.attention.v_lin.weight": "transposed_matrix",
+      "distilbert.transformer.layer.3.attention.out_lin.weight": "storage_flat",
+      "distilbert.transformer.layer.3.ffn.lin1.weight": "transposed_matrix",
+      "distilbert.transformer.layer.3.ffn.lin2.weight": "transposed_matrix",
+      "distilbert.transformer.layer.4.attention.q_lin.weight": "transposed_matrix",
+      "distilbert.transformer.layer.4.attention.k_lin.weight": "storage_flat",
+      "distilbert.transformer.layer.4.attention.v_lin.weight": "transposed_matrix",
+      "distilbert.transformer.layer.4.attention.out_lin.weight": "storage_flat",
+      "distilbert.transformer.layer.4.ffn.lin1.weight": "transposed_matrix",
+      "distilbert.transformer.layer.4.ffn.lin2.weight": "storage_flat",
+      "distilbert.transformer.layer.5.attention.q_lin.weight": "transposed_matrix",
+      "distilbert.transformer.layer.5.attention.k_lin.weight": "transposed_matrix",
+      "distilbert.transformer.layer.5.attention.v_lin.weight": "transposed_matrix",
+      "distilbert.transformer.layer.5.attention.out_lin.weight": "transposed_matrix",
+      "distilbert.transformer.layer.5.ffn.lin1.weight": "transposed_matrix",
+      "distilbert.transformer.layer.5.ffn.lin2.weight": "storage_flat",
+      "pre_classifier.weight": "storage_flat",
+      "classifier.weight": "transposed_matrix"
+    },
+    "cases": [
+      {
+        "name": "BF16",
+        "kind": "original"
+      },
+      {
+        "name": "selected_mean",
+        "kind": "mean"
+      },
+      {
+        "name": "selected_seed2026111001",
+        "kind": "selected",
+        "seed": 2026111001
+      },
+      {
+        "name": "matched_flat_seed2026111001",
+        "kind": "matched_flat",
+        "seed": 2026111001
+      },
+      {
+        "name": "selected_seed2026111002",
+        "kind": "selected",
+        "seed": 2026111002
+      },
+      {
+        "name": "matched_flat_seed2026111002",
+        "kind": "matched_flat",
+        "seed": 2026111002
+      },
+      {
+        "name": "selected_seed2026111003",
+        "kind": "selected",
+        "seed": 2026111003
+      },
+      {
+        "name": "matched_flat_seed2026111003",
+        "kind": "matched_flat",
+        "seed": 2026111003
+      },
+      {
+        "name": "selected_seed2026111004",
+        "kind": "selected",
+        "seed": 2026111004
+      },
+      {
+        "name": "matched_flat_seed2026111004",
+        "kind": "matched_flat",
+        "seed": 2026111004
+      },
+      {
+        "name": "selected_seed2026111005",
+        "kind": "selected",
+        "seed": 2026111005
+      },
+      {
+        "name": "matched_flat_seed2026111005",
+        "kind": "matched_flat",
+        "seed": 2026111005
+      }
+    ],
+    "batch_size": 32,
+    "GPU_allocator_cap_bytes": 2147483648,
+    "accuracy_gate": "Five-seed mean accuracy decline plus t4(97.5%) standarderror <=.02 absolute; reference computed locally in BF16 onidenticalreviews.",
+    "probability_gate": "Five-seed mean delta crossentropy plus t4(97.5%) standarderror <= ln(1.02). This categoricalperplexity gate matches GPT2 distribution-level tolerance.",
+    "joint_rule": "Report accuracy and probability gates separately; call cross-architecture jointquality success only if both andGPT2primary pass. Do notreinterpretolderaccuracy-onlypass.",
+    "scope": "SameT32768 andK1asGPT2selectedpolicy; peroperatordirectionselectedfrom64trainingreviews, nottestlabels. FullIMDbtestwasalreadyusedinearlierresearch: regressionre-evaluation, notnewunexposeddata. No GPUjobstartedbythispreparation."
+  },
+  "runtime": {
+    "torch": "2.14.1+cu130",
+    "numpy": "2.5.3",
+    "GPU": "NVIDIA GB10"
+  }
+}

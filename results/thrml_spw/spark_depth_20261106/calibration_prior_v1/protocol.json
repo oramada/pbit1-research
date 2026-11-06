@@ -1,0 +1,31 @@
+{
+  "source_sha256": "969097ac476f83c1c0a60377669a06e10c9d5de72d8d1b7a5954e88cdfcf27ce",
+  "moment_source_sha256": "0aa605f6e84df072ef5866abf54ccf67048b8b958ab45b421c55fddc0e848769",
+  "inputs_sha256": "a467a6b34d1c3645ebcd2b5ad8fa35228bcdd8d16da5189c6c2222924cf4fd49",
+  "device_seeds": [
+    2026111101,
+    2026111102,
+    2026111103,
+    2026111104,
+    2026111105,
+    2026111106,
+    2026111107,
+    2026111108,
+    2026111109,
+    2026111110
+  ],
+  "samples": 32768,
+  "probe_counts": [
+    256,
+    4096,
+    65536
+  ],
+  "gain_SD": 0.02,
+  "offset_SD": 0.02,
+  "methods": [
+    "uncalibrated",
+    "binomial_MLE",
+    "binomial_MAP_assumed_population_prior"
+  ],
+  "scope": "Illustrative independentdeviceerrors. MAP assumescorrectN(1,.02^2)gain,N(0,.02^2)offsetpopulationprior, notlearnedfromhardware. Probe logits use12bitDACquantization. ExactoperatorconditionalMSE, notneuralquality. Retainprobeobservations; countlogicalshotsandtemporaryestimatorstate."
+}

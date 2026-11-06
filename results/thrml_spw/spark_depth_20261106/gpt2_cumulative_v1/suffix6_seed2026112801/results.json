@@ -1,0 +1,8 @@
+{
+  "seed": 2026112801,
+  "condition": "suffix6",
+  "NLL": 3.8173052113410684,
+  "targets": 1024,
+  "converted_parameters": 42527232,
+  "point_sha256": "051efd3a1fcbe0b812d35b6c37fb7adea84f76cf9bf5d9184152e520b8b430ce"
+}

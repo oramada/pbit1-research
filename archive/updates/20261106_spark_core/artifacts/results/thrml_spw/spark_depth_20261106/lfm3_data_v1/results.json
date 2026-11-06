@@ -1,0 +1,141 @@
+{
+  "status": "LFM3_native_tokens_and_all62_article_task_prepared_without_scores",
+  "protocol_sha256": "e837a84bc0fe0534acab55b20c51fc689cb1957509240595b79449afdade6533",
+  "training_selection": [
+    {
+      "article_index": 122,
+      "text_sha256": "5161d7603a767636d3715294367f0d304813abcf4c068cb5b88f729a0b8ca500"
+    },
+    {
+      "article_index": 0,
+      "text_sha256": "9177294e330ff678a907c546c596fa9565972fe99febc823629c483aea13ee59"
+    },
+    {
+      "article_index": 52,
+      "text_sha256": "88af748928642bffbce1333a67d10b28841d4d53c6b41ec566e4ea7d91e12661"
+    },
+    {
+      "article_index": 387,
+      "text_sha256": "e63e9228e98047da1febfdbf2c898382933b661b5f70bd3db9cc05f5270143fb"
+    },
+    {
+      "article_index": 316,
+      "text_sha256": "3c1330b32bd45bcee8c0043b4b796f658c4b5c90012e28d60d0b791a905df4b8"
+    },
+    {
+      "article_index": 298,
+      "text_sha256": "1f1e2051c9d6bbaa837298e48d35e76e4f4ff35cdd6463f89d806386d7f83c67"
+    },
+    {
+      "article_index": 29,
+      "text_sha256": "9eb1ccc8af5a2f9987bc5629af165e15df8af72a9a3c72ed642dde8e03c4268c"
+    },
+    {
+      "article_index": 572,
+      "text_sha256": "f3146a224fdb9df73858e6c4ce4bf82762ed3108948be4dc17dfe40c2c266298"
+    },
+    {
+      "article_index": 548,
+      "text_sha256": "ea7ff5117344a050209f8ccc70f91a67370e9774b5cef936ff4c00d7cd070147"
+    },
+    {
+      "article_index": 373,
+      "text_sha256": "fb0f11896675f99c7cd3436264bf22e2bdf7ca8be736ab50ae425ccfec19845f"
+    },
+    {
+      "article_index": 265,
+      "text_sha256": "753a5ec63bee1aeefae7e8e9b418899a7efe335f5623763b45689e119b1defa9"
+    },
+    {
+      "article_index": 184,
+      "text_sha256": "723929cfdd15d4a7720099cf45e823745bff50c738f65f10b5a1d87235b71c71"
+    },
+    {
+      "article_index": 456,
+      "text_sha256": "23a7ef683e65cb50ac1113d74cac3db2e8180bfcafccae694f7163b950c0ca23"
+    },
+    {
+      "article_index": 135,
+      "text_sha256": "04076bace6241a3498d078017a9a22040808dc2fdd38b4b5e8d5bdf039a37bfc"
+    },
+    {
+      "article_index": 25,
+      "text_sha256": "064065584cb334cc387b3cab60aef5a8166cff55a3f1e89c82d2f2ff3c3aec1b"
+    },
+    {
+      "article_index": 484,
+      "text_sha256": "d5e169fc48bc930fdb30af2d0675ee880b5b42d3c750e8d16436cbba579fcc70"
+    },
+    {
+      "article_index": 319,
+      "text_sha256": "1c38225486eba170209674ab592695628557923359411d3994bc4acc109a80b5"
+    },
+    {
+      "article_index": 14,
+      "text_sha256": "7879a691ba53812ec4b92c8e69b865b9be2b859379bb253935b2cfe5945cbe39"
+    },
+    {
+      "article_index": 294,
+      "text_sha256": "b81c23df090ba68f1f4c78fcd6da03ada9952ae0e4f967a94421b0c73a72c2e5"
+    },
+    {
+      "article_index": 34,
+      "text_sha256": "ef0d7cf930083b16a553ef387c8aea85ef8833957a752641ab4820cb08bd8a2c"
+    },
+    {
+      "article_index": 524,
+      "text_sha256": "1069c8d26fceb81ab6ac8390b6677697bfeea7502f91565514f7a8024f87f0dc"
+    },
+    {
+      "article_index": 45,
+      "text_sha256": "56999ddf8857bb833989bda24248a34d3bbbf39912004b711ab950fae8e55f94"
+    },
+    {
+      "article_index": 224,
+      "text_sha256": "5fa1bb33c9fddff5c998cae50b21eddb748a0b8bc0655068a159d12d931b071e"
+    },
+    {
+      "article_index": 51,
+      "text_sha256": "d7435440d4f9902e27fc2aef043ec40fd38a61734c49e94a667ec28e7cf6c9b6"
+    },
+    {
+      "article_index": 345,
+      "text_sha256": "691565b5fd37641c24df9bcf7833c203ec613668d2c35fef172416b6790db718"
+    },
+    {
+      "article_index": 542,
+      "text_sha256": "c0f7779d3c8f466764033908fc69c74e77a1acc619e5202f8d5275acfad4c539"
+    },
+    {
+      "article_index": 493,
+      "text_sha256": "8a44307a08fc8af0e0520df8e192337337d2b62cd55e578729024c659687490b"
+    },
+    {
+      "article_index": 494,
+      "text_sha256": "df05ceae9fcf9ed00fcafb053b035b07254909a3af7822fe6a100e6ce424c67d"
+    },
+    {
+      "article_index": 425,
+      "text_sha256": "56449d4124623a22a30f52532942f3ba796be33745d972cfea46011fe03a03a5"
+    },
+    {
+      "article_index": 258,
+      "text_sha256": "3fcf123bcac1a2484fde31136d5ec0a4d31be2e34fd272e9e6c8922bc6546f55"
+    },
+    {
+      "article_index": 497,
+      "text_sha256": "f5bb505a8f718f6b88a7352a88b984c5fd5a3caace73a7077c00e3813f7adb42"
+    },
+    {
+      "article_index": 293,
+      "text_sha256": "8751b4bc5c288234c8cc928cf5fa8b193f24a1699b5d281a108a901f394887fb"
+    }
+  ],
+  "training_windows_sha256": "1055af9619d3081119cddd2a02894b6f42278efa58115b5a9e33999ee2de83ea",
+  "test_tokens_sha256": "cbe3ffe631fa2c46b3a4517a0d3e293d8a27d9774f4b91221bdaedd672eaa840",
+  "test_layout_sha256": "c86b21343392e36813a9c236ff9ce650c90c4fe38eb40d909280d377bb39db93",
+  "test_articles": 62,
+  "test_targets": 294442,
+  "test_windows": 607,
+  "scope": "Preparationonly; LFM3tokenizer, noaddedspecialtokens, allwithinarticletargetsonce. Testwasusedinearlierresearch,notnewunexposeddata. No model scoring or chosen encoding."
+}
