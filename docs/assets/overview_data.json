@@ -1,0 +1,77 @@
+{
+  "source": "results/thrml_spw/spark_depth_20261106/cross_model_summary_v2/results.json",
+  "source_sha256": "f57b403199b3106949de64d0b74532277743bd9dd0fabf231bf6bf1e03983c3c",
+  "rows": [
+    {
+      "model": "GPT-2",
+      "size": "124M parameters",
+      "task": "Language modeling",
+      "bf16": 25.50148571044951,
+      "pbit1": 25.669534722325206,
+      "score_labels": [
+        "25.50149",
+        "25.66953"
+      ],
+      "change": 0.6589773387471576,
+      "change_label": "+0.66%",
+      "change_caption": "perplexity change",
+      "unit": "Perplexity",
+      "direction": "lower is better",
+      "limit": 30,
+      "ticks": [
+        0,
+        10,
+        20,
+        30
+      ]
+    },
+    {
+      "model": "DistilBERT",
+      "size": "67M parameters",
+      "task": "Sentiment classification",
+      "bf16": 87.512,
+      "pbit1": 87.4944,
+      "score_labels": [
+        "87.512%",
+        "87.4944%"
+      ],
+      "change": -0.017600000000001614,
+      "change_label": "\u22120.0176 pp",
+      "change_caption": "accuracy change",
+      "unit": "Accuracy",
+      "direction": "higher is better",
+      "limit": 100,
+      "ticks": [
+        0,
+        25,
+        50,
+        75,
+        100
+      ]
+    },
+    {
+      "model": "LFM3-1.7B",
+      "size": "1.73B parameters",
+      "task": "Language modeling",
+      "bf16": 18.930154774591053,
+      "pbit1": 18.979176777307526,
+      "score_labels": [
+        "18.93015",
+        "18.97918"
+      ],
+      "change": 0.2589625034776111,
+      "change_label": "+0.26%",
+      "change_caption": "perplexity change",
+      "unit": "Perplexity",
+      "direction": "lower is better",
+      "limit": 30,
+      "ticks": [
+        0,
+        10,
+        20,
+        30
+      ]
+    }
+  ],
+  "scope": "Chart of existing five-draw scores; no new measurements. PPL is exp(mean seed NLL); accuracy is mean seed accuracy. Error intervals remain in the source and benchmark guide."
+}

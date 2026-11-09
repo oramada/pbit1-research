@@ -5,6 +5,6 @@ type: software
 authors:
   - family-names: Ramadan
     given-names: Omar
-version: 1.0.0-draft
+version: 1.1.0-draft
 url: "https://github.com/oramada/pbit1-research"
 license: Apache-2.0

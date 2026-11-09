@@ -2,7 +2,7 @@
 \input{preamble}
 \title{One P-Bit per Parameter:\\Task Quality, Failure Mechanisms, and Resource Tradeoffs\\in Pretrained Neural Networks}
 \author{Omar Ramadan\\\small Independent Research}
-\date{November 6, 2026\\\small Research manuscript, version 1}
+\date{November 6, 2026\\\small Public-access revision: November 8, 2026}
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -213,7 +213,7 @@ A hardware energy model would need switching, bias programming, retention, reado
 \end{equation}
 These terms are not identified by the present GPU experiments. R1 can amortize reconstruction across inputs; hardware-native R2 has a different schedule. Neither node counts nor binomial simulator time alone proves an energy or latency advantage.
 
-The public PBit1 SDK provides the finite-controller reconstruction API and an optional pinned THRML backend. The tested development distribution passes 23 installed-package tests, with zero skips, and a native CLI smoke test. The private research repository contains source snapshots, protocols, compact evidence, figure-generation code, and build instructions. Large raw arrays and checkpoints remain separate, with hashes and restoration requirements. Their presence in local validation must not be confused with a self-contained public data release.
+The public PBit1 SDK provides the finite-controller reconstruction API and an optional pinned THRML backend. The tested development distribution passes 23 installed-package tests, with zero skips, and a native CLI smoke test. The public research repository contains source snapshots, protocols, compact evidence, figure-generation code, and build instructions. Large raw arrays and checkpoints remain separate, with hashes and restoration requirements. Their presence in local validation must not be confused with a self-contained public data release.
 
 \section{Limitations and conclusion}
 The study covers three checkpoint/task evaluations on two previously inspected tasks. It does not establish instruction-following quality, long-context generation, robustness under distribution shift, or transfer to every architecture. Five-seed intervals quantify sampling variability on fixed texts; the causal layer rankings use a single draw. No full-model native THRML execution or physical device measurement is reported. Probability-aware fine-tuning was unnecessary for the accepted frozen-model criteria and is not claimed as a tested universal remedy. A competitive matched-quality comparison against optimized low-bit inference remains necessary before asserting deployment superiority.
@@ -221,7 +221,7 @@ The study covers three checkpoint/task evaluations on two previously inspected t
 Within these limits, one logical programmable p-bit per learned scalar supports the tested application-quality margins when finite controls, ranges, and temporal samples are chosen appropriately. The GPT-2 failure demonstrates why the assignment alone is insufficient: output-head activation structure interacts with range geometry. Layer and covariance diagnostics explain additional nonuniformity, while sensitivity-based allocation reduces reconstruction work. Strong spatial controls and finite-format counterexamples place concrete boundaries on the result. The defensible outcome is a reproducible map of feasible regimes and failure mechanisms, rather than universal BF16 replacement.
 
 \paragraph{Code, data, and declarations.}
-Package: \url{https://github.com/oramada/pbit1}. Complete research and manuscript: \url{https://github.com/oramada/pbit1-research} (private repository; access required). The original project code is Apache-2.0; third-party model and dataset licenses remain separate. This is independent research using Extropic software, without a claim of affiliation or endorsement. No physical Extropic hardware was used. See the companion supplement for evidence identifiers, exact protocols, and historical failures.
+Package: \url{https://github.com/oramada/pbit1}. Complete research and manuscript: \url{https://github.com/oramada/pbit1-research} (public research repository). The original project code is Apache-2.0; third-party model and dataset licenses remain separate. This is independent research using Extropic software, without a claim of affiliation or endorsement. No physical Extropic hardware was used. See the companion supplement for evidence identifiers, exact protocols, and historical failures.
 
 {\raggedright
 \bibliographystyle{plainnat}

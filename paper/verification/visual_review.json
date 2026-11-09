@@ -1,31 +1,30 @@
 {
-  "status": "visually_reviewed",
+  "status": "visually_reviewed_public_access_revision",
   "documents": {
     "main": {
       "pages": 12,
-      "sha256": "3127d690c7cd41ce6f1829fe4a0162d44e9dce06f1312b1d8c948fae9bfaad57",
-      "bytes": 597744,
+      "sha256": "f2c70811fc46205054a925c09ca08c6c971a0b2ab9b04555916e3f2b1bb9568d",
+      "bytes": 597747,
       "unresolved_references": false,
       "overfull_boxes": false,
       "text_geometry_checked": true
     },
     "supplement": {
       "pages": 10,
-      "sha256": "7b46898d91f255e7c991bfdc13b2aff3e8a6abc2cfd4fdd5ff75ec7cac8a51ef",
-      "bytes": 625158,
+      "sha256": "45f6ac9719c94e38a66cae4a44d403f3a0c871fd90bd10808fa92a3a94af992a",
+      "bytes": 625168,
       "unresolved_references": false,
       "overfull_boxes": false,
       "text_geometry_checked": true
     }
   },
-  "method": "Rendered every page with pdftoppm at maximum dimension 1400; reviewed all-page contact sheets and selected pages at full render resolution.",
+  "method": "Rendered every page with pdftoppm; reviewed contact sheets and changed access-status page at full render resolution.",
   "checked": [
     "all pages present",
+    "updated access statements",
     "figures and captions visible",
-    "legible chart labels",
     "tables within margins",
-    "no clipped text",
-    "bibliography and cross-references resolved"
+    "references resolved"
   ],
   "reviewed_pages": {
     "main": [
@@ -55,5 +54,5 @@
       10
     ]
   },
-  "scope": "Layout and consistency review; not independent peer review or external replication."
+  "scope": "Public-access/documentation revision only; no new experimental scores or independent peer review."
 }

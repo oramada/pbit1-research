@@ -1,0 +1,14 @@
+name: Artifact integrity
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - run: python tools/verify_repository.py
+      - run: python tools/check_guides.py

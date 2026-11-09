@@ -1,0 +1,39 @@
+{
+  "status": "prepared_and_verified_for_public_access",
+  "revision_date": "2026-11-08",
+  "scientific_result_and_archive_files_changed": false,
+  "guide_local_targets_checked": 70,
+  "overview_score_rows_checked": 3,
+  "credential_scan": "PRE_PUBLIC_SCAN.json",
+  "additional_credential_assignment_scan": "No literal credential assignment candidates or sensitive archive-member filenames found.",
+  "paper_checks": {
+    "status": "passed",
+    "copied_input_hashes_checked": 49,
+    "numeric_checks": [
+      "three complete five-seed K1 cohorts",
+      "quality gates",
+      "lower-work budget",
+      "stronger native spatial baseline",
+      "four storage ledgers"
+    ],
+    "pdfs": {
+      "main": {
+        "pages": 12,
+        "sha256": "f2c70811fc46205054a925c09ca08c6c971a0b2ab9b04555916e3f2b1bb9568d",
+        "bytes": 597747,
+        "unresolved_references": false,
+        "overfull_boxes": false,
+        "text_geometry_checked": true
+      },
+      "supplement": {
+        "pages": 10,
+        "sha256": "45f6ac9719c94e38a66cae4a44d403f3a0c871fd90bd10808fa92a3a94af992a",
+        "bytes": 625168,
+        "unresolved_references": false,
+        "overfull_boxes": false,
+        "text_geometry_checked": true
+      }
+    }
+  },
+  "historical_state": "Original private snapshot and earlier manuscript remain in Git history."
+}

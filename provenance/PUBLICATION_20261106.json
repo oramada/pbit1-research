@@ -1,0 +1,10 @@
+{
+  "research_repository": "oramada/pbit1-research",
+  "research_visibility": "private",
+  "package_repository": "oramada/pbit1",
+  "package_visibility": "public",
+  "package_commit": "35ee2eea04ac727e886a22ed954064b602b76a90",
+  "package_version": "0.1.0a2.dev1",
+  "paper_version": "1.0.0-draft",
+  "scope": "Research manuscript and reproducible software artifacts; no peer-review, universal numerical BF16, or physical hardware claim."
+}

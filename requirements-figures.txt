@@ -1,0 +1,3 @@
+# Overview and manuscript figure generation only; no model or GPU runtime.
+numpy>=2.0
+matplotlib>=3.10
