@@ -24,7 +24,6 @@ reasonable sampling budget.
 | You want to… | Open this |
 |---|---|
 | Understand the idea in plain language | [Research overview](docs/OVERVIEW.md) |
-| Read the complete study | [Paper — PDF](paper/main.pdf) · [Supplement — PDF](paper/supplement.pdf) |
 | Check a claim against its evidence | [Results and evidence map](docs/EVIDENCE.md) |
 | Rebuild figures or rerun experiments | [Reproduction guide](REPRODUCING.md) |
 | Use the Python package | [Public PBit1 SDK](https://github.com/oramada/pbit1) |
@@ -70,7 +69,7 @@ python -m pip install -r requirements-figures.txt
 python tools/plot_overview.py
 ```
 
-To rebuild the paper or reproduce full model experiments, follow
+To reproduce full model experiments, follow
 [REPRODUCING.md](REPRODUCING.md). Large checkpoint files, dataset tokens, and most
 raw model outputs are omitted from Git; hashes and restoration requirements are
 preserved. Summary files alone cannot reproduce raw-output audits.
@@ -79,7 +78,6 @@ preserved. Summary files alone cannot reproduce raw-output audits.
 
 | Directory | Purpose |
 |---|---|
-| [`paper/`](paper/README.md) | LaTeX sources, PDFs, figures, and paper checks |
 | [`research/`](research/) | Research implementations and experiment runners |
 | [`results/`](results/) | Compact results, protocols, audits, and source snapshots |
 | [`archive/`](archive/README.md) | Preserved earlier experiments, including failures and interrupted runs |
@@ -92,8 +90,7 @@ transition from the initial private snapshot to this public repository.
 
 ## Status and license
 
-This is a research manuscript and reproducible artifact collection, not a
-peer-reviewed publication or physical hardware demonstration.
+This repository contains research code and reproducible experimental artifacts.
 
 [Apache-2.0](LICENSE) for original code · [Third-party notices](NOTICE) ·
 [Citation](CITATION.cff) · [Research report](SPARK_RESEARCH.md)
