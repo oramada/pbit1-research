@@ -1,13 +1,12 @@
 # Reproduce the work
 
-There are four useful starting points. Begin with the ones that do not require
+There are three useful starting points. Begin with the ones that do not require
 model weights or a GPU.
 
 | Task | Needs | What it checks |
 |---|---|---|
 | Verify the repository | Python + Git | Published file hashes |
 | Regenerate figures | NumPy + Matplotlib | Plots from bundled result summaries |
-| Build the paper | LaTeX + Poppler + Python | Manuscript PDFs, references, and layout checks |
 | Rerun model experiments | Exact checkpoints, data, and recorded runtimes | Original computations and saved-output audits |
 
 ## 1. Verify the files
@@ -33,7 +32,6 @@ python -m venv .venv-figures
 source .venv-figures/bin/activate
 python -m pip install -r requirements-figures.txt
 python tools/plot_overview.py
-python paper/tools/build_figures.py
 ```
 
 On Windows, activate with `.venv-figures\Scripts\activate`. These commands use
@@ -41,23 +39,7 @@ bundled JSON summaries and do not run neural networks. Rendering bytes can diffe
 between Matplotlib/font versions; source data hashes and reported scores remain
 fixed. To check the original snapshot again, use a fresh checkout.
 
-## 3. Build the paper
-
-Install a TeX distribution with `latexmk`, `pdflatex`, BibTeX, Latin Modern, the
-standard AMS packages, `natbib`, `booktabs`, `tabularx`, `placeins`, `fancyhdr`,
-`microtype`, and `xurl`. PDF checks also use Poppler's `pdfinfo` and `pdftotext`.
-
-```bash
-cd paper
-make
-make verify
-```
-
-The committed [paper](paper/main.pdf) and [supplement](paper/supplement.pdf) can be
-read without installing these tools. [Paper build notes](paper/README.md) explain
-the figure inputs and visual checks.
-
-## 4. Rerun model experiments
+## 3. Rerun model experiments
 
 ### Restore assets first
 
